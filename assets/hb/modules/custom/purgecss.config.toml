@@ -1,0 +1,16 @@
+classes = [
+    'align-items-center',
+    'bg-light',
+    'col',
+    'd-flex',
+    'hugo-mod-icon',
+    'justify-content-center',
+    'mb-4',
+    'mt-2',
+    'p-4',
+    'p-md-5',
+    'text-break',
+    'text-center',
+    'text-muted',
+    'user-select-all',
+]
