@@ -1,0 +1,49 @@
+title: Hugo Modules
+baseURL: https://example.com/
+defaultContentLanguageInSubdir: true
+enableRobotsTXT: true
+
+module:
+  imports:
+    # recommended modules.
+    - path: github.com/hbstack/meta/recommended
+
+    # icons modules.
+    - path: github.com/hugomods/icons/vendors/bootstrap
+    - path: github.com/hugomods/icons/vendors/feather
+    - path: github.com/hugomods/icons/vendors/font-awesome
+    - path: github.com/hugomods/icons/vendors/mdi
+    - path: github.com/hugomods/icons/vendors/simple-icons
+    - path: github.com/hugomods/icons/vendors/tabler
+  
+    # blog comments engine.
+    - path: github.com/hbstack/blog/modules/giscus
+  
+    # docs comments engine.
+    - path: github.com/hbstack/docs/modules/giscus
+
+outputs:
+  home:
+    - HTML
+    - Offline
+    - SearchIndex
+    - RSS
+    - WebAppManifest
+
+taxonomies:
+  authors: authors
+  tags: tags
+  categories: categories
+  series: series
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    lineNos: true
+    lineNumbersInTable: false
+
+build:
+  writeStats: true

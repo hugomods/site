@@ -1,0 +1,31 @@
+hb:
+  header:
+    logo_bg: '#fff'
+    socials:
+      github: hugomods
+      paypal: razonyang
+      kofi: razonyang
+  footer:
+    socials:
+      github: hugomods
+      paypal: razonyang
+      kofi: razonyang
+  blog:
+    giscus:
+      repo: hugomods/site
+      repo_id: R_kgDOJLF7dg
+      category: General
+      category_id: DIC_kwDOJLF7ds4CVB4a
+  docs:
+    giscus:
+      repo: hugomods/site
+      repo_id: R_kgDOJLF7dg
+      category: General
+      category_id: DIC_kwDOJLF7ds4CVB4a
+
+seo:
+  favicons:
+    icon: images/logo.png
+
+pwa:
+  icon_path: images/logo.png
