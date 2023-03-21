@@ -23,7 +23,9 @@
         type="search"
         placeholder="Type to filter" />
     </form>
-    <small class="text-muted mb-0 ms-1">Found <span class="icon-count text-primary">{{ len (resources.Match "icons/**/*.svg") }}</span> icons.</small>
+    <small class="text-muted mb-0 ms-1">
+      Found <span class="icon-count text-primary">{{ len (resources.Match "icons/**/*.svg") }}</span> icons, only up to 360 icons are displayed.
+    </small>
   </div>
   <ul
     class="hugo-mod-icons row row-cols-3 row-cols-sm-4 row-cols-lg-6 row-cols-xl-8 list-unstyled list"></ul>
