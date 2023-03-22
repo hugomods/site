@@ -1,5 +1,6 @@
 ---
 title: 图标
+nav_weight: 10
 nav_icon:
   vendor: fas
   name: icons

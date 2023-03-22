@@ -1,5 +1,6 @@
 ---
 title: Docker
+nav_weight: 20
 nav_icon:
   vendor: simple-icons
   name: docker
