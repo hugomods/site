@@ -5,8 +5,8 @@ github.com/hbstack/back-to-top v0.1.1 h1:upgRaQUvuAIkXAzwJPh3nKYcpVtBJMp7Ba8GlgE
 github.com/hbstack/back-to-top v0.1.1/go.mod h1:nxpBIKKF+S6K16p2+aQ3vZ46DcKatEJRpoZIJUrElTg=
 github.com/hbstack/base v0.1.1 h1:1ehqqiEVEWC2tFrj2M8NhynBTYxt2uiZrpydB3j/pgY=
 github.com/hbstack/base v0.1.1/go.mod h1:7J9OWva2kKpSSLHmVCErdcu9x5rkM9Y9EXBdumon/0Q=
-github.com/hbstack/bigger-picture v0.1.0 h1:J82wCd22ZUSBLlBU94ZXf3qSaIfyxzHWE8Uo9cfwEjQ=
-github.com/hbstack/bigger-picture v0.1.0/go.mod h1:xSAUzBZk67EskLpaStl0+00o4pwEJxXej6vABPYwj9U=
+github.com/hbstack/bigger-picture v0.2.0 h1:fKY70GA0ZMh/8NlE2D9sah12TjnmjAOhICKDfcRQS/A=
+github.com/hbstack/bigger-picture v0.2.0/go.mod h1:Dv27wd7F4JSTJd+MA9j3hXyHeWHohNyC9C+UOOQBMq8=
 github.com/hbstack/blog v0.1.2 h1:brxtEhMjVzal5Lr4twLOIkCPiLcuna3+an0lR13uEAw=
 github.com/hbstack/blog/modules/breadcrumb v0.1.1 h1:SZVGmkjCzvHL2e3OBEXRB3BR4MpoTuf2GGh8jHD0egE=
 github.com/hbstack/blog/modules/breadcrumb v0.1.1/go.mod h1:P5Uv0uao9XsjpZARSyy1VHREmmJPL/ad5cgNCbO3dR4=
@@ -91,6 +91,8 @@ github.com/hugomods/hugopress v0.1.0 h1:qktwbSWtbrEz/nX2wBmxDLzzS4o6/rjp7p0GWcOZ
 github.com/hugomods/hugopress v0.1.0/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
 github.com/hugomods/icons v0.6.0 h1:G6RU93okhPPRDh/jqcew9gwkcYpSpg0rCBv4S6yUAFw=
 github.com/hugomods/icons v0.6.0/go.mod h1:cIkSvK6W0q6N4U6n9KGz+QfRWQXAW0INd+1P31gPNGg=
+github.com/hugomods/icons/vendors/bootstrap v0.4.0 h1:+2r0aWG/qdsdLBtQ+b5VN7z3Kh/M0/TduF9ZxW0d9Kg=
+github.com/hugomods/icons/vendors/bootstrap v0.4.0/go.mod h1:my/xxEyTvWAym67NVfhWRvdQKrHcscU43neIBXnlbfM=
 github.com/hugomods/icons/vendors/feather v0.2.0 h1:dBRzxvprIP3jReF6IDf+bp4OiRX4AnQRs2Vty/qsVRY=
 github.com/hugomods/icons/vendors/feather v0.2.0/go.mod h1:XKGSihn06SXcbkpS4/RDQh94NvTmtg+Xc4bfP2oY7jY=
 github.com/hugomods/icons/vendors/font-awesome v0.5.0 h1:gKKmfiaWea9grlSCrRamqekGjcOAHWXXtCiIIKtRiVk=

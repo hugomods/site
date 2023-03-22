@@ -6,7 +6,7 @@ require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20000 // indirect
 	github.com/hbstack/back-to-top v0.1.1 // indirect
 	github.com/hbstack/base v0.1.1 // indirect
-	github.com/hbstack/bigger-picture v0.1.0 // indirect
+	github.com/hbstack/bigger-picture v0.2.0 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.1 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.1.1 // indirect
 	github.com/hbstack/blog/modules/giscus v0.1.1 // indirect
@@ -48,6 +48,7 @@ require (
 	github.com/hugomods/gravatar v0.1.0 // indirect
 	github.com/hugomods/hugopress v0.1.0 // indirect
 	github.com/hugomods/icons v0.6.0 // indirect
+	github.com/hugomods/icons/vendors/bootstrap v0.4.0 // indirect
 	github.com/hugomods/icons/vendors/feather v0.2.0 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.5.0 // indirect
 	github.com/hugomods/icons/vendors/mdi v0.3.0 // indirect
