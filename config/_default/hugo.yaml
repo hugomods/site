@@ -24,6 +24,7 @@ module:
   
     # others
     - path: github.com/hugomods/katex
+    - path: github.com/hugomods/google-analytics
 
 outputs:
   home:
