@@ -6,6 +6,7 @@ draft: false
 nav_weight: 4
 series:
   - Modules
+  - Docs
 categories:
   - Icons
 tags:

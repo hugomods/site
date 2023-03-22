@@ -6,6 +6,7 @@ draft: false
 nav_weight: 2
 series:
   - Docker
+  - Docs
 categories:
   - Development
 tags:

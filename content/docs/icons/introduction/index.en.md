@@ -6,6 +6,7 @@ draft: false
 nav_weight: 1
 series:
   - Modules
+  - Docs
 categories:
   - Icons
 authors:

@@ -5,6 +5,7 @@ date: 2023-02-12T23:03:10+08:00
 draft: false
 series:
   - Modules
+  - Docs
 categories:
   - Icons
 tags:

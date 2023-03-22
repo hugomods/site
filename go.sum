@@ -103,6 +103,8 @@ github.com/hugomods/icons/vendors/tabler v0.4.0 h1:eMEULE23xJwjc+zpwmC3tGe6PwRny
 github.com/hugomods/icons/vendors/tabler v0.4.0/go.mod h1:SzGEtXKNeYrwb5Op6tgwuyhfGTaeJXwwm+DQ6QedUFM=
 github.com/hugomods/images v0.1.0 h1:MwXzK6j7xMCQwlHhmKGg3ewT3+Roaan+TO5wteYKpFI=
 github.com/hugomods/images v0.1.0/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
+github.com/hugomods/katex v0.1.0 h1:VJSUf88WZsq5L8x1u1SKX8bBtZ1D3hvJ5PtCeegfxM8=
+github.com/hugomods/katex v0.1.0/go.mod h1:/FJplHXc1oeIyNTeoze1s1b4Ny8ts93g5TGI/cm0Fic=
 github.com/hugomods/seo/modules/alternatives v0.1.0 h1:G5IjM7j7ExgXEMyxQj1Z/5JwwRW8DEmL0nDJYxA3NhE=
 github.com/hugomods/seo/modules/alternatives v0.1.0/go.mod h1:ff9uz+f5yii9k2jbwt/HKM3RpLR3EYZrNQBAOabNxMA=
 github.com/hugomods/seo/modules/favicons v0.1.0 h1:3uzqOfzgBFdvGr8a7mh+yv03oXuxzXnHh+cWGJ4gCOQ=

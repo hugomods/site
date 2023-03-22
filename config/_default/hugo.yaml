@@ -21,6 +21,9 @@ module:
   
     # docs comments engine.
     - path: github.com/hbstack/docs/modules/giscus
+  
+    # others
+    - path: github.com/hugomods/katex
 
 outputs:
   home:
