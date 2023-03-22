@@ -9,6 +9,7 @@ categories:
   - Content
 tags:
   - KaTex
+  - Math
 authors:
   - HugoMods
 ---
