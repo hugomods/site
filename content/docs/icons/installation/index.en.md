@@ -1,5 +1,5 @@
 ---
-title: "Installation Icons Module"
+title: "Install Icons Module"
 linkTitle: "Installation"
 date: 2023-02-12T22:40:20+08:00
 draft: false

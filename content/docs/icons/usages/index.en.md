@@ -1,5 +1,5 @@
 ---
-title: "Icons Usages"
+title: "Using Icons"
 linkTitle: "Usage"
 date: 2023-02-12T23:02:28+08:00
 draft: false
