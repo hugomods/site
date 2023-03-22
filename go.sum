@@ -40,6 +40,7 @@ github.com/hbstack/docs/modules/heading-sign v0.1.1 h1:3KheyC1ZbAqvJofX+eJ9vYj4r
 github.com/hbstack/docs/modules/heading-sign v0.1.1/go.mod h1:wgRW6JQTBJQXsq0YWg9+GYTptivcWfwjf9txK5WSkqc=
 github.com/hbstack/footer/modules/socials v0.1.1 h1:DYXIePcWaU6QdPRp28HSKLQKS65Bd05Kc0BXsRt77QY=
 github.com/hbstack/footer/modules/socials v0.1.1/go.mod h1:CMWFFKQqoCGji8IPWZGt9zezRecvubfWVC4Y97DVsQM=
+github.com/hbstack/footer/modules/socials v0.1.2/go.mod h1:CMWFFKQqoCGji8IPWZGt9zezRecvubfWVC4Y97DVsQM=
 github.com/hbstack/header v0.1.1 h1:qYgYmc2Y44+DMz/5mlKfUO2BAcL10oADZEI/gbtB4yc=
 github.com/hbstack/header/modules/language-picker v0.1.1 h1:Q+rtFGnt/QEromR1cNlmDmxYr/iaVaVxBMzIH+q9a1Q=
 github.com/hbstack/header/modules/language-picker v0.1.1/go.mod h1:gMfppUtgfFMg0Qm/C9971mvS+LS3AqarohRmDgFZ3Ow=
