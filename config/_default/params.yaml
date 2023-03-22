@@ -10,18 +10,6 @@ hb:
       github: hugomods
       paypal: razonyang
       kofi: razonyang
-  blog:
-    giscus:
-      repo: hugomods/site
-      repo_id: R_kgDOJLF7dg
-      category: General
-      category_id: DIC_kwDOJLF7ds4CVB4a
-  docs:
-    giscus:
-      repo: hugomods/site
-      repo_id: R_kgDOJLF7dg
-      category: General
-      category_id: DIC_kwDOJLF7ds4CVB4a
 
 seo:
   favicons:
