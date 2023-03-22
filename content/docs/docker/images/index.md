@@ -17,7 +17,9 @@ images:
   - images/featured/docker.webp
 ---
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/razonyang/hugo?style=flat-square)](https://hub.docker.com/r/razonyang/hugo)[![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/razonyang/hugo/latest?style=flat-square)](https://hub.docker.com/r/razonyang/hugo)[![Check and Build Latest Image](https://github.com/razonyang/docker-hugo/actions/workflows/docker.yml/badge.svg)](https://github.com/razonyang/docker-hugo/actions/workflows/docker.yml)
+{{< shields "https://img.shields.io/docker/pulls/razonyang/hugo?style=flat-square" "https://hub.docker.com/r/razonyang/hugo" >}}
+{{< shields "https://img.shields.io/docker/v/razonyang/hugo/latest?style=flat-square" "https://hub.docker.com/r/razonyang/hugo" >}}
+{{< shields "https://github.com/razonyang/docker-hugo/actions/workflows/docker.yml/badge.svg" "https://github.com/razonyang/docker-hugo/actions/workflows/docker.yml" >}}
 
 The up-to-date Hugo docker images.
 
