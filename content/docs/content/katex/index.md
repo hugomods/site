@@ -3,6 +3,9 @@ title: "Katex"
 date: 2023-03-22T17:38:35+08:00
 draft: false
 featured: true
+nav_icon:
+  vendor: bs
+  name: pie-chart
 series:
   - Modules
   - Docs
@@ -21,7 +24,29 @@ KaTex is the fastest math typesetting library for the web, this module integrate
 
 {{% module "github.com/hugomods/katex" %}}
 
-## Using KaTex via Code Block
+## Installation
+
+{{< bootstrap/config-toggle filename=hugo >}}
+module:
+  imports:
+    - path: github.com/hugomods/katex
+{{< /bootstrap/config-toggle >}}
+
+### Import the CSS
+
+```go
+{{ partial "katex/assets/css" . }}
+```
+
+### Import the JS
+
+```go
+{{ partial "katex/assets/js" . }}
+```
+
+## Usage
+
+### Using KaTex via Code Block
 
 ````markdown
 ```katex
@@ -37,7 +62,7 @@ FORMULA HERE
 f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
 ```
 
-## Using KaTex via Shortcode
+### Using KaTex via Shortcode
 
 ````markdown
 {{/*< katex >*/}}
