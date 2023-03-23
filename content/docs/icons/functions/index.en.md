@@ -13,6 +13,8 @@ tags:
   - Resource
 authors:
   - HugoMods
+images:
+  - images/featured/icons.jpg
 ---
 
 The list of built-in functions.

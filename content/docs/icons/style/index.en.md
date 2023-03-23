@@ -12,6 +12,8 @@ tags:
   - CSS
 authors:
   - HugoMods
+images:
+  - images/featured/icons.jpg
 ---
 
 You may need to adjust your CSS like following to align the icon to vertical middle.

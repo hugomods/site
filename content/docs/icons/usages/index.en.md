@@ -12,6 +12,8 @@ categories:
 tags:
 authors:
   - HugoMods
+images:
+  - images/featured/icons.jpg
 ---
 
 This article offers some samples for showing how to use the icons in multiple ways.

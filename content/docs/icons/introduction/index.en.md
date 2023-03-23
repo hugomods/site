@@ -11,6 +11,8 @@ categories:
   - Icons
 authors:
   - HugoMods
+images:
+  - images/featured/icons.jpg
 ---
 
 The Hugo icons module generates inline SVG icons.

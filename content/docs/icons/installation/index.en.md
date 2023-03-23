@@ -13,6 +13,8 @@ tags:
   - Installation
 authors:
   - HugoMods
+images:
+  - images/featured/icons.jpg
 ---
 
 This article shows how to install [supported icons vendors]({{< ref "docs/icons/vendors" >}}).

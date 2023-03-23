@@ -18,6 +18,8 @@ tags:
   - Simple Icons
 authors:
   - HugoMods
+images:
+  - images/featured/icons.jpg
 ---
 
 The list of supported icons vendors.
