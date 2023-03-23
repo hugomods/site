@@ -9,6 +9,7 @@ github.com/hbstack/bigger-picture v0.2.0 h1:fKY70GA0ZMh/8NlE2D9sah12TjnmjAOhICKD
 github.com/hbstack/bigger-picture v0.2.0/go.mod h1:Dv27wd7F4JSTJd+MA9j3hXyHeWHohNyC9C+UOOQBMq8=
 github.com/hbstack/blog v0.2.0 h1:VDH4+c6D7OB8N6ENgVwqwecYAdjBWNKJlis+fKqthYk=
 github.com/hbstack/blog v0.2.0/go.mod h1:MgadOmA1MOarLeo68lFZo6OOdqBm5wbxgGXuIEB22dM=
+github.com/hbstack/blog v0.2.1/go.mod h1:g+4OI4sBomqf+XPdodQLz0Cp8RKjO6Cso3S8B3MisYc=
 github.com/hbstack/blog/modules/breadcrumb v0.1.1 h1:SZVGmkjCzvHL2e3OBEXRB3BR4MpoTuf2GGh8jHD0egE=
 github.com/hbstack/blog/modules/breadcrumb v0.1.1/go.mod h1:P5Uv0uao9XsjpZARSyy1VHREmmJPL/ad5cgNCbO3dR4=
 github.com/hbstack/blog/modules/featured-image v0.1.1 h1:bSzEhTPqBWJ7q2c1KcZiq3Z69rMFxcjn2cdStNGGFFE=
@@ -27,6 +28,7 @@ github.com/hbstack/carousel v0.1.2 h1:kKUEHL86NrtN+/G9g5BSA33aBWQNb2Md0Vf4GBj7Yi
 github.com/hbstack/carousel v0.1.2/go.mod h1:PkmHk1S3zSmJZMgQmP7Wq+DW0kbFgTTjMmDg3nQH/yc=
 github.com/hbstack/carousel v0.1.3 h1:vgqcKEAajt2wJicU7rkJjLLuTqAuxfGytoohUvGp7+k=
 github.com/hbstack/carousel v0.1.3/go.mod h1:PkmHk1S3zSmJZMgQmP7Wq+DW0kbFgTTjMmDg3nQH/yc=
+github.com/hbstack/carousel v0.1.4/go.mod h1:PkmHk1S3zSmJZMgQmP7Wq+DW0kbFgTTjMmDg3nQH/yc=
 github.com/hbstack/code-block-panel v0.1.0 h1:nD84TnRIYgCK03COeZsFTAluHx0WvF2cP2he7Da9cUk=
 github.com/hbstack/code-block-panel v0.1.0/go.mod h1:q+IPDYgXNArqkrnUSV0UptW+QlPUSap1YbcQ699Qk+U=
 github.com/hbstack/docs v0.1.1 h1:+d8rsvrDNbM83Qyo3Yc3q6ClLiLlWqgpJ1xzns2v39E=
@@ -114,6 +116,7 @@ github.com/hugomods/images v0.1.0 h1:MwXzK6j7xMCQwlHhmKGg3ewT3+Roaan+TO5wteYKpFI
 github.com/hugomods/images v0.1.0/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
 github.com/hugomods/katex v0.1.0 h1:VJSUf88WZsq5L8x1u1SKX8bBtZ1D3hvJ5PtCeegfxM8=
 github.com/hugomods/katex v0.1.0/go.mod h1:/FJplHXc1oeIyNTeoze1s1b4Ny8ts93g5TGI/cm0Fic=
+github.com/hugomods/katex v0.1.1/go.mod h1:/FJplHXc1oeIyNTeoze1s1b4Ny8ts93g5TGI/cm0Fic=
 github.com/hugomods/pwa v0.1.2 h1:i1BiS3pm2lEPYL7csJul6v80Z2+7D7exvs44Nj1KwaI=
 github.com/hugomods/pwa v0.1.2/go.mod h1:gNUU0CesSWxJAeK3lBk+vlHiqJO+E+5p2ylLj0OIaM8=
 github.com/hugomods/seo/modules/alternatives v0.1.0 h1:G5IjM7j7ExgXEMyxQj1Z/5JwwRW8DEmL0nDJYxA3NhE=
