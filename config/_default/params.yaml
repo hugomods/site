@@ -17,4 +17,4 @@ seo:
 
 pwa:
   icon_path: images/logo.png
-  debug: true
+  # debug: true
