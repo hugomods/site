@@ -1,0 +1,11 @@
+{{- $module := .Get 0 }}
+<a
+  class="text-decoration-none"
+  href="https://{{ $module }}/releases"
+  target="_blank"
+  rel="noopener noreferrer">
+  <img
+    src="https://img.shields.io/github/v/tag/{{ replace $module `github.com/` `` }}?label=version&style=flat-square"
+    alt="Used By"
+    height="32" />
+</a>

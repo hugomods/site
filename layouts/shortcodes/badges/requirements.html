@@ -1,0 +1,12 @@
+{{- $module := .Get 0 }}
+{{- $api := printf "https://api.razonyang.com/v1/hugo/modules/%s" $module }}
+<a
+  class="text-decoration-none"
+  href="https://{{ $module }}"
+  target="_blank"
+  rel="noopener noreferrer">
+  <img
+    src="https://img.shields.io/badge/dynamic/json?color=important&label=requirements&query=requirements&logo=hugo&style=flat-square&url={{ $api }}"
+    alt="Used By"
+    height="32" />
+</a>
