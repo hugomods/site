@@ -1,4 +1,4 @@
-{{- $img := printf `<img src="%s" />` (.Get 0) }}
+{{- $img := printf `<img src="%s" height="24" />` (.Get 0) }}
 {{- with .Get 1 }}
   <a class="text-decoration-none" href="{{ . }}" target="_blank">
     {{- $img | safeHTML }}

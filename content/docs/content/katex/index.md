@@ -2,6 +2,7 @@
 title: "Katex"
 date: 2023-03-22T17:38:35+08:00
 draft: false
+featured: true
 series:
   - Modules
   - Docs

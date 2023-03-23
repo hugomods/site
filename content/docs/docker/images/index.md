@@ -4,6 +4,8 @@ linkTitle: "Images"
 date: 2023-03-21T22:17:58+08:00
 draft: false
 nav_weight: 1
+featured: true
+pinned: true
 series:
   - Docker
   - Docs
@@ -18,13 +20,13 @@ images:
   - images/featured/docker.webp
 ---
 
-{{< shields "https://img.shields.io/docker/pulls/razonyang/hugo?style=flat-square" "https://hub.docker.com/r/razonyang/hugo" >}}
-{{< shields "https://img.shields.io/docker/v/razonyang/hugo/latest?style=flat-square" "https://hub.docker.com/r/razonyang/hugo" >}}
-{{< shields "https://github.com/razonyang/docker-hugo/actions/workflows/docker.yml/badge.svg" "https://github.com/razonyang/docker-hugo/actions/workflows/docker.yml" >}}
-
 The up-to-date Hugo docker images.
 
 <!--more-->
+
+{{< shields "https://img.shields.io/docker/pulls/razonyang/hugo?style=flat-square" "https://hub.docker.com/r/razonyang/hugo" >}}
+{{< shields "https://img.shields.io/docker/v/razonyang/hugo/latest?style=flat-square" "https://hub.docker.com/r/razonyang/hugo" >}}
+{{< shields "https://github.com/razonyang/docker-hugo/actions/workflows/docker.yml/badge.svg" "https://github.com/razonyang/docker-hugo/actions/workflows/docker.yml" >}}
 
 We set up an automated workflow for checking and building latest Hugo images, which can be triggered by:
 
