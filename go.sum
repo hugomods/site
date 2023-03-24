@@ -42,8 +42,8 @@ github.com/hbstack/docs/modules/heading-sign v0.1.1/go.mod h1:wgRW6JQTBJQXsq0YWg
 github.com/hbstack/footer v0.1.1 h1:ALO6hub16fiPTWeP/OzkR7D1zrIkuFwjVWiyCHaBbFA=
 github.com/hbstack/footer/modules/socials v0.1.2 h1:2/sxul4bcmIydYDTu62Ja2zxuXNvJrOnbSNZKes0eFQ=
 github.com/hbstack/footer/modules/socials v0.1.2/go.mod h1:CMWFFKQqoCGji8IPWZGt9zezRecvubfWVC4Y97DVsQM=
-github.com/hbstack/header v0.1.5 h1:ojdlCfqWM2/uaNJ9WlVHmVmYJYmWf1yVCoFig1WvqZU=
-github.com/hbstack/header v0.1.5/go.mod h1:fHUeyEtniqtZTHPoHpwh9vjOJHIT2HWv2zzCjy1LEC0=
+github.com/hbstack/header v0.1.6 h1:d+c5IiOCA25e36+oSACEsIjiiDMGz+k/e6/9LPCJHqE=
+github.com/hbstack/header v0.1.6/go.mod h1:fHUeyEtniqtZTHPoHpwh9vjOJHIT2HWv2zzCjy1LEC0=
 github.com/hbstack/header/modules/language-picker v0.1.1 h1:Q+rtFGnt/QEromR1cNlmDmxYr/iaVaVxBMzIH+q9a1Q=
 github.com/hbstack/header/modules/language-picker v0.1.1/go.mod h1:gMfppUtgfFMg0Qm/C9971mvS+LS3AqarohRmDgFZ3Ow=
 github.com/hbstack/header/modules/search v0.1.1 h1:WnbtrF3BKu3eYB2Daw489djhSA/9ZTC9kATHa6n8AY4=
