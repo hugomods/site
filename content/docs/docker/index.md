@@ -1,6 +1,7 @@
 ---
 title: Hugo Docker Images
 linkTitle: Docker
+date: 2023-03-22T21:41:35+08:00
 nav_weight: 20
 nav_icon:
   vendor: simple-icons
