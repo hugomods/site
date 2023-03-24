@@ -20,7 +20,7 @@ authors:
 images:
 ---
 
-The [bootstrap/config-toggle]({{< ref "docs/bootstrap/config-toggle" >}}) is useful, but it's limit to generate configuration code blocks in `YAML`, `TOML` and `JSON` languages. The `bootstrap/toggle*` shortcodes are designed to be more versatile.
+The [bootstrap/config-toggle]({{< ref "docs/bootstrap/config-toggle" >}}) is useful, but it's limited to generate configuration code blocks in `YAML`, `TOML` and `JSON` languages. The `bootstrap/toggle*` shortcodes are designed to be more versatile.
 
 <!--more-->
 

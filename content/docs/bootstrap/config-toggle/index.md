@@ -74,12 +74,12 @@ The following parameters are supported.
 
 ```markdown
 {{</* bootstrap/config-toggle langs=json,toml */>}}
-langs = ["toml" ,"json"]
+langs = ["toml", "json"]
 {{</* /bootstrap/config-toggle */>}}
 ```
 
 {{< bootstrap/config-toggle langs=json,toml >}}
-langs = ["toml" ,"json"]
+langs = ["toml","json"]
 {{< /bootstrap/config-toggle >}}
 
 ### Hugo Configuration Example
