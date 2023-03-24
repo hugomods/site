@@ -26,23 +26,27 @@ KaTex is the fastest math typesetting library for the web, this module integrate
 
 ## Installation
 
+{{< bootstrap/collapse "1. Import Module" primary true >}}
 {{< bootstrap/config-toggle filename=hugo >}}
 module:
   imports:
     - path: github.com/hugomods/katex
 {{< /bootstrap/config-toggle >}}
+{{< /bootstrap/collapse >}}
 
-### Import the CSS
-
+{{% bootstrap/collapse "2. Import CSS" %}}
+{{% skip-if-hugopress %}}
 ```go
 {{ partial "katex/assets/css" . }}
 ```
+{{% /bootstrap/collapse %}}
 
-### Import the JS
-
+{{% bootstrap/collapse "3. Import JS" %}}
+{{% skip-if-hugopress %}}
 ```go
 {{ partial "katex/assets/js" . }}
 ```
+{{% /bootstrap/collapse %}}
 
 ## Usage
 
