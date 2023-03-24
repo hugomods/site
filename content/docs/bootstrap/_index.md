@@ -9,3 +9,5 @@ nav_icon:
 date: 2023-03-23T21:47:13+08:00
 draft: false
 ---
+
+The Bootstrap module ships with several shortcodes for users.
