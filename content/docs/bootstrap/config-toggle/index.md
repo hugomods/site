@@ -1,6 +1,6 @@
 ---
-title: "Code Toggle"
-linkTitle: "Code Toggle"
+title: "Config Toggle Shortcode"
+linkTitle: "Config Toggle"
 nav_weight: 1000
 nav_icon:
   vendor: bs
@@ -25,7 +25,7 @@ authors:
   - HugoMods
 ---
 
-The `bootstrap/code-toggle` shortcode generates the code blocks in multiple languages from one code base.
+The `bootstrap/config-toggle` shortcode generates the code blocks in multiple languages from one code base.
 It is useful for projects that support configuring in multiple languages, such as `TOML`, `JSON` and `YAML`.
 
 <!--more-->
