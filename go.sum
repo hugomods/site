@@ -3,8 +3,8 @@ github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20000/go.mod h1:6Fa+6zeM
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
 github.com/hbstack/back-to-top v0.1.1 h1:upgRaQUvuAIkXAzwJPh3nKYcpVtBJMp7Ba8GlgEp1LQ=
 github.com/hbstack/back-to-top v0.1.1/go.mod h1:nxpBIKKF+S6K16p2+aQ3vZ46DcKatEJRpoZIJUrElTg=
-github.com/hbstack/base v0.1.1 h1:1ehqqiEVEWC2tFrj2M8NhynBTYxt2uiZrpydB3j/pgY=
-github.com/hbstack/base v0.1.1/go.mod h1:7J9OWva2kKpSSLHmVCErdcu9x5rkM9Y9EXBdumon/0Q=
+github.com/hbstack/base v0.1.2 h1:yj1RDvXKGISYTyG/GNsgagYPC0fVKHgzagc+iOl+qzw=
+github.com/hbstack/base v0.1.2/go.mod h1:adugSdfcNN8KubU23KOxG5v0hGJURtIhKfTOtBIDluw=
 github.com/hbstack/bigger-picture v0.2.0 h1:fKY70GA0ZMh/8NlE2D9sah12TjnmjAOhICKDfcRQS/A=
 github.com/hbstack/bigger-picture v0.2.0/go.mod h1:Dv27wd7F4JSTJd+MA9j3hXyHeWHohNyC9C+UOOQBMq8=
 github.com/hbstack/blog v0.2.2 h1:JdCR0NtxqSBndMp5WdSMwbyOoOhWfXsmG2nw0efnB2w=
