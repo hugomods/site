@@ -174,7 +174,7 @@ docker run -p 8080:80 user/my-site:test
 
 Now the built site can be previewed on http://localhost:8080/.
 
-### Built Image
+### Build and Deploy Image
 
 It's time to build the production image if test passing.
 
