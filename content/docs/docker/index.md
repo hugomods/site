@@ -21,6 +21,13 @@ tags:
   - Development
 authors:
   - HugoMods
+menu:
+  main:
+    params:
+      icon:
+        vendor: simple-icons
+        name: docker
+        color: '#2496ed'
 ---
 
 This article describes the up-to-date Hugo docker images, and offer some examples show how to develop and deploy your sites with the images.
