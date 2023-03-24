@@ -5,7 +5,7 @@ nav_weight: 1000
 nav_icon:
   vendor: bs
   name: info-circle
-featured: false
+featured: true
 pinned: false
 date: 2023-03-24T12:19:05+08:00
 draft: false
