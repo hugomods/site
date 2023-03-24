@@ -48,8 +48,8 @@ The following parameters are supported.
 
 | Position | Name | Type | Required | Default | Description |
 | -------- | ---- | ---- | :------: | :-----: | ----------- |
-| `#1`     | `filename` | string | - | - | The filename. |
-| `#2`     | `langs` | string | - | `toml,yaml,json` | The target languages, separated by comma, can be used to exclude and sort languages. |
+| `#0`     | `filename` | string | - | - | The filename. |
+| `#1`     | `langs` | string | - | `toml,yaml,json` | The target languages, separated by comma, can be used to exclude and sort languages. |
 
 ## Examples
 
