@@ -1,5 +1,5 @@
 ---
-title: "Clearfix"
+title: "Bootstrap Clearfix Shortcode"
 linkTitle: "Clearfix"
 nav_weight: 1000
 nav_icon:

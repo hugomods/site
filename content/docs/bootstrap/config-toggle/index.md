@@ -1,5 +1,5 @@
 ---
-title: "Config Toggle Shortcode"
+title: "Bootstrap Config Toggle Shortcode"
 linkTitle: "Config Toggle"
 nav_weight: 1000
 nav_icon:
