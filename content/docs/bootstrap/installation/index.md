@@ -23,6 +23,17 @@ This article shows how to install the Bootstrap module.
 
 <!--more-->
 
+## Requirements
+
+Some shortcodes like [Clearfix]({{< ref "docs/bootstrap/clearfix" >}}) require the `markup.goldmark.renderer.unsafe` to be enabled.
+
+{{< bootstrap/config-toggle filename=hugo >}}
+[markup.goldmark.renderer]
+unsafe = true
+{{< /bootstrap/config-toggle >}}
+
+## Installation
+
 {{< bootstrap/config-toggle filename=hugo >}}
 module:
   imports:
