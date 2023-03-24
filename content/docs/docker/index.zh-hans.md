@@ -7,4 +7,4 @@ nav_icon:
   color: '#2496ed'
 ---
 
-This section shows how to use the Hugo Docker images.
+本文介绍如何使用 Hugo Docker 镜像。
