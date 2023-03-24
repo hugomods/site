@@ -21,8 +21,8 @@ github.com/hbstack/blog/modules/post-nav v0.1.1 h1:4KDW44n9NJE6NjSvFyRmInMlT88oB
 github.com/hbstack/blog/modules/post-nav v0.1.1/go.mod h1:8Ka/c2n9mxeP27B1jYHDGi2fY+LO5NszWvkiAg1RioU=
 github.com/hbstack/blog/modules/related-posts v0.1.1 h1:jVD0DZIcLLCF0ngeej7O6fZsvlHKF2zQXlSP9EmU9HQ=
 github.com/hbstack/blog/modules/related-posts v0.1.1/go.mod h1:kxIQpp6L4zXfOxkAFef1gcpskKZ502SRoc/JCDHelgQ=
-github.com/hbstack/bootstrap v0.1.0 h1:uVImHHlYBQxT4s7h1/eoBo3+giHibD5cjLIcTr1crUo=
-github.com/hbstack/bootstrap v0.1.0/go.mod h1:kDqFnq9mjIR85Eq5sV9E5TLLR8wdXZn7jjnrE8WL0sw=
+github.com/hbstack/bootstrap v0.1.1 h1:yTbP50lUnm+RcHhkc8uQdXcLe3ZJ4/NEXvqez1Knxoc=
+github.com/hbstack/bootstrap v0.1.1/go.mod h1:MNYxfc/GWGYGRvGsSJwUs/jzD8vcIjB9RvwN+pPoRH4=
 github.com/hbstack/carousel v0.1.5 h1:pyTfrrm3IW8JYsonK4H5TSG9fpfCURyV9gyB35HA3Dw=
 github.com/hbstack/carousel v0.1.5/go.mod h1:PkmHk1S3zSmJZMgQmP7Wq+DW0kbFgTTjMmDg3nQH/yc=
 github.com/hbstack/code-block-panel v0.1.0 h1:nD84TnRIYgCK03COeZsFTAluHx0WvF2cP2he7Da9cUk=
@@ -86,8 +86,8 @@ github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 h1:lGH8nqOU/+3yzHIk
 github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0/go.mod h1:ar5ZFplNyVZCVG6rvo69co1hNZwptxtrDz3zproGLPg=
 github.com/hugomods/base v0.1.0 h1:3o9Y85BvXHjkYzZfswM/EtthQ8GOYKN8aXHkIWqu3/8=
 github.com/hugomods/base v0.1.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
-github.com/hugomods/bootstrap v0.1.3 h1:X5TxSRFc6GAH2OUs6byqz4vo5Qfo5UCEc6SKD0WtUYU=
-github.com/hugomods/bootstrap v0.1.3/go.mod h1:MfowtRlnj0TzwxpTgCABFu6TqV/xO0Dfo5Vf3iyZNAA=
+github.com/hugomods/bootstrap v0.2.0 h1:rADlFt9aLg/b3z0QW+9IkcZG8pm8rUrXUGMoQc79Ft4=
+github.com/hugomods/bootstrap v0.2.0/go.mod h1:MfowtRlnj0TzwxpTgCABFu6TqV/xO0Dfo5Vf3iyZNAA=
 github.com/hugomods/fuse-js v0.1.0 h1:CmWHBZANvjOP44RDNQNLntqlLf9GLqeM29jekxTNcPE=
 github.com/hugomods/fuse-js v0.1.0/go.mod h1:srCqvtBQR02HS/abTraDU4oINv1D3PljNPdexdoHhpo=
 github.com/hugomods/giscus v0.1.0 h1:tIu1TzYByC/XlxxiBl9+CkQp9OeR4UhoZjbQSlcDt5E=
