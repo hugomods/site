@@ -17,6 +17,7 @@ categories:
   - Shortcode
 tags:
   - Code
+  - Config
   - Toggle
   - TOML
   - YAML
