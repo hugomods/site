@@ -14,6 +14,7 @@ series:
   - Module
 categories:
   - Bootstrap
+  - Shortcode
 tags:
   - Code
   - Toggle

@@ -14,6 +14,7 @@ series:
   - Modules
 categories:
   - Bootstrap
+  - Shortcode
 tags:
   - Clearfix
 authors:
