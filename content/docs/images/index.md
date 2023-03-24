@@ -350,9 +350,7 @@ UnsharpMask creates a filter that sharpens an image. The sigma parameter is used
 
 ### Static Images Examples
 
-![Static Example](images/featured/docker.webp?width=200px)
-
-![Static Example](images/featured/icons.jpg?width=200px)
+![Static Example](images/example.jpg?width=200px)
 
 ### External Images
 

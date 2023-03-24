@@ -37,5 +37,5 @@ FLOATING CONTENT.
 ## Examples
 
 {{% bootstrap/clearfix %}}
-![Float Start](images/featured/icons.jpg?width=200px#float-start) Clearfix the floating content by wrapping it inside the `bootstrap/clearfix` shortcode.
+![Float Start](images/example.jpg?width=200px#float-start) Clearfix the floating content by wrapping it inside the `bootstrap/clearfix` shortcode.
 {{% /bootstrap/clearfix %}}
