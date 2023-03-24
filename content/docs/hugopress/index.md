@@ -6,7 +6,7 @@ nav_icon:
   name: hugo
   color: '#ff4088'
 featured: true
-pinned: true
+pinned: false
 date: 2023-03-23T12:28:13+08:00
 draft: false
 series:
