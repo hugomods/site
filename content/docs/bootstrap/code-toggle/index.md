@@ -43,7 +43,7 @@ PUT YAML/TOML/JSON CODE HERE.
 
 ## Parameters
 
-The following parameters are supported 
+The following parameters are supported.
 
 | Position | Name | Type | Required | Default | Description |
 | -------- | ---- | ---- | :------: | :-----: | ----------- |
