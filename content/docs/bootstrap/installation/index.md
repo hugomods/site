@@ -23,6 +23,8 @@ This article shows how to install the Bootstrap module.
 
 <!--more-->
 
+{{< module "github.com/hugomods/bootstrap" >}}
+
 ## Requirements
 
 Some shortcodes like [Clearfix]({{< ref "docs/bootstrap/clearfix" >}}) require the `markup.goldmark.renderer.unsafe` to be enabled.

@@ -24,10 +24,7 @@ The main advantage is that once the theme support HugoPress, their users have th
 
 <!--more-->
 
-{{< badges/used-by "github.com/hugomods/hugopress" >}}
-{{< badges/requirements "github.com/hugomods/hugopress" >}}
-{{< badges/license "github.com/hugomods/hugopress" >}}
-{{< badges/version "github.com/hugomods/hugopress" >}}
+{{< module "github.com/hugomods/hugopress" >}}
 
 ## How it Works?
 

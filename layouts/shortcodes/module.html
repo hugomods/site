@@ -1,10 +1,56 @@
-{{- $name := .Get 0 }}
-{{- $prefix := default "" (.Get 1) }}
-{{- $api := printf
-  "https://api.razonyang.com/v1/github/tag/%s/?prefix=%s"
-  (replace $name "github.com/" "")
-  $prefix
-}}
-| Module Path | Version |
-| ---- | ------- |
-| `{{ $name }}` | ![Version](https://img.shields.io/badge/dynamic/json?color=blue&label=version&query=name&url={{ $api }}/) |
+{{- $path := .Get 0 }}
+{{- $info := split $path "/" }}
+{{- $owner := index $info 1 }}
+{{- $repo := index $info 2 }}
+{{- $height := 24 }}
+<table>
+  <tr>
+    <th>Module Path</th>
+    <td><code class="user-select-all">{{ $path }}</code></td>
+  </tr>
+  <tr>
+    <th>Stats</th>
+    <td>
+      <a
+        class="text-decoration-none"
+        href="https://github.com/{{ $owner }}/{{ $repo }}/network/dependents"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img
+          src="https://img.shields.io/badge/dynamic/json?color=success&label=used+by&query=repositories_humanize&logo=hugo&style=flat-square&url=https%3a//api.razonyang.com/v1/github/dependents/{{ $owner }}/{{ $repo }}"
+          alt="Used By"
+          height="{{ $height }}" />
+      </a>
+      <a
+        class="text-decoration-none"
+        href="https://github.com/{{ $owner }}/{{ $repo }}"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img
+          src="https://img.shields.io/badge/dynamic/json?color=important&label=requirements&query=requirements&logo=hugo&style=flat-square&url=https%3a//api.razonyang.com/v1/hugo/modules/github.com/{{ $owner }}/{{ $repo }}"
+          alt="Used By"
+          height="{{ $height }}" />
+      </a>
+      <a
+        class="text-decoration-none"
+        href="https://github.com/{{ $owner }}/{{ $repo }}/blob/main/LICENSE"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img
+          src="https://img.shields.io/github/license/{{ $owner }}/{{ $repo }}?style=flat-square"
+          alt="Used By"
+          height="{{ $height }}" />
+      </a>
+      <a
+        class="text-decoration-none"
+        href="https://github.com/{{ $owner }}/{{ $repo }}/releases"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img
+          src="https://img.shields.io/github/v/tag/{{ $owner }}/{{ $repo }}?label=version&style=flat-square"
+          alt="Used By"
+          height="{{ $height }}" />
+      </a>
+    </td>
+  </tr>
+</table>

@@ -21,6 +21,8 @@ This article shows how to install [supported icons vendors]({{< ref "docs/icons/
 
 <!--more-->
 
+{{< module "github.com/hugomods/icons" >}}
+
 Just import the icons vendors you want into configuration file.
 
 {{< bootstrap/config-toggle filename=hugo >}}
