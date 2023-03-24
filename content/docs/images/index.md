@@ -1,5 +1,5 @@
 ---
-title: "Images"
+title: "Hugo Images Module"
 linkTitle: "Images"
 nav_weight: 30
 nav_icon:
