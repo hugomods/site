@@ -99,7 +99,7 @@ For example: `![Center](featured.jpeg#center)`.
 ### Floating Images to Start (Left)
 
 {{% bootstrap/clearfix %}}
-![Float Start](featured.jpeg?crop=200x100#float-start) Adding the `#float-start` fragment for floating images to the start. You may need to [clear](https://developer.mozilla.org/en-US/docs/Web/CSS/clear) to avoid breaking your layout, for Bootstrap users, you could wrap the content inside the `bootstrap/clearfix` shortcode.
+![Float Start](featured.jpeg?crop=200x100#float-start) Adding the `#float-start` fragment for floating images to the start. You may need to [clear](https://developer.mozilla.org/en-US/docs/Web/CSS/clear) to avoid breaking your layout, for Bootstrap users, you could wrap the content inside the [bootstrap/clearfix]({{< ref "docs/bootstrap/clearfix" >}}) shortcode.
 {{% /bootstrap/clearfix %}}
 
 For example.
