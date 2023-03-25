@@ -43,6 +43,8 @@ You may still be a bit confused about the features, the following video will sho
 
 This section is for theme developers to integrate this module with their themes.
 
+> There is a [demo site](https://hugomods.github.io/pwa/) and it's [source code](https://github.com/hugomods/pwa/tree/main/exampleSite) to help me get started.
+
 ### 1. Import the Module
 
 {{< bootstrap/config-toggle hugo >}}
