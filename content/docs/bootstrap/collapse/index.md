@@ -35,6 +35,8 @@ The collapse shortcode is used to show and hide content.
 
 ## Examples
 
+### Steps Example
+
 ```markdown
 {{</* bootstrap/collapse heading="1. Step One" expand=true */>}}
 First of all ...
@@ -60,4 +62,38 @@ And then ...
 
 {{% bootstrap/collapse "3. Step Three" success %}}
 **Well done**.
+{{% /bootstrap/collapse %}}
+
+### Files Example
+
+````markdown
+{{</* bootstrap/collapse heading="Configuration" expand=true */>}}
+  {{</* bootstrap/config-toggle hugo */>}}
+  params:
+    message: "Hello world!"
+  {{</* /bootstrap/config-toggle */>}}
+{{</* /bootstrap/collapse */>}}
+
+{{%/* bootstrap/collapse "Template" */%}}
+  ```go-html-template
+  <div class="greeting">
+    {{ site.Params.message }}
+  </div>
+  ```
+{{%/* /bootstrap/collapse */%}}
+````
+
+{{< bootstrap/collapse heading="Configuration" expand=true >}}
+  {{< bootstrap/config-toggle hugo >}}
+  params:
+    message: "Hello world!"
+  {{< /bootstrap/config-toggle >}}
+{{< /bootstrap/collapse >}}
+
+{{% bootstrap/collapse "Template" %}}
+  ```go-html-template
+  <div class="greeting">
+    {{ site.Params.message }}
+  </div>
+  ```
 {{% /bootstrap/collapse %}}
