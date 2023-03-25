@@ -22,7 +22,7 @@ You'll need to make some minor preparations before using the Hugo modules.
 
 Firstly, we need to initialize the module for your site or theme via `hugo mod init MODULE_PATH`.
 
-The `MODULE_PATH` is the identifier of your theme or site, please replace it with your own.
+The `MODULE_PATH` is the identifier of your theme or site, please replace it with your own, for example,
 
 ```sh
 hugo mod init github.com/hugomods/site
@@ -30,7 +30,7 @@ hugo mod init github.com/hugomods/site
 
 ## Import Modules
 
-Finally, import the modules your want.
+And then import the modules your want.
 
 {{< bootstrap/config-toggle hugo >}}
 module:
