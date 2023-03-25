@@ -34,6 +34,9 @@ outputs:
     - RSS
     - WebAppManifest
 
+permalinks:
+  blog: /blog/:year/:month/:title/
+
 taxonomies:
   authors: authors
   tags: tags
