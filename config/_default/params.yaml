@@ -23,5 +23,5 @@ hugopress:
   modules:
     custom:
       hooks:
-        hb-docs-main-begin:
+        hb-docs-doc-content-begin:
           cacheable: true
