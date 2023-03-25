@@ -62,7 +62,7 @@ The meta partial generate the manifest meta tag to tell browser the location of 
 </head>
 ```
 
-### 3. Precache CSS and JS.
+### 3. Precache CSS and JS
 
 ```go-html-template
 {{ $css := resources.Get "main.css" }}
