@@ -120,6 +120,7 @@ github.com/hugomods/katex v0.1.2 h1:F+G/zWPwdw06IhtdW6IQ0mqUsMVuEw+gWq+Y//CIjZE=
 github.com/hugomods/katex v0.1.2/go.mod h1:PyYvL1TtHIE5jbDHGnCT1XEnKFqdkqveU7AJtcBruu8=
 github.com/hugomods/pwa v0.1.4 h1:jH6nUtDfYGSsPidIcNq0NUJF7HNoJf0SEzDRo8fBAT0=
 github.com/hugomods/pwa v0.1.4/go.mod h1:gNUU0CesSWxJAeK3lBk+vlHiqJO+E+5p2ylLj0OIaM8=
+github.com/hugomods/pwa v0.1.5/go.mod h1:gNUU0CesSWxJAeK3lBk+vlHiqJO+E+5p2ylLj0OIaM8=
 github.com/hugomods/seo/modules/alternatives v0.1.0 h1:G5IjM7j7ExgXEMyxQj1Z/5JwwRW8DEmL0nDJYxA3NhE=
 github.com/hugomods/seo/modules/alternatives v0.1.0/go.mod h1:ff9uz+f5yii9k2jbwt/HKM3RpLR3EYZrNQBAOabNxMA=
 github.com/hugomods/seo/modules/favicons v0.1.0 h1:3uzqOfzgBFdvGr8a7mh+yv03oXuxzXnHh+cWGJ4gCOQ=
