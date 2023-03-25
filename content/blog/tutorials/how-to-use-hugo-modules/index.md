@@ -18,6 +18,10 @@ You'll need to make some minor preparations before using the Hugo modules.
 
 <!--more-->
 
+## Install Go Binary
+
+See [download and install Go](https://go.dev/doc/install) for details.
+
 ## Initialize Module
 
 Firstly, we need to initialize the module for your site or theme via `hugo mod init MODULE_PATH`.
