@@ -92,7 +92,7 @@ path = "github.com/hugomods/search"
 
 When using single search page, we probably want to include the search's CSS and JS on that page only.
 
-```go
+```go-html-template
 // baseof.html
 {{ if $isSearchPage }}
   ...
@@ -110,7 +110,7 @@ The last approach is recommended in the case of using only the single search pag
 
 #### Include the CSS via Hugo Pipe (Recommended)
 
-```go
+```go-html-template
 {{/* NOTE: we must change the CSS target to separate the style between LTR and RTL sites. */}}
 {{/* Otherwise, Hugo may treats it as the same style (cached). */}}
 {{/* Ignore it if your themes and sites aren't going to support RTL. */}}
@@ -138,7 +138,7 @@ See how [CSS resource partial](layouts/partials/search/assets/css-resource.html)
 
 This approach generates a `<link>` tag.
 
-```go
+```go-html-template
 {{ partial "search/assets/css" . }}
 ```
 
@@ -148,7 +148,7 @@ We can achieve this via two ways.
 
 #### Include the JavaScript via Hugo Pipe (Recommended)
 
-```go
+```go-html-template
 {{ $js := resources.Get "main.ts" | js.Build }}
 {{ $searchJS := partial "search/assets/js-resource" . }}
 {{ $js = slice $js $searchJS | resources.Concat "js/main.js" }}
@@ -163,7 +163,7 @@ We can achieve this via two ways.
 
 This partial will generate a `<script>` tag.
 
-```go
+```go-html-template
 {{ partial "search/assets/js" . }}
 ```
 
@@ -187,7 +187,7 @@ Adjust the button to your theme UI, place it wherever you like, for example,
 
 When using single search page mode, we'll need to create a entrance for users, such as a link to the search page, or a search form.
 
-```go
+```go-html-template
 {{ $searchURL := partial "search/functions/search-url" . }}
 
 {{/* Link to search page. */}}

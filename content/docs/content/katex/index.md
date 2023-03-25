@@ -36,14 +36,14 @@ module:
 
 {{% bootstrap/collapse "2. Import CSS" %}}
 {{% skip-if-hugopress %}}
-```go
+```go-html-template
 {{ partial "katex/assets/css" . }}
 ```
 {{% /bootstrap/collapse %}}
 
 {{% bootstrap/collapse "3. Import JS" %}}
 {{% skip-if-hugopress %}}
-```go
+```go-html-template
 {{ partial "katex/assets/js" . }}
 ```
 {{% /bootstrap/collapse %}}

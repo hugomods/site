@@ -59,7 +59,7 @@ The `attributes` are used to append attributes to HTML tags.
 
 The attributes partial should return key-value pairs.
 
-```go
+```go-html-template
 {{- return dict
   "lang" .Page.Lang
   "data-foo" "bar"
@@ -116,7 +116,7 @@ The context (aka the `.`) of hook partial.
 
 Modify your `baseof.html` as following for getting much more flexible, and then override the `theme` blocks.
 
-```go
+```go-html-template
 {{/* layouts/_default/baseof.html */}}
 <!DOCTYPE html>
 <html {{ partial "hugopress/document-attributes" . | safeHTMLAttr -}}>

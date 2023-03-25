@@ -86,7 +86,7 @@ You may need to adjust your CSS like following to align the icon to vertical mid
 
 ### Use Icons via Templates (Partials)
 
-```go
+```go-html-template
 {{ $context := dict
   "vendor" "bootstrap"
   "name" "house"
