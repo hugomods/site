@@ -18,3 +18,10 @@ seo:
 pwa:
   icon_path: images/logo.png
   # debug: true
+
+hugopress:
+  modules:
+    custom:
+      hooks:
+        hb-docs-main-begin:
+          cacheable: true

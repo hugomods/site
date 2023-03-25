@@ -1,0 +1,8 @@
+{{- $tutorial:= relref .Page (dict
+  "path" "/blog/tutorials/how-to-use-hugo-modules"
+  "lang" "en")
+}}
+<div class="alert alert-primary" role="alert">
+  Please check out the <a target="_blank" href="{{ $tutorial }}">tutorial</a> to
+  start using Hugo modules.
+</div>
