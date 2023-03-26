@@ -41,7 +41,7 @@ require (
 	github.com/hbstack/meta/standard v0.1.0 // indirect
 	github.com/hbstack/noscript v0.1.0 // indirect
 	github.com/hbstack/progress-bar v0.1.0 // indirect
-	github.com/hbstack/pwa v0.1.0 // indirect
+	github.com/hbstack/pwa v0.1.1 // indirect
 	github.com/hbstack/scrollbar v0.1.0 // indirect
 	github.com/hbstack/search v0.1.2 // indirect
 	github.com/hbstack/syntax-highlighting v0.1.0 // indirect
@@ -62,7 +62,7 @@ require (
 	github.com/hugomods/icons/vendors/tabler v0.4.0 // indirect
 	github.com/hugomods/images v0.1.0 // indirect
 	github.com/hugomods/katex v0.1.2 // indirect
-	github.com/hugomods/pwa v0.1.5 // indirect
+	github.com/hugomods/pwa v0.1.6 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect
 	github.com/hugomods/seo/modules/favicons v0.1.0 // indirect
 	github.com/hugomods/seo/modules/open-graph v0.1.0 // indirect
