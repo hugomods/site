@@ -1,6 +1,6 @@
 hb:
   header:
-    logo_bg: '#fff'
+    # logo_bg: '#fff'
     socials:
       github: hugomods
       paypal: razonyang
