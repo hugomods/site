@@ -1,0 +1,9 @@
+main:
+  - name: HB Framework
+    url: https://hb.hugomods.com/
+    params:
+      icon:
+        name: hugo
+        vendor: simple
+        color: '#712cf9'
+    
