@@ -32,37 +32,37 @@ menu:
 
 <div class="row row-cols-2 row-cols-sm-3 mb-4">
   <div class="col d-flex flex-column align-items-center mb-5">
-    <div class="p-4 bg-light mb-3 w-100 text-center">{{< icons/icon vendor=bootstrap name=bootstrap width=3em height=3em >}}</div>
+    <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=bootstrap name=bootstrap width=3em height=3em >}}</div>
     <div>
       <a href="{{< ref `docs/icons#icons-vendors` >}}">Bootstrap Icons</a>
     </div>
   </div>
   <div class="col d-flex flex-column align-items-center mb-5">
-    <div class="p-4 bg-light mb-3 w-100 text-center">{{< icons/icon vendor=feather name=feather width=3em height=3em >}}</div>
+    <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=feather name=feather width=3em height=3em >}}</div>
     <div>
       <a href="{{< ref `docs/icons#icons-vendors` >}}">Feather Icons</a>
     </div>
   </div>
   <div class="col d-flex flex-column align-items-center mb-5">
-    <div class="p-4 bg-light mb-3 w-100 text-center">{{< icons/icon vendor=simple-icons name=fontawesome width=3em height=3em >}}</div>
+    <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=simple-icons name=fontawesome width=3em height=3em >}}</div>
     <div>
       <a href="{{< ref `docs/icons#icons-vendors` >}}">Font Awesome Icons</a>
     </div>
   </div>
   <div class="col d-flex flex-column align-items-center mb-5">
-    <div class="p-4 bg-light mb-3 w-100 text-center">{{< icons/icon vendor=simple-icons name=materialdesignicons width=3em height=3em >}}</div>
+    <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=simple-icons name=materialdesignicons width=3em height=3em >}}</div>
     <div>
       <a href="{{< ref `docs/icons#icons-vendors` >}}">Material Design Icons</a>
     </div>
   </div>
   <div class="col d-flex flex-column align-items-center mb-5">
-    <div class="p-4 bg-light mb-3 w-100 text-center">{{< icons/icon vendor=simple-icons name=simpleicons width=3em height=3em >}}</div>
+    <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=simple-icons name=simpleicons width=3em height=3em >}}</div>
     <div>
       <a href="{{< ref `docs/icons#icons-vendors` >}}">Simple Icons</a>
     </div>
   </div>
   <div class="col d-flex flex-column align-items-center mb-5">
-    <div class="p-4 bg-light mb-3 w-100 text-center">{{< icons/icon vendor=tabler name=brand-tabler width=3em height=3em >}}</div>
+    <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=tabler name=brand-tabler width=3em height=3em >}}</div>
     <div>
       <a href="{{< ref `docs/icons#icons-vendors` >}}">Tabler Icons</a>
     </div>

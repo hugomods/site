@@ -1,6 +1,6 @@
 classes = [
     'align-items-center',
-    'bg-light',
+    'bg-body-tertiary',
     'col',
     'd-flex',
     'hugo-mod-icon',
