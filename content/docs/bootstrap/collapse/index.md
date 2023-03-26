@@ -30,7 +30,7 @@ The collapse shortcode is used to show and hide content.
 | Position | Name | Type | Required | Default | Description |
 | -------- | ---- | ---- | :------: | :-----: | ----------- |
 | `#0` | `heading` | string | Y | - | The heading.
-| `#1` | `style` | string | - | `secondary` | `primary`, `secondary`, `success`, `warning`, `info`, `danger`, `light`, `dark`.
+| `#1` | `style` | string | - | `primary` | `primary`, `secondary`, `success`, `warning`, `info`, `danger`, `light`, `dark`.
 | `#2` | `expand` | - | boolean | `false` | Whether to expand by default.
 
 ## Examples
@@ -56,7 +56,7 @@ And then ...
 First of all ...
 {{< /bootstrap/collapse >}}
 
-{{% bootstrap/collapse "2. Step Two" primary %}}
+{{% bootstrap/collapse "2. Step Two" info %}}
 And then ...
 {{% /bootstrap/collapse %}}
 
