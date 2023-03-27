@@ -150,19 +150,24 @@ outputs:
 | `precaches.url` | string | - | - | The URL of precache file. |
 | `caches` | object | - | - | Cache settings. |
 | `caches.font` | object | - | - | Font cache settings. |
+| `caches.font.origins` | array | `[]` | - | Trusted origins[^2]. |
 | `caches.font.strategy` | string | `cache-first` | - | Font cache strategy[^1]. |
 | `caches.font.max_age` | string | `2592000` | - | Font cache max age in second. |
 | `caches.image` | object | - | - | Image cache settings. |
+| `caches.image.origins` | array | `[]` | - | Trusted origins[^2]. |
 | `caches.image.strategy` | string | `cache-first` | - | Image cache strategy[^1]. |
 | `caches.image.max_age` | string | `2592000` | - | Image cache max age in second. |
 | `caches.script` | object | - | - | Script cache settings. |
+| `caches.script.origins` | array | `[]` | - | Trusted origins[^2]. |
 | `caches.script.strategy` | string | `cache-first` | - | Script cache strategy[^1]. |
 | `caches.script.max_age` | string | `2592000` | - | Script cache max age in second. |
 | `caches.style` | object | - | - | Style cache settings. |
+| `caches.style.origins` | array | `[]` | - | Trusted origins[^2]. |
 | `caches.style.strategy` | string | `cache-first` | - | Style cache strategy[^1]. |
 | `caches.style.max_age` | string | `2592000` | - | Style cache max age in second. |
 
-[^1]: available strategies: [cache-first](https://developer.chrome.com/docs/workbox/modules/workbox-strategies/#cache-first-cache-falling-back-to-network), [network-first](https://developer.chrome.com/docs/workbox/modules/workbox-strategies/#network-first-network-falling-back-to-cache) and [stale-while-revalidate](https://developer.chrome.com/docs/workbox/modules/workbox-strategies/#stale-while-revalidate).
+[^1]: Available strategies: [cache-first](https://developer.chrome.com/docs/workbox/modules/workbox-strategies/#cache-first-cache-falling-back-to-network), [network-first](https://developer.chrome.com/docs/workbox/modules/workbox-strategies/#network-first-network-falling-back-to-cache) and [stale-while-revalidate](https://developer.chrome.com/docs/workbox/modules/workbox-strategies/#stale-while-revalidate).
+[^2]: Only trusted third-party origin resources will be cached, such as `https://example.com`, `https://example.org/`.
 
 > This module doesn't provide the built-in icon and offline images, you'll need to save your icon and offline images to corresponding path.
 
@@ -181,23 +186,23 @@ url = "foo.png"
 
 [params.pwa.caches.font]
 strategy = "cache-first"
-# 30d
-max_age = 2592000
+origins = []
+max_age = 2592000 # 30d
 
 [params.pwa.caches.image]
 strategy = "cache-first"
-# 30d
-max_age = 2592000
+origins = []
+max_age = 2592000 # 30d
 
 [params.pwa.caches.script]
 strategy = "cache-first"
-# 30d
-max_age = 2592000
+origins = []
+max_age = 2592000 # 30d
 
 [params.pwa.caches.style]
 strategy = "cache-first"
-# 30d
-max_age = 2592000
+origins = []
+max_age = 2592000 # 30d
 {{< /bootstrap/config-toggle >}}
 
 ### Best Practice
