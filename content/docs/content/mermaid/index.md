@@ -2,10 +2,9 @@
 title: "Hugo Mermaid Module"
 linkTitle: "Mermaid"
 nav_weight: 1000
-# nav_icon:
-#   vendor:
-#   name:
-#   color: ''
+nav_icon:
+  vendor: bs
+  name: diagram-3
 featured: false
 pinned: false
 date: 2023-03-28T15:36:49+08:00
