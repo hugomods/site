@@ -20,7 +20,6 @@ tags:
 authors:
   - HugoMods
 images:
-  - 
 ---
 
 [Mermaid](https://mermaid.js.org/) lets you create diagrams and visualizations using text and code.
