@@ -2,6 +2,10 @@
 {{- $info := split $path "/" }}
 {{- $owner := index $info 1 }}
 {{- $repo := index $info 2 }}
+{{- $prefix := "" }}
+{{- with after 3 $info }}
+  {{- $prefix = delimit . "/" }}
+{{- end }}
 {{- $height := 24 }}
 <table>
   <tr>
@@ -41,15 +45,14 @@
           alt="Used By"
           height="{{ $height }}" />
       </a>
+      {{- $api := printf "https://api.razonyang.com/v1/github/tag/%s/%s?prefix=%s/" $owner $repo $prefix }}
+      {{- $version := printf "https://img.shields.io/badge/dynamic/json?color=blue&label=version&query=name&url=%s" ($api) }}
       <a
         class="text-decoration-none"
         href="https://github.com/{{ $owner }}/{{ $repo }}/releases"
         target="_blank"
         rel="noopener noreferrer">
-        <img
-          src="https://img.shields.io/github/v/tag/{{ $owner }}/{{ $repo }}?label=version&style=flat-square"
-          alt="Used By"
-          height="{{ $height }}" />
+        <img src="{{ $version }}" alt="Used By" height="{{ $height }}" />
       </a>
     </td>
   </tr>
