@@ -6,7 +6,7 @@
 {{- with after 3 $info }}
   {{- $prefix = delimit . "/" }}
 {{- end }}
-{{- $height := 24 }}
+{{- $height := 20 }}
 <table>
   <tr>
     <th>Module Path</th>
@@ -15,6 +15,16 @@
   <tr>
     <th>Stats</th>
     <td>
+      <a
+        class="text-decoration-none"
+        href="https://github.com/{{ $owner }}/{{ $repo }}/stargazers"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img
+          src="https://img.shields.io/github/stars/{{ $owner }}/{{ $repo }}?style=flat-square"
+          alt="GitHub Stars"
+          height="{{ $height }}" />
+      </a>
       <a
         class="text-decoration-none"
         href="https://github.com/{{ $owner }}/{{ $repo }}/network/dependents"
