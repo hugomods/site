@@ -5,7 +5,7 @@ nav_weight: 1000
 nav_icon:
   vendor: tabler
   name: seo
-  color: ""
+  color: green
 featured: false
 pinned: false
 date: 2023-03-28T14:22:02+08:00
