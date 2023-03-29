@@ -132,7 +132,7 @@ The last approach is recommended in the case of using only the single search pag
 ```
 
 This way is more complex than the former, you'll need to take care of the [PostCSS](https://gohugo.io/hugo-pipes/postcss/), Autoprefixer and [RTLCSS](https://rtlcss.com/).
-See how [CSS resource partial](layouts/partials/search/assets/css-resource.html) does.
+See how [CSS resource partial](https://github.com/hugomods/search/tree/main/layouts/partials/search/assets/css-resource.html) does.
 
 #### Include the CSS via Partial (Recommended for Single Search Page)
 

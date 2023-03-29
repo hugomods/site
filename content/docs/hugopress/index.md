@@ -176,7 +176,7 @@ $ tree layouts/partials/hugopress/modules/hello
 
 The module files should be placed under the `layouts/partials/hugopress/modules` folder.
 
-> The source code can be found at [hello module files](exampleSite/layouts/partials/hugopress/modules/hello).
+> The source code can be found at [hello module files](https://github.com/hugomods/hugopress/tree/main/exampleSite/layouts/partials/hugopress/modules/hello).
 
 #### Disable Module
 

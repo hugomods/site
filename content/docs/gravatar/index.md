@@ -54,7 +54,7 @@ params:
     default: mp
 {{< /bootstrap/config-toggle >}}
 
-See [configuration](https://github.com/hugomods/gravatar/blob/main/hugo.yml) and [Gravatar image request](https://en.gravatar.com/site/implement/images/) for details.
+See [configuration](https://github.com/hugomods/gravatar/blob/main/hugo.yaml) and [Gravatar image request](https://en.gravatar.com/site/implement/images/) for details.
 
 ## Partials
 
