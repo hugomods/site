@@ -7,7 +7,7 @@ nav_icon:
   name: 'images'
   color: '#0d6efd'
 featured: true
-pinned: false
+pinned: true
 date: 2023-03-23T21:41:35+08:00
 draft: false
 series:
