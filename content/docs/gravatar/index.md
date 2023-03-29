@@ -5,6 +5,7 @@ nav_weight: 1000
 nav_icon:
   vendor: bs
   name: wordpress
+  color: '207196'
 featured: false
 pinned: false
 date: 2023-03-28T19:47:31+08:00
