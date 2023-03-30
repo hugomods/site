@@ -9,6 +9,7 @@ github.com/hbstack/bigger-picture v0.2.0 h1:fKY70GA0ZMh/8NlE2D9sah12TjnmjAOhICKD
 github.com/hbstack/bigger-picture v0.2.0/go.mod h1:Dv27wd7F4JSTJd+MA9j3hXyHeWHohNyC9C+UOOQBMq8=
 github.com/hbstack/blog v0.5.0 h1:uND6/TIsNgtFP8dcCbSaqEmT2xmD126jm3vI+eph+iQ=
 github.com/hbstack/blog v0.5.0/go.mod h1:P/p3CpGJjmV1bhS3D2kp+P//VCIPRqks3h2UGQrcKDs=
+github.com/hbstack/blog v0.5.1/go.mod h1:lqC8vgB0MnLPdpUU5Wh+7ZHs8zUCC7F5UvD8SD0YSQQ=
 github.com/hbstack/blog/modules/breadcrumb v0.1.2 h1:GVkpwY17UKkfkeSn825HzK9ATKWqaZEws0JYMY93zPQ=
 github.com/hbstack/blog/modules/breadcrumb v0.1.2/go.mod h1:dO1yAUWsIFGH3KnIcI3CgV/7/udTLUNjKeEsLPre5gs=
 github.com/hbstack/blog/modules/featured-image v0.1.1 h1:bSzEhTPqBWJ7q2c1KcZiq3Z69rMFxcjn2cdStNGGFFE=
@@ -117,6 +118,7 @@ github.com/hugomods/icons/vendors/tabler v0.5.0 h1:65mZBOWpeuUXwLAY+nXW/Ur2uaNWO
 github.com/hugomods/icons/vendors/tabler v0.5.0/go.mod h1:qaOObpncl5MdI2kCd09cNEyTsHBrOoY4nRL9RqliWHA=
 github.com/hugomods/images v0.1.1 h1:mso7CpIwHp6OflT7lYfqJLZNU2AnuocLIn+3eOjCp68=
 github.com/hugomods/images v0.1.1/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
+github.com/hugomods/images v0.3.0/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
 github.com/hugomods/katex v0.1.2 h1:F+G/zWPwdw06IhtdW6IQ0mqUsMVuEw+gWq+Y//CIjZE=
 github.com/hugomods/katex v0.1.2/go.mod h1:PyYvL1TtHIE5jbDHGnCT1XEnKFqdkqveU7AJtcBruu8=
 github.com/hugomods/pwa v0.2.1 h1:0B55AdsgyRURR3K4CvYAgVLaoBN3883ghCmd06A05a4=
