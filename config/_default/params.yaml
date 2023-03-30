@@ -10,6 +10,9 @@ hb:
       github: hugomods
       paypal: razonyang
       kofi: razonyang
+  blog:
+    home:
+      recent_posts: 12
 
 seo:
   favicons:
