@@ -77,8 +77,7 @@ github.com/hbstack/noscript v0.1.0 h1:46Cz17U6X3gAi3dWvMUCOa2fjROEalx1TJjmsGbsEw
 github.com/hbstack/noscript v0.1.0/go.mod h1:uo4YROmLdBQrT9ZgH7jsPW5Bt6pj1+cMGdQFCs5Ms1s=
 github.com/hbstack/progress-bar v0.1.0 h1:2ZiGS3RFZbZYBUbT2nFCoU9SJsbD9jtV4A7ab41B4jg=
 github.com/hbstack/progress-bar v0.1.0/go.mod h1:JZt160XK62FxThzt+RmokjOww3De8ZL0ITcxMJLVE7g=
-github.com/hbstack/pwa v0.1.1 h1:RXRSphkz+/LfWZUxJbpM4zdevqusORXwyAQSZXka688=
-github.com/hbstack/pwa v0.1.1/go.mod h1:85GvogSkf1UvMoLirqwY9lTyv+sxNp0MhTW05l6Cll0=
+github.com/hbstack/pwa v0.1.2 h1:zJhLf5Uf+jO9aCBKvFcASlw7sULK2i0qUJZxscBo0HM=
 github.com/hbstack/pwa v0.1.2/go.mod h1:8x01rczLrSw1aCWD+yrn6v5FRQPtaEh/PYCtFDICEWo=
 github.com/hbstack/scrollbar v0.1.0 h1:uQMNbkWbLxnjQMiD3zdt33RG48sY2a0XWyGQkK2HsyY=
 github.com/hbstack/scrollbar v0.1.0/go.mod h1:BEDha5gOjQfXBKZfwT+4vn8hCE88qElocjEI2SY1eAs=
