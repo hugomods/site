@@ -1,3 +1,5 @@
+description: Hugo Modules
+
 hb:
   header:
     # logo_bg: '#fff'
@@ -21,6 +23,9 @@ seo:
 pwa:
   icon_path: images/logo.png
   # debug: true
+  manifest:
+    background_color: '#ff4088'
+    theme_color: '#ff4088'
 
 hugopress:
   modules:
