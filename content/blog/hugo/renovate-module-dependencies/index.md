@@ -13,6 +13,7 @@ tags:
 authors:
   - HugoMods
 images:
+  - https://app.renovatebot.com/images/whitesource_renovate_660_220.jpg?width=660&height=220
 ---
 
 [Renovate](https://docs.renovatebot.com/) is a bot for automated dependency updates, it's useful for Hugo modules and modular sites to check and update the dependencies automatically.
