@@ -25,6 +25,7 @@ module:
     # others
     - path: github.com/hugomods/katex
     - path: github.com/hugomods/google-analytics
+    - path: github.com/hugomods/google-adsense
 
 outputs:
   home:

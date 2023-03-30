@@ -51,6 +51,7 @@ require (
 	github.com/hugomods/bootstrap v0.2.3 // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.0 // indirect
+	github.com/hugomods/google-adsense v0.1.0 // indirect
 	github.com/hugomods/google-analytics v0.1.0 // indirect
 	github.com/hugomods/gravatar v0.1.0 // indirect
 	github.com/hugomods/hugopress v0.1.0 // indirect
