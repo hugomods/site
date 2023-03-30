@@ -23,8 +23,8 @@ github.com/hbstack/blog/modules/related-posts v0.1.1 h1:jVD0DZIcLLCF0ngeej7O6fZs
 github.com/hbstack/blog/modules/related-posts v0.1.1/go.mod h1:kxIQpp6L4zXfOxkAFef1gcpskKZ502SRoc/JCDHelgQ=
 github.com/hbstack/bootstrap v0.1.1 h1:yTbP50lUnm+RcHhkc8uQdXcLe3ZJ4/NEXvqez1Knxoc=
 github.com/hbstack/bootstrap v0.1.1/go.mod h1:MNYxfc/GWGYGRvGsSJwUs/jzD8vcIjB9RvwN+pPoRH4=
-github.com/hbstack/carousel v0.1.12 h1:z2N67v/LprhGArs/UtrH6L6XHW5wuoPsmV1wFLRqE2U=
-github.com/hbstack/carousel v0.1.12/go.mod h1:SsXyquOSqLM+GzwLkXaKz3JNHN7j2Ne3yNQ7l+z8SCI=
+github.com/hbstack/carousel v0.1.13 h1:UZQyrJqfqu5ns2tjUwUI0MDpiIN9liEr/0qFvZyuGHI=
+github.com/hbstack/carousel v0.1.13/go.mod h1:LYQ0nZwyBEOpHVbBCDbml3C7fx+MWxEEXKQjkixBJfA=
 github.com/hbstack/code-block-panel v0.1.0 h1:nD84TnRIYgCK03COeZsFTAluHx0WvF2cP2he7Da9cUk=
 github.com/hbstack/code-block-panel v0.1.0/go.mod h1:q+IPDYgXNArqkrnUSV0UptW+QlPUSap1YbcQ699Qk+U=
 github.com/hbstack/docs v0.1.2 h1:yqwUW5bPQT4uVzw2Ri7mbNaDTO8r71CfuXpdSvGseq8=
