@@ -165,6 +165,7 @@ outputs:
 | `caches.style.origins` | array | `[]` | - | Trusted origins[^2]. |
 | `caches.style.strategy` | string | `cache-first` | - | Style cache strategy[^1]. |
 | `caches.style.max_age` | string | `2592000` | - | Style cache max age in second. |
+| `manifest` | object | - | - | [Manifest](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json#list_of_manifest.json_keys) settings, such as `theme_color`, `background_color`.
 
 [^1]: Available strategies: [cache-first](https://developer.chrome.com/docs/workbox/modules/workbox-strategies/#cache-first-cache-falling-back-to-network), [network-first](https://developer.chrome.com/docs/workbox/modules/workbox-strategies/#network-first-network-falling-back-to-cache) and [stale-while-revalidate](https://developer.chrome.com/docs/workbox/modules/workbox-strategies/#stale-while-revalidate).
 [^2]: Only trusted third-party origin resources will be cached, such as `https://example.com`, `https://example.org/`.
@@ -203,6 +204,10 @@ max_age = 2592000 # 30d
 strategy = "cache-first"
 origins = []
 max_age = 2592000 # 30d
+
+[params.pwa.manifest]
+background_color = '#ff4088'
+theme_color = '#ff4088'
 {{< /bootstrap/config-toggle >}}
 
 ### Best Practice
