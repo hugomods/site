@@ -61,7 +61,7 @@ require (
 	github.com/hugomods/icons/vendors/mdi v0.3.0 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v0.7.0 // indirect
 	github.com/hugomods/icons/vendors/tabler v0.5.0 // indirect
-	github.com/hugomods/images v0.3.0 // indirect
+	github.com/hugomods/images v0.4.0 // indirect
 	github.com/hugomods/katex v0.1.2 // indirect
 	github.com/hugomods/pwa v0.2.1 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect

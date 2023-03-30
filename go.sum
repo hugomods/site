@@ -123,6 +123,7 @@ github.com/hugomods/icons/vendors/tabler v0.5.0/go.mod h1:qaOObpncl5MdI2kCd09cNE
 github.com/hugomods/images v0.1.1 h1:mso7CpIwHp6OflT7lYfqJLZNU2AnuocLIn+3eOjCp68=
 github.com/hugomods/images v0.1.1/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
 github.com/hugomods/images v0.3.0/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
+github.com/hugomods/images v0.4.0/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
 github.com/hugomods/katex v0.1.2 h1:F+G/zWPwdw06IhtdW6IQ0mqUsMVuEw+gWq+Y//CIjZE=
 github.com/hugomods/katex v0.1.2/go.mod h1:PyYvL1TtHIE5jbDHGnCT1XEnKFqdkqveU7AJtcBruu8=
 github.com/hugomods/pwa v0.2.1 h1:0B55AdsgyRURR3K4CvYAgVLaoBN3883ghCmd06A05a4=
