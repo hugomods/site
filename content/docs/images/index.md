@@ -47,6 +47,12 @@ The images module process images via URL query string and fragment, such as resi
 
 {{% module "github.com/hugomods/images" %}}
 
+## Features
+
+- Process images via URL query string and fragment, such as resizing, aligning, filtering.
+- Convert images in modern format (`webp`), and reserve the original format as the fallback via `<picture>`.
+- Lazy loading by default.
+
 ## Installation
 
 {{< bootstrap/config-toggle filename=hugo >}}
@@ -83,6 +89,50 @@ This module uses the query string to process images, and use fragment to align i
 The image resources begin with a leading slash `/` will be treated as a site image resource.
 
 Most of the processing methods work only on image resources, except for alignment and resizing.
+
+## Image Partial
+
+This module offers a `images/image` partial for theme developers.
+
+## Image Partial Parameters
+
+| Parameter | Type | Require | Default | Description |
+| --------- | :--: | :-----: | :-----: | ----------- |
+| `Filename` | string | Y | - | The filename or url of image. |
+| `Alt` | string | - | - | Alternative text. |
+| `Page` | Page | - | - | The page variable for finding image resources. |
+| `ClassName` | string | - | `img-fluid` | The class name of `<img>`. |
+| `Original` | boolean | - | `false` | Whether to describe the original image info via `data-*` attributes.
+| `LazyLoading` | boolean | - | `true` | Whether to enable lazy loading.
+
+```go-html-template
+{{ partial "images/image" (dict
+  "Page" .
+  "Filename" "/path/to/image.png"
+  "Alt" "Example Image"
+) }}
+```
+
+## Site Parameters
+
+| Name | Type | Default | Description |
+| ---- | :--: | ------- | ----------- |
+| `alignment_center_class_name` | String | `d-block text-center` | The class name of `<picture>` when align to center. |
+| `alignment_end_class_name` | String | `float-end ms-2` | The class name of `<picture>` when align to end (right). |
+| `alignment_start_class_name` | String | `float-start me-2` | The class name of `<picture>` when align to start (left). |
+| `class_name` | String | `img-fluid` | The class name of `<img>`. |
+| `modern_format ` | String | `webp` | Generate modern format version of image, empty to disable. |
+
+{{< bootstrap/config-toggle >}}
+[params.images]
+class_name = "img-fluid"
+alignment_center_class_name = "d-block text-center"
+alignment_start_class_name = "float-start me-2"
+alignment_end_class_name = "float-end ms-2"
+modern_format = "webp"
+{{< /bootstrap/config-toggle >}}
+
+The class names compatible with Bootstrap by default, you may need adjust it to your CSS if you're not using Bootstrap.
 
 ## Aligning Images
 
