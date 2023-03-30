@@ -6,14 +6,15 @@
 {{- with after 3 $info }}
   {{- $prefix = delimit . "/" }}
 {{- end }}
-{{- $height := 20 }}
+{{- $height := 30 }}
 <table>
   <tr>
-    <th>Module Path</th>
+    <th>Module</th>
+  </tr>
+  <tr>
     <td><code class="user-select-all">{{ $path }}</code></td>
   </tr>
   <tr>
-    <th>Stats</th>
     <td>
       <a
         class="text-decoration-none"
@@ -21,6 +22,7 @@
         target="_blank"
         rel="noopener noreferrer">
         <img
+          class="mb-2"
           src="https://img.shields.io/github/stars/{{ $owner }}/{{ $repo }}?style=flat-square"
           alt="GitHub Stars"
           height="{{ $height }}" />
@@ -31,6 +33,7 @@
         target="_blank"
         rel="noopener noreferrer">
         <img
+          class="mb-2"
           src="https://img.shields.io/badge/dynamic/json?color=success&label=used+by&query=repositories_humanize&logo=hugo&style=flat-square&url=https%3a//api.razonyang.com/v1/github/dependents/{{ $owner }}/{{ $repo }}"
           alt="Used By"
           height="{{ $height }}" />
@@ -41,6 +44,7 @@
         target="_blank"
         rel="noopener noreferrer">
         <img
+          class="mb-2"
           src="https://img.shields.io/badge/dynamic/json?color=important&label=requirements&query=requirements&logo=hugo&style=flat-square&url=https%3a//api.razonyang.com/v1/hugo/modules/github.com/{{ $owner }}/{{ $repo }}"
           alt="Used By"
           height="{{ $height }}" />
@@ -51,6 +55,7 @@
         target="_blank"
         rel="noopener noreferrer">
         <img
+          class="mb-2"
           src="https://img.shields.io/github/license/{{ $owner }}/{{ $repo }}?style=flat-square"
           alt="Used By"
           height="{{ $height }}" />
@@ -62,7 +67,11 @@
         href="https://github.com/{{ $owner }}/{{ $repo }}/releases"
         target="_blank"
         rel="noopener noreferrer">
-        <img src="{{ $version }}" alt="Used By" height="{{ $height }}" />
+        <img
+          class="mb-2"
+          src="{{ $version }}"
+          alt="Used By"
+          height="{{ $height }}" />
       </a>
     </td>
   </tr>
