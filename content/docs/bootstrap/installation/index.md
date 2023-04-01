@@ -29,15 +29,19 @@ This article shows how to install the Bootstrap module.
 
 Some shortcodes like [Clearfix]({{< ref "docs/bootstrap/clearfix" >}}) require the `markup.goldmark.renderer.unsafe` to be enabled.
 
-{{< bootstrap/config-toggle filename=hugo >}}
+{{< bs/config-toggle filename=hugo >}}
 [markup.goldmark.renderer]
 unsafe = true
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}
 
 ## Installation
 
-{{< bootstrap/config-toggle filename=hugo >}}
+{{< bs/config-toggle filename=hugo >}}
 module:
   imports:
     - path: github.com/hugomods/bootstrap
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}
+
+## Notes
+
+This module has two namespaces: `bs` and `bootstrap`, both of them are valid, the short one is recommended.

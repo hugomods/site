@@ -20,7 +20,7 @@ authors:
 images:
 ---
 
-The [bootstrap/config-toggle]({{< ref "docs/bootstrap/config-toggle" >}}) is useful, but it's limited to generate configuration code blocks in `YAML`, `TOML` and `JSON` languages. The `bootstrap/toggle*` shortcodes are designed to be more versatile.
+The [config toggle]({{< ref "docs/bootstrap/config-toggle" >}}) is useful, but it's limited to generate configuration code blocks in `YAML`, `TOML` and `JSON` languages. The `toggle*` shortcodes are designed to be more versatile.
 
 <!--more-->
 
@@ -35,7 +35,7 @@ The [bootstrap/config-toggle]({{< ref "docs/bootstrap/config-toggle" >}}) is use
 
 ## Toggle Item Shortcode
 
-The `bootstrap/toggle-item` is used to wrap the content each block.
+The `bs/toggle-item` is used to wrap the content each block.
 
 ### Toggle Item Parameters
 
@@ -48,17 +48,17 @@ The `bootstrap/toggle-item` is used to wrap the content each block.
 With Markdown.
 
 ```markdown
-{{%/* bootstrap/toggle-item Foo */%}}
+{{%/* bs/toggle-item Foo */%}}
 MARKDOWN CONTENT.
-{{%/* /bootstrap/toggle-item */%}}
+{{%/* /bs/toggle-item */%}}
 ```
 
 Without Markdown.
 
 ```markdown
-{{</* bootstrap/toggle-item Bar */>}}
+{{</* bs/toggle-item Bar */>}}
 RAW CONTENT.
-{{</* /bootstrap/toggle-item */>}}
+{{</* /bs/toggle-item */>}}
 ```
 
 ## Examples
@@ -66,57 +66,57 @@ RAW CONTENT.
 ### FooBar Example
 
 ```markdown
-{{/*< bootstrap/toggle foobar */>}}
+{{/*< bs/toggle foobar */>}}
 
-  {{%/* bootstrap/toggle-item Foo */%}}
+  {{%/* bs/toggle-item Foo */%}}
   *Foo* Content with **Markdown**
-  {{%/* /bootstrap/toggle-item */%}}
+  {{%/* /bs/toggle-item */%}}
 
-  {{</* bootstrap/toggle-item Bar */>}}
+  {{</* bs/toggle-item Bar */>}}
   Bar Content without Markdown
-  {{</* /bootstrap/toggle-item */>}}
+  {{</* /bs/toggle-item */>}}
 
-{{</* /bootstrap/toggle */>}}
+{{</* /bs/toggle */>}}
 ```
 
-{{< bootstrap/toggle foobar >}}
+{{< bs/toggle foobar >}}
 
-  {{% bootstrap/toggle-item Foo %}}
+  {{% bs/toggle-item Foo %}}
   *Foo* Content with **Markdown**
-  {{% /bootstrap/toggle-item %}}
+  {{% /bs/toggle-item %}}
 
-  {{< bootstrap/toggle-item Bar >}}
+  {{< bs/toggle-item Bar >}}
   Bar Content without Markdown
-  {{< /bootstrap/toggle-item >}}
+  {{< /bs/toggle-item >}}
 
-{{< /bootstrap/toggle >}}
+{{< /bs/toggle >}}
 
 ### SDK Example with the Pills Style
 
-It's quite easy to write SDK codes with the `bootstrap/toggle` shortcode.
+It's quite easy to write SDK codes with the `bs/toggle` shortcode.
 
 ```markdown
-{{</* bootstrap/toggle name=sdk style=pills */>}}
+{{</* bs/toggle name=sdk style=pills */>}}
 
-  {{</* bootstrap/toggle-item JS */>}}
+  {{</* bs/toggle-item JS */>}}
     {{</* highlight js */>}}
     console.log('hello world');
     {{</* /highlight */>}}
-  {{</* /bootstrap/toggle-item */>}}
+  {{</* /bs/toggle-item */>}}
 
-  {{</* bootstrap/toggle-item PHP */>}}
+  {{</* bs/toggle-item PHP */>}}
     {{</* highlight php */>}}
     echo 'hello world';
     {{</* /highlight */>}}
-  {{</* /bootstrap/toggle-item */>}}
+  {{</* /bs/toggle-item */>}}
   
-  {{</* bootstrap/toggle-item Go */>}}
+  {{</* bs/toggle-item Go */>}}
     {{</* highlight go */>}}
     fmt.Println("hello world")
     {{</* /highlight */>}}
-  {{</* /bootstrap/toggle-item */>}}
+  {{</* /bs/toggle-item */>}}
 
-{{</* /bootstrap/toggle */>}}
+{{</* /bs/toggle */>}}
 ```
 
 {{< bootstrap/toggle name=sdk style=pills >}}

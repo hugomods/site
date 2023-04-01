@@ -21,7 +21,7 @@ authors:
 images:
 ---
 
-The article describe how to use the `bootstrap/alert*` shortcodes to generate alert messages.
+The article describe how to use the `bs/alert*` shortcodes to generate alert messages.
 
 <!--more-->
 
@@ -30,9 +30,9 @@ The article describe how to use the `bootstrap/alert*` shortcodes to generate al
 ### Alert Syntax
 
 ```markdown
-{{</* bootstrap/alert */>}}
+{{</* bs/alert */>}}
 MESSAGE.
-{{</* /bootstrap/alert */>}}
+{{</* /bs/alert */>}}
 ```
 
 ### Alert Parameters
@@ -44,19 +44,19 @@ MESSAGE.
 ### Alert Styles
 
 ```markdown
-{{</* bootstrap/alert primary */>}}
+{{</* bs/alert primary */>}}
 A simple primary alert—check it out!
-{{</* /bootstrap/alert */>}}
+{{</* /bs/alert */>}}
 ```
 
-{{< bootstrap/alert primary >}}
+{{< bs/alert primary >}}
 A simple primary alert—check it out!
-{{< /bootstrap/alert >}}
+{{< /bs/alert >}}
 
 ```markdown
-{{</* bootstrap/alert secondary */>}}
+{{</* bs/alert secondary */>}}
 A simple secondary alert—check it out!
-{{</* /bootstrap/alert */>}}
+{{</* /bs/alert */>}}
 ```
 
 {{< bootstrap/alert secondary >}}
@@ -64,9 +64,9 @@ A simple secondary alert—check it out!
 {{< /bootstrap/alert >}}
 
 ```markdown
-{{</* bootstrap/alert success */>}}
+{{</* bs/alert success */>}}
 A simple success alert—check it out!
-{{</* /bootstrap/alert */>}}
+{{</* /bs/alert */>}}
 ```
 
 {{< bootstrap/alert success >}}
@@ -74,76 +74,76 @@ A simple success alert—check it out!
 {{< /bootstrap/alert >}}
 
 ```markdown
-{{</* bootstrap/alert danger */>}}
+{{</* bs/alert danger */>}}
 A simple danger alert—check it out!
-{{</* /bootstrap/alert */>}}
+{{</* /bs/alert */>}}
 ```
 
-{{< bootstrap/alert danger >}}
+{{< bs/alert danger >}}
 A simple danger alert—check it out!
-{{< /bootstrap/alert >}}
+{{< /bs/alert >}}
 
 ```markdown
-{{</* bootstrap/alert warning */>}}
+{{</* bs/alert warning */>}}
 A simple warning alert—check it out!
-{{</* /bootstrap/alert */>}}
+{{</* /bs/alert */>}}
 ```
 
-{{< bootstrap/alert warning >}}
+{{< bs/alert warning >}}
 A simple warning alert—check it out!
-{{< /bootstrap/alert >}}
+{{< /bs/alert >}}
 
 ```markdown
-{{</* bootstrap/alert info */>}}
+{{</* bs/alert info */>}}
 A simple info alert—check it out!
-{{</* /bootstrap/alert */>}}
+{{</* /bs/alert */>}}
 ```
 
-{{< bootstrap/alert info >}}
+{{< bs/alert info >}}
 A simple info alert—check it out!
-{{< /bootstrap/alert >}}
+{{< /bs/alert >}}
 
 ```markdown
-{{</* bootstrap/alert light */>}}
+{{</* bs/alert light */>}}
 A simple light alert—check it out!
-{{</* /bootstrap/alert */>}}
+{{</* /bs/alert */>}}
 ```
 
-{{< bootstrap/alert light >}}
+{{< bs/alert light >}}
 A simple light alert—check it out!
-{{< /bootstrap/alert >}}
+{{< /bs/alert >}}
 
 ```markdown
-{{</* bootstrap/alert dark */>}}
+{{</* bs/alert dark */>}}
 A simple dark alert—check it out!
-{{</* /bootstrap/alert */>}}
+{{</* /bs/alert */>}}
 ```
 
-{{< bootstrap/alert dark >}}
+{{< bs/alert dark >}}
 A simple dark alert—check it out!
-{{< /bootstrap/alert >}}
+{{< /bs/alert >}}
 
 ## Alert with Markdown Content
 
-We could achieve this by combining the `bootstrap/alert` and `markdownify` shortcodes.
+We could achieve this by combining the `bs/alert` and `markdownify` shortcodes.
 
 ```markdown
-{{</* bootstrap/alert primary */>}}
+{{</* bs/alert primary */>}}
 {{%/* markdownify */%}}
 A simple *primary alert* with Markdown—**check it out**!
 {{%/* /markdownify */%}}
-{{</* /bootstrap/alert */>}}
+{{</* /bs/alert */>}}
 ```
 
-{{< bootstrap/alert primary >}}
+{{< bs/alert primary >}}
 {{% markdownify %}}
 A simple *primary alert* with Markdown—**check it out**!
 {{% /markdownify %}}
-{{< /bootstrap/alert >}}
+{{< /bs/alert >}}
 
 ## Alert Link Shortcode
 
-The `bootstrap/alert-link` allows inserting a styled link to an alert message.
+The `bs/alert-link` allows inserting a styled link to an alert message.
 
 ### Alert Link Parameters
 
@@ -155,14 +155,14 @@ The `bootstrap/alert-link` allows inserting a styled link to an alert message.
 ### Alert Link Examples
 
 ```markdown
-{{</* bootstrap/alert */>}}
-A simple primary alert with {{</* bootstrap/alert-link "an example link" "#alert-link" */>}}. Give it a click if you like.
-{{</* /bootstrap/alert */>}}
+{{</* bs/alert */>}}
+A simple primary alert with {{</* bs/alert-link "an example link" "#alert-link" */>}}. Give it a click if you like.
+{{</* /bs/alert */>}}
 ```
 
-{{< bootstrap/alert >}}
-A simple primary alert with {{< bootstrap/alert-link "an example link" "#alert-link" >}}. Give it a click if you like.
-{{< /bootstrap/alert >}}
+{{< bs/alert >}}
+A simple primary alert with {{< bs/alert-link "an example link" "#alert-link" >}}. Give it a click if you like.
+{{< /bs/alert >}}
 
 {{< bootstrap/alert warning >}}
 A simple warning alert with {{< bootstrap/alert-link "an example link" "#alert-link" >}}. Give it a click if you like.
@@ -181,13 +181,13 @@ The `bootstrap/alert-heading` shortcode is used to add a heading for alert messa
 ### Alert Heading Examples
 
 ```markdown
-{{</* bootstrap/alert success */>}}
-{{</* bootstrap/alert-heading "Well done!" */>}}
+{{</* bs/alert success */>}}
+{{</* bs/alert-heading "Well done!" */>}}
 Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.
-{{</* /bootstrap/alert */>}}
+{{</* /bs/alert */>}}
 ```
 
-{{< bootstrap/alert success >}}
-{{< bootstrap/alert-heading "Well done!" >}}
+{{< bs/alert success >}}
+{{< bs/alert-heading "Well done!" >}}
 Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.
-{{< /bootstrap/alert >}}
+{{< /bs/alert >}}

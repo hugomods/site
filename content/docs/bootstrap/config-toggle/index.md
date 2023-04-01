@@ -26,7 +26,7 @@ authors:
   - HugoMods
 ---
 
-The `bootstrap/config-toggle` shortcode generates the code blocks in multiple languages from one code base.
+This shortcode generates the code blocks in multiple languages from one code base.
 It is useful for projects that support configuring in multiple languages, such as `TOML`, `JSON` and `YAML`.
 
 <!--more-->
@@ -38,9 +38,9 @@ Currently, `TOML`, `YAML` and `JSON` are supported.
 ## Syntax
 
 ```markdown
-{{</* bootstrap/config-toggle */>}}
+{{</* bs/config-toggle */>}}
 PUT YAML/TOML/JSON CODE HERE.
-{{</* /bootstrap/config-toggle */>}}
+{{</* /bs/config-toggle */>}}
 ```
 
 ## Parameters
@@ -57,25 +57,25 @@ The following parameters are supported.
 ### Filename Example
 
 ```markdown
-{{</* bootstrap/config-toggle hello */>}}
+{{</* bs/config-toggle hello */>}}
 {
   "hello": "world"
 }
-{{</* /bootstrap/config-toggle */>}}
+{{</* /bs/config-toggle */>}}
 ```
 
-{{< bootstrap/config-toggle hello >}}
+{{< bs/config-toggle hello >}}
 {
   "hello": "world"
 }
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}
 
 ### Exclude and Sort Languages
 
 ```markdown
-{{</* bootstrap/config-toggle langs=json,toml */>}}
+{{</* bs/config-toggle langs=json,toml */>}}
 langs = ["toml", "json"]
-{{</* /bootstrap/config-toggle */>}}
+{{</* /bs/config-toggle */>}}
 ```
 
 {{< bootstrap/config-toggle langs=json,toml >}}
@@ -85,11 +85,11 @@ langs = ["toml","json"]
 ### Hugo Configuration Example
 
 ```markdown
-{{</* bootstrap/config-toggle filename=hugo */>}}
+{{</* bs/config-toggle filename=hugo */>}}
 module:
   imports:
     - path: github.com/hugomods/bootstrap
-{{</* /bootstrap/config-toggle */>}}
+{{</* /bs/config-toggle */>}}
 ```
 
 {{< bootstrap/config-toggle filename=hugo >}}

@@ -39,27 +39,27 @@ The collapse shortcode is used to show and hide content.
 ### Steps Example
 
 ```markdown
-{{</* bootstrap/collapse heading="1. Step One" expand=true */>}}
+{{</* bs/collapse heading="1. Step One" expand=true */>}}
 First of all ...
-{{</* /bootstrap/collapse */>}}
+{{</* /bs/collapse */>}}
 
-{{%/* bootstrap/collapse "2. Step Two" secondary */%}}
+{{%/* bs/collapse "2. Step Two" secondary */%}}
 And then ...
-{{%/* /bootstrap/collapse */%}}
+{{%/* /bs/collapse */%}}
 
-{{%/* bootstrap/collapse "3. Step Three" success */%}}
+{{%/* bs/collapse "3. Step Three" success */%}}
 **Well done**.
-{{%/* /bootstrap/collapse */%}}
+{{%/* /bs/collapse */%}}
 ```
 
 
-{{< bootstrap/collapse heading="1. Step One" expand=true >}}
+{{< bs/collapse heading="1. Step One" expand=true >}}
 First of all ...
-{{< /bootstrap/collapse >}}
+{{< /bs/collapse >}}
 
-{{% bootstrap/collapse "2. Step Two" info %}}
+{{% bs/collapse "2. Step Two" info %}}
 And then ...
-{{% /bootstrap/collapse %}}
+{{% /bs/collapse %}}
 
 {{% bootstrap/collapse "3. Step Three" success %}}
 **Well done**.
@@ -68,28 +68,28 @@ And then ...
 ### Files Example
 
 ````markdown
-{{</* bootstrap/collapse heading="Configuration" expand=true */>}}
-  {{</* bootstrap/config-toggle hugo */>}}
+{{</* bs/collapse heading="Configuration" expand=true */>}}
+  {{</* bs/config-toggle hugo */>}}
   params:
     message: "Hello world!"
-  {{</* /bootstrap/config-toggle */>}}
-{{</* /bootstrap/collapse */>}}
+  {{</* /bs/config-toggle */>}}
+{{</* /bs/collapse */>}}
 
-{{%/* bootstrap/collapse "Template" */%}}
+{{%/* bs/collapse "Template" */%}}
   ```go-html-template
   <div class="greeting">
     {{ site.Params.message }}
   </div>
   ```
-{{%/* /bootstrap/collapse */%}}
+{{%/* /bs/collapse */%}}
 ````
 
-{{< bootstrap/collapse heading="Configuration" expand=true >}}
-  {{< bootstrap/config-toggle hugo >}}
+{{< bs/collapse heading="Configuration" expand=true >}}
+  {{< bs/config-toggle hugo >}}
   params:
     message: "Hello world!"
-  {{< /bootstrap/config-toggle >}}
-{{< /bootstrap/collapse >}}
+  {{< /bs/config-toggle >}}
+{{< /bs/collapse >}}
 
 {{% bootstrap/collapse "Template" %}}
   ```go-html-template

@@ -29,13 +29,17 @@ Quickly and easily clear floated content within a container by wrapping the cont
 ## Syntax
 
 ```markdown
-{{%/* bootstrap/clearfix */%}}
+{{%/* bs/clearfix */%}}
 FLOATING CONTENT.
-{{%/* /bootstrap/clearfix */%}}
+{{%/* /bs/clearfix */%}}
 ```
 
 ## Examples
 
 {{% bootstrap/clearfix %}}
-![Float Start](images/example.jpg?width=200px#float-start) Clearfix the floating content by wrapping it inside the `bootstrap/clearfix` shortcode.
+![Float Start](images/example.jpg?width=200px#float-start) Clearfix the floating content by wrapping it inside the `bs/clearfix` shortcode.
 {{% /bootstrap/clearfix %}}
+
+{{% bs/clearfix %}}
+![Float End](images/example.jpg?width=200px#float-end) Clearfix the floating content by wrapping it inside the `bootstrap/clearfix` shortcode.
+{{% /bs/clearfix %}}
