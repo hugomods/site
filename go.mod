@@ -14,7 +14,7 @@ require (
 	github.com/hbstack/blog/modules/heading-sign v0.1.1 // indirect
 	github.com/hbstack/blog/modules/post-nav v0.1.1 // indirect
 	github.com/hbstack/blog/modules/related-posts v0.1.1 // indirect
-	github.com/hbstack/bootstrap v0.1.2 // indirect
+	github.com/hbstack/bootstrap v0.1.1 // indirect
 	github.com/hbstack/carousel v0.1.13 // indirect
 	github.com/hbstack/code-block-panel v0.1.0 // indirect
 	github.com/hbstack/docs v0.1.2 // indirect
@@ -48,7 +48,7 @@ require (
 	github.com/hbstack/syntax-highlighting v0.1.0 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
 	github.com/hugomods/base v0.1.0 // indirect
-	github.com/hugomods/bootstrap v0.2.3 // indirect
+	github.com/hugomods/bootstrap v0.3.0 // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.0 // indirect
 	github.com/hugomods/google-adsense v0.1.0 // indirect
@@ -71,7 +71,7 @@ require (
 	github.com/hugomods/seo/modules/schema v0.1.0 // indirect
 	github.com/hugomods/seo/modules/translations v0.1.0 // indirect
 	github.com/hugomods/seo/modules/twitter-cards v0.1.0 // indirect
-	github.com/hugomods/shortcodes v0.1.0 // indirect
+	github.com/hugomods/shortcodes v0.2.0 // indirect
 	github.com/hugomods/snackbar v0.1.1 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v7.1.1+incompatible // indirect

@@ -7,3 +7,7 @@ nav_icon:
   name: code-square
   color: "#ff7143"
 ---
+
+This module extends Hugo shortcodes.
+
+{{< module "github.com/hugomods/shortcodes" >}}
