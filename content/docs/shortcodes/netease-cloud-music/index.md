@@ -30,14 +30,14 @@ The NetEase cloud music shortcode allows embedding the player in your content. P
 
 ### Parameters
 
-| Name | Position | Type | Required | Default | Description |
-| ---- | :------: | :--: | :------: | :-----: | ----------- |
-| `id` | `#0` | number | Y | - | The ID of playlist, album or song. |
-| `type` | `#2` | number | - | `playlist` | `playlist`, `album` and `song`. |
-| `auto` | `#3` | boolean | - | `false` | Auto play if true. |
-| `title` | `#4` | string | - | `[type]'s [id]` | The title of frame. |
-| `height` | - | number | - | `66` (song), `310` (others) | The height of player. |
-| `width` | - | number | - | `100%` | The width of player. |
+| Position | Name | Type | Required | Default | Description |
+| -------- | ---- | :--: | :------: | :-----: | ----------- |
+| `#0` | `id` | number | Y | - | The ID of playlist, album or song. |
+| `#1` | `type` | number | - | `playlist` | `playlist`, `album` and `song`. |
+| `#2` | `auto` | boolean | - | `false` | Auto play if true. |
+| `#3` | `title` | string | - | `[type]'s [id]` | The title of frame. |
+| - | `height` | number | - | `66` (song), `310` (others) | The height of player. |
+| - | `width` | number | - | `100%` | The width of player. |
 
 ## Examples
 

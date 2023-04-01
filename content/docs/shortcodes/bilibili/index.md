@@ -29,10 +29,10 @@ This shortcode allows embedding the bilibili video in your content.
 
 ### Parameters
 
-| Name | Position | Type | Required | Default | Description |
-| ---- | :------: | :--: | :------: | :-----: | ----------- |
-| `id` | `#0` | string | Y | - | The video ID, such as `BVXXXXXXXXXX`. |
-| `fullscreen` | - | boolean | - | `true` | Allow fullscreen. |
+| Position | Name | Type | Required | Default | Description |
+| -------- | ---- | :--: | :------: | :-----: | ----------- |
+| `#0` | `id` | string | Y | - | The video ID, such as `BVXXXXXXXXXX`. |
+| - | `fullscreen` | boolean | - | `true` | Allow fullscreen. |
 
 ## Examples
 
