@@ -1,4 +1,5 @@
 title: Hugo Modules
+copyright: Copyright © 2022-2023 [Hugo Modules](https://hugomods.com). All Rights Reserved.
 baseURL: https://example.com/
 defaultContentLanguageInSubdir: true
 enableRobotsTXT: true
