@@ -26,6 +26,7 @@ module:
     - path: github.com/hugomods/katex
     - path: github.com/hugomods/google-analytics
     - path: github.com/hugomods/google-adsense
+    - path: github.com/hugomods/shortcodes
 
 outputs:
   home:
