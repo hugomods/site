@@ -15,6 +15,10 @@ hb:
   blog:
     home:
       recent_posts: 12
+  content_panel:
+    repo:
+      service: github
+      repo: hugomods/site
 
 seo:
   favicons:

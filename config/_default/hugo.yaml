@@ -6,9 +6,6 @@ enableRobotsTXT: true
 
 module:
   imports:
-    # recommended modules.
-    - path: github.com/hbstack/meta/recommended
-
     # icons modules.
     - path: github.com/hugomods/icons/vendors/bootstrap
     - path: github.com/hugomods/icons/vendors/feather
@@ -28,6 +25,12 @@ module:
     - path: github.com/hugomods/google-analytics
     - path: github.com/hugomods/google-adsense
     - path: github.com/hugomods/shortcodes
+
+    - path: github.com/hbstack/blog/modules/content-panel
+    - path: github.com/hbstack/docs/modules/content-panel
+
+    # recommended modules.
+    - path: github.com/hbstack/meta/recommended
 
 outputs:
   home:
