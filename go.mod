@@ -55,7 +55,7 @@ require (
 	github.com/hugomods/giscus v0.1.0 // indirect
 	github.com/hugomods/google-adsense v0.1.0 // indirect
 	github.com/hugomods/google-analytics v0.1.0 // indirect
-	github.com/hugomods/gravatar v0.1.1 // indirect
+	github.com/hugomods/gravatar v0.2.0 // indirect
 	github.com/hugomods/hugopress v0.1.0 // indirect
 	github.com/hugomods/icons v0.6.0 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.4.1 // indirect
