@@ -7,7 +7,7 @@ require (
 	github.com/hbstack/back-to-top v0.1.2 // indirect
 	github.com/hbstack/base v0.1.3 // indirect
 	github.com/hbstack/bigger-picture v0.5.0 // indirect
-	github.com/hbstack/blog v0.6.0 // indirect
+	github.com/hbstack/blog v0.6.1 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.2 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.0 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.1.2 // indirect
@@ -55,7 +55,7 @@ require (
 	github.com/hugomods/giscus v0.1.0 // indirect
 	github.com/hugomods/google-adsense v0.1.0 // indirect
 	github.com/hugomods/google-analytics v0.1.0 // indirect
-	github.com/hugomods/gravatar v0.1.1 // indirect
+	github.com/hugomods/gravatar v0.2.0 // indirect
 	github.com/hugomods/hugopress v0.1.0 // indirect
 	github.com/hugomods/icons v0.6.0 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.4.1 // indirect
