@@ -76,6 +76,7 @@ You can find more examples on https://hugomods.github.io/gravatar/.
 |---|:-:|---
 | `Id` | String | The MD5 encrypted email address hash, you **MUST** provide one of the `Id` or `Email`.
 | `Email` | String | The raw email address.
+| `Alt` | String | The alternative text.
 | `Default` | String | The default image.
 | `ForceDefault` | Boolean | Force the default image to always load.
 | `Size` | Integer | The image size.
@@ -86,6 +87,7 @@ You can find more examples on https://hugomods.github.io/gravatar/.
 {{ $params := dict (
     "Id" "e7501ec2b3cd95d6af8964743c1d27c7"
     "Size" 120
+    "Alt" "Foo"
     "Default" "monsterid"
     "ForceDefault" true
     "Rating" "x"
