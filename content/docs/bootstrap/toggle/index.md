@@ -66,7 +66,7 @@ RAW CONTENT.
 ### FooBar Example
 
 ```markdown
-{{/*< bs/toggle foobar */>}}
+{{</* bs/toggle foobar */>}}
 
   {{%/* bs/toggle-item Foo */%}}
   *Foo* Content with **Markdown**
