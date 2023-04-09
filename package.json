@@ -11,7 +11,15 @@
     "url": "https://github.com/hugomods/site/issues"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss-cli": "^10.1.0",
     "prettier": "^2.7.1",
-    "prettier-plugin-go-template": "^0.0.13"
+    "prettier-plugin-go-template": "^0.0.13",
+    "rtlcss": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "hugo server -p 8080 --gc --disableFastRender --buildDrafts --enableGitInfo",
+    "prod": "hugo server -e production --minify --gc --renderToDisk --disableFastRender -b --enableGitInfo http://localhost:8081 -p 8081"
   }
 }
