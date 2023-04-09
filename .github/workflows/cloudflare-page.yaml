@@ -27,7 +27,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install dependencies
-        run: npm i -g postcss-cli autoprefixer @fullhuman/postcss-purgecss rtlcss
+        run: npm ci
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
