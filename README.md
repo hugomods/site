@@ -1,3 +1,3 @@
-# Hugo Modules Site - Non-official GoHugo Site.
+# The source of https://hugomods.com.
 
-https://hugomods.com.
+**Please note that the site isn't maintained by official Hugo team.**
