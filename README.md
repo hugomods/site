@@ -1,3 +1,3 @@
-# Hugo Modules Official Site
+# Hugo Modules Site
 
 https://hugomods.com.
