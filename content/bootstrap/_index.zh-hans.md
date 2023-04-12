@@ -11,6 +11,15 @@ date: 2023-03-23T21:47:13+08:00
 draft: false
 aliases:
   - /zh-hans/docs/bootstrap
+menu:
+  main:
+    parent: modules
+    params:
+      description: 一些有用的 Bootstrap 短代码。
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7952B3'
 ---
 
 Bootstrap 模块为用户提供了一些短代码。

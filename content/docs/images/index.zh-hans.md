@@ -7,4 +7,12 @@ nav_icon:
   vendor: 'bs'
   name: 'images'
   color: 'blue'
+menu:
+  main:
+    parent: modules
+    params:
+      icon:
+        vendor: bs
+        name: images
+        color: blue'
 ---

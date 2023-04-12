@@ -5,6 +5,14 @@ nav_icon:
   vendor: simple-icons
   name: hugo
   color: '#ff4088'
+menu:
+  main:
+    parent: modules
+    params:
+      icon:
+        vendor: simple
+        name: hugo
+        color: '#ff4088'
 featured: true
 pinned: false
 date: 2023-03-23T12:28:13+08:00

@@ -6,6 +6,14 @@ nav_icon:
   vendor: 'bs'
   name: 'images'
   color: '#0d6efd'
+menu:
+  main:
+    parent: modules
+    params:
+      icon:
+        vendor: bs
+        name: images
+        color: blue'
 featured: true
 pinned: true
 date: 2023-03-23T21:41:35+08:00

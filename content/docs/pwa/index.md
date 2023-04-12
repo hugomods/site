@@ -6,6 +6,14 @@ nav_icon:
   vendor: bs
   name: rocket
   color: 'red'
+menu:
+  main:
+    parent: modules
+    params:
+      icon:
+        vendor: bs
+        name: rocket
+        color: 'red'
 featured: true
 pinned: false
 date: 2023-03-24T23:03:05+08:00

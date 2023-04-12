@@ -2,11 +2,12 @@
 title: Blog
 menu:
   main:
-    identifier: blog
+    identifier: blog-list
+    parent: blog
     name: Blog
-    weight: 10
     params:
+      description: List of blog posts.
       icon:
-        vendor: fas
-        name: blog
+        vendor: bs
+        name: card-list
 ---

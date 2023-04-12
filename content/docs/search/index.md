@@ -6,6 +6,14 @@ nav_icon:
   vendor: bs
   name: search
   color: '#65c6e0'
+menu:
+  main:
+    parent: modules
+    params:
+      icon:
+        vendor: bs
+        name: search
+        color: '#65c6e0'
 featured: true
 pinned: false
 date: 2023-03-24T20:55:07+08:00

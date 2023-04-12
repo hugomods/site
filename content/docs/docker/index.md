@@ -23,6 +23,7 @@ authors:
   - HugoMods
 menu:
   main:
+    parent: projects
     params:
       icon:
         vendor: simple-icons
