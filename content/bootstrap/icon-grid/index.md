@@ -5,7 +5,7 @@ linkTitle: "Icon Grid"
 date: 2023-04-12T09:48:05+08:00
 featured: false
 pinned: false
-draft: true
+draft: false
 nav_icon:
   vendor: bs
   name: grid-3x3-gap
