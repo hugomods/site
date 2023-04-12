@@ -1,10 +1,12 @@
 ---
+type: docs
 title: "Bootstrap Collapse Shortcode"
 linkTitle: "Collapse"
 nav_weight: 1000
 nav_icon:
   vendor: bs
   name: chevron-expand
+  className: text-success
 featured: false
 pinned: false
 date: 2023-03-24T20:12:21+08:00
@@ -20,6 +22,8 @@ authors:
   - HugoMods
   - RazonYang
 images:
+aliases:
+  - /en/docs/bootstrap/collapse
 ---
 
 The collapse shortcode is used to show and hide content.

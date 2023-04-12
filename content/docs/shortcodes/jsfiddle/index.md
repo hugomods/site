@@ -47,7 +47,7 @@ This shortcode add support for JSFiddle, a online code editor for testing your J
 
 ## Examples
 
-It's recommended using the [ratio]({{< relref "docs/bootstrap/ratio" >}}) shortcode to wrap JSFiddle frame if you're using Bootstrap.
+It's recommended using the [ratio]({{< relref "bootstrap/ratio" >}}) shortcode to wrap JSFiddle frame if you're using Bootstrap.
 
 ```markdown
 {{</* bs/ratio 21x9 */>}}

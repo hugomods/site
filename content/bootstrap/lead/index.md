@@ -1,10 +1,12 @@
 ---
+type: docs
 title: "Bootstrap Lead Shortcode"
 linkTitle: "Lead"
 nav_weight: 1000
 nav_icon:
   vendor: bs
   name: paragraph
+  className: text-danger
 featured: false
 pinned: false
 date: 2023-04-10T08:49:25+08:00
@@ -18,6 +20,8 @@ tags:
 authors:
   - HugoMods
 images:
+aliases:
+  - /en/docs/bootstrap/lead
 ---
 
 Make a paragraph stand out by the `bs/lead` shortcode.

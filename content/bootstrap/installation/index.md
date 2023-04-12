@@ -1,10 +1,12 @@
 ---
+type: docs
 title: "Install Bootstrap Module"
 linkTitle: "Installation"
 nav_weight: 1
 nav_icon:
   vendor: bs
   name: cloud-download
+  className: text-success
 featured: false
 pinned: false
 date: 2023-03-24T11:27:36+08:00
@@ -17,6 +19,8 @@ categories:
 tags:
 authors:
   - HugoMods
+aliases:
+  - /en/docs/bootstrap/installation
 ---
 
 This article shows how to install the Bootstrap module.
@@ -27,7 +31,7 @@ This article shows how to install the Bootstrap module.
 
 ## Requirements
 
-Some shortcodes like [Clearfix]({{< ref "docs/bootstrap/clearfix" >}}) require the `markup.goldmark.renderer.unsafe` to be enabled.
+Some shortcodes like [Clearfix]({{< ref "bootstrap/clearfix" >}}) require the `markup.goldmark.renderer.unsafe` to be enabled.
 
 {{< bs/config-toggle filename=hugo >}}
 [markup.goldmark.renderer]

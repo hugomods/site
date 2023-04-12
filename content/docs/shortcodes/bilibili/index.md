@@ -38,7 +38,7 @@ This shortcode allows embedding the bilibili video in your content.
 
 ### Used with Ratio Shortcode
 
-It's recommended that use the [ratio]({{< relref "docs/bootstrap/ratio" >}}) to wrap external videos.
+It's recommended that use the [ratio]({{< relref "bootstrap/ratio" >}}) to wrap external videos.
 
 ```markdown
 {{</* bs/ratio */>}}

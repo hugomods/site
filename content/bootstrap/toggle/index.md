@@ -1,10 +1,12 @@
 ---
+type: docs
 title: "Bootstrap Toggle Shortcode"
 linkTitle: "Toggle"
 nav_weight: 1000
 nav_icon:
   vendor: bs
   name: toggle-on
+  className: text-primary
 featured: false
 pinned: false
 date: 2023-03-24T13:05:58+08:00
@@ -18,9 +20,11 @@ tags:
 authors:
   - HugoMods
 images:
+aliases:
+  - /en/docs/bootstrap/toggle
 ---
 
-The [config toggle]({{< ref "docs/bootstrap/config-toggle" >}}) is useful, but it's limited to generate configuration code blocks in `YAML`, `TOML` and `JSON` languages. The `toggle*` shortcodes are designed to be more versatile.
+The [config toggle]({{< ref "bootstrap/config-toggle" >}}) is useful, but it's limited to generate configuration code blocks in `YAML`, `TOML` and `JSON` languages. The `toggle*` shortcodes are designed to be more versatile.
 
 <!--more-->
 

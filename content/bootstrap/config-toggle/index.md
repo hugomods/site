@@ -1,10 +1,12 @@
 ---
+type: docs
 title: "Bootstrap Config Toggle Shortcode"
 linkTitle: "Config Toggle"
 nav_weight: 1000
 nav_icon:
   vendor: bs
   name: code
+  color: '#ff4088'
 featured: false
 pinned: false
 date: 2023-03-24T11:32:34+08:00
@@ -24,6 +26,8 @@ tags:
   - JSON
 authors:
   - HugoMods
+aliases:
+  - /en/docs/bootstrap/config-toggle
 ---
 
 This shortcode generates the code blocks in multiple languages from one code base.

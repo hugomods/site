@@ -1,10 +1,12 @@
 ---
+type: docs
 title: "Bootstrap Alert Shortcodes"
 linkTitle: "Alert"
 nav_weight: 1000
 nav_icon:
   vendor: bs
   name: info-circle
+  className: text-warning
 featured: true
 pinned: false
 date: 2023-03-24T12:19:05+08:00
@@ -19,6 +21,8 @@ tags:
 authors:
   - HugoMods
 images:
+aliases:
+  - /en/docs/bootstrap/alert
 ---
 
 The article describe how to use the `bs/alert*` shortcodes to generate alert messages.

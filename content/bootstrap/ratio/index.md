@@ -1,11 +1,12 @@
 ---
-title: "Ratio Shortcode"
+type: docs
+title: "Bootstrap Ratio Shortcode"
 linkTitle: "Ratio"
 nav_weight: 1000
 nav_icon:
   vendor: bs
   name: aspect-ratio
-#   color: ''
+  className: 'text-info'
 featured: false
 pinned: false
 date: 2023-04-01T18:34:06+08:00
@@ -20,6 +21,8 @@ tags:
 authors:
   - HugoMods
 images:
+aliases:
+  - /en/docs/bootstrap/ratio
 ---
 
 The ratio shortcode is perfect for responsively handling video or slideshow embeds based on the width of the parent.
