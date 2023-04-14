@@ -153,6 +153,7 @@ github.com/hugomods/icons/vendors/tabler v0.7.0 h1:AvohBIhbT4m8TyYhN5Ez77iYIlKfx
 github.com/hugomods/icons/vendors/tabler v0.7.0/go.mod h1:2+axP9/XMlAc9xUgTaRsldSENINAgQAwkmwAKgH5vio=
 github.com/hugomods/icons/vendors/tabler v0.8.0 h1:8660K9Him1LgzRTA/4Jx+U1ImfVIi4BEPdgPLSMNDKs=
 github.com/hugomods/icons/vendors/tabler v0.8.0/go.mod h1:zV/Z9NkmJr0GCNWXSSMh4hZ+Plm+jyIViLB36xyLMGM=
+github.com/hugomods/icons/vendors/tabler v0.9.0/go.mod h1:cH5NrlGLfHfDCvvkDhPgOCo4Nk/IOuCXyUGby7MWhYs=
 github.com/hugomods/images v0.4.0 h1:kgSFxcx6cm7ZNjYYqcLibKBS3Rp/bzAXiqeBACFYAKE=
 github.com/hugomods/images v0.4.0/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
 github.com/hugomods/images v0.5.0/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
