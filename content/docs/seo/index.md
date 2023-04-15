@@ -33,7 +33,6 @@ This module ships with some sub modules to helps you generate SEO stuff, such as
 
 ## Installation
 
-
 ### 1. Import the Module
 
 {{< bootstrap/config-toggle hugo >}}
@@ -59,7 +58,7 @@ path = "MODULE_PATH"
 2. Generate the `description` meta tag.
 3. Generate the `noindex` meta tag if the `noindex` parameter is enabled.
 
-| Partial                 |
+| Partial                  |
 | ------------------------ |
 | `seo/modules/base/index` |
 
@@ -89,14 +88,14 @@ Generates favicons in multiple sizes base on the `assets/favicon.png`.
 
 The following params begin with `params.seo.favicons`.
 
-| Params            |  Type  |     Default     | Description           |
-| ----------------- | :----: | :-------------: | --------------------- |
-| `icon`            | String |  `favicon.png`  |
-| `mask_icon`       | String | `mask-icon.svg` |
-| `mask_icon_color` | String |    `#000000`    |
-| `sizes`           | Array  |        -        |
-| `sizes.size`      | String |        -        | For example, `32x32`. |
-| `sizes.rel`       | String |     `icon`      |
+| Params            |  Type  |     Default     | Description                                                               |
+| ----------------- | :----: | :-------------: | ------------------------------------------------------------------------- |
+| `icon`            | String |  `favicon.png`  | Only raster images are supported, vector images are _invalid_ (i.e. SVG). |
+| `mask_icon`       | String | `mask-icon.svg` |                                                                           |
+| `mask_icon_color` | String |    `#000000`    |                                                                           |
+| `sizes`           | Array  |        -        |                                                                           |
+| `sizes.size`      | String |        -        | For example, `32x32`.                                                     |
+| `sizes.rel`       | String |     `icon`      |                                                                           |
 
 {{< bootstrap/config-toggle hugo >}}
 [[params.seo.favicons.sizes]]
