@@ -91,6 +91,7 @@ The following params begin with `params.seo.favicons`.
 | Params            |  Type  |     Default     | Description                                                               |
 | ----------------- | :----: | :-------------: | ------------------------------------------------------------------------- |
 | `icon`            | String |  `favicon.png`  | Only raster images are supported, vector images are _invalid_ (i.e. SVG). |
+| `svg_icon`        | string |  `favicon.svg`  |                                                                           |
 | `mask_icon`       | String | `mask-icon.svg` |                                                                           |
 | `mask_icon_color` | String |    `#000000`    |                                                                           |
 | `sizes`           | Array  |        -        |                                                                           |
