@@ -57,7 +57,7 @@ The site parameters as following.
 
 {{< bootstrap/config-toggle hugo >}}
 [params.mermaid]
-js_url = "https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.min.js"
+js_url = "https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs"
 {{< /bootstrap/config-toggle >}}
 
 ## Usage
