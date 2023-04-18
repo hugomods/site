@@ -25,8 +25,8 @@ require (
 	github.com/hbstack/docs/modules/featured-image v0.2.0 // indirect
 	github.com/hbstack/docs/modules/giscus v0.1.2 // indirect
 	github.com/hbstack/docs/modules/heading-sign v0.1.2 // indirect
-	github.com/hbstack/footer v0.1.5 // indirect
-	github.com/hbstack/footer/modules/socials v0.1.2 // indirect
+	github.com/hbstack/footer v0.2.0 // indirect
+	github.com/hbstack/footer/modules/socials v0.1.3 // indirect
 	github.com/hbstack/header v0.1.11 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.2 // indirect
 	github.com/hbstack/header/modules/search v0.1.6 // indirect
