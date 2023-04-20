@@ -6,6 +6,8 @@ enableRobotsTXT: true
 
 module:
   imports:
+    - path: github.com/razonyang/hb-mod-thanks
+
     # icons modules.
     - path: github.com/hugomods/icons/vendors/bootstrap
     - path: github.com/hugomods/icons/vendors/feather
