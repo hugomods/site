@@ -35,7 +35,7 @@ require (
 	github.com/hbstack/heading-sign v0.1.3 // indirect
 	github.com/hbstack/mermaid v0.1.0 // indirect
 	github.com/hbstack/meta/blog v0.1.0 // indirect
-	github.com/hbstack/meta/content v0.4.0 // indirect
+	github.com/hbstack/meta/content v0.4.1 // indirect
 	github.com/hbstack/meta/docs v0.1.0 // indirect
 	github.com/hbstack/meta/footer v0.1.0 // indirect
 	github.com/hbstack/meta/header v0.1.0 // indirect
