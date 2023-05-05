@@ -291,6 +291,7 @@ Currently, this module supports the following languages, please feel free to ope
 > The translations are stored in the [`data/search/i18n`](https://github.com/hugomods/search/tree/main/data/search/i18n) folder, it's different from Hugo i18n, since the module using JS instead of templates to render the HTML markup.
 
 - English (`en`)
+- German (`de`)
 - Simplified Chinese (`zh-hans`)
 - Traditional Chinese `zh-hant`)
 
