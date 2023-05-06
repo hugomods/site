@@ -45,7 +45,7 @@ path = "github.com/hugomods/utterances"
 
 ## Site Parameters
 
-| Name | Type | Requried | Default | Description
+| Name | Type | Required | Default | Description
 |---|:-:|:-:|:-:|---
 | `endpoint` | String | Y | `https://utteranc.es/` | The client script endpoint.
 | `repo` | String | Y | - | The GitHub repository, `user/repo`.
