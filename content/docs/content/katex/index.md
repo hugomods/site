@@ -1,6 +1,6 @@
 ---
-title: "Hugo KaTex Module"
-linkTitle: "KaTex"
+title: "Hugo KaTeX Module"
+linkTitle: "KaTeX"
 date: 2023-03-22T17:38:35+08:00
 draft: false
 featured: true
@@ -13,13 +13,13 @@ series:
 categories:
   - Content
 tags:
-  - KaTex
+  - KaTeX
   - Math
 authors:
   - HugoMods
 ---
 
-KaTex is the fastest math typesetting library for the web, this module integrates KaTex with Hugo.
+KaTeX is the fastest math typesetting library for the web, this module integrates KaTeX with Hugo.
 
 <!--more-->
 
@@ -51,7 +51,7 @@ module:
 
 ## Usage
 
-### Using KaTex via Code Block
+### Using KaTeX via Code Block
 
 ````markdown
 ```katex
@@ -67,7 +67,7 @@ FORMULA HERE
 f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
 ```
 
-### Using KaTex via Shortcode
+### Using KaTeX via Shortcode
 
 ````markdown
 {{/*< katex >*/}}
