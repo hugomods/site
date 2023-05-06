@@ -87,6 +87,8 @@ A powerful, flexible and responsive [Hugo](https://gohugo.io/) client side fuzzy
 
 There is an [example site](https://hugomods.github.io/search/) and it's [source code](https://github.com/hugomods/search/tree/main/exampleSite) to help you get started.
 
+There also a guide for [integrating Docsy with the search module]({{< relref "blog/docsy-search" >}}).
+
 ### 1. Import the module
 
 ```toml
