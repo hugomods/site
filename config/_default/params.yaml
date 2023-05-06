@@ -19,6 +19,7 @@ hb:
     repo:
       service: github
       repo: hugomods/site
+      branch: main
 
 seo:
   favicons:
