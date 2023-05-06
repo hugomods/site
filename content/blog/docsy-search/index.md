@@ -35,7 +35,7 @@ cd docsy
 
 ## Install Missing Dependencies
 
-The search module use RTLCSS to generate styles for RTL sites.
+The search module uses RTLCSS to generate styles for RTL sites.
 
 ```sh
 npm i -D rtlcss
