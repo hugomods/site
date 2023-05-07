@@ -35,40 +35,42 @@ This article describes the up-to-date Hugo docker images, and offer some example
 
 <!--more-->
 
-{{< shields "https://img.shields.io/docker/pulls/razonyang/hugo?style=flat-square" "https://hub.docker.com/r/razonyang/hugo" >}}
-{{< shields "https://img.shields.io/docker/v/razonyang/hugo/latest?style=flat-square" "https://hub.docker.com/r/razonyang/hugo" >}}
-{{< shields "https://github.com/razonyang/docker-hugo/actions/workflows/docker.yml/badge.svg" "https://github.com/razonyang/docker-hugo/actions/workflows/docker.yml" >}}
+{{< shields "https://img.shields.io/docker/pulls/hugomods/hugo?style=flat-square" "https://hub.docker.com/r/hugomods/hugo" >}}
+{{< shields "https://img.shields.io/docker/v/hugomods/hugo/latest?style=flat-square" "https://hub.docker.com/r/hugomods/hugo" >}}
+{{< shields "https://github.com/hugomods/docker/actions/workflows/build.yml/badge.svg" "https://github.com/hugomods/docker/actions/workflows/build.yml" >}}
 
 ## How to Build Latest Images?
 
 We set up an automated workflow for checking and building latest Hugo images, which can be triggered by:
 
-1. [Cron job](https://github.com/razonyang/docker-hugo/actions/workflows/docker.yml) which runs every 30 min.
-2. Commenting on [the issue](https://github.com/razonyang/docker-hugo/issues/3).
+1. [Cron job](https://github.com/hugomods/docker/actions/workflows/build.yml) which runs every 30 min.
+2. Commenting on [the issue](https://github.com/hugomods/docker/issues/3).
 
 ## Images
 
-The images will be pushed to both of [Docker Hub](https://hub.docker.com/r/razonyang/hugo)  and [GitHub Container Register](https://github.com/hugomods/docker/pkgs/container/hugo).
+The images will be pushed to both of [Docker Hub](https://hub.docker.com/r/hugomods/hugo)  and [GitHub Container Register](https://github.com/hugomods/docker/pkgs/container/hugo).
+
+> We've renamed `razonyang/hugo` to `hugomods/hugo`, the former won't be got updated anymore, please use `hugomods/hugo` instead.
 
 | Container Register | Image Name                                                                        |
 | ------------------ | --------------------------------------------------------------------------------- |
-| Docker Hub         | [`razonyang/hugo`](https://hub.docker.com/r/razonyang/hugo)                       |
+| Docker Hub         | [`hugomods/hugo`](https://hub.docker.com/r/hugomods/hugo)                       |
 | GitHub             | [`ghcr.io/hugomods/hugo`](https://github.com/hugomods/docker/pkgs/container/hugo) |
 
 ## Image Tags
 
 | Tag                  | Size | Extended | Go  | Node | NPM | Git |
 | -------------------- | :--- | :------: | :-: | :--: | :-: | :-: |
-| `latest`, `<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/razonyang/hugo/latest) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| `base`, `base-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/razonyang/hugo/base) | ✅ | ❌ |  ❌ |  ❌ |  ❌ |
-| `go`, `go-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/razonyang/hugo/go) | ✅ | ✅ |  ❌ |  ❌ |  ❌ |
-| `node`, `node-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/razonyang/hugo/node) | ✅ | ❌ | ✅ | ✅ |  ❌ |
-| `exts`, `exts-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/razonyang/hugo/exts) | ✅ | ✅ | ✅ | ✅ |  ✅ |
-| `reg`, `reg-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/razonyang/hugo/latest) | ❌ | ✅ | ✅ | ✅ | ✅ |
-| `reg-base`, `reg-base-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/razonyang/hugo/reg-base) | ❌ | ❌ |  ❌ |  ❌ |  ❌ |
-| `reg-go`, `reg-go-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/razonyang/hugo/reg-go) | ❌ | ✅ |  ❌ |  ❌ |  ❌ |
-| `reg-node`, `reg-node-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/razonyang/hugo/reg-node) | ❌ | ❌ |  ✅ |  ✅ |  ❌ |
-| `reg-exts`, `reg-exts-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/razonyang/hugo/reg-exts) | ❌ | ✅ |  ✅ |  ✅ |  ✅ |
+| `latest`, `<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/latest) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `base`, `base-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/base) | ✅ | ❌ |  ❌ |  ❌ |  ❌ |
+| `go`, `go-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/go) | ✅ | ✅ |  ❌ |  ❌ |  ❌ |
+| `node`, `node-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/node) | ✅ | ❌ | ✅ | ✅ |  ❌ |
+| `exts`, `exts-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/exts) | ✅ | ✅ | ✅ | ✅ |  ✅ |
+| `reg`, `reg-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/latest) | ❌ | ✅ | ✅ | ✅ | ✅ |
+| `reg-base`, `reg-base-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-base) | ❌ | ❌ |  ❌ |  ❌ |  ❌ |
+| `reg-go`, `reg-go-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-go) | ❌ | ✅ |  ❌ |  ❌ |  ❌ |
+| `reg-node`, `reg-node-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-node) | ❌ | ❌ |  ✅ |  ✅ |  ❌ |
+| `reg-exts`, `reg-exts-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-exts) | ❌ | ✅ |  ✅ |  ✅ |  ✅ |
 
 - `<version>`: the placeholder for Hugo version, i.e. `0.111.3`.
 - `reg`: represents the regular Hugo version.
@@ -82,10 +84,10 @@ We provides a walkthrough about using Hugo Docker images to develop our themes o
 
 ### Pick Up the Right Images
 
-Firstly, compare and pick up the [Docker images](#image-tags). Let's take `razonyang/hugo` image as an example.
+Firstly, compare and pick up the [Docker images](#image-tags). Let's take `hugomods/hugo` image as an example.
 
 ```sh
-docker pull razonyang/hugo
+docker pull hugomods/hugo
 ```
 
 ### Change Current Working Directory
@@ -107,7 +109,7 @@ You may need to install the dependencies before running Hugo server, such as ins
 ```sh
 docker run \
   -v ${PWD}:/src \
-  razonyang/hugo \
+  hugomods/hugo \
   npm i
 ```
 
@@ -118,7 +120,7 @@ docker run \
 ```sh
 docker run -p 1313:1313 \
   -v ${PWD}:/src \
-  razonyang/hugo \
+  hugomods/hugo \
   hugo server --bind 0.0.0.0
 ```
 
@@ -131,7 +133,7 @@ Using another port than `1313`, such as `8080`.
 ```sh
 docker run -p 8080:8080 \
   -v ${PWD}:/src \
-  razonyang/hugo \
+  hugomods/hugo \
   hugo server --bind 0.0.0.0 -p 8080
 ```
 
@@ -147,7 +149,7 @@ Firstly, create the `Dockerfile` file on your site root.
 ###############
 # Build Stage #
 ###############
-FROM razonyang/hugo:exts as builder
+FROM hugomods/hugo:exts as builder
 # Base URL
 ARG HUGO_BASEURL=
 ENV HUGO_BASEURL=${HUGO_BASEURL}
@@ -160,7 +162,7 @@ RUN hugo --minify --gc --enableGitInfo
 ###############
 # Final Stage #
 ###############
-FROM razonyang/hugo:nginx
+FROM hugomods/hugo:nginx
 COPY --from=builder /src/public /site
 ```
 
