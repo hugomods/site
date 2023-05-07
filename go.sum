@@ -53,6 +53,7 @@ github.com/hbstack/footer/modules/socials v0.1.4 h1:Ng/z4Te/jhfBx5cRF72aeKCZhHYp
 github.com/hbstack/footer/modules/socials v0.1.4/go.mod h1:OFSOZad4lOf2h0dklopr/c2mmlGe5iEtq13did6+e2k=
 github.com/hbstack/header v0.1.15 h1:gsmkxBV6+usDAsNq2ohtF3q8cytdwmRemaYnCQ/9qrw=
 github.com/hbstack/header v0.1.15/go.mod h1:TsYY9wkDKwcj1c0hzar97DXWOYqa1NW0Qg0XqcV9Zx8=
+github.com/hbstack/header v0.1.17/go.mod h1:YEYnlqmhotkQdFbSzN/ZQT55kLLfMdvVVIzEDMFgTz4=
 github.com/hbstack/header/modules/language-picker v0.1.2 h1:K7II5rqbEA69/ZZM+EtCN5pFR6QHTUP60czWjZMyS/0=
 github.com/hbstack/header/modules/language-picker v0.1.2/go.mod h1:VW86iVj/CcopYTIrD0iRF+LBoUBPsYOwo580vIoqqrs=
 github.com/hbstack/header/modules/search v0.1.10 h1:fvaTovaf1Cx7XF42b+bv1dTGaDpLsP/EACQmz2TZILc=
