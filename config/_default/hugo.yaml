@@ -29,7 +29,9 @@ module:
     - path: github.com/hugomods/shortcodes
 
     - path: github.com/hbstack/blog/modules/content-panel
+    - path: github.com/hbstack/blog/modules/toc-scrollspy
     - path: github.com/hbstack/docs/modules/content-panel
+    - path: github.com/hbstack/docs/modules/toc-scrollspy
 
     # recommended modules.
     - path: github.com/hbstack/meta/recommended
