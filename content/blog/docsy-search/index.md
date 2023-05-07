@@ -57,7 +57,7 @@ npm i -D rtlcss
 
 {{< bs/alert danger >}}
 {{% markdownify %}}
-The search modules **MUST** take precedence over Docsy and it's dependencies, since some modules introduced by Docsy will break the build of Hugo modules.
+The search module **MUST** take precedence over Docsy and it's dependencies, since some modules introduced by Docsy will break the build of Hugo modules.
 {{% /markdownify %}}
 {{< /bs/alert >}}
 
