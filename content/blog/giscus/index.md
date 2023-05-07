@@ -20,7 +20,7 @@ Unlike Utterances, it's a little bit complex to configure Giscus, since we have 
 
 ## Install and Configure Giscus App
 
-Firstly, you'll need to install and configure [Giscus](https://github.com/apps/giscus) for your **public** repository.
+Firstly, you'll need to install and configure [GitHub Giscus App](https://github.com/apps/giscus) for your **public** repository.
 Please making sure that your repository can be accessed by Giscus. For example.
 
 ![Configure Giscus](configure.png#center)
