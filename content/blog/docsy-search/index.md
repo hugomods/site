@@ -77,33 +77,67 @@ The search module **MUST** take precedence over Docsy and it's dependencies, sin
 ```
 {{% /bs/collapse %}}
 
+## Override the Search Input Partial
+
+{{% bs/collapse "layouts/partials/search-input.html" primary true %}}
+```go-html-template
+<div class="td-search td-search--offline search-modal-toggle position-relative">
+  <div class="td-search__icon"></div>
+  {{- with site.Params.search.shortcut_search }}
+    <div class="position-absolute search-modal-toggle-shortcut">
+      {{- range . }}
+        <kbd>{{ replace . "Control" "CTRL" | upper }}</kbd>
+      {{- end }}
+    </div>
+  {{- end }}
+  <input
+    type="search"
+    class="td-search__input form-control"
+    placeholder="{{ T "ui_search" }}"
+    aria-label="{{ T "ui_search" }}"
+    autocomplete="off" >
+</div>
+```
+{{% /bs/collapse %}}
+
+You might want to disable the `gcs_engine_id` and `offlineSearch` to remove the unused JS.
+
 ## Configure Search Module
 
 {{% bs/config-toggle hugo %}}
 [outputs]
 home = ["HTML", "RSS", "SearchIndex"]
-
-[params.search]
-modal_toggle_selector = '.td-search'
 {{% /bs/config-toggle %}}
 
-1. Append the `SearchIndex` into the `home` output, to generate search index.
-2. Specify `modal_toggle_selector` as `.td-search` to take control of the Docsy search input.
-
-> Please checkout the [search parameters]({{< relref "docs/search#site-parameters" >}}) for more available options.
+The configuration above appends the `SearchIndex` into the `home` output, to generate search index.
 
 ## Tweak the Styles
 
 {{% bs/collapse "assets/scss/_styles_project.scss" primary true %}}
 ```scss
 :root {
-  --search-primary: #{$primary} !important;
+    --search-primary: #{$primary} !important;
 }
 
 .search-result {
-  mark {
-    padding: 0; // remove the padding of highlight matches.
-  }
+    mark {
+        padding: 0; // remove the padding of highlight matches.
+    }
+}
+
+.search-modal-toggle-shortcut {
+    right: 0.75rem;
+    top: 0.325rem;
+
+    kbd {
+        background: #{$primary};
+    }
+}
+
+.td-navbar {
+    .search-modal-toggle-shortcut {
+        display: none;
+    }
 }
 ```
 {{% /bs/collapse %}}
