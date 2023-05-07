@@ -20,6 +20,6 @@
   },
   "scripts": {
     "dev": "hugo server -p 8080 --gc --disableFastRender --buildDrafts --enableGitInfo",
-    "prod": "hugo server -e production --minify --gc --renderToDisk --disableFastRender -b --enableGitInfo http://localhost:8081 -p 8081"
+    "prod": "hugo server -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:8081 -p 8081"
   }
 }
