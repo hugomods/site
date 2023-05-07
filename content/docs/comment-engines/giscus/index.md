@@ -46,7 +46,7 @@ path = "github.com/hugomods/giscus"
 
 ## Site Parameters
 
-> The `repo_id` and `category_id` can be fetched on https://giscus.app/.
+See [how to configure Gisucs]({{< relref "blog/giscus" >}}).
 
 | Name | Type | Required | Default | Description
 |---|:-:|:-:|:-:|---
