@@ -1,9 +1,20 @@
-[razonyang]
-login = "razonyang"
-avatar = "https://avatars.githubusercontent.com/u/17720932?v=4"
-contributions = 10000 # fake
-
 [bwc69151]
-login = "bwc69151"
-avatar = "https://avatars.githubusercontent.com/u/127702755?v=4"
+id = 127702755
+login = 'bwc69151'
+avatar_url = 'https://avatars.githubusercontent.com/u/127702755?v=4'
 contributions = 1
+repos = 1
+
+[deining]
+id = 18169566
+login = 'deining'
+avatar_url = 'https://avatars.githubusercontent.com/u/18169566?v=4'
+contributions = 5
+repos = 4
+
+[razonyang]
+id = 17720932
+login = 'razonyang'
+avatar_url = 'https://avatars.githubusercontent.com/u/17720932?v=4'
+contributions = 425
+repos = 28
