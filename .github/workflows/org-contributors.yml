@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Get contributors
-        uses: razonyang/github-org-contributors-action@v1
+        uses: razonyang/github-org-contributors-action@main
         id: contributors
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
