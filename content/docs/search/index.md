@@ -278,6 +278,8 @@ stall_threshold = 200
 | `modal_container` | String| `body` | The container for the search modal. It should be a valid CSS selector. Leave it empty if you're using single search page mode only. |
 | `modal_toggle_selector` | string | `.search-modal-toggle` | The search modal toggle selector. |
 | `lazy_loading` | Boolean | `true` | Lazy loading the indices. |
+| `filter_taxonomies` | Boolean | `true` | Whether to enable the taxonomies filter. |
+| `filter_years` | Boolean | `true` | Whether to enable the years filter. |
 
 ## Page Parameters
 
