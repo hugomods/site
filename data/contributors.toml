@@ -12,6 +12,13 @@ avatar_url = 'https://avatars.githubusercontent.com/u/18169566?v=4'
 contributions = 5
 repos = 4
 
+[evandde]
+id = 57508537
+login = 'evandde'
+avatar_url = 'https://avatars.githubusercontent.com/u/57508537?v=4'
+contributions = 2
+repos = 2
+
 [onknows]
 id = 176916
 login = 'onknows'
@@ -23,5 +30,5 @@ repos = 1
 id = 17720932
 login = 'razonyang'
 avatar_url = 'https://avatars.githubusercontent.com/u/17720932?v=4'
-contributions = 456
+contributions = 458
 repos = 28
