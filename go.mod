@@ -68,7 +68,7 @@ require (
 	github.com/hugomods/icons/vendors/tabler v0.11.0 // indirect
 	github.com/hugomods/images v0.5.1 // indirect
 	github.com/hugomods/katex v0.1.5 // indirect
-	github.com/hugomods/pwa v0.2.2 // indirect
+	github.com/hugomods/pwa v0.3.0 // indirect
 	github.com/hugomods/search v0.4.2 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect
 	github.com/hugomods/seo/modules/favicons v0.2.0 // indirect
