@@ -51,6 +51,7 @@ The list of supported icons vendors.
 | Font Awesome Brands Icons | `font-awesome-brands` | `fab` | `github.com/hugomods/icons/vendors/font-awesome` | {{< icon-version font-awesome >}} |
 | Font Awesome Regular Icons | `font-awesome-regular` | `far` | `github.com/hugomods/icons/vendors/font-awesome` | {{< icon-version font-awesome >}} |
 | Font Awesome Solid Icons | `font-awesome-solid` | `fas` | `github.com/hugomods/icons/vendors/font-awesome` | {{< icon-version font-awesome >}} |
+| Lucide Icons | `lucide` | - | `github.com/hugomods/icons/vendors/lucide` | {{< icon-version lucide >}} |
 | Material Design Icons | `mdi` | - | `github.com/hugomods/icons/vendors/mdi` | {{< icon-version mdi >}} |
 | Simple Icons | `simple-icons` | `simple` | `github.com/hugomods/icons/vendors/simple-icons` | {{< icon-version simple-icons >}} |
 | Tabler Icons | `tabler` | - | `github.com/hugomods/icons/vendors/tabler` | {{< icon-version tabler >}} |

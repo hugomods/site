@@ -12,6 +12,7 @@ module:
     - path: github.com/hugomods/icons/vendors/bootstrap
     - path: github.com/hugomods/icons/vendors/feather
     - path: github.com/hugomods/icons/vendors/font-awesome
+    - path: github.com/hugomods/icons/vendors/lucide
     - path: github.com/hugomods/icons/vendors/mdi
     - path: github.com/hugomods/icons/vendors/simple-icons
     - path: github.com/hugomods/icons/vendors/tabler
