@@ -139,6 +139,7 @@ github.com/hugomods/pwa v0.3.0 h1:1NByCobQap2qbpO+J69r9bggYMjGZ9UHznzbeBnwFJE=
 github.com/hugomods/pwa v0.3.0/go.mod h1:22AYzuQ64DKY2WJAytKqRKC2BIFc6j39Jo8tTQE+6Xc=
 github.com/hugomods/search v0.4.2 h1:UC8tDUTbnQnJRk9nwsHJjJ7xnVd3U+gPRzY4KChqJXg=
 github.com/hugomods/search v0.4.2/go.mod h1:HAGNaRUV4YKc73pt4WEM0lxIXrbOcKHHDgy9FvC+SxY=
+github.com/hugomods/search v0.4.3/go.mod h1:xdMNL0R06eMDyl8LVoFNp19lnFSNMFT+oje8j8N/WbI=
 github.com/hugomods/seo/modules/alternatives v0.1.0 h1:G5IjM7j7ExgXEMyxQj1Z/5JwwRW8DEmL0nDJYxA3NhE=
 github.com/hugomods/seo/modules/alternatives v0.1.0/go.mod h1:ff9uz+f5yii9k2jbwt/HKM3RpLR3EYZrNQBAOabNxMA=
 github.com/hugomods/seo/modules/favicons v0.2.0 h1:pzQMocbHHMNNiuE5vsCxE4qqaJBprYAUX4EOoiF+ynM=
