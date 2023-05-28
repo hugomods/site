@@ -136,6 +136,6 @@ The `icons/functions/svg-resource` function accept `vendor` and `name` parameter
 ```go-html-template
 {{ $res := dict "vendor" "bootstrap" "name" "house" }}
 {{ with partialCached "icons/functions/svg-resource" $res $res }}
-  <img src="{{ .RelPermalink }}"></img>
+  <img src="{{ .RelPermalink }}" />
 {{ end }}
 ```
