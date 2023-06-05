@@ -43,7 +43,7 @@ This article describes the up-to-date Hugo docker images, and offer some example
 
 We set up an automated workflow for checking and building latest Hugo images, which can be triggered by:
 
-1. [Cron job](https://github.com/hugomods/docker/actions/workflows/build.yml) which runs every 30 min.
+1. [Cron job](https://github.com/hugomods/docker/actions/workflows/build.yml) which runs every 10 min.
 2. Commenting on [the issue](https://github.com/hugomods/docker/issues/3).
 
 ## Images
@@ -59,22 +59,29 @@ The images will be pushed to both of [Docker Hub](https://hub.docker.com/r/hugom
 
 ## Image Tags
 
-| Tag                  | Size | Extended | Go  | Node | NPM | Git |
-| -------------------- | :--- | :------: | :-: | :--: | :-: | :-: |
-| `latest`, `<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/latest) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| `base`, `base-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/base) | ✅ | ❌ |  ❌ |  ❌ |  ❌ |
-| `go`, `go-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/go) | ✅ | ✅ |  ❌ |  ❌ |  ❌ |
-| `node`, `node-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/node) | ✅ | ❌ | ✅ | ✅ |  ❌ |
-| `exts`, `exts-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/exts) | ✅ | ✅ | ✅ | ✅ |  ✅ |
-| `reg`, `reg-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/latest) | ❌ | ✅ | ✅ | ✅ | ✅ |
-| `reg-base`, `reg-base-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-base) | ❌ | ❌ |  ❌ |  ❌ |  ❌ |
-| `reg-go`, `reg-go-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-go) | ❌ | ✅ |  ❌ |  ❌ |  ❌ |
-| `reg-node`, `reg-node-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-node) | ❌ | ❌ |  ✅ |  ✅ |  ❌ |
-| `reg-exts`, `reg-exts-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-exts) | ❌ | ✅ |  ✅ |  ✅ |  ✅ |
+| Tag                  | Size | Hugo | Extended | Go  | Node | NPM | Git |
+| -------------------- | :--- | :--: | :------: | :-: | :--: | :-: | :-: |
+| `latest`, `<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/latest) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `base`, `base-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/base) | ✅ | ✅ | ❌ |  ❌ |  ❌ |  ❌ |
+| `git`, `git-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/git) | ✅ | ✅ | ❌ |  ❌ |  ❌ |  ✅ |
+| `go`, `go-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/go) | ✅ | ✅ | ✅ |  ❌ |  ❌ |  ❌ |
+| `node`, `node-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/node) | ✅ | ✅ | ❌ | ✅ | ✅ |  ❌ |
+| `exts`, `exts-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/exts) | ✅ | ✅ | ✅ | ✅ | ✅ |  ✅ |
+| `reg`, `reg-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/latest) | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| `reg-base`, `reg-base-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-base) | ✅ | ❌ | ❌ |  ❌ |  ❌ |  ❌ |
+| `reg-git`, `reg-git-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-git) | ✅ | ❌ | ❌ |  ❌ |  ❌ |  ✅ |
+| `reg-go`, `reg-go-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-go) | ✅ | ❌ | ✅ |  ❌ |  ❌ |  ❌ |
+| `reg-node`, `reg-node-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-node) | ✅ | ❌ | ❌ |  ✅ |  ✅ |  ❌ |
+| `reg-exts`, `reg-exts-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-exts) | ✅ | ❌ | ✅ |  ✅ |  ✅ |  ✅ |
+| `nginx` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/nginx) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-- `<version>`: the placeholder for Hugo version, i.e. `0.111.3`.
-- `reg`: represents the regular Hugo version.
-- `exts`: the `exts` includes not only the tools listed above, but also **Dart Sass Embedded**, **PostCSS CLI**, **Autoprefixer**, **PurgeCSS** and **RTLCSS**.
+- `<version>`: the placeholder for Hugo version, i.e. `0.112.7`.
+- `reg`: represents the regular/standard Hugo version.
+- `exts`: the `exts` includes not only the tools listed above, but also **Embedded Dart Sass**, **PostCSS CLI**, **Autoprefixer**, **PurgeCSS** and **RTLCSS**.
+
+### Image Tags Architectures
+
+All image tags except `exts*` support `linux/amd64` and `linux/arm64`, since the Embedded Dart Sass isn't available on Alpine `arm64` arch.
 
 ## Development
 
@@ -139,16 +146,16 @@ docker run -p 8080:8080 \
 
 ## Deployment
 
-The following example uses Nginx as web server to serve Hugo generated static files.
+The following example uses Nginx (`hugomods/hugo:nginx`) as web server to serve Hugo generated static files.
 
 ### Create Dockerfile
 
 Firstly, create the `Dockerfile` file on your site root.
 
 ```dockerfile
-###############
-# Build Stage #
-###############
+#####################################################################
+#                            Build Stage                            #
+#####################################################################
 FROM hugomods/hugo:exts as builder
 # Base URL
 ARG HUGO_BASEURL=
@@ -159,10 +166,11 @@ RUN hugo --minify --gc --enableGitInfo
 # Set the fallback 404 page if defaultContentLanguageInSubdir is enabled, please replace the `en` with your default language code.
 # RUN cp ./public/en/404.html ./public/404.html
 
-###############
-# Final Stage #
-###############
+#####################################################################
+#                            Final Stage                            #
+#####################################################################
 FROM hugomods/hugo:nginx
+# Copy the generated files to keep the image as small as possible.
 COPY --from=builder /src/public /site
 ```
 
