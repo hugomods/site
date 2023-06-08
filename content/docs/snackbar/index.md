@@ -39,7 +39,7 @@ path = "github.com/hugomods/snackbar"
 ### 1.Import the SCSS
 
 ```scss
-@import "mods/code-block-panel/scss/index";
+@import "mods/snackbar/scss/index";
 ```
 
 The path is relative to `assets` folder.
