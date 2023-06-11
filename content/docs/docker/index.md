@@ -48,7 +48,7 @@ We set up an automated workflow for checking and building latest Hugo images, wh
 
 ## Images
 
-The images will be pushed to both of [Docker Hub](https://hub.docker.com/r/hugomods/hugo)  and [GitHub Container Register](https://github.com/hugomods/docker/pkgs/container/hugo).
+The images will be pushed to both of [Docker Hub](https://hub.docker.com/r/hugomods/hugo)  and [GitHub Container Registry](https://github.com/hugomods/docker/pkgs/container/hugo).
 
 > We've renamed `razonyang/hugo` to `hugomods/hugo`, the former won't be got updated anymore, please use `hugomods/hugo` instead.
 
