@@ -98,6 +98,7 @@ github.com/hbstack/meta/header v0.2.0/go.mod h1:WAXHbiBx7VaSlGAv5BWogtfG2t3ENZqY
 github.com/hbstack/meta/header v0.2.1/go.mod h1:zMDYUSA+uC8V3db2GM8NPDP+tyZQtk6W7f5LMGDHomg=
 github.com/hbstack/meta/recommended v0.2.0 h1:s1c61TxziNTU26DW0VAUFVLVo/+KUq8vdgu7+v9ENgc=
 github.com/hbstack/meta/recommended v0.2.0/go.mod h1:QgrkulLl3d9Jw4d9We5EjAKolVVKmgJRqgZdKBA7RB4=
+github.com/hbstack/meta/recommended v0.2.1/go.mod h1:k63ESYvbfX1IiAKE5q0nDLlDnJj3dXTcDRChMmrYVu4=
 github.com/hbstack/meta/seo v0.2.0 h1:0xemjrVWwLmYjzKCAmo/6vxWEHACXimjT7vlFYXgmCM=
 github.com/hbstack/meta/seo v0.2.0/go.mod h1:41BjjCbTMPJCmrepy5wXjwkV2QQxLyM8Q2kUrJpH/sM=
 github.com/hbstack/meta/standard v0.2.0 h1:bIYe8ZfajdD9sC7ZYDVGTo3jKD/SudYG9aTMhRJ0pG8=
