@@ -1,0 +1,7 @@
+[greeting]
+title = "Hi there! Welcome to Hugo Modules."
+weight = 1
+
+[docker]
+title = "Hugo Docker images support multiple architectures now, [check it out]({{< relref `docs/docker` >}})!"
+weight = 2

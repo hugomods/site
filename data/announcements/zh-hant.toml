@@ -1,0 +1,7 @@
+[greeting]
+title = "你好！歡迎來到 Hugo 模塊。"
+weight = 1
+
+[docker]
+title = "Hugo Docker 鏡像現在支持多架構，[來看看吧]({{< relref `docs/docker` >}})！"
+weight = 2
