@@ -67,7 +67,7 @@ The images will be pushed to both of [Docker Hub](https://hub.docker.com/r/hugom
 | `go`, `go-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/go) | ✅ | ✅ | ✅ |  ❌ |  ❌ |  ❌ |
 | `node`, `node-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/node) | ✅ | ✅ | ❌ | ✅ | ✅ |  ❌ |
 | `exts`, `exts-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/exts) | ✅ | ✅ | ✅ | ✅ | ✅ |  ✅ |
-| `reg`, `reg-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/latest) | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| `reg`, `reg-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg) | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | `reg-base`, `reg-base-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-base) | ✅ | ❌ | ❌ |  ❌ |  ❌ |  ❌ |
 | `reg-git`, `reg-git-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-git) | ✅ | ❌ | ❌ |  ❌ |  ❌ |  ✅ |
 | `reg-go`, `reg-go-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-go) | ✅ | ❌ | ✅ |  ❌ |  ❌ |  ❌ |
