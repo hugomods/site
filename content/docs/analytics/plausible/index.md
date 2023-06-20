@@ -71,8 +71,8 @@ You can also override the site configuration on specified pages by setting follo
 | `file_downloads` | boolean |    -     | Site settings. | Whether to track file downloads.           |
 | `outbound_links` | boolean |    -     | Site settings. | Whether to track clicks on outbound links. |
 
-{{< bs/config-toggle hugo >}}
-[params.plausible_analytics]
+{{< bs/config-toggle >}}
+[plausible_analytics]
 file_downloads = false
 outbound_links = false
 {{< /bs/config-toggle >}}
