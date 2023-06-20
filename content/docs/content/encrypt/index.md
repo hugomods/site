@@ -6,7 +6,7 @@ nav_icon:
   vendor: fas
   name: shield
   color: 'green'
-featured: false
+featured: true
 pinned: false
 date: 2023-06-15T22:22:29+08:00
 series:
