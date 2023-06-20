@@ -23,6 +23,10 @@ module:
   
     # blog comments engine.
     - path: github.com/hbstack/blog/modules/giscus
+
+    # blog sidebar
+    - path: github.com/hbstack/blog/modules/sidebar/posts
+    - path: github.com/hbstack/blog/modules/sidebar/taxonomies
   
     # docs comments engine.
     - path: github.com/hbstack/docs/modules/giscus
