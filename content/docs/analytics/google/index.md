@@ -1,11 +1,11 @@
 ---
 title: "Google Analytics"
-linkTitle: "Google Analytics"
+linkTitle: "Google"
 nav_weight: 1000
-nav_icon:
-  vendor: simple
-  name: googleanalytics
-  color: "#e37400"
+# nav_icon:
+#   vendor: simple
+#   name: googleanalytics
+#   color: "#e37400"
 featured: false
 pinned: false
 date: 2023-03-29T10:14:12+08:00
@@ -19,6 +19,8 @@ tags:
 authors:
   - HugoMods
 images:
+aliases:
+  - /en/docs/google-analytics
 ---
 
 This module offers support for Google Analytics. It's built on top of Hugo internal Google Analytics template, and port it for [HugoPress]({{< ref "docs/hugopress" >}}).
