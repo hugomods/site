@@ -43,3 +43,30 @@ hugopress:
       hooks:
         hb-docs-doc-content-begin:
           cacheable: true
+
+decap_cms:
+  backend:
+    name: git-gateway
+  collections:
+    blog:
+      label: "Blog"
+      name: "blog"
+      folder: "content/blog"
+      create: true
+      nested:
+        depth: 1000
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Publish Date", name: "date", widget: "datetime"}
+        - {label: "Body", name: "body", widget: "markdown"}
+    docs:
+      label: "Docs"
+      name: "docs"
+      folder: "content/docs"
+      create: true
+      nested:
+        depth: 1000
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Publish Date", name: "date", widget: "datetime"}
+        - {label: "Body", name: "body", widget: "markdown"}

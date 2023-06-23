@@ -9,3 +9,6 @@ pwa:
       strategy: network-first
     style:
       strategy: network-first
+
+decap_cms:
+  local_backend: true
