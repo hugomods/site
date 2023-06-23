@@ -46,7 +46,9 @@ hugopress:
 
 decap_cms:
   backend:
-    name: git-gateway
+    name: github
+    repo: hugomods/site
+    branch: main
   collections:
     blog:
       label: "Blog"

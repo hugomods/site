@@ -12,3 +12,5 @@ pwa:
 
 decap_cms:
   local_backend: true
+  backend:
+    name: git-gateway
