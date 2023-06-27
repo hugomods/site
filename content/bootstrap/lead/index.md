@@ -36,14 +36,40 @@ PARAGRAPH
 {{%/* /bs/lead */%}}
 ```
 
+## Parameters
+
+{{% shortcode-params "data/params.en.toml" %}}
+
 ## Examples
 
 This is a regular paragraph for comparison with lead paragraphs.
+
+```markdown
+{{%/* bs/lead */%}}
+This is a lead paragraph. It stands out from regular paragraphs.
+{{%/* /bs/lead */%}}
+```
 
 {{% bs/lead %}}
 This is a lead paragraph. It stands out from regular paragraphs.
 {{% /bs/lead %}}
 
+```markdown
+{{%/* bootstrap/lead */%}}
+This is another lead paragraph. It stands out from regular paragraphs.
+{{%/* /bootstrap/lead */%}}
+```
+
 {{% bootstrap/lead %}}
 This is another lead paragraph. It stands out from regular paragraphs.
 {{% /bootstrap/lead %}}
+
+```markdown
+{{%/* bs/lead class="text-primary" */%}}
+This is another lead paragraph with extra classes.
+{{%/* /bs/lead */%}}
+```
+
+{{% bs/lead class="text-primary" %}}
+This is another lead paragraph with extra classes.
+{{% /bs/lead %}}

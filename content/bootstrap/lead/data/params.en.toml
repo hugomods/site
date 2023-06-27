@@ -1,0 +1,4 @@
+[class]
+name = "class"
+desc = "Used to add extra CSS classes."
+position = 0
