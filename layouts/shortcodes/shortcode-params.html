@@ -1,14 +1,14 @@
 {{- $params := .Get 0 | .Page.Resources.GetMatch | transform.Unmarshal }}
-{{- range $params }}
+{{- range sort $params "position" }}
 {{- $type := default "string" .type }}
 {{- $required := default false .required }}
 {{- $position := default "" }}
 {{- if isset . "position" }}{{ $position = printf "%d" .position }}{{ end }}
 ### `{{ .name }}`
 
-| Position | Type | Default | Required |
-| :------: | :--: | :-----: | :------: |
-| {{ with $position }}`#{{ . }}`{{ else }}-{{ end }} | `{{ $type }}` | {{ with .default }}`{{ . }}`{{ else }}-{{ end }} | {{ cond $required "Y" "-"}} |
+| Position | Name | Type | Default | Required |
+| :------: | :--: | :--: | :-----: | :------: |
+| {{ with $position }}`#{{ . }}`{{ else }}-{{ end }} | `{{ .name }}` | `{{ $type }}` | {{ with .default }}`{{ . }}`{{ else }}-{{ end }} | {{ cond $required "Y" "-"}} |
 
 {{ .desc }}
 {{- end }}
