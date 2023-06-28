@@ -6,9 +6,9 @@
 {{- if isset . "position" }}{{ $position = printf "%d" .position }}{{ end }}
 ### `{{ .name }}`
 
-| Position | Name | Type | Default | Required |
-| :------: | :--: | :--: | :-----: | :------: |
-| {{ with $position }}`#{{ . }}`{{ else }}-{{ end }} | `{{ .name }}` | `{{ $type }}` | {{ with .default }}`{{ . }}`{{ else }}-{{ end }} | {{ cond $required "Y" "-"}} |
+| Position | Name | Type | Default | Required | {{ with .options }} Options |{{ end }}
+| :------: | :--: | :--: | :-----: | :------: | {{ with .options }} :-----: |{{ end }}
+| {{ with $position }}`#{{ . }}`{{ else }}-{{ end }} | `{{ .name }}` | `{{ $type }}` | {{ with .default }}`{{ . }}`{{ else }}-{{ end }} | {{ cond $required "Y" "-"}} | {{ with .options }}`{{ delimit . "`, `" }}`{{ end }} |
 
 {{ .desc }}
 {{- end }}
