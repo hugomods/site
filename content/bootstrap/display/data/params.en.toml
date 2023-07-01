@@ -1,0 +1,11 @@
+[class]
+desc = "Used to add extra CSS classes."
+name = "class"
+position = 1
+
+[level]
+default = 1
+desc = "The level of display headings."
+name = "level"
+position = 0
+type = "number"
