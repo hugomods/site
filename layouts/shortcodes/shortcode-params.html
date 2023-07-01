@@ -1,5 +1,8 @@
 {{- $params := .Get 0 | .Page.Resources.GetMatch | transform.Unmarshal }}
-{{- range sort $params "position" }}
+{{- $params = sort $params "name" }}
+{{- $sortedParams := sort (where $params "position" ">=" 0) "position" }}
+{{- $params = $sortedParams | append $params | uniq }}
+{{- range $params }}
 {{- $type := default "string" .type }}
 {{- $required := default false .required }}
 {{- $position := default "" }}
