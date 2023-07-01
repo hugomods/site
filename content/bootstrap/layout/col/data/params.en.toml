@@ -1,0 +1,16 @@
+[class]
+desc = "Used to add extra CSS classes."
+name = "class"
+position = 2
+
+[offset]
+desc = "The column offset, multiple offsets separated by a space."
+name = "offset"
+position = 1
+options = ['[size]', '[breakpoint]-[size]']
+
+[size]
+desc = "The column size, multiple sizes separated by a space."
+name = "size"
+position = 0
+options = ['[size]', '[breakpoint]-[size]']

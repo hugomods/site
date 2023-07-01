@@ -1,0 +1,10 @@
+[class]
+desc = "Used to add extra CSS classes."
+name = "class"
+position = 1
+
+[breakpoint]
+desc = "The breakpoint of container."
+name = "breakpoint"
+position = 0
+options = ['sm', 'md', 'lg', 'xl', 'xxl', 'fluid']

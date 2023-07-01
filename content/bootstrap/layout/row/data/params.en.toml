@@ -1,0 +1,10 @@
+[class]
+desc = "Used to add extra CSS classes."
+name = "class"
+position = 1
+
+[cols]
+desc = "The columns settings, multiple columns separated by a space."
+name = "cols"
+position = 0
+options = ['[size]', '[breakpoint]:[size]']
