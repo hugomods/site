@@ -82,7 +82,7 @@ The query string preceded by a question mark (`?`), and the fragment preceded by
 This module uses the query string to process images, and use fragment to align images.
 
 {{% bootstrap/clearfix %}}
-![Example](featured.jpeg?crop=300x120&brightness=-10#float-end) For example, `![Example](featured.jpeg?crop=300x120&brightness=-10#float-end)`, which crop the image in size `300x120`, change the brightness as `-10` and floating the image to the end (right).
+![Example](featured.jpeg?crop=300x120&brightness=-10#float-end "Example caption") For example, `![Example](featured.jpeg?crop=300x120&brightness=-10#float-end "Example caption")`, which crop the image in size `300x120`, change the brightness as `-10` and floating the image to the end (right).
 {{% /bootstrap/clearfix %}}
 
 ## Image Types
@@ -108,6 +108,7 @@ This module offers a `images/image` partial for theme developers.
 | --------- | :--: | :-----: | :-----: | ----------- |
 | `Filename` | string | Y | - | The filename or url of image. |
 | `Alt` | string | - | - | Alternative text. |
+| `Caption` | string | - | - | Figure Caption. |
 | `Page` | Page | - | - | The page variable for finding image resources. |
 | `ClassName` | string | - | `img-fluid` | The class name of `<img>`. |
 | `Original` | boolean | - | `false` | Whether to describe the original image info via `data-*` attributes.
@@ -125,11 +126,14 @@ This module offers a `images/image` partial for theme developers.
 
 | Name | Type | Default | Description |
 | ---- | :--: | ------- | ----------- |
-| `alignment_center_class_name` | String | `d-block text-center` | The class name of `<picture>` when align to center. |
-| `alignment_end_class_name` | String | `float-end ms-2` | The class name of `<picture>` when align to end (right). |
-| `alignment_start_class_name` | String | `float-start me-2` | The class name of `<picture>` when align to start (left). |
-| `class_name` | String | `img-fluid` | The class name of `<img>`. |
-| `modern_format ` | String | `webp` | Generate modern format version of image, empty to disable. |
+| `alignment_center_class_name` | string | `d-block text-center` | The class name of `<picture>`/`<figure>` when align to center. |
+| `alignment_end_class_name` | string | `float-end ms-2` | The class name of `<picture>`/`<figure>` when align to end (right). |
+| `alignment_start_class_name` | string | `float-start me-2` | The class name of `<picture>`/`<figure>` when align to start (left). |
+| `class_name` | string | `img-fluid` | The class name of `<img>`. |
+| `figure_class_name` | string | `figure` | The class name of `<figure>` when caption is set. |
+| `figure_caption_class_name` | string | `figure-caption` | The class name of `<figcaption>`. |
+| `figure_image_class_name` | string | `figure-img` | This class name will be appended into the `<img>` class list if caption is set. |
+| `modern_format ` | string | `webp` | Generate modern format version of image, empty to disable. |
 
 {{< bootstrap/config-toggle >}}
 [params.images]
@@ -137,6 +141,9 @@ class_name = "img-fluid"
 alignment_center_class_name = "d-block text-center"
 alignment_start_class_name = "float-start me-2"
 alignment_end_class_name = "float-end ms-2"
+figure_class_name = "figure"
+figure_caption_class_name = "figure-caption"
+figure_image_class_name = "figure-img"
 modern_format = "webp"
 {{< /bootstrap/config-toggle >}}
 
