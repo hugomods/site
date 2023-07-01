@@ -57,3 +57,9 @@ path = "github.com/hugomods/google-analytics"
 {{< bootstrap/config-toggle hugo >}}
 googleAnalytics: G-XXXXXXXXXX
 {{< /bootstrap/config-toggle >}}
+
+## Page Parameters
+
+| Name | Type | Default | Description |
+| ---- | :--: | :-----: | ----------- |
+| `analyze` | boolean | `true` | Exclude pages from being tracked if `false`. |

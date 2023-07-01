@@ -66,13 +66,15 @@ local = false
 
 You can also override the site configuration on specified pages by setting following parameters on front matter.
 
-| Parameter        |  Type   | Required |    Default     | Description                                |
-| ---------------- | :-----: | :------: | :------------: | ------------------------------------------ |
-| `file_downloads` | boolean |    -     | Site settings. | Whether to track file downloads.           |
-| `outbound_links` | boolean |    -     | Site settings. | Whether to track clicks on outbound links. |
+| Parameter        |  Type   | Required |    Default     | Description                                  |
+| ---------------- | :-----: | :------: | :------------: | -------------------------------------------- |
+| `file_downloads` | boolean |    -     | Site settings. | Whether to track file downloads.             |
+| `outbound_links` | boolean |    -     | Site settings. | Whether to track clicks on outbound links.   |
+| `analyze`        | boolean |    -     |     `true`     | Exclude pages from being tracked if `false`. |
 
 {{< bs/config-toggle >}}
 [plausible_analytics]
 file_downloads = false
 outbound_links = false
+analyze = true
 {{< /bs/config-toggle >}}
