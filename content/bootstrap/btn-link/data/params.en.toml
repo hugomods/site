@@ -1,0 +1,29 @@
+[class]
+desc = "Used to add extra CSS classes."
+name = "class"
+
+[outline]
+default = false
+desc = "Whether to enable outline style."
+name = "outline"
+position = 2
+
+[size]
+desc = "The size of button link."
+name = "size"
+options = ['sm', 'lg']
+position = 3
+
+[style]
+default = "primary"
+desc = "The button link style."
+name = "style"
+options = ['primary', 'secondary', 'success', 'danger', 'warning', 'info', 'light', 'dark', 'link']
+position = 1
+
+
+[url]
+desc = "The URL or reference of button link, it'll look for the reference page first for internal pages."
+name = "url"
+position = 0
+required = true
