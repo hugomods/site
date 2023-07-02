@@ -2,10 +2,10 @@
 title: "Twikoo Module"
 linkTitle: "Twikoo"
 nav_weight: 1000
-# nav_icon:
-#   vendor:
-#   name:
-#   color: ''
+nav_icon:
+  vendor: fas
+  name: comments
+  color: ''
 featured: false
 pinned: false
 date: 2023-04-22T15:07:15+08:00
