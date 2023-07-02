@@ -2,10 +2,10 @@
 title: "Decap CMS"
 linkTitle: "Decap CMS"
 nav_weight: 1000
-# nav_icon:
-#   vendor: 
-#   name: 
-#   color: ''
+nav_icon:
+  name: files
+  vendor: bs
+  color: '#DC3545'
 featured: true
 pinned: false
 date: 2023-06-23T11:36:42+08:00
