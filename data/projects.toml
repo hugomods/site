@@ -1,0 +1,149 @@
+[analytics]
+weight = 130
+title = "Analytics"
+description = """
+Enable [Google Analytics]({{< relref "docs/analytics/google" >}}), [Plausible Analytics]({{< relref "docs/analytics/plausible" >}}) for your sites.
+"""
+url = "docs/docker"
+[analytics.icon]
+vendor = "simple"
+name = "googleanalytics"
+color = "#E27C2F"
+
+[bootstrap]
+weight = 110
+title = "Bootstrap"
+description = "Ships with some handy shortcodes for using Bootstrap components."
+url = "bootstrap"
+[bootstrap.icon]
+name = "bootstrap"
+color = "#7952B3"
+
+[comment-engines]
+weight = 140
+title = "Comment Engines"
+url = "docs/comment-engines"
+description = """
+Supports [Utterances]({{< relref `docs/comment-engines/utterances` >}}), [Giscus]({{< relref `docs/comment-engines/giscus` >}}) and [Twikoo]({{< relref `docs/comment-engines/twikoo` >}}) comment engines.
+"""
+[comment-engines.icon]
+vendor = "fas"
+name = "comments"
+color = "green"
+
+[content]
+weight = 150
+title = "Content"
+url = "docs/content"
+description = """
+Enrich the content via the [Mermaid]({{< relref `docs/content/mermaid` >}}) and [KaTex]({{< relref `docs/content/katex` >}}) modules.
+"""
+[content.icon]
+name = "file-richtext"
+color = "#28A5DA"
+
+[decap-cms]
+weight = 80
+title = "Decap CMS"
+url = "docs/decap-cms"
+description = "Formerly Netlify CMS, a open source, git based content manager system."
+[decap-cms.icon]
+name = "files"
+color = "#DC3545"
+
+[docker]
+weight = 30
+title = "Docker"
+description = "The minimal, automated and up-to-date Hugo Docker images."
+url = "docs/docker"
+[docker.icon]
+vendor = "simple"
+name = "docker"
+color = "#1396C3"
+
+[encrypt]
+weight = 90
+title = "Encrypt"
+url = "docs/content/encrypt"
+description = """
+Protect the partial content with password, friendly to SEO.
+"""
+[encrypt.icon]
+vendor = "fas"
+name = "lock"
+color = "green"
+
+[hb]
+weight = 10
+title = "HB Framework"
+description = "A modular theme framework built on top of Hugo modules and Bootstrap CSS."
+url = "https://hbstack.dev/"
+[hb.icon]
+name = "bootstrap"
+color = "#7952B3"
+
+[hugopress]
+weight = 40
+title = "HugoPress"
+url = "docs/hugopress"
+description = "Pluggable and UI less hook system for modular themes."
+[hugopress.icon]
+name = "boxes"
+color = "#FF4088"
+
+[icons]
+weight = 60
+title = "Icons"
+url = "docs/icons"
+description = "Compatible any SVG image vendors, i.e. Bootstrap, Font Awesome, Simple Icons."
+[icons.icon]
+name = "icons"
+vendor = "fas"
+color = "#DC3545"
+
+[images]
+weight = 50
+title = "Images"
+url = "docs/images"
+description = "Processing images via URL query string and fragment, friendly to Markdown syntax."
+[images.icon]
+name = "images"
+vendor = "fas"
+color = "green"
+
+[pwa]
+weight = 70
+title = "PWA"
+url = "docs/pwa"
+description = "Allows precaching assets and making sites offline available and installable."
+[pwa.icon]
+name = "rocket"
+vendor = "fas"
+color = "#DC3545"
+
+[search]
+weight = 20
+title = "Search"
+description = "A powerful, flexible and responsive client side fuzzy search module built on top of Fuse.js."
+url = "docs/search"
+[search.icon]
+name = "search"
+color = "#28A5DA"
+
+[seo]
+weight = 100
+title = "SEO"
+description = "For generating SEO stuff, such as favicons, twitter cards, open graph, schema, alternatives and translations meta tags."
+url = "docs/search"
+[seo.icon]
+name = "search"
+color = "#28A5DA"
+
+[shortcodes]
+weight = 120
+title = "Shortcodes"
+url = "docs/shortcodes"
+description = "Extended shortcodes for Hugo, such as code playgrounds and media players."
+[shortcodes.icon]
+name = "code"
+color = "#DC3545"
