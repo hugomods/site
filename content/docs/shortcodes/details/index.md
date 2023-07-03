@@ -27,6 +27,8 @@ The details shortcode specifies additional details that the user can open and cl
 
 ```markdown
 {{%/* details [summary] [open] */%}}
+CONTENT
+{{%/* /details */%}}
 ```
 
 ## Parameters
