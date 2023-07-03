@@ -226,6 +226,7 @@ github.com/hugomods/icons/vendors/lucide v0.3.5/go.mod h1:7X9gkQd3w5a1M181xVzWwj
 github.com/hugomods/icons/vendors/lucide v0.3.6/go.mod h1:1XFiB4RGjwIODvnSbqkHmCGaAutLk6E9ZbeiQc6ACrA=
 github.com/hugomods/icons/vendors/lucide v0.3.7/go.mod h1:/2k0QxUCyXZt6pPss0L06UW/jcnzjoMf34rvf7cIFPw=
 github.com/hugomods/icons/vendors/lucide v0.3.8/go.mod h1:aOVMotDtZZQ8YZ1miqEYQYt8aBJ7hC/jdYVDA5Fj5r4=
+github.com/hugomods/icons/vendors/lucide v0.3.9/go.mod h1:jQef7lK4PF0EhNCNNzEtcpppjVDlW+A4GTggrYNlS3I=
 github.com/hugomods/icons/vendors/mdi v0.3.0 h1:Lb47OUzjlLjD5Ik41VRFZXs8pSNjo8j9WhhJvFEtR1E=
 github.com/hugomods/icons/vendors/mdi v0.3.0/go.mod h1:wbBjb2paemrSK8pZZm1K8Nv3AfiUWXVedkuzVFbBa+4=
 github.com/hugomods/icons/vendors/simple-icons v0.14.0 h1:PGMxDt1Akiuiigc5TSXNHwXNmkDu6/gTC1CGK+wRa4I=
