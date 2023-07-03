@@ -1,6 +1,6 @@
 ---
 type: docs
-title: "Hugo Icon Grid Shortcode"
+title: "Bootstrap Icon Grid Shortcode"
 linkTitle: "Icon Grid"
 date: 2023-04-12T09:48:05+08:00
 featured: false
