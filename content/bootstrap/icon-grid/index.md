@@ -69,6 +69,7 @@ color = "green"
 [responsive]
 weight = 2
 title = "Responsive"
+url = "bootstrap"
 description = "Mobile first, built on top of the Bootstrap v5.3."
 [responsive.icon]
 name = "bootstrap"
