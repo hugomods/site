@@ -11,7 +11,7 @@ title: Hugo Modules
 #         name: house
 ---
 
-{{< bs/row class="text-center mb-5" >}}
+{{< bs/row class="text-center mb-5 py-5" >}}
   {{% html/div class="d-block mx-auto mb-1" %}}
   ![Logo](/images/logo.png?height=120px)
   {{% /html/div %}}
