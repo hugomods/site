@@ -55,7 +55,7 @@ require (
 	github.com/hbstack/syntax-highlighting v0.1.0 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
 	github.com/hugomods/base v0.1.0 // indirect
-	github.com/hugomods/bootstrap v0.6.2 // indirect
+	github.com/hugomods/bootstrap v0.7.0 // indirect
 	github.com/hugomods/decap-cms v0.1.0 // indirect
 	github.com/hugomods/encrypt v0.2.0 // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
@@ -72,7 +72,7 @@ require (
 	github.com/hugomods/icons/vendors/mdi v0.3.0 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.4 // indirect
 	github.com/hugomods/icons/vendors/tabler v0.15.1 // indirect
-	github.com/hugomods/images v0.6.0 // indirect
+	github.com/hugomods/images v0.7.0 // indirect
 	github.com/hugomods/katex v0.2.0 // indirect
 	github.com/hugomods/pwa v0.3.0 // indirect
 	github.com/hugomods/search v0.4.4 // indirect
