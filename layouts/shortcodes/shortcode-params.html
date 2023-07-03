@@ -11,7 +11,7 @@
 
 | Position | Name | Type | Default | Required | {{ with .options }} Options |{{ end }}
 | :------: | :--: | :--: | :-----: | :------: | {{ with .options }} :-----: |{{ end }}
-| {{ with $position }}`#{{ . }}`{{ else }}-{{ end }} | `{{ .name }}` | `{{ $type }}` | {{ with .default }}`{{ . }}`{{ else }}-{{ end }} | {{ cond $required "Y" "-"}} | {{ with .options }}`{{ delimit . "`, `" }}`{{ end }} |
+| {{ with $position }}`#{{ . }}`{{ else }}-{{ end }} | `{{ .name }}` | `{{ $type }}` | {{ if isset . "default" }}`{{ .default }}`{{ else }}-{{ end }} | {{ cond $required "Y" "-"}} | {{ with .options }}`{{ delimit . "`, `" }}`{{ end }} |
 
 {{ .desc }}
 {{- end }}
