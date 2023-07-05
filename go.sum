@@ -102,6 +102,7 @@ github.com/hbstack/meta/seo v0.2.0 h1:0xemjrVWwLmYjzKCAmo/6vxWEHACXimjT7vlFYXgmC
 github.com/hbstack/meta/seo v0.2.0/go.mod h1:41BjjCbTMPJCmrepy5wXjwkV2QQxLyM8Q2kUrJpH/sM=
 github.com/hbstack/meta/standard v0.2.2 h1:hWEKN8+wuMDXaeF3OW4FtSWblkjO5KNLLrgsKEU6qYQ=
 github.com/hbstack/meta/standard v0.2.2/go.mod h1:dssoTSoKpbymg+DWCpBLU5QuLl4vDiXGzoFBomC5UuU=
+github.com/hbstack/meta/standard v0.2.3/go.mod h1:VgwEFyRSUCROCStIw66MLrW8fWQtrd6lpHbBRon9/+I=
 github.com/hbstack/noscript v0.2.0 h1:yAWYGD1stUicaKATrA9BnhQNjRZWgiFgP8Y7C44AqG0=
 github.com/hbstack/noscript v0.2.0/go.mod h1:Lxh6eXJijehQw92g4g+2+fVEQgVqRJXi5xGri/y+Eyo=
 github.com/hbstack/progress-bar v0.1.0 h1:2ZiGS3RFZbZYBUbT2nFCoU9SJsbD9jtV4A7ab41B4jg=
