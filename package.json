@@ -14,7 +14,7 @@
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "autoprefixer": "^10.4.14",
     "postcss-cli": "^10.1.0",
-    "prettier": "^2.7.1",
+    "prettier": "^3.0.0",
     "prettier-plugin-go-template": "^0.0.13",
     "rtlcss": "^4.0.0"
   },
