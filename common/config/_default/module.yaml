@@ -1,0 +1,59 @@
+imports:
+  - path: github.com/hugomods/decap-cms
+
+  - path: github.com/razonyang/hb-mod-thanks
+
+  - path: github.com/hugomods/encrypt
+
+  - path: github.com/hbstack/announcement-bar
+
+  # icons modules.
+  - path: github.com/hugomods/icons/vendors/bootstrap
+  - path: github.com/hugomods/icons/vendors/feather
+  - path: github.com/hugomods/icons/vendors/font-awesome
+  - path: github.com/hugomods/icons/vendors/lucide
+  - path: github.com/hugomods/icons/vendors/mdi
+  - path: github.com/hugomods/icons/vendors/simple-icons
+  - path: github.com/hugomods/icons/vendors/tabler
+
+  # blog comments engine.
+  - path: github.com/hbstack/blog/modules/giscus
+
+  # blog sidebar
+  - path: github.com/hbstack/blog/modules/sidebar/posts
+  - path: github.com/hbstack/blog/modules/sidebar/taxonomies
+
+  # docs comments engine.
+  - path: github.com/hbstack/docs/modules/giscus
+
+  # others
+  - path: github.com/hugomods/katex
+  - path: github.com/hugomods/google-analytics
+  - path: github.com/hugomods/google-adsense
+  - path: github.com/hugomods/shortcodes
+
+  - path: github.com/hbstack/blog/modules/content-panel
+  - path: github.com/hbstack/blog/modules/toc-scrollspy
+  - path: github.com/hbstack/docs/modules/content-panel
+  - path: github.com/hbstack/docs/modules/toc-scrollspy
+
+  # recommended modules.
+  - path: github.com/hbstack/meta/recommended
+
+mounts:
+  - source: content
+    target: content
+  - source: static
+    target: static
+  - source: layouts
+    target: layouts
+  - source: data
+    target: data
+  - source: assets
+    target: assets
+  - source: i18n
+    target: i18n
+  - source: archetypes
+    target: archetypes
+  - source: static/images/example.jpg
+    target: assets/images/example.jpg

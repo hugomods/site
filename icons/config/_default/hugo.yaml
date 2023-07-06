@@ -1,0 +1,23 @@
+title: Hugo Icons Module
+copyright: Copyright © 2022-2023 [Hugo Modules](https://hugomods.com). All Rights Reserved.
+baseURL: https://icons.hugomods.com/
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+enableRobotsTXT: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    lineNos: true
+    lineNumbersInTable: false
+
+build:
+  writeStats: true

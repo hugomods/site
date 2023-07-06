@@ -1,7 +1,0 @@
-[greeting]
-title = "你好！欢迎来到 Hugo 模块。"
-weight = 1
-
-[docker]
-title = "Hugo Docker 镜像现在支持多架构，[来看看吧]({{< relref `docs/docker` >}})！"
-weight = 2

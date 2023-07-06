@@ -1,0 +1,24 @@
+main:
+  - name: Modules
+    identifier: modules
+    weight: 9
+    params:
+      icon:
+        name: boxes
+        vendor: bs
+
+  - name: Projects
+    identifier: projects
+    weight: 10
+    params:
+      icon:
+        name: boxes
+        vendor: bs
+
+  - name: HB Framework
+    parent: projects
+    url: https://hb.hugomods.com/
+    params:
+      icon:
+        name: hugo
+        vendor: simple

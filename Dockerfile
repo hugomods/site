@@ -10,12 +10,12 @@ ARG HUGO_MODULE_PROXY=
 ENV HUGO_MODULE_PROXY=${HUGO_MODULE_PROXY}
 # Build site
 COPY . /src
-RUN hugo --minify --gc --enableGitInfo
+RUN cd main && hugo --minify --gc --enableGitInfo
 # Set the fallback 404 page if defaultContentLanguageInSubdir is enabled, please replace the `en` with your default language code.
-RUN cp ./public/en/404.html ./public/404.html
+RUN cp ./main/public/en/404.html ./main/public/404.html
 
 ###############
 # Final Stage #
 ###############
 FROM hugomods/hugo:nginx
-COPY --from=builder /src/public /site
+COPY --from=builder /src/main/public /site

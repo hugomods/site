@@ -1,0 +1,8 @@
+main:
+  - name: Icons
+    weight: 8
+    url: https://icons.hugomods.com/
+    params:
+      icon:
+        name: icons
+        vendor: fas

@@ -1,0 +1,8 @@
+hugopress:
+  modules:
+    hb-header-search:
+      disable: true
+
+hb:
+  header:
+    brand_url: https://hugomods.com/
