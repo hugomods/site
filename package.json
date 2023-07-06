@@ -14,12 +14,12 @@
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "autoprefixer": "^10.4.14",
     "postcss-cli": "^10.1.0",
-    "prettier": "^3.0.0",
     "prettier-plugin-go-template": "^0.0.13",
     "rtlcss": "^4.0.0"
   },
   "scripts": {
-    "dev": "hugo server -p 8080 --gc --disableFastRender --buildDrafts --enableGitInfo",
-    "prod": "hugo server -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:8081 -p 8081"
+    "dev": "hugo server -p 8080 --gc --disableFastRender --buildDrafts --enableGitInfo --source=main",
+    "prod": "hugo server -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:8081 -p 8081 --source=main",
+    "icons": "hugo server -p 8082 --gc --disableFastRender --buildDrafts --enableGitInfo --source=icons"
   }
 }

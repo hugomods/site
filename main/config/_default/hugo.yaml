@@ -1,0 +1,36 @@
+title: Hugo Modules
+copyright: Copyright © 2022-2023 [Hugo Modules](https://hugomods.com). All Rights Reserved.
+baseURL: https://hugomods.com/
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+enableRobotsTXT: true
+
+outputs:
+  home:
+    - DecapCMSConfig
+    - HTML
+    - Offline
+    - SearchIndex
+    - RSS
+    - WebAppManifest
+
+permalinks:
+  blog: /blog/:year/:month/:title/
+
+taxonomies:
+  authors: authors
+  tags: tags
+  categories: categories
+  series: series
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    lineNos: true
+    lineNumbersInTable: false
+
+build:
+  writeStats: true

@@ -1,4 +1,4 @@
-name: Cloudflare Pages
+name: Cloudflare Pages - Icons
 
 on: [push]
 
@@ -27,7 +27,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install dependencies
-        working-directory: main
+        working-directory: icons
         run: |
           cp ../package.json ./package.json
           cp ../package-lock.json ./package-lock.json
@@ -38,11 +38,6 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
-      
-      - name: Setup Hugo Encrypt
-        run: |
-          curl -L -o hugo-encrypt "https://github.com/hugomods/encrypt/releases/download/v0.2.0/hugo-encrypt-linux-64"
-          chmod 755 hugo-encrypt
 
       - name: Cache Hugo modules
         uses: actions/cache@v3
@@ -53,18 +48,17 @@ jobs:
             ${{ runner.os }}-hugomod-
 
       - name: Build
-        working-directory: main
+        working-directory: icons
         run: |
           hugo --minify --gc --enableGitInfo
           cp public/en/404.html public/404.html
-          ../hugo-encrypt
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: hugomods
-          directory: ./main/public
+          projectName: hugomods-icons
+          directory: ./icons/public
           # Optional: Enable this if you want to have GitHub Deployments triggered
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
