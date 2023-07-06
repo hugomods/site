@@ -35,6 +35,7 @@ github.com/hbstack/heading-sign v0.1.3 h1:bkyBAwTETrbLqPBM89EuSscgLt2MOrmEPSeooe
 github.com/hbstack/heading-sign v0.1.3/go.mod h1:uR6DdjYDoLDFanc8kSglEe/08GyNyQBmyNEJ6Z1KRAg=
 github.com/hbstack/meta/blog v0.2.3 h1:E5wF1o1sKuaAYCp09WXRdpcyyvcYr1F31VLSMgY8sOc=
 github.com/hbstack/meta/blog v0.2.3/go.mod h1:zaYYLTM3hSXeT/M88W89i1HBDkJLTH3cAFALA1DAV80=
+github.com/hbstack/meta/blog v0.2.4/go.mod h1:dY6vgjYmkjcMOfbQxlPmTE0Kilf/9/EB33NejfZ7r9U=
 github.com/hbstack/meta/content v0.4.3 h1:jFgHm24KnY6s8S2q8FNhW0Qt1F2JsXWQFsLhj9KBExU=
 github.com/hbstack/meta/content v0.4.3/go.mod h1:tVPxlwydmqhT6dIhjvLB0E1/8ES2F62OWO1O6F4SAis=
 github.com/hbstack/meta/footer v0.2.2 h1:5WepfmsLcXVsEouCGQh5dO4m//pfulMlItKonJ2qJSI=
