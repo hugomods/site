@@ -57,7 +57,7 @@ require (
 	github.com/hugomods/pwa v0.3.0 // indirect
 	github.com/hugomods/search v0.4.4 // indirect
 	github.com/hugomods/shortcodes v0.10.0 // indirect
-	github.com/hugomods/site/common v0.0.0-00010101000000-000000000000 // indirect
+	github.com/hugomods/site/common v0.0.0-20230706181115-f44b8b1121ee // indirect
 	github.com/krisk/Fuse v6.6.2+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.3.0 // indirect
 	github.com/twbs/icons v1.10.5 // indirect
