@@ -97,6 +97,7 @@ github.com/hugomods/icons/vendors/simple-icons v1.0.4 h1:Y/fDz+HGk0dXk9kRcNoZykW
 github.com/hugomods/icons/vendors/simple-icons v1.0.4/go.mod h1:x+XHib1FAzV3VhJsbFLTp5QWIIwix2zIbFk9pbdtQic=
 github.com/hugomods/icons/vendors/tabler v0.15.1 h1:IcJm+55t1FCFSz+Da3neKxMK3vZZJRWf1MFZWWZ+xCw=
 github.com/hugomods/icons/vendors/tabler v0.15.1/go.mod h1:Y+CaO20KiC34kLtzzJw4lQPhFPe8HHWdGkmaNMDkRGM=
+github.com/hugomods/icons/vendors/tabler v0.15.2/go.mod h1:51KyKHRuZHJRWxJqcYKjGpXYJ0syYiwLnk+DKezARbU=
 github.com/hugomods/idb-js v0.1.0 h1:mA6hEGtR0aFEdmq9zYMGpfSpCU6SMilx9RzC4uK3DqY=
 github.com/hugomods/idb-js v0.1.0/go.mod h1:GPfnmr+BQpP4s6Epd4Yu+RlUog8q/Djw8qy8BZFWZ04=
 github.com/hugomods/images v0.7.0 h1:NEGgCSrh1YuHGmTAL9wDAKLdXL4WU6Nw4BfkampJxyM=
