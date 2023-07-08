@@ -81,7 +81,13 @@ The images will be pushed to both of [Docker Hub](https://hub.docker.com/r/hugom
 
 ### Image Tags Architectures
 
-All image tags except `exts*` support `linux/amd64` and `linux/arm64`, since the Embedded Dart Sass isn't available on Alpine `arm64` arch.
+All image tags ~~except `exts*`~~ support `linux/amd64` and `linux/arm64`.
+
+{{< bootstrap/alert success >}}
+{{% markdownify %}}
+Now the `exts*` images support `linux/arm64` arch.
+{{% /markdownify %}}
+{{< /bootstrap/alert >}}
 
 ## Development
 
