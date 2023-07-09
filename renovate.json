@@ -3,6 +3,9 @@
   "extends": [
     "config:base"
   ],
+  "ignoreDeps": [
+    "github.com/hugomods/site/common"
+  ],
   "packageRules": [
     {
       "matchManagers": ["gomod"],
