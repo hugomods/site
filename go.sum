@@ -28,6 +28,7 @@ github.com/hbstack/blog/modules/post-nav v0.2.3 h1:VNMXYxcl1oLtf7cmhV2T6Fp27xbjB
 github.com/hbstack/blog/modules/post-nav v0.2.3/go.mod h1:m2qYY3o5WRgfBgt+aK62zSGOkegEE+25sBiZPqUbtqU=
 github.com/hbstack/blog/modules/related-posts v0.1.5 h1:auWh1VHrMeD7W5RO8WKV75xWjTLkFKvG+24f6qnudjA=
 github.com/hbstack/blog/modules/related-posts v0.1.5/go.mod h1:wnGXRSElkf17mx+CTVqabeVrSJhqqYENVgel8+3VA9Q=
+github.com/hbstack/blog/modules/related-posts v0.1.6/go.mod h1:tYJT0ycNbyB+mVHcVmf/J+wqbluy3phZ8xe08joTfig=
 github.com/hbstack/blog/modules/sidebar/posts v0.1.1 h1:c9kvH7E0wNcJaWCB/eGoMFO4c9SPMxMnKcoEHWnIkec=
 github.com/hbstack/blog/modules/sidebar/posts v0.1.1/go.mod h1:yqDHoe00bAKvNFG2yaeIiP4VaDNmc1j+mpy8xOitCRg=
 github.com/hbstack/blog/modules/sidebar/taxonomies v0.1.1 h1:CuvEESY51eYZGsXac/UcOat4Fp2eCJ2uL6YEivjzdGA=
