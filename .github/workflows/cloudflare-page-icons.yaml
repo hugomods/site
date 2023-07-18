@@ -28,10 +28,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: icons
-        run: |
-          cp ../package.json ./package.json
-          cp ../package-lock.json ./package-lock.json
-          npm ci
+        run: npm ci
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
