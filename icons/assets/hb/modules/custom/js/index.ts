@@ -44,19 +44,18 @@ interface icon {
         }
         lock = true
 
-        container.innerHTML = 'searching...'
         const q = input.value.trim()
         const v = vendor.value.trim()
 
         const items = icons.filter((icon) => icon.name.indexOf(q) >= 0 && icon.vendor.indexOf(v) === 0)
         let s = ''
-        for (let i = 0; i < Math.min(items.length, 360); i++) {
+        for (let i = 0; i < Math.min(items.length, 512); i++) {
             const icon = items[i]
             s += `<li class="icon col mb-4">
-  <div class="bg-body-tertiary d-flex align-items-center justify-content-center px-1 px-md-2 py-3 py-md-4">
-    ${icon.content}
+  <div class="icon-img-container bg-light d-flex align-items-center justify-content-center px-1 px-md-2 py-3 py-md-4">
+    <img class="icon-img" src="${icon.url}" loading="lazy" alt="${icon.name}">
   </div>
-  <div class="text-muted text-center mt-2 user-select-all text-break">${icon.vendor}</div>
+  <div class="text-muted text-center mt-2 user-select-all text-break fw-bold">${icon.vendor}</div>
   <div class="text-muted text-center mt-1 user-select-all text-break">${icon.name}</div>
 </li>`
         }

@@ -7,7 +7,7 @@
   {{- $icons = $icons | append (dict
     "vendor" $vendor
     "name" $name
-    "content" (partial "icons/icon" (dict "vendor" $vendor "name" $name "height" "3em" "width" "3em")))
+    "url" .RelPermalink)
   -}}
 {{- end -}}
 {{- $icons | jsonify -}}

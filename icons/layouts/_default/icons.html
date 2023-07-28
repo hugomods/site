@@ -4,7 +4,7 @@
   <div class="icon-content">
     {{ .Content }}
   </div>
-  <div id="icons-panel" class="icons-panel d-flex mb-4 position-sticky py-3 bg-body flex-column shadow p-2 rounded">
+  <div id="icons-panel" class="icons-panel d-flex mb-5 position-sticky py-3 bg-body flex-column shadow p-2 rounded">
     <form class="subnav-search d-flex flex-nowrap w-100 mb-3">
       <label for="icon-vendor" class="visually-hidden">Icons vendors</label>
       <select class="form-control me-2 w-auto" id="icon-vendor">
@@ -25,11 +25,17 @@
         placeholder="Type to filter" />
     </form>
     <small class="text-muted mb-0 ms-1">
-      Found <span class="icon-count text-primary">{{ len (resources.Match "icons/**/*.svg") }}</span> icons, only up to 360 icons are displayed.
+      Found <span class="icon-count text-primary">{{ len (resources.Match "icons/**/*.svg") }}</span> icons, only up to 512 icons are displayed.
     </small>
   </div>
   <ul
-    class="hugo-mod-icons row row-cols-3 row-cols-sm-4 row-cols-lg-6 row-cols-xl-8 list-unstyled list"></ul>
+    class="hugo-mod-icons row row-cols-3 row-cols-sm-4 row-cols-lg-6 row-cols-xl-8 list-unstyled list">
+    <div class="p-5 h-100 w-100 d-flex align-items-center justify-content-center">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+  </ul>
   <script>
   </script>
 {{- end -}}
