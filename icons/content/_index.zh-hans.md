@@ -18,11 +18,11 @@ menu:
     <p class="lead">{{< param description >}}</p>
     <p class="lead mb-4">无 JS、无 CSS、无字体、按需加载。</p>
     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-      <a role="button" class="btn btn-primary btn-lg px-4 me-sm-3" href="https://hugomods.com/en/docs/icons">
+      <a role="button" class="btn btn-primary btn-lg px-4 py-3 me-sm-3" href="https://hugomods.com/en/docs/icons">
         {{< icons/icon vendor=bootstrap name=book className="me-1" >}}
         Read the docs
       </a>
-      <a role="button" class="btn btn-outline-success btn-lg px-4" href="#icons-panel">
+      <a role="button" class="btn btn-outline-success btn-lg px-4 py-3" href="#icons-panel">
         {{< icons/icon vendor=bootstrap name=book className="me-1" >}}
         Search icons
       </a>
