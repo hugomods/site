@@ -32,9 +32,10 @@ This shortcode is used to generate icon grid, which supports icon, heading and d
 {{</* bs/icon-grid [data] */>}}
 ```
 
-| Position | Name   |  Type  | Required | Default | Description                 |
-| -------- | ------ | :----: | :------: | :-----: | --------------------------- |
-| `#0`     | `data` | string |    Y     |    -    | The data name of data file. |
+| Position | Name       |  Type  | Required | Default | Description                                                |
+| -------- | ---------- | :----: | :------: | :-----: | ---------------------------------------------------------- |
+| `#0`     | `data`     | string |    Y     |    -    | The data name of data file.                                |
+| -        | `linkText` | string |    -     |    -    | The link text, the entire card will be clickable if empty. |
 
 ## Data
 
@@ -46,8 +47,8 @@ The data should be placed under the `/data` folder.
 | ------------- | :----: | :------: | :---------: | ------------------------------------------ |
 | `weight`      | number |    -     |      -      | The weight of data entry, used to sorting. |
 | `title`       | string |    Y     |      -      | The heading.                               |
-| `url`         | string |    -     |      -      | The heading URL.                           |
-| `description` | string |    -     |      -      | The description.                           |
+| `url`         | string |    -     |      -      | The detail URL.                            |
+| `description` | string |    -     |      -      | The description, support Markdown syntax.  |
 | `icon`        | object |    -     |      -      | Icon setting.                              |
 | `icon.name`   | string |    Y     |      -      | The icon name.                             |
 | `icon.vendor` | string |    -     | `bootstrap` | The icon vendor.                           |
@@ -79,13 +80,39 @@ color = "#7952B3"
 weight = 3
 title = "FOSS"
 url = "https://github.com/hugomods"
-description = "Free and open source software, code licensed MIT."
+description = "Free and open source software, code licensed **MIT**."
 [foss.icon]
 name = "code"
 vendor = "fas"
 color = "green"
 ```
 
+### Example Data File
+
 {{% /bs/collapse %}}
 
+### Default Link Text
+
+```markdown
+{{</* bs/icon-grid "features" */>}}
+```
+
 {{< bs/icon-grid "features" >}}
+
+### Custom Link Text
+
+```markdown
+{{</* bs/icon-grid data=features linkText="Read more" */>}}
+```
+
+{{< bs/icon-grid data=features linkText="Read more" >}}
+
+### Empty Link Text
+
+The entire card will be clickable if the link text is empty.
+
+```markdown
+{{</* bs/icon-grid data=features linkText="" */>}}
+```
+
+{{< bs/icon-grid data=features linkText="" >}}

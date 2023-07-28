@@ -19,7 +19,7 @@ color = "#7952B3"
 weight = 3
 title = "FOSS"
 url = "https://github.com/hugomods"
-description = "Free and open source software, code licensed MIT."
+description = "Free and open source software, code licensed **MIT**."
 [foss.icon]
 name = "code"
 vendor = "fas"
