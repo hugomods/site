@@ -1,0 +1,144 @@
+main:
+  - name: Docs
+    identifier: docs
+    url: https://hugomods.com/en/docs/
+    weight: 9
+    params:
+      icon:
+        name: book
+        vendor: bs
+  
+  - name: Bootstrap
+    parent: docs
+    weight: 1
+    url: https://hugomods.com/en/bootstrap/
+    params:
+      description: Some useful shortcodes for Bootstrap.
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7952B3'
+  
+  - name: Docker
+    parent: docs
+    weight: 2
+    url: https://hugomods.com/en/docs/docker/
+    params:
+      description: The minial, automated and up-to-date Hugo Docker images.
+      icon:
+        vendor: simple
+        name: docker
+        color: '#2496ed'
+  
+  - name: HugoPress
+    parent: docs
+    weight: 3
+    url: https://hugomods.com/en/docs/hugopress/
+    params:
+      description: The hook system for Hugo modules and themes.
+      icon:
+        vendor: simple
+        name: hugo
+        color: '#ff4088'
+  
+  - name: Images
+    parent: docs
+    weight: 4
+    url: https://hugomods.com/en/docs/images/
+    params:
+      description: Processing images via URL query string and fragment, friendly to Markdown.
+      icon:
+        vendor: bs
+        name: images
+        color: blue
+  
+  - name: PWA
+    parent: docs
+    weight: 5
+    url: https://hugomods.com/en/docs/pwa/
+    params:
+      description: Service worker that allow precaching assets, make sites installable and offline available.
+      icon:
+        vendor: bs
+        name: rocket
+        color: red
+  
+  - name: Search
+    parent: docs
+    weight: 6
+    url: https://hugomods.com/en/docs/search/
+    params:
+      description: Powerful, flexible and responsive client-side fuzzy search module.
+      icon:
+        vendor: bs
+        name: search
+        color: '#65c6e0'
+
+  - name: Blog
+    identifier: blog
+    weight: 10
+    url: https://hugomods.com/en/posts/
+    params:
+      icon:
+        name: blog
+        vendor: fas
+  
+  - name: Archives
+    parent: blog
+    weight: 1
+    url: https://hugomods.com/en/archives/
+    params:
+      description: Posts archive.
+      icon:
+        vendor: bs
+        name: archive
+  
+  - name: Authors
+    parent: blog
+    weight: 2
+    url: https://hugomods.com/en/authors/
+    params:
+      description: Authors list.
+      icon:
+        vendor: bs
+        name: pencil
+        color: '#0f5e97'
+  
+  - name: Categories
+    parent: blog
+    weight: 3
+    url: https://hugomods.com/en/categories/
+    params:
+      description: All of the categories.
+      icon:
+        vendor: bs
+        name: folder
+        color: 'orange'
+  
+  - name: Series
+    parent: blog
+    weight: 4
+    url: https://hugomods.com/en/series/
+    params:
+      description: All of the series.
+      icon:
+        vendor: bs
+        name: columns
+  
+  - name: Tags
+    parent: blog
+    weight: 5
+    url: https://hugomods.com/en/tags/
+    params:
+      description: All of the tags.
+      icon:
+        vendor: bs
+        name: tags
+        color: 'green'
+
+  - name: HB Framework
+    url: https://hb.hugomods.com/
+    params:
+      icon:
+        name: hugo
+        vendor: simple

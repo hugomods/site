@@ -7,8 +7,9 @@ nav_icon:
   color: '#ff4088'
 menu:
   main:
-    parent: modules
+    parent: docs
     params:
+      description: The hook system for Hugo modules and themes.
       icon:
         vendor: simple
         name: hugo

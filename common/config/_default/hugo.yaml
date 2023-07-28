@@ -1,0 +1,17 @@
+build:
+  writeStats: true
+
+taxonomies:
+  authors: authors
+  tags: tags
+  categories: categories
+  series: series
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    lineNos: true
+    lineNumbersInTable: false

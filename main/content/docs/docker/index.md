@@ -23,8 +23,9 @@ authors:
   - HugoMods
 menu:
   main:
-    parent: projects
+    parent: docs
     params:
+      description: The minial, automated and up-to-date Hugo Docker images.
       icon:
         vendor: simple-icons
         name: docker

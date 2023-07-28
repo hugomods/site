@@ -13,7 +13,7 @@ aliases:
   - /en/docs/bootstrap
 menu:
   main:
-    parent: modules
+    parent: docs
     params:
       description: Some useful shortcodes for Bootstrap.
       icon:

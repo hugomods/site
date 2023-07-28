@@ -8,8 +8,9 @@ nav_icon:
   color: 'red'
 menu:
   main:
-    parent: modules
+    parent: docs
     params:
+      description: Service worker that allow precaching assets, make sites installable and offline available.
       icon:
         vendor: bs
         name: rocket

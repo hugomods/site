@@ -1,5 +1,5 @@
 main:
-  - name: Icons
+  - name: 图标
     identifier: icons
     weight: 10
     url: https://icons.hugomods.com/
@@ -8,7 +8,7 @@ main:
         name: icons
         vendor: fas
 
-  - name: HB Framework
+  - name: HB 框架
     weight: 20
     url: https://hbstack.dev/
     params:

@@ -10,14 +10,11 @@ outputs:
     - HTML
     - RSS
 
+taxonomies:
+  _merge: shallow
+
 markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    noClasses: false
-    lineNos: true
-    lineNumbersInTable: false
+  _merge: deep
 
 build:
-  writeStats: true
+  _merge: shallow

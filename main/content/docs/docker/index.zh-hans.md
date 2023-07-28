@@ -8,7 +8,7 @@ nav_icon:
   color: '#2496ed'
 menu:
   main:
-    parent: projects
+    parent: docs
     params:
       icon:
         vendor: simple-icons

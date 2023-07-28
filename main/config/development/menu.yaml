@@ -1,8 +1,0 @@
-main:
-  - name: Icons
-    weight: 8
-    url: http://localhost:8082/
-    params:
-      icon:
-        name: icons
-        vendor: fas

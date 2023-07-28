@@ -13,7 +13,7 @@ aliases:
   - /zh-hans/docs/bootstrap
 menu:
   main:
-    parent: modules
+    parent: docs
     params:
       description: 一些有用的 Bootstrap 短代码。
       icon:

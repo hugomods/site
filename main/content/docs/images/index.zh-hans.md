@@ -9,7 +9,7 @@ nav_icon:
   color: 'blue'
 menu:
   main:
-    parent: modules
+    parent: docs
     params:
       icon:
         vendor: bs

@@ -8,5 +8,5 @@ menu:
         vendor: bs
         name: tags
         color: green
-      description: All of tags.
+      description: All of the tags.
 ---

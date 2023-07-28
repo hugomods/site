@@ -8,8 +8,9 @@ nav_icon:
   color: '#65c6e0'
 menu:
   main:
-    parent: modules
+    parent: docs
     params:
+      description: Powerful, flexible and responsive client-side fuzzy search module.
       icon:
         vendor: bs
         name: search

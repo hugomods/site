@@ -5,4 +5,5 @@ hugopress:
 
 hb:
   header:
+    brand: Hugo Modules
     brand_url: https://hugomods.com/
