@@ -67,7 +67,7 @@ require (
 	github.com/hugomods/icons v0.6.0 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.0 // indirect
 	github.com/hugomods/icons/vendors/feather v0.2.0 // indirect
-	github.com/hugomods/icons/vendors/font-awesome v0.6.0 // indirect
+	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
 	github.com/hugomods/icons/vendors/lucide v0.3.14 // indirect
 	github.com/hugomods/icons/vendors/mdi v0.3.0 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.8 // indirect
