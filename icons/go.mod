@@ -55,7 +55,7 @@ require (
 	github.com/hugomods/images v0.7.0 // indirect
 	github.com/hugomods/katex v0.2.0 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
-	github.com/hugomods/pwa v0.3.0 // indirect
+	github.com/hugomods/pwa v0.3.1 // indirect
 	github.com/hugomods/search v0.4.4 // indirect
 	github.com/hugomods/shortcodes v0.10.0 // indirect
 	github.com/hugomods/site/common v0.0.0-00010101000000-000000000000 // indirect
