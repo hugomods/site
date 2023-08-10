@@ -15,7 +15,7 @@ require (
 	github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.0 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.1.7 // indirect
 	github.com/hbstack/breadcrumb v0.2.0 // indirect
-	github.com/hbstack/carousel v0.2.2 // indirect
+	github.com/hbstack/carousel v0.2.3 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.2 // indirect
 	github.com/hbstack/docs/modules/giscus v0.1.4 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.1 // indirect
