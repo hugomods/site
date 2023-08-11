@@ -9,7 +9,7 @@ require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20003 // indirect
 	github.com/hbstack/announcement-bar v0.1.0 // indirect
 	github.com/hbstack/base v0.2.0 // indirect
-	github.com/hbstack/blog/modules/content-panel v0.1.8 // indirect
+	github.com/hbstack/blog/modules/content-panel v0.1.9 // indirect
 	github.com/hbstack/blog/modules/giscus v0.1.10 // indirect
 	github.com/hbstack/blog/modules/sidebar/posts v0.3.0 // indirect
 	github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.0 // indirect
@@ -20,7 +20,7 @@ require (
 	github.com/hbstack/docs/modules/giscus v0.1.5 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.2 // indirect
 	github.com/hbstack/featured-image v0.1.1 // indirect
-	github.com/hbstack/header v0.4.3 // indirect
+	github.com/hbstack/header v0.4.4 // indirect
 	github.com/hbstack/heading-sign v0.1.3 // indirect
 	github.com/hbstack/meta/blog v0.2.5 // indirect
 	github.com/hbstack/meta/content v0.4.4 // indirect
