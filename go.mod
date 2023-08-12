@@ -30,7 +30,7 @@ require (
 	github.com/hbstack/docs/modules/giscus v0.1.5 // indirect
 	github.com/hbstack/docs/modules/heading-sign v0.1.4 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.2 // indirect
-	github.com/hbstack/footer v0.2.1 // indirect
+	github.com/hbstack/footer v0.2.2 // indirect
 	github.com/hbstack/footer/modules/socials v0.2.0 // indirect
 	github.com/hbstack/header v0.4.4 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.5 // indirect
