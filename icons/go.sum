@@ -18,6 +18,7 @@ github.com/hbstack/blog/modules/giscus v0.1.11/go.mod h1:P9Ujw7WlGkYudDfARbsF/1M
 github.com/hbstack/blog/modules/sidebar/posts v0.1.2 h1:YrVff0HRJONM6+zqXu1YzUBZtTUqDFIQ9Kok/Ouy8x0=
 github.com/hbstack/blog/modules/sidebar/posts v0.1.2/go.mod h1:ItuSamqBYiJ2CZoboQKXUhNdEFYWu8oVdcue4IWwCEQ=
 github.com/hbstack/blog/modules/sidebar/posts v0.3.0/go.mod h1:IhQnUSy+AE6useDkXQzbnk0Xglxt3IpD+LdhNCooP8k=
+github.com/hbstack/blog/modules/sidebar/posts v0.3.1/go.mod h1:kOi58vcF5V3rVorW2MbU6FR5ryNZCcpNYlnJxahyeis=
 github.com/hbstack/blog/modules/sidebar/taxonomies v0.1.2 h1:cbKdf89jSSPZW+A7gTqioKCuTXBLvzUyqmfNgR9dick=
 github.com/hbstack/blog/modules/sidebar/taxonomies v0.1.2/go.mod h1:Z15Cy+n/tLd8haSp2yZLIRZQXUpF6lveHOL4wTYQsKQ=
 github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.0/go.mod h1:rp7uDyLO55qqKoMN5LHoVQWlp34QI+IxqHH86J8rO6A=
