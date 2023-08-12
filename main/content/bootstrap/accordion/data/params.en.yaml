@@ -1,0 +1,27 @@
+data:
+  name: data
+  position: 0
+  required: true
+  desc: |
+    The data filename without extension, for example,
+
+    | Path                | Data      |
+    | ------------------- | --------- |
+    | `data/faq.yaml`     | `faq`     |
+    | `data/faq.toml`     | `faq`     |
+    | `data/faq.json`     | `faq`     |
+    | `data/sub/faq.yaml` | `sub.faq` |
+    | `data/sub/faq.toml` | `sub.faq` |
+    | `data/sub/faq.json` | `sub.faq` |
+
+flush:
+  name: flush
+  type: boolean
+  default: false
+  desc: When `true`, remove some borders and rounded corners to render accordions edge-to-edge with their parent container.
+
+always-open:
+  name: alwaysOpen
+  type: boolean
+  default: false
+  desc: When `true`, make accordion items stay open when another item is opened.
