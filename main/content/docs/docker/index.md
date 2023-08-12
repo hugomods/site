@@ -44,7 +44,7 @@ This article describes the up-to-date Hugo docker images, and offer some example
 
 We set up an automated workflow for checking and building latest Hugo images, which can be triggered by:
 
-1. [Cron job](https://github.com/hugomods/docker/actions/workflows/build.yml) which runs every 10 min.
+1. [Cron job](https://github.com/hugomods/docker/actions/workflows/build.yml) which runs every 30 mins.
 2. Commenting on [the issue](https://github.com/hugomods/docker/issues/3).
 
 ## Images
@@ -66,13 +66,17 @@ The images will be pushed to both of [Docker Hub](https://hub.docker.com/r/hugom
 | `base`, `base-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/base) | ✅ | ✅ | ❌ |  ❌ |  ❌ |  ❌ |
 | `git`, `git-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/git) | ✅ | ✅ | ❌ |  ❌ |  ❌ |  ✅ |
 | `go`, `go-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/go) | ✅ | ✅ | ✅ |  ❌ |  ❌ |  ❌ |
+| `go-git`, `go-git-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/go-git) | ✅ | ✅ | ✅ |  ❌ |  ❌ |  ✅ |
 | `node`, `node-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/node) | ✅ | ✅ | ❌ | ✅ | ✅ |  ❌ |
+| `node-git`, `node-git-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/node-git) | ✅ | ✅ | ❌ | ✅ | ✅ |  ✅ |
 | `exts`, `exts-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/exts) | ✅ | ✅ | ✅ | ✅ | ✅ |  ✅ |
 | `reg`, `reg-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg) | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | `reg-base`, `reg-base-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-base) | ✅ | ❌ | ❌ |  ❌ |  ❌ |  ❌ |
 | `reg-git`, `reg-git-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-git) | ✅ | ❌ | ❌ |  ❌ |  ❌ |  ✅ |
 | `reg-go`, `reg-go-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-go) | ✅ | ❌ | ✅ |  ❌ |  ❌ |  ❌ |
+| `reg-go-git`, `reg-go-git-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-go-git) | ✅ | ❌ | ✅ |  ❌ |  ❌ |  ✅ |
 | `reg-node`, `reg-node-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-node) | ✅ | ❌ | ❌ |  ✅ |  ✅ |  ❌ |
+| `reg-node-git`, `reg-node-git-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-node-git) | ✅ | ❌ | ❌ |  ✅ |  ✅ |  ✅ |
 | `reg-exts`, `reg-exts-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-exts) | ✅ | ❌ | ✅ |  ✅ |  ✅ |  ✅ |
 | `nginx` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/nginx) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
