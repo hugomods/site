@@ -3,7 +3,7 @@ type: docs
 title: "Bootstrap Accordion Shortcode"
 linkTitle: "Accordion"
 description: |
-  A detailed guide fof using the Bootstrap accordion shortcode to build vertically accordions.
+  A detailed guide of using the Bootstrap accordion shortcode to build vertically accordions.
   The FAQ is the most common use case of Bootstrap accordion component.
 nav_icon:
   vendor: bs
