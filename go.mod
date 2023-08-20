@@ -32,8 +32,8 @@ require (
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.2 // indirect
 	github.com/hbstack/footer v0.2.2 // indirect
 	github.com/hbstack/footer/modules/socials v0.2.1 // indirect
-	github.com/hbstack/header v0.6.0 // indirect
-	github.com/hbstack/header/modules/language-picker v0.1.8 // indirect
+	github.com/hbstack/header v0.7.0 // indirect
+	github.com/hbstack/header/modules/language-picker v0.1.9 // indirect
 	github.com/hbstack/header/modules/search v0.1.16 // indirect
 	github.com/hbstack/header/modules/socials v0.1.10 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.1.8 // indirect
