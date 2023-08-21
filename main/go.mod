@@ -8,7 +8,7 @@ require (
 	github.com/GoogleChrome/workbox v7.0.0+incompatible // indirect
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20003 // indirect
 	github.com/hbstack/announcement-bar v0.1.0 // indirect
-	github.com/hbstack/base v0.2.0 // indirect
+	github.com/hbstack/base v0.2.1 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.9 // indirect
 	github.com/hbstack/blog/modules/giscus v0.1.11 // indirect
 	github.com/hbstack/blog/modules/sidebar/posts v0.3.1 // indirect
