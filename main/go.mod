@@ -11,7 +11,7 @@ require (
 	github.com/hbstack/base v0.2.1 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.10 // indirect
 	github.com/hbstack/blog/modules/giscus v0.1.12 // indirect
-	github.com/hbstack/blog/modules/sidebar/posts v0.3.1 // indirect
+	github.com/hbstack/blog/modules/sidebar/posts v0.3.2 // indirect
 	github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.1 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.1.8 // indirect
 	github.com/hbstack/breadcrumb v0.2.0 // indirect
