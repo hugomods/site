@@ -6,6 +6,7 @@ github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mF
 github.com/hbstack/announcement-bar v0.1.0 h1:e0vUCDCiQW3n/FkpuyhYDDgQmYbWzZXU1s7DS47CVJ0=
 github.com/hbstack/announcement-bar v0.1.0/go.mod h1:oEwrGYRoALt1o3LeYKGbkrmKSrS0XrgrHMNdQRWtAYs=
 github.com/hbstack/announcement-bar v0.2.0/go.mod h1:N6X/upCCPiVdrbm/dF0+npmLPidRRrRTz9sLq8L8Di0=
+github.com/hbstack/announcement-bar v0.2.1/go.mod h1:C6cPozrXTz/hh/EtgzN4MdL9QjF4BSGSCFn/x8Wv36w=
 github.com/hbstack/base v0.2.0 h1:BtLH7i8uxUM5TMr1kaaVeJ/Yu/5FeZJ1MquxPFXgpNU=
 github.com/hbstack/base v0.2.0/go.mod h1:f0mafnZoiQ3YYvRb82o605NEQVbQ3wzRYzhW4PZjrJ4=
 github.com/hbstack/base v0.2.1/go.mod h1:6SqazoH3UBSuwSHV1kyEDWcIJg+Cef++w8p45VSsSHQ=
