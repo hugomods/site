@@ -50,6 +50,7 @@ github.com/hbstack/docs/modules/content-panel v0.1.4/go.mod h1:qke3solS2gzRvIocN
 github.com/hbstack/docs/modules/giscus v0.1.4 h1:gyCyb4ispdUnoF6EJbNghD82/jf9BCS7aR8b6oZPTZY=
 github.com/hbstack/docs/modules/giscus v0.1.4/go.mod h1:7gkUNgTeMUqpUTPAGwhD7lSBScMZBO1lKscP92XuUfw=
 github.com/hbstack/docs/modules/giscus v0.1.5/go.mod h1:OEWWifHO3BTYxg14jFcY8WPG7KpdWg+bjoDeN7ozku0=
+github.com/hbstack/docs/modules/giscus v0.1.6/go.mod h1:NGVZZ4dpSOiNf34XH4Slj4lWSsXg6eoh6JM7Rk/LRyE=
 github.com/hbstack/docs/modules/toc-scrollspy v0.1.1 h1:sF6MLsVh+XFm5UgIGHR9rIhRa9C+WAhfA0n/czjQzKE=
 github.com/hbstack/docs/modules/toc-scrollspy v0.1.1/go.mod h1:Nd1iRY6jIt2CysHTaztEpwqycKf1n/r67nl9YKTE/NE=
 github.com/hbstack/docs/modules/toc-scrollspy v0.1.2/go.mod h1:nfuMmZL9VP4uRjrG9wLT+80TXd0QWQiLJMc9H2NCyPs=

@@ -17,7 +17,7 @@ require (
 	github.com/hbstack/breadcrumb v0.2.0 // indirect
 	github.com/hbstack/carousel v0.2.3 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.4 // indirect
-	github.com/hbstack/docs/modules/giscus v0.1.5 // indirect
+	github.com/hbstack/docs/modules/giscus v0.1.6 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.2 // indirect
 	github.com/hbstack/featured-image v0.1.1 // indirect
 	github.com/hbstack/header v0.8.1 // indirect
