@@ -22,7 +22,7 @@ require (
 	github.com/hbstack/featured-image v0.1.1 // indirect
 	github.com/hbstack/heading-sign v0.1.3 // indirect
 	github.com/hbstack/meta/blog v0.2.6 // indirect
-	github.com/hbstack/meta/content v0.4.4 // indirect
+	github.com/hbstack/meta/content v0.4.5 // indirect
 	github.com/hbstack/meta/footer v0.2.4 // indirect
 	github.com/hbstack/meta/header v0.2.4 // indirect
 	github.com/hbstack/meta/recommended v0.2.3 // indirect
@@ -35,7 +35,7 @@ require (
 	github.com/henrygd/bigger-picture v1.1.11 // indirect
 	github.com/hugomods/aos v0.1.0 // indirect
 	github.com/hugomods/base v0.1.0 // indirect
-	github.com/hugomods/bootstrap v0.9.0 // indirect
+	github.com/hugomods/bootstrap v0.9.1 // indirect
 	github.com/hugomods/code-block-panel v0.2.0 // indirect
 	github.com/hugomods/decap-cms v0.1.0 // indirect
 	github.com/hugomods/encrypt v0.2.0 // indirect
