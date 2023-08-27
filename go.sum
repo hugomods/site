@@ -204,6 +204,7 @@ github.com/hbstack/meta/blog v0.2.6/go.mod h1:Eq9e0utRHaG/PPhxXNi42zU4N449Fyzgcj
 github.com/hbstack/meta/content v0.4.3 h1:jFgHm24KnY6s8S2q8FNhW0Qt1F2JsXWQFsLhj9KBExU=
 github.com/hbstack/meta/content v0.4.3/go.mod h1:tVPxlwydmqhT6dIhjvLB0E1/8ES2F62OWO1O6F4SAis=
 github.com/hbstack/meta/content v0.4.4/go.mod h1:3bpUZ62pwPNjklm3Z0BKOyATbB5tEy1ZVVMQJG96MO4=
+github.com/hbstack/meta/content v0.4.5/go.mod h1:NAsgOSUZNdNkP2wyA52TKPNmQAh4NSyK12kFOMG7NBQ=
 github.com/hbstack/meta/docs v0.2.3 h1:QlrhrbhTGTgmscGwxy3SsaZylJf54J39F3jGENOhc5A=
 github.com/hbstack/meta/docs v0.2.3/go.mod h1:yO6MB5KQyK2qpj1RoCAyZVQcuEsjeoGmnD2/mDGx0gE=
 github.com/hbstack/meta/docs v0.2.6/go.mod h1:gdUdbD9Wofma5TzUnxW/lUtSJZFH/Z1jK0Ig9CvGA5A=
@@ -248,6 +249,7 @@ github.com/hugomods/bootstrap v0.7.1/go.mod h1:NVii94xgqDocyD0+aAWamBLPJjNspfMyn
 github.com/hugomods/bootstrap v0.7.2/go.mod h1:NVii94xgqDocyD0+aAWamBLPJjNspfMynEdmIOXO3Vs=
 github.com/hugomods/bootstrap v0.8.1/go.mod h1:NVii94xgqDocyD0+aAWamBLPJjNspfMynEdmIOXO3Vs=
 github.com/hugomods/bootstrap v0.9.0/go.mod h1:NVii94xgqDocyD0+aAWamBLPJjNspfMynEdmIOXO3Vs=
+github.com/hugomods/bootstrap v0.9.1/go.mod h1:NVii94xgqDocyD0+aAWamBLPJjNspfMynEdmIOXO3Vs=
 github.com/hugomods/decap-cms v0.1.0 h1:FGswav9aXekLQs4FFLHkJ2bgulxUUXQZmbCryUigDcU=
 github.com/hugomods/decap-cms v0.1.0/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/encrypt v0.2.0 h1:mlwrKPahAcotlYSSso5GZQgLoMeHNPwIAdxD0m/459E=
