@@ -26,11 +26,7 @@ images:
 
 The `github.com/hugomods/aos` module add support for the [AOS](https://github.com/michalsnik/aos) library, which allow attaching simple animations on elements that can be triggered on scroll.
 
-## Installation
-
-{{% skip-if-hugopress %}}
-
-### Import the Module
+## Import the Module
 
 {{% bs/config-toggle hugo %}}
 module:
@@ -40,11 +36,15 @@ module:
 
 ### Import the Styles
 
+{{% skip-if-hugopress %}}
+
 ```go-html-template
 {{ partialCached "aos/assets/css" . }}
 ```
 
 ### Import the JavaScript
+
+{{% skip-if-hugopress %}}
 
 ```go-html-template
 {{ partialCached "aos/assets/js" . }}
