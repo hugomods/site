@@ -1,2 +1,3 @@
 imports:
+  - path: github.com/hugomods/aos
   - path: github.com/hugomods/site/common
