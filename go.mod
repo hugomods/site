@@ -75,7 +75,7 @@ require (
 	github.com/hugomods/images v0.7.0 // indirect
 	github.com/hugomods/katex v0.2.0 // indirect
 	github.com/hugomods/pwa v0.3.2 // indirect
-	github.com/hugomods/search v0.4.4 // indirect
+	github.com/hugomods/search v0.4.5 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect
 	github.com/hugomods/seo/modules/favicons v0.2.0 // indirect
 	github.com/hugomods/seo/modules/open-graph v0.1.0 // indirect
