@@ -255,6 +255,8 @@ github.com/hugomods/bootstrap v0.7.2/go.mod h1:NVii94xgqDocyD0+aAWamBLPJjNspfMyn
 github.com/hugomods/bootstrap v0.8.1/go.mod h1:NVii94xgqDocyD0+aAWamBLPJjNspfMynEdmIOXO3Vs=
 github.com/hugomods/bootstrap v0.9.0/go.mod h1:NVii94xgqDocyD0+aAWamBLPJjNspfMynEdmIOXO3Vs=
 github.com/hugomods/bootstrap v0.9.1/go.mod h1:NVii94xgqDocyD0+aAWamBLPJjNspfMynEdmIOXO3Vs=
+github.com/hugomods/bootstrap v0.10.0 h1:vzMqVNcP/UlRft/jDm6jsjxPKTCfyUrfpku0lFkfOoc=
+github.com/hugomods/bootstrap v0.10.0/go.mod h1:NVii94xgqDocyD0+aAWamBLPJjNspfMynEdmIOXO3Vs=
 github.com/hugomods/decap-cms v0.1.0 h1:FGswav9aXekLQs4FFLHkJ2bgulxUUXQZmbCryUigDcU=
 github.com/hugomods/decap-cms v0.1.0/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/encrypt v0.2.0 h1:mlwrKPahAcotlYSSso5GZQgLoMeHNPwIAdxD0m/459E=

@@ -47,7 +47,23 @@ PUT YAML/TOML/JSON CODE HERE.
 {{</* /bs/config-toggle */>}}
 ```
 
-## Parameters
+## Site Parameters
+
+{{% bs/config-toggle hugo %}}
+params:
+  bootstrap:
+    config_toggle:
+      langs:
+        - yaml
+        - toml
+        - json
+{{% /bs/config-toggle %}}
+
+| Name | Type | Required | Default | Description |
+| ---- | ---- | :------: | :-----: | ----------- |
+| `langs` | array | - | `["toml", "yaml", "json"]` | The target languages, can be used to exclude and sort languages globally. |
+
+## Shortcode Parameters
 
 The following parameters are supported.
 
@@ -55,6 +71,8 @@ The following parameters are supported.
 | -------- | ---- | ---- | :------: | :-----: | ----------- |
 | `#0`     | `filename` | string | - | - | The filename. |
 | `#1`     | `langs` | string | - | `toml,yaml,json` | The target languages, separated by comma, can be used to exclude and sort languages. |
+| -        | `style` | string | - | `tabs` | `tabs`, `pills` or `underline`. |
+| -        | `fill` | boolean | - | `false` | When `true` the nav items take full width. |
 
 ## Examples
 
@@ -86,17 +104,17 @@ langs = ["toml", "json"]
 langs = ["toml","json"]
 {{< /bootstrap/config-toggle >}}
 
-### Hugo Configuration Example
+### Hugo Configuration Example With Pills Style And Take Full Width
 
 ```markdown
-{{</* bs/config-toggle filename=hugo */>}}
+{{</* bs/config-toggle filename=hugo style=pills fill=true */>}}
 module:
   imports:
     - path: github.com/hugomods/bootstrap
 {{</* /bs/config-toggle */>}}
 ```
 
-{{< bootstrap/config-toggle filename=hugo >}}
+{{< bootstrap/config-toggle filename=hugo style=pills fill=true >}}
 module:
   imports:
     - path: github.com/hugomods/bootstrap

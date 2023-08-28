@@ -35,7 +35,7 @@ The [config toggle]({{< ref "bootstrap/config-toggle" >}}) is useful, but it's l
 | Position | Name | Type | Required | Default | Description |
 | -------- | ---- | ---- | :------: | :-----: | ----------- |
 | `#0` | `name` | string | Y | - | The identifier/name of toggle. **MUST** be unique per page. |
-| `#1` | `style` | string | - | `tabs` | `tabs`, `pills`. |
+| `#1` | `style` | string | - | `tabs` | `tabs`, `pills`, `underline`. |
 
 ## Toggle Item Shortcode
 
@@ -144,3 +144,17 @@ It's quite easy to write SDK codes with the `bs/toggle` shortcode.
   {{< /bootstrap/toggle-item >}}
 
 {{< /bootstrap/toggle >}}
+
+### Non-fill, Align to Center With the Underline Style
+
+```markdown
+{{</* bs/toggle name=underline style=underline fill=false alignment=center */>}}
+  {{</* bs/toggle-item Foo */>}}Foo{{</* /bs/toggle-item */>}}
+  {{</* bs/toggle-item Bar */>}}Bar{{</* /bs/toggle-item */>}}
+{{</* /bs/toggle */>}}
+```
+
+{{< bs/toggle name=underline style=underline fill=false alignment=center >}}
+  {{< bs/toggle-item Foo >}}Foo{{< /bs/toggle-item >}}
+  {{< bs/toggle-item Bar >}}Bar{{< /bs/toggle-item >}}
+{{< /bs/toggle >}}

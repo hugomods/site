@@ -3,6 +3,13 @@ description: Hugo modules for building fast, modular and modern static websites.
 encrypt:
   password: hugomods.com
 
+bootstrap:
+  config_toggle:
+    langs:
+      - yaml
+      - toml
+      - json
+
 hb:
   announcement_bar:
     interval: 2500
