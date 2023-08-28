@@ -56,7 +56,7 @@ require (
 	github.com/hugomods/katex v0.2.0 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
 	github.com/hugomods/pwa v0.3.2 // indirect
-	github.com/hugomods/search v0.4.4 // indirect
+	github.com/hugomods/search v0.4.5 // indirect
 	github.com/hugomods/shortcodes v0.10.0 // indirect
 	github.com/hugomods/site/common v0.0.0-00010101000000-000000000000 // indirect
 	github.com/krisk/Fuse v6.6.2+incompatible // indirect
