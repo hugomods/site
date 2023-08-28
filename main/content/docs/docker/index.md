@@ -69,7 +69,7 @@ The images will be pushed to both of [Docker Hub](https://hub.docker.com/r/hugom
 | `go-git`, `go-git-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/go-git) | ✅ | ✅ | ✅ |  ❌ |  ❌ |  ✅ |
 | `node`, `node-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/node) | ✅ | ✅ | ❌ | ✅ | ✅ |  ❌ |
 | `node-git`, `node-git-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/node-git) | ✅ | ✅ | ❌ | ✅ | ✅ |  ✅ |
-| `node-lts`, `node-lts-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/node-lts) | ✅ | ✅ | ❌ | ✅ | ✅ |  ✅ |
+| `node-lts`, `node-lts-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/node-lts) | ✅ | ✅ | ❌ | ✅ | ✅ |  ❌ |
 | `exts`, `exts-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/exts) | ✅ | ✅ | ✅ | ✅ | ✅ |  ✅ |
 | `reg`, `reg-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg) | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | `reg-base`, `reg-base-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-base) | ✅ | ❌ | ❌ |  ❌ |  ❌ |  ❌ |
@@ -78,7 +78,7 @@ The images will be pushed to both of [Docker Hub](https://hub.docker.com/r/hugom
 | `reg-go-git`, `reg-go-git-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-go-git) | ✅ | ❌ | ✅ |  ❌ |  ❌ |  ✅ |
 | `reg-node`, `reg-node-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-node) | ✅ | ❌ | ❌ |  ✅ |  ✅ |  ❌ |
 | `reg-node-git`, `reg-node-git-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-node-git) | ✅ | ❌ | ❌ |  ✅ |  ✅ |  ✅ |
-| `reg-node-lts`, `reg-node-lts-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-node-lts) | ✅ | ❌ | ❌ |  ✅ |  ✅ |  ✅ |
+| `reg-node-lts`, `reg-node-lts-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-node-lts) | ✅ | ❌ | ❌ |  ✅ |  ✅ | ❌ |
 | `reg-exts`, `reg-exts-<version>` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/reg-exts) | ✅ | ❌ | ✅ |  ✅ |  ✅ |  ✅ |
 | `nginx` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/hugomods/hugo/nginx) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
