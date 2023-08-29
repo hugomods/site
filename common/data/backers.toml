@@ -1,11 +1,12 @@
-[[bronze]]
-name = "Become a backer"
-url = "https://ko-fi.com/razonyang"
+# [[bronze]]
+# name = "Become a backer"
+# url = "https://ko-fi.com/razonyang"
 
 [[gold]]
 name = "Become a backer"
 url = "https://ko-fi.com/razonyang"
+weight = 1
 
-[[silver]]
-name = "Become a backer"
-url = "https://ko-fi.com/razonyang"
+# [[silver]]
+# name = "Become a backer"
+# url = "https://ko-fi.com/razonyang"
