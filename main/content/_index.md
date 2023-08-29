@@ -1,6 +1,32 @@
 ---
 layout: landing
 title: Hugo Modules
+description: Hugo modules for building fast, modular and modern themes and static websites.
+header:
+  banner:
+    alignment: center
+    img: /images/banners/home.svg
+    title: |
+      Hugo Modules
+      { .mb-5 data-aos="fade-up" }
+    description: |
+      Hugo modules for building **fast**, **modular** and **modern** themes and static websites.
+      { .mb-5 data-aos="fade-up" data-aos-delay="200" }
+
+      {{< html/div
+        data-aos="fade-up"
+        data-aos-delay="300"
+        class="d-grid gap-3 d-sm-flex justify-content-sm-center flex-wrap" >}}
+        {{< bs/btn-link style=primary size=lg class="py-3" url="/docs" >}}
+          {{< icons/icon vendor=bootstrap name=book className="me-1" >}} Read the docs
+        {{< /bs/btn-link >}}
+        {{< bs/btn-link style=light size=lg class="py-3" url="/posts" >}}
+          {{< icons/icon vendor=bootstrap name=newspaper className="me-1" >}} Blog
+        {{< /bs/btn-link >}}
+        {{< bs/btn-link style=danger size=lg class="py-3" url="/thanks" >}}
+          {{< icons/icon vendor=bootstrap name=heart className="me-1" >}} Thanks
+        {{< /bs/btn-link >}}
+      {{< /html/div >}}
 # menu:
 #   main:
 #     name: Home
@@ -10,28 +36,6 @@ title: Hugo Modules
 #         vendor: bootstrap
 #         name: house
 ---
-
-{{< bs/row class="text-center mb-5 py-5" >}}
-  {{% html/div class="d-block mx-auto mb-1" %}}
-  ![Logo](/images/logo.png?height=120px)
-  {{% /html/div %}}
-  {{< bs/display level=4 class="fw-bold text-body-emphasis" >}}{{< param title >}}{{< /bs/display >}}
-  {{< bs/lead class="mb-4" >}}{{< param description >}}{{< /bs/lead >}}
-  {{< html/div class="d-grid gap-3 d-sm-flex justify-content-sm-center flex-wrap" >}}
-    {{< bs/btn-link url="/docs" size=lg style=primary class="p-3" >}}
-      {{< icons/icon vendor=bs name=book className=me-2 >}}Read the docs
-    {{< /bs/btn-link >}}
-    {{< bs/btn-link url="/posts" size=lg style=success class="p-3" >}}
-      {{< icons/icon vendor=fas name=blog className=me-2 >}}Blog
-    {{< /bs/btn-link >}}
-    {{< bs/btn-link url="https://github.com/hugomods/" size=lg style=dark class="p-3" >}}
-      {{< icons/icon vendor=simple name=github className=me-2 >}}Follow us
-    {{< /bs/btn-link >}}
-    {{< bs/btn-link url="/thanks" size=lg style=danger outline=true class="p-3" >}}
-      {{< icons/icon vendor=fas name=heart className=me-2 >}}Thanks
-    {{< /bs/btn-link >}}
-  {{< /html/div >}}
-{{< /bs/row >}}
 
 {{< bs/display level=4 class="fw-bold text-body-emphasis mb-5 text-center" >}}Projects & Modules{{< /bs/display >}}
 
