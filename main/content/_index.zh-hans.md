@@ -36,3 +36,7 @@ header:
 #         vendor: bootstrap
 #         name: house
 ---
+
+## 赞助商 {#赞助商 .text-center .mb-5}
+
+{{< sponsors >}}

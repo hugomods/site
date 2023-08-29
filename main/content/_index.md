@@ -37,6 +37,10 @@ header:
 #         name: house
 ---
 
+## Sponsors {#sponsors .text-center .mb-5}
+
+{{< sponsors >}}
+
 {{< bs/display level=4 class="fw-bold text-body-emphasis mb-5 text-center" >}}Projects & Modules{{< /bs/display >}}
 
 {{< bs/icon-grid "projects" >}}
