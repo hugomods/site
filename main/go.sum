@@ -62,6 +62,7 @@ github.com/hbstack/meta/recommended v0.2.3 h1:Rt4diCSvt45ypUZ/9rrAQCfFz7W3IAeTaI
 github.com/hbstack/meta/recommended v0.2.3/go.mod h1:BMrAvoaRXym/gMl6f9ervMdQxairONEqXA6F+WvvX6o=
 github.com/hbstack/meta/recommended v0.2.5 h1:wJK5IyEP20zVFkS/hoRKeD4f9zConL48p8i9u/WsJRQ=
 github.com/hbstack/meta/recommended v0.2.5/go.mod h1:2emYYxSvcli3Jg+Uf788Xf9aFPxGx6QyVFN9DJc45V8=
+github.com/hbstack/meta/recommended v0.2.6/go.mod h1:awsDt/+403LNnIJN034gaIl7jdha/oaWJOMFVpY/Hjk=
 github.com/hbstack/meta/seo v0.2.0 h1:0xemjrVWwLmYjzKCAmo/6vxWEHACXimjT7vlFYXgmCM=
 github.com/hbstack/meta/seo v0.2.0/go.mod h1:41BjjCbTMPJCmrepy5wXjwkV2QQxLyM8Q2kUrJpH/sM=
 github.com/hbstack/pagination v0.2.0 h1:1TKy5bLrwkIxHJPLjK+k6Ws9ZO6Lg2ppP+Z1iVvDoAw=
