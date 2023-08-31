@@ -54,6 +54,12 @@ The data should be placed under the `/data` folder.
 | `icon.vendor` | string |    -     | `bootstrap` | The icon vendor.                           |
 | `icon.color`  | string |    -     |      -      | The icon color.                            |
 
+{{% bs/alert warning %}}
+{{% markdownify %}}
+Please make sure the `description` doesn't contain links when the `linkText` is empty.
+{{% /markdownify %}}
+{{% /bs/alert %}}
+
 ## Examples
 
 {{% bs/collapse "data/features.toml" primary true %}}
