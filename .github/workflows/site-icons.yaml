@@ -61,7 +61,7 @@ jobs:
       #     gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v2.0
+        uses: nwtgck/actions-netlify@v2.1
         with:
           publish-dir: './icons/public'
           production-branch: main
