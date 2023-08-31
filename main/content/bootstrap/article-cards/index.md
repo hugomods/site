@@ -34,3 +34,21 @@ This shortcode generate a list of articles in card style.
 ## Parameters
 
 {{% shortcode-params "data/params.toml" %}}
+
+## Examples
+
+### Default Article Cards
+
+```markdown
+{{</* bs/article-cards limit=3 */>}}
+```
+
+{{< bs/article-cards limit=3 >}}
+
+### Default Article Cards Without Link Text
+
+```markdown
+{{</* bs/article-cards limit=3 linkText="" */>}}
+```
+
+{{< bs/article-cards limit=3 linkText="" >}}
