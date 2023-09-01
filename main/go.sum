@@ -5,6 +5,7 @@ github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20003/go.mod h1:mvM05r93
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
 github.com/hbstack/announcement-bar v0.3.0 h1:ZfOYpyuls02MdKeLD7gtmvvWCS26bseEpavsO8Z883U=
 github.com/hbstack/announcement-bar v0.3.0/go.mod h1:C6cPozrXTz/hh/EtgzN4MdL9QjF4BSGSCFn/x8Wv36w=
+github.com/hbstack/announcement-bar v0.4.0/go.mod h1:Tc3usPdUgRyVmgiqKGRyo6UHJcK1UAqRw0WfNTVoIGc=
 github.com/hbstack/base v0.2.1 h1:u3lkO9MhjA6HomkJ6hzt0R7sA0u330bo6lbxVrF1FiI=
 github.com/hbstack/base v0.2.1/go.mod h1:6SqazoH3UBSuwSHV1kyEDWcIJg+Cef++w8p45VSsSHQ=
 github.com/hbstack/blog/modules/content-panel v0.1.10 h1:bPRqZ8ZqVCvMf/02gGxoNwTn/XyDm+jV25SWhCJSH5k=
