@@ -11,7 +11,6 @@ nav_icon:
   vendor: bs
   name: text-paragraph
   className: text-success
-weight: 1000
 analyze: false
 series:
 categories:
