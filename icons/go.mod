@@ -20,12 +20,12 @@ require (
 	github.com/hbstack/docs/modules/giscus v0.1.6 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.3 // indirect
 	github.com/hbstack/featured-image v0.1.1 // indirect
-	github.com/hbstack/header v0.8.2 // indirect
+	github.com/hbstack/header v0.9.0 // indirect
 	github.com/hbstack/heading-sign v0.1.3 // indirect
 	github.com/hbstack/meta/blog v0.2.8 // indirect
 	github.com/hbstack/meta/content v0.4.7 // indirect
 	github.com/hbstack/meta/footer v0.2.6 // indirect
-	github.com/hbstack/meta/header v0.2.7 // indirect
+	github.com/hbstack/meta/header v0.2.8 // indirect
 	github.com/hbstack/meta/recommended v0.2.6 // indirect
 	github.com/hbstack/meta/seo v0.2.0 // indirect
 	github.com/hbstack/pagination v0.2.0 // indirect
