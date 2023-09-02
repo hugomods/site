@@ -11,6 +11,8 @@ bootstrap:
       - json
 
 hb:
+  styles:
+    primary: '#ff4088'
   announcement_bar:
     interval: 2500
   header:
