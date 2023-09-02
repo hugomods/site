@@ -1,4 +1,5 @@
 imports:
+  - path: github.com/hugomods/video-js
   - path: github.com/hugomods/aos
   - path: github.com/hbstack/header/modules/banner
   - path: github.com/hugomods/site/common

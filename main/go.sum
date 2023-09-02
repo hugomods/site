@@ -3,8 +3,7 @@ github.com/GoogleChrome/workbox v7.0.0+incompatible/go.mod h1:dyEoGLpJeO43pUVJb+
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20003 h1:pt/JGVD5YYRsVVijOHPZI6YKTUvbR4e0hgV9B0S6rbI=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20003/go.mod h1:mvM05r93HiefwoaxQTaYiJxtJAhTebwQtU1Xh/J+Okk=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
-github.com/hbstack/announcement-bar v0.3.0 h1:ZfOYpyuls02MdKeLD7gtmvvWCS26bseEpavsO8Z883U=
-github.com/hbstack/announcement-bar v0.3.0/go.mod h1:C6cPozrXTz/hh/EtgzN4MdL9QjF4BSGSCFn/x8Wv36w=
+github.com/hbstack/announcement-bar v0.4.0 h1:z8JEuod13Jhv4fhCsnomZq7icIBwvT4zHRltsePTu6g=
 github.com/hbstack/announcement-bar v0.4.0/go.mod h1:Tc3usPdUgRyVmgiqKGRyo6UHJcK1UAqRw0WfNTVoIGc=
 github.com/hbstack/base v0.2.1 h1:u3lkO9MhjA6HomkJ6hzt0R7sA0u330bo6lbxVrF1FiI=
 github.com/hbstack/base v0.2.1/go.mod h1:6SqazoH3UBSuwSHV1kyEDWcIJg+Cef++w8p45VSsSHQ=
@@ -98,6 +97,8 @@ github.com/hugomods/search v0.4.5 h1:RC7OTkEAQjh49/SCh5Gw0+RFzeTDE+6J5XqMixVY6mw
 github.com/hugomods/search v0.4.5/go.mod h1:xdMNL0R06eMDyl8LVoFNp19lnFSNMFT+oje8j8N/WbI=
 github.com/hugomods/shortcodes v0.10.0 h1:NKu2m1xciBsqzu7PU0SDu1C12OHdX+pMjfUI975kCXM=
 github.com/hugomods/shortcodes v0.10.0/go.mod h1:EnVopbZMNI/HeteM3Lp3phBTCRLvPSe7l142qhRFFPY=
+github.com/hugomods/video-js v0.1.1 h1:52DgwMZUrXVHbjG7+ke8YmYMXIs3yhn5q0JWz/bhLto=
+github.com/hugomods/video-js v0.1.1/go.mod h1:uNF7SDARVaQwpirTpZbKZxqvuKTalYsg2mHPDW5n2vU=
 github.com/krisk/Fuse v6.6.2+incompatible h1:laigOpZFs/xUi9zGjVu5t19bcvzRVufoXCnPSgQZmYI=
 github.com/krisk/Fuse v6.6.2+incompatible/go.mod h1:3moWv8rDjwoKic9nwiPLgZjldkbdTAbtzJHCu/Vsj4A=
 github.com/razonyang/hb-mod-thanks v0.4.1 h1:NhETlKG+Q/dyY7IDU69IfkXVTo73xptGQ/qp3dsWGZ4=
