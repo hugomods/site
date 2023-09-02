@@ -21,6 +21,7 @@ github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.2/go.mod h1:fierdrX/Pktz
 github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.3/go.mod h1:1OQiSka6qKi3T4b3LYuU2RBWfRLvWYYdFIOXfaKNfb8=
 github.com/hbstack/blog/modules/toc-scrollspy v0.1.9 h1:f5LbpIHZMZ/hgWGguELm6LdldLofvCWfszQjb0Ke/f4=
 github.com/hbstack/blog/modules/toc-scrollspy v0.1.9/go.mod h1:iGrKAJhs8sKxWnII/x0WoEbrdMlgyDuWRMMjQNHoV5g=
+github.com/hbstack/blog/modules/toc-scrollspy v0.1.10/go.mod h1:HgloOEOKMyXUmiBeHuncgdn/5rISues5YRl9tk5mQXE=
 github.com/hbstack/breadcrumb v0.2.0 h1:MFdVkfSMHkGaLGwp8lwcYYQuorpWzB6S/WOmblSlW9o=
 github.com/hbstack/breadcrumb v0.2.0/go.mod h1:/HsyKPMkXaairW/Ws6tGlc1Zf1DEmjp/v7d2QkY/UC4=
 github.com/hbstack/carousel v0.2.3 h1:4jCjvd2+MDm9sAp3FOtPVa06JmnNLdfBRTxtkyrXl/M=
