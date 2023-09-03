@@ -27,6 +27,9 @@ hb:
       paypal: razonyang
       kofi: razonyang
   blog:
+    sidebar:
+      taxonomies:
+        style: underline
     home:
       recent_posts: 12
   content_panel:
