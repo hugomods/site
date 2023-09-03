@@ -116,6 +116,8 @@ github.com/hugomods/search v0.4.5 h1:RC7OTkEAQjh49/SCh5Gw0+RFzeTDE+6J5XqMixVY6mw
 github.com/hugomods/search v0.4.5/go.mod h1:xdMNL0R06eMDyl8LVoFNp19lnFSNMFT+oje8j8N/WbI=
 github.com/hugomods/shortcodes v0.10.0 h1:NKu2m1xciBsqzu7PU0SDu1C12OHdX+pMjfUI975kCXM=
 github.com/hugomods/shortcodes v0.10.0/go.mod h1:EnVopbZMNI/HeteM3Lp3phBTCRLvPSe7l142qhRFFPY=
+github.com/hugomods/shortcodes v0.11.0 h1:5rwMVjsc07Alh2Cwp+UUZqaErBaD9jmgxExYEYJkxAk=
+github.com/hugomods/shortcodes v0.11.0/go.mod h1:EnVopbZMNI/HeteM3Lp3phBTCRLvPSe7l142qhRFFPY=
 github.com/hugomods/video-js v0.1.1 h1:52DgwMZUrXVHbjG7+ke8YmYMXIs3yhn5q0JWz/bhLto=
 github.com/hugomods/video-js v0.1.1/go.mod h1:uNF7SDARVaQwpirTpZbKZxqvuKTalYsg2mHPDW5n2vU=
 github.com/krisk/Fuse v6.6.2+incompatible h1:laigOpZFs/xUi9zGjVu5t19bcvzRVufoXCnPSgQZmYI=
