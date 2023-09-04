@@ -22,7 +22,7 @@ require (
 	github.com/hbstack/featured-image v0.1.1 // indirect
 	github.com/hbstack/header/modules/banner v0.5.2 // indirect
 	github.com/hbstack/heading-sign v0.1.3 // indirect
-	github.com/hbstack/meta/recommended v0.2.7 // indirect
+	github.com/hbstack/meta/recommended v0.2.8 // indirect
 	github.com/hbstack/pagination v0.2.0 // indirect
 	github.com/hbstack/snackbar v0.1.2 // indirect
 	github.com/hbstack/socials v0.4.0 // indirect
