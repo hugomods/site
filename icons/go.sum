@@ -75,6 +75,7 @@ github.com/hbstack/docs/modules/giscus v0.1.4/go.mod h1:7gkUNgTeMUqpUTPAGwhD7lSB
 github.com/hbstack/docs/modules/giscus v0.1.5/go.mod h1:OEWWifHO3BTYxg14jFcY8WPG7KpdWg+bjoDeN7ozku0=
 github.com/hbstack/docs/modules/giscus v0.1.6 h1:2CQkbyGLpctOMIjRsB0YmmOVtjdGAeaBzGgTDC/CG5s=
 github.com/hbstack/docs/modules/giscus v0.1.6/go.mod h1:NGVZZ4dpSOiNf34XH4Slj4lWSsXg6eoh6JM7Rk/LRyE=
+github.com/hbstack/docs/modules/giscus v0.1.7/go.mod h1:97ZeoBJr54chr6u70HUDtkiVBDGwYl9lZAC9lmbpjhY=
 github.com/hbstack/docs/modules/toc-scrollspy v0.1.1 h1:sF6MLsVh+XFm5UgIGHR9rIhRa9C+WAhfA0n/czjQzKE=
 github.com/hbstack/docs/modules/toc-scrollspy v0.1.1/go.mod h1:Nd1iRY6jIt2CysHTaztEpwqycKf1n/r67nl9YKTE/NE=
 github.com/hbstack/docs/modules/toc-scrollspy v0.1.2/go.mod h1:nfuMmZL9VP4uRjrG9wLT+80TXd0QWQiLJMc9H2NCyPs=
