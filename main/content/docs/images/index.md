@@ -83,27 +83,104 @@ The query string preceded by a question mark (`?`), and the fragment preceded by
 This module uses the query string to process images, and use fragment to align images.
 
 {{% bootstrap/clearfix %}}
-![Example](featured.jpeg?crop=300x120&brightness=-10#float-end "Example caption") For example, `![Example](featured.jpeg?crop=300x120&brightness=-10#float-end "Example caption")`, which crop the image in size `300x120`, change the brightness as `-10` and floating the image to the end (right).
+![Example](featured.jpeg?crop=300x120&brightness=-30#float-end "Example caption") For example, `![Example](featured.jpeg?crop=300x120&brightness=-10#float-end "Example caption")`, which crop the image in size `300x120`, change the brightness as `-30` and floating the image to the end (right).
 {{% /bootstrap/clearfix %}}
 
 ## Image Types
 
-| Type                  | Description                                   | Example                               |
-| --------------------- | --------------------------------------------- | ------------------------------------- |
-| Site Image Resource | The images located in the `assets` directory. | `/images/foo.png`                     |
-| Page Image Resource   | The images located in the page's directory.   | `bar.png`                             |
-| Static Image          | The images located in the `static` directory. | `images/fizz.png`                     |
-| External Image        | The external image.                           | `https://example.com/images/buzz.png` |
+### Site (Global) Image Resources
 
-The image resources begin with a leading slash `/` will be treated as a site image resource.
+The images located in the `assets` directory.
+{ .lead }
 
-Most of the processing methods work only on image resources, except for alignment and resizing.
+To use the site/global image resources, you'll need to put a leading slash (`/`) into the URL.
+
+| Path | Example |
+| ---- | ------- |
+| `assets/images/foo.png` | `![Foo](/foo.png)` |
+| `assets/images/bar.png` | `![Bar](/bar.png)` |
+
+### Page Image Resources
+
+The images located in the [page's directory](https://gohugo.io/content-management/page-resources/).
+{ .lead }
+
+You'll need to organize pages as [page bundles](https://gohugo.io/content-management/page-bundles/), for example.
+
+```text
+content/
+  blog/
+    hello/
+      index.md
+      foo.png
+      bar.png
+```
+
+The content structure above includes one page (`blog/hello`) that contains two image resources: `foo.png` and `bar.png`.
+
+Then you can render the images in the page content file (`blog/hello/index.md`).
+
+```markdown
+![Foo](foo.png)
+![Bar](bar.png)
+```
+
+### Static (Public) Images
+
+The images located in the `static` folder.
+{ .lead }
+
+| Path | Example |
+| ---- | ------- |
+| `static/images/foo.png` | `![Foo](foo.png)` |
+| `static/images/bar.png` | `![Bar](bar.png)` |
+
+### External Images
+
+| Path | Example |
+| ---- | ------- |
+| `https://example.org/images/foo.png` | `![Foo](https://example.org/images/foo.png)` |
+| `https://example.org/images/bar.png` | `![Foo](https://example.org/images/bar.png)` |
+
+## Limitations
+
+Most of the processing methods work only on _site and page image resources_, except for alignment and resizing.
+However, the resizing is implemented by inline styles for static (public) and external images.
+
+The good news is that Hugo allows [mounting](https://gohugo.io/getting-started/directory-structure/#union-file-system) the _static/*_ folder, to make them to be site resources, then you can process those images via any methods. The advantage is that the source (static) images are always accessible even you haven't used it.
+
+{{< bs/config-toggle hugo >}}
+module:
+  mounts:
+    - source: content
+      target: content
+    - source: static
+      target: static
+    - source: layouts
+      target: layouts
+    - source: data
+      target: data
+    - source: assets
+      target: assets
+    - source: i18n
+      target: i18n
+    - source: archetypes
+      target: archetypes
+    - source: static/uploads
+      target: assets/uploads
+{{< /bs/config-toggle >}}
+
+The configuration example above mounts the `static/uploads` on `assets/uploads`, then you're able to use the images as we did for the site resources.
+
+```markdown
+![Sample](/uploads/images/sample.jpg?width=300px)
+```
 
 ## Image Partial
 
 This module offers a `images/image` partial for theme developers.
 
-## Image Partial Parameters
+### Image Partial Parameters
 
 | Parameter | Type | Require | Default | Description |
 | --------- | :--: | :-----: | :-----: | ----------- |
@@ -148,7 +225,11 @@ figure_image_class_name = "figure-img"
 modern_format = "webp"
 {{< /bootstrap/config-toggle >}}
 
-The class names compatible with Bootstrap by default, you may need adjust it to your CSS if you're not using Bootstrap.
+The class names compatible with Bootstrap v5 by default, you may need adjust it to your CSS if you're not using Bootstrap.
+
+{{< bs/alert info >}}
+You don't need to specify those default parameters if not necessary, leave it as is to keep updating.
+{{< /bs/alert >}}
 
 ## Aligning Images
 
