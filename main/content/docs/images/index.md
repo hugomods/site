@@ -83,7 +83,7 @@ The query string preceded by a question mark (`?`), and the fragment preceded by
 This module uses the query string to process images, and use fragment to align images.
 
 {{% bootstrap/clearfix %}}
-![Example](featured.jpeg?crop=300x120&brightness=-30#float-end "Example caption") For example, `![Example](featured.jpeg?crop=300x120&brightness=-10#float-end "Example caption")`, which crop the image in size `300x120`, change the brightness as `-30` and floating the image to the end (right).
+![Example](featured.jpeg?crop=300x120&brightness=-30#float-end "Example caption") For example, `![Example](featured.jpeg?crop=300x120&brightness=-30#float-end "Example caption")`, which crop the image in size `300x120`, change the brightness as `-30` and floating the image to the end (right).
 {{% /bootstrap/clearfix %}}
 
 ## Image Types
