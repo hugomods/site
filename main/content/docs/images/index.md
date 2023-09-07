@@ -140,7 +140,7 @@ The images located in the `static` folder.
 | Path | Example |
 | ---- | ------- |
 | `https://example.org/images/foo.png` | `![Foo](https://example.org/images/foo.png)` |
-| `https://example.org/images/bar.png` | `![Foo](https://example.org/images/bar.png)` |
+| `https://example.org/images/bar.png` | `![Bar](https://example.org/images/bar.png)` |
 
 ## Limitations
 
