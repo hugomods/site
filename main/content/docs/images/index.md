@@ -132,8 +132,8 @@ The images located in the `static` folder.
 
 | Path | Example |
 | ---- | ------- |
-| `static/images/foo.png` | `![Foo](foo.png)` |
-| `static/images/bar.png` | `![Bar](bar.png)` |
+| `static/images/foo.png` | `![Foo](images/foo.png)` |
+| `static/images/bar.png` | `![Bar](images/bar.png)` |
 
 ### External Images
 
