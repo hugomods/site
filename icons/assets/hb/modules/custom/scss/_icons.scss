@@ -1,5 +1,5 @@
 .icons-panel {
-    top: 68px;
+    @include top-offset;
 }
 
 .icon {
