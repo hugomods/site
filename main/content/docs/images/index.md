@@ -97,8 +97,8 @@ To use the site/global image resources, you'll need to put a leading slash (`/`)
 
 | Path | Example |
 | ---- | ------- |
-| `assets/images/foo.png` | `![Foo](/foo.png)` |
-| `assets/images/bar.png` | `![Bar](/bar.png)` |
+| `assets/images/foo.png` | `![Foo](/images/foo.png)` |
+| `assets/images/bar.png` | `![Bar](/images/bar.png)` |
 
 ### Page Image Resources
 
