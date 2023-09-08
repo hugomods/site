@@ -58,7 +58,7 @@ require (
 	github.com/hugomods/mermaid v0.1.1 // indirect
 	github.com/hugomods/pwa v0.3.2 // indirect
 	github.com/hugomods/search v0.4.5 // indirect
-	github.com/hugomods/shortcodes v0.11.0 // indirect
+	github.com/hugomods/shortcodes v0.12.0 // indirect
 	github.com/hugomods/site/common v0.0.0-00010101000000-000000000000 // indirect
 	github.com/krisk/Fuse v6.6.2+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.4.1 // indirect
