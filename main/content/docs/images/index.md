@@ -61,6 +61,7 @@ The images module process images via URL query string and fragment, such as resi
 - Process images via URL query string and fragment, such as resizing, aligning, filtering.
 - Convert images in modern format (`webp`), and reserve the original format as the fallback via `<picture>`.
 - Lazy loading by default.
+- Set the intrinsic height and width attributes for images to get rid of CLS (Cumulative Layout Shift) affect.
 
 ## Installation
 
