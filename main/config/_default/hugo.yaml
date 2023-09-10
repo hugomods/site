@@ -32,3 +32,13 @@ menus:
 
 languages:
   _merge: deep
+
+security:
+  funcs:
+    getenv:
+      - '^HUGO_'
+      - '^CI$'
+      - '^GITHUB_TOKEN$'
+
+ignoreErrors:
+  - error-remote-getjson
