@@ -21,11 +21,13 @@ hb:
       github: hugomods
       paypal: razonyang
       kofi: razonyang
+      rss: true
   footer:
     socials:
       github: hugomods
       paypal: razonyang
       kofi: razonyang
+      rss: true
   blog:
     sidebar:
       taxonomies:
