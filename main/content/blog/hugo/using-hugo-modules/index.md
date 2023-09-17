@@ -26,10 +26,10 @@ See [download and install Go](https://go.dev/doc/install) for details.
 
 Firstly, we need to initialize the module for your site or theme via `hugo mod init MODULE_PATH`.
 
-The `MODULE_PATH` is the identifier of your theme or site, please replace it with your own, for example,
+The `MODULE_PATH` is the identifier of your theme or site, which is usually the repository URL, for example,
 
 ```sh
-hugo mod init github.com/hugomods/site
+hugo mod init example.com/user/repo
 ```
 
 ## Import Modules
