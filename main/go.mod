@@ -59,5 +59,5 @@ require (
 	github.com/hugomods/video-js v0.1.1 // indirect
 	github.com/krisk/Fuse v6.6.2+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.4.1 // indirect
-	github.com/twbs/icons v1.11.0 // indirect
+	github.com/twbs/icons v1.11.1 // indirect
 )
