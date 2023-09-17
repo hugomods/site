@@ -93,7 +93,7 @@ There also a guide for [integrating Docsy with the search module]({{< relref "bl
 ### 1. Import the module
 
 ```toml
-[[modules.imports]]
+[[module.imports]]
 path = "github.com/hugomods/search"
 ```
 
