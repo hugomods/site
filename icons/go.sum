@@ -251,6 +251,7 @@ github.com/hugomods/shortcodes v0.10.0 h1:NKu2m1xciBsqzu7PU0SDu1C12OHdX+pMjfUI97
 github.com/hugomods/shortcodes v0.10.0/go.mod h1:EnVopbZMNI/HeteM3Lp3phBTCRLvPSe7l142qhRFFPY=
 github.com/hugomods/shortcodes v0.11.0/go.mod h1:EnVopbZMNI/HeteM3Lp3phBTCRLvPSe7l142qhRFFPY=
 github.com/hugomods/shortcodes v0.12.0/go.mod h1:EnVopbZMNI/HeteM3Lp3phBTCRLvPSe7l142qhRFFPY=
+github.com/hugomods/shortcodes v0.12.1/go.mod h1:EnVopbZMNI/HeteM3Lp3phBTCRLvPSe7l142qhRFFPY=
 github.com/krisk/Fuse v6.6.2+incompatible h1:laigOpZFs/xUi9zGjVu5t19bcvzRVufoXCnPSgQZmYI=
 github.com/krisk/Fuse v6.6.2+incompatible/go.mod h1:3moWv8rDjwoKic9nwiPLgZjldkbdTAbtzJHCu/Vsj4A=
 github.com/razonyang/hb-mod-thanks v0.3.0 h1:dV9ZsvXyhA+m1NHHY+Osycv3UqME2O5k997DndNOqF8=
