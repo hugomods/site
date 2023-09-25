@@ -1,0 +1,92 @@
+- name: stall_threshold
+  type: number
+  desc: How many milliseconds must elapse before considering the autocomplete experience stalled.
+  default: 300
+
+- name: case_sensitive
+  type: boolean
+  desc: Indicates whether comparisons should be case sensitive.
+  default: false
+
+- name: min_match_char_length
+  type: number
+  desc: Only the matches whose length exceeds this value will be returned. (For instance, if you want to ignore single character matches in the result, set it to `2`).
+  default: 1
+
+- name: location
+  type: number
+  desc: Determines approximately where in the text is the pattern expected to be found.
+  default: 0
+
+- name: threshold
+  type: number
+  desc: At what point does the match algorithm give up. A threshold of `0.0` requires a perfect match (of both letters and location), a threshold of `1.0` would match anything.
+  default: 0.6
+
+- name: distance
+  type: number
+  desc: Determines how close the match must be to the fuzzy location (specified by location). An exact letter match which is distance characters away from the fuzzy location would score as a complete mismatch. A distance of 0 requires the match be at the exact location specified. A distance of `1000` would require a perfect match to be within `800` characters of the location to be found using a threshold of `0.8`.
+  default: 100
+
+- name: ignore_location
+  type: boolean
+  desc: When true, search will ignore location and distance, so it won't matter where in the string the pattern appears.
+  default: false
+
+- name: shortcut_close
+  type: array
+  desc: Shortcuts to close the search modal. Empty array means disabled. See [key values for keyboard events](https://developer.mozilla.org/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values).
+  default: ["Escape"]
+
+- name: shortcut_search
+  type: array
+  desc: Shortcuts to open the search modal. Leave it empty to disable.
+  default: ["Control", "k"]
+
+- name: paginate
+  type: number
+  desc: How many results per page, at least `20`, for making sure the load more event will be able to trigger.
+  default: 20
+
+- name: max_results
+  type: number
+  desc: Denotes the max number of returned search results.
+  default: 100
+
+- name: index_content
+  type: boolean 
+  desc: When `true`, the engine will also search by content, you may need to tweak the `distance` parameter as well. Please note that, it may become a performance killer on a large site.
+  default: false
+
+- name: index_all_pages
+  type: boolean
+  desc: When `true`, all pages except `noindex` pages will be indexed, include non-regular pages, such as home and taxonomy lists.
+  default: true
+
+- name: expand_results_meta
+  type: boolean
+  desc: When `true`, expand the results meta by default.
+  default: false
+
+- name: modal_container
+  desc: The container for the search modal. It should be a valid CSS selector. Leave it empty if you're using single search page mode only.
+  default: body
+
+- name: modal_toggle_selector
+  desc: The search modal toggle selector.
+  default: .search-modal-toggle
+
+- name: lazy_loading
+  type: boolean
+  desc: Lazy loading the indices.
+  default: true
+
+- name: filter_taxonomies
+  type: boolean
+  desc: Whether to enable the taxonomies filter.
+  default: true
+
+- name: filter_years
+  type: boolean
+  desc: Whether to enable the years filter.
+  default: true

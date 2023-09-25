@@ -14,7 +14,7 @@ authors:
 images:
 ---
 
-This guide shows how to integrate the Hugo [Docsy](https://www.docsy.dev/) theme with the [search]({{< relref "docs/search" >}}) module.
+This guide shows how to integrate the Hugo [Docsy](https://www.docsy.dev/) theme with the [search]({{< relref "search" >}}) module.
 
 <!--more-->
 

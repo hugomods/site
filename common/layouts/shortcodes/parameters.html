@@ -1,0 +1,21 @@
+{{- $params := .Get 0 | .Page.Resources.GetMatch | transform.Unmarshal }}
+{{- $params = sort $params "name" }}
+{{- range $params }}
+{{- $name := .name }}
+{{- $type := default "string" .type }}
+{{- $required := default false .required }}
+{{- $position := default "" }}
+### `{{ $name }}`
+
+{{ .desc }}
+{.lead}
+
+| Name | Type | Default | Required |
+| :--: | :--: | :-----: | :------: |
+| `{{ $name }}` | `{{ $type }}` | {{ if isset . "default" }}`{{ .default }}`{{ else }}-{{ end }} | {{ cond $required "Y" "-"}} |
+
+{{- with .options }}
+#### `{{ $name }}` options
+`{{ delimit . "`, `" }}`
+{{- end }}
+{{- end }}

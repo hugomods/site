@@ -1,0 +1,4 @@
+- name: noindex
+  type: boolean
+  desc: When `true`, the page won't be indexed, that is, it won't appear on the search results.
+  default: false

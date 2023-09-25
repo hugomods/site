@@ -1,0 +1,136 @@
+- title: Fast
+  weight: 1
+  icon:
+    name: speedometer
+    color: green
+  description: |
+    The [demo site](https://hugomods.github.io/search/) built with 10k posts (`~30k` pages),
+    see also the [GitHub Pages workflow](https://github.com/hugomods/search/actions/workflows/gh-pages.yml).
+
+- title: Lightweight
+  weight: 2
+  icon:
+    name: feather
+    color: green
+  description:  |
+    `~21kB` in total with _compressed_ and _gzip_ enabled, of which CSS and JS are `~6kB` and `~15kB` respectively.
+
+- title: Fuzzy Search
+  weight: 3
+  icon:
+    name: search
+    className: text-primary
+  description: Support fuzzy search on _titles_, _summaries_, _headings_ and _contents_.
+
+- title: Lazy Loading
+  icon:
+    vendor: fas
+    name: spinner
+    className: text-warning
+  weight: 4
+  description: Loading the search indices on demand.
+
+- title: Modes
+  weight: 5
+  icon:
+    name: window-stack
+    className: text-primary
+  description: |
+    [Modal (auto complete) mode]({{< relref "search/modal" >}}) and [single page mode]({{< relref "search/single-page" >}}).
+
+- title: Flexible
+  weight: 6
+  icon:
+    name: gear
+    className: text-primary
+  description: Tweakable configurations.
+  url: search/configurations
+
+- title: Responsive
+  weight: 7
+  icon:
+    name: layout-wtf
+    className: text-primary
+  description: Built-in responsive, theme-less UI and interactive logic.
+
+- title: CSS Variables
+  weight: 8
+  icon:
+    vendor: simple
+    name: css3
+    color: '#1572b6'
+  description: Allow restyling the UI with CSS variables.
+  url: search/css-variables
+
+- title: Pagination
+  weight: 9
+  icon:
+    name: files
+    color: green
+  description: load more when scrolling to the bottom of results.
+
+- title: Highlighting
+  weight: 10
+  icon:
+    name: stars
+    color: gold
+  description: Highlighting the matches.
+
+- title: Statistic
+  weight: 11
+  icon:
+    name: bar-chart
+    className: text-warning
+  description: Show the number of search results and search time.
+
+- title: Results navigation
+  weight: 12
+  icon:
+    vendor: fas
+    name: keyboard
+  description: |
+    `↑` and `↓` to navigate, `⏎` to select.
+
+- title: Filters
+  weight: 13
+  icon:
+    name: funnel
+    color: green
+  description: Filtering results by _languages_, _years_, _taxonomies_ and so on.
+
+- title: Sorting
+  weight: 14
+  icon:
+    name: sort-down
+    color: green
+  description: Sorting results by _score_ (_best match_) and _date_.
+
+- title: I18N
+  weight: 15
+  icon:
+    name: translate
+    className: text-info
+  description:  |
+    English, German, Simplified Chinese, Traditional Chinese and so on.
+  url: search/i18n
+
+- title: Shortcuts
+  weight: 16
+  icon:
+    vendor: fas
+    name: keyboard
+  description: Configurable shortcuts to search, close modal and so on.
+
+- title: Excluding
+  weight: 17
+  icon:
+    name: x-circle
+    className: text-danger
+  description:  |
+    Allow excluding pages by setting the `noindex` page parameter as `true`.
+
+- title: RTL
+  weight: 18
+  icon:
+    name: arrow-right
+  description: Support RTL writing languages styles.
