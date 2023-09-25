@@ -17,8 +17,8 @@ header:
         data-aos="fade-up"
         data-aos-delay="300"
         class="d-grid gap-3 d-sm-flex justify-content-sm-center flex-wrap" >}}
-        {{< bs/btn-link style=primary size=lg class="py-3" url="/docs" >}}
-          {{< icons/icon vendor=bootstrap name=book className="me-1" >}} Read the docs
+        {{< bs/btn-link style=primary size=lg class="py-3" url="#projects-modules" >}}
+          {{< icons/icon vendor=bootstrap name=book className="me-1" >}} Projects & Modules
         {{< /bs/btn-link >}}
         {{< bs/btn-link style=light size=lg class="py-3" url="/posts" >}}
           {{< icons/icon vendor=bootstrap name=newspaper className="me-1" >}} Blog
@@ -41,13 +41,17 @@ header:
 
 {{< sponsors >}}
 
-{{< bs/display level=4 class="fw-bold text-body-emphasis mb-5 text-center" >}}Projects & Modules{{< /bs/display >}}
+## Projects & Modules {id="projects-modules" .display-4 .fw-bold .text-body-emphasis .mb-5 .text-center data-aos=fade-up}
 
-{{< bs/icon-grid "projects" >}}
+{{< bs/icon-grid data="projects" alignment="center" item-attr-data-aos=fade-up >}}
 
-{{< bs/display level=4 class="fw-bold text-body-emphasis mb-5 text-center" >}}Latest Articles{{< /bs/display >}}
+## Latest Articles {.display-4 .fw-bold .text-body-emphasis .mb-5 .text-center data-aos=fade-up}
 
-{{< bs/article-cards limit=6 >}}
+{{< bs/article-cards
+  limit=12
+  linkText=""
+  item-attr-data-aos=fade-up
+>}}
 
 {{< html/p class="text-center mb-5" >}}
   {{< bs/btn-link url="posts" size=lg class="d-block py-3 text-decoration-none" style=link >}}
