@@ -125,7 +125,7 @@ color = "#DC3545"
 weight = 20
 title = "Search"
 description = "A powerful, flexible and responsive client side fuzzy search module built on top of Fuse.js."
-url = "docs/search"
+url = "search"
 [search.icon]
 name = "search"
 color = "#28A5DA"
