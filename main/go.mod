@@ -29,7 +29,7 @@ require (
 	github.com/hbstack/socials v0.6.0 // indirect
 	github.com/hbstack/syntax-highlighting v0.1.0 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
-	github.com/henrygd/bigger-picture v1.1.11 // indirect
+	github.com/henrygd/bigger-picture v1.1.12 // indirect
 	github.com/hugomods/aos v0.1.0 // indirect
 	github.com/hugomods/base v0.1.0 // indirect
 	github.com/hugomods/bootstrap v0.13.0 // indirect
