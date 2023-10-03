@@ -50,7 +50,7 @@ require (
 	github.com/hugomods/icons/vendors/tabler v0.15.15 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.7.0 // indirect
-	github.com/hugomods/katex v0.2.0 // indirect
+	github.com/hugomods/katex v0.3.0 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
 	github.com/hugomods/pwa v0.3.2 // indirect
 	github.com/hugomods/search v0.4.5 // indirect
