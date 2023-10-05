@@ -34,6 +34,7 @@ github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.3 h1:u7zc9uX2IxitFu2tvTA
 github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.3/go.mod h1:1OQiSka6qKi3T4b3LYuU2RBWfRLvWYYdFIOXfaKNfb8=
 github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.4 h1:d0m1YcSsMQrlprY/iN/qr6v43xlc5TXiIE2qNt5hlFI=
 github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.4/go.mod h1:9Gy0AGtLqa1TWwkAtQCio9HiRJNzpCYZBWLiKw99KWM=
+github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.5/go.mod h1:YicDDhA7JQEiM70nctBT735J5AoSO6wIRBuUnQpF0Jc=
 github.com/hbstack/blog/modules/toc-scrollspy v0.1.9 h1:f5LbpIHZMZ/hgWGguELm6LdldLofvCWfszQjb0Ke/f4=
 github.com/hbstack/blog/modules/toc-scrollspy v0.1.9/go.mod h1:iGrKAJhs8sKxWnII/x0WoEbrdMlgyDuWRMMjQNHoV5g=
 github.com/hbstack/blog/modules/toc-scrollspy v0.1.10 h1:GPys34Oxs+aIT/TL4Hr2ekxGLpD6BM9VtndFuJ3qiNU=
