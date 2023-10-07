@@ -444,6 +444,16 @@ Invert creates a filter that negates the colors of an image.
 
 ![Image Invert](featured.jpeg?fit=200x200&invert)
 
+### Opacity
+
+Apply a opacity filter on an image.
+
+```markdown
+![Image Opacity](featured.jpeg?opacity=0.5)
+```
+
+![Image Opacity](featured.jpeg?fit=200x200&opacity=0.5)
+
 ### Pixelate
 
 Pixelate creates a filter that applies a pixelation effect to an image.
