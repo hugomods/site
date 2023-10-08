@@ -13,7 +13,7 @@ require (
 	github.com/hbstack/blog/modules/giscus v0.1.16 // indirect
 	github.com/hbstack/blog/modules/sidebar/posts v0.3.5 // indirect
 	github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.6 // indirect
-	github.com/hbstack/blog/modules/toc-scrollspy v0.1.12 // indirect
+	github.com/hbstack/blog/modules/toc-scrollspy v0.1.13 // indirect
 	github.com/hbstack/breadcrumb v0.2.0 // indirect
 	github.com/hbstack/carousel v0.2.3 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.5 // indirect
