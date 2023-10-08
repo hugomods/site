@@ -9,7 +9,7 @@ require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/hbstack/announcement-bar v0.4.1 // indirect
 	github.com/hbstack/base v0.2.1 // indirect
-	github.com/hbstack/blog/modules/content-panel v0.1.13 // indirect
+	github.com/hbstack/blog/modules/content-panel v0.1.14 // indirect
 	github.com/hbstack/blog/modules/giscus v0.1.15 // indirect
 	github.com/hbstack/blog/modules/sidebar/posts v0.3.5 // indirect
 	github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.5 // indirect
