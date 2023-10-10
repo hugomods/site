@@ -20,7 +20,7 @@ require (
 	github.com/hbstack/docs/modules/giscus v0.1.7 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.4 // indirect
 	github.com/hbstack/featured-image v0.1.1 // indirect
-	github.com/hbstack/header v0.11.1 // indirect
+	github.com/hbstack/header v0.11.3 // indirect
 	github.com/hbstack/header/modules/banner v0.5.7 // indirect
 	github.com/hbstack/heading-sign v0.1.3 // indirect
 	github.com/hbstack/meta/blog v0.2.10 // indirect
