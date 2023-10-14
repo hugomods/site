@@ -19,12 +19,14 @@ hb:
     # logo_bg: '#fff'
     socials:
       github: hugomods
+      mastodon: https://techhub.social/@hugomods
       paypal: razonyang
       kofi: razonyang
       rss: true
   footer:
     socials:
       github: hugomods
+      mastodon: https://techhub.social/@hugomods
       paypal: razonyang
       kofi: razonyang
       rss: true
