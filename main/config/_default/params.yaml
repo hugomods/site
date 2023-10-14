@@ -1,4 +1,15 @@
 hb:
+  blog:
+    sidebar:
+      profile:
+        company: "[HugoMods](https://github.com/hugomods)"
+        location: Internet
+        socials:
+          github: hugomods
+          mastodon: https://techhub.social/@hugomods
+          paypal: razonyang
+          kofi: razonyang
+          rss: true
   content_panel:
     repo:
       subpath: main
