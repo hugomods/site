@@ -50,6 +50,7 @@ github.com/hbstack/breadcrumb v0.2.0 h1:MFdVkfSMHkGaLGwp8lwcYYQuorpWzB6S/WOmblSl
 github.com/hbstack/breadcrumb v0.2.0/go.mod h1:/HsyKPMkXaairW/Ws6tGlc1Zf1DEmjp/v7d2QkY/UC4=
 github.com/hbstack/carousel v0.2.3 h1:4jCjvd2+MDm9sAp3FOtPVa06JmnNLdfBRTxtkyrXl/M=
 github.com/hbstack/carousel v0.2.3/go.mod h1:BUoUKVTPOSoE2iCJABFoCURetHa6OCw6r+gr5DBYavo=
+github.com/hbstack/carousel v0.2.4/go.mod h1:AchKlXiqYNZouE3Ee/VSSQle2FUZV5CJgTnPBFI7Gj0=
 github.com/hbstack/docs/modules/content-panel v0.1.5 h1:CZ3IlF68c9rMV1cRGli5s/SXzE9+7g2AW0msQFcKhkc=
 github.com/hbstack/docs/modules/content-panel v0.1.5/go.mod h1:1cqME+WPPJVc3zBAi1W7aomml5n1baymuBWLMEVm+Gw=
 github.com/hbstack/docs/modules/giscus v0.1.7 h1:SW6AMAVDdDh/RiZdaKbCKUvjfq1n6ugWlKjRo+SySV0=
