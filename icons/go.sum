@@ -212,6 +212,7 @@ github.com/henrygd/bigger-picture v1.1.12/go.mod h1:LayqbjDNNsZH+ZXklmjBe5T02qxp
 github.com/hugomods/base v0.1.0 h1:3o9Y85BvXHjkYzZfswM/EtthQ8GOYKN8aXHkIWqu3/8=
 github.com/hugomods/base v0.1.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/base v0.2.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
+github.com/hugomods/base v0.3.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/bootstrap v0.7.2 h1:hb8G5aDp/1tITmpr1N0eI3yO5QgHtcXq/ymWhRylLm4=
 github.com/hugomods/bootstrap v0.7.2/go.mod h1:NVii94xgqDocyD0+aAWamBLPJjNspfMynEdmIOXO3Vs=
 github.com/hugomods/bootstrap v0.8.1/go.mod h1:NVii94xgqDocyD0+aAWamBLPJjNspfMynEdmIOXO3Vs=
