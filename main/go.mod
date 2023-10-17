@@ -32,7 +32,7 @@ require (
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
 	github.com/henrygd/bigger-picture v1.1.12 // indirect
 	github.com/hugomods/aos v0.1.0 // indirect
-	github.com/hugomods/base v0.2.0 // indirect
+	github.com/hugomods/base v0.3.0 // indirect
 	github.com/hugomods/bootstrap v0.13.0 // indirect
 	github.com/hugomods/code-block-panel v0.2.0 // indirect
 	github.com/hugomods/decap-cms v0.1.0 // indirect
