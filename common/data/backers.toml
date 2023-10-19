@@ -3,8 +3,8 @@
 # url = "https://ko-fi.com/razonyang"
 
 [[gold]]
-name = "Become a backer"
-url = "https://ko-fi.com/razonyang"
+name = "Support me on GitHub"
+url = "https://github.com/sponsors/razonyang"
 weight = 1
 
 # [[silver]]

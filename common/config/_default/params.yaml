@@ -11,6 +11,10 @@ bootstrap:
       - json
 
 hb:
+  thanks:
+    socials:
+      githubsponsors: https://github.com/sponsors/razonyang
+      paypal: razonyang
   styles:
     primary: '#ff4088'
   announcement_bar:
@@ -19,16 +23,16 @@ hb:
     # logo_bg: '#fff'
     socials:
       github: hugomods
+      githubsponsors: https://github.com/sponsors/razonyang
       mastodon: https://techhub.social/@hugomods
       paypal: razonyang
-      kofi: razonyang
       rss: true
   footer:
     socials:
       github: hugomods
+      githubsponsors: https://github.com/sponsors/razonyang
       mastodon: https://techhub.social/@hugomods
       paypal: razonyang
-      kofi: razonyang
       rss: true
   blog:
     sidebar:

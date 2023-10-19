@@ -6,9 +6,9 @@ hb:
         location: Internet
         socials:
           github: hugomods
+          githubsponsors: https://github.com/sponsors/razonyang
           mastodon: https://techhub.social/@hugomods
           paypal: razonyang
-          kofi: razonyang
           rss: true
   content_panel:
     repo:
