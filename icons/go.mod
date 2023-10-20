@@ -21,14 +21,8 @@ require (
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.4 // indirect
 	github.com/hbstack/featured-image v0.1.1 // indirect
 	github.com/hbstack/header v0.12.0 // indirect
-	github.com/hbstack/header/modules/banner v0.5.9 // indirect
 	github.com/hbstack/heading-sign v0.1.3 // indirect
-	github.com/hbstack/meta/blog v0.2.11 // indirect
-	github.com/hbstack/meta/content v0.4.10 // indirect
-	github.com/hbstack/meta/footer v0.2.9 // indirect
-	github.com/hbstack/meta/header v0.2.11 // indirect
 	github.com/hbstack/meta/recommended v0.2.9 // indirect
-	github.com/hbstack/meta/seo v0.2.0 // indirect
 	github.com/hbstack/pagination v0.2.1 // indirect
 	github.com/hbstack/snackbar v0.1.2 // indirect
 	github.com/hbstack/socials v0.6.0 // indirect
@@ -48,7 +42,7 @@ require (
 	github.com/hugomods/icons v0.6.0 // indirect
 	github.com/hugomods/icons/vendors/feather v0.2.1 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
-	github.com/hugomods/icons/vendors/lucide v0.3.18 // indirect
+	github.com/hugomods/icons/vendors/lucide v0.3.19 // indirect
 	github.com/hugomods/icons/vendors/mdi v0.3.1 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.18 // indirect
 	github.com/hugomods/icons/vendors/tabler v0.15.16 // indirect
