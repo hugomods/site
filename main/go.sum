@@ -7,6 +7,8 @@ github.com/hbstack/announcement-bar v0.4.1 h1:DeyC9hBFCKdZVMyRa9pj3X6MsOiVTVc8X1
 github.com/hbstack/announcement-bar v0.4.1/go.mod h1:TTSTE34jtsCJ3GDECylEyS5ljexJY8eIwhDhKmDFCkg=
 github.com/hbstack/base v0.2.2 h1:YpctIP3l63jmi7f7AeZwZMCttc3OHPlDjJeLCRz5Hyw=
 github.com/hbstack/base v0.2.2/go.mod h1:hBRf/kdIQnd7iEhBxr6A+jMwwgJC76MbiAin1eUdHkQ=
+github.com/hbstack/blog v0.18.1 h1:hACKaMn4+Lf/jSGZkvTfQ10DPF97E9ugAxwWRRyGst4=
+github.com/hbstack/blog v0.18.1/go.mod h1:KnzxoBimPscpB0275kItIJPWM989KPj6ADJIbZTGaY0=
 github.com/hbstack/blog/modules/content-panel v0.1.18 h1:jSCvlgNZtoMWSW6a8seFRUrN0J8pBpvCZUhkxMy9Ot0=
 github.com/hbstack/blog/modules/content-panel v0.1.18/go.mod h1:k1j6k74zWYw0cdYYTs8QXBWBV6z0Jc3u4GBKqavzkas=
 github.com/hbstack/blog/modules/giscus v0.1.20 h1:+yJcfWb1BHrGsD3xLT/GV0ekQUh8y1RNDu9BBGgyyKk=
@@ -56,6 +58,8 @@ github.com/hugomods/aos v0.1.0 h1:R1NOqLbD+95R1EG0pJ7HPh/zUfM9fpdkgUMMJkOEPUs=
 github.com/hugomods/aos v0.1.0/go.mod h1:JY6AAt8e6jQtQr/i3QAcPxRmcoJO2FY/A/P4m69pXSY=
 github.com/hugomods/base v0.3.0 h1:RCYfzlmMRzN1VAvGCMFqW5tommG5S/WV+LYHIOD8eKI=
 github.com/hugomods/base v0.3.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
+github.com/hugomods/bootstrap v0.13.0 h1:0xtsCsx1Kek4iYpQHX1LLxHPYt/f7qABEGv1qPaWBSI=
+github.com/hugomods/bootstrap v0.13.0/go.mod h1:7IkovSZw/9Grx2bgcTMielY5vvLjPBzy5x/bPIA1BlY=
 github.com/hugomods/code-block-panel v0.2.0 h1:vSZfriVuK34Z9k7710g1tr7tZPv26VYPXio5bYmaz24=
 github.com/hugomods/code-block-panel v0.2.0/go.mod h1:sbl/NT0TZqHagnW8NWB690lDBGyY5r2dx6xpR17QSq4=
 github.com/hugomods/decap-cms v0.1.0 h1:FGswav9aXekLQs4FFLHkJ2bgulxUUXQZmbCryUigDcU=

@@ -9,6 +9,7 @@ require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/hbstack/announcement-bar v0.4.1 // indirect
 	github.com/hbstack/base v0.2.2 // indirect
+	github.com/hbstack/blog v0.18.1 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.18 // indirect
 	github.com/hbstack/blog/modules/giscus v0.1.20 // indirect
 	github.com/hbstack/blog/modules/sidebar/posts v0.5.1 // indirect
@@ -33,6 +34,7 @@ require (
 	github.com/henrygd/bigger-picture v1.1.12 // indirect
 	github.com/hugomods/aos v0.1.0 // indirect
 	github.com/hugomods/base v0.3.0 // indirect
+	github.com/hugomods/bootstrap v0.13.0 // indirect
 	github.com/hugomods/code-block-panel v0.2.0 // indirect
 	github.com/hugomods/decap-cms v0.1.0 // indirect
 	github.com/hugomods/encrypt v0.2.0 // indirect
