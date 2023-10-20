@@ -23,7 +23,7 @@ require (
 	github.com/hbstack/featured-image v0.1.1 // indirect
 	github.com/hbstack/header v0.12.0 // indirect
 	github.com/hbstack/heading-sign v0.1.3 // indirect
-	github.com/hbstack/meta/recommended v0.2.9 // indirect
+	github.com/hbstack/meta/recommended v0.2.10 // indirect
 	github.com/hbstack/pagination v0.2.1 // indirect
 	github.com/hbstack/snackbar v0.1.2 // indirect
 	github.com/hbstack/socials v0.6.0 // indirect
