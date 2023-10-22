@@ -28,7 +28,7 @@ require (
 	github.com/hbstack/meta/recommended v0.2.10 // indirect
 	github.com/hbstack/pagination v0.3.0 // indirect
 	github.com/hbstack/snackbar v0.1.2 // indirect
-	github.com/hbstack/socials v0.6.0 // indirect
+	github.com/hbstack/socials v0.7.0 // indirect
 	github.com/hbstack/syntax-highlighting v0.1.0 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
 	github.com/henrygd/bigger-picture v1.1.12 // indirect
