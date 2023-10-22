@@ -117,6 +117,7 @@ github.com/hugomods/mermaid v0.1.1 h1:12b8DbdiKOTtPmkWOMXsBz3LKkAWVqa5tGkbEboj0a
 github.com/hugomods/mermaid v0.1.1/go.mod h1:7sKIZLAeYsXXnKRh4KR70UQx27xnzf0mSQ2o99zTLS0=
 github.com/hugomods/pwa v0.3.2 h1:4+Csk+wJcv+nzrz8kyrpYmtaAw3MFpAAs3WR5b2OwuI=
 github.com/hugomods/pwa v0.3.2/go.mod h1:22AYzuQ64DKY2WJAytKqRKC2BIFc6j39Jo8tTQE+6Xc=
+github.com/hugomods/pwa v0.4.0/go.mod h1:22AYzuQ64DKY2WJAytKqRKC2BIFc6j39Jo8tTQE+6Xc=
 github.com/hugomods/search v0.4.5 h1:RC7OTkEAQjh49/SCh5Gw0+RFzeTDE+6J5XqMixVY6mw=
 github.com/hugomods/search v0.4.5/go.mod h1:xdMNL0R06eMDyl8LVoFNp19lnFSNMFT+oje8j8N/WbI=
 github.com/hugomods/shortcodes v0.12.1 h1:bhPTgbDIUEG8Hqi0eMESdrCN9Ot4SE3zV0TXSUlo+Fo=

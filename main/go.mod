@@ -53,7 +53,7 @@ require (
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/katex v0.3.0 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
-	github.com/hugomods/pwa v0.3.2 // indirect
+	github.com/hugomods/pwa v0.4.0 // indirect
 	github.com/hugomods/search v0.4.5 // indirect
 	github.com/hugomods/shortcodes v0.12.1 // indirect
 	github.com/hugomods/site/common v0.0.0-00010101000000-000000000000 // indirect
