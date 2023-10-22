@@ -5,6 +5,13 @@ avatar_url = 'https://avatars.githubusercontent.com/u/5195868?v=4'
 contributions = 23
 repos = 1
 
+[JokaJukka]
+id = 48550439
+login = 'JokaJukka'
+avatar_url = 'https://avatars.githubusercontent.com/u/48550439?v=4'
+contributions = 1
+repos = 1
+
 [aaofyi]
 id = 85140042
 login = 'aaofyi'
@@ -33,9 +40,9 @@ avatar_url = 'https://avatars.githubusercontent.com/u/57508537?v=4'
 contributions = 3
 repos = 3
 
-[itasahobby]
+[jalvarezit]
 id = 47305925
-login = 'itasahobby'
+login = 'jalvarezit'
 avatar_url = 'https://avatars.githubusercontent.com/u/47305925?v=4'
 contributions = 1
 repos = 1
@@ -58,5 +65,12 @@ repos = 1
 id = 17720932
 login = 'razonyang'
 avatar_url = 'https://avatars.githubusercontent.com/u/17720932?v=4'
-contributions = 598
-repos = 32
+contributions = 778
+repos = 34
+
+[whiztech]
+id = 159569
+login = 'whiztech'
+avatar_url = 'https://avatars.githubusercontent.com/u/159569?v=4'
+contributions = 4
+repos = 4
