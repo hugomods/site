@@ -26,7 +26,7 @@ require (
 	github.com/hbstack/header/modules/banner v0.5.10 // indirect
 	github.com/hbstack/heading-sign v0.1.3 // indirect
 	github.com/hbstack/meta/recommended v0.2.10 // indirect
-	github.com/hbstack/pagination v0.2.1 // indirect
+	github.com/hbstack/pagination v0.3.0 // indirect
 	github.com/hbstack/snackbar v0.1.2 // indirect
 	github.com/hbstack/socials v0.6.0 // indirect
 	github.com/hbstack/syntax-highlighting v0.1.0 // indirect
