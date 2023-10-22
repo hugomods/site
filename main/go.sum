@@ -87,6 +87,7 @@ github.com/hugomods/bootstrap v0.13.0 h1:0xtsCsx1Kek4iYpQHX1LLxHPYt/f7qABEGv1qPa
 github.com/hugomods/bootstrap v0.13.0/go.mod h1:7IkovSZw/9Grx2bgcTMielY5vvLjPBzy5x/bPIA1BlY=
 github.com/hugomods/code-block-panel v0.2.0 h1:vSZfriVuK34Z9k7710g1tr7tZPv26VYPXio5bYmaz24=
 github.com/hugomods/code-block-panel v0.2.0/go.mod h1:sbl/NT0TZqHagnW8NWB690lDBGyY5r2dx6xpR17QSq4=
+github.com/hugomods/code-block-panel v0.3.0/go.mod h1:3J9yUxaShbhYvFFZbGVHcBoHPl6TUKLL3f2fTsnVNNg=
 github.com/hugomods/decap-cms v0.1.0 h1:FGswav9aXekLQs4FFLHkJ2bgulxUUXQZmbCryUigDcU=
 github.com/hugomods/decap-cms v0.1.0/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/encrypt v0.2.0 h1:mlwrKPahAcotlYSSso5GZQgLoMeHNPwIAdxD0m/459E=

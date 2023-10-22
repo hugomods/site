@@ -32,7 +32,7 @@ require (
 	github.com/henrygd/bigger-picture v1.1.12 // indirect
 	github.com/hugomods/base v0.4.0 // indirect
 	github.com/hugomods/bootstrap v0.13.0 // indirect
-	github.com/hugomods/code-block-panel v0.2.0 // indirect
+	github.com/hugomods/code-block-panel v0.3.0 // indirect
 	github.com/hugomods/decap-cms v0.1.0 // indirect
 	github.com/hugomods/encrypt v0.2.0 // indirect
 	github.com/hugomods/giscus v0.1.1 // indirect
