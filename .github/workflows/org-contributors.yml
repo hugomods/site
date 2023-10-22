@@ -29,4 +29,4 @@ jobs:
         with:
           commit_message: "chore: update contributors"
           commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" 
-          file_pattern: 'data/contributors.toml'
+          file_pattern: 'common/data/contributors.toml'
