@@ -117,6 +117,7 @@ github.com/hugomods/icons/vendors/font-awesome v0.6.1 h1:MyYF67fPthN4EDkT/IwY0yd
 github.com/hugomods/icons/vendors/font-awesome v0.6.1/go.mod h1:kmMci4qX8yTQPT28sskzKRudJiQAAiZZugjNbkakRhk=
 github.com/hugomods/icons/vendors/lucide v0.3.19 h1:tfyF1FbODr8xyLeVecC10BIAv++RpHHE9c/f5AF6nMs=
 github.com/hugomods/icons/vendors/lucide v0.3.19/go.mod h1:XmpVdesyohAnyhPPcuA7T3BN/6dvCNkOeJNj0LVQmac=
+github.com/hugomods/icons/vendors/lucide v0.3.20/go.mod h1:lUrra9mTbk/K9dAS7r5QYZIt2+13X/lU+lHfm98Foeo=
 github.com/hugomods/icons/vendors/mdi v0.3.1 h1:FVmW8I0YbYWuZ7wRfXemFfsgUllF60atwAww98vBshI=
 github.com/hugomods/icons/vendors/mdi v0.3.1/go.mod h1:zGZ9hTyZbsF3WXwqrLGl0nsoZX9jj2XthdGS1NDSfvs=
 github.com/hugomods/icons/vendors/simple-icons v1.0.18 h1:glig4G/c4QTi0qyND0YkQTf0wlS5MySxQJs1EZqnAD8=

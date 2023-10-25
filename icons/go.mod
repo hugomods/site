@@ -43,7 +43,7 @@ require (
 	github.com/hugomods/icons v0.6.0 // indirect
 	github.com/hugomods/icons/vendors/feather v0.2.1 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
-	github.com/hugomods/icons/vendors/lucide v0.3.19 // indirect
+	github.com/hugomods/icons/vendors/lucide v0.3.20 // indirect
 	github.com/hugomods/icons/vendors/mdi v0.3.1 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.18 // indirect
 	github.com/hugomods/icons/vendors/tabler v0.15.16 // indirect
