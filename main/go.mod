@@ -58,7 +58,7 @@ require (
 	github.com/hugomods/shortcodes v0.12.1 // indirect
 	github.com/hugomods/site/common v0.0.0-00010101000000-000000000000 // indirect
 	github.com/hugomods/video-js v0.1.1 // indirect
-	github.com/krisk/Fuse v6.6.2+incompatible // indirect
+	github.com/krisk/Fuse v7.0.0+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.5.0 // indirect
 	github.com/twbs/icons v1.11.1 // indirect
 )
