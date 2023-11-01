@@ -65,7 +65,7 @@ repos = 1
 id = 17720932
 login = 'razonyang'
 avatar_url = 'https://avatars.githubusercontent.com/u/17720932?v=4'
-contributions = 786
+contributions = 788
 repos = 34
 
 [whiztech]
@@ -74,3 +74,10 @@ login = 'whiztech'
 avatar_url = 'https://avatars.githubusercontent.com/u/159569?v=4'
 contributions = 4
 repos = 4
+
+[wildserver]
+id = 124554988
+login = 'wildserver'
+avatar_url = 'https://avatars.githubusercontent.com/u/124554988?v=4'
+contributions = 3
+repos = 3
