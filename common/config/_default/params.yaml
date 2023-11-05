@@ -20,6 +20,8 @@ hb:
   announcement_bar:
     interval: 2500
   header:
+    news:
+      icon_name: megaphone-fill
     # logo_bg: '#fff'
     socials:
       github: hugomods
