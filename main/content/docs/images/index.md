@@ -213,10 +213,17 @@ This module offers a `images/image` partial for theme developers.
 | `figure_class_name` | string | `figure` | The class name of `<figure>` when caption is set. |
 | `figure_caption_class_name` | string | `figure-caption` | The class name of `<figcaption>`. |
 | `figure_image_class_name` | string | `figure-img` | This class name will be appended into the `<img>` class list if caption is set. |
-| `modern_format ` | string | `webp` | Generate modern format version of image, empty to disable. |
+| `modern_format` | string | `webp` | Generate modern format version of image, empty to disable. |
+
+{{< bs/alert warning >}}
+{{< markdownify >}}
+Since `v0.8.3`, the `params.images` was renamed to `params.hugomods.images`, to get rid of conflicting with some Hugo built-in templates,
+see https://github.com/hugomods/images/issues/26.
+{{< /markdownify >}}
+{{< /bs/alert >}}
 
 {{< bootstrap/config-toggle >}}
-[params.images]
+[params.hugomods.images]
 class_name = "img-fluid"
 alignment_center_class_name = "d-block text-center"
 alignment_start_class_name = "float-start me-2"
