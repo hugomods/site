@@ -195,6 +195,7 @@ github.com/hugomods/images v0.8.0/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOs
 github.com/hugomods/images v0.8.1/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
 github.com/hugomods/images v0.8.2 h1:nZ4NOKai7mgTTPiIgyejDehq5iPnKquSey+yjjWRTzg=
 github.com/hugomods/images v0.8.2/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
+github.com/hugomods/images v0.8.3/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
 github.com/hugomods/katex v0.3.0 h1:hq0Kels9clL38Y2K/QZgXFKF7hQuumyQYz16TT4/Hhk=
 github.com/hugomods/katex v0.3.0/go.mod h1:EBY1YQTN6F8FDQz+mWp3EzEh8vDN31YjL9luVni+Wm0=
 github.com/hugomods/lucide-icons v0.291.0 h1:NLIXXQcejYOcdbIMLfUDAQgjBhCGGvFX8DCJ24WME/o=
