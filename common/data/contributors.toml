@@ -47,6 +47,13 @@ avatar_url = 'https://avatars.githubusercontent.com/u/58879166?v=4'
 contributions = 1
 repos = 1
 
+[gavlinski]
+id = 1410375
+login = 'gavlinski'
+avatar_url = 'https://avatars.githubusercontent.com/u/1410375?v=4'
+contributions = 3
+repos = 1
+
 [jalvarezit]
 id = 47305925
 login = 'jalvarezit'
