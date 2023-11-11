@@ -121,6 +121,7 @@ github.com/hbstack/pagination v0.3.0/go.mod h1:rYUcK2N6NxzLiy67xfXzt1xSCE5QKFPYH
 github.com/hbstack/pagination v0.4.0/go.mod h1:xAvZzN0UZW0j/IAUipcRIIQ7P9Sq44M3k47HaHy7OuU=
 github.com/hbstack/pagination v0.5.0 h1:NndUJiqtAreDKw0fgkcdWckwJc1baoszOfaB+dN0kTw=
 github.com/hbstack/pagination v0.5.0/go.mod h1:xAvZzN0UZW0j/IAUipcRIIQ7P9Sq44M3k47HaHy7OuU=
+github.com/hbstack/pagination v0.6.0/go.mod h1:xAvZzN0UZW0j/IAUipcRIIQ7P9Sq44M3k47HaHy7OuU=
 github.com/hbstack/progress-bar v0.1.0 h1:2ZiGS3RFZbZYBUbT2nFCoU9SJsbD9jtV4A7ab41B4jg=
 github.com/hbstack/progress-bar v0.1.0/go.mod h1:JZt160XK62FxThzt+RmokjOww3De8ZL0ITcxMJLVE7g=
 github.com/hbstack/pwa v0.1.2 h1:zJhLf5Uf+jO9aCBKvFcASlw7sULK2i0qUJZxscBo0HM=
