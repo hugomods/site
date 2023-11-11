@@ -157,6 +157,7 @@ github.com/hugomods/code-block-panel v0.3.0 h1:OqwO2qZ7sR0txDldVzUaaUexqPy74iXDD
 github.com/hugomods/code-block-panel v0.3.0/go.mod h1:3J9yUxaShbhYvFFZbGVHcBoHPl6TUKLL3f2fTsnVNNg=
 github.com/hugomods/code-block-panel v0.4.0 h1:/f9DCwLPcSHFUmQqyfkSRT3pzOttntuS0TwdOAFSpEY=
 github.com/hugomods/code-block-panel v0.4.0/go.mod h1:3J9yUxaShbhYvFFZbGVHcBoHPl6TUKLL3f2fTsnVNNg=
+github.com/hugomods/code-block-panel v0.5.0/go.mod h1:3J9yUxaShbhYvFFZbGVHcBoHPl6TUKLL3f2fTsnVNNg=
 github.com/hugomods/decap-cms v0.1.0 h1:FGswav9aXekLQs4FFLHkJ2bgulxUUXQZmbCryUigDcU=
 github.com/hugomods/decap-cms v0.1.0/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/encrypt v0.2.0 h1:mlwrKPahAcotlYSSso5GZQgLoMeHNPwIAdxD0m/459E=
