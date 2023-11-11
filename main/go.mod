@@ -96,7 +96,7 @@ require (
 	github.com/hugomods/katex v0.3.0 // indirect
 	github.com/hugomods/lucide-icons v0.291.0 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
-	github.com/hugomods/pwa v0.5.1 // indirect
+	github.com/hugomods/pwa v0.6.0 // indirect
 	github.com/hugomods/search v0.8.1 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect
 	github.com/hugomods/seo/modules/base v0.1.0 // indirect
