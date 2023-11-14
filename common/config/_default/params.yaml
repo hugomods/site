@@ -42,7 +42,7 @@ hb:
   blog:
     sidebar:
       taxonomies:
-        style: underline
+        style: pills
     home:
       recent_posts: 12
   content_panel:
