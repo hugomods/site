@@ -14,6 +14,7 @@ hb:
   google_fonts:
     families:
       - name: Montserrat
+      - name: Agbalumo
   thanks:
     socials:
       githubsponsors: https://github.com/sponsors/razonyang
