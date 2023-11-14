@@ -11,6 +11,9 @@ bootstrap:
       - json
 
 hb:
+  google_fonts:
+    families:
+      - name: Montserrat
   thanks:
     socials:
       githubsponsors: https://github.com/sponsors/razonyang

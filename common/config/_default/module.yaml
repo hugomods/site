@@ -1,4 +1,5 @@
 imports:
+  - path: github.com/hbstack/google-fonts
   - path: github.com/hugomods/decap-cms
 
   - path: github.com/razonyang/hb-mod-thanks
