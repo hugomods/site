@@ -30,6 +30,7 @@ imports:
 
   # others
   - path: github.com/hugomods/katex
+  - path: github.com/hugomods/microsoft-clarity
   - path: github.com/hugomods/google-analytics
   - path: github.com/hugomods/google-adsense
   - path: github.com/hugomods/shortcodes
