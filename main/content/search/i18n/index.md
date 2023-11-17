@@ -22,17 +22,20 @@ authors:
 images:
 ---
 
-## Supported Lanaguages
+## Supported Languages
 
-| Language            | Code      |
-| ------------------- | :-------: |
-| English             | `en`      |
-| German              | `de`      |
-| Korean              | `ko`      |
-| Dutch               | `nl`      |
-| Simplified Chinese  | `zh-hans` |
-| Traditional Chinese | `zh-hant` |
-
+| Language             | Code      |
+| -------------------- | :-------: |
+| German               | `de`      |
+| English              | `en`      |
+| French               | `fr`      |
+| Korean               | `ko`      |
+| Malay                | `ms`      |
+| Dutch                | `nl`      |
+| Brazilian Portuguese | `pt-br`   |
+| Russian              | `ru`      |
+| Simplified Chinese   | `zh-hans` |
+| Traditional Chinese  | `zh-hant` |
 
 ## How to Add Language?
 
