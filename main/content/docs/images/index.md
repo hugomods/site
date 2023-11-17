@@ -64,6 +64,16 @@ The images module process images via URL query string and fragment, such as resi
 - Set the intrinsic height and width attributes for images to get rid of CLS (Cumulative Layout Shift) affect.
 - Hashing image URLs.
 
+## How It Works?
+
+This module was built on top of `render-image` [render hooks](https://gohugo.io/templates/render-hooks).
+
+{{< bs/alert warning >}}
+{{< markdownify >}}
+If your theme has a built-in `render-image` hook, then a conflict may occur, this module will override the built-in one, and take control how images rendering.
+{{< /markdownify >}}
+{{< /bs/alert >}}
+
 ## Installation
 
 {{< bootstrap/config-toggle filename=hugo >}}
