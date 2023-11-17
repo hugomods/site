@@ -68,7 +68,7 @@ require (
 	github.com/hbstack/toc-scrollspy v0.1.0 // indirect
 	github.com/henrygd/bigger-picture v1.1.12 // indirect
 	github.com/hugomods/base v0.4.0 // indirect
-	github.com/hugomods/bootstrap v0.13.0 // indirect
+	github.com/hugomods/bootstrap v0.14.0 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
 	github.com/hugomods/decap-cms v0.2.0 // indirect
 	github.com/hugomods/encrypt v0.2.0 // indirect
