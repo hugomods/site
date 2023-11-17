@@ -35,6 +35,21 @@ This shortcode generate a list of articles in card style.
 
 {{% shortcode-params "data/params.toml" %}}
 
+## Site Parameters
+
+{{% bs/config-toggle hugo %}}
+params:
+  bootstrap:
+    article_cards:
+      limit: 12
+      image_height: 240
+{{% /bs/config-toggle %}}
+
+| Name | Type | Required | Default | Description |
+| ---- | ---- | :------: | :-----: | ----------- |
+| `limit` | number | - | `12` | The default number of posts. |
+| `image_height` | number | - | `240` | The default height of image. |
+
 ## Examples
 
 ### Default Article Cards

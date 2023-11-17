@@ -17,4 +17,4 @@ desc = "The article sections, multiple sections separated by comma, such as `blo
 name = "summaryLen"
 desc = "The max length of summary."
 type = "number"
-default = 120
+default = 240
