@@ -111,7 +111,7 @@ require (
 	github.com/jakearchibald/idb v7.1.1+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.5.0 // indirect
-	github.com/tabler/tabler-icons v2.40.0+incompatible // indirect
+	github.com/tabler/tabler-icons v2.41.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.2+incompatible // indirect
 	github.com/twbs/icons v1.11.1 // indirect
 )
