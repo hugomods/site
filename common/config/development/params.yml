@@ -14,3 +14,8 @@ decap_cms:
   local_backend: true
   backend:
     name: git-gateway
+
+hugopress:
+  modules:
+    pwa:
+      disable: true
