@@ -18,7 +18,7 @@
     "rtlcss": "^4.0.0"
   },
   "scripts": {
-    "dev": "hugo server -p 8080 --gc --disableFastRender --buildDrafts --enableGitInfo",
-    "prod": "hugo server -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:8081 -p 8081"
+    "dev": "hugo server -p 8000 --gc --buildDrafts --enableGitInfo",
+    "prod": "hugo server -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:8010 -p 8010"
   }
 }
