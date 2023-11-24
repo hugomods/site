@@ -9,5 +9,3 @@ nav_icon:
 ---
 
 This module extends Hugo shortcodes.
-
-{{< module "github.com/hugomods/shortcodes" >}}
