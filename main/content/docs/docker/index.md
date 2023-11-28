@@ -103,7 +103,7 @@ We provides a walkthrough about using Hugo Docker images to develop our themes o
 
 <!--more-->
 
-### Pick Up the Right Images
+### Pick Up the Right Image Tag
 
 Firstly, compare and pick up the [Docker images](#image-tags). Let's take `hugomods/hugo` image as an example.
 
@@ -123,9 +123,11 @@ cd my-site
 The rest of steps are performed on your site root.
 {{< /bootstrap/alert >}}
 
-### Install Dependencies
+### Install Dependencies (Optional)
 
-You may need to install the dependencies before running Hugo server, such as install dependencies via `npm`.
+> Skip this step if your site/theme doesn't require it.
+
+You may want to install the dependencies before running Hugo server, such as install dependencies via `npm`.
 
 ```sh
 docker run \
