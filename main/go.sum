@@ -63,6 +63,7 @@ github.com/hbstack/breadcrumb v0.4.0 h1:47Zj70iglpnFW0MdNisj2IWP/p38AIknEJ364jTn
 github.com/hbstack/breadcrumb v0.4.0/go.mod h1:TTqv6qJzqTeYvHSZ3gIifRB/zVD0l+I7/Sxu0cftqtE=
 github.com/hbstack/breadcrumb v0.5.0 h1:Muqr9Srd3F9gQOMfU0P1ZXLgE78tFI6UfLwnZ52ksOg=
 github.com/hbstack/breadcrumb v0.5.0/go.mod h1:ToD1n+vdG4bfhyresQV7aoV3OUuNk4huw2hFu+0xdfc=
+github.com/hbstack/breadcrumb v0.5.1/go.mod h1:ToD1n+vdG4bfhyresQV7aoV3OUuNk4huw2hFu+0xdfc=
 github.com/hbstack/carousel v0.2.4 h1:OkMRqyhklJBMbOXo8p/dsS+iQVQTrMUI7Jfm13Js3L4=
 github.com/hbstack/carousel v0.2.4/go.mod h1:AchKlXiqYNZouE3Ee/VSSQle2FUZV5CJgTnPBFI7Gj0=
 github.com/hbstack/code-block-panel v0.1.1 h1:9fHjXmlU7x8nbWI3Qr9t5YnRDtaF9auqPWMpsUNMGuc=
