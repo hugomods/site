@@ -73,6 +73,8 @@ The following parameters are supported.
 | `#1`     | `langs` | string | - | `toml,yaml,json` | The target languages, separated by comma, can be used to exclude and sort languages. |
 | -        | `style` | string | - | `tabs` | `tabs`, `pills` or `underline`. |
 | -        | `fill` | boolean | - | `false` | When `true` the nav items take full width. |
+| -        | `title` | string | - | - | The title of configuration. |
+| -        | `delimiter` | boolean | - | `false` | When `true`, wraps codes with delimiters. |
 
 ## Examples
 
@@ -104,18 +106,30 @@ langs = ["toml", "json"]
 langs = ["toml","json"]
 {{< /bootstrap/config-toggle >}}
 
-### Hugo Configuration Example With Pills Style And Take Full Width
+### Hugo Configuration Example With Title, Pills Style And Take Full Width
 
 ```markdown
-{{</* bs/config-toggle filename=hugo style=pills fill=true */>}}
+{{</* bs/config-toggle filename=hugo title="Configuration" style=pills fill=true */>}}
 module:
   imports:
     - path: github.com/hugomods/bootstrap
 {{</* /bs/config-toggle */>}}
 ```
 
-{{< bootstrap/config-toggle filename=hugo style=pills fill=true >}}
+{{< bootstrap/config-toggle filename=hugo title="Configuration" style=pills fill=true >}}
 module:
   imports:
     - path: github.com/hugomods/bootstrap
+{{< /bootstrap/config-toggle >}}
+
+### Hugo Front Matter Example
+
+```markdown
+{{</* bootstrap/config-toggle title="Front Matter" delimiter=true */>}}
+title: Hello World!
+{{</* /bootstrap/config-toggle */>}}
+```
+
+{{< bootstrap/config-toggle title="Front Matter" delimiter=true >}}
+title: Hello World!
 {{< /bootstrap/config-toggle >}}

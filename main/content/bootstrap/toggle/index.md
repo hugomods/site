@@ -36,6 +36,7 @@ The [config toggle]({{< ref "bootstrap/config-toggle" >}}) is useful, but it's l
 | -------- | ---- | ---- | :------: | :-----: | ----------- |
 | `#0` | `name` | string | Y | - | The identifier/name of toggle. **MUST** be unique per page. |
 | `#1` | `style` | string | - | `tabs` | `tabs`, `pills`, `underline`. |
+| `#2` | `data` | string | - | - | The data file of toggle items, required when not using nested shortcodes.
 
 ## Toggle Item Shortcode
 
@@ -66,6 +67,20 @@ RAW CONTENT.
 ```
 
 ## Examples
+
+### Data File Example
+
+{{% bs/collapse "data/bootstrap/toggle-data-file.yaml" primary true %}}
+```yaml
+{{< file-content "data/bootstrap/toggle-data-file.yaml" >}}
+```
+{{% /bs/collapse %}}
+
+```markdown
+{{</* bs/toggle "data-file" "pills" "bootstrap.toggle-data-file" /*/>}}
+```
+
+{{< bs/toggle "data-file" "pills" "bootstrap.toggle-data-file" />}}
 
 ### FooBar Example
 

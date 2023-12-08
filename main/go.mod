@@ -11,7 +11,6 @@ require (
 	github.com/feathericons/feather v4.29.1+incompatible // indirect
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
-	github.com/hbstack/announcement-bar v0.4.1 // indirect
 	github.com/hbstack/back-to-top v0.1.2 // indirect
 	github.com/hbstack/base v0.4.1 // indirect
 	github.com/hbstack/bigger-picture v0.9.2 // indirect
@@ -50,7 +49,7 @@ require (
 	github.com/hbstack/header v0.12.3 // indirect
 	github.com/hbstack/header/modules/banner v0.5.11 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.23 // indirect
-	github.com/hbstack/header/modules/news v0.2.0 // indirect
+	github.com/hbstack/header/modules/news v0.2.1 // indirect
 	github.com/hbstack/header/modules/search v0.1.33 // indirect
 	github.com/hbstack/header/modules/socials v0.1.28 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.4.2 // indirect
@@ -72,7 +71,7 @@ require (
 	github.com/henrygd/bigger-picture v1.1.12 // indirect
 	github.com/hugomods/aos v0.1.0 // indirect
 	github.com/hugomods/base v0.4.0 // indirect
-	github.com/hugomods/bootstrap v0.14.0 // indirect
+	github.com/hugomods/bootstrap v0.15.0 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
 	github.com/hugomods/decap-cms v0.8.0 // indirect
 	github.com/hugomods/encrypt v0.2.0 // indirect
