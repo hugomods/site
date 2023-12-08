@@ -47,7 +47,7 @@ require (
 	github.com/hbstack/hb v0.7.2 // indirect
 	github.com/hbstack/header v0.12.3 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.23 // indirect
-	github.com/hbstack/header/modules/news v0.2.0 // indirect
+	github.com/hbstack/header/modules/news v0.2.1 // indirect
 	github.com/hbstack/header/modules/search v0.1.33 // indirect
 	github.com/hbstack/header/modules/socials v0.1.28 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.4.2 // indirect
