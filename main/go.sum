@@ -224,6 +224,7 @@ github.com/razonyang/hb-mod-thanks v0.5.1/go.mod h1:QNNUPfVp6v3fyvFjkk1DDDl0qhaj
 github.com/tabler/tabler-icons v2.42.0+incompatible h1:aTX4zza197fQQ00adeP1QSFhvuXaywflq4bSp8e4vL0=
 github.com/tabler/tabler-icons v2.42.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
 github.com/tabler/tabler-icons v2.43.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
+github.com/tabler/tabler-icons v2.44.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
 github.com/twbs/bootstrap v5.3.2+incompatible h1:tuiO5acc6xnZUR77Sbi5aKWXxjYxbmsSbJwYrhAKoQQ=
 github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.11.2 h1:I0zuO+pk4F1jKGautLPFUQyU2uQyir0GBGb4ArpXZLg=
