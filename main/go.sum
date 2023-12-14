@@ -167,6 +167,7 @@ github.com/hugomods/icons/vendors/font-awesome v0.6.1 h1:MyYF67fPthN4EDkT/IwY0yd
 github.com/hugomods/icons/vendors/font-awesome v0.6.1/go.mod h1:kmMci4qX8yTQPT28sskzKRudJiQAAiZZugjNbkakRhk=
 github.com/hugomods/icons/vendors/lucide v0.3.24 h1:Rwxei50NFR7CxXZgUFtQ5xT+3OtTr2XNnm6kP3lY3Go=
 github.com/hugomods/icons/vendors/lucide v0.3.24/go.mod h1:ojFY8d7dhUu8J4Jnvw6ir+CwXWMI96mI2MhWiyNJRWo=
+github.com/hugomods/icons/vendors/lucide v0.3.25/go.mod h1:naEIHsLMzrRj1KxSvS+K1lRAsDR8RuGjz0grTdpGApg=
 github.com/hugomods/icons/vendors/mdi v0.3.1 h1:FVmW8I0YbYWuZ7wRfXemFfsgUllF60atwAww98vBshI=
 github.com/hugomods/icons/vendors/mdi v0.3.1/go.mod h1:zGZ9hTyZbsF3WXwqrLGl0nsoZX9jj2XthdGS1NDSfvs=
 github.com/hugomods/icons/vendors/simple-icons v1.0.23 h1:6i3SDBf9MGwmaBca0uzjF/97j8gFvOFvmDfhPkLm6qg=
@@ -184,6 +185,7 @@ github.com/hugomods/katex v0.3.0 h1:hq0Kels9clL38Y2K/QZgXFKF7hQuumyQYz16TT4/Hhk=
 github.com/hugomods/katex v0.3.0/go.mod h1:EBY1YQTN6F8FDQz+mWp3EzEh8vDN31YjL9luVni+Wm0=
 github.com/hugomods/lucide-icons v0.294.0 h1:9sFtF+UDZTc8hfAUxe24E/thPXhyo7fiS9qUovSMkeE=
 github.com/hugomods/lucide-icons v0.294.0/go.mod h1:7loUmJrnD5umJ2sWSCb3AffZt0fYnSc1I+yBRjgHgw8=
+github.com/hugomods/lucide-icons v0.295.0/go.mod h1:7loUmJrnD5umJ2sWSCb3AffZt0fYnSc1I+yBRjgHgw8=
 github.com/hugomods/mermaid v0.1.1 h1:12b8DbdiKOTtPmkWOMXsBz3LKkAWVqa5tGkbEboj0a4=
 github.com/hugomods/mermaid v0.1.1/go.mod h1:7sKIZLAeYsXXnKRh4KR70UQx27xnzf0mSQ2o99zTLS0=
 github.com/hugomods/microsoft-clarity v0.1.0 h1:hTv1wadsqzilBd9YuHvzQ2Dh79d2mCzNFovYWUF7MgQ=
