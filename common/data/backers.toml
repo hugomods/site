@@ -3,6 +3,12 @@
 # url = "https://ko-fi.com/razonyang"
 
 [[gold]]
+name = "Luigi"
+url = "https://github.com/luigi8bits"
+weight = 2
+avatar_url = "https://storage.ko-fi.com/cdn/useruploads/f5b92e0b-179f-486f-b548-92682f81f0ee.png"
+
+[[gold]]
 name = "Support me on GitHub"
 url = "https://github.com/sponsors/razonyang"
 weight = 1
