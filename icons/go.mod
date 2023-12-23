@@ -45,7 +45,7 @@ require (
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
 	github.com/hbstack/hb v0.8.0 // indirect
-	github.com/hbstack/header v0.12.3 // indirect
+	github.com/hbstack/header v0.12.4 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.23 // indirect
 	github.com/hbstack/header/modules/news v0.2.1 // indirect
 	github.com/hbstack/header/modules/search v0.1.33 // indirect
