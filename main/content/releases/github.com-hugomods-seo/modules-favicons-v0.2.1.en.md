@@ -1,5 +1,5 @@
 ---
-title: "github.com/hugomods/seo's modules/favicons: v0.2.1"
+title: "github.com/hugomods/seo/modules/favicons/v0.2.1"
 date: 2023-11-01 19:58:04 +0000 UTC
 publishDate: 2023-11-01 19:58:18 +0000 UTC
 draft: false

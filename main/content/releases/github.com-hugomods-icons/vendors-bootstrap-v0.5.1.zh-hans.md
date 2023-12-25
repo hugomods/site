@@ -1,5 +1,5 @@
 ---
-title: "github.com/hugomods/icons's vendors/bootstrap: v0.5.1"
+title: "github.com/hugomods/icons/vendors/bootstrap/v0.5.1"
 date: 2023-09-17 16:02:24 +0000 UTC
 publishDate: 2023-09-17 16:02:39 +0000 UTC
 draft: false

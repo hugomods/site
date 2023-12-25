@@ -1,5 +1,5 @@
 ---
-title: "github.com/hugomods/icons's vendors/font-awesome: v0.6.1"
+title: "github.com/hugomods/icons/vendors/font-awesome/v0.6.1"
 date: 2023-08-03 02:25:07 +0000 UTC
 publishDate: 2023-08-03 02:25:26 +0000 UTC
 draft: false

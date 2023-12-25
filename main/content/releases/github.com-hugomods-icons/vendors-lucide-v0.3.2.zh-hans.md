@@ -1,5 +1,5 @@
 ---
-title: "github.com/hugomods/icons's vendors/lucide: v0.3.2"
+title: "github.com/hugomods/icons/vendors/lucide/v0.3.2"
 date: 2023-06-13 01:44:28 +0000 UTC
 publishDate: 2023-06-13 01:44:45 +0000 UTC
 draft: false

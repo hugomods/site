@@ -1,5 +1,5 @@
 ---
-title: "github.com/hugomods/icons's vendors/feather: v0.2.1"
+title: "github.com/hugomods/icons/vendors/feather/v0.2.1"
 date: 2023-08-20 03:25:29 +0000 UTC
 publishDate: 2023-08-20 03:25:47 +0000 UTC
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "github.com/hugomods/icons's vendors/mdi: v0.3.1"
+title: "github.com/hugomods/icons/vendors/mdi/v0.3.1"
 date: 2023-10-07 23:25:12 +0000 UTC
 publishDate: 2023-10-07 23:25:31 +0000 UTC
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "github.com/hugomods/decap-cms's editor-components/todo: v0.1.1"
+title: "github.com/hugomods/decap-cms/editor-components/todo/v0.1.1"
 date: 2023-11-26 02:41:45 +0000 UTC
 publishDate: 2023-11-26 02:41:59 +0000 UTC
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "github.com/hugomods/icons's vendors/simple-icons: v1.0.24"
+title: "github.com/hugomods/icons/vendors/simple-icons/v1.0.24"
 date: 2023-12-10 08:02:55 +0000 UTC
 publishDate: 2023-12-10 08:03:14 +0000 UTC
 draft: false

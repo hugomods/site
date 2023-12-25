@@ -1,5 +1,5 @@
 ---
-title: "github.com/hugomods/icons's vendors/tabler: v0.15.6"
+title: "github.com/hugomods/icons/vendors/tabler/v0.15.6"
 date: 2023-07-24 23:42:21 +0000 UTC
 publishDate: 2023-07-24 23:42:35 +0000 UTC
 draft: false
