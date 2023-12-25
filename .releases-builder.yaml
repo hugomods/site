@@ -1,0 +1,41 @@
+languages:
+  - code: en
+  - code: zh-hans
+contentDir: main/content/releases
+repositories:
+  - github.com/hugomods/images
+  - github.com/hugomods/search
+  - github.com/hugomods/aos
+  - github.com/hugomods/base
+  - github.com/hugomods/bootstrap
+  - github.com/hugomods/code-block-panel
+  - github.com/hugomods/decap-cms
+  - github.com/hugomods/docker
+  - github.com/hugomods/docsearch
+  - github.com/hugomods/encrypt
+  - github.com/hugomods/font-awesome
+  - github.com/hugomods/fuse-js
+  - github.com/hugomods/giscus
+  - github.com/hugomods/google-adsense
+  - github.com/hugomods/google-analytics
+  - github.com/hugomods/gravatar
+  - github.com/hugomods/hugopress
+  - github.com/hugomods/i18n-js
+  - github.com/hugomods/icons
+  - github.com/hugomods/idb-js
+  - github.com/hugomods/images
+  - github.com/hugomods/katex
+  - github.com/hugomods/mermaid
+  - github.com/hugomods/plausible-analytics
+  - github.com/hugomods/pwa
+  - github.com/hugomods/recaptcha-v2
+  - github.com/hugomods/releases-builder
+  - github.com/hugomods/search
+  - github.com/hugomods/seo
+  - github.com/hugomods/shortcodes
+  - github.com/hugomods/simple-icons
+  - github.com/hugomods/snackbar
+  - github.com/hugomods/twikoo
+  - github.com/hugomods/utterances
+  - github.com/hugomods/video-js
+  - github.com/hugomods/workbox
