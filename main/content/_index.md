@@ -1,16 +1,16 @@
 ---
 layout: landing
-title: Hugo Modules
-description: Hugo modules for building fast, modular and modern themes and static websites.
+title: HugoMods | Hugo Modules and Tools
+description: Third party Hugo modules and tools for building fast, modular, modern themes and static websites.
 header:
   banner:
     alignment: center
     img: /images/banners/home.svg
     title: |
-      Hugo Modules
+      HugoMods
       { .mb-5 data-aos="fade-up" }
     description: |
-      Hugo modules for building **fast**, **modular** and **modern** themes and static websites.
+      Third party Hugo modules and tools for building **fast**, **modular**, **modern** themes and static websites.
       { .mb-5 data-aos="fade-up" data-aos-delay="200" }
 
       {{< html/div

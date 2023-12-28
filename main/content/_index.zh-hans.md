@@ -1,16 +1,16 @@
 ---
-title: Hugo 模块
-description: 通过 Hugo 模块构建快速、模块化和现代化的主题和静态网站。
+title: HugoMods | Hugo 模块和工具
+description: 用于构建快速、模块化和现代化的主题和静态网站的第三方 Hugo 模块和工具。
 layout: landing
 header:
   banner:
     alignment: center
     img: /images/banners/home.svg
     title: |
-      Hugo 模块
+      HugoMods
       { .mb-5 data-aos="fade-up" }
     description: |
-      通过 Hugo 模块构建**快速**、**模块化**和**现代化**的主题和静态网站。
+      可用于构建**快速**、**模块化**和**现代化**的主题和静态网站的第三方 Hugo 模块和工具。
       { .mb-5 data-aos="fade-up" data-aos-delay="200" }
 
       {{< html/div
