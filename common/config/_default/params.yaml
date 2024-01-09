@@ -26,6 +26,9 @@ hb:
   header:
     news:
       icon_name: megaphone-fill
+      sections:
+        - news
+        - releases
     # logo_bg: '#fff'
     socials:
       github: hugomods
