@@ -289,6 +289,7 @@ github.com/hugomods/icons/vendors/lucide v0.3.27/go.mod h1:R8/cX87xnORwF+HxmnjhI
 github.com/hugomods/icons/vendors/lucide v0.3.28/go.mod h1:wwsKEC/TIVkuhTx+vHm5wJShP1WkgiIR/V1mFnNyhPk=
 github.com/hugomods/icons/vendors/lucide v0.3.29/go.mod h1:Tqjbu61sOFV719HmuIb0Exolq5bgwDP1D/hBm5VV95o=
 github.com/hugomods/icons/vendors/lucide v0.3.30/go.mod h1:5uIVp28foKG6asUfTvsYw7surO5egUbUxOmhK6hKogE=
+github.com/hugomods/icons/vendors/lucide v0.3.31/go.mod h1:wqZXk9JoUKEdxRKhxDYH/bPgn4RGRNt9XDWPzntE+s4=
 github.com/hugomods/icons/vendors/mdi v0.3.1 h1:FVmW8I0YbYWuZ7wRfXemFfsgUllF60atwAww98vBshI=
 github.com/hugomods/icons/vendors/mdi v0.3.1/go.mod h1:zGZ9hTyZbsF3WXwqrLGl0nsoZX9jj2XthdGS1NDSfvs=
 github.com/hugomods/icons/vendors/mdi v0.3.2/go.mod h1:yHIDYxNoBV8RCAc4Uordp6rr4GObPrtBAimShBBFdmc=
@@ -332,6 +333,7 @@ github.com/hugomods/lucide-icons v0.298.0/go.mod h1:7loUmJrnD5umJ2sWSCb3AffZt0fY
 github.com/hugomods/lucide-icons v0.300.0/go.mod h1:7loUmJrnD5umJ2sWSCb3AffZt0fYnSc1I+yBRjgHgw8=
 github.com/hugomods/lucide-icons v0.303.0/go.mod h1:7loUmJrnD5umJ2sWSCb3AffZt0fYnSc1I+yBRjgHgw8=
 github.com/hugomods/lucide-icons v0.304.0/go.mod h1:7loUmJrnD5umJ2sWSCb3AffZt0fYnSc1I+yBRjgHgw8=
+github.com/hugomods/lucide-icons v0.309.0/go.mod h1:7loUmJrnD5umJ2sWSCb3AffZt0fYnSc1I+yBRjgHgw8=
 github.com/hugomods/mermaid v0.1.1 h1:12b8DbdiKOTtPmkWOMXsBz3LKkAWVqa5tGkbEboj0a4=
 github.com/hugomods/mermaid v0.1.1/go.mod h1:7sKIZLAeYsXXnKRh4KR70UQx27xnzf0mSQ2o99zTLS0=
 github.com/hugomods/microsoft-clarity v0.1.0 h1:hTv1wadsqzilBd9YuHvzQ2Dh79d2mCzNFovYWUF7MgQ=
