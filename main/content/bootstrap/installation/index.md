@@ -46,6 +46,20 @@ module:
     - path: github.com/hugomods/bootstrap
 {{< /bs/config-toggle >}}
 
+## Additional Styles
+
+Some [additional styles](https://github.com/hugomods/bootstrap/tree/main/assets/mods/bootstrap/scss) are provided to make some shortcodes look nicer.
+
+To use it via Hugo Pipes, you'll need to import the SCSS files as follows.
+
+```scss
+@import 'mods/bootstrap/scss/index';
+```
+
+{{% bs/alert warning %}}
+The path `mods/bootstrap/scss/index` is relative to the `/assets` folder, please change it according to your main style location. Take `assets/styles/main.scss` as example, you should change the path as `../mods/bootstrap/scss/index`.
+{{% /bs/alert %}}
+
 ## Notes
 
 This module has two namespaces: `bs` and `bootstrap`, both of them are valid, the short one is recommended.

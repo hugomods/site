@@ -29,11 +29,23 @@ A brief description about the button link shortcode.
 
 ## Usage
 
+### Closing Button Link Syntax
+
 ```markdown
-{{</* bs/btn-link [url] */>}}
+{{</* bs/btn-link */>}}
 TEXT
 {{</* /bs/btn-link */>}}
 ```
+
+Recommended for rich button text, it's useful for the case of nesting shortcodes, such as [icons/icon]({{< relref "docs/icons#use-icons-via-shortcode" >}}).
+
+### Self-Closing Button Link Syntax
+
+```markdown
+{{</* bs/btn-link text=TEXT /*/>}}
+```
+
+Recommended for plain button text.
 
 ## Parameters
 
@@ -41,15 +53,34 @@ TEXT
 
 ## Examples
 
+### Self-Closing Button Link
+
+```markdown
+{{</* bs/btn-link url="#self-closing-button-link" text="Self-Closing" /*/>}}
+```
+
+{{< bs/btn-link url="#self-closing-button-link" text="Self-Closing" />}}
+
+### Closing Button Link
+
+```markdown
+{{</* bs/btn-link url="#closing-button-link" */>}}
+Closing {{</* icons/icon vendor=bs name=x-circle */>}}
+{{</* /bs/btn-link */>}}
+```
+
+{{< bs/btn-link url="#closing-button-link" >}}
+Closing {{< icons/icon vendor=bs name=x-circle >}}
+{{< /bs/btn-link >}}
+
 ### Button Link Styles
 
+<div class="mb-3">
 {{< bs/btn-link "#button-link-styles" "primary" >}}
 Primary
 {{< /bs/btn-link >}}
 
-{{< bs/btn-link "#button-link-styles" "secondary" >}}
-Secondary
-{{< /bs/btn-link >}}
+{{< bs/btn-link url="#button-link-styles" style="secondary" text="Secondary" />}}
 
 {{< bs/btn-link "#button-link-styles" "success" >}}
 Success
@@ -78,6 +109,43 @@ Dark
 {{< bs/btn-link  "#button-link-styles" "link" >}}
 Link
 {{< /bs/btn-link >}}
+</div>
+
+```markdown
+{{</* bs/btn-link "#button-link-styles" "primary" */>}}
+Primary
+{{</* /bs/btn-link */>}}
+
+{{</* bs/btn-link url="#button-link-styles" style="secondary" text="Secondary" /*/>}}
+
+{{</* bs/btn-link "#button-link-styles" "success" */>}}
+Success
+{{</* /bs/btn-link */>}}
+
+{{</* bs/btn-link "#button-link-styles" "danger" */>}}
+Danger
+{{</* /bs/btn-link */>}}
+
+{{</* bs/btn-link "#button-link-styles" "warning" */>}}
+Warning
+{{</* /bs/btn-link */>}}
+
+{{</* bs/btn-link "#button-link-styles" "info" */>}}
+Info
+{{</* /bs/btn-link */>}}
+
+{{</* bs/btn-link "#button-link-styles" "light" */>}}
+Light
+{{</* /bs/btn-link */>}}
+
+{{</* bs/btn-link "#button-link-styles" "dark" */>}}
+Dark
+{{</* /bs/btn-link */>}}
+
+{{</* bs/btn-link  "#button-link-styles" "link" */>}}
+Link
+{{</* /bs/btn-link */>}}
+```
 
 ### Outline Button Link
 
@@ -125,12 +193,12 @@ Lager button link size
 
 ### Button Link with Extra Classes
 
-{{< bs/btn-link url="#button-link-with-extra-classes" class="d-block py-3 mb-3 rounded-0" >}}
+{{< bs/btn-link url="#button-link-with-extra-classes" size=lg class="d-block py-3 mb-3 rounded-0" >}}
 Button link with extra classes
 {{< /bs/btn-link >}}
 
 ```markdown
-{{</* bs/btn-link url="#button-link-with-extra-classes" class="d-block py-3 rounded-0" */>}}
+{{</* bs/btn-link url="#button-link-with-extra-classes" size=lg class="d-block py-3 rounded-0" */>}}
 Button link with extra classes
 {{</* /bs/btn-link */>}}
 ```

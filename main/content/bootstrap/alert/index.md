@@ -132,18 +132,14 @@ A simple dark alert—check it out!
 We could achieve this by combining the `bs/alert` and `markdownify` shortcodes.
 
 ```markdown
-{{</* bs/alert primary */>}}
-{{%/* markdownify */%}}
+{{%/* bs/alert style=primary */%}}
 A simple *primary alert* with Markdown—**check it out**!
-{{%/* /markdownify */%}}
-{{</* /bs/alert */>}}
+{{%/* /bs/alert */%}}
 ```
 
-{{< bs/alert primary >}}
-{{% markdownify %}}
+{{% bs/alert style=primary %}}
 A simple *primary alert* with Markdown—**check it out**!
-{{% /markdownify %}}
-{{< /bs/alert >}}
+{{% /bs/alert %}}
 
 ## Alert Link Shortcode
 
@@ -191,7 +187,7 @@ Aww yeah, you successfully read this important alert message. This example text 
 {{</* /bs/alert */>}}
 ```
 
-{{< bs/alert success >}}
+{{% bs/alert success %}}
 {{< bs/alert-heading "Well done!" >}}
-Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.
-{{< /bs/alert >}}
+Aww yeah, you **successfully** read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.
+{{% /bs/alert %}}

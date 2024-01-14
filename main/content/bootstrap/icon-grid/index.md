@@ -36,6 +36,9 @@ This shortcode is used to generate icon grid, which supports icon, heading and d
 | -------- | ---------- | :----: | :------: | :-----: | ---------------------------------------------------------- |
 | `#0`     | `data`     | string |    Y     |    -    | The data name of data file.                                |
 | -        | `linkText` | string |    -     |    -    | The link text, the entire card will be clickable if empty. |
+| -        | `alignment` | string |    -    | `start` | Alignments: `start`, `center` or `end`.                    |
+| -        | `gap`      | number |    -     |   `4`   | Gap between items, up to `5`.                              |
+| -        | `border`   | boolean |    -    | `false` | Whether to enable border.                                  |
 
 ## Data
 
@@ -122,3 +125,27 @@ The entire card will be clickable if the link text is empty.
 ```
 
 {{< bs/icon-grid data=features linkText="" >}}
+
+### Align to Center
+
+```markdown
+{{</* bs/icon-grid data="features" alignment="center" */>}}
+```
+
+{{< bs/icon-grid data="features" alignment="center" >}}
+
+### Smaller Gap
+
+```markdown
+{{</* bs/icon-grid data="features" gap=2 */>}}
+```
+
+{{< bs/icon-grid data="features" gap=2 >}}
+
+### Without Border
+
+```markdown
+{{</* bs/icon-grid data="features" border=false */>}}
+```
+
+{{< bs/icon-grid data="features" border=false >}}
