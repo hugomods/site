@@ -10,6 +10,7 @@ repositories:
   - github.com/hugomods/bootstrap
   - github.com/hugomods/code-block-panel
   - github.com/hugomods/decap-cms
+  - github.com/hugomods/debugger
   - github.com/hugomods/docker
   - github.com/hugomods/docsearch
   - github.com/hugomods/encrypt
