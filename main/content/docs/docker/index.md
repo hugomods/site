@@ -216,4 +216,4 @@ It's time to build the production image if test passing.
 docker build -t user/my-site .
 ```
 
-Now you can push your images to container registry, and then deploy it to server, K8s cluster or something else.
+Now you can push your images to container registry, and then deploy it to server, K8s cluster, [DigitalOcean App Platform]({{< relref "blog/hugo/deploy-on-digitalocean-app-platform-via-docker" >}}) or something else.

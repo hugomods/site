@@ -25,7 +25,7 @@ images:
 
 ## Create Dockerfile
 
-Create the `Dockerfile` on your site root, let's take [HugoMods Docker image]({{< relref "docs/docker" >}})(`hugomods/hugo:exts`) as an example.
+Create the `Dockerfile` on your site root, let's take [HugoMods Docker image]({{< relref "docs/docker" >}}) (`hugomods/hugo:exts`) as an example.
 
 ```dockerfile
 {{% file-content "dockerfile" %}}
@@ -72,13 +72,13 @@ Once done, you will get the above similar settings, now let's click the _Back_ b
 
 If everything goes fine, you should got _only one_ resource, which is in type `Static Site | Dockerfile`.
 
-## Review
+## Review App
 
 Please reviewing the billing section, you won't be charged if you deploy not more than 3 static sites.
 
 > Please note that exceeded bandwidth (outbound transfer) usage will be charged, read more on [pricing](https://docs.digitalocean.com/products/app-platform/details/pricing/).
 
-## Deploy
+## Deploy App
 
 It's time to deploy site by clicking the _Create Resources_ button if everything is OK.
 
