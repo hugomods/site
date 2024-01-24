@@ -18,6 +18,7 @@ github.com/hbstack/bigger-picture v0.10.1 h1:EgUYZgSGhl4KwKVqryf6ncB2QY4YYgOqTpD
 github.com/hbstack/bigger-picture v0.10.1/go.mod h1:wZpRrOlTFrt2lO3tl9Y7cIAJbAJN1MdvRu0UsbCnkaE=
 github.com/hbstack/blog v0.24.2 h1:AtwNJkyc1jW7rxQErJ49VRBNYAlc1zIUaxctmvUgmAc=
 github.com/hbstack/blog v0.24.2/go.mod h1:MVyMZqDGbWrT4FTC7X0mJwoBvanhD22j/0CWsS/saFo=
+github.com/hbstack/blog v0.24.3/go.mod h1:54ctuT+rObZR1Ta9PvHvFGfpR+lP4chp5QRsJksht5c=
 github.com/hbstack/blog/modules/breadcrumb v0.1.22 h1:NDcjR5805LBDRcLaDF12VAIAJiRqCL/e/GX+1DE7O0k=
 github.com/hbstack/blog/modules/breadcrumb v0.1.22/go.mod h1:abqj7FTsHihbv3B2szGm4YmVGVZWzWg2VVA5ZhqUyKY=
 github.com/hbstack/blog/modules/content-panel v0.1.21 h1:g43IVjn3O6QCQSvCbgr9iYCgZcI5XG8YAiuVPb269Ok=
@@ -80,8 +81,10 @@ github.com/hbstack/google-fonts v0.1.1/go.mod h1:4Xn7/i4MRPs0wDuYTIvCJvNfAMIC5vM
 github.com/hbstack/hb v0.8.1 h1:LmQMH44l0YshYrBolaPRywS7r60aa3doA9gKa4sJYGY=
 github.com/hbstack/hb v0.8.1/go.mod h1:Z+gW6UsRwuivPcqqEb67h7vSQwSCWOr7KxNXkhcsEzM=
 github.com/hbstack/hb v0.9.0/go.mod h1:6T8TytCOb1C0EIRVcjzwuhI/G/H0ytTOaJbT1xwiDuY=
+github.com/hbstack/hb v0.9.1/go.mod h1:6T8TytCOb1C0EIRVcjzwuhI/G/H0ytTOaJbT1xwiDuY=
 github.com/hbstack/header v0.12.6 h1:iXv9jX9YNZ0aePxaFIdp7NHo6Kb1/so7u7uXXTKF/lk=
 github.com/hbstack/header v0.12.6/go.mod h1:7veV7tRH43rdYf4OIhoiy473Y/qoyeAJhglGTO+egKE=
+github.com/hbstack/header v0.12.7/go.mod h1:UmRz21kEHDZjFA+TGjWSM/68WL8xHK15CmNgWBM9BEM=
 github.com/hbstack/header/modules/banner v0.5.11 h1:G85qDsvncpdjvTwWA1MMlFXvNr87iM7USRo6C1JJaeQ=
 github.com/hbstack/header/modules/banner v0.5.11/go.mod h1:/83SGqEooqqReOqF1wG9a3jSumQ1qS9PgZcCz+d0xCs=
 github.com/hbstack/header/modules/language-picker v0.1.24 h1:OEWy+B1PCJXgoz62EKwBhObq5lNOsfXdjjtESHBi81c=
