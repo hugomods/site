@@ -68,6 +68,13 @@ avatar_url = 'https://avatars.githubusercontent.com/u/1421301?v=4'
 contributions = 1
 repos = 1
 
+[nicokaiser]
+id = 238631
+login = 'nicokaiser'
+avatar_url = 'https://avatars.githubusercontent.com/u/238631?v=4'
+contributions = 1
+repos = 1
+
 [onknows]
 id = 176916
 login = 'onknows'
@@ -79,7 +86,7 @@ repos = 1
 id = 17720932
 login = 'razonyang'
 avatar_url = 'https://avatars.githubusercontent.com/u/17720932?v=4'
-contributions = 976
+contributions = 978
 repos = 38
 
 [upptime-bot]
