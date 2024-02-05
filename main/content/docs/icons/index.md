@@ -101,6 +101,7 @@ You may need to adjust your CSS like following to align the icon to vertical mid
 | ----------- | :------: | ---------------------------------------------------------------- |
 | `vendor`    |    Y     | The vendor name of icons.                                        |
 | `name`      |    Y     | The icon name.                                                   |
+| `size`      |    N     | The square icon size, default to `1em`.                          |
 | `height`    |    N     | The height of icon, default to `1em`.                            |
 | `width`     |    N     | The width of icon, default to `1em`.                             |
 | `className` |    N     | The additional class names of `<svg>` tag after `hi-svg-inline`. |
@@ -114,16 +115,21 @@ You may need to adjust your CSS like following to align the icon to vertical mid
 | `name`      |   `#2`   | String |    Y     | The icon's name.         |
 | `color`     |    -     | String |    -     | The icon's color.        |
 | `className` |    -     | String |    -     | The icon's class name.   |
+| `size`      |    -     | String |    -     | The square icon size.    |
 | `width`     |    -     | String |    -     | The icon's width.        |
 | `height`    |    -     | String |    -     | The icon's height.       |
 
 ```markdown
 {{</* icons/icon bootstrap house */>}}
-{{</* icons/icon vendor=bootstrap name=book color=red */>}}
+{{</* icons/icon vendor=bootstrap name=house color=red */>}}
+{{</* icons/icon vendor=bootstrap name=house size=2em */>}}
+{{</* icons/icon vendor=bootstrap name=house width=2em height=2em */>}}
 ```
 
 {{< icons/icon bootstrap house >}}
-{{< icons/icon vendor=bootstrap name=book color=red >}}
+{{< icons/icon vendor=bootstrap name=house color=red >}}
+{{< icons/icon vendor=bootstrap name=house size=2em >}}
+{{< icons/icon vendor=bootstrap name=house width=2em height=2em >}}
 
 ## Advanced
 
