@@ -82,18 +82,25 @@ avatar_url = 'https://avatars.githubusercontent.com/u/176916?v=4'
 contributions = 1
 repos = 1
 
+[pleasantone]
+id = 5339793
+login = 'pleasantone'
+avatar_url = 'https://avatars.githubusercontent.com/u/5339793?v=4'
+contributions = 1
+repos = 1
+
 [razonyang]
 id = 17720932
 login = 'razonyang'
 avatar_url = 'https://avatars.githubusercontent.com/u/17720932?v=4'
-contributions = 979
+contributions = 983
 repos = 38
 
 [upptime-bot]
 id = 73812536
 login = 'upptime-bot'
 avatar_url = 'https://avatars.githubusercontent.com/u/73812536?v=4'
-contributions = 79
+contributions = 82
 repos = 1
 
 [whiztech]
