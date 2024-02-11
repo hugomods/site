@@ -61,7 +61,7 @@
 - name: index_all_pages
   type: boolean
   desc: When `true`, all pages except `noindex` pages will be indexed, include non-regular pages, such as home and taxonomy lists.
-  default: true
+  default: false
 
 - name: expand_results_meta
   type: boolean
