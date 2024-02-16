@@ -1,6 +1,6 @@
 title: HugoMods
 copyright: Copyright © 2022-2023 [HugoMods](https://hugomods.com). All Rights Reserved.
-baseURL: https://hugomods.com/
+baseURL: /
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 enableRobotsTXT: true
