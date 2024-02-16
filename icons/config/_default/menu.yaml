@@ -1,7 +1,7 @@
 main:
   - name: Docs
     identifier: docs
-    url: https://hugomods.com/en/docs/
+    url: /en/docs/
     weight: 9
     params:
       icon:
@@ -11,7 +11,7 @@ main:
   - name: Bootstrap
     parent: docs
     weight: 1
-    url: https://hugomods.com/en/bootstrap/
+    url: /en/bootstrap/
     params:
       description: Some useful shortcodes for Bootstrap.
       icon:
@@ -22,7 +22,7 @@ main:
   - name: Docker
     parent: docs
     weight: 2
-    url: https://hugomods.com/en/docs/docker/
+    url: /en/docs/docker/
     params:
       description: The minial, automated and up-to-date Hugo Docker images.
       icon:
@@ -33,7 +33,7 @@ main:
   - name: HugoPress
     parent: docs
     weight: 3
-    url: https://hugomods.com/en/docs/hugopress/
+    url: /en/docs/hugopress/
     params:
       description: The hook system for Hugo modules and themes.
       icon:
@@ -44,7 +44,7 @@ main:
   - name: Images
     parent: docs
     weight: 4
-    url: https://hugomods.com/en/docs/images/
+    url: /en/docs/images/
     params:
       description: Processing images via URL query string and fragment, friendly to Markdown.
       icon:
@@ -55,7 +55,7 @@ main:
   - name: PWA
     parent: docs
     weight: 5
-    url: https://hugomods.com/en/docs/pwa/
+    url: /en/docs/pwa/
     params:
       description: Service worker that allow precaching assets, make sites installable and offline available.
       icon:
@@ -66,7 +66,7 @@ main:
   - name: Search
     parent: docs
     weight: 6
-    url: https://hugomods.com/en/docs/search/
+    url: /en/docs/search/
     params:
       description: Powerful, flexible and responsive client-side fuzzy search module.
       icon:
@@ -77,7 +77,7 @@ main:
   - name: Blog
     identifier: blog
     weight: 10
-    url: https://hugomods.com/en/posts/
+    url: /en/posts/
     params:
       icon:
         name: blog
@@ -86,7 +86,7 @@ main:
   - name: Archives
     parent: blog
     weight: 1
-    url: https://hugomods.com/en/archives/
+    url: /en/archives/
     params:
       description: Posts archive.
       icon:
@@ -96,7 +96,7 @@ main:
   - name: Authors
     parent: blog
     weight: 2
-    url: https://hugomods.com/en/authors/
+    url: /en/authors/
     params:
       description: Authors list.
       icon:
@@ -107,7 +107,7 @@ main:
   - name: Categories
     parent: blog
     weight: 3
-    url: https://hugomods.com/en/categories/
+    url: /en/categories/
     params:
       description: All of the categories.
       icon:
@@ -118,7 +118,7 @@ main:
   - name: Series
     parent: blog
     weight: 4
-    url: https://hugomods.com/en/series/
+    url: /en/series/
     params:
       description: All of the series.
       icon:
@@ -128,7 +128,7 @@ main:
   - name: Tags
     parent: blog
     weight: 5
-    url: https://hugomods.com/en/tags/
+    url: /en/tags/
     params:
       description: All of the tags.
       icon:
