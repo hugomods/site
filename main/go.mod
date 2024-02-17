@@ -86,14 +86,14 @@ require (
 	github.com/hugomods/icons/vendors/bootstrap v0.5.4 // indirect
 	github.com/hugomods/icons/vendors/feather v0.2.2 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.2 // indirect
-	github.com/hugomods/icons/vendors/lucide v0.3.34 // indirect
+	github.com/hugomods/icons/vendors/lucide v0.3.35 // indirect
 	github.com/hugomods/icons/vendors/mdi v0.3.3 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.29 // indirect
 	github.com/hugomods/icons/vendors/tabler v0.15.25 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.9.0 // indirect
 	github.com/hugomods/katex v0.3.0 // indirect
-	github.com/hugomods/lucide-icons v0.322.0 // indirect
+	github.com/hugomods/lucide-icons v0.331.0 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
 	github.com/hugomods/microsoft-clarity v0.1.0 // indirect
 	github.com/hugomods/pwa v0.7.0 // indirect
