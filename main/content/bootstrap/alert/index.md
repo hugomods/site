@@ -129,8 +129,6 @@ A simple dark alert—check it out!
 
 ## Alert with Markdown Content
 
-We could achieve this by combining the `bs/alert` and `markdownify` shortcodes.
-
 ```markdown
 {{%/* bs/alert style=primary */%}}
 A simple *primary alert* with Markdown—**check it out**!
