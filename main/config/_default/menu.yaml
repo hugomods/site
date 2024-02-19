@@ -2,7 +2,7 @@ main:
   - name: Icons
     identifier: icons
     weight: 10
-    url: https://icons.hugomods.com/
+    url: https://g0fcn.netlify.app/
     params:
       icon:
         name: icons

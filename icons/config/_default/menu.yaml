@@ -137,7 +137,7 @@ main:
         color: 'green'
 
   - name: HB Framework
-    url: https://hb.hugomods.com/
+    url: https://hb.hugo.g0f.cn/
     params:
       icon:
         name: hugo

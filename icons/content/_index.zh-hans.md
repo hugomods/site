@@ -18,7 +18,7 @@ menu:
     <p class="lead">{{< param description >}}</p>
     <p class="lead mb-4">无 JS、无 CSS、无字体、按需加载。</p>
     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-      <a role="button" class="btn btn-primary btn-lg px-4 py-3 me-sm-3" href="https://hugomods.com/en/docs/icons">
+      <a role="button" class="btn btn-primary btn-lg px-4 py-3 me-sm-3" href="https://hugo.g0f.cn/en/docs/icons">
         {{< icons/icon vendor=bootstrap name=book className="me-1" >}}
         Read the docs
       </a>
@@ -36,43 +36,43 @@ menu:
   <div class="col d-flex flex-column align-items-center mb-5">
     <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=bootstrap name=bootstrap width=3em height=3em >}}</div>
     <div>
-      <a href="https://hugomods.com/en/docs/icons#icons-vendors">Bootstrap Icons</a>
+      <a href="https://hugo.g0f.cn/en/docs/icons#icons-vendors">Bootstrap Icons</a>
     </div>
   </div>
   <div class="col d-flex flex-column align-items-center mb-5">
     <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=feather name=feather width=3em height=3em >}}</div>
     <div>
-      <a href="https://hugomods.com/en/docs/icons#icons-vendors">Feather Icons</a>
+      <a href="https://hugo.g0f.cn/en/docs/icons#icons-vendors">Feather Icons</a>
     </div>
   </div>
   <div class="col d-flex flex-column align-items-center mb-5">
     <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=simple-icons name=fontawesome width=3em height=3em >}}</div>
     <div>
-      <a href="https://hugomods.com/en/docs/icons#icons-vendors">Font Awesome Icons</a>
+      <a href="https://hugo.g0f.cn/en/docs/icons#icons-vendors">Font Awesome Icons</a>
     </div>
   </div>
   <div class="col d-flex flex-column align-items-center mb-5">
     <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=lucide name=feather width=3em height=3em >}}</div>
     <div>
-      <a href="https://hugomods.com/en/docs/icons#icons-vendors">Lucide Icons</a>
+      <a href="https://hugo.g0f.cn/en/docs/icons#icons-vendors">Lucide Icons</a>
     </div>
   </div>
   <div class="col d-flex flex-column align-items-center mb-5">
     <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=simple-icons name=materialdesignicons width=3em height=3em >}}</div>
     <div>
-      <a href="https://hugomods.com/en/docs/icons#icons-vendors">Material Design Icons</a>
+      <a href="https://hugo.g0f.cn/en/docs/icons#icons-vendors">Material Design Icons</a>
     </div>
   </div>
   <div class="col d-flex flex-column align-items-center mb-5">
     <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=simple-icons name=simpleicons width=3em height=3em >}}</div>
     <div>
-      <a href="https://hugomods.com/en/docs/icons#icons-vendors">Simple Icons</a>
+      <a href="https://hugo.g0f.cn/en/docs/icons#icons-vendors">Simple Icons</a>
     </div>
   </div>
   <div class="col d-flex flex-column align-items-center mb-5">
     <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=tabler name=brand-tabler width=3em height=3em >}}</div>
     <div>
-      <a href="https://hugomods.com/en/docs/icons#icons-vendors">Tabler Icons</a>
+      <a href="https://hugo.g0f.cn/en/docs/icons#icons-vendors">Tabler Icons</a>
     </div>
   </div>
 </div>

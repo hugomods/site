@@ -6,5 +6,5 @@ socials:
   github: razonyang
   paypal: razonyang
   kofi: razonyang
-  gmail: mailto:support@hugomods.com
+  gmail: mailto:support@hugo.g0f.cn
 ---

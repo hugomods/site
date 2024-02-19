@@ -1,7 +1,7 @@
 description: third party Hugo modules and tools for building fast, modular, modern themes and static websites.
 
 encrypt:
-  password: hugomods.com
+  password: hugo.g0f.cn
 
 bootstrap:
   config_toggle:

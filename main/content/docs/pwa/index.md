@@ -44,7 +44,7 @@ PWAs ([Progressive web apps](https://developer.mozilla.org/en-US/docs/Web/Progre
 - Precaching: allow precaching pages, CSS, JS, fonts and so on.
 - Cache Strategies[^1]: supports cache first, network first and stale while revalidate.
 
-You may still be a bit confused about the features, the following video will show what the module can bring to your sites. You can also give it a shot on our [website](https://hugomods.com) or the [demo site](https://hugomods.github.io/pwa).
+You may still be a bit confused about the features, the following video will show what the module can bring to your sites. You can also give it a shot on our [website](https://hugo.g0f.cn) or the [demo site](https://hugomods.github.io/pwa).
 
 {{< youtube gvMkLiNlnl8 >}}
 

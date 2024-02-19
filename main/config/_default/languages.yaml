@@ -1,9 +1,9 @@
 en:
   weight: 1
   languageName: English
-  baseURL: https://hugomods.com/
+  baseURL: https://hugo.g0f.cn/
 
 zh-hans:
   weight: 2
   languageName: 简体中文
-  baseURL: https://zh-hans.hugomods.com/
+  baseURL: https://hugos.g0f.cn/
