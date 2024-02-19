@@ -171,6 +171,7 @@ github.com/hugomods/icons v0.6.2/go.mod h1:cIkSvK6W0q6N4U6n9KGz+QfRWQXAW0INd+1P3
 github.com/hugomods/icons/vendors/bootstrap v0.5.3 h1:3twbdiKpeCudV0UFNBZqUgBLIjG5qcv4lvvlALgR5ro=
 github.com/hugomods/icons/vendors/bootstrap v0.5.3/go.mod h1:SuPcqO3u8gN4epmf+2L1G8pg6X3nXj2D6FYRWd+OIrw=
 github.com/hugomods/icons/vendors/bootstrap v0.5.4/go.mod h1:DtuYP+dG9Sttfsggd9k09h/hapZBsel6JJ1vNetkaCg=
+github.com/hugomods/icons/vendors/bootstrap v0.5.5/go.mod h1:DtuYP+dG9Sttfsggd9k09h/hapZBsel6JJ1vNetkaCg=
 github.com/hugomods/icons/vendors/feather v0.2.1 h1:K4/QWcjBJM6X4CDVL3HkUQyecKV8liLMUUEZplnwEiw=
 github.com/hugomods/icons/vendors/feather v0.2.1/go.mod h1:rJI9XA0BjqQPTQuJP0ciO0Dagl23W+t9sSbKO6NBXng=
 github.com/hugomods/icons/vendors/feather v0.2.2/go.mod h1:IcL/m3HC3N8IQFjCfDi+I8yFVgT4FH+PgaNAipzjM3I=
