@@ -36,7 +36,7 @@ HEADING
 
 ## Parameters
 
-{{% shortcode-params "data/params.en.toml" %}}
+{{% shortcode-params "data/params.toml" %}}
 
 ## Examples
 

@@ -1,23 +1,30 @@
-{{- $params := .Get 0 | .Page.Resources.GetMatch | transform.Unmarshal }}
-{{- $params = sort $params "name" }}
-{{- $sortedParams := sort (where $params "position" ">=" 0) "position" }}
-{{- $params = $sortedParams | append $params | uniq }}
-{{- range $params }}
-{{- $name := .name }}
-{{- $type := default "string" .type }}
-{{- $required := default false .required }}
-{{- $position := default "" }}
-{{- if isset . "position" }}{{ $position = printf "%d" .position }}{{ end }}
-### `{{ $name }}`
-
-| Position | Name | Type | Default | Required |
-| :------: | :--: | :--: | :-----: | :------: |
-| {{ with $position }}`#{{ . }}`{{ else }}-{{ end }} | `{{ $name }}` | `{{ $type }}` | {{ if isset . "default" }}`{{ .default }}`{{ else }}-{{ end }} | {{ cond $required "Y" "-"}} |
-
-{{ .desc }}
-
-{{- with .options }}
-#### `{{ $name }}` options
-`{{ delimit . "`, `" }}`
+{{- $params := .Get 0 | .Page.Resources.GetMatch }}
+{{- with $params }}
+  {{ $params = transform.Unmarshal $params }}
+{{- else }}
+  {{- .Get 0 | warnf "params not found: %s" }}
 {{- end }}
+{{- if $params }}
+  {{- $params = sort $params "name" }}
+  {{- $sortedParams := sort (where $params "position" ">=" 0) "position" }}
+  {{- $params = $sortedParams | append $params | uniq }}
+  {{- range $params }}
+  {{- $name := .name }}
+  {{- $type := default "string" .type }}
+  {{- $required := default false .required }}
+  {{- $position := default "" }}
+  {{- if isset . "position" }}{{ $position = printf "%d" .position }}{{ end }}
+  ### `{{ $name }}`
+
+  | Position | Name | Type | Default | Required |
+  | :------: | :--: | :--: | :-----: | :------: |
+  | {{ with $position }}`#{{ . }}`{{ else }}-{{ end }} | `{{ $name }}` | `{{ $type }}` | {{ if isset . "default" }}`{{ .default }}`{{ else }}-{{ end }} | {{ cond $required "Y" "-"}} |
+
+  {{ .desc }}
+
+  {{- with .options }}
+  #### `{{ $name }}` options
+  `{{ delimit . "`, `" }}`
+  {{- end }}
+  {{- end }}
 {{- end }}

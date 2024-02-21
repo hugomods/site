@@ -49,7 +49,7 @@ Recommended for plain button text.
 
 ## Parameters
 
-{{% shortcode-params "data/params.en.toml" %}}
+{{% shortcode-params "data/params.toml" %}}
 
 ## Examples
 

@@ -31,7 +31,7 @@ images:
 
 ## Parameters
 
-{{% shortcode-params "data/params.en.yaml" %}}
+{{% shortcode-params "data/params.yaml" %}}
 
 ## Data Item Properties
 
