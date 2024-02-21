@@ -44,7 +44,7 @@ require (
 	github.com/hbstack/footer/modules/socials v0.2.5 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
-	github.com/hbstack/hb v0.11.0 // indirect
+	github.com/hbstack/hb v0.11.1 // indirect
 	github.com/hbstack/header v0.14.0 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.24 // indirect
 	github.com/hbstack/header/modules/news v0.2.2 // indirect
@@ -112,6 +112,6 @@ require (
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.5.2 // indirect
 	github.com/tabler/tabler-icons v2.47.0+incompatible // indirect
-	github.com/twbs/bootstrap v5.3.2+incompatible // indirect
+	github.com/twbs/bootstrap v5.3.3+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )
