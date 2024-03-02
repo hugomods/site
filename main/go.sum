@@ -71,6 +71,7 @@ github.com/hbstack/featured-image v0.2.1 h1:sRIzjV6YPVG7Ah0Hxjiuxd9bQnEV+62McOgX
 github.com/hbstack/featured-image v0.2.1/go.mod h1:hux3nYqQUVnQHPttJxVrvwfTsULGuVGRGFk3lO2Si54=
 github.com/hbstack/footer v0.3.0 h1:V0gz8UGRi8Bo2eltfd34BQTRS3xBNaJw8rw2GyAzCGA=
 github.com/hbstack/footer v0.3.0/go.mod h1:mYITqQNk4PJWxPciS4/r0bRuB3cDDOXZ3dGwIHuYTME=
+github.com/hbstack/footer v0.4.0/go.mod h1:5eB1ETT2WO5pNHObzRpFdwzrcQnHDGoBUOi+gtX/fa4=
 github.com/hbstack/footer/modules/socials v0.2.5 h1:VmIBdRc8+ujwOjurcltNW0yU7rX2CzectEtmhgy9I6Y=
 github.com/hbstack/footer/modules/socials v0.2.5/go.mod h1:bggKfxJiylFYCG3AP3cKkhNBNtQrYnZzU9S5UBJ3gu8=
 github.com/hbstack/giscus v0.1.1 h1:jKbA17XjAcbD59QIDUVoFOdbi9P2WzQMtOcIpG/Znuo=
