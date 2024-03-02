@@ -1,0 +1,3 @@
+imports:
+  - path: github.com/hbstack/header/modules/apps
+  - path: github.com/hugomods/site/common

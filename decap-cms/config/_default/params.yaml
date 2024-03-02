@@ -1,0 +1,22 @@
+hb:
+  header:
+    logo: false
+    brand: Decap CMS
+    git_repo:
+      service: github
+      owner: hugomods
+      name: decap-cms
+  blog:
+    sidebar:
+      profile:
+        company: "[HugoMods](https://github.com/hugomods)"
+        location: Internet
+        socials:
+          github: hugomods
+          githubsponsors: https://github.com/sponsors/razonyang
+          mastodon: https://techhub.social/@hugomods
+          paypal: razonyang
+          rss: true
+  content_panel:
+    repo:
+      subpath: main

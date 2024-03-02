@@ -1,3 +1,8 @@
+copyright: Copyright © 2022-2023 [HugoMods](https://hugomods.com). All Rights Reserved.
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+enableRobotsTXT: true
+
 build:
   writeStats: true
 
@@ -19,3 +24,10 @@ markup:
     noClasses: false
     lineNos: true
     lineNumbersInTable: false
+
+security:
+  funcs:
+    getenv:
+      - '^HUGO_'
+      - '^CI$'
+      - '^GITHUB_TOKEN$'

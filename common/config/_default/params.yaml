@@ -24,6 +24,11 @@ hb:
   announcement_bar:
     interval: 2500
   header:
+    main_brand:
+      url: https://hugomods.com/
+      title: HugoMods
+      hide_title: true
+      logo: images/logo-text.png
     news:
       icon_name: megaphone-fill
       sections:
@@ -37,6 +42,8 @@ hb:
       paypal: razonyang
       rss: true
   footer:
+    site_title: HugoMods
+    site_description: third party Hugo modules and tools for building fast, modular, modern themes and static websites.
     socials:
       github: hugomods
       githubsponsors: https://github.com/sponsors/razonyang
@@ -68,7 +75,7 @@ pwa:
 
 hugopress:
   modules:
-    custom:
+    hb-custom:
       hooks:
         hb-docs-doc-content-begin:
           cacheable: true

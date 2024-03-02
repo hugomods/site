@@ -1,0 +1,244 @@
+main:
+  - name: Projects
+    identifier: projects
+    weight: 10
+    params:
+      description:
+      icon:
+        vendor: bs
+        name: boxes
+  
+  - name: HB Framework
+    parent: projects
+    weight: 1
+    url: https://hbstack.dev/
+    params:
+      description: Hugo Bootstrap framework for building modular themes and websites. 
+      icon:
+        vendor: bs
+        name: bootstrap
+  
+  - name: Search
+    parent: projects
+    weight: 2
+    url: https://search.hugomods.com/
+    params:
+      description: Powerful, flexible and feature-rich fuzzy search module.
+      icon:
+        vendor: bs
+        name: search
+  
+  - name: Images
+    parent: projects
+    weight: 3
+    url: https://images.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: images
+  
+  - name: Decap CMS
+    parent: projects
+    weight: 4
+    url: https://decap-cms.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: gear-wide-connected
+  
+  - name: PWA
+    parent: projects
+    weight: 5
+    url: https://pwa.hugomods.com/
+    params:
+      description:
+      icon:
+        vendor: bs
+        name: rocket
+  
+  - name: HugoPress
+    parent: projects
+    weight: 6
+    url: https://hugopress.hugomods.com/
+    params:
+      description:
+      icon:
+        vendor: bs
+        name: plugin
+  
+  - name: Bootstrap
+    parent: projects
+    weight: 7
+    url: https://bootstrap.hugomods.com/
+    params:
+      description: Bootstrap shortcodes.
+      icon:
+        vendor: bs
+        name: bootstrap
+  
+  - name: Shortcodes
+    parent: projects
+    weight: 8
+    url: https://shortcodes.hugomods.com/
+    params:
+      description: Extended Hugo shortcodes.
+      icon:
+        vendor: bs
+        name: code-square
+  
+  - name: Icons
+    parent: projects
+    weight: 9
+    url: https://icons.hugomods.com/
+    params:
+      icon:
+        vendor: fas
+        name: icons
+  
+  - name: SEO
+    parent: projects
+    weight: 10
+    url: https://seo.hugomods.com/
+    params:
+      icon:
+        vendor: tabler
+        name: seo
+
+  - name: Community
+    weight: 11
+    identifier: community
+    params:
+      icon:
+        name: headset
+  
+  - name: GitHub
+    parent: community
+    url: https://github.com/hugomods
+    weight: 1
+    params:
+      description: GitHub Organization
+      icon:
+        vendor: simple
+        name: github
+  
+  - name: Discussions
+    parent: community
+    weight: 2
+    url: https://github.com/orgs/hugomods/discussions
+    params:
+      description: Ask questions, share ideas or report issues and bugs.
+      icon:
+        vendor: bs
+        name: chat-dots
+  
+  - name: Blog
+    parent: community
+    url: https://blog.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: card-heading
+  
+  - name: News
+    parent: community
+    url: https://news.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: newspaper
+
+apps:
+  - name: Home
+    weight: 1
+    url: https://hugomods.com/
+    params:
+      description:
+      icon:
+        vendor: bs
+        name: house
+  
+  - name: HB Framework
+    weight: 2
+    url: https://hbstack.dev/
+    params:
+      description: Hugo Bootstrap framework for building modular themes and websites. 
+      # icon:
+      #   vendor: bs
+      #   name: bootstrap
+  
+  - name: Search
+    weight: 3
+    url: https://search.hugomods.com/
+    params:
+      description:
+      icon:
+        vendor: bs
+        name: search
+  
+  - name: Images
+    weight: 4
+    url: https://images.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: images
+  
+  - name: Decap CMS
+    weight: 5
+    url: https://decap-cms.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: gear-wide-connected
+  
+  - name: PWA
+    weight: 6
+    url: https://pwa.hugomods.com/
+    params:
+      description:
+      icon:
+        vendor: bs
+        name: rocket
+  
+  - name: HugoPress
+    weight: 7
+    url: https://hugopress.hugomods.com/
+    params:
+      description:
+      icon:
+        vendor: bs
+        name: plugin
+  
+  - name: Bootstrap
+    weight: 8
+    url: https://bootstrap.hugomods.com/
+    params:
+      description: Bootstrap shortcodes.
+      icon:
+        vendor: bs
+        name: bootstrap
+  
+  - name: Shortcodes
+    weight: 9
+    url: https://shortcodes.hugomods.com/
+    params:
+      description: Extended Hugo shortcodes.
+      icon:
+        vendor: bs
+        name: code-square
+  
+  - name: Icons
+    weight: 10
+    url: https://icons.hugomods.com/
+    params:
+      icon:
+        vendor: fas
+        name: icons
+  
+  - name: SEO
+    weight: 11
+    url: https://seo.hugomods.com/
+    params:
+      icon:
+        vendor: tabler
+        name: seo
