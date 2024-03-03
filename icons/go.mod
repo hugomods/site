@@ -72,7 +72,7 @@ require (
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
 	github.com/hugomods/decap-cms v0.14.0 // indirect
 	github.com/hugomods/encrypt v0.2.0 // indirect
-	github.com/hugomods/font-awesome v6.4.2+incompatible // indirect
+	github.com/hugomods/font-awesome v6.5.1+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.1 // indirect
 	github.com/hugomods/google-adsense v0.1.0 // indirect
@@ -83,7 +83,7 @@ require (
 	github.com/hugomods/icons v0.6.2 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.5 // indirect
 	github.com/hugomods/icons/vendors/feather v0.2.2 // indirect
-	github.com/hugomods/icons/vendors/font-awesome v0.6.3 // indirect
+	github.com/hugomods/icons/vendors/font-awesome v0.6.4 // indirect
 	github.com/hugomods/icons/vendors/lucide v0.3.36 // indirect
 	github.com/hugomods/icons/vendors/mdi v0.3.4 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.31 // indirect

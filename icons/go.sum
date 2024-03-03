@@ -295,6 +295,7 @@ github.com/hugomods/encrypt v0.2.0 h1:mlwrKPahAcotlYSSso5GZQgLoMeHNPwIAdxD0m/459
 github.com/hugomods/encrypt v0.2.0/go.mod h1:5oezB6nFUpiCPmLRBP9mvqCUqa+4NNEyCVifTDCTv4U=
 github.com/hugomods/font-awesome v6.4.2+incompatible h1:oTdZYvNEXRuocAaGTa8f6ZET9e+cjD8JXpZRG7dx8Qw=
 github.com/hugomods/font-awesome v6.4.2+incompatible/go.mod h1:C2wW6xDvHkcMlJMVTPQ+Npt+rO0OGv13xT1iyll2z2Q=
+github.com/hugomods/font-awesome v6.5.1+incompatible/go.mod h1:C2wW6xDvHkcMlJMVTPQ+Npt+rO0OGv13xT1iyll2z2Q=
 github.com/hugomods/fuse-js v0.1.0 h1:CmWHBZANvjOP44RDNQNLntqlLf9GLqeM29jekxTNcPE=
 github.com/hugomods/fuse-js v0.1.0/go.mod h1:srCqvtBQR02HS/abTraDU4oINv1D3PljNPdexdoHhpo=
 github.com/hugomods/giscus v0.1.1 h1:Kb8137Cp2nQJPFb6e+CdXy8nyIAJ2dFIymG4bDdaXWI=
@@ -327,6 +328,7 @@ github.com/hugomods/icons/vendors/font-awesome v0.6.1 h1:MyYF67fPthN4EDkT/IwY0yd
 github.com/hugomods/icons/vendors/font-awesome v0.6.1/go.mod h1:kmMci4qX8yTQPT28sskzKRudJiQAAiZZugjNbkakRhk=
 github.com/hugomods/icons/vendors/font-awesome v0.6.2/go.mod h1:S7BE6/wpDplzG9uTnZqG6Q7ruMFi8MN1R+DqE8gNc3Y=
 github.com/hugomods/icons/vendors/font-awesome v0.6.3/go.mod h1:S7BE6/wpDplzG9uTnZqG6Q7ruMFi8MN1R+DqE8gNc3Y=
+github.com/hugomods/icons/vendors/font-awesome v0.6.4/go.mod h1:IgzWg991046eqnwM3e+kCnMEQASnIdA7MvBXMY+s/W4=
 github.com/hugomods/icons/vendors/lucide v0.3.21 h1:8xUYXDAjYWMzJKkPBvg3iaIb4SAX1tpvqaQ1Al2nhYg=
 github.com/hugomods/icons/vendors/lucide v0.3.21/go.mod h1:71zXoYm1M3XA+dD0fxIGgpsyK5FJKdPsSIyHzMFYXog=
 github.com/hugomods/icons/vendors/lucide v0.3.22 h1:KFFTNv8ubg9dS2ZBWfALlxtojx7+C3eRST2yFcNmPeY=
