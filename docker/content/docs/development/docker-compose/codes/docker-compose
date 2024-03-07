@@ -1,0 +1,15 @@
+{{% bs/collapse heading="docker-compose.yml" expand=true %}}
+```yml
+name: my-site
+
+services:
+  server:
+    image: hugomods/hugo:exts
+    command: hugo server --bind 0.0.0.0
+    volumes:
+      - $PWD:/src
+      - $HOME/hugo_cache:/tmp/hugo_cache
+    ports:
+      - 1313:1313
+```
+{{% /bs/collapse %}}

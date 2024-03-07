@@ -1,0 +1,9 @@
+description: 来自 HugoMods 的教程、新闻和发布，帮助开发人员构建和设计 Hugo 主题和静态网站。
+
+hb:
+  header:
+    brand: 博客
+  blog:
+    sidebar:
+      profile:
+        description: 用于构建快速、模块化和现代化的主题和静态网站的第三方 Hugo 模块和工具。

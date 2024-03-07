@@ -1,0 +1,7 @@
+```go-html-template
+{{ $ctx := dict
+  "vendor" "bootstrap"
+  "name" "house"
+}}
+{{ partial "icons/icon" $ctx }}
+```

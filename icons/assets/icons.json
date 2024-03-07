@@ -1,13 +1,55 @@
+{{- $vendors := dict -}}
+{{- range hugo.Deps -}}
+  {{- $prefix := "github.com/hugomods/icons/vendors/" -}}
+  {{- $version := replaceRE `([v\d\.]+).*` "$1" .Version -}}
+  {{- if eq .Path "github.com/twbs/icons" -}}
+    {{- $vendors = merge $vendors (dict
+      "bootstrap" (dict "url" (printf "https://raw.githubusercontent.com/twbs/icons/%s/icons/%%s.svg" $version)))
+    -}}
+  {{- else if eq .Path "github.com/feathericons/feather" -}}
+    {{- $vendors = merge $vendors (dict
+      "feather" (dict "url" (printf "https://raw.githubusercontent.com/feathericons/feather/%s/icons/%%s.svg" $version)))
+    -}}
+  {{- else if eq .Path "github.com/hugomods/font-awesome" -}}
+    {{- $vendors = merge $vendors (dict
+      "font-awesome-brands" (dict "url" (printf "https://raw.githubusercontent.com/hugomods/font-awesome/%s/svgs/brands/%%s.svg" $version))
+      "font-awesome-regular" (dict "url" (printf "https://raw.githubusercontent.com/hugomods/font-awesome/%s/svgs/regular/%%s.svg" $version))
+      "font-awesome-solid" (dict "url" (printf "https://raw.githubusercontent.com/hugomods/font-awesome/%s/svgs/solid/%%s.svg" $version)))
+    -}}
+  {{- else if eq .Path "github.com/hugomods/lucide-icons" -}}
+    {{- $vendors = merge $vendors (dict
+      "lucide" (dict "url" (printf "https://raw.githubusercontent.com/hugomods/lucide-icons/%s/icons/%%s.svg" $version)))
+    -}}
+  {{- else if eq .Path "github.com/Templarian/MaterialDesign-SVG" -}}
+    {{- $vendors = merge $vendors (dict
+      "mdi" (dict "url" (printf "https://raw.githubusercontent.com/Templarian/MaterialDesign-SVG/%s/svg/%%s.svg" $version)))
+    -}}
+  {{- else if eq .Path "github.com/hugomods/simple-icons" -}}
+    {{- $vendors = merge $vendors (dict
+      "simple-icons" (dict "url" (printf "https://raw.githubusercontent.com/hugomods/simple-icons/%s/icons/%%s.svg" $version)))
+    -}}
+  {{- else if eq .Path "github.com/tabler/tabler-icons" -}}
+    {{- $vendors = merge $vendors (dict
+      "tabler" (dict "url" (printf "https://raw.githubusercontent.com/tabler/tabler-icons/%s/icons/%%s.svg" $version)))
+    -}}
+  {{- end -}}
+{{- end -}}
 {{- $icons := slice -}}
 {{- range sort (resources.Match "icons/**/*.svg") "Name" -}}
   {{- $match := findRESubmatch `icons/(.+)/(.+)\.svg` .Name -}}
   {{- $info := index $match 0 -}}
-  {{- $vendor := index $info 1 }}
-  {{- $name := index $info 2 }}
+  {{- $vendor := index $info 1 -}}
+  {{- $name := index $info 2 -}}
+  {{- $url := "" -}}
+  {{- with index $vendors $vendor -}}
+    {{- $url = printf .url $name -}}
+  {{- else -}}
+    {{- $url = .RelPermalink -}}
+  {{- end -}}
   {{- $icons = $icons | append (dict
     "vendor" $vendor
     "name" $name
-    "url" .RelPermalink)
+    "url" $url)
   -}}
 {{- end -}}
 {{- $icons | jsonify -}}

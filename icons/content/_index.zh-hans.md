@@ -1,78 +1,59 @@
 ---
 title: Hugo 图标模块
-layout: icons
-description: 可生成内联 SVG 图标的 Hugo 模块。
-menu:
-  main:
-    name: 图标
-    weight: 10
-    params:
-      icon:
-        name: icons
-        vendor: fas
+layout: landing
+description: 轻量级、灵活的 Hugo SVG 图标模块，支持 Bootstrap 图标、Font Awesome 图标、Material Design 图标、Simple 图标、Tabler 图标、Feather 图标、Lucide 图标等流行图标供应商。
+full_width: true
 ---
 
-<div class="px-4 pt-5 my-5 text-center border-bottom">
-  <h1 class="display-4 fw-bold mb-4">{{< param title >}}</h1>
-  <div class="col-lg-6 mx-auto">
-    <p class="lead">{{< param description >}}</p>
-    <p class="lead mb-4">无 JS、无 CSS、无字体、按需加载。</p>
-    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-      <a role="button" class="btn btn-primary btn-lg px-4 py-3 me-sm-3" href="https://hugomods.com/en/docs/icons">
-        {{< icons/icon vendor=bootstrap name=book className="me-1" >}}
-        Read the docs
-      </a>
-      <a role="button" class="btn btn-outline-success btn-lg px-4 py-3" href="#icons-panel">
-        {{< icons/icon vendor=bootstrap name=book className="me-1" >}}
-        Search icons
-      </a>
-    </div>
-  </div>
-</div>
+{{< bs/container breakpoint=fluid class="mb-5 py-2 py-lg-5 text-white" bg="images/textures/darkblue.jpg" >}}
 
-<h2 class="text-center mb-5">Vendors</h2>
+{{< bs/row class="py-2 py-lg-5" >}}
 
-<div class="row row-cols-2 row-cols-lg-4 mb-4">
-  <div class="col d-flex flex-column align-items-center mb-5">
-    <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=bootstrap name=bootstrap width=3em height=3em >}}</div>
-    <div>
-      <a href="https://hugomods.com/en/docs/icons#icons-vendors">Bootstrap Icons</a>
-    </div>
-  </div>
-  <div class="col d-flex flex-column align-items-center mb-5">
-    <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=feather name=feather width=3em height=3em >}}</div>
-    <div>
-      <a href="https://hugomods.com/en/docs/icons#icons-vendors">Feather Icons</a>
-    </div>
-  </div>
-  <div class="col d-flex flex-column align-items-center mb-5">
-    <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=simple-icons name=fontawesome width=3em height=3em >}}</div>
-    <div>
-      <a href="https://hugomods.com/en/docs/icons#icons-vendors">Font Awesome Icons</a>
-    </div>
-  </div>
-  <div class="col d-flex flex-column align-items-center mb-5">
-    <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=lucide name=feather width=3em height=3em >}}</div>
-    <div>
-      <a href="https://hugomods.com/en/docs/icons#icons-vendors">Lucide Icons</a>
-    </div>
-  </div>
-  <div class="col d-flex flex-column align-items-center mb-5">
-    <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=simple-icons name=materialdesignicons width=3em height=3em >}}</div>
-    <div>
-      <a href="https://hugomods.com/en/docs/icons#icons-vendors">Material Design Icons</a>
-    </div>
-  </div>
-  <div class="col d-flex flex-column align-items-center mb-5">
-    <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=simple-icons name=simpleicons width=3em height=3em >}}</div>
-    <div>
-      <a href="https://hugomods.com/en/docs/icons#icons-vendors">Simple Icons</a>
-    </div>
-  </div>
-  <div class="col d-flex flex-column align-items-center mb-5">
-    <div class="p-4 py-5 bg-body-tertiary mb-3 w-100 text-center">{{< icons/icon vendor=tabler name=brand-tabler width=3em height=3em >}}</div>
-    <div>
-      <a href="https://hugomods.com/en/docs/icons#icons-vendors">Tabler Icons</a>
-    </div>
-  </div>
-</div>
+{{< bs/col size="12 lg:8" offset="lg:2" class="mb-3" >}}
+
+{{< bs/display level=4 class="fw-bold mb-4" >}}{{< param title >}}{{< /bs/display >}}
+
+{{< bs/lead class="mb-4" >}}{{< param description >}}{{< /bs/lead >}}
+
+{{% bs/col class="mb-4" %}}
+
+- **轻量级** {{< icons/icon vendor=bootstrap name=check-circle className=text-success >}}
+{data-bs-toggle="tooltip" data-bs-title="按需加载，只发布使用过的图标。" data-bs-placement="left" .mb-1}
+- **JavaScript** {{< icons/icon vendor=bootstrap name=x-circle className=text-danger >}}
+{data-bs-toggle="tooltip" data-bs-title="无需 JavaScript。" data-bs-placement="left" .mb-1}
+- **CSS** {{< icons/icon vendor=bootstrap name=x-circle className=text-danger >}}
+{data-bs-toggle="tooltip" data-bs-title="无需 CSS。" data-bs-placement="left" .mb-1}
+- **字体** {{< icons/icon vendor=bootstrap name=x-circle className=text-danger >}}
+{data-bs-toggle="tooltip" data-bs-title="无需字体。" data-bs-placement="left" .mb-1}
+- **可定制的** {{< icons/icon vendor=bootstrap name=check-circle className=text-success >}}
+{data-bs-toggle="tooltip" data-bs-title="支持自定义图标集。" data-bs-placement="left" .mb-1}
+- **灵活的** {{< icons/icon vendor=bootstrap name=check-circle className=text-success >}}
+{data-bs-toggle="tooltip" data-bs-title="允许设置图标宽高、颜色及 CSS 类名。" data-bs-placement="left" .mb-1}
+
+{{% /bs/col %}}
+
+{{< html/div class="d-grid gap-3 d-sm-flex flex-wrap" >}}
+  {{< bs/btn-link url="docs" size=lg class="p-3" >}}
+    {{< icons/icon vendor=bs name=book className="me-1" size=".8em" >}} 文档
+  {{< /bs/btn-link >}}
+  {{< bs/btn-link url="#vendors" size=lg style=light class="p-3" >}}
+    {{< icons/icon vendor=fas name=icons className="me-1" size=".8em" >}} 供应商
+  {{< /bs/btn-link >}}
+  {{< bs/btn-link url="#search" size=lg style=success class="p-3" >}}
+    {{< icons/icon vendor=bs name=search className="me-1" size=".8em" >}} 搜索
+  {{< /bs/btn-link >}}
+{{< /html/div >}}
+
+{{< /bs/col >}}
+
+{{< /bs/row >}}
+
+{{< /bs/container >}}
+
+## {{< icons/icon vendor=fas name=icons className="me-1" size=".8em" >}} 供应商 {#vendors .py-4 .text-center .mb-5}
+
+{{< vendor-cards >}}
+
+## {{< icons/icon vendor=bs name=search className="me-1" size=".8em" >}} 搜索 {#search .text-center .mb-5}
+
+{{< search >}}

@@ -1,0 +1,91 @@
+name: site-home
+
+on:
+  push:
+    paths:
+      - 'common/**'
+      - 'home/**'
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    name: Publish to Cloudflare Pages
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '16'
+
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        working-directory: home
+        run: npm ci
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+      
+      - name: Setup Hugo Encrypt
+        run: |
+          curl -L -o hugo-encrypt "https://github.com/hugomods/encrypt/releases/download/v0.2.0/hugo-encrypt-linux-64"
+          chmod 755 hugo-encrypt
+
+      - name: Cache Hugo modules
+        uses: actions/cache@v4
+        with:
+          path: /tmp/hugo_cache
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
+
+      - name: Build
+        working-directory: home
+        run: |
+          hugo --minify --gc --enableGitInfo
+          ../hugo-encrypt
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish English Site
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: hugomods
+          directory: ./home/public/en
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish Simplify Chinese Site
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: hugomods-zh-hans
+          directory: ./home/public/zh-hans
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish Traditional Chinese Site
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: hugomods-zh-hant
+          directory: ./home/public/zh-hant
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}

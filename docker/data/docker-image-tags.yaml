@@ -1,0 +1,90 @@
+- name: latest
+  extended: true
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+
+- name: base
+  extended: true
+
+- name: git
+  extended: true
+  git: true
+
+- name: go
+  extended: true
+  go: true
+
+- name: go-git
+  extended: true
+  git: true
+
+- name: node
+  extended: true
+  nodejs: true
+  npm: true
+
+- name: node-lts
+  extended: true
+  nodejs: true
+  npm: true
+
+- name: node-git
+  extended: true
+  nodejs: true
+  npm: true
+  git: true
+
+- name: exts
+  extended: true
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+  dartsass: true
+  postcss: true
+  autoprefixer: true
+  rtlcss: true
+  purgecss: true
+
+- name: reg
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+
+- name: reg-base
+
+- name: reg-git
+  git: true
+
+- name: reg-go
+  go: true
+
+- name: go-git
+  git: true
+
+- name: reg-node
+  nodejs: true
+  npm: true
+
+- name: reg-node-lts
+  nodejs: true
+  npm: true
+
+- name: reg-node-git
+  nodejs: true
+  npm: true
+  git: true
+
+- name: reg-exts
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+  dartsass: true
+  postcss: true
+  autoprefixer: true
+  rtlcss: true
+  purgecss: true

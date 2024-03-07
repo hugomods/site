@@ -1,0 +1,12 @@
+<div class="container mb-5">
+  <div class="row row-cols-2 row-cols-lg-4 g-3">
+    {{- range sort (index site.Data "icons-vendors") "weight" }}
+      <div class="col">
+        <div class="p-4 py-5 d-flex flex-column align-items-center bg-body-tertiary w-100 h-100 text-center rounded">
+          {{ partial "icons/icon" (dict "vendor" .icon_vendor "name" .icon "size" "3em") }}
+          <a href="docs/vendors#{{ .name | anchorize }}" class="mt-4">{{ .name }}</a>
+        </div>
+      </div>
+    {{- end }}
+  </div>
+</div>

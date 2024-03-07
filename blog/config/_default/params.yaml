@@ -1,0 +1,22 @@
+description: Tutorials, news and releases from HugoMods to help developers build and design Hugo themes and static sites.
+
+hb:
+  header:
+    logo: false
+    brand: Blog
+  blog:
+    sidebar:
+      profile:
+        title: HugoMods
+        description: Third party Hugo modules and tools for building fast, modular, modern themes and static websites.
+        company: "[HugoMods](https://hugomods.com/)"
+        location: Internet
+        socials:
+          github: hugomods
+          githubsponsors: https://github.com/sponsors/razonyang
+          mastodon: https://techhub.social/@hugomods
+          paypal: razonyang
+          rss: true
+  content_panel:
+    repo:
+      subpath: blog

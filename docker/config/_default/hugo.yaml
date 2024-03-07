@@ -1,0 +1,79 @@
+enableRobotsTXT: true
+
+outputs:
+  home:
+    - DecapCMSConfig
+    - HTML
+    - Offline
+    - SearchIndex
+    - RSS
+    - WebAppManifest
+
+taxonomies:
+  _merge: shallow
+
+markup:
+  _merge: deep
+
+build:
+  _merge: shallow
+
+menus:
+  _merge: deep
+
+module:
+  imports:
+    - path: github.com/hugomods/site/common
+
+params:
+  description: Minimal, up-to-date Hugo docker images that with multiple variants, such as extended version, Git, Go, Node.js, NPM, Dart Sass and more.
+
+  hb:
+    header:
+      logo: false
+      brand: Docker
+      # git_repo:
+      #   service: github
+      #   owner: hugomods
+      #   name: docker
+    content_panel:
+      repo:
+        subpath: docker
+
+languages:
+  _merge: deep
+
+  en:
+    title: Hugo Docker Images | HugoMods
+    baseURL: https://docker.hugomods.com/
+    params:
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: Third party Hugo modules and tools for building fast, modular, modern themes and static websites.
+
+  zh-hans:
+    title: Hugo Docker 镜像 | HugoMods
+    baseURL: https://zh-hans.docker.hugomods.com/
+    params:
+      description: "极简、最新的 Hugo Docker 镜像，其包含多种变体，如扩展版本、Git、Go、Node.js、NPM、Dart Sass 等。"
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: 用于构建快速、模块化和现代化的主题和静态网站的第三方 Hugo 模块和工具。
+
+  zh-hant:
+    title: Hugo Docker 鏡像 | HugoMods
+    baseURL: https://zh-hant.docker.hugomods.com/
+    params:
+      description: "極簡、最新的 Hugo Docker 鏡像，其包含多種變體，如擴展版本、Git、Go、Node.js、NPM、Dart Sass 等。"
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: 用於構建快速、模塊化和現代化的主題和靜態網站的第三方 Hugo 模塊和工具。
+
+security:
+  _merge: deep
+
+server:
+  _merge: deep

@@ -1,0 +1,12 @@
+{{- $height := "32px" }}
+{{- $items := slice
+  (dict "title" "Stars" "url" "https://github.com/hugomods/docker" "img" "https://flat.badgen.net/github/stars/hugomods/docker")
+  (dict "title" "Docker pulls" "url" "https://hub.docker.com/r/hugomods/hugo" "img" "https://flat.badgen.net/docker/pulls/hugomods/hugo")
+  (dict "title" "Latest tag" "url" "https://hub.docker.com/r/hugomods/hugo/tags" "img" "https://img.shields.io/docker/v/hugomods/hugo/latest?style=flat-square")
+  (dict "title" "Build" "url" "https://github.com/hugomods/docker/actions/workflows/build.yml" "img" "https://img.shields.io/github/actions/workflow/status/hugomods/docker/build.yml?style=flat-square")
+}}
+{{- range $items }}
+  <a target="_blank" rel="external" class="text-decoration-none" href="{{ .url }}" title="{{ .title }}">
+    <img class="mb-1" src="{{ .img }}" height="{{ $height }}" />
+  </a>
+{{- end }}

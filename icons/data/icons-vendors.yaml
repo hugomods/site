@@ -1,0 +1,64 @@
+- name: Bootstrap Icons
+  module_path: bootstrap
+  names:
+    - bootstrap (bs)
+  official_site: https://icons.getbootstrap.com/
+  weight: 1
+  icon: bootstrap
+  icon_vendor: bootstrap
+
+- name: Font Awesome Icons
+  module_path: font-awesome
+  names:
+    - font-awesome-brands (fab)
+    - font-awesome-regular (far)
+    - font-awesome-solid (fas)
+  official_site: https://fontawesome.com/
+  weight: 2
+  icon: fontawesome
+  icon_vendor: simple-icons
+
+- name: Lucide Icons
+  module_path: lucide
+  names:
+    - lucide
+  official_site: https://lucide.dev/
+  weight: 3
+  icon: feather
+  icon_vendor: lucide
+
+- name: Simple Icons
+  module_path: simple-icons
+  names:
+    - simple-icons (simple)
+  official_site: https://simpleicons.org/
+  weight: 4
+  icon: simpleicons
+  icon_vendor: simple-icons
+
+- name: Tabler Icons
+  module_path: tabler
+  names:
+    - tabler
+  official_site: https://tabler.io/icons/
+  weight: 5
+  icon: brand-tabler
+  icon_vendor: tabler
+
+- name: Material Design Icons
+  module_path: mdi
+  names:
+    - mdi
+  official_site: https://materialdesignicons.com/
+  weight: 6
+  icon: materialdesignicons
+  icon_vendor: simple-icons
+
+- name: Feather Icons
+  module_path: feather
+  names:
+    - feather
+  official_site: https://feathericons.com/
+  weight: 7
+  icon: feather
+  icon_vendor: feather

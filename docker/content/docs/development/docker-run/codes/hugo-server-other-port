@@ -1,0 +1,23 @@
+{{< bs/toggle "hugo-server-other-port" >}}
+
+{{% bs/toggle-item "Unix-like" %}}
+```sh
+docker run -p 8080:8080 \
+  -v ${PWD}:/src \
+  -v ${HOME}/hugo_cache:/tmp/hugo_cache \
+  hugomods/hugo:exts \
+  hugo server --bind 0.0.0.0 -p 8080
+```
+{{% /bs/toggle-item %}}
+
+{{% bs/toggle-item "Windows PowerShell" %}}
+```sh
+docker run -p 8080:8080 `
+  -v ${PWD}:/src `
+  -v ${HOME}/hugo_cache:/tmp/hugo_cache `
+  hugomods/hugo:exts `
+  hugo server --bind 0.0.0.0 -p 8080
+```
+{{% /bs/toggle-item %}}
+
+{{< /bs/toggle >}}

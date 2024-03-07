@@ -1,6 +1,10 @@
-name: Cloudflare Pages - Icons
+name: site-icons
 
-on: [push]
+on:
+  push:
+    paths:
+      - 'common/**'
+      - 'icons/**'
 
 jobs:
   publish:
@@ -48,29 +52,30 @@ jobs:
         working-directory: icons
         run: |
           hugo --minify --gc --enableGitInfo
-          cp public/en/404.html public/404.html
 
-      # - name: Publish to Cloudflare Pages
-      #   uses: cloudflare/pages-action@v1
-      #   with:
-      #     apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      #     accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-      #     projectName: hugomods-icons
-      #     directory: ./icons/public
-      #     # Optional: Enable this if you want to have GitHub Deployments triggered
-      #     gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v2.1
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
         with:
-          publish-dir: './icons/public'
-          production-branch: main
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message: "Deploy from GitHub Actions"
-          enable-pull-request-comment: false
-          enable-commit-comment: false
-          overwrites-pull-request-comment: false
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        timeout-minutes: 1
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: hugomods-icons
+          directory: ./icons/public/en
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: hugomods-icons-zh-hans
+          directory: ./icons/public/zh-hans
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: hugomods-icons-zh-hant
+          directory: ./icons/public/zh-hant
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}

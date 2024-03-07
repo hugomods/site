@@ -1,0 +1,21 @@
+{{< bs/toggle "go-module-proxy-env" >}}
+
+{{% bs/toggle-item "Go" %}}
+```sh
+go env -w GOPROXY=https://goproxy.cn/,direct
+```
+{{% /bs/toggle-item %}}
+
+{{% bs/toggle-item "Unix-like" %}}
+```sh
+export GOPROXY=https://goproxy.cn/,direct
+```
+{{% /bs/toggle-item %}}
+
+{{% bs/toggle-item "Windows PowerShell" %}}
+```sh
+$ENV:GOPROXY="https://goproxy.cn/,direct"
+```
+{{% /bs/toggle-item %}}
+
+{{< /bs/toggle >}}

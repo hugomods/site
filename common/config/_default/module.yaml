@@ -1,4 +1,8 @@
 imports:
+  - path: github.com/hugomods/seo/modules/json-ld
+  - path: github.com/hbstack/shortcodes
+  - path: github.com/hbstack/bs-tooltip
+  - path: github.com/hbstack/header/modules/apps
   - path: github.com/hbstack/blog/modules/sidebar/profile
   - path: github.com/hugomods/video-js
   - path: github.com/hugomods/aos
@@ -12,6 +16,7 @@ imports:
   - path: github.com/hbstack/header/modules/news
   - path: github.com/hbstack/header/modules/banner
   - path: github.com/hbstack/header/modules/git-repo
+  - path: github.com/hbstack/header/modules/git-org
   # - path: github.com/hbstack/announcement-bar
 
   # icons modules.

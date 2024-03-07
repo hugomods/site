@@ -1,7 +1,8 @@
 languages:
   - code: en
   - code: zh-hans
-contentDir: main/content/releases
+  - code: zh-hant
+contentDir: blog/content/releases
 repositories:
   - github.com/hugomods/images
   - github.com/hugomods/search

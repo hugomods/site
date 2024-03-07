@@ -1,0 +1,36 @@
+title: HugoMods Blog
+enableRobotsTXT: true
+
+permalinks:
+  posts: /posts/:year/:month/:title
+  news: /news/:year/:month/:title
+
+outputs:
+  home:
+    - DecapCMSConfig
+    - HTML
+    - Offline
+    - SearchIndex
+    - RSS
+    - WebAppManifest
+
+taxonomies:
+  _merge: shallow
+
+markup:
+  _merge: deep
+
+build:
+  _merge: shallow
+
+menus:
+  _merge: deep
+
+languages:
+  _merge: deep
+
+security:
+  _merge: deep
+
+server:
+  _merge: deep

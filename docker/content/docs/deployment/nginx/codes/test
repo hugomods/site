@@ -1,0 +1,25 @@
+{{< bs/toggle "test" >}}
+
+{{% bs/toggle-item "Unix-like" %}}
+```sh
+docker build \
+  -t user/my-site:test \
+  --build-arg HUGO_BASEURL=http://localhost:8080 \
+  .
+```
+{{% /bs/toggle-item %}}
+
+{{% bs/toggle-item "Windows PowerShell" %}}
+```sh
+docker build `
+  -t user/my-site:test `
+  --build-arg HUGO_BASEURL=http://localhost:8080 `
+  .
+```
+{{% /bs/toggle-item %}}
+
+{{< /bs/toggle >}}
+
+```sh
+docker run -p 8080:80 user/my-site:test
+```

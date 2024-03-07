@@ -1,4 +1,4 @@
-description: third party Hugo modules and tools for building fast, modular, modern themes and static websites.
+description: Third party Hugo modules and tools for building fast, modular, modern themes and static websites.
 
 encrypt:
   password: hugomods.com
@@ -14,7 +14,7 @@ hb:
   google_fonts:
     families:
       - name: Montserrat
-      - name: Agbalumo
+      - name: Protest Guerrilla
   thanks:
     socials:
       githubsponsors: https://github.com/sponsors/razonyang
@@ -27,8 +27,8 @@ hb:
     main_brand:
       url: https://hugomods.com/
       title: HugoMods
-      hide_title: true
-      logo: images/logo-text.png
+      hide_title: false
+      logo: images/logo.png
     news:
       icon_name: megaphone-fill
       sections:
@@ -43,7 +43,7 @@ hb:
       rss: true
   footer:
     site_title: HugoMods
-    site_description: third party Hugo modules and tools for building fast, modular, modern themes and static websites.
+    site_description: Third party Hugo modules and tools for building fast, modular, modern themes and static websites.
     socials:
       github: hugomods
       githubsponsors: https://github.com/sponsors/razonyang

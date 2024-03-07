@@ -1,0 +1,19 @@
+{{- $checked := "☑" }}
+{{- range index site.Data "docker-image-tags" }}
+  {{- printf "### `%s`\n" .name }}
+  {{- printf "![Size](https://img.shields.io/docker/image-size/hugomods/hugo/%s?style=flat-square&height=32)\n" .name }}
+  {{- printf "```sh\ndocker pull hugomods/hugo:%s\n```\n" .name }}
+  {{- printf "For sepcified version.\n" }}
+  {{- printf "```sh\ndocker pull hugomods/hugo:%s\n```\n" (cond (eq .name "latest") "<version>" (printf "%s-<version>" .name)) | safeHTML }}
+  {{- printf "| Extended | Go  | Node.js | NPM | Git | Dart Sass | \n" }}
+  {{- printf "| :------: | :-: | :-----: | :-: | :-: | :-------: |\n" }}
+  {{- printf "| %s | %s | %s | %s | %s | %s |"
+    (cond (default false .extended) $checked "-")
+    (cond (default false .go) $checked "-")
+    (cond (default false .nodejs) $checked "-")
+    (cond (default false .npm) $checked "-")
+    (cond (default false .git) $checked "-")
+    (cond (default false .dartsass) $checked "-")
+  }}
+  {{- printf "\n" }}
+{{- end }}

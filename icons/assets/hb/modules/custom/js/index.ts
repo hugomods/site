@@ -52,7 +52,7 @@ interface icon {
         for (let i = 0; i < Math.min(items.length, 512); i++) {
             const icon = items[i]
             s += `<li class="icon col mb-4">
-  <div class="icon-img-container bg-light d-flex align-items-center justify-content-center px-1 px-md-2 py-3 py-md-4">
+  <div class="icon-img-container bg-body-secondary d-flex align-items-center justify-content-center px-1 px-md-2 py-3 py-md-4">
     <img class="icon-img" src="${icon.url}" loading="lazy" alt="${icon.name}">
   </div>
   <div class="text-muted text-center mt-2 user-select-all text-break fw-bold">${icon.vendor}</div>
