@@ -22,6 +22,8 @@ tags:
 
 ## Use Icons via Shortcode
 
+Both of `ico` and `icons/icon` are valid.
+
 {{% hugo/shortcode-params data=params.yaml headingStartLevel=3 %}}
 
 ### Icons Shortcode Examples
@@ -29,7 +31,7 @@ tags:
 #### Icon With Default Settings
 
 {{< hugo/shortcode-example >}}
-{{</* icons/icon bootstrap house */>}}
+{{</* ico bootstrap house */>}}
 {{< /hugo/shortcode-example >}}
 
 #### Icon With Custom Color

@@ -1,0 +1,7 @@
+```go-html-template
+{{ range site.Menus.main }}
+  {{ if partial "base/functions/is-menu-external" . }}
+    <a href="{{ .URL }}" target="_blank" rel="external">{{ .Name }}</a>
+  {{ end }}
+{{ end }}
+```

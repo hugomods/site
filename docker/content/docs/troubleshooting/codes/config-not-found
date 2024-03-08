@@ -1,0 +1,4 @@
+```text
+Error: Unable to locate config file or config directory. Perhaps you need to create a new site.
+Run `hugo help new` for details.
+```

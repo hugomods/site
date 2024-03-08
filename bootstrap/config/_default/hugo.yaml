@@ -1,0 +1,78 @@
+enableRobotsTXT: true
+
+outputs:
+  home:
+    - DecapCMSConfig
+    - HTML
+    - Offline
+    - SearchIndex
+    - RSS
+    - WebAppManifest
+
+taxonomies:
+  _merge: shallow
+
+markup:
+  _merge: deep
+
+build:
+  _merge: shallow
+
+menus:
+  _merge: deep
+
+module:
+  imports:
+    - path: github.com/hugomods/site/common
+
+params:
+  hb:
+    header:
+      logo: false
+      brand: Base
+      git_repo:
+        service: github
+        owner: hugomods
+        name: base
+    content_panel:
+      repo:
+        subpath: base
+
+languages:
+  _merge: deep
+
+  en:
+    title: Hugo Bootstrap Module | HugoMods
+    baseURL: https://base.hugomods.com/
+    params:
+      description: Useful templates and functions for developing and designing Hugo themes.
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: Third party Hugo modules and tools for building fast, modular, modern themes and static websites.
+
+  zh-hans:
+    title: Hugo Bootstrap 模块 | HugoMods
+    baseURL: https://zh-hans.base.hugomods.com/
+    params:
+      description: "用于开发和设计 Hugo 主题的实用的模板和函数。"
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: 用于构建快速、模块化和现代化的主题和静态网站的第三方 Hugo 模块和工具。
+
+  zh-hant:
+    title: Hugo Bootstrap 模塊 | HugoMods
+    baseURL: https://zh-hant.base.hugomods.com/
+    params:
+      description: "用於開發和設計 Hugo 主題的實用的模板和函数。"
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: 用於構建快速、模塊化和現代化的主題和靜態網站的第三方 Hugo 模塊和工具。
+
+security:
+  _merge: deep
+
+server:
+  _merge: deep

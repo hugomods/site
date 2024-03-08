@@ -22,6 +22,8 @@ tags:
 
 ## 通过短代码使用图标
 
+`ico` 和 `icons/icon` 都是有效的。
+
 {{% hugo/shortcode-params data=params.yaml headingStartLevel=3 %}}
 
 ### 图标短代码示例
@@ -29,7 +31,7 @@ tags:
 #### 带有默认设置的图标
 
 {{< hugo/shortcode-example >}}
-{{</* icons/icon bootstrap house */>}}
+{{</* ico bootstrap house */>}}
 {{< /hugo/shortcode-example >}}
 
 #### 自定义颜色的图标

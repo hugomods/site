@@ -19,6 +19,10 @@ tags:
 
 這超出了本文檔的範圍，請參閱 [Install Docker Engine](https://docs.docker.com/engine/install/)。
 
+## 基礎鏡像
+
+所有鏡像都是基於 [Alpine](https://hub.docker.com/_/alpine) 的。
+
 ## 默認工作目錄
 
 默認工作目錄為 `/src`。

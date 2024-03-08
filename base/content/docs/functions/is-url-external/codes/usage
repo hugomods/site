@@ -1,0 +1,6 @@
+```go-html-template
+{{ $url := "https://example.com" }}
+{{ if partial "base/functions/is-url-external" $url }}
+  <a href="{{ $url }}" target="_blank" rel="external">OPEN IN NEW TAB</a>
+{{ end }}
+```

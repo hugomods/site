@@ -15,6 +15,7 @@
     zh-hant: 圖標名稱。
 
 - name: size
+  position: 2
   default: 1em
   description:
     default: The square icon size.

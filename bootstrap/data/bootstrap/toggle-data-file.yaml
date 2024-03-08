@@ -1,0 +1,5 @@
+- name: Foo
+  inner: "*Foo* Content with **Markdown**"
+
+- name: Bar
+  inner: "Bar Content without Markdown"

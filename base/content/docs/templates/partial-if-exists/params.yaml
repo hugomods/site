@@ -1,0 +1,14 @@
+- name: Name
+  required: true
+  description:
+    default: The target partial name, extension is required, such as `foo.html`.
+    zh-hans: 目标模板名称，扩展名是必须的，比如 `foo.html`。
+    zh-hant: 目標模板名稱，擴展名是必須的，比如 `foo.html`。
+
+- name: Context
+  required: true
+  type: any
+  description:
+    default: The context passed to target partial.
+    zh-hans: 传入目标模板的上下文。
+    zh-hant: 傳入目標模板的上下文。

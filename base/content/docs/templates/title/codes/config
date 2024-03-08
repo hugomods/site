@@ -1,0 +1,5 @@
+{{< bs/config-toggle filename="hugo" >}}
+params:
+  title_separator: '-'
+  title_sections: true
+{{< /bs/config-toggle >}}
