@@ -1,0 +1,7 @@
+- name: style
+  position: 0
+  default: primary
+  description:
+    default: "`primary`, `secondary`, `success`, `danger`, `warning`, `info`, `light` and `dark`."
+    zh-hans: "`primary`、`secondary`、`success`、`danger`、`warning`、`info`、`light` 和 `dark`。"
+    zh-hant: "`primary`、`secondary`、`success`、`danger`、`warning`、`info`、`light` 和 `dark`。"

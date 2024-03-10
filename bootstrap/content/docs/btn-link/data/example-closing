@@ -1,0 +1,5 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/btn-link url="#closing-button-link" */>}}
+Closing {{</* ico vendor=bs name=x-circle */>}}
+{{</* /bs/btn-link */>}}
+{{< /hugo/shortcode-example >}}

@@ -1,0 +1,19 @@
+- name: src
+  required: true
+  description:
+    default: The image's source URL or image resources name.
+    zh-hans: 图片 URL 或图片资源名称。
+    zh-hant: 圖片 URL 或圖片資源名稱。
+
+- name: title
+  required: true
+  description:
+    default: The image's alternative text and caption.
+    zh-hans: 图片文本。
+    zh-hant: 圖片文本。
+
+- name: url
+  description:
+    default: The URL of the element.
+    zh-hans: 链接地址。
+    zh-hant: 鏈接地址。

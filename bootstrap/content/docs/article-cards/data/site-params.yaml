@@ -1,0 +1,15 @@
+- name: limit
+  description:
+    default: The default number of articles.
+    zh-hans: 文章的默认数量。
+    zh-hant: 文章的默認數量。
+  type: number
+  default: 12
+
+- name: image_height
+  type: number
+  default: 240
+  description:
+    default: The default height of image.
+    zh-hans: 图片的默认高度。
+    zh-hant: 圖片的默認高度。

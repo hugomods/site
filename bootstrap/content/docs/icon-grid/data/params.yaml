@@ -1,0 +1,37 @@
+- name: data
+  posiiton: 0
+  required: true
+  description:
+    default: The name of data file.
+    zh-hans: 数据文件名。
+    zh-hant: 數據文件名。
+
+- name: linkText
+  default: 'Learn more'
+  description:
+    default: The link text, the entire card will be clickable if empty.
+    zh-hans: 链接文本，为空时整个卡片变为可点击状态。
+    zh-hant: 鏈接文本，為空時整個卡片變為可點擊狀態。
+
+- name: aligment
+  default: start
+  description:
+    default: "Alignments: `start`, `center` or `end`."
+    zh-hans: "对齐方式：`start`、`center` 或 `end`。"
+    zh-hant: "對齊方式：`start`、`center` 或 `end`。"
+
+- name: gap
+  type: number
+  default: 4
+  description:
+    default: "Gap between items, up to `5`."
+    zh-hans: "条目间隔，最大为 `5`。"
+    zh-hant: "條目間隔，最大為 `5`。"
+
+- name: border
+  type: boolean
+  default: true
+  description:
+    default: When `false`, remove the border.
+    zh-hans: 为 `false` 时，去除边框。
+    zh-hant: 為 `false` 時，去除邊框。

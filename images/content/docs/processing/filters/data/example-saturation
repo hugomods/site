@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+![Image Saturation](/images/great-wall.jpg?fit=200x200&saturation=100)
+{{< /hugo/shortcode-example >}}

@@ -1,0 +1,7 @@
+- name: data
+  required: true
+  position: 0
+  description:
+    default: The name of data.
+    zh-hans: 数据文件名称。
+    zh-hant: 數據文件名稱。

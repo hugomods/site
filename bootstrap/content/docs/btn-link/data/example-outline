@@ -1,0 +1,5 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/btn-link url="#outline-button-link" outline=true */>}}
+Primary outline button link
+{{</* /bs/btn-link */>}}
+{{< /hugo/shortcode-example >}}

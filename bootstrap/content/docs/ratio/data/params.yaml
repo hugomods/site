@@ -1,0 +1,7 @@
+- name: ratio
+  position: 0
+  default: 16x9
+  description:
+    default: The aspect ratio, `1x1`, `4x3`, `16x9` and `21x9`.
+    zh-hans: 高宽比，`1x1`、`4x3`、`16x9` 和 `21x9`。
+    zh-hant: 高寬比，`1x1`、`4x3`、`16x9` 和 `21x9`。

@@ -1,0 +1,4 @@
+| Path                    | Markdown                 |
+| ----------------------- | ------------------------ |
+| `static/images/foo.png` | `![Foo](images/foo.png)` |
+| `static/images/bar.png` | `![Bar](images/bar.png)` |

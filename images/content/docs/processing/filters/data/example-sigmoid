@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+![Image Sigmoid](/images/great-wall.jpg?fit=200x200&sigmoid=2,5)
+{{< /hugo/shortcode-example >}}

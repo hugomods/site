@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+![Resize](https://avatars.githubusercontent.com/u/128204519?s=200&v=4&naturalWidth=200&naturalHeight=200&width=100&height=100)
+{{< /hugo/shortcode-example >}}

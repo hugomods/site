@@ -1,0 +1,23 @@
+- name: heading
+  position: 0
+  required: true
+  description:
+    default: The heading.
+    zh-hans: 标题。
+    zh-hant: 標題。
+
+- name: style
+  position: 1
+  default: primary
+  description:
+    default: "The style: `primary`, `secondary`, `success`, `warning`, `info`, `danger`, `light`, `dark`."
+    zh-hans: "样式：`primary`、`secondary`、`success`、`warning`、`info`、`danger`、`light`、`dark`。"
+    zh-hant: "樣式：`primary`、`secondary`、`success`、`warning`、`info`、`danger`、`light`、`dark`。"
+
+- name: expand
+  position: 2
+  default: false
+  description:
+    default: Whether to expand by default.
+    zh-hans: 是否默认展开。
+    zh-hant: 是否默認展開。

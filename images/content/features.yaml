@@ -1,0 +1,47 @@
+- title: Markdown friendly
+  description: Processing images via URL query string and fragment ID.
+  icon:
+    vendor: bs
+    name: markdown
+
+- title: Lazy loading
+  description: Loading images lazily (on demand) by default.
+  icon:
+    vendor: bs
+    name: arrow-clockwise
+    className: text-warning
+
+- title: Modern format
+  description: Converting images to modern format (_webp_), and reserve the original format as the fallback.
+  icon:
+    vendor: bs
+    name: speedometer
+    color: green
+
+- title: No CLS
+  description: Set the intrinsic _height_ and _width_ attributes for images to get rid of _Cumulative Layout Shift_ affect.
+  icon:
+    vendor: bs
+    name: arrows-expand
+    className: text-success
+
+- title: Hashing
+  description: Hashing image URLs to get rid of caching issues.
+  icon:
+    vendor: bs
+    name: hash
+    className: text-primary
+
+- title: Image Types
+  description: Support global image resources, page image resources, internal images and external images.
+  icon:
+    vendor: bs
+    name: images
+    className: text-info
+
+- title: Filters
+  description: Supports a variety of filters, such as brightness, pixelate, opacity etc.
+  icon:
+    vendor: bs
+    name: filter
+    className: text-info

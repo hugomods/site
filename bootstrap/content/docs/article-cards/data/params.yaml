@@ -1,0 +1,28 @@
+- name: limit
+  description:
+    default: The number of articles.
+    zh-hans: 文章数目。
+    zh-hant: 文章數目。
+  type: number
+  default: 12
+
+- name: linkText
+  description:
+    default: 'The text of link, the entire card will be clickable when empty.'
+    zh-hans: 链接文本，为空时，整个卡片可点击。
+    zh-hans: 鏈接文本，為空時，整個卡片可點擊。
+  default: Read more
+
+- name: sections
+  description:
+    default: The comma-separated sections, such as `blog,docs`, empty means all.
+    zh-hans: 英文逗号分隔开的栏目名称，比如 `blog,docs`，为空时表示所有栏目。
+    zh-hant: 英文逗號分隔開的欄目名稱，比如 `blog,docs`，為空時表示所有欄目。
+
+- name: summaryLen
+  description:
+    default: The max length of summary.
+    zh-hans: 摘要的最大长度。
+    zh-hant: 摘要的最大長度。
+  type: number
+  default: 240

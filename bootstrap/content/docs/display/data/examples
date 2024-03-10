@@ -1,0 +1,33 @@
+{{< hugo/shortcode-example >}}
+{{%/* bs/display */%}}
+Display 1
+{{%/* /bs/display */%}}
+
+{{%/* bs/display 2 */%}}
+Display 2
+{{%/* /bs/display */%}}
+
+{{%/* bs/display 3 */%}}
+Display 3
+{{%/* /bs/display */%}}
+
+{{%/* bs/display 4 */%}}
+Display 4
+{{%/* /bs/display */%}}
+
+{{%/* bs/display 5 */%}}
+Display 5
+{{%/* /bs/display */%}}
+
+{{%/* bs/display 6 */%}}
+Display 6
+{{%/* /bs/display */%}}
+
+{{%/* bs/display 1 "text-primary" */%}}
+Display with extra classes.
+{{%/* /bs/display */%}}
+
+{{%/* bs/display level=6 class="text-success" */%}}
+Display 6 with extra classes via named parameters.
+{{%/* /bs/display */%}}
+{{< /hugo/shortcode-example >}}

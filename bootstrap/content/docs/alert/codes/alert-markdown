@@ -1,0 +1,5 @@
+{{% hugo/shortcode-example %}}
+{{%/* bs/alert style=primary */%}}
+A simple *primary alert* with Markdown—**check it out**!
+{{%/* /bs/alert */%}}
+{{% /hugo/shortcode-example %}}

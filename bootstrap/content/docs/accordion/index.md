@@ -1,22 +1,18 @@
 ---
-type: docs
 title: "Bootstrap Accordion Shortcode"
 linkTitle: "Accordion"
 description: |
-  A detailed guide of using the Bootstrap accordion shortcode to build vertically accordions.
-  The FAQ is the most common use case of Bootstrap accordion component.
+  Shortcode to build vertically accordions, the FAQs is the most common use case.
+nav_weight: 1000
 nav_icon:
   vendor: bs
   name: chevron-expand
 date: 2023-08-11T23:47:27+08:00
-featured: false
-pinned: false
-draft: false
-series:
-  - Shortcode
 categories:
-  - Bootstrap
+  - Docs
 tags:
+  - Bootstrap
+  - Shortcodes
   - Accordion
 authors:
   - HugoMods
@@ -29,66 +25,28 @@ images:
 {{</* bs/accordion */>}}
 ```
 
-## Parameters
+{{% hugo/shortcode-params "data/params.yaml" %}}
 
-{{% shortcode-params "data/params.yaml" %}}
+## Data Files Mapping
 
-## Data Item Properties
+{{< page-resource-content "data/data-files-mapping" >}}
 
-### `title`
-
-The title of accordion item.
-
-### `content`
-
-The content of accordion item, Markdown is support.
-
-### `weight`
-
-The weight of accordion item, the lower `weight` gets higher priority.
-
-### `show`
-
-The first item's content will be shown by default, but you can change it via this property.
+{{% params data="data/data-item-properties.yaml" heading="Data Item Properties" %}}
 
 ### Data File Example
 
-{{% bs/collapse "data/accordion/example.yaml" primary true %}}
-```yaml
-first:
-  weight: 1
-  title: Step One
-  content: __Firstly__, ...
-second:
-  weight: 2
-  title: Step Two
-  content: __Secondary__, ...
-
-```
-{{% /bs/collapse %}}
+{{< page-resource-content "data/data-file-example" >}}
 
 ## Examples
 
 ### Default Accordion Example
 
-```markdown
-{{</* bs/accordion "accordion.faq" */>}}
-```
-
-{{< bs/accordion "accordion.faq" >}}
+{{< page-resource-content "data/example" >}}
 
 ### Flush Accordion Example
 
-```markdown
-{{</* bs/accordion data="accordion.faq" flush=true */>}}
-```
-
-{{< bs/accordion data="accordion.faq" flush=true >}}
+{{< page-resource-content "data/example-flush" >}}
 
 ### Flush Accordion Example with `alwaysOpen` Enabled
 
-```markdown
-{{</* bs/accordion data="accordion.faq" flush=true alwaysOpen=true */>}}
-```
-
-{{< bs/accordion data="accordion.faq" flush=true alwaysOpen=true >}}
+{{< page-resource-content "data/example-flush-always-open" >}}

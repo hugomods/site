@@ -47,7 +47,7 @@ require (
 	github.com/hbstack/google-fonts v0.1.1 // indirect
 	github.com/hbstack/hb v0.12.1 // indirect
 	github.com/hbstack/header v0.14.2 // indirect
-	github.com/hbstack/header/modules/apps v0.1.1 // indirect
+	github.com/hbstack/header/modules/apps v0.1.2 // indirect
 	github.com/hbstack/header/modules/banner v0.7.0 // indirect
 	github.com/hbstack/header/modules/git-org v0.2.2 // indirect
 	github.com/hbstack/header/modules/git-repo v0.2.1 // indirect
@@ -88,10 +88,10 @@ require (
 	github.com/hugomods/hugopress v0.2.3 // indirect
 	github.com/hugomods/i18n-js v0.2.1 // indirect
 	github.com/hugomods/icons v0.6.3 // indirect
-	github.com/hugomods/icons/vendors/bootstrap v0.5.5 // indirect
-	github.com/hugomods/icons/vendors/feather v0.2.2 // indirect
-	github.com/hugomods/icons/vendors/font-awesome v0.6.4 // indirect
-	github.com/hugomods/icons/vendors/lucide v0.3.36 // indirect
+	github.com/hugomods/icons/vendors/bootstrap v0.5.6 // indirect
+	github.com/hugomods/icons/vendors/feather v0.2.3 // indirect
+	github.com/hugomods/icons/vendors/font-awesome v0.6.5 // indirect
+	github.com/hugomods/icons/vendors/lucide v0.3.37 // indirect
 	github.com/hugomods/icons/vendors/mdi v0.3.5 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.32 // indirect
 	github.com/hugomods/icons/vendors/tabler v0.15.27 // indirect

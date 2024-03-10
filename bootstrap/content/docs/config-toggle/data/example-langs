@@ -1,0 +1,5 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/config-toggle langs=json,toml */>}}
+langs = ["toml", "json"]
+{{</* /bs/config-toggle */>}}
+{{< /hugo/shortcode-example >}}

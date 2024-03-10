@@ -1,8 +1,0 @@
-first:
-  weight: 1
-  title: Step One
-  content: __Firstly__, ...
-second:
-  weight: 2
-  title: Step Two
-  content: __Secondary__, ...

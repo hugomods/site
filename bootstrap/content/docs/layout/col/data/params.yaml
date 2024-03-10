@@ -1,0 +1,23 @@
+
+
+- name: "size"
+  description:
+    default: "The space-separated column sizes, in `[size]` and `[breakpoint]:[size]` forms, such as `12`, `12 md:6 lg:3`."
+    zh-hans: "空格隔开的列尺寸，以 `[size]` 和 `[breakpoint]:[size]` 形式表示，比如 `12`、`12 md:6 lg:3`。"
+    zh-hant: "空格隔開的列尺寸，以 `[size]` 和 `[breakpoint]:[size]` 形式表示，比如 `12`、`12 md:6 lg:3`。"
+  position: 0
+
+- name: "offset"
+  description:
+    default: "The space-separated column offsets, in `[offset]` and `[breakpoint]:[offset]` forms, such as `0`, `0 md:1 lg:2`."
+    zh-hans: "空格隔开的列位移，以 `[size]` 和 `[breakpoint]:[size]` 形式表示，比如 `0`、`0 md:1 lg:2`。"
+    zh-hant: "空格隔開的列位移，以 `[size]` 和 `[breakpoint]:[size]` 形式表示，比如 `0`、`0 md:1 lg:2`。"
+  position: 1
+  options: ['[size]', '[breakpoint]-[size]']
+
+- name: "class"
+  description:
+    default: "Extra CSS classes."
+    zh-hans: "额外的 CSS 类名。"
+    zh-hant: "額外的 CSS 類名。"
+  position: 2

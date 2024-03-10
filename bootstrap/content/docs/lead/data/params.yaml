@@ -1,0 +1,6 @@
+- name: "class"
+  description:
+    default: "Extra CSS classes."
+    zh-hans: 额外 CSS 类名。
+    zh-hant: 額外 CSS 類名。
+  position: 0

@@ -26,14 +26,16 @@ module:
     - path: github.com/hugomods/site/common
 
 params:
+  images:
+    - images/feature.jpg
   hb:
     header:
       logo: false
-      brand: Base
+      brand: Bootstrap
       git_repo:
         service: github
         owner: hugomods
-        name: base
+        name: bootstrap
     content_panel:
       repo:
         subpath: base
@@ -43,9 +45,10 @@ languages:
 
   en:
     title: Hugo Bootstrap Module | HugoMods
-    baseURL: https://base.hugomods.com/
+    baseURL: https://bootstrap.hugomods.com/
     params:
-      description: Useful templates and functions for developing and designing Hugo themes.
+      description: |
+        Universal and handy Hugo Bootstrap shortcodes to help users to build sites.
       hb:
         footer:
           site_title: HugoMods
@@ -53,9 +56,9 @@ languages:
 
   zh-hans:
     title: Hugo Bootstrap 模块 | HugoMods
-    baseURL: https://zh-hans.base.hugomods.com/
+    baseURL: https://zh-hans.bootstrap.hugomods.com/
     params:
-      description: "用于开发和设计 Hugo 主题的实用的模板和函数。"
+      description: "通用、便利的 Hugo Bootstrap 短代码，以帮助用户构建网站。"
       hb:
         footer:
           site_title: HugoMods
@@ -63,9 +66,9 @@ languages:
 
   zh-hant:
     title: Hugo Bootstrap 模塊 | HugoMods
-    baseURL: https://zh-hant.base.hugomods.com/
+    baseURL: https://zh-hant.bootstrap.hugomods.com/
     params:
-      description: "用於開發和設計 Hugo 主題的實用的模板和函数。"
+      description: "通用、便利的 Hugo Bootstrap 短代碼，以幫助用戶構建網站。"
       hb:
         footer:
           site_title: HugoMods

@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+![Image Invert](/images/great-wall.jpg?fit=200x200&invert)
+{{< /hugo/shortcode-example >}}

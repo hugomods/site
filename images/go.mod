@@ -1,4 +1,4 @@
-module github.com/hugomods/site/base
+module github.com/hugomods/site/images
 
 go 1.19
 

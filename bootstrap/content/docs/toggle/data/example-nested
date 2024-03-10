@@ -1,0 +1,13 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/toggle foobar */>}}
+
+  {{%/* bs/toggle-item Foo */%}}
+  *Foo* Content with **Markdown**
+  {{%/* /bs/toggle-item */%}}
+
+  {{</* bs/toggle-item Bar */>}}
+  Bar Content without Markdown
+  {{</* /bs/toggle-item */>}}
+
+{{</* /bs/toggle */>}}
+{{< /hugo/shortcode-example >}}

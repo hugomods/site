@@ -1,0 +1,15 @@
+- default: 1
+  description:
+    default: "The level of display headings."
+    zh-hans: 标题级别。
+    zh-hant: 標題級別。
+  name: "level"
+  position: 0
+  type: "number"
+
+- description:
+    default: "Used to add extra CSS classes."
+    zh-hans: 额外 CSS 类名。
+    zh-hant: 額外 CSS 類名。
+  name: "class"
+  position: 1

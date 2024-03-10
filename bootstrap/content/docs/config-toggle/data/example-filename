@@ -1,0 +1,7 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/config-toggle hello */>}}
+{
+  "hello": "world"
+}
+{{</* /bs/config-toggle */>}}
+{{< /hugo/shortcode-example >}}

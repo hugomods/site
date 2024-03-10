@@ -1,0 +1,50 @@
+- name: Filename
+  required: true
+  description:
+    default: The filename or URL of image.
+    zh-hans: 图片的文件名或 URL。
+    zh-hant: 圖片的文件名或 URL。
+
+- name: Alt
+  description:
+    default: Alternative text.
+    zh-hans: 替代文本。
+    zh-hant: 替代文本。
+
+
+- name: Caption
+  description:
+    default: Figure caption.
+    zh-hans: 说明文本。
+    zh-hant: 說明文本。
+
+
+- name: Page
+  description:
+    default: The page variable for finding image resources.
+    zh-hans: 页面变量，用于查找图片资源。
+    zh-hant: 頁面變量，用於查找圖片資源。
+
+
+- name: ClassName
+  default: img-fluid
+  description:
+    default: The class name of `<img>`.
+    zh-hans: "`<img>` 类名。"
+    zh-hant: "`<img>` 類名。"
+
+- name: Original
+  type: boolean
+  default: false
+  description:
+    default: Whether to describe the original image info via `data-*` attributes.
+    zh-hans: 是否通过 `data-*` 属性来描述原始图片信息。
+    zh-hant: 是否通過 `data-*` 屬性來描述原始圖片信息。
+
+- name: LazyLoading
+  type: boolean
+  default: true
+  description:
+    default: Whether to enable lazy loading.
+    zh-hans: 是否延迟加载图片。
+    zh-hant: 是否延遲加載圖片。

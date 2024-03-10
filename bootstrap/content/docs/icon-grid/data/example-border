@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/icon-grid data="features" border=false */>}}
+{{< /hugo/shortcode-example >}}

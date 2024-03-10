@@ -1,0 +1,13 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/collapse heading="1. Step One" expand=true */>}}
+First of all ...
+{{</* /bs/collapse */>}}
+
+{{%/* bs/collapse "2. Step Two" secondary */%}}
+And then ...
+{{%/* /bs/collapse */%}}
+
+{{%/* bs/collapse "3. Step Three" success */%}}
+**Well done**.
+{{%/* /bs/collapse */%}}
+{{< /hugo/shortcode-example >}}

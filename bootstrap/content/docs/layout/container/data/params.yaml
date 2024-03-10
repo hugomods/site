@@ -1,0 +1,13 @@
+- name: "breakpoint"
+  position: 0
+  description:
+    default: "The breakpoint of container: `sm`, `md`, `lg`, `xl`, `xxl`, `fluid`."
+    zh-hans: "容器的 breakpoint：`sm`、`md`、`lg`、`xl`、`xxl`、`fluid`。"
+    zh-hant: "容器的 breakpoint：`sm`、`md`、`lg`、`xl`、`xxl`、`fluid`。"
+
+- name: "class"
+  position: 1
+  description:
+    default: "Extra CSS classes."
+    zh-hans: "额外的 CSS 类名。"
+    zh-hant: "額外的 CSS 類名。"

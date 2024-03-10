@@ -1,0 +1,7 @@
+- name: langs
+  type: array
+  default: '["toml", "yaml", "json"]'
+  description:
+    default: The target languages, can be used to exclude and sort languages globally.
+    zh-hans: 目标语言，可用于排除语言和重新排序。
+    zh-hant: 目標語言，可用於排除語言和重新排序。

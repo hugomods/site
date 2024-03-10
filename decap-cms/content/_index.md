@@ -1,5 +1,0 @@
----
-layout: landing
-header:
-  banner:
----

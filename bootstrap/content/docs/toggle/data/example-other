@@ -1,0 +1,6 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/toggle name=underline style=underline fill=false alignment=center */>}}
+  {{</* bs/toggle-item Foo */>}}Foo{{</* /bs/toggle-item */>}}
+  {{</* bs/toggle-item Bar */>}}Bar{{</* /bs/toggle-item */>}}
+{{</* /bs/toggle */>}}
+{{< /hugo/shortcode-example >}}

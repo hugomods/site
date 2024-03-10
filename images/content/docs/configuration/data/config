@@ -1,0 +1,4 @@
+{{< bootstrap/config-toggle hugo >}}
+[params.hugomods.images]
+modern_format = "webp"
+{{< /bootstrap/config-toggle >}}

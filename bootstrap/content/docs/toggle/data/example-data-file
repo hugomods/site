@@ -1,0 +1,9 @@
+{{% bs/collapse "data/bootstrap/toggle-data-file.yaml" primary true %}}
+```yaml
+{{< file-content "data/bootstrap/toggle-data-file.yaml" >}}
+```
+{{% /bs/collapse %}}
+
+{{< hugo/shortcode-example >}}
+{{</* bs/toggle "data-file" "pills" "bootstrap.toggle-data-file" /*/>}}
+{{< /hugo/shortcode-example >}}

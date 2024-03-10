@@ -1,0 +1,7 @@
+![Originali image](/images/great-wall.jpg "Original image")
+
+| Examples |     |     |
+| :------: | :-: | :-: |
+| ![Fill Image](/images/great-wall.jpg?fill=150x200,TopLeft "fill=150x200,TopLeft") | ![Fill Image](/images/great-wall.jpg?fill=150x200,Top "fill=150x200,Top") | ![Fill Image](/images/great-wall.jpg?fill=150x200,TopRight "fill=150x200,TopRight") |
+| ![Fill Image](/images/great-wall.jpg?fill=150x200,Left "fill=150x200,Left") | ![Fill Image](/images/great-wall.jpg?fill=150x200,Center "fill=150x200,Center") | ![Fill Image](/images/great-wall.jpg?fill=150x200,Right "fill=150x200,Right") |
+| ![Fill Image](/images/great-wall.jpg?fill=150x200,BottomLeft "fill=150x200,BottomLeft") | ![Fill Image](/images/great-wall.jpg?fill=150x200,Bottom "fill=150x200,Bottom") | ![Fill Image](/images/great-wall.jpg?fill=150x200,BottomRight "fill=150x200,BottomRight") |

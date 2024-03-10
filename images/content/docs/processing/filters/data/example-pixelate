@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+![Image Pixelate](/images/great-wall.jpg?fit=200x200&pixelate=8)
+{{< /hugo/shortcode-example >}}

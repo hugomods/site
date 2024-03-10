@@ -1,0 +1,7 @@
+- name: name
+  position: 0
+  required: true
+  description:
+    default: The name of toggle item. **MUST** be unique per page.
+    zh-hans: Toggle 条目的 名称，每个页面必须唯一。
+    zh-hant: Toggle 条目的 名稱，每個頁面必須唯一。

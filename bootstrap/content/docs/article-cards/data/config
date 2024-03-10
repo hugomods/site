@@ -1,0 +1,7 @@
+{{% bs/config-toggle hugo %}}
+params:
+  bootstrap:
+    article_cards:
+      limit: 12
+      image_height: 240
+{{% /bs/config-toggle %}}

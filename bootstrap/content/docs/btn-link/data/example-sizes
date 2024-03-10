@@ -1,0 +1,13 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/btn-link url="#button-link-sizes" size=sm */>}}
+Smaller button link size
+{{</* /bs/btn-link */>}}
+
+{{</* bs/btn-link url="#button-link-sizes" */>}}
+Normal button link size
+{{</* /bs/btn-link */>}}
+
+{{</* bs/btn-link url="#button-link-sizes" size=lg */>}}
+Lager button link size
+{{</* /bs/btn-link */>}}
+{{< /hugo/shortcode-example >}}

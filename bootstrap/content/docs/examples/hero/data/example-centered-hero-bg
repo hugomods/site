@@ -1,0 +1,22 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/container breakpoint=fluid class="text-center mb-5 px-4 py-5 text-bg-dark" */>}}
+
+  {{%/* bs/col size=6 offset=3 class="text-center" */%}}
+  ![Logo](/images/logo.png?height=120px)
+  {{%/* /bs/col */%}}
+
+  {{</* bs/display level=4 class="fw-bold" */>}}
+    {{</* param title */>}}
+  {{</* /bs/display */>}}
+
+  {{</* bs/lead class="mb-4" */>}}
+    {{</* param description */>}}
+  {{</* /bs/lead */>}}
+
+  {{</* html/div class="d-grid gap-3 d-sm-flex justify-content-sm-center flex-wrap" */>}}
+    {{</* bs/btn-link url="#" size=lg style=success class="p-3" */>}}Primary button{{</* /bs/btn-link */>}}
+    {{</* bs/btn-link url="#" size=lg style=light class="p-3" */>}}Secondary button{{</* /bs/btn-link */>}}
+  {{</* /html/div */>}}
+
+{{</* /bs/container */>}}
+{{< /hugo/shortcode-example >}}

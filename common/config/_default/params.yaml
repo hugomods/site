@@ -41,6 +41,8 @@ hb:
       mastodon: https://techhub.social/@hugomods
       paypal: razonyang
       rss: true
+    theme_toggle:
+      style: dropdown
   footer:
     site_title: HugoMods
     site_description: Third party Hugo modules and tools for building fast, modular, modern themes and static websites.

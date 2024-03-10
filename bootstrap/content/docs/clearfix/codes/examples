@@ -1,0 +1,7 @@
+{{< hugo/shortcode-example >}}
+{{%/* bootstrap/clearfix */%}}
+![Float Start](/images/example.jpg?width=200px#float-start) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla diam, sollicitudin quis auctor ac, dapibus eget nulla. Quisque eleifend libero non arcu dapibus porttitor. Nullam pellentesque dictum velit imperdiet ullamcorper. Aenean tristique neque feugiat aliquet aliquam. In quis sem ut lectus volutpat ultricies non in lacus. Mauris maximus hendrerit velit. In hac habitasse platea dictumst. Nam convallis eros libero, ut auctor nisl fermentum ut. Praesent venenatis diam quis pretium suscipit. Nulla tincidunt elit eget nibh pulvinar, at posuere lectus lacinia. Praesent porttitor, mi tristique rhoncus hendrerit, felis nunc cursus tortor, ac convallis orci orci nec tortor. Quisque feugiat egestas diam, quis facilisis lectus maximus eget. Vivamus a ligula eu mi elementum finibus. Curabitur pellentesque ac lacus vel rutrum. Nulla vel lacus nisi. Maecenas eget sem felis.
+
+![Float End](/images/example.jpg?width=200px#float-end) Proin interdum risus vel orci convallis, vitae ultricies erat euismod. Nulla ultricies mi sem, id semper elit venenatis sit amet. Curabitur ultrices lobortis enim, tristique lacinia arcu accumsan eleifend. Suspendisse nec orci et nisi sagittis gravida. Sed massa diam, egestas sit amet sapien quis, sollicitudin mollis dolor. Cras fringilla sapien ut molestie accumsan. Mauris egestas interdum magna non ultricies.
+{{%/* /bootstrap/clearfix */%}}
+{{< /hugo/shortcode-example >}}

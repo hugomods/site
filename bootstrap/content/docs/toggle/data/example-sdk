@@ -1,0 +1,23 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/toggle name=sdk style=pills */>}}
+
+  {{</* bs/toggle-item JS */>}}
+    {{</* highlight js */>}}
+    console.log('hello world');
+    {{</* /highlight */>}}
+  {{</* /bs/toggle-item */>}}
+
+  {{</* bs/toggle-item PHP */>}}
+    {{</* highlight php */>}}
+    echo 'hello world';
+    {{</* /highlight */>}}
+  {{</* /bs/toggle-item */>}}
+  
+  {{</* bs/toggle-item Go */>}}
+    {{</* highlight go */>}}
+    fmt.Println("hello world")
+    {{</* /highlight */>}}
+  {{</* /bs/toggle-item */>}}
+
+{{</* /bs/toggle */>}}
+{{< /hugo/shortcode-example >}}
