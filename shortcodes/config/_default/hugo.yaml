@@ -26,46 +26,48 @@ module:
     - path: github.com/hugomods/site/common
 
 params:
+  images:
+    - images/laptop.jpg
   hb:
     header:
       logo: false
-      brand: Base
+      brand: Shortcodes
       git_repo:
         service: github
         owner: hugomods
-        name: base
+        name: shortcodes
     content_panel:
       repo:
-        subpath: base
+        subpath: shortcodes
 
 languages:
   _merge: deep
 
   en:
-    title: Hugo Base Module | HugoMods
-    baseURL: https://base.hugomods.com/
+    title: Hugo Extended Shortcodes | HugoMods
+    baseURL: https://shortcodes.hugomods.com/
     params:
-      description: Useful templates and functions for developing and designing Hugo themes.
+      description: A variety of extended shortcodes to help users easily write beautiful, maintainable Markdown content.
       hb:
         footer:
           site_title: HugoMods
           site_description: Third party Hugo modules and tools for building fast, modular, modern themes and static websites.
 
   zh-hans:
-    title: Hugo Base 模块 | HugoMods
-    baseURL: https://zh-hans.base.hugomods.com/
+    title: Hugo 扩展短代码 | HugoMods
+    baseURL: https://zh-hans.shortcodes.hugomods.com/
     params:
-      description: "用于开发和设计 Hugo 主题的实用的模板和函数。"
+      description: "各种扩展的短代码，以帮助用户轻松编写漂亮、可维护的 Markdown 内容。"
       hb:
         footer:
           site_title: HugoMods
           site_description: 用于构建快速、模块化和现代化的主题和静态网站的第三方 Hugo 模块和工具。
 
   zh-hant:
-    title: Hugo Base 模塊 | HugoMods
-    baseURL: https://zh-hant.base.hugomods.com/
+    title: Hugo 擴展短代碼 | HugoMods
+    baseURL: https://zh-hant.shortcodes.hugomods.com/
     params:
-      description: "用於開發和設計 Hugo 主題的實用的模板和函数。"
+      description: "各種擴展的短代碼，以幫助用戶輕鬆編寫漂亮、可維護的 Markdown 內容。"
       hb:
         footer:
           site_title: HugoMods

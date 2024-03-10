@@ -39,6 +39,10 @@ You can also set the background image.
 
 {{< page-resource-content "data/example-centered-hero-img" >}}
 
+## 帶有背景色和圖片的居右響應式 Hero
+
+{{< page-resource-content "data/example-centered-hero-img-bg-color" >}}
+
 ## 帶有圖標的居中 Hero
 
 {{< page-resource-content "data/example-centered-hero-icon" >}}

@@ -1,0 +1,51 @@
+- name: id
+  position: 0
+  type: number
+  required: true
+  description:
+    default: The ID of playlist, album or song.
+    zh-hans: 播放列表、专辑或者单曲 ID。
+    zh-hant: 播放列表、專輯或者單曲 ID。
+
+- name: type
+  position: 1
+  default: playlist
+  description:
+    default: Type.
+    zh-hans: 类型。
+    zh-hant: 類型。
+  options:
+    - playlist
+    - album
+    - song
+
+- name: auto
+  position: 2
+  type: boolean
+  default: false
+  description:
+    default: Auto play if `true`.
+    zh-hans: 为 `true` 时自动播放。
+    zh-hant: 為 `true` 時自動播放。
+
+- name: title
+  position: 3
+  description:
+    default: The title of frame.
+    zh-hans: Frame 的标题。
+    zh-hant: Frame 的標題。
+
+- name: height
+  type: number
+  description:
+    default: The height of player, default to `66` for song, `310` for others.
+    zh-hans: 播放器高度，单曲默认为 `66`，其他为 `310`。
+    zh-hant: 播放器高度，單曲默認為 `66`，其他為 `310`。
+
+- name: width
+  type: number
+  default: '100%'
+  description:
+    default: The width of player.
+    zh-hans: 播放器宽度。
+    zh-hant: 播放器寬度。

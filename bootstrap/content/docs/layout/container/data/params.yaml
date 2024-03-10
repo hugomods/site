@@ -9,5 +9,18 @@
   position: 1
   description:
     default: "Extra CSS classes."
-    zh-hans: "额外的 CSS 类名。"
+    zh-hans: "額外的 CSS 類名。"
     zh-hant: "額外的 CSS 類名。"
+
+- name: bg
+  description:
+    default: "Background images, supports image resources, public images and external images."
+    zh-hans: "背景图片，支持图片资源、公共图片和外部图片。"
+    zh-hant: "背景圖片，支持圖片資源、公共圖片和外部圖片。"
+
+- name: bgColor
+  since: v0.19.0
+  description:
+    default: "Background color."
+    zh-hans: "背景颜色。"
+    zh-hant: "背景顏色。"

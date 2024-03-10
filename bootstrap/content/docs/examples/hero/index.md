@@ -39,6 +39,10 @@ You can also set the background image.
 
 {{< page-resource-content "data/example-centered-hero-img" >}}
 
+## Responsive Right-aligned Hero with Image And Backgroud Color
+
+{{< page-resource-content "data/example-centered-hero-img-bg-color" >}}
+
 ## Centered Hero with Icon
 
 {{< page-resource-content "data/example-centered-hero-icon" >}}

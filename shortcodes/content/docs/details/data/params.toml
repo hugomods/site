@@ -1,0 +1,12 @@
+[open]
+name = "open"
+position = 1
+default = false
+type = "boolean"
+desc = "When `true`, expand the details by default."
+
+[summary]
+name = "summary"
+position = 0
+desc = "The summary of details."
+required = true

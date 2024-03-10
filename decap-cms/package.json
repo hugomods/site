@@ -19,6 +19,6 @@
   },
   "scripts": {
     "dev": "hugo server -p 6100 --gc --buildDrafts --enableGitInfo",
-    "prod": "hugo server -e production --minify --gc --disableFastRender --enableGitInfo -b http://localhost:6105 -p 6105"
+    "prod": "hugo server -e production --minify --gc --disableFastRender --enableGitInfo -b http://localhost:6100 -p 6100"
   }
 }

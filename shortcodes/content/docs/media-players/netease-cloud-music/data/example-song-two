@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+{{</* netease-cloud-music id=1367381077 type=song height=80 width=500 title="Exil - Hiboky" */>}}
+{{< /hugo/shortcode-example >}}

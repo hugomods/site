@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+{{</* codepen user=razonyang id=YzWGJNQ defaultTabs=css,result */>}}
+{{< /hugo/shortcode-example >}}

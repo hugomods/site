@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+{{</* netease-cloud-music 92935930 album */>}}
+{{< /hugo/shortcode-example >}}

@@ -8,6 +8,8 @@ nav_icon:
   name: house
 ---
 
+<a href="https://www.freepik.com/free-vector/seo-concept-illustration_13549607.htm#fromView=search&page=1&position=31&uuid=23cecccd-0888-4270-a3c1-c8d3a5188a46">Image by storyset on Freepik</a>
+
 {{< bs/container breakpoint=fluid class="mb-5 px-4 py-3 py-lg-5 text-white" bg="images/jenga.jpg" >}}
 
 {{< bs/row class="py-3 py-lg-5" >}}
