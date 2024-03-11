@@ -2,6 +2,8 @@ name: site-base
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'common/**'
       - 'base/**'

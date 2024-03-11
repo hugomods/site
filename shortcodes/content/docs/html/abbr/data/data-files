@@ -1,0 +1,6 @@
+{{% bs/collapse "data/abbreviations/en.toml" primary true %}}
+```toml
+Hugo = "The world's fastest framework for building static websites"
+HugoMods = "Hugo Modules"
+```
+{{% /bs/collapse %}}

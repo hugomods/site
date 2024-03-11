@@ -1,0 +1,11 @@
+{{% bs/collapse "data/example-params.yaml" primary true %}}
+```yaml
+{{< file-content "data/example-params.yaml" >}}
+```
+{{% /bs/collapse %}}
+
+Result as follows.
+
+{{< hugo/shortcode-example >}}
+{{%/* params data="data/example-params.yaml" heading="Example Parameters" headingStartLevel=3 */%}}
+{{< /hugo/shortcode-example >}}

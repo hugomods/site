@@ -1,0 +1,8 @@
+{{< hugo/shortcode-example >}}
+{{</* emgithub
+  owner=hugomods
+  repo=shortcodes
+  file="hugo.toml"
+  type=code
+*/>}}
+{{< /hugo/shortcode-example >}}

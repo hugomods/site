@@ -2,6 +2,8 @@ name: site-search
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'common/**'
       - 'search/**'

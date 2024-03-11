@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+{{</* jsrun id=QG6Kp theme=dark */>}}
+{{< /hugo/shortcode-example >}}

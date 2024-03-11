@@ -1,5 +1,0 @@
-name:
-  name: name
-  position: 0
-  required: true
-  desc: The filename.

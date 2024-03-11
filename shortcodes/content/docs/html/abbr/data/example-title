@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+{{</* abbr "HugoMods" "Third party Hugo modules" */>}} is a collection of third party modules for {{</* abbr "Hugo" */>}}.
+{{< /hugo/shortcode-example >}}

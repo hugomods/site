@@ -1,0 +1,5 @@
+{{< hugo/shortcode-example >}}
+{{</* html/tag _name=div class="mb-3 text-center" */>}}
+{{</* html/void _name=input name=name placeholder=Name */>}}
+{{</* /html/tag */>}}
+{{< /hugo/shortcode-example >}}

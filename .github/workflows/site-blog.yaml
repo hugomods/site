@@ -2,6 +2,8 @@ name: site-blog
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'common/**'
       - 'blog/**'

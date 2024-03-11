@@ -5,7 +5,7 @@ description: 在编写短代码的文档时，我们通常会提供示例及其�
 nav_weight: 1
 nav_icon:
   vendor: bs
-  name: code-square
+  name: braces
 date: 2024-03-10T13:42:19+08:00
 series:
   - 文档

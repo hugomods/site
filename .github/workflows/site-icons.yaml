@@ -2,6 +2,8 @@ name: site-icons
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'common/**'
       - 'icons/**'

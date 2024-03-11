@@ -2,6 +2,8 @@ name: site-home
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'common/**'
       - 'home/**'

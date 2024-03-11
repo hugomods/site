@@ -1,0 +1,15 @@
+- name: name
+  position: 0
+  required: true
+  description:
+    default: The filename.
+    zh-hans: 文件名。
+    zh-hant: 文件名。
+
+- name: markdown
+  position: 1
+  default: true
+  description:
+    default: Indicate whether if the content is written in Markdown.
+    zh-hans: 表示内容是否用 Markdown 编写。
+    zh-hant: 表示內容是否用 Markdown 編寫。

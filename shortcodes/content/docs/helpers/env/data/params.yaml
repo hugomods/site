@@ -1,0 +1,7 @@
+- name: name
+  required: true
+  position: 0
+  description:
+    default: The name of environment variable.
+    zh-hans: 环境变量的名称。
+    zh-hant: 環境變量的名稱。

@@ -1,0 +1,9 @@
+{{% bs/collapse "content/docs/helpers/file-content/data/foo.txt" primary true %}}
+```text
+bar
+```
+{{% /bs/collapse %}}
+
+{{< hugo/shortcode-example >}}
+{{</* file-content "data/foo.txt" */>}}
+{{< /hugo/shortcode-example >}}

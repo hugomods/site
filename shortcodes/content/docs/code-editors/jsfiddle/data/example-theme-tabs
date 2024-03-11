@@ -1,5 +1,0 @@
-{{< hugo/shortcode-example >}}
-{{</* bs/ratio 21x9 */>}}
-  {{</* codepen user=razonyang id=YzWGJNQ defaultTabs=js,result theme=dark */>}}
-{{</* /bs/ratio */>}}
-{{< /hugo/shortcode-example >}}

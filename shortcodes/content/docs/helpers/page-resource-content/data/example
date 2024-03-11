@@ -1,0 +1,7 @@
+{{% bs/collapse "data/block" primary true %}}
+{{< file-content "data/block" >}}
+{{% /bs/collapse %}}
+
+{{< hugo/shortcode-example >}}
+{{</* page-resource-content "data/block" */>}}
+{{< /hugo/shortcode-example >}}

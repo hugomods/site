@@ -1,0 +1,8 @@
+{{< hugo/shortcode-example >}}
+{{</* html/void
+  _name=input
+  type=password
+  placeholder="Please enter the password"
+  class="form-control mb-3"
+*/>}}
+{{< /hugo/shortcode-example >}}

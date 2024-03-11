@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+{{</* jsfiddle razonyang 6cp7xof1 */>}}
+{{< /hugo/shortcode-example >}}

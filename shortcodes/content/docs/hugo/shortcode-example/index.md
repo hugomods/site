@@ -5,7 +5,7 @@ description: When writing shortcode's documentation, we usually provide examples
 nav_weight: 1
 nav_icon:
   vendor: bs
-  name: code-square
+  name: braces
 date: 2024-03-10T13:42:19+08:00
 series:
   - Docs

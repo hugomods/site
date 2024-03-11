@@ -1,0 +1,8 @@
+name:
+  name: name
+  position: 0
+  required: true
+  description:
+    default: The filename.
+    zh-hans: 文件名。
+    zh-hant: 文件名。

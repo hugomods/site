@@ -2,6 +2,8 @@ name: site-decap-cms
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'common/**'
       - 'decap-cms/**'

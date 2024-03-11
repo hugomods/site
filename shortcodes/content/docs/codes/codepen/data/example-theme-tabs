@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+{{</* codepen user=razonyang id=YzWGJNQ defaultTabs=js,result theme=dark */>}}
+{{< /hugo/shortcode-example >}}

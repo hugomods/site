@@ -2,6 +2,8 @@ name: site-pwa
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'common/**'
       - 'pwa/**'

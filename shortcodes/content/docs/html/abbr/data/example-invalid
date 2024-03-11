@@ -1,0 +1,8 @@
+{{< hugo/shortcode-example >}}
+The {{</* abbr "hugo" */>}} and {{</* abbr "foobar" */>}} will still be rendered, but without titles and will got the following similar warning messages.
+{{< /hugo/shortcode-example >}}
+
+```text
+WARN  [abbr] missing title for "hugo"
+WARN  [abbr] missing title for "foobar"
+```
