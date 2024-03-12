@@ -44,7 +44,7 @@ jobs:
       - name: Cache Hugo modules
         uses: actions/cache@v4
         with:
-          path: /tmp/hugo_cache
+          path: /home/runner/.cache/hugo_cache
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
