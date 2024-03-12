@@ -16,7 +16,8 @@ tags:
 authors:
   - HugoMods
 images:
-  - https://www.digitalocean.com/_next/static/media/cta-text-left-submarine.090d57bb.svg?width=601&height=216
+  - /images/cloud.jpg
+  - dasdasd
 ---
 
 ## Requirements
