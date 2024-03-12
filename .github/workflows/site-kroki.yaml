@@ -1,4 +1,4 @@
-name: site-echarts
+name: site-kroki
 
 on:
   workflow_dispatch:
