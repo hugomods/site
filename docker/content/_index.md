@@ -33,6 +33,9 @@ json_ld:
 {{< /bs/lead >}}
 
 {{< html/div class="d-grid gap-3 d-sm-flex justify-content-sm-center flex-wrap" >}}
+  {{< bs/btn-link url="https://github.com/hugomods/docker" style=light size=lg class="p-3" >}}
+    {{< icons/icon vendor=bs name=github size=.8em >}} GitHub
+  {{< /bs/btn-link >}}
   {{< bs/btn-link url="docs" size=lg class="p-3" >}}
     {{< icons/icon vendor=bs name=book size=.8em >}} Documentations
   {{< /bs/btn-link >}}
