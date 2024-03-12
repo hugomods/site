@@ -12,6 +12,8 @@ github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+y
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
 github.com/hbstack/back-to-top v0.2.0 h1:oVGYYL34PL4OX2O725YmRL9kHjZuxBuyT33/ZG1Zze0=
 github.com/hbstack/back-to-top v0.2.0/go.mod h1:lVnZhVZ8pabJJ/M27APUyayelJO5yr9jkwsVnxk1O4k=
+github.com/hbstack/base v0.4.4 h1:u8Di/YwEdXnWHvdG0rqftGoMfHuEuvCpID3fcBpQYN0=
+github.com/hbstack/base v0.4.4/go.mod h1:oSKOFOxBtKd2zHjWq68SaF+zgtrNar9icGmRxDGPT0M=
 github.com/hbstack/bigger-picture v0.10.1 h1:EgUYZgSGhl4KwKVqryf6ncB2QY4YYgOqTpDW6+5tq14=
 github.com/hbstack/bigger-picture v0.10.1/go.mod h1:wZpRrOlTFrt2lO3tl9Y7cIAJbAJN1MdvRu0UsbCnkaE=
 github.com/hbstack/blog v0.25.2 h1:jnLYuST9e204XhK5vFaWSkJ18sLww7L2I9ZqX82q7Wg=
@@ -76,6 +78,8 @@ github.com/hbstack/giscus v0.1.1 h1:jKbA17XjAcbD59QIDUVoFOdbi9P2WzQMtOcIpG/Znuo=
 github.com/hbstack/giscus v0.1.1/go.mod h1:XElW8oNLnS0dRVFzoo9Gq8xknvz3D2PuTHC7yw9h3EE=
 github.com/hbstack/google-fonts v0.1.1 h1:rw9lsHL0x9a7olFh/9gWI+X5sRAf30DM5bzwP/L9aYg=
 github.com/hbstack/google-fonts v0.1.1/go.mod h1:4Xn7/i4MRPs0wDuYTIvCJvNfAMIC5vMJ4gNIWM3Vg24=
+github.com/hbstack/hb v0.12.1 h1:9DLOBNB8NPb9JKCmcKui/+pAcAZw1NgV42vYi4ABLbo=
+github.com/hbstack/hb v0.12.1/go.mod h1:8liwfjapaZK09pXP6XqZ49GOqFPTn7H9jIZsy7S6esg=
 github.com/hbstack/header v0.14.2 h1:vBz0fKfrwA6Pkjj3PcqitYUzXSN+JIYIcfrkhvbThK4=
 github.com/hbstack/header v0.14.2/go.mod h1:ixl3LE1P436T4lVErrUVTyRv7fYqEs4zLc1OeBK+VqI=
 github.com/hbstack/header/modules/apps v0.1.2 h1:WO7NULligi68oZ68U9ZjNCtbYGqrpiM9+Row/y2qUAM=
@@ -114,6 +118,8 @@ github.com/hbstack/scrollbar v0.1.0 h1:uQMNbkWbLxnjQMiD3zdt33RG48sY2a0XWyGQkK2Hs
 github.com/hbstack/scrollbar v0.1.0/go.mod h1:BEDha5gOjQfXBKZfwT+4vn8hCE88qElocjEI2SY1eAs=
 github.com/hbstack/search v0.2.1 h1:u7DbLPZ0WO1db2ARb2reubn5KzPE3wG6NLrgylB6WQg=
 github.com/hbstack/search v0.2.1/go.mod h1:w9dTxAjAhIaV7P6zdeFd1XDo4LOpMhfpm6it7NWZtD8=
+github.com/hbstack/shortcodes v0.2.0 h1:8VMkMCeVnJaqq4wCwJ5vTx7UCRGMsR1cnd6HY20Wj1o=
+github.com/hbstack/shortcodes v0.2.0/go.mod h1:ZCAwPTlacmU57caw5bffiB6Lo4bPzprGfMOBWWJIDjI=
 github.com/hbstack/slide v0.3.1 h1:OdBsUs8w4/flxDlFAV8LelHSuJpckmyhZi8TWbY5zZA=
 github.com/hbstack/slide v0.3.1/go.mod h1:DXC2z0RZvREHl2+gcN6n90xD5c+l+edSkC1q/VUi8yI=
 github.com/hbstack/snackbar v0.1.2 h1:/9R2CdWnLcOBobxzdpe30cgM1gcKJAXtbVbZtp2pgmY=
@@ -134,6 +140,8 @@ github.com/hugomods/apache-echarts v5.5.0+incompatible h1:qiZR+Zg5wVbcqJQ56bVm/J
 github.com/hugomods/apache-echarts v5.5.0+incompatible/go.mod h1:RbEQGbCh0enpgPXOQK4E69LhmHsU91qsbOmMfwMYTEQ=
 github.com/hugomods/base v0.5.0 h1:++wQcEVJLft6sP9n8O7YhGEQRgwYiVX5hJeeqeLCEjc=
 github.com/hugomods/base v0.5.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
+github.com/hugomods/bootstrap v0.19.0 h1:+MtDukCQGaqOagNYsH8CS8gp1yVBQDkZnD4aVVQgGPA=
+github.com/hugomods/bootstrap v0.19.0/go.mod h1:NsS0rxUANr6nWIUrOK2Qw0T90lu4SdPUuglpodNl93k=
 github.com/hugomods/code-block-panel v0.5.0 h1:IjlVQZJccs02x0TaNxsLR4S2PRyzy3tBXE3nFT2vJxA=
 github.com/hugomods/code-block-panel v0.5.0/go.mod h1:3J9yUxaShbhYvFFZbGVHcBoHPl6TUKLL3f2fTsnVNNg=
 github.com/hugomods/decap-cms v0.14.1 h1:QJUJORZ95M9ylRfm06YzC17RmX5Dto0xIgr3dx3+ie4=
@@ -198,6 +206,8 @@ github.com/hugomods/seo/modules/base v0.1.1 h1:63exSBQ+CuyN+GEpbCQgTWgHcuiHia2Ox
 github.com/hugomods/seo/modules/base v0.1.1/go.mod h1:qfm1Vga0eGxL+Szgz8Jopm+NtJ5PGov2a2dikTg1qSg=
 github.com/hugomods/seo/modules/favicons v0.2.1 h1:9FP4DIbdmBhmUpBuJVJYo60iwv9Xc/XNQX1mT8zCNj0=
 github.com/hugomods/seo/modules/favicons v0.2.1/go.mod h1:xFDhrpWUZR4NMMVkilzT6xFBHiF5eyCQ8PlzOS2K9lY=
+github.com/hugomods/seo/modules/json-ld v0.2.0 h1:2tp2KiQtAtD9fj5nH+RcSRVR1Y/8efybMcAcZB+ados=
+github.com/hugomods/seo/modules/json-ld v0.2.0/go.mod h1:25NhBkb+Y0v56QVYPoCqp3R9gsuWc0oXRMeWQcUaW+s=
 github.com/hugomods/seo/modules/open-graph v0.1.0 h1:Whveal1j1n2xZWcAlNAd2rdfKp7Fh5apol36wLGLb54=
 github.com/hugomods/seo/modules/open-graph v0.1.0/go.mod h1:G7mXf7D1QtRN/i7A9v+cUF5P55H/QaxRqxJ8tp9fVq4=
 github.com/hugomods/seo/modules/schema v0.1.1 h1:8IuJxCOxk9pfKpCFMik5fDCX7zaFwkGoeKacnYV0sgA=
@@ -206,6 +216,8 @@ github.com/hugomods/seo/modules/translations v0.1.0 h1:wPDuPKGx/x+otHn2HfAankKCG
 github.com/hugomods/seo/modules/translations v0.1.0/go.mod h1:yU2p2hk2dK86YNRU9zfoWRoCrYmrjEmf3oN7cCTbzcM=
 github.com/hugomods/seo/modules/twitter-cards v0.1.0 h1:jH9WfmFZ3kCndUkATM/D/BYL+TQYoXA7/IxgQJbifKQ=
 github.com/hugomods/seo/modules/twitter-cards v0.1.0/go.mod h1:QYs7SWbhXSQrsn/RHZSD7DwzaCHFpoLQdVPxEI3j63k=
+github.com/hugomods/shortcodes v0.18.1 h1:mu0tGzx9Td1YfLD+f4i6GCltM3XLP5dNaXUj8KGytPQ=
+github.com/hugomods/shortcodes v0.18.1/go.mod h1:EnVopbZMNI/HeteM3Lp3phBTCRLvPSe7l142qhRFFPY=
 github.com/hugomods/simple-icons v11.8.0+incompatible h1:AgUvLSvOdBtt+aTEKmHsEMZLSS0ltnN/lfQY3jaxJC4=
 github.com/hugomods/simple-icons v11.8.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
 github.com/hugomods/snackbar v0.1.2 h1:SLpfH9jlYwf81epH7DvM2XTZHo+3fXXpk6XKtxmo964=
