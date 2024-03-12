@@ -45,7 +45,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: /home/runner/.cache/hugo_cache
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          key: ${{ runner.os }}-hugomod-${{ hashFiles(format('{0}/go.sum', inputs.name)) }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
 
