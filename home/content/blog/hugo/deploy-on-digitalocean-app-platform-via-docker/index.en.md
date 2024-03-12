@@ -17,7 +17,6 @@ authors:
   - HugoMods
 images:
   - /images/cloud.jpg
-  - dasdasd
 ---
 
 ## Requirements
