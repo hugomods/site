@@ -1,0 +1,22 @@
+- name: foo
+  position: 0
+  required: true
+  description:
+    default: Foo description.
+    zh-hans: Foo 描述。
+    zh-hant: Foo 描述。
+
+- name: bar
+  type: number
+  since: v0.2.0
+  deprecated: true
+  description:
+    default: Bar description.
+    zh-hans: Bar 描述。
+    zh-hant: Bar 描述。
+
+- name: fizz
+  description: Single description without translations.
+  options:
+    - one
+    - two

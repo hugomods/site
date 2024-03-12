@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+![Image Gamma](/images/great-wall.jpg?fit=200x200&gamma=2)
+{{< /hugo/shortcode-example >}}

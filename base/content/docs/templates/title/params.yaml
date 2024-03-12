@@ -1,0 +1,30 @@
+- name: title_separator
+  default: "-"
+  description:
+    default: Title separator.
+    zh-hans: 标题分隔符。
+    zh-hant: 標題分隔符。
+
+- name: title_sections
+  default: true
+  type: boolean
+  description:
+    default: When `false`, hide the sections titles.
+    zh-hans: 为 `false` 时隐藏栏目标题。
+    zh-hant: 為 `false` 時隱藏欄目標題。
+
+- name: title_sections_depth
+  default: '-'
+  type: number
+  description:
+    default: The maximum depth of sections.
+    zh-hans: 栏目的最大深度。
+    zh-hant: 欄目的最大深度。
+
+
+- name: title_sections_depth_dir
+  default: 'end'
+  description:
+    default: The direction for counting the sections, when `start`, the depth is counting from the root sections.
+    zh-hans: 栏目数目计算方向，为 `start` 时，深度是从根部开始计算的。
+    zh-hant: 欄目數目計算方向，為 `start` 時，深度是從根部開始計算的。

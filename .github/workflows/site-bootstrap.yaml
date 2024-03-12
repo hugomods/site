@@ -1,0 +1,16 @@
+name: site-bootstrap
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'common/**'
+      - 'bootstrap/**'
+
+jobs:
+  version-matrix:
+    uses: ./.github/workflows/site.yml
+    with:
+      name: bootstrap
+    secrets: inherit

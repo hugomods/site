@@ -1,0 +1,11 @@
+```markdown
+{{</* hugo/shortcode-example */>}}
+Title: {{</*/* param title */*/>}}
+{{</* /hugo/shortcode-example */>}}
+```
+
+Result as follows.
+
+{{< hugo/shortcode-example >}}
+Title: {{</* param title */>}}
+{{< /hugo/shortcode-example >}}

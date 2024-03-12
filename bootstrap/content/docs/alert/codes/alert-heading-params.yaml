@@ -1,0 +1,7 @@
+- name: title
+  position: 0
+  required: true
+  description:
+    default: "The title."
+    zh-hans: "标题。"
+    zh-hant: "標題。"

@@ -1,0 +1,33 @@
+```go-html-template
+{{/* baseof.html */}}
+<html>
+  <head>
+    <title>
+      {{ block "title" . }}{{ partial "base/title" . }}{{ end }}
+    </title>
+  </head>
+  <body>
+    {{ block "main" . }}{{ end }}
+  </body>
+</html>
+```
+
+```go-html-template
+{{/* list.html */}}
+{{ define "title" }}
+  {{ $mainSections := slice "blog" }}
+  {{ $pages := where .Site.RegularPages "Type" "in" $mainSections }}
+  {{/* We MUST initialize the paginator first. */}}
+  { $paginator := .Paginate $pages 10 }}
+  {{/* Then include the title partial. */}}
+  {{ partial "base/title" . }}
+{{ end }}
+
+{{ define "main" }}
+  {{/* Use the initialized paginator above. */}}
+  {{ range .Paginator.Pages }}
+    {{/* List pages. */}}
+  {{ end }}
+  {{ template "_internal/pagination.html" . }}
+{{ end }}
+```

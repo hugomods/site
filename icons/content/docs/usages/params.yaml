@@ -1,0 +1,49 @@
+- name: vendor
+  position: 0
+  required: true
+  description:
+    default: The vendor name of icons.
+    zh-hans: 图标供应商的名称。
+    zh-hant: 圖標供應商的名稱。
+
+- name: name
+  position: 1
+  required: true
+  description:
+    default: The icon name.
+    zh-hans: 图标名称。
+    zh-hant: 圖標名稱。
+
+- name: size
+  position: 2
+  default: 1em
+  description:
+    default: The square icon size.
+    zh-hans: 矩形图标大小。
+    zh-hant: 矩形圖標大小。
+
+- name: height
+  default: 1em
+  description:
+    default: The height of icon.
+    zh-hans: 图标高度。
+    zh-hant: 圖標高度。
+
+- name: width
+  default: 1em
+  description:
+    default: The width of icon.
+    zh-hans: 图标宽度。
+    zh-hant: 圖標寬度。
+
+- name: className
+  description:
+    default: The additional CSS class names of `<svg>` element. 
+    zh-hans: "`<svg>` 元素的额外 CSS 类名。"
+    zh-hant: "`<svg>` 元素的額外 CSS 類名。"
+
+- name: color
+  description:
+    default: The color of icon, e.g. {{< color blue >}}, {{< color red >}}, {{< color "#FF438A" >}}. 
+    zh-hans: 图标颜色，比如 {{< color blue >}}、{{< color red >}}、{{< color "#FF438A" >}}。
+    zh-hant: 圖標顏色，比如 {{< color blue >}}、{{< color red >}}、{{< color "#FF438A" >}}。

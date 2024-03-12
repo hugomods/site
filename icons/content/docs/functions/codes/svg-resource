@@ -1,0 +1,6 @@
+```go-html-template
+{{ $ctx := dict "vendor" "bootstrap" "name" "house" }}
+{{ with partialCached "icons/functions/svg-resource" $ctx $ctx }}
+  <img src="{{ .RelPermalink }}" />
+{{ end }}
+```

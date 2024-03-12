@@ -1,0 +1,304 @@
+main:
+  - name: 项目
+    identifier: projects
+    weight: 10
+    params:
+      description:
+      icon:
+        vendor: bs
+        name: boxes
+  
+  - name: HB 框架
+    parent: projects
+    weight: 1
+    url: https://hbstack.dev/
+    params:
+      description: 用于构建模块化主题和网站的 Hugo Bootstrap 框架。
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7952B3'
+  
+  - name: Docker
+    parent: projects
+    weight: 2
+    url: https://docker.hugomods.com/
+    params:
+      description: 极简的、自动化和最新的 Hugo Docker 镜像。
+      icon:
+        vendor: simple
+        name: docker
+        color: '#0397F4'
+  
+  - name: 搜索模块
+    parent: projects
+    weight: 2
+    url: https://search.hugomods.com/
+    params:
+      description: 强大、灵活和功能丰富的模糊搜索模块。
+      icon:
+        vendor: bs
+        name: search
+  
+  - name: 图片模块
+    parent: projects
+    weight: 3
+    url: https://images.hugomods.com/
+    params:
+      description: 通过 URL 查询字符串和片段处理图片，对 Markdown 友好。
+      icon:
+        vendor: bs
+        name: images
+  
+  - name: Decap CMS
+    parent: projects
+    weight: 4
+    url: https://decap-cms.hugomods.com/
+    params:
+      description: Decap CMS（前身为 Netlify CMS）模块。
+      icon:
+        vendor: bs
+        name: gear-wide-connected
+        className: text-success
+  
+  - name: PWA
+    parent: projects
+    weight: 5
+    url: https://pwa.hugomods.com/
+    params:
+      description: 使网站离线可用、可安装等。
+      icon:
+        vendor: bs
+        name: rocket
+        className: text-danger
+  
+  - name: HugoPress
+    parent: projects
+    weight: 6
+    url: https://hugopress.hugomods.com/
+    params:
+      description: 用于构建主题的钩子系统。
+      icon:
+        vendor: bs
+        name: plugin
+        className: text-primary
+  
+  - name: Bootstrap
+    parent: projects
+    weight: 7
+    url: https://bootstrap.hugomods.com/
+    params:
+      description: Bootstrap 短代码。
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7952B3'
+  
+  - name: 短代码
+    parent: projects
+    weight: 8
+    url: https://shortcodes.hugomods.com/
+    params:
+      description: 扩展的 Hugo 短代码。
+      icon:
+        vendor: bs
+        name: code-square
+        className: text-success
+  
+  - name: 图标模块
+    parent: projects
+    weight: 9
+    url: https://icons.hugomods.com/
+    params:
+      description: 支持流行的图标集的 SVG 图标模块。
+      icon:
+        vendor: fas
+        name: icons
+        className: text-danger
+  
+  - name: SEO 模块
+    parent: projects
+    weight: 10
+    url: https://seo.hugomods.com/
+    params:
+      description: Schema、推特卡片、Open Graph、JSON-LD 等。
+      icon:
+        vendor: tabler/outline
+        name: seo
+        color: '#2350A9'
+  
+  - name: 基础模块
+    parent: projects
+    weight: 11
+    url: https://base.hugomods.com/
+    params:
+      description: 基础的、实用的模板和方法。
+      icon:
+        vendor: bs
+        name: fan
+        className: text-primary
+  
+  - name: 其他
+    parent: projects
+    weight: 12
+    url: https://hugomods.com/docs/
+    params:
+      description: 其他模块和工具。
+      icon:
+        vendor: bs
+        name: three-dots
+
+  - name: 社区
+    weight: 11
+    identifier: community
+    params:
+      icon:
+        name: headset
+  
+  - name: GitHub
+    parent: community
+    url: https://github.com/hugomods
+    weight: 1
+    params:
+      description: GitHub 组织。
+      icon:
+        vendor: simple
+        name: github
+  
+  - name: 讨论
+    parent: community
+    weight: 2
+    url: https://github.com/orgs/hugomods/discussions
+    params:
+      description: 提问、交流、反馈问题和 Bugs。
+      icon:
+        vendor: bs
+        name: chat-dots
+  
+  - name: 博客
+    parent: community
+    url: https://blog.hugomods.com/
+    params:
+      description: 教程、新闻、发布等。
+      icon:
+        vendor: bs
+        name: card-heading
+
+apps:
+  - name: 主页
+    weight: 1
+    url: https://hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: house
+        className: text-primary
+  
+  - name: HB 框架
+    weight: 2
+    url: https://hbstack.dev/
+    params:
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7952B3'
+  
+  - name: Docker
+    weight: 3
+    url: https://docker.hugomods.com/
+    params:
+      description: 极简的、自动化和最新的 Hugo Docker 镜像。
+      icon:
+        vendor: simple
+        name: docker
+        color: '#0397F4'
+  
+  - name: 搜索
+    weight: 3
+    url: https://search.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: search
+        className: text-info
+  
+  - name: 图片模块
+    weight: 4
+    url: https://images.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: images
+        color: '#4CC5F3'
+  
+  - name: Decap CMS
+    weight: 5
+    url: https://decap-cms.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: gear-wide-connected
+        className: text-success
+  
+  - name: PWA
+    weight: 6
+    url: https://pwa.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: rocket
+        className: text-danger
+  
+  - name: HugoPress
+    weight: 7
+    url: https://hugopress.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: plugin
+        className: text-primary
+  
+  - name: Bootstrap
+    weight: 8
+    url: https://bootstrap.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7952B3'
+  
+  - name: 短代码
+    weight: 9
+    url: https://shortcodes.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: code-square
+        className: text-success
+  
+  - name: 图标模块
+    weight: 10
+    url: https://icons.hugomods.com/
+    params:
+      icon:
+        vendor: fas
+        name: icons
+        className: text-danger
+  
+  - name: SEO
+    weight: 11
+    url: https://seo.hugomods.com/
+    params:
+      icon:
+        vendor: tabler/outline
+        name: seo
+        color: '#2350A9'
+  
+  - name: 基础模块
+    weight: 12
+    url: https://base.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: fan
+        className: text-primary

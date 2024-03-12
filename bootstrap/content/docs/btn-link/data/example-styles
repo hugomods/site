@@ -1,0 +1,35 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/btn-link "#button-link-styles" "primary" */>}}
+Primary
+{{</* /bs/btn-link */>}}
+
+{{</* bs/btn-link url="#button-link-styles" style="secondary" text="Secondary" /*/>}}
+
+{{</* bs/btn-link "#button-link-styles" "success" */>}}
+Success
+{{</* /bs/btn-link */>}}
+
+{{</* bs/btn-link "#button-link-styles" "danger" */>}}
+Danger
+{{</* /bs/btn-link */>}}
+
+{{</* bs/btn-link "#button-link-styles" "warning" */>}}
+Warning
+{{</* /bs/btn-link */>}}
+
+{{</* bs/btn-link "#button-link-styles" "info" */>}}
+Info
+{{</* /bs/btn-link */>}}
+
+{{</* bs/btn-link "#button-link-styles" "light" */>}}
+Light
+{{</* /bs/btn-link */>}}
+
+{{</* bs/btn-link "#button-link-styles" "dark" */>}}
+Dark
+{{</* /bs/btn-link */>}}
+
+{{</* bs/btn-link  "#button-link-styles" "link" */>}}
+Link
+{{</* /bs/btn-link */>}}
+{{< /hugo/shortcode-example >}}

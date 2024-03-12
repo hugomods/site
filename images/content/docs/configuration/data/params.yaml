@@ -1,0 +1,55 @@
+- name: alignment_center_class_name
+  default: d-block text-center
+  description:
+    default: The class name of `<picture>` and `<figure>` when aligning to center.
+    zh-hans: 居中时 `<picture>` 和 `<figure>` 的类名。
+    zh-hant: 居中時 `<picture>` 和 `<figure>` 的類名。
+
+- name: alignment_end_class_name
+  default: float-end ms-2
+  description:
+    default: The class name of `<picture>`/`<figure>` when floating on end (right).
+    zh-hans: 右侧浮动时 `<picture>` 和 `<figure>` 的类名。
+    zh-hant: 右側浮動時 `<picture>` 和 `<figure>` 的類名。
+
+- name: alignment_start_class_name
+  default: float-start me-2
+  description:
+    default: The class name of `<picture>`/`<figure>` when floating on start (left).
+    zh-hans: 左侧浮动时 `<picture>` 和 `<figure>` 的类名。
+    zh-hant: 左側浮動時 `<picture>` 和 `<figure>` 的類名。
+
+- name: class_name
+  default: img-fluid
+  description:
+    default: The class name of `<img>`.
+    zh-hans: "`<img>` 的类名。"
+    zh-hant: "`<img>` 的類名。"
+
+- name: figure_class_name
+  default: figure
+  description:
+    default: The class name of `<figure>`.
+    zh-hans: "`<figure>` 的类名。"
+    zh-hant: "`<figure>` 的類名。"
+
+- name: figure_caption_class_name
+  default: figure-caption
+  description:
+    default: The class name of `<figcaption>`.
+    zh-hans: "`<figcaption>` 的类名。"
+    zh-hant: "`<figcaption>` 的類名。"
+
+- name: figure_image_class_name
+  default: figure-img
+  description:
+    default: This class name will be appended into the `<img>` class list if caption is set.
+    zh-hans: 当设置了说明文本，该类名将会追加到 `<img>`。
+    zh-hant: 當設置了說明文本，該類名將會追加到 `<img>`。
+
+- name: modern_format
+  default: webp
+  description:
+    default: Generate modern format version of image, empty to disable.
+    zh-hans: 生成现代图片格式，为空则禁用。
+    zh-hant: 生成現代圖片格式，為空則禁用。

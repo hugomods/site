@@ -1,0 +1,10 @@
+{{< hugo/shortcode-example >}}
+{{%/* bs/container */%}}
+{{%/* bs/row class="text-center" */%}}
+{{%/* bs/col class="border py-3" size="12 md:6 lg:3" */%}}Col{{%/* /bs/col */%}}
+{{%/* bs/col class="border py-3" size="12 md:6 lg:3" */%}}Col{{%/* /bs/col */%}}
+{{%/* bs/col class="border py-3" size="12 md:6 lg:3" */%}}Col{{%/* /bs/col */%}}
+{{%/* bs/col class="border py-3" size="12 md:6 lg:3" */%}}Col{{%/* /bs/col */%}}
+{{%/* /bs/row */%}}
+{{%/* /bs/container */%}}
+{{< /hugo/shortcode-example >}}

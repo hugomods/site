@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+![Image Sepia](/images/great-wall.jpg?fit=200x200&sepia=200)
+{{< /hugo/shortcode-example >}}

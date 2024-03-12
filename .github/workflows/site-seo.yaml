@@ -1,0 +1,16 @@
+name: site-seo
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'common/**'
+      - 'seo/**'
+
+jobs:
+  version-matrix:
+    uses: ./.github/workflows/site.yml
+    with:
+      name: seo
+    secrets: inherit

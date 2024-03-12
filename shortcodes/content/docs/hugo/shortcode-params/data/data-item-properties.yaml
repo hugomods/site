@@ -1,0 +1,74 @@
+- name: name
+  required: true
+  description:
+    default: The parameter name.
+    zh-hans: 参数名。
+    zh-hant: 參數名。
+
+- name: position
+  type: number
+  description:
+    default: The index of positional parameter.
+    zh-hans: 位置参数的索引。
+    zh-hant: 位置參數的索引。
+
+- name: type
+  default: string
+  description:
+    default: The type of parameter.
+    zh-hans: 参数类型。
+    zh-hant: 參數類型。
+
+- name: required
+  type: boolean
+  default: false
+  description:
+    default: Indicates whether if the parameter is required.
+    zh-hans: 表示参数是否必填。
+    zh-hant: 表示參數是否必填。
+
+- name: default
+  description:
+    default: The default value of parameter.
+    zh-hans: 参数默认值。
+    zh-hant: 參數默認值。
+
+- name: since
+  description:
+    default: Indicates the version in which the parameter is added.
+    zh-hans: 表示添加参数的版本。
+    zh-hant: 表示添加參數的版本。
+
+- name: description
+  required: true
+  type: string/object
+  description:
+    default: The description, support Markdown.
+    zh-hans: 参数说明，支持 Markdown。
+    zh-hant: 參數說明，支持 Markdown。
+
+- name: description.default
+  description:
+    default: The default description.
+    zh-hans: 默认的参数说明。
+    zh-hant: 默認的參數說明。
+
+- name: description.[lang]
+  description:
+    default: Language-specific description.
+    zh-hans: 特定语言的描述。
+    zh-hant: 特定語言的描述。
+
+- name: options
+  type: array
+  description:
+    default: Available options.
+    zh-hans: 可选项。
+    zh-hant: 可選項。
+
+- name: deprecated
+  default: false
+  description:
+    default: Indicates whether if the parameter is deprecated.
+    zh-hans: 表示参数是否已被弃用。
+    zh-hant: 表示參數是否已被棄用。

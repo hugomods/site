@@ -1,0 +1,16 @@
+name: site-shortcodes
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'common/**'
+      - 'shortcodes/**'
+
+jobs:
+  version-matrix:
+    uses: ./.github/workflows/site.yml
+    with:
+      name: shortcodes
+    secrets: inherit

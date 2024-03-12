@@ -1,0 +1,5 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/btn-link url="#button-link-with-extra-classes" size=lg class="d-block py-3 rounded-0" */>}}
+Button link with extra classes
+{{</* /bs/btn-link */>}}
+{{< /hugo/shortcode-example >}}

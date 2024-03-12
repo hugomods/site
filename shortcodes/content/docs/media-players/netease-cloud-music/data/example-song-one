@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+{{</* netease-cloud-music 1978593877 song true "Forget (Slowed Down) - Storm Lake" */>}}
+{{< /hugo/shortcode-example >}}

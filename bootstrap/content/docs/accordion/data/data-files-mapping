@@ -1,0 +1,8 @@
+| Path                | Data      |
+| ------------------- | --------- |
+| `data/faq.yaml`     | `faq`     |
+| `data/faq.toml`     | `faq`     |
+| `data/faq.json`     | `faq`     |
+| `data/sub/faq.yaml` | `sub.faq` |
+| `data/sub/faq.toml` | `sub.faq` |
+| `data/sub/faq.json` | `sub.faq` |

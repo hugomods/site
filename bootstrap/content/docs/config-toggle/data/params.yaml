@@ -1,0 +1,42 @@
+- name: filename
+  position: 0
+  description:
+    default: The filename.
+    zh-hans: 文件名。
+    zh-hant: 文件名。
+
+- name: langs
+  position: 1
+  default: toml,yaml,json
+  description:
+    default: The comma-separated target languages, can be used to exclude and sort languages.
+    zh-hans: 逗号分隔的目标语言，可用于排除语言或重新排序。
+    zh-hant: 逗號分隔的目標語言，可用於排除語言或重新排序。
+
+- name: style
+  default: tabs
+  description:
+    default: "Style: `tabs`, `pills` or `underline`."
+    zh-hans: "样式：`tabs`、`pills`、`underline`."
+    zh-hant: "樣式：`tabs`、`pills`、`underline`."
+
+- name: fill
+  default: false
+  type: boolean
+  description:
+    default: When `true` the nav items take full width.
+    zh-hans: 为 `true` 时，占用全宽。
+    zh-hant: 為 `true` 時，佔用全寬。
+
+- name: title
+  description:
+    default: The title of configuration.
+    zh-hans: 配置标题。
+    zh-hant: 配置標題。
+
+- name: delimiter
+  type: boolean
+  description:
+    default: When `true`, wraps codes with delimiters.
+    zh-hans: 为 `true` 时，用分隔符包裹代码。
+    zh-hant: 為 `true` 時，用分隔符包裹代碼。

@@ -1,0 +1,7 @@
+- name: id
+  required: true
+  position: 0
+  description:
+    default: The video ID.
+    zh-hans: 视频 ID。
+    zh-hant: 視頻 ID。

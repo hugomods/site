@@ -1,0 +1,3 @@
+```scss
+@import 'mods/bootstrap/scss/index';
+```

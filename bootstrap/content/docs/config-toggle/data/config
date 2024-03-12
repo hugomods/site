@@ -1,0 +1,9 @@
+{{% bs/config-toggle hugo %}}
+params:
+  bootstrap:
+    config_toggle:
+      langs:
+        - yaml
+        - toml
+        - json
+{{% /bs/config-toggle %}}

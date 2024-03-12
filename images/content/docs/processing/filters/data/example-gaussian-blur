@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+![Image GaussianBlur](/images/great-wall.jpg?fit=200x200&gaussianBlur=2)
+{{< /hugo/shortcode-example >}}

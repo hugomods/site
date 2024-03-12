@@ -1,0 +1,7 @@
+```go-html-template
+{{ partial "images/image" (dict
+  "Page" .
+  "Filename" "/path/to/image.png"
+  "Alt" "Example Image"
+) }}
+```

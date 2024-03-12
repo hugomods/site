@@ -1,0 +1,16 @@
+name: site-blog
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'common/**'
+      - 'blog/**'
+
+jobs:
+  version-matrix:
+    uses: ./.github/workflows/site.yml
+    with:
+      name: blog
+    secrets: inherit

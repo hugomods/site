@@ -1,0 +1,36 @@
+- name: url
+  description:
+    default: The URL or reference of button link, it'll look for the reference page first for internal pages.
+    zh-hans: 链接，将优先使用内部页面链接。
+    zh-hant: 鏈接，將優先使用內部頁面鏈接。
+  position: 0
+  required: true
+
+- name: style
+  default: primary
+  description:
+    default: "The button link style: `primary`, `secondary`, `success`, `danger`, `warning`, `info`, `light`, `dark`, `link`."
+    zh-hans: "样式：`primary`、`secondary`、`success`、`danger`、`warning`、`info`、`light`、`dark`、`link`。"
+    zh-hant: "樣式：`primary`、`secondary`、`success`、`danger`、`warning`、`info`、`light`、`dark`、`link`。"
+  position: 1
+
+- name: outline
+  default: false
+  description:
+    default: Whether to enable outline style.
+    zh-hans: 是否启用 outline 样式。
+    zh-hant: 是否啟用 outline 樣式。
+  position: 2
+
+- name: size
+  description:
+    default: "The size of button link: `sm`, `lg`."
+    zh-hans: 按钮链接的大小：`sm`、`lg`。
+    zh-hant: 按鈕鏈接的大小：`sm`、`lg`。
+  position: 3
+
+- name: class
+  description:
+    default: Used to add extra CSS classes.
+    zh-hans: 用于添加额外的 CSS 类名。
+    zh-hant: 用於添加額外的 CSS 類名。

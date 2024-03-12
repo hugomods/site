@@ -1,9 +1,8 @@
-hugopress:
-  modules:
-    hb-header-search:
-      disable: true
-
 hb:
   header:
-    brand: Hugo Modules
-    brand_url: https://hugomods.com/
+    brand: Icons
+    logo: false
+    git_repo:
+      service: github
+      owner: hugomods
+      name: icons

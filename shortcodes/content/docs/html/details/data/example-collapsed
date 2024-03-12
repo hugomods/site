@@ -1,0 +1,7 @@
+{{< hugo/shortcode-example >}}
+{{%/* details "hello.php" */%}}
+```php
+echo "Hello world!";
+```
+{{%/* /details */%}}
+{{< /hugo/shortcode-example >}}

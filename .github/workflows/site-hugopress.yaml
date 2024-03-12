@@ -1,0 +1,16 @@
+name: site-hugopress
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'common/**'
+      - 'hugopress/**'
+
+jobs:
+  version-matrix:
+    uses: ./.github/workflows/site.yml
+    with:
+      name: hugopress
+    secrets: inherit

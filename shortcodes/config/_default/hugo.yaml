@@ -1,0 +1,82 @@
+enableRobotsTXT: true
+
+outputs:
+  home:
+    - DecapCMSConfig
+    - HTML
+    - Offline
+    - SearchIndex
+    - RSS
+    - WebAppManifest
+
+taxonomies:
+  _merge: shallow
+
+markup:
+  _merge: deep
+
+build:
+  _merge: shallow
+
+menus:
+  _merge: deep
+
+module:
+  imports:
+    - path: github.com/hugomods/site/common
+
+params:
+  images:
+    - images/laptop.jpg
+  hb:
+    header:
+      logo: false
+      brand: Shortcodes
+      git_repo:
+        service: github
+        owner: hugomods
+        name: shortcodes
+    content_panel:
+      repo:
+        subpath: shortcodes
+
+baseURL: https://shortcodes.hugomods.com/
+
+languages:
+  _merge: deep
+
+  en:
+    title: Hugo Extended Shortcodes | HugoMods
+    # baseURL: https://shortcodes.hugomods.com/
+    params:
+      description: A variety of extended shortcodes to help users easily write beautiful, maintainable Markdown content.
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: Third party Hugo modules and tools for building fast, modular, modern themes and static websites.
+
+  zh-hans:
+    title: Hugo 扩展短代码 | HugoMods
+    # baseURL: https://zh-hans.shortcodes.hugomods.com/
+    params:
+      description: "各种扩展的短代码，以帮助用户轻松编写漂亮、可维护的 Markdown 内容。"
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: 用于构建快速、模块化和现代化的主题和静态网站的第三方 Hugo 模块和工具。
+
+  zh-hant:
+    title: Hugo 擴展短代碼 | HugoMods
+    # baseURL: https://zh-hant.shortcodes.hugomods.com/
+    params:
+      description: "各種擴展的短代碼，以幫助用戶輕鬆編寫漂亮、可維護的 Markdown 內容。"
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: 用於構建快速、模塊化和現代化的主題和靜態網站的第三方 Hugo 模塊和工具。
+
+security:
+  _merge: deep
+
+server:
+  _merge: deep

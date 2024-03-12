@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+![Image Contrast](/images/great-wall.jpg?fit=200x200&contrast=50)
+{{< /hugo/shortcode-example >}}

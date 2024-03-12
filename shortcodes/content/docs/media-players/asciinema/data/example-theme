@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+{{</* asciinema id=573031 theme=solarized-dark */>}}
+{{< /hugo/shortcode-example >}}

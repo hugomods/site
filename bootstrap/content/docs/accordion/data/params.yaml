@@ -1,0 +1,23 @@
+- name: data
+  position: 0
+  required: true
+  description:
+    default: The data filename without extension.
+    zh-hans: 不带扩展名的数据文件名称。
+    zh-hant: 不帶擴展名的數據文件名稱。
+
+- name: flush
+  type: boolean
+  default: false
+  description:
+    default: When `true`, remove some borders and rounded corners to render accordions edge-to-edge with their parent container.
+    zh-hans: 为 `true` 时，去除边框和圆角，使手风琴与其父容器的边对边呈现。
+    zh-hant: 為 `true` 時，去除邊框和圓角，使手風琴與其父容器的邊對邊呈現。
+
+- name: alwaysOpen
+  type: boolean
+  default: false
+  description:
+    default: When `true`, make accordion items stay open when another item is opened.
+    zh-hans: 为 `true` 时，当另一个条目打开时，使手风琴条目保持打开状态。
+    zh-hant: 為 `true` 時，當另一個條目打開時，使手風琴條目保持打開狀態。

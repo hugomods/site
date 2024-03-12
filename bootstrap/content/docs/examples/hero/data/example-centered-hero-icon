@@ -1,0 +1,19 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/container fluid "mb-5 px-4 py-5" */>}}
+
+  {{</* bs/row class="justify-content-center align-items-center" */>}}
+
+    {{</* bs/col size="12" class="mb-3 text-center" */>}}
+      {{</* ico vendor=bs name=bootstrap size=5em className="mb-3" color="#702DF6" */>}}
+      {{</* bs/display level=4 class="fw-bold text-center" */>}}{{</* param title */>}}{{</* /bs/display */>}}
+      {{</* bs/lead class="mb-4" */>}}{{</* param description */>}}{{</* /bs/lead */>}}
+      {{</* html/div class="d-grid gap-3 d-sm-flex justify-content-sm-center flex-wrap" */>}}
+        {{</* bs/btn-link url="#" size=lg class="p-3" */>}}Primary button{{</* /bs/btn-link */>}}
+        {{</* bs/btn-link url="#" size=lg style=secondary class="p-3" */>}}Secondary button{{</* /bs/btn-link */>}}
+      {{</* /html/div */>}}
+    {{</* /bs/col */>}}
+
+  {{</* /bs/row */>}}
+
+{{</* /bs/container */>}}
+{{< /hugo/shortcode-example >}}

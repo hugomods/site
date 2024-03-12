@@ -1,0 +1,24 @@
+.navbar-brand {
+  font-family: Protest Guerrilla;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+.hb-docs-doc-toc {
+  .hb-module {
+    margin-bottom: .25rem;
+  }
+
+  .hb-thanks-socials {
+    margin-bottom: .25rem !important;
+  }
+}
+
+// html {
+//   &[lang=zh-hans],
+//   &[lang=zh-hant] {
+//     .navbar-brand {
+//       font-family: inherit;
+//     }
+//   }
+// }

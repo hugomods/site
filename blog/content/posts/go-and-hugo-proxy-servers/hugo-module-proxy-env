@@ -1,0 +1,22 @@
+{{< bs/toggle "hugo-module-proxy-env" >}}
+
+{{% bs/toggle-item "Configuration" %}}
+{{< bs/config-toggle hugo >}}
+module:
+  proxy: https://goproxy.cn,direct
+{{< /bs/config-toggle >}}
+{{% /bs/toggle-item %}}
+
+{{% bs/toggle-item "Unix-like" %}}
+```sh
+export HUGO_MODULE_PROXY=https://goproxy.cn/,direct
+```
+{{% /bs/toggle-item %}}
+
+{{% bs/toggle-item "Windows PowerShell" %}}
+```sh
+$ENV:HUGO_MODULE_PROXY="https://goproxy.cn/,direct"
+```
+{{% /bs/toggle-item %}}
+
+{{< /bs/toggle >}}

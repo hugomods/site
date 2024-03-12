@@ -1,0 +1,29 @@
+- title: Automated
+  description: We set up a [scheduled workflow](https://github.com/hugomods/docker/actions) to check and build latest Hugo Docker images every _30_ mins.
+  icon:
+    name: robot
+    color: green
+
+- title: Up to date
+  description: With the automated workflow, you don't need to worry about the Hugo Docker images becoming out-of-date.
+  icon:
+    name: arrow-clockwise
+    className: text-primary
+
+- title: Minimal
+  description: We offer a wide range of images variants to suit your requirements, such as *extended* version, *Git*, *Go*, *Node.js*, *NPM*, *Dart Sass* etc.
+  icon:
+    name: boxes
+    color: green
+
+- title: Multiple Registries
+  description: The images will be pushed to both [Docker Hub](https://hub.docker.com/r/hugomods/hugo) and [GitHub Container Registry](https://github.com/hugomods/docker/pkgs/container/hugo).
+  icon:
+    name: cloud
+    color: skyblue
+
+- title: Architectures
+  description: All images support `linux/amd64` and `linux/arm64` architectures.
+  icon:
+    vendor: fab
+    name: linux

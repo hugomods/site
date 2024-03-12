@@ -1,0 +1,11 @@
+| Page            |  Kind   | Title                          |
+| --------------- | :-----: | ------------------------------ |
+| `/`             |  Home   | My Site.                       |
+| `/page/1`       |  List   | My Site - Page 1 of N.         |
+| `/page/2`       |  List   | My Site - Page 2 of N.         |
+| `/blog`         | Section | Blog - My Site.                |
+| `/blog/page/1`  | Section | Blog - Page 1 of N. - My Site. |
+| `/blog/page/2`  | Section | Blog - Page 1 of N. - My Site. |
+| `/blog/hello`   |  Page   | Hello world - Blog - My Site.  |
+| `/blog/foo`     | Section | Foo - My Site.                 |
+| `/blog/foo/bar` |  Page   | Bar - Foo - My Site.           |

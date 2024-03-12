@@ -1,0 +1,16 @@
+name: site-echarts
+
+on:
+  push:
+    branches:
+      - kroki
+    paths:
+      - 'common/**'
+      - 'kroki/**'
+
+jobs:
+  version-matrix:
+    uses: ./.github/workflows/site.yml
+    with:
+      name: kroki
+    secrets: inherit

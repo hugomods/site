@@ -1,0 +1,305 @@
+main:
+  - name: 項目
+    identifier: projects
+    weight: 10
+    params:
+      description:
+      icon:
+        vendor: bs
+        name: boxes
+  
+  - name: HB 框架
+    parent: projects
+    weight: 1
+    url: https://hbstack.dev/
+    params:
+      description: 用於構建模塊化主題和網站的 Hugo Bootstrap 框架。
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7952B3'
+  
+  - name: Docker
+    parent: projects
+    weight: 2
+    url: https://docker.hugomods.com/
+    params:
+      description: 極簡的、自動化和最新的 Hugo Docker 鏡像。
+      icon:
+        vendor: simple
+        name: docker
+        color: '#0397F4'
+  
+  - name: 搜索模塊
+    parent: projects
+    weight: 2
+    url: https://search.hugomods.com/
+    params:
+      description: 強大、靈活和功能豐富的模糊搜索模塊。
+      icon:
+        vendor: bs
+        name: search
+  
+  - name: 圖片模塊
+    parent: projects
+    weight: 3
+    url: https://images.hugomods.com/
+    params:
+      description: 通過 URL 查詢字符串和片段處理圖片，對 Markdown 友好。
+      icon:
+        vendor: bs
+        name: images
+  
+  - name: Decap CMS
+    parent: projects
+    weight: 4
+    url: https://decap-cms.hugomods.com/
+    params:
+      description: Decap CMS（前身為 Netlify CMS）模塊。
+      icon:
+        vendor: bs
+        name: gear-wide-connected
+        className: text-success
+  
+  - name: PWA
+    parent: projects
+    weight: 5
+    url: https://pwa.hugomods.com/
+    params:
+      description: 使網站離線可用、可安裝等。
+      icon:
+        vendor: bs
+        name: rocket
+        className: text-danger
+  
+  - name: HugoPress
+    parent: projects
+    weight: 6
+    url: https://hugopress.hugomods.com/
+    params:
+      description: 用於構建主題的鉤子系統。
+      icon:
+        vendor: bs
+        name: plugin
+        className: text-primary
+  
+  - name: Bootstrap
+    parent: projects
+    weight: 7
+    url: https://bootstrap.hugomods.com/
+    params:
+      description: Bootstrap 短代碼。
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7952B3'
+  
+  - name: 短代碼
+    parent: projects
+    weight: 8
+    url: https://shortcodes.hugomods.com/
+    params:
+      description: 擴展的 Hugo 短代碼。
+      icon:
+        vendor: bs
+        name: code-square
+        className: text-success
+  
+  - name: 圖標模塊
+    parent: projects
+    weight: 9
+    url: https://icons.hugomods.com/
+    params:
+      description: 支持流行的圖標集的 SVG 圖標模塊。
+      icon:
+        vendor: fas
+        name: icons
+        className: text-danger
+  
+  - name: SEO 模塊
+    parent: projects
+    weight: 10
+    url: https://seo.hugomods.com/
+    params:
+      description: Schema、推特卡片、Open Graph、JSON-LD 等。
+      icon:
+        vendor: tabler/outline
+        name: seo
+        color: '#2350A9'
+  
+  - name: 基礎模塊
+    parent: projects
+    weight: 11
+    url: https://base.hugomods.com/
+    params:
+      description: 基礎的、實用的模板和方法。
+      icon:
+        vendor: bs
+        name: fan
+        className: text-primary
+  
+  - name: 其他
+    parent: projects
+    weight: 12
+    url: https://hugomods.com/docs/
+    params:
+      description: 其他模塊和工具。
+      icon:
+        vendor: bs
+        name: three-dots
+
+  - name: 社區
+    weight: 11
+    identifier: community
+    params:
+      icon:
+        name: headset
+  
+  - name: GitHub
+    parent: community
+    url: https://github.com/hugomods
+    weight: 1
+    params:
+      description: GitHub 組織。
+      icon:
+        vendor: simple
+        name: github
+  
+  - name: 討論
+    parent: community
+    weight: 2
+    url: https://github.com/orgs/hugomods/discussions
+    params:
+      description: 提問、交流、反饋問題和 Bugs。
+      icon:
+        vendor: bs
+        name: chat-dots
+  
+  - name: 博客
+    parent: community
+    url: https://blog.hugomods.com/
+    params:
+      description: 教程、新聞、發佈等。
+      icon:
+        vendor: bs
+        name: card-heading
+
+apps:
+  - name: 主頁
+    weight: 1
+    url: https://hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: house
+        className: text-primary
+  
+  - name: HB 框架
+    weight: 2
+    url: https://hbstack.dev/
+    params:
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7952B3'
+  
+  - name: Docker
+    weight: 3
+    url: https://docker.hugomods.com/
+    params:
+      description: 極簡的、自動化和最新的 Hugo Docker 鏡像。
+      icon:
+        vendor: simple
+        name: docker
+        color: '#0397F4'
+  
+  - name: 搜索
+    weight: 3
+    url: https://search.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: search
+        className: text-info
+  
+  - name: 圖片模塊
+    weight: 4
+    url: https://images.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: images
+        color: '#4CC5F3'
+  
+  - name: Decap CMS
+    weight: 5
+    url: https://decap-cms.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: gear-wide-connected
+        className: text-success
+  
+  - name: PWA
+    weight: 6
+    url: https://pwa.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: rocket
+        className: text-danger
+  
+  - name: HugoPress
+    weight: 7
+    url: https://hugopress.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: plugin
+        className: text-primary
+  
+  - name: Bootstrap
+    weight: 8
+    url: https://bootstrap.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7952B3'
+  
+  - name: 短代碼
+    weight: 9
+    url: https://shortcodes.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: code-square
+        className: text-success
+  
+  - name: 圖標模塊
+    weight: 10
+    url: https://icons.hugomods.com/
+    params:
+      icon:
+        vendor: fas
+        name: icons
+        className: text-danger
+  
+  - name: SEO
+    weight: 11
+    url: https://seo.hugomods.com/
+    params:
+      icon:
+        vendor: tabler/outline
+        name: seo
+        color: '#2350A9'
+  
+  - name: 基礎模塊
+    weight: 12
+    url: https://base.hugomods.com/
+    params:
+      description: 基礎的、有用的模板和方法。
+      icon:
+        vendor: bs
+        name: fan
+        className: text-primary

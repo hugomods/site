@@ -1,0 +1,80 @@
+enableRobotsTXT: true
+
+outputs:
+  home:
+    - DecapCMSConfig
+    - HTML
+    - Offline
+    - SearchIndex
+    - RSS
+    - WebAppManifest
+
+taxonomies:
+  _merge: shallow
+
+markup:
+  _merge: deep
+
+build:
+  _merge: shallow
+
+menus:
+  _merge: deep
+
+module:
+  imports:
+    - path: github.com/hugomods/site/common
+
+params:
+  hb:
+    header:
+      logo: false
+      brand: SEO
+      git_repo:
+        service: github
+        owner: hugomods
+        name: seo
+    content_panel:
+      repo:
+        subpath: seo
+
+baseURL: https://seo.hugomods.com/
+
+languages:
+  _merge: deep
+
+  en:
+    title: Hugo SEO Module | HugoMods
+    # baseURL: https://seo.hugomods.com/
+    params:
+      description: Improve site ranking with SEO (Search Engine Optimization) modules, such as JSON-LD, Schema, Twitter Cards, Open Graph and more.
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: Third party Hugo modules and tools for building fast, modular, modern themes and static websites.
+
+  zh-hans:
+    title: Hugo SEO 模块 | HugoMods
+    # baseURL: https://zh-hans.seo.hugomods.com/
+    params:
+      description: 利用 SEO（搜索引擎优化）模块提高网站排名，如 JSON-LD、Schema、Twitter 卡片、Open Graph 等。
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: 用于构建快速、模块化和现代化的主题和静态网站的第三方 Hugo 模块和工具。
+
+  zh-hant:
+    title: Hugo SEO 模塊 | HugoMods
+    # baseURL: https://zh-hant.seo.hugomods.com/
+    params:
+      description: 利用 SEO（搜索引擎優化）模塊提高網站排名，如 JSON-LD、Schema、Twitter 卡片、Open Graph 等。
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: 用於構建快速、模塊化和現代化的主題和靜態網站的第三方 Hugo 模塊和工具。
+
+security:
+  _merge: deep
+
+server:
+  _merge: deep

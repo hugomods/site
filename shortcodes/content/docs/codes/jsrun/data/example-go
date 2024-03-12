@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+{{</* jsrun id=e3dKp mode=term */>}}
+{{< /hugo/shortcode-example >}}

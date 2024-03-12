@@ -1,0 +1,69 @@
+- title: Configurable
+  description: Configure Decap CMS via Hugo configuration.
+  icon:
+    vendor: bs
+    name: gear
+    className: text-primary
+
+- title: Default settings
+  description: Ship with some default settings to simplify Decap CMS setup, such as `media_folder`, `public_folder`.
+  icon:
+    vendor: bs
+    name: toggles
+    className: text-info
+
+- title: Extensible
+  description: Allow inheriting configuration, to reuse and override properties for collections.
+  icon:
+    vendor: bs
+    name: plugin
+    color: green
+
+- title: Flexible
+  description: With defined interfaces and hooks, you can easilly create editor components, widgets, preview templates, modules and so on.
+  icon:
+    vendor: fas
+    name: code-fork
+    className: text-primary
+
+- title: Preview styles
+  description: Allow registering preview styles by specifying external styles and adding custom SCSS files.
+  icon:
+    vendor: bs
+    name: filetype-css
+    className: text-warning
+
+- title: I18n
+  description: Detect languages settings automatically, and apply it on Decap CMS UI and collections.
+  icon:
+    vendor: bs
+    name: translate
+    className: text-info
+
+- title: Editor Components
+  description: Components to extend editor functionalities, such as to-do list.
+  icon:
+    vendor: bs
+    name: pencil-square
+    className: text-primary
+
+- title: Widgets
+  description: Extended widgets to fit fields needs, such as URL. 
+  icon:
+    vendor: bs
+    name: columns
+    className: text-success
+
+- title: Built-in modules
+  description: Offer some useful built-in modules, such as Netlify Identity.
+  icon:
+    vendor: bs
+    name: boxes
+    className: text-primary
+
+- title: Logo
+  description: Support using image resources, public images or external images as Logo.
+  icon:
+    vendor: bs
+    name: c-circle
+    className: text-primary

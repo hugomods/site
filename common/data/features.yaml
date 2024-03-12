@@ -1,0 +1,20 @@
+- title: Fast
+  description: "Google PageSpeed Insights scored perfect \U0001F4AF of four metrics on mobile and desktop."
+  icon:
+    name: speedometer
+    color: green
+
+- title: Responsive
+  url: bootstrap
+  description: 'Mobile first, built on top of the Bootstrap v5.3.'
+  icon:
+    name: bootstrap
+    color: '#7952B3'
+
+- title: FOSS
+  url: 'https://github.com/hugomods'
+  description: 'Free and open source software, code licensed **MIT**.'
+  icon:
+    name: code
+    vendor: fas
+    color: green

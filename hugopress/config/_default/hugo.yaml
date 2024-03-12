@@ -1,0 +1,80 @@
+enableRobotsTXT: true
+
+outputs:
+  home:
+    - DecapCMSConfig
+    - HTML
+    - Offline
+    - SearchIndex
+    - RSS
+    - WebAppManifest
+
+taxonomies:
+  _merge: shallow
+
+markup:
+  _merge: deep
+
+build:
+  _merge: shallow
+
+menus:
+  _merge: deep
+
+module:
+  imports:
+    - path: github.com/hugomods/site/common
+
+params:
+  hb:
+    header:
+      logo: false
+      brand: HugoPress
+      git_repo:
+        service: github
+        owner: hugomods
+        name: hugopress
+    content_panel:
+      repo:
+        subpath: hugopress
+
+baseURL: https://hugopress.hugomods.com/
+
+languages:
+  _merge: deep
+
+  en:
+    title: HugoPress Module | HugoMods
+    # baseURL: https://hugopress.hugomods.com/
+    params:
+      description: The hook system to help developers build modular themes.
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: Third party Hugo modules and tools for building fast, modular, modern themes and static websites.
+
+  zh-hans:
+    title: HugoPress 模块 | HugoMods
+    # baseURL: https://zh-hans.hugopress.hugomods.com/
+    params:
+      description: 帮助开发人员构建模块化主题的钩子系统。
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: 用于构建快速、模块化和现代化的主题和静态网站的第三方 Hugo 模块和工具。
+
+  zh-hant:
+    title: HugoPress 模塊 | HugoMods
+    # baseURL: https://zh-hant.hugopress.hugomods.com/
+    params:
+      description: 幫助開發人員構建模塊化主題的鉤子系統。
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: 用於構建快速、模塊化和現代化的主題和靜態網站的第三方 Hugo 模塊和工具。
+
+security:
+  _merge: deep
+
+server:
+  _merge: deep

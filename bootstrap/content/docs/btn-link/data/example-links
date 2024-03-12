@@ -1,0 +1,9 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/btn-link "https://hbstack.dev/" */>}}
+HB Framework (external)
+{{</* /bs/btn-link */>}}
+
+{{</* bs/btn-link "docs/installation" */>}}
+Installation (internal)
+{{</* /bs/btn-link */>}}
+{{< /hugo/shortcode-example >}}

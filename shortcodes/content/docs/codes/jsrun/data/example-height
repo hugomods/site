@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+{{</* jsrun id=QG6Kp height=200 */>}}
+{{< /hugo/shortcode-example >}}

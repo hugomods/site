@@ -1,0 +1,312 @@
+main:
+  - name: Projects
+    identifier: projects
+    weight: 10
+    params:
+      description:
+      icon:
+        vendor: bs
+        name: boxes
+  
+  - name: HB Framework
+    parent: projects
+    weight: 1
+    url: https://hbstack.dev/
+    params:
+      description: Hugo Bootstrap framework for building modular themes and websites. 
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7952B3'
+  
+  - name: Docker
+    parent: projects
+    weight: 2
+    url: https://docker.hugomods.com/
+    params:
+      description: Minimal, automated and up to date Hugo Docker images.
+      icon:
+        vendor: simple
+        name: docker
+        color: '#0397F4'
+  
+  - name: Search
+    parent: projects
+    weight: 2
+    url: https://search.hugomods.com/
+    params:
+      description: Powerful, flexible and feature-rich fuzzy search module.
+      icon:
+        vendor: bs
+        name: search
+        className: text-info
+  
+  - name: Images
+    parent: projects
+    weight: 3
+    url: https://images.hugomods.com/
+    params:
+      description: Process images via URL query string and fragment, friendly to Markdown.
+      icon:
+        vendor: bs
+        name: images
+        color: '#4CC5F3'
+  
+  - name: Decap CMS
+    parent: projects
+    weight: 4
+    url: https://decap-cms.hugomods.com/
+    params:
+      description: Decap CMS (formerly Netlify CMS) module.
+      icon:
+        vendor: bs
+        name: gear-wide-connected
+        className: text-success
+  
+  - name: PWA
+    parent: projects
+    weight: 5
+    url: https://pwa.hugomods.com/
+    params:
+      description: Make site offline available, installable and more.
+      icon:
+        vendor: bs
+        name: rocket
+        className: text-danger
+  
+  - name: HugoPress
+    parent: projects
+    weight: 6
+    url: https://hugopress.hugomods.com/
+    params:
+      description: Hooks system for building themes.
+      icon:
+        vendor: bs
+        name: plugin
+        className: text-primary
+  
+  - name: Bootstrap
+    parent: projects
+    weight: 7
+    url: https://bootstrap.hugomods.com/
+    params:
+      description: Bootstrap shortcodes.
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7952B3'
+  
+  - name: Shortcodes
+    parent: projects
+    weight: 8
+    url: https://shortcodes.hugomods.com/
+    params:
+      description: Extended Hugo shortcodes.
+      icon:
+        vendor: bs
+        name: code-square
+        className: text-success
+  
+  - name: Icons
+    parent: projects
+    weight: 9
+    url: https://icons.hugomods.com/
+    params:
+      description: SVG icons module that supports popular icons vendors.
+      icon:
+        vendor: fas
+        name: icons
+        className: text-danger
+  
+  - name: SEO
+    parent: projects
+    weight: 10
+    url: https://seo.hugomods.com/
+    params:
+      description: Schema, Twitter Cards, Open Graph, JSON-LD and more.
+      icon:
+        vendor: tabler/outline
+        name: seo
+        color: '#2350A9'
+  
+  - name: Base
+    parent: projects
+    weight: 11
+    url: https://base.hugomods.com/
+    params:
+      description: Basic and useful partials and functions.
+      icon:
+        vendor: bs
+        name: fan
+        className: text-primary
+  
+  - name: Others
+    parent: projects
+    weight: 12
+    url: https://hugomods.com/docs/
+    params:
+      description: Other modules and tools.
+      icon:
+        vendor: bs
+        name: three-dots
+
+  - name: Community
+    weight: 11
+    identifier: community
+    params:
+      icon:
+        name: headset
+  
+  - name: GitHub
+    parent: community
+    url: https://github.com/hugomods
+    weight: 1
+    params:
+      description: GitHub Organization
+      icon:
+        vendor: simple
+        name: github
+  
+  - name: Discussions
+    parent: community
+    weight: 2
+    url: https://github.com/orgs/hugomods/discussions
+    params:
+      description: Ask questions, share ideas or report issues and bugs.
+      icon:
+        vendor: bs
+        name: chat-dots
+  
+  - name: Blog
+    parent: community
+    url: https://blog.hugomods.com/
+    params:
+      description: Tutorials, news, releases and so on.
+      icon:
+        vendor: bs
+        name: card-heading
+
+apps:
+  - name: Home
+    weight: 1
+    url: https://hugomods.com/
+    params:
+      description:
+      icon:
+        vendor: bs
+        name: house
+        className: text-primary
+  
+  - name: HB Framework
+    weight: 2
+    url: https://hbstack.dev/
+    params:
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7952B3'
+  
+  - name: Docker
+    weight: 3
+    url: https://docker.hugomods.com/
+    params:
+      description: Minimal, automated and up to date Hugo Docker images.
+      icon:
+        vendor: simple
+        name: docker
+        color: '#0397F4'
+  
+  - name: Search
+    weight: 3
+    url: https://search.hugomods.com/
+    params:
+      description:
+      icon:
+        vendor: bs
+        name: search
+        className: text-info
+  
+  - name: Images
+    weight: 4
+    url: https://images.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: images
+        color: '#4CC5F3'
+  
+  - name: Decap CMS
+    weight: 5
+    url: https://decap-cms.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: gear-wide-connected
+        className: text-success
+  
+  - name: PWA
+    weight: 6
+    url: https://pwa.hugomods.com/
+    params:
+      description:
+      icon:
+        vendor: bs
+        name: rocket
+        className: text-danger
+  
+  - name: HugoPress
+    weight: 7
+    url: https://hugopress.hugomods.com/
+    params:
+      description:
+      icon:
+        vendor: bs
+        name: plugin
+        className: text-primary
+  
+  - name: Bootstrap
+    weight: 8
+    url: https://bootstrap.hugomods.com/
+    params:
+      description: Bootstrap shortcodes.
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7952B3'
+  
+  - name: Shortcodes
+    weight: 9
+    url: https://shortcodes.hugomods.com/
+    params:
+      description: Extended Hugo shortcodes.
+      icon:
+        vendor: bs
+        name: code-square
+        className: text-success
+  
+  - name: Icons
+    weight: 10
+    url: https://icons.hugomods.com/
+    params:
+      icon:
+        vendor: fas
+        name: icons
+        className: text-danger
+  
+  - name: SEO
+    weight: 11
+    url: https://seo.hugomods.com/
+    params:
+      icon:
+        vendor: tabler/outline
+        name: seo
+        color: '#2350A9'
+  
+  - name: Base
+    weight: 12
+    url: https://base.hugomods.com/
+    params:
+      icon:
+        vendor: bs
+        name: fan
+        className: text-primary

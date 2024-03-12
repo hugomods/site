@@ -1,0 +1,7 @@
+![Originali image](/images/great-wall.jpg "Original image")
+
+| Examples |     |     |
+| :------: | :-: | :-: |
+| ![Crop Image](/images/great-wall.jpg?crop=200x200,TopLeft "crop=200x200,TopLeft") | ![Crop Image](/images/great-wall.jpg?crop=200x200,Top "crop=200x200,Top") | ![Crop Image](/images/great-wall.jpg?crop=200x200,TopRight "crop=200x200,TopRight") |
+| ![Crop Image](/images/great-wall.jpg?crop=200x200,Left "crop=200x200,Left") | ![Crop Image](/images/great-wall.jpg?crop=200x200,Center "crop=200x200,Center") | ![Crop Image](/images/great-wall.jpg?crop=200x200,Right "crop=200x200,Right") |
+| ![Crop Image](/images/great-wall.jpg?crop=200x200,BottomLeft "crop=200x200,BottomLeft") | ![Crop Image](/images/great-wall.jpg?crop=200x200,Bottom "crop=200x200,Bottom") | ![Crop Image](/images/great-wall.jpg?crop=200x200,BottomRight "crop=200x200,BottomRight") |

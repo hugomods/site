@@ -1,0 +1,15 @@
+- name: "summary"
+  position: 0
+  description:
+    default: "The summary of details."
+    zh-hans: 摘要。
+    zh-hant: 摘要。
+  required: true
+
+- name: "open"
+  position: 1
+  type: "boolean"
+  description:
+    default: "When `true`, expand the details by default."
+    zh-hans: 为 `true` 时，默认展开详情。
+    zh-hant: 為 `true` 時，默認展開詳情。

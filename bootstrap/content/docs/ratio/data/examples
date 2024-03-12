@@ -1,0 +1,31 @@
+### Aspect Ratio 1x1
+
+{{% hugo/shortcode-example %}}
+{{</* bs/ratio 1x1 */>}}
+  {{</* bilibili BV1iT411B7yH */>}}
+{{</* /bs/ratio */>}}
+{{% /hugo/shortcode-example %}}
+
+### Aspect Ratio 4x3
+
+{{% hugo/shortcode-example %}}
+{{</* bs/ratio 4x3 */>}}
+  {{</* bilibili BV1iT411B7yH */>}}
+{{</* /bs/ratio */>}}
+{{% /hugo/shortcode-example %}}
+
+### Aspect Ratio 16x9
+
+{{% hugo/shortcode-example %}}
+{{</* bs/ratio 16x9 */>}}
+  {{</* bilibili BV1iT411B7yH */>}}
+{{</* /bs/ratio */>}}
+{{% /hugo/shortcode-example %}}
+
+### Aspect Ratio 21x9
+
+{{% hugo/shortcode-example %}}
+{{</* bs/ratio 21x9 */>}}
+  {{</* bilibili BV1iT411B7yH */>}}
+{{</* /bs/ratio */>}}
+{{% /hugo/shortcode-example %}}

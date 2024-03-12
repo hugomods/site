@@ -1,0 +1,17 @@
+- title: Why create yet another Hugo Docker images?
+  content: |
+    I used `klakegg/hugo` in the past for a long time, and feel satisfied with it, however its been a long time since its been updated,
+    so I created a new one with automated workflow to meet my needs.
+
+- title: What architectures are supported?
+  content: |
+    The `linux/amd64` and `linux/arm64` architectures are currently supported.
+
+- title: How long does it take to build the latest Hugo images?
+  content: |
+    It depends. Generally it takes _one or two hours_ to build after the latest Hugo version was released.
+
+- title: What is the base image?
+  content: |
+    All images are built on top of [Alpine](https://hub.docker.com/_/alpine) and it's variants.
+

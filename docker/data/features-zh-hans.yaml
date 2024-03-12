@@ -1,0 +1,29 @@
+- title: 自动化
+  description: 我们设置了一个[计划工作流](https://github.com/hugomods/docker/actions)，其每 **30** 分钟检查并构建最新的 Hugo Docker 镜像。
+  icon:
+    name: robot
+    color: green
+
+- title: 最新的
+  description: 有了自动化的工作流程，你无需担心 Hugo Docker 镜像会过时。
+  icon:
+    name: arrow-clockwise
+    className: text-primary
+
+- title: 极简的
+  description: 我们提供多种变体镜像以满足你的需求，如**扩展版本**、**Git**、**Go**、**Node.js**、**NPM**、**Dart Sass** 等。
+  icon:
+    name: boxes
+    color: green
+
+- title: 多个容器仓库
+  description: 所有镜像会被推送到 [Docker Hub](https://hub.docker.com/r/hugomods/hugo) 和 [GitHub 容器仓库](https://github.com/hugomods/docker/pkgs/container/hugo)。
+  icon:
+    name: cloud
+    color: skyblue
+
+- title: 架构
+  description: 所有镜像均支持 `linux/amd64` 和 `linux/arm64` 架构。
+  icon:
+    vendor: fab
+    name: linux

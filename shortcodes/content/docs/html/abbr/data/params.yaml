@@ -1,0 +1,14 @@
+- name: text
+  position: 0
+  required: true
+  description:
+    default: The rendered text, _case-sensitive_, which also used as the *key* of data files.
+    zh-hans: 显示的文本，大小写敏感，其同时被用作数据文件的**键**。
+    zh-hant: 顯示的文本，大小寫敏感，其同時被用作數據文件的**鍵**。
+
+- name: title
+  position: 1
+  description:
+    default: Define the title in-place instead of reading it from data files.
+    zh-hans: 就地定义标题，而不是从数据文件读取。
+    zh-hant: 就地定義標題，而不是從數據文件讀取。

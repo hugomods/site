@@ -1,0 +1,34 @@
+{{% hugo/shortcode-example %}}
+{{</* bs/alert primary */>}}
+A simple primary alert—check it out!
+{{</* /bs/alert */>}}
+
+{{</* bs/alert secondary */>}}
+A simple secondary alert—check it out!
+{{</* /bs/alert */>}}
+
+{{</* bs/alert success */>}}
+A simple success alert—check it out!
+{{</* /bs/alert */>}}
+
+{{</* bs/alert danger */>}}
+A simple danger alert—check it out!
+{{</* /bs/alert */>}}
+
+{{</* bs/alert warning */>}}
+A simple warning alert—check it out!
+{{</* /bs/alert */>}}
+
+{{</* bs/alert info */>}}
+A simple info alert—check it out!
+{{</* /bs/alert */>}}
+
+{{</* bs/alert light */>}}
+A simple light alert—check it out!
+{{</* /bs/alert */>}}
+
+{{</* bs/alert dark */>}}
+A simple dark alert—check it out!
+{{</* /bs/alert */>}}
+
+{{% /hugo/shortcode-example %}}

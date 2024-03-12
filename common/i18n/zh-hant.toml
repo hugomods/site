@@ -1,0 +1,14 @@
+[module]
+other = "模塊"
+
+[name]
+other = "名稱"
+
+[size]
+other = "大小"
+
+[vendor]
+other = "供應商"
+
+[version]
+other = "版本"

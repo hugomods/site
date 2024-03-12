@@ -1,0 +1,7 @@
+{{< hugo/shortcode-example >}}
+{{%/* details "hello.js" true */%}}
+```js
+console.log("Hello world!");
+```
+{{%/* /details */%}}
+{{< /hugo/shortcode-example >}}

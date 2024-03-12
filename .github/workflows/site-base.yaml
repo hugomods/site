@@ -1,0 +1,16 @@
+name: site-base
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'common/**'
+      - 'base/**'
+
+jobs:
+  version-matrix:
+    uses: ./.github/workflows/site.yml
+    with:
+      name: base
+    secrets: inherit

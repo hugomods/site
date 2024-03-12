@@ -1,0 +1,69 @@
+- title: 可配置
+  description: 通過 Hugo 來配置 Decap CMS。
+  icon:
+    vendor: bs
+    name: gear
+    className: text-primary
+
+- title: 默認設置
+  description: 附帶一些默認設置以簡化 Decap CMS 配置，比如 `media_folder`、`public_folder`。
+  icon:
+    vendor: bs
+    name: toggles
+    className: text-info
+
+- title: 可擴展
+  description: 允許繼承配置以重用和重寫集合屬性。
+  icon:
+    vendor: bs
+    name: plugin
+    color: green
+
+- title: 靈活的
+  description: 通過定義的接口和鉤子，您可以輕鬆地創建編輯器組件、小部件、預覽模板、模塊等。
+  icon:
+    vendor: fas
+    name: code-fork
+    className: text-primary
+
+- title: 預覽樣式
+  description: 允許通過指定外部樣式和添加自定義 SCSS 文件來註冊預覽樣式。
+  icon:
+    vendor: bs
+    name: filetype-css
+    className: text-warning
+
+- title: 國際化
+  description: 自動檢測語言設置，並將其應用於 Decap CMS UI 和集合。
+  icon:
+    vendor: bs
+    name: translate
+    className: text-info
+
+- title: 編輯器組件
+  description: 組件以擴展編輯器功能，例如待辦清單。
+  icon:
+    vendor: bs
+    name: pencil-square
+    className: text-primary
+
+- title: 小部件
+  description: 擴展小部件以滿足字段需求，比如 URL。
+  icon:
+    vendor: bs
+    name: columns
+    className: text-success
+
+- title: 內置模塊
+  description: 提供一些有用的內置模塊，比如 Netlify Identity。
+  icon:
+    vendor: bs
+    name: boxes
+    className: text-primary
+
+- title: Logo
+  description: 支持使用圖片資源、公共圖片或外部圖片作為 Logo。
+  icon:
+    vendor: bs
+    name: c-circle
+    className: text-primary

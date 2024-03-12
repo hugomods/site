@@ -1,0 +1,16 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/collapse heading="Configuration" expand=true */>}}
+  {{</* bs/config-toggle hugo */>}}
+  params:
+    message: "Hello world!"
+  {{</* /bs/config-toggle */>}}
+{{</* /bs/collapse */>}}
+
+{{%/* bs/collapse "Template" */%}}
+  ```go-html-template
+  <div class="greeting">
+    {{ site.Params.message }}
+  </div>
+  ```
+{{%/* /bs/collapse */%}}
+{{< /hugo/shortcode-example >}}

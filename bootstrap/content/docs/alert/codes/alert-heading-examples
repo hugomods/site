@@ -1,0 +1,6 @@
+{{% hugo/shortcode-example %}}
+{{%/* bs/alert success */%}}
+{{</* bs/alert-heading "Well done!" */>}}
+Aww yeah, you _successfully_ read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.
+{{%/* /bs/alert */%}}
+{{% /hugo/shortcode-example %}}

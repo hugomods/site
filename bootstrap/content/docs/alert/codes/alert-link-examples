@@ -1,0 +1,9 @@
+{{% hugo/shortcode-example %}}
+{{</* bs/alert */>}}
+A simple primary alert with {{</* bs/alert-link "an example link" "#alert-link" */>}}. Give it a click if you like.
+{{</* /bs/alert */>}}
+
+{{</* bs/alert warning */>}}
+A simple warning alert with {{</* bs/alert-link "an example link" "#alert-link" */>}}. Give it a click if you like.
+{{</* /bs/alert */>}}
+{{% /hugo/shortcode-example %}}

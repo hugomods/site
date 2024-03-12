@@ -1,0 +1,152 @@
+name: hugomods-site
+
+services:
+  home:
+    extends:
+      file: docker-compose-services.yml
+      service: server
+    working_dir: /src/home
+    ports:
+      - 6060:6060
+      - 6061:6061
+      - 6062:6062
+  
+  blog:
+    extends:
+      file: docker-compose-services.yml
+      service: server
+    working_dir: /src/blog
+    ports:
+      - 6065:6065
+      - 6066:6066
+      - 6067:6067
+  
+  docker:
+    extends:
+      file: docker-compose-services.yml
+      service: server
+    working_dir: /src/docker
+    ports:
+      - 6070:6070
+      - 6071:6071
+      - 6072:6072
+  
+  search:
+    extends:
+      file: docker-compose-services.yml
+      service: server
+    working_dir: /src/search
+    ports:
+      - 6075:6075
+      - 6076:6076
+      - 6077:6077
+  
+  icons:
+    extends:
+      file: docker-compose-services.yml
+      service: server
+    working_dir: /src/icons
+    ports:
+      - 6080:6080
+      - 6081:6081
+      - 6082:6082
+  
+  images:
+    extends:
+      file: docker-compose-services.yml
+      service: server
+    working_dir: /src/images
+    ports:
+      - 6085:6085
+      - 6086:6086
+      - 6087:6087
+  
+  pwa:
+    extends:
+      file: docker-compose-services.yml
+      service: server
+    working_dir: /src/pwa
+    ports:
+      - 6090:6090
+      - 6091:6091
+      - 6092:6092
+  
+  hugopress:
+    extends:
+      file: docker-compose-services.yml
+      service: server
+    working_dir: /src/hugopress
+    ports:
+      - 6095:6095
+      - 6096:6096
+      - 6097:6097
+  
+  decap-cms:
+    extends:
+      file: docker-compose-services.yml
+      service: server
+    working_dir: /src/decap-cms
+    ports:
+      - 6100:6100
+      - 6101:6101
+      - 6102:6102
+  
+  bootstrap:
+    extends:
+      file: docker-compose-services.yml
+      service: server
+    working_dir: /src/bootstrap
+    ports:
+      - 6105:6105
+      - 6106:6106
+      - 6107:6107
+  
+  shortcodes:
+    extends:
+      file: docker-compose-services.yml
+      service: server
+    working_dir: /src/shortcodes
+    ports:
+      - 6110:6110
+      - 6111:6111
+      - 6112:6112
+  
+  seo:
+    extends:
+      file: docker-compose-services.yml
+      service: server
+    working_dir: /src/seo
+    ports:
+      - 6115:6115
+      - 6116:6116
+      - 6117:6117
+  
+  base:
+    extends:
+      file: docker-compose-services.yml
+      service: server
+    working_dir: /src/base
+    ports:
+      - 6120:6120
+      - 6121:6121
+      - 6122:6122
+  
+  kroki:
+    extends:
+      file: docker-compose-services.yml
+      service: server
+    working_dir: /src/kroki
+    ports:
+      - 6125:6125
+      - 6126:6126
+      - 6127:6127
+  
+  echarts:
+    extends:
+      file: docker-compose-services.yml
+      service: server
+    working_dir: /src/echarts
+    ports:
+      - 6130:6130
+      - 6131:6131
+      - 6132:6132

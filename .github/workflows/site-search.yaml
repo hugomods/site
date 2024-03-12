@@ -1,0 +1,16 @@
+name: site-search
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'common/**'
+      - 'search/**'
+
+jobs:
+  version-matrix:
+    uses: ./.github/workflows/site.yml
+    with:
+      name: search
+    secrets: inherit

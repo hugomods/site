@@ -1,0 +1,8 @@
+```text
+content/
+  blog/
+    hello/
+      index.md
+      foo.png
+      bar.png
+```

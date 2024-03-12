@@ -1,0 +1,5 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/ratio */>}}
+  {{</* bilibili BV1iT411B7yH */>}}
+{{</* /bs/ratio */>}}
+{{< /hugo/shortcode-example >}}

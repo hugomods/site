@@ -1,0 +1,36 @@
+{{< hugo/shortcode-example >}}
+{{%/* bs/container class="text-bg-primary text-center py-3 mb-2" */%}}
+Default container
+{.mb-0}
+{{%/* /bs/container */%}}
+
+{{%/* bs/container breakpoint="sm" class="text-bg-primary text-center py-3 mb-2" */%}}
+100% wide until small breakpoint
+{.mb-0}
+{{%/* /bs/container */%}}
+
+{{%/* bs/container breakpoint="md" class="text-bg-primary text-center py-3 mb-2" */%}}
+100% wide until medium breakpoint
+{.mb-0}
+{{%/* /bs/container */%}}
+
+{{%/* bs/container breakpoint="lg" class="text-bg-primary text-center py-3 mb-2" */%}}
+100% wide until large breakpoint
+{.mb-0}
+{{%/* /bs/container */%}}
+
+{{%/* bs/container breakpoint="xl" class="text-bg-primary text-center py-3 mb-2" */%}}
+100% wide until extra large breakpoint
+{.mb-0}
+{{%/* /bs/container */%}}
+
+{{%/* bs/container breakpoint="xxl" class="text-bg-primary text-center py-3 mb-2" */%}}
+100% wide until extra extra large breakpoint
+{.mb-0}
+{{%/* /bs/container */%}}
+
+{{%/* bs/container breakpoint="fluid" class="text-bg-primary text-center py-3 mb-2" */%}}
+100% wide at all breakpoints
+{.mb-0}
+{{%/* /bs/container */%}}
+{{< /hugo/shortcode-example >}}

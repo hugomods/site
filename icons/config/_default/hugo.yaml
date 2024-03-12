@@ -1,14 +1,14 @@
-title: Hugo Icons Module
-copyright: Copyright © 2022-2023 [Hugo Modules](https://hugomods.com). All Rights Reserved.
-baseURL: https://icons.hugomods.com/
+title: Hugo Icons Module | HugoMods
 defaultContentLanguage: en
-defaultContentLanguageInSubdir: true
 enableRobotsTXT: true
-
 outputs:
   home:
+    - DecapCMSConfig
     - HTML
+    - Offline
+    - SearchIndex
     - RSS
+    - WebAppManifest
 
 taxonomies:
   _merge: shallow
@@ -18,3 +18,29 @@ markup:
 
 build:
   _merge: shallow
+
+menus:
+  _merge: deep
+
+baseURL: https://icons.hugomods.com/
+
+languages:
+  _merge: deep
+
+  en:
+    title: Hugo Icons Module
+    # baseURL: https://icons.hugomods.com/
+
+  zh-hans:
+    title: Hugo Icons 模块
+    # baseURL: https://zh-hans.icons.hugomods.com/
+
+  zh-hant:
+    title: Hugo Icons 模塊
+    # baseURL: https://zh-hans.icons.hugomods.com/
+
+security:
+  _merge: deep
+
+server:
+  _merge: deep

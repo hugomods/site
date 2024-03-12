@@ -1,0 +1,14 @@
+[module]
+other = "Module"
+
+[name]
+other = "Name"
+
+[size]
+other = "Size"
+
+[vendor]
+other = "Vendor"
+
+[version]
+other = "Version"

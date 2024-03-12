@@ -1,0 +1,16 @@
+name: site-decap-cms
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'common/**'
+      - 'decap-cms/**'
+
+jobs:
+  version-matrix:
+    uses: ./.github/workflows/site.yml
+    with:
+      name: decap-cms
+    secrets: inherit

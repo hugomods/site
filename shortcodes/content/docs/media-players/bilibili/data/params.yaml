@@ -1,0 +1,15 @@
+- name: id
+  position: 0
+  required: true
+  description:
+    default: The video ID, such as `BVXXXXXXXXXX`.
+    zh-hans: 视频 ID，比如 `BVXXXXXXXXXX`。
+    zh-hant: 視頻 ID，比如 `BVXXXXXXXXXX`。
+
+- name: fullscreen
+  type: boolean
+  default: true
+  description:
+    default: Whether to allow fullscreen.
+    zh-hans: 是否允许全屏。
+    zh-hant: 是否允許全屏。

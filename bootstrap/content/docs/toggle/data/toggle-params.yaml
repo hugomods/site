@@ -1,0 +1,20 @@
+- name: name
+  position: 0
+  required: true
+  description:
+    default: The identifier and name of toggle. **MUST** be unique per page.
+    zh-hans: Toggle 的 ID 和名称，每个页面必须唯一。
+    zh-hant: Toggle 的 ID 和名稱，每個頁面必須唯一。
+
+- name: style
+  default: tabs
+  description:
+    default: "Style: `tabs`, `pills`, `underline`."
+    zh-hans: "样式：`tabs`、`pills`、`underline`。"
+    zh-hant: "樣式：`tabs`、`pills`、`underline`。"
+
+- name: data
+  description:
+    default: "The data file of toggle items, required when not using nested shortcodes."
+    zh-hans: "条目数据文件名，当不使用嵌套短代码时必填。"
+    zh-hant: "條目數據文件名，當不使用嵌套短代碼時必填。"

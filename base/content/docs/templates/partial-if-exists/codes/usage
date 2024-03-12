@@ -1,0 +1,8 @@
+```go-html-template
+{{ partial "base/partial-if-exists" (dict "Name" "foo.html" "Context" "bar") }}
+```
+
+```go-html-template
+// layouts/partials/foo.html
+Value: {{ . }} {{/* Value: bar */}}
+```

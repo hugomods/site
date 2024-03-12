@@ -1,0 +1,16 @@
+name: site-pwa
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'common/**'
+      - 'pwa/**'
+
+jobs:
+  version-matrix:
+    uses: ./.github/workflows/site.yml
+    with:
+      name: pwa
+    secrets: inherit

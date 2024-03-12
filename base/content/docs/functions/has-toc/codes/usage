@@ -1,0 +1,5 @@
+```go-html-template
+{{ if partial "base/functions/has-toc" . }}
+  {{ .TableOfContents }}
+{{ end }}
+```

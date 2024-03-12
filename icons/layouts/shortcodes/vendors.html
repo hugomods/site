@@ -1,0 +1,15 @@
+{{- range sort (index site.Data "icons-vendors") "weight" }}
+## {{ .name }} 
+
+[{{ .name }}]({{ .official_site }}) vendor module.
+
+{{- $names := slice }}
+{{- range .names }}
+  {{- $names = $names | append (printf "`%s`" .) }}
+{{- end }}
+
+| __{{ i18n "module" }}__  | `github.com/hugomods/icons/vendors/{{ .module_path }}`                                              |
+| ------------------------ | --------------------------------------------------------------------------------------------------- |
+| __{{ i18n "name" }}__    | {{ delimit $names "," }}                                                                            |
+| __{{ i18n "version" }}__ | ![Version](https://img.shields.io/github/v/tag/hugomods/icons?filter=vendors%2F{{ .module_path }}*) |
+{{- end }}

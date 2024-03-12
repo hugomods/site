@@ -1,0 +1,49 @@
+- name: id
+  position: 0
+  required: true
+  description:
+    default: The asciicast ID.
+    zh-hans: 视频 ID。
+    zh-hant: 視頻 ID。
+
+- name: theme
+  description:
+    default: Theme.
+    zh-hans: 主题。
+    zh-hant: 主題。
+  options:
+    - asciinema
+    - tango
+    - solarized-dark
+    - solarized-light
+    - monokai
+
+- name: autoplay
+  type: boolean
+  default: true
+  description:
+    default: Whether to auto play video.
+    zh-hans: 是否自动播放视频。
+    zh-hant: 是否自動播放視頻。
+
+- name: speed
+  type: number
+  default: 1
+  description:
+    default: Playback speed.
+    zh-hans: 播放速度。
+    zh-hant: 播放速度。
+
+- name: cols
+  type: number
+  description:
+    default: Used to override width (in characters) of the emulated terminal.
+    zh-hans: 用于覆盖模拟终端的宽度（以字符为单位）。
+    zh-hant: 用於覆蓋模擬終端的寬度（以字符為單位）。
+
+- name: rows
+  type: number
+  description:
+    default: Used to override height (in lines) of the emulated terminal.
+    zh-hans: 用于覆盖模拟终端的高度（以行为单位）。
+    zh-hant: 用於覆蓋模擬終端的高度（以行為單位）。

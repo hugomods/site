@@ -1,5 +1,5 @@
 {
-  "name": "hugomods-site",
+  "name": "hugomods-site-icons",
   "homepage": "https://github.com/hugomods/site",
   "license": "MIT",
   "repository": {
@@ -19,6 +19,6 @@
   },
   "scripts": {
     "dev": "hugo server -p 6080 --gc --buildDrafts --enableGitInfo",
-    "prod": "hugo server -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:6090 -p 6090"
+    "prod": "hugo server -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:6080 -p 6080"
   }
 }

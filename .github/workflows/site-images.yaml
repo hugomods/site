@@ -1,0 +1,16 @@
+name: site-images
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'common/**'
+      - 'images/**'
+
+jobs:
+  version-matrix:
+    uses: ./.github/workflows/site.yml
+    with:
+      name: images
+    secrets: inherit

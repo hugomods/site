@@ -1,3 +1,34 @@
+copyright: Copyright © 2022-{year} [HugoMods](https://hugomods.com/). All Rights Reserved.
+enableRobotsTXT: true
+
+languages:
+  en:
+    weight: 1
+    languageName: English
+    copyright: Copyright © 2022-{year} [HugoMods](https://hugomods.com/). All Rights Reserved.
+
+  zh-hans:
+    weight: 2
+    languageName: 简体中文
+    copyright: Copyright © 2022-{year} [HugoMods](https://hugomods.com) 版权所有。
+    params:
+      description: 用于构建快速、模块化和现代化的主题和静态网站的第三方 Hugo 模块和工具。
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: 用于构建快速、模块化和现代化的主题和静态网站的第三方 Hugo 模块和工具。
+
+  zh-hant:
+    weight: 3
+    languageName: 繁體中文
+    copyright: Copyright © 2022-{year} [HugoMods](https://hugomods.com) 版權所有。
+    params:
+      description: 用於構建快速、模塊化和現代化的主題和靜態網站的第三方 Hugo 模塊和工具。
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: 用於構建快速、模塊化和現代化的主題和靜態網站的第三方 Hugo 模塊和工具。
+
 build:
   writeStats: true
 
@@ -19,3 +50,14 @@ markup:
     noClasses: false
     lineNos: true
     lineNumbersInTable: false
+  tableOfContents:
+    endLevel: 4
+    ordered: false
+    startLevel: 2
+
+security:
+  funcs:
+    getenv:
+      - '^HUGO_'
+      - '^CI$'
+      - '^GITHUB_TOKEN$'

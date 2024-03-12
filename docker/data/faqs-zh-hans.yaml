@@ -1,0 +1,16 @@
+- title: 为什么要创建另一个 Hugo Docker 镜像？
+  content: |
+    我过去长期使用 `klakegg/hugo`，并对它感到满意，然而其已经很久未曾更新了，于是乎我创建了一个可自动更新的镜像，以满足我的需求。
+
+- title: 支持哪些架构？
+  content: |
+    目前支持 `linux/amd64` 和 `linux/arm64` 架构。
+
+- title: 构建最新的 Hugo 镜像需要多久？
+  content: |
+    视情况而定。一般来说，在最新的 Hugo 版本发布后，需要**一到两个小时**来构建。
+
+- title: 基础镜像是什么？
+  content: |
+    所有镜像均是构建于 [Alpine](https://hub.docker.com/_/alpine) 及其变体之上。
+

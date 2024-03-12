@@ -1,0 +1,23 @@
+- name: title
+  description:
+    default: The title of accordion item.
+    zh-hans: 标题。
+    zh-hant: 標題。
+
+- name: content
+  description:
+    default: The content of accordion item, Markdown is support.
+    zh-hans: 内容，支持 Markdown。
+    zh-hant: 內容，支持 Markdown。
+
+- name: weight
+  description:
+    default: The weight of accordion item, the lower `weight` gets higher priority.
+    zh-hans: 权重，值越小权重越高。
+    zh-hant: 權重，值越小權重越高。
+
+- name: show
+  description:
+    default: The first item's content will be shown by default, but you can change it via this property.
+    zh-hans: 默认显示第一个条目，不过你可以通过该属性改变。
+    zh-hant: 默認顯示第一個條目，不過你可以通過該屬性改變。

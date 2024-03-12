@@ -1,0 +1,22 @@
+- name: data
+  position: 0
+  required: true
+  description:
+    default: The data filename.
+    zh-hans: 数据文件名。
+    zh-hant: 數據文件名。
+
+- name: heading
+  default: Parameters
+  description:
+    default: The heading.
+    zh-hans: 标题。
+    zh-hant: 標題。
+
+- name: headingStartLevel
+  type: number
+  default: 2
+  description:
+    default: The heading start level.
+    zh-hans: 开始标题的级别。
+    zh-hant: 開始標題的級別。

@@ -1,0 +1,5 @@
+{{< hugo/shortcode-example >}}
+{{</* bootstrap/config-toggle title="Front Matter" delimiter=true */>}}
+title: Hello World!
+{{</* /bootstrap/config-toggle */>}}
+{{< /hugo/shortcode-example >}}

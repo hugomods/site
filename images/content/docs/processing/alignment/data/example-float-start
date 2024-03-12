@@ -1,0 +1,7 @@
+{{< hugo/shortcode-example >}}
+{{%/* bs/clearfix */%}}
+![Float Start](/images/great-wall.jpg?crop=200x120#float-start) In suscipit orci risus, vitae varius mauris dapibus id. Fusce feugiat at ligula at tristique. Suspendisse dui urna, dignissim et hendrerit sit amet, finibus ut metus. Mauris ac turpis in nibh tempor luctus at sed est. Donec in pellentesque lectus. Quisque sit amet aliquam ipsum, sit amet scelerisque felis. Donec convallis turpis mauris, eu tristique sapien cursus quis. Cras tempus massa ut tempor semper. Nam feugiat varius arcu, vel accumsan dui suscipit sollicitudin. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam vel est sed mauris tincidunt consequat quis at enim. Pellentesque sed tincidunt sem.
+
+Vivamus lobortis consequat ultricies. Suspendisse finibus mi vel quam suscipit interdum. Nam in enim mollis neque feugiat congue at et metus. Pellentesque mi ex, faucibus ut dapibus id, interdum sed sem. Proin pellentesque et sapien nec iaculis. Suspendisse consequat metus sit amet consectetur ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+{{%/* /bs/clearfix */%}}
+{{< /hugo/shortcode-example >}}

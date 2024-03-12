@@ -1,0 +1,44 @@
+- name: user
+  position: 0
+  required: true
+  description:
+    default: User ID.
+    zh-hans: 用户 ID。
+    zh-hant: 用戶 ID。
+
+- name: id
+  position: 1
+  required: true
+  description:
+    default: Pen ID.
+    zh-hans: 代码 ID。
+    zh-hant: 代碼 ID。
+
+- name: theme
+  description:
+    default: Theme.
+    zh-hans: 主题。
+    zh-hant: 主題。
+  options:
+    - light
+    - dark
+
+- name: defaultTabs
+  default: html,result
+  description:
+    default: The default comma-separated tabs.
+    zh-hans: 默认的、逗号分隔开的标签栏。
+    zh-hant: 默認的、逗號分隔開的標籤欄。
+  options:
+    - js
+    - html
+    - css
+    - result
+
+- name: height
+  type: number
+  default: 300
+  description:
+    default: Frame height.
+    zh-hans: Frame 高度。
+    zh-hant: Frame 高度。

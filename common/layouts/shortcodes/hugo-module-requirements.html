@@ -1,0 +1,16 @@
+{{- if eq .Page.Site.Language.LanguageCode "zh-hans" }}
+## 必要条件
+
+- [Go](https://golang.google.cn/dl/) 安装。
+- 将网站或主题初始化为一个模块，详情请参阅[如何使用 Hugo 模块](https://zh-hans.blog.hugomods.com/posts/2023/03/how-to-use-hugo-modules/)。
+{{- else if eq .Page.Site.Language.LanguageCode "zh-hant"  }}
+## 必要條件
+
+- [Go](https://golang.org/dl/) 安裝。
+- 將網站或主題初始化為一個模塊，詳情請參閱[如何使用 Hugo 模塊](https://zh-hant.blog.hugomods.com/posts/2023/03/how-to-use-hugo-modules/)。
+{{- else }}
+## Requirements
+
+- [Go](https://golang.org/dl/) installations.
+- Initialize site or theme be a module, read more on [How to use Hugo Modules](https://blog.hugomods.com/posts/2023/03/how-to-use-hugo-modules/).
+{{- end }}

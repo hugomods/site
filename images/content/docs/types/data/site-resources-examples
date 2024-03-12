@@ -1,0 +1,5 @@
+| Path                    | Markdown                  | Matched |
+| ----------------------- | ------------------------- | :-----: |
+| `assets/images/foo.png` | `![Foo](images/foo.png)`  |    N    |
+| `assets/images/foo.png` | `![Foo](/images/foo.png)` |    Y    |
+| `assets/images/bar.png` | `![Bar](/images/bar.png)` |    Y    |

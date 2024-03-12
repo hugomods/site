@@ -1,0 +1,15 @@
+{{< hugo/shortcode-example >}}
+This is a regular paragraph for comparison with lead paragraphs.
+
+{{%/* bs/lead */%}}
+This is a lead paragraph. It stands out from regular paragraphs.
+{{%/* /bs/lead */%}}
+
+{{%/* bootstrap/lead */%}}
+This is another lead paragraph. It stands out from regular paragraphs.
+{{%/* /bootstrap/lead */%}}
+
+{{%/* bs/lead class="text-primary" */%}}
+This is another lead paragraph with extra classes.
+{{%/* /bs/lead */%}}
+{{< /hugo/shortcode-example >}}

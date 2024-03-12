@@ -1,0 +1,46 @@
+- name: title
+  required: true
+  description:
+    default: The heading.
+    zh-hans: 标题。
+    zh-hant: 標題。
+
+- name: url
+  description:
+    default: The detail URL.
+    zh-hans: 详情页 URL。
+    zh-hant: 詳情頁 URL。
+
+- name: description
+  description:
+    default: The description, support Markdown syntax.
+    zh-hans: 描述，支持 Markdown。
+    zh-hant: 描述，支持 Markdown。
+
+- name: weight
+  type: number
+  description:
+    default: The weight of data entry, used to sorting.
+    zh-hans: 权重。
+    zh-hant: 權重。
+
+- name: icon
+  type: object
+  description:
+    default: "Icon."
+    zh-hans: "图标。"
+    zh-hant: "圖標。"
+
+- name: icon.name
+  required: true
+  description:
+    default: "Icon name."
+    zh-hans: "图标名称。"
+    zh-hant: "圖標名稱。"
+
+- name: icon.vendor
+  default: bootstrap
+  description:
+    default: "Icon vendor."
+    zh-hans: "图标供应商。"
+    zh-hant: "圖標供應商。"

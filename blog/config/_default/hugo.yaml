@@ -1,0 +1,53 @@
+title: HugoMods Blog
+enableRobotsTXT: true
+baseURL: https://blog.hugomods.com/
+
+permalinks:
+  posts: /posts/:year/:month/:title
+  news: /news/:year/:month/:title
+
+outputs:
+  home:
+    - DecapCMSConfig
+    - HTML
+    - Offline
+    - SearchIndex
+    - RSS
+    - WebAppManifest
+
+taxonomies:
+  _merge: shallow
+
+markup:
+  _merge: deep
+
+build:
+  _merge: shallow
+
+menus:
+  _merge: deep
+
+module:
+  imports:
+    - path: github.com/hugomods/site/common
+
+languages:
+  _merge: deep
+
+  en:
+    title: HugoMods Blog
+    # baseURL: https://blog.hugomods.com/
+
+  zh-hans:
+    title: HugoMods 博客
+    # baseURL: https://zh-hans.blog.hugomods.com/
+
+  zh-hant:
+    title: HugoMods 博客
+    # baseURL: https://zh-hant.blog.hugomods.com/
+
+security:
+  _merge: deep
+
+server:
+  _merge: deep

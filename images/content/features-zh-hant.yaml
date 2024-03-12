@@ -1,0 +1,47 @@
+- title: 對 Markdown 友好
+  description: 通過 URL 查詢字符串和片段 ID 處理圖片。
+  icon:
+    vendor: bs
+    name: markdown
+
+- title: 延遲加載
+  description: 默認延遲（按需）加載圖片。
+  icon:
+    vendor: bs
+    name: arrow-clockwise
+    className: text-warning
+
+- title: 現代格式
+  description: 將圖像轉換為現代格式（**webp**），並保留原始格式作為備用。
+  icon:
+    vendor: bs
+    name: speedometer
+    color: green
+
+- title: 消除 CLS
+  description: 設置圖像的固有**高度**和**寬度**屬性，以消除**累積佈局移位**的影響。
+  icon:
+    vendor: bs
+    name: arrows-expand
+    className: text-success
+
+- title: 哈希
+  description: 散列圖像 URL 以消除緩存問題。
+  icon:
+    vendor: bs
+    name: hash
+    className: text-primary
+
+- title: 圖片類型
+  description: 支持全局的圖片資源、頁面的圖片資源、內部圖片和外部圖片。
+  icon:
+    vendor: bs
+    name: images
+    className: text-info
+
+- title: 濾鏡
+  description: 支持多種濾鏡，比如亮度、像素化、可見度等。
+  icon:
+    vendor: bs
+    name: filter
+    className: text-info

@@ -1,0 +1,4 @@
+{{< bs/config-toggle filename=hugo >}}
+[markup.goldmark.renderer]
+unsafe = true
+{{< /bs/config-toggle >}}

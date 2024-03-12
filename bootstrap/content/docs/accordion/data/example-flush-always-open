@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+{{</* bs/accordion data="accordion.faq" flush=true alwaysOpen=true */>}}
+{{< /hugo/shortcode-example >}}

@@ -1,0 +1,16 @@
+name: site-docker
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'common/**'
+      - 'docker/**'
+
+jobs:
+  version-matrix:
+    uses: ./.github/workflows/site.yml
+    with:
+      name: docker
+    secrets: inherit

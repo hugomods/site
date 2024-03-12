@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+{{</* asciinema id=573031 cols=120 rows=20 */>}}
+{{< /hugo/shortcode-example >}}

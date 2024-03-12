@@ -1,0 +1,14 @@
+[module]
+other = "模块"
+
+[name]
+other = "名称"
+
+[size]
+other = "大小"
+
+[vendor]
+other = "供应商"
+
+[version]
+other = "版本"

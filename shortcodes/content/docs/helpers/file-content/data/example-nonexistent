@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+{{</* file-content "static/invalid.txt" */>}}
+{{< /hugo/shortcode-example >}}

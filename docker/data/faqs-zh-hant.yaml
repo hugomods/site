@@ -1,0 +1,16 @@
+- title: 為什麼要創建另一個 Hugo Docker 鏡像？
+  content: |
+    我過去長期使用 `klakegg/hugo`，並對它感到滿意，然而其已經很久未曾更新了，於是乎我創建了一個可自動更新的鏡像，以滿足我的需求。
+
+- title: 支持哪些架構？
+  content: |
+    目前支持 `linux/amd64` 和 `linux/arm64` 架構。
+
+- title: 構建最新的 Hugo 鏡像需要多久？
+  content: |
+    視情況而定。一般來說，在最新的 Hugo 版本發佈後，需要**一到兩個小時**來構建。
+
+- title: 基礎鏡像是什麼？
+  content: |
+    所有鏡像均是構建於 [Alpine](https://hub.docker.com/_/alpine) 及其變體之上。
+

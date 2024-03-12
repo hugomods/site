@@ -1,0 +1,80 @@
+enableRobotsTXT: true
+
+outputs:
+  home:
+    - DecapCMSConfig
+    - HTML
+    - Offline
+    - SearchIndex
+    - RSS
+    - WebAppManifest
+
+taxonomies:
+  _merge: shallow
+
+markup:
+  _merge: deep
+
+build:
+  _merge: shallow
+
+menus:
+  _merge: deep
+
+module:
+  imports:
+    - path: github.com/hugomods/site/common
+
+params:
+  hb:
+    header:
+      logo: false
+      brand: Search
+      git_repo:
+        service: github
+        owner: hugomods
+        name: search
+    content_panel:
+      repo:
+        subpath: search
+
+baseURL: https://search.hugomods.com/
+
+languages:
+  _merge: deep
+
+  en:
+    title: Hugo Search Module | HugoMods
+    # baseURL: https://search.hugomods.com/
+    params:
+      description: Powerful, flexible and responsive client side fuzzy search module built on top of Fuse.js.
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: Third party Hugo modules and tools for building fast, modular, modern themes and static websites.
+
+  zh-hans:
+    title: Hugo 搜索模块 | HugoMods
+    # baseURL: https://zh-hans.search.hugomods.com/
+    params:
+      description: 基于 Fuse.js 的强大、灵活、响应迅速的客户端模糊搜索模块。
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: 用于构建快速、模块化和现代化的主题和静态网站的第三方 Hugo 模块和工具。
+
+  zh-hant:
+    title: Hugo 搜索模塊 | HugoMods
+    # baseURL: https://zh-hant.search.hugomods.com/
+    params:
+      description: 基於 Fuse.js 的強大、靈活、響應迅速的客戶端模糊搜索模塊。
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: 用於構建快速、模塊化和現代化的主題和靜態網站的第三方 Hugo 模塊和工具。
+
+security:
+  _merge: deep
+
+server:
+  _merge: deep
