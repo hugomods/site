@@ -5,6 +5,7 @@ classes = [
     'col',
     'd-flex',
     'hugo-mod-icon',
+    'icon',
     'justify-content-center',
     'mb-4',
     'mt-2',
