@@ -38,12 +38,14 @@ params:
       repo:
         subpath: seo
 
+baseURL: https://seo.hugomods.com/
+
 languages:
   _merge: deep
 
   en:
     title: Hugo SEO Module | HugoMods
-    baseURL: https://seo.hugomods.com/
+    # baseURL: https://seo.hugomods.com/
     params:
       description: Improve site ranking with SEO (Search Engine Optimization) modules, such as JSON-LD, Schema, Twitter Cards, Open Graph and more.
       hb:
@@ -53,7 +55,7 @@ languages:
 
   zh-hans:
     title: Hugo SEO 模块 | HugoMods
-    baseURL: https://zh-hans.seo.hugomods.com/
+    # baseURL: https://zh-hans.seo.hugomods.com/
     params:
       description: 利用 SEO（搜索引擎优化）模块提高网站排名，如 JSON-LD、Schema、Twitter 卡片、Open Graph 等。
       hb:
@@ -63,7 +65,7 @@ languages:
 
   zh-hant:
     title: Hugo SEO 模塊 | HugoMods
-    baseURL: https://zh-hant.seo.hugomods.com/
+    # baseURL: https://zh-hant.seo.hugomods.com/
     params:
       description: 利用 SEO（搜索引擎優化）模塊提高網站排名，如 JSON-LD、Schema、Twitter 卡片、Open Graph 等。
       hb:

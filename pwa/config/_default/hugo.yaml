@@ -38,12 +38,14 @@ params:
       repo:
         subpath: pwa
 
+baseURL: https://pwa.hugomods.com/
+
 languages:
   _merge: deep
 
   en:
     title: Hugo PWA Module | HugoMods
-    baseURL: https://pwa.hugomods.com/
+    # baseURL: https://pwa.hugomods.com/
     params:
       description: Provides powerful features for Hugo site, such as adding sites to the homepage, offline available, resources precaching, and more.
       hb:
@@ -53,7 +55,7 @@ languages:
 
   zh-hans:
     title: Hugo PWA 模块 | HugoMods
-    baseURL: https://zh-hans.pwa.hugomods.com/
+    # baseURL: https://zh-hans.pwa.hugomods.com/
     params:
       description: PWA 为 Hugo 站点提供更强大的功能，比如添加站点到主页、离线可用、预缓存资源等。
       hb:
@@ -63,7 +65,7 @@ languages:
 
   zh-hant:
     title: Hugo PWA 模塊 | HugoMods
-    baseURL: https://zh-hant.pwa.hugomods.com/
+    # baseURL: https://zh-hant.pwa.hugomods.com/
     params:
       description: PWA 為 Hugo 站點提供更強大的功能，比如添加站點到主頁、離線可用、預緩存資源等。
       hb:

@@ -40,12 +40,14 @@ params:
       repo:
         subpath: shortcodes
 
+baseURL: https://shortcodes.hugomods.com/
+
 languages:
   _merge: deep
 
   en:
     title: Hugo Extended Shortcodes | HugoMods
-    baseURL: https://shortcodes.hugomods.com/
+    # baseURL: https://shortcodes.hugomods.com/
     params:
       description: A variety of extended shortcodes to help users easily write beautiful, maintainable Markdown content.
       hb:
@@ -55,7 +57,7 @@ languages:
 
   zh-hans:
     title: Hugo 扩展短代码 | HugoMods
-    baseURL: https://zh-hans.shortcodes.hugomods.com/
+    # baseURL: https://zh-hans.shortcodes.hugomods.com/
     params:
       description: "各种扩展的短代码，以帮助用户轻松编写漂亮、可维护的 Markdown 内容。"
       hb:
@@ -65,7 +67,7 @@ languages:
 
   zh-hant:
     title: Hugo 擴展短代碼 | HugoMods
-    baseURL: https://zh-hant.shortcodes.hugomods.com/
+    # baseURL: https://zh-hant.shortcodes.hugomods.com/
     params:
       description: "各種擴展的短代碼，以幫助用戶輕鬆編寫漂亮、可維護的 Markdown 內容。"
       hb:

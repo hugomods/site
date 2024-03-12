@@ -39,12 +39,14 @@ params:
       repo:
         subpath: kroki
 
+baseURL: https://kroki.hugomods.com/
+
 languages:
   _merge: deep
 
   en:
     title: Hugo Kroki Module | HugoMods
-    baseURL: https://kroki.hugomods.com/
+    # baseURL: https://kroki.hugomods.com/
     params:
       description: Leverage the power of Kroki to create diagrams from textual descriptions and present them as inline SVGs and images without JavaScript.
       hb:
@@ -54,7 +56,7 @@ languages:
 
   zh-hans:
     title: Hugo Kroki 模块 | HugoMods
-    baseURL: https://zh-hans.kroki.hugomods.com/
+    # baseURL: https://zh-hans.kroki.hugomods.com/
     params:
       description: 利用 Kroki 的强大功能，从文本描述中创建图表，并以内联 SVG 和图片形式呈现，无需 JavaScript。
       hb:
@@ -64,7 +66,7 @@ languages:
 
   zh-hant:
     title: Hugo Kroki 模塊 | HugoMods
-    baseURL: https://zh-hant.kroki.hugomods.com/
+    # baseURL: https://zh-hant.kroki.hugomods.com/
     params:
       description: 利用 Kroki 的強大功能，從文本描述中創建圖表，並以內聯 SVG 和圖片形式呈現，無需 JavaScript。
       hb:

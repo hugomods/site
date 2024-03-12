@@ -40,12 +40,14 @@ params:
       repo:
         subpath: docker
 
+baseURL: https://docker.hugomods.com/
+
 languages:
   _merge: deep
 
   en:
     title: Hugo Docker Images | HugoMods
-    baseURL: https://docker.hugomods.com/
+    # baseURL: https://docker.hugomods.com/
     params:
       hb:
         footer:
@@ -54,7 +56,7 @@ languages:
 
   zh-hans:
     title: Hugo Docker 镜像 | HugoMods
-    baseURL: https://zh-hans.docker.hugomods.com/
+    # baseURL: https://zh-hans.docker.hugomods.com/
     params:
       description: "极简、最新的 Hugo Docker 镜像，其包含多种变体，如扩展版本、Git、Go、Node.js、NPM、Dart Sass 等。"
       hb:
@@ -64,7 +66,7 @@ languages:
 
   zh-hant:
     title: Hugo Docker 鏡像 | HugoMods
-    baseURL: https://zh-hant.docker.hugomods.com/
+    # baseURL: https://zh-hant.docker.hugomods.com/
     params:
       description: "極簡、最新的 Hugo Docker 鏡像，其包含多種變體，如擴展版本、Git、Go、Node.js、NPM、Dart Sass 等。"
       hb:

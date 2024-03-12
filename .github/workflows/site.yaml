@@ -53,30 +53,42 @@ jobs:
         working-directory: ${{ inputs.name }}
         run: |
           hugo --minify --gc --enableGitInfo
+      
+      - name: Setup Hugo Encrypt
+        if: ${{ inputs.name == 'home' }}
+        run: |
+          curl -L -o hugo-encrypt "https://github.com/hugomods/encrypt/releases/download/v0.2.0/hugo-encrypt-linux-64"
+          chmod 755 hugo-encrypt
+
+      - name: Encrypt
+        working-directory: ${{ inputs.name }}
+        if: ${{ inputs.name == 'home' }}
+        run: |
+          hugo --minify --gc --enableGitInfo
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: hugomods-${{ inputs.name }}
-          directory: ./${{ inputs.name }}/public/en
+          projectName: ${{ inputs.name == 'home' && 'hugomods' || (format('hugomods-{0}', inputs.name)) }}
+          directory: ./${{ inputs.name }}/public
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: hugomods-${{ inputs.name }}-zh-hans
-          directory: ./${{ inputs.name }}/public/zh-hans
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Publish Simplified Chinese Site to Cloudflare Pages
+      #   uses: cloudflare/pages-action@v1
+      #   with:
+      #     apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      #     accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      #     projectName: hugomods-${{ inputs.name }}-zh-hans
+      #     directory: ./${{ inputs.name }}/public/zh-hans
+      #     gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: hugomods-${{ inputs.name }}-zh-hant
-          directory: ./${{ inputs.name }}/public/zh-hant
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Publish Traditional Chinese Site to Cloudflare Pages
+      #   uses: cloudflare/pages-action@v1
+      #   with:
+      #     apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      #     accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      #     projectName: hugomods-${{ inputs.name }}-zh-hant
+      #     directory: ./${{ inputs.name }}/public/zh-hant
+      #     gitHubToken: ${{ secrets.GITHUB_TOKEN }}

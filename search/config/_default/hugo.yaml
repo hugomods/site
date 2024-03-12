@@ -38,12 +38,14 @@ params:
       repo:
         subpath: search
 
+baseURL: https://search.hugomods.com/
+
 languages:
   _merge: deep
 
   en:
     title: Hugo Search Module | HugoMods
-    baseURL: https://search.hugomods.com/
+    # baseURL: https://search.hugomods.com/
     params:
       description: Powerful, flexible and responsive client side fuzzy search module built on top of Fuse.js.
       hb:
@@ -53,7 +55,7 @@ languages:
 
   zh-hans:
     title: Hugo 搜索模块 | HugoMods
-    baseURL: https://zh-hans.search.hugomods.com/
+    # baseURL: https://zh-hans.search.hugomods.com/
     params:
       description: 基于 Fuse.js 的强大、灵活、响应迅速的客户端模糊搜索模块。
       hb:
@@ -63,7 +65,7 @@ languages:
 
   zh-hant:
     title: Hugo 搜索模塊 | HugoMods
-    baseURL: https://zh-hant.search.hugomods.com/
+    # baseURL: https://zh-hant.search.hugomods.com/
     params:
       description: 基於 Fuse.js 的強大、靈活、響應迅速的客戶端模糊搜索模塊。
       hb:

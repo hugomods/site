@@ -11,7 +11,7 @@ main:
   - name: HB 框架
     parent: projects
     weight: 1
-    url: https://zh-hans.hbstack.dev/
+    url: https://hbstack.dev/
     params:
       description: 用于构建模块化主题和网站的 Hugo Bootstrap 框架。
       icon:
@@ -33,7 +33,7 @@ main:
   - name: 搜索模块
     parent: projects
     weight: 2
-    url: https://zh-hans.search.hugomods.com/
+    url: https://search.hugomods.com/
     params:
       description: 强大、灵活和功能丰富的模糊搜索模块。
       icon:
@@ -43,7 +43,7 @@ main:
   - name: 图片模块
     parent: projects
     weight: 3
-    url: https://zh-hans.images.hugomods.com/
+    url: https://images.hugomods.com/
     params:
       description: 通过 URL 查询字符串和片段处理图片，对 Markdown 友好。
       icon:
@@ -53,7 +53,7 @@ main:
   - name: Decap CMS
     parent: projects
     weight: 4
-    url: https://zh-hans.decap-cms.hugomods.com/
+    url: https://decap-cms.hugomods.com/
     params:
       description: Decap CMS（前身为 Netlify CMS）模块。
       icon:
@@ -64,7 +64,7 @@ main:
   - name: PWA
     parent: projects
     weight: 5
-    url: https://zh-hans.pwa.hugomods.com/
+    url: https://pwa.hugomods.com/
     params:
       description: 使网站离线可用、可安装等。
       icon:
@@ -75,7 +75,7 @@ main:
   - name: HugoPress
     parent: projects
     weight: 6
-    url: https://zh-hans.hugopress.hugomods.com/
+    url: https://hugopress.hugomods.com/
     params:
       description: 用于构建主题的钩子系统。
       icon:
@@ -86,7 +86,7 @@ main:
   - name: Bootstrap
     parent: projects
     weight: 7
-    url: https://zh-hans.bootstrap.hugomods.com/
+    url: https://bootstrap.hugomods.com/
     params:
       description: Bootstrap 短代码。
       icon:
@@ -97,7 +97,7 @@ main:
   - name: 短代码
     parent: projects
     weight: 8
-    url: https://zh-hans.shortcodes.hugomods.com/
+    url: https://shortcodes.hugomods.com/
     params:
       description: 扩展的 Hugo 短代码。
       icon:
@@ -108,7 +108,7 @@ main:
   - name: 图标模块
     parent: projects
     weight: 9
-    url: https://zh-hans.icons.hugomods.com/
+    url: https://icons.hugomods.com/
     params:
       description: 支持流行的图标集的 SVG 图标模块。
       icon:
@@ -119,7 +119,7 @@ main:
   - name: SEO 模块
     parent: projects
     weight: 10
-    url: https://zh-hans.seo.hugomods.com/
+    url: https://seo.hugomods.com/
     params:
       description: Schema、推特卡片、Open Graph、JSON-LD 等。
       icon:
@@ -130,7 +130,7 @@ main:
   - name: 基础模块
     parent: projects
     weight: 11
-    url: https://zh-hans.base.hugomods.com/
+    url: https://base.hugomods.com/
     params:
       description: 基础的、实用的模板和方法。
       icon:
@@ -141,7 +141,7 @@ main:
   - name: 其他
     parent: projects
     weight: 12
-    url: https://zh-hans.hugomods.com/docs/
+    url: https://hugomods.com/docs/
     params:
       description: 其他模块和工具。
       icon:
@@ -177,7 +177,7 @@ main:
   
   - name: 博客
     parent: community
-    url: https://zh-hans.blog.hugomods.com/
+    url: https://blog.hugomods.com/
     params:
       description: 教程、新闻、发布等。
       icon:
@@ -187,7 +187,7 @@ main:
 apps:
   - name: 主页
     weight: 1
-    url: https://zh-hans.hugomods.com/
+    url: https://hugomods.com/
     params:
       icon:
         vendor: bs
@@ -196,7 +196,7 @@ apps:
   
   - name: HB 框架
     weight: 2
-    url: https://zh-hans.hbstack.dev/
+    url: https://hbstack.dev/
     params:
       icon:
         vendor: bs
@@ -215,7 +215,7 @@ apps:
   
   - name: 搜索
     weight: 3
-    url: https://zh-hans.search.hugomods.com/
+    url: https://search.hugomods.com/
     params:
       icon:
         vendor: bs
@@ -224,7 +224,7 @@ apps:
   
   - name: 图片模块
     weight: 4
-    url: https://zh-hans.images.hugomods.com/
+    url: https://images.hugomods.com/
     params:
       icon:
         vendor: bs
@@ -233,7 +233,7 @@ apps:
   
   - name: Decap CMS
     weight: 5
-    url: https://zh-hans.decap-cms.hugomods.com/
+    url: https://decap-cms.hugomods.com/
     params:
       icon:
         vendor: bs
@@ -242,7 +242,7 @@ apps:
   
   - name: PWA
     weight: 6
-    url: https://zh-hans.pwa.hugomods.com/
+    url: https://pwa.hugomods.com/
     params:
       icon:
         vendor: bs
@@ -251,7 +251,7 @@ apps:
   
   - name: HugoPress
     weight: 7
-    url: https://zh-hans.hugopress.hugomods.com/
+    url: https://hugopress.hugomods.com/
     params:
       icon:
         vendor: bs
@@ -260,7 +260,7 @@ apps:
   
   - name: Bootstrap
     weight: 8
-    url: https://zh-hans.bootstrap.hugomods.com/
+    url: https://bootstrap.hugomods.com/
     params:
       icon:
         vendor: bs
@@ -269,7 +269,7 @@ apps:
   
   - name: 短代码
     weight: 9
-    url: https://zh-hans.shortcodes.hugomods.com/
+    url: https://shortcodes.hugomods.com/
     params:
       icon:
         vendor: bs
@@ -278,7 +278,7 @@ apps:
   
   - name: 图标模块
     weight: 10
-    url: https://zh-hans.icons.hugomods.com/
+    url: https://icons.hugomods.com/
     params:
       icon:
         vendor: fas
@@ -287,7 +287,7 @@ apps:
   
   - name: SEO
     weight: 11
-    url: https://zh-hans.seo.hugomods.com/
+    url: https://seo.hugomods.com/
     params:
       icon:
         vendor: tabler/outline
@@ -296,7 +296,7 @@ apps:
   
   - name: 基础模块
     weight: 12
-    url: https://zh-hans.base.hugomods.com/
+    url: https://base.hugomods.com/
     params:
       icon:
         vendor: bs

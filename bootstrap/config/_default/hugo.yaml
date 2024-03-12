@@ -1,4 +1,5 @@
 enableRobotsTXT: true
+baseURL: https://bootstrap.hugomods.com/
 
 outputs:
   home:
@@ -45,7 +46,7 @@ languages:
 
   en:
     title: Hugo Bootstrap Module | HugoMods
-    baseURL: https://bootstrap.hugomods.com/
+    # baseURL: https://bootstrap.hugomods.com/
     params:
       description: |
         Universal and handy Hugo Bootstrap shortcodes to help users to build sites.
@@ -56,7 +57,7 @@ languages:
 
   zh-hans:
     title: Hugo Bootstrap 模块 | HugoMods
-    baseURL: https://zh-hans.bootstrap.hugomods.com/
+    # baseURL: https://zh-hans.bootstrap.hugomods.com/
     params:
       description: "通用、便利的 Hugo Bootstrap 短代码，以帮助用户构建网站。"
       hb:
@@ -66,7 +67,7 @@ languages:
 
   zh-hant:
     title: Hugo Bootstrap 模塊 | HugoMods
-    baseURL: https://zh-hant.bootstrap.hugomods.com/
+    # baseURL: https://zh-hant.bootstrap.hugomods.com/
     params:
       description: "通用、便利的 Hugo Bootstrap 短代碼，以幫助用戶構建網站。"
       hb:

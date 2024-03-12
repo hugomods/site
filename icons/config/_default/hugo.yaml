@@ -22,8 +22,22 @@ build:
 menus:
   _merge: deep
 
+baseURL: https://icons.hugomods.com/
+
 languages:
   _merge: deep
+
+  en:
+    title: Hugo Icons Module
+    # baseURL: https://icons.hugomods.com/
+
+  zh-hans:
+    title: Hugo Icons 模块
+    # baseURL: https://zh-hans.icons.hugomods.com/
+
+  zh-hant:
+    title: Hugo Icons 模塊
+    # baseURL: https://zh-hans.icons.hugomods.com/
 
 security:
   _merge: deep

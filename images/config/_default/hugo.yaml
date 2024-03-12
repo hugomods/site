@@ -38,12 +38,14 @@ params:
       repo:
         subpath: images
 
+baseURL: https://images.hugomods.com/
+
 languages:
   _merge: deep
 
   en:
     title: Hugo Images Module | HugoMods
-    baseURL: https://images.hugomods.com/
+    # baseURL: https://images.hugomods.com/
     params:
       description: Markdown-friendly module that process images via URL query string and fragment ID, such as align, resize, crop and more.
       hb:
@@ -53,7 +55,7 @@ languages:
 
   zh-hans:
     title: Hugo 图片模块 | HugoMods
-    baseURL: https://zh-hans.images.hugomods.com/
+    # baseURL: https://zh-hans.images.hugomods.com/
     params:
       description: 对 Markdown 友好的模块，其可通过 URL 查询字符串和片段 ID 处理图片，如对齐、调整大小、裁剪等。
       hb:
@@ -63,7 +65,7 @@ languages:
 
   zh-hant:
     title: Hugo 圖片模塊 | HugoMods
-    baseURL: https://zh-hant.images.hugomods.com/
+    # baseURL: https://zh-hant.images.hugomods.com/
     params:
       description: "對 Markdown 友好的模塊，其可通過 URL 查詢字符串和片段 ID 處理圖片，如對齊、調整大小、裁剪等。"
       hb:

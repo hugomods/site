@@ -36,12 +36,14 @@ params:
       repo:
         subpath: decap-cms
 
+baseURL: https://decap-cms.hugomods.com/
+
 languages:
   _merge: deep
 
   en:
     title: Hugo Decap CMS Module | HugoMods
-    baseURL: https://decap-cms.hugomods.com/
+    # baseURL: https://decap-cms.hugomods.com/
     params:
       description: Hugo module to help developers and users integrate Decap CMS (formerly Netlify CMS) with their themes and sites easilly.
       hb:
@@ -51,7 +53,7 @@ languages:
 
   zh-hans:
     title: Hugo Decap CMS 模块 | HugoMods
-    baseURL: https://zh-hans.decap-cms.hugomods.com/
+    # baseURL: https://zh-hans.decap-cms.hugomods.com/
     params:
       description: 用于帮助开发人员和用户轻松地将 Decap CMS（前身 Netlify CMS）与他们的主题和站点集成起来的模块。
       hb:
@@ -61,7 +63,7 @@ languages:
 
   zh-hant:
     title: Hugo Decap CMS 模塊 | HugoMods
-    baseURL: https://zh-hant.decap-cms.hugomods.com/
+    # baseURL: https://zh-hant.decap-cms.hugomods.com/
     params:
       description: 用於幫助開發人員和用戶輕鬆地將 Decap CMS（前身 Netlify CMS）與他們的主題和站點集成起來的模塊。
       hb:

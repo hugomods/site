@@ -38,12 +38,14 @@ params:
       repo:
         subpath: hugopress
 
+baseURL: https://hugopress.hugomods.com/
+
 languages:
   _merge: deep
 
   en:
     title: HugoPress Module | HugoMods
-    baseURL: https://hugopress.hugomods.com/
+    # baseURL: https://hugopress.hugomods.com/
     params:
       description: The hook system to help developers build modular themes.
       hb:
@@ -53,7 +55,7 @@ languages:
 
   zh-hans:
     title: HugoPress 模块 | HugoMods
-    baseURL: https://zh-hans.hugopress.hugomods.com/
+    # baseURL: https://zh-hans.hugopress.hugomods.com/
     params:
       description: 帮助开发人员构建模块化主题的钩子系统。
       hb:
@@ -63,7 +65,7 @@ languages:
 
   zh-hant:
     title: HugoPress 模塊 | HugoMods
-    baseURL: https://zh-hant.hugopress.hugomods.com/
+    # baseURL: https://zh-hant.hugopress.hugomods.com/
     params:
       description: 幫助開發人員構建模塊化主題的鉤子系統。
       hb:

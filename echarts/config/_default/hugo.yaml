@@ -39,12 +39,14 @@ params:
       repo:
         subpath: echarts
 
+baseURL: https://echarts.hugomods.com/
+
 languages:
   _merge: deep
 
   en:
     title: Hugo ECharts Module | HugoMods
-    baseURL: https://echarts.hugomods.com/
+    # baseURL: https://echarts.hugomods.com/
     params:
       description: Create intuitive, interactive, and highly customizable charts with Apache ECharts for free.
       hb:
@@ -54,7 +56,7 @@ languages:
 
   zh-hans:
     title: Hugo ECharts 模块 | HugoMods
-    baseURL: https://zh-hans.echarts.hugomods.com/
+    # baseURL: https://zh-hans.echarts.hugomods.com/
     params:
       description: 使用 Apache ECharts 免费创建直观、交互式和高度可定制的图表。
       hb:
@@ -64,7 +66,7 @@ languages:
 
   zh-hant:
     title: Hugo ECharts 模塊 | HugoMods
-    baseURL: https://zh-hant.echarts.hugomods.com/
+    # baseURL: https://zh-hant.echarts.hugomods.com/
     params:
       description: 使用 Apache ECharts 免費創建直觀、交互式和高度可定製的圖表。
       hb:

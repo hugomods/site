@@ -1,4 +1,5 @@
 enableRobotsTXT: true
+baseURL: https://base.hugomods.com/
 
 outputs:
   home:
@@ -45,7 +46,7 @@ languages:
 
   en:
     title: Hugo Base Module | HugoMods
-    baseURL: https://base.hugomods.com/
+    # baseURL: https://base.hugomods.com/
     params:
       description: Useful templates and functions for developing and designing Hugo themes.
       hb:
@@ -55,7 +56,7 @@ languages:
 
   zh-hans:
     title: Hugo Base 模块 | HugoMods
-    baseURL: https://zh-hans.base.hugomods.com/
+    # baseURL: https://zh-hans.base.hugomods.com/
     params:
       description: "用于开发和设计 Hugo 主题的实用的模板和函数。"
       hb:
@@ -65,7 +66,7 @@ languages:
 
   zh-hant:
     title: Hugo Base 模塊 | HugoMods
-    baseURL: https://zh-hant.base.hugomods.com/
+    # baseURL: https://zh-hant.base.hugomods.com/
     params:
       description: "用於開發和設計 Hugo 主題的實用的模板和函数。"
       hb:
