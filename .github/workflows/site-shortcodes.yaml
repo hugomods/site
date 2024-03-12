@@ -1,10 +1,13 @@
 name: site-shortcodes
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
     paths:
+      - '.github/workflows/site.yaml'
+      - '.github/workflows/site-shortcodes.yaml'
       - 'common/**'
       - 'shortcodes/**'
 

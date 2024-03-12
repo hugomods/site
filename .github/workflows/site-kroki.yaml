@@ -1,10 +1,13 @@
 name: site-echarts
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - kroki
     paths:
+      - '.github/workflows/site.yaml'
+      - '.github/workflows/site-kroki.yaml'
       - 'common/**'
       - 'kroki/**'
 

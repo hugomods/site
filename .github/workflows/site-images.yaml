@@ -1,10 +1,13 @@
 name: site-images
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
     paths:
+      - '.github/workflows/site.yaml'
+      - '.github/workflows/site-images.yaml'
       - 'common/**'
       - 'images/**'
 

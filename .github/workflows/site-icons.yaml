@@ -1,10 +1,13 @@
 name: site-icons
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
     paths:
+      - '.github/workflows/site.yaml'
+      - '.github/workflows/site-icons.yaml'
       - 'common/**'
       - 'icons/**'
 

@@ -1,10 +1,13 @@
 name: site-search
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
     paths:
+      - '.github/workflows/site.yaml'
+      - '.github/workflows/site-search.yaml'
       - 'common/**'
       - 'search/**'
 

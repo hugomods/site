@@ -1,10 +1,13 @@
 name: site-bootstrap
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
     paths:
+      - '.github/workflows/site.yaml'
+      - '.github/workflows/site-bootstrap.yaml'
       - 'common/**'
       - 'bootstrap/**'
 
