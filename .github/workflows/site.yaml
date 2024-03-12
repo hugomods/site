@@ -32,7 +32,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install dependencies
-        working-directory: base
+        working-directory: ${{ inputs.name }}
         run: npm ci
 
       - name: Setup Hugo
