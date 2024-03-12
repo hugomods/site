@@ -41,15 +41,15 @@ languages:
 
   en:
     title: HugoMods
-    baseURL: https://hugomods.com/
+    # baseURL: https://hugomods.com/
 
   zh-hans:
     title: HugoMods
-    baseURL: https://zh-hans.hugomods.com/
+    # baseURL: https://zh-hans.hugomods.com/
 
   zh-hant:
     title: HugoMods
-    baseURL: https://zh-hans.hugomods.com/
+    # baseURL: https://zh-hans.hugomods.com/
 
 params:
   hb:
