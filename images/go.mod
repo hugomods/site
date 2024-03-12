@@ -71,9 +71,11 @@ require (
 	github.com/hbstack/toc-scrollspy v0.1.0 // indirect
 	github.com/henrygd/bigger-picture v1.1.15 // indirect
 	github.com/hugomods/aos v0.1.0 // indirect
-	github.com/hugomods/base v0.4.2 // indirect
+	github.com/hugomods/apache-echarts v5.5.0+incompatible // indirect
+	github.com/hugomods/base v0.5.0 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
 	github.com/hugomods/decap-cms v0.14.1 // indirect
+	github.com/hugomods/echarts v0.0.0-20240312033300-1dabbaa64c41 // indirect
 	github.com/hugomods/encrypt v0.2.0 // indirect
 	github.com/hugomods/font-awesome v6.5.1+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
@@ -89,9 +91,10 @@ require (
 	github.com/hugomods/icons/vendors/lucide v0.3.37 // indirect
 	github.com/hugomods/icons/vendors/mdi v0.3.5 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.33 // indirect
-	github.com/hugomods/icons/vendors/tabler v0.15.27 // indirect
+	github.com/hugomods/icons/vendors/tabler v0.15.28 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/katex v0.3.0 // indirect
+	github.com/hugomods/kroki v0.0.0-20240311125538-e5b3bdd71e07 // indirect
 	github.com/hugomods/lucide-icons v0.331.0 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
 	github.com/hugomods/microsoft-clarity v0.1.0 // indirect
@@ -112,7 +115,7 @@ require (
 	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.5.2 // indirect
-	github.com/tabler/tabler-icons v2.47.0+incompatible // indirect
+	github.com/tabler/tabler-icons v3.0.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.3+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )

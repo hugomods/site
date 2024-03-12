@@ -1,6 +1,6 @@
 #!/bin/bash
 sites=(
-  blog bootstrap common decap-cms docker home hugopress icons images pwa search seo shortcodes
+  blog bootstrap common decap-cms docker echarts home hugopress icons images kroki pwa search seo shortcodes
 )
 for site in ${sites[@]}; do
   echo "Updating modules for site: $site"

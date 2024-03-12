@@ -123,7 +123,7 @@ main:
     params:
       description: Schema、推特卡片、Open Graph、JSON-LD 等。
       icon:
-        vendor: tabler
+        vendor: tabler/outline
         name: seo
         color: '#2350A9'
   
@@ -290,7 +290,7 @@ apps:
     url: https://zh-hans.seo.hugomods.com/
     params:
       icon:
-        vendor: tabler
+        vendor: tabler/outline
         name: seo
         color: '#2350A9'
   

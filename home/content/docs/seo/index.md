@@ -3,7 +3,7 @@ title: "Hugo SEO Modules"
 linkTitle: "SEO"
 nav_weight: 1000
 nav_icon:
-  vendor: tabler
+  vendor: tabler/outline
   name: seo
   color: green
 featured: false

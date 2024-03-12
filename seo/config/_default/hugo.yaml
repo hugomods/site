@@ -29,43 +29,43 @@ params:
   hb:
     header:
       logo: false
-      brand: Base
+      brand: SEO
       git_repo:
         service: github
         owner: hugomods
-        name: base
+        name: seo
     content_panel:
       repo:
-        subpath: base
+        subpath: seo
 
 languages:
   _merge: deep
 
   en:
-    title: Hugo Base Module | HugoMods
-    baseURL: https://base.hugomods.com/
+    title: Hugo SEO Module | HugoMods
+    baseURL: https://seo.hugomods.com/
     params:
-      description: Useful templates and functions for developing and designing Hugo themes.
+      description: Improve site ranking with SEO (Search Engine Optimization) modules, such as JSON-LD, Schema, Twitter Cards, Open Graph and more.
       hb:
         footer:
           site_title: HugoMods
           site_description: Third party Hugo modules and tools for building fast, modular, modern themes and static websites.
 
   zh-hans:
-    title: Hugo Base 模块 | HugoMods
-    baseURL: https://zh-hans.base.hugomods.com/
+    title: Hugo SEO 模块 | HugoMods
+    baseURL: https://zh-hans.seo.hugomods.com/
     params:
-      description: "用于开发和设计 Hugo 主题的实用的模板和函数。"
+      description: 利用 SEO（搜索引擎优化）模块提高网站排名，如 JSON-LD、Schema、Twitter 卡片、Open Graph 等。
       hb:
         footer:
           site_title: HugoMods
           site_description: 用于构建快速、模块化和现代化的主题和静态网站的第三方 Hugo 模块和工具。
 
   zh-hant:
-    title: Hugo Base 模塊 | HugoMods
-    baseURL: https://zh-hant.base.hugomods.com/
+    title: Hugo SEO 模塊 | HugoMods
+    baseURL: https://zh-hant.seo.hugomods.com/
     params:
-      description: "用於開發和設計 Hugo 主題的實用的模板和函数。"
+      description: 利用 SEO（搜索引擎優化）模塊提高網站排名，如 JSON-LD、Schema、Twitter 卡片、Open Graph 等。
       hb:
         footer:
           site_title: HugoMods

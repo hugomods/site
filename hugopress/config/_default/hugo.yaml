@@ -45,7 +45,7 @@ languages:
     title: HugoPress Module | HugoMods
     baseURL: https://hugopress.hugomods.com/
     params:
-      description: 
+      description: The hook system to help developers build modular themes.
       hb:
         footer:
           site_title: HugoMods
@@ -55,7 +55,7 @@ languages:
     title: HugoPress 模块 | HugoMods
     baseURL: https://zh-hans.hugopress.hugomods.com/
     params:
-      description: 
+      description: 帮助开发人员构建模块化主题的钩子系统。
       hb:
         footer:
           site_title: HugoMods
@@ -65,7 +65,7 @@ languages:
     title: HugoPress 模塊 | HugoMods
     baseURL: https://zh-hant.hugopress.hugomods.com/
     params:
-      description: 
+      description: 幫助開發人員構建模塊化主題的鉤子系統。
       hb:
         footer:
           site_title: HugoMods

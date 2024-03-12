@@ -1,0 +1,16 @@
+name: site-echarts
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'common/**'
+      - 'echarts/**'
+
+jobs:
+  version-matrix:
+    uses: ./.github/workflows/site.yml
+    with:
+      name: echarts
+    secrets: inherit

@@ -130,3 +130,23 @@ services:
       - 6120:6120
       - 6121:6121
       - 6122:6122
+  
+  kroki:
+    extends:
+      file: docker-compose-services.yml
+      service: server
+    working_dir: /src/kroki
+    ports:
+      - 6125:6125
+      - 6126:6126
+      - 6127:6127
+  
+  echarts:
+    extends:
+      file: docker-compose-services.yml
+      service: server
+    working_dir: /src/echarts
+    ports:
+      - 6130:6130
+      - 6131:6131
+      - 6132:6132

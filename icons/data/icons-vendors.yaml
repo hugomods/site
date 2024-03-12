@@ -43,7 +43,7 @@
   official_site: https://tabler.io/icons/
   weight: 5
   icon: brand-tabler
-  icon_vendor: tabler
+  icon_vendor: tabler/outline
 
 - name: Material Design Icons
   module_path: mdi

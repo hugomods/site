@@ -1,6 +1,6 @@
 ---
-title: Hugo Base Module
-description: Useful templates and functions for developing and designing Hugo themes.
+title: Hugo PWA Module
+description: Provides powerful features for Hugo site, such as adding sites to the homepage, offline available, resources precaching, and more.
 layout: landing
 full_width: true
 nav_icon:
@@ -8,7 +8,7 @@ nav_icon:
   name: house
 ---
 
-{{< bs/container breakpoint=fluid class="mb-5 px-4 py-3 py-lg-5 text-white" bg="images/jenga.jpg" >}}
+{{< bs/container breakpoint=fluid class="mb-5 px-4 py-3 py-lg-5 text-" bg="images/rocket.jpg" >}}
 
 {{< bs/row class="py-3 py-lg-5" >}}
 
@@ -23,7 +23,10 @@ nav_icon:
 {{< /bs/lead >}}
 
 {{< html/div class="d-grid gap-3 d-sm-flex flex-wrap" >}}
-  {{< bs/btn-link url="docs" size=lg class="p-3" >}}
+  {{< bs/btn-link url="https://github.com/hugomods/pwa" size=lg style=dark class="p-3" >}}
+    {{< icons/icon vendor=bs name=github size=.8em >}} GitHub
+  {{< /bs/btn-link >}}
+  {{< bs/btn-link url="docs" size=lg style=light class="p-3" >}}
     {{< icons/icon vendor=bs name=book size=.8em >}} Documentations
   {{< /bs/btn-link >}}
 {{< /html/div >}}

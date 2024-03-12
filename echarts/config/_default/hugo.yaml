@@ -1,0 +1,79 @@
+enableRobotsTXT: true
+
+outputs:
+  home:
+    - DecapCMSConfig
+    - HTML
+    - Offline
+    - SearchIndex
+    - RSS
+    - WebAppManifest
+
+taxonomies:
+  _merge: shallow
+
+markup:
+  _merge: deep
+
+build:
+  _merge: shallow
+
+menus:
+  _merge: deep
+
+module:
+  imports:
+    - path: github.com/hugomods/site/common
+
+params:
+  hb:
+    header:
+      logo: false
+      brand: ECharts
+      git_repo:
+        service: github
+        owner: hugomods
+        name: echarts
+        tag: false
+    content_panel:
+      repo:
+        subpath: echarts
+
+languages:
+  _merge: deep
+
+  en:
+    title: Hugo ECharts Module | HugoMods
+    baseURL: https://echarts.hugomods.com/
+    params:
+      description: Create intuitive, interactive, and highly customizable charts with Apache ECharts for free.
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: Third party Hugo modules and tools for building fast, modular, modern themes and static websites.
+
+  zh-hans:
+    title: Hugo ECharts 模块 | HugoMods
+    baseURL: https://zh-hans.echarts.hugomods.com/
+    params:
+      description: 使用 Apache ECharts 免费创建直观、交互式和高度可定制的图表。
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: 用于构建快速、模块化和现代化的主题和静态网站的第三方 Hugo 模块和工具。
+
+  zh-hant:
+    title: Hugo ECharts 模塊 | HugoMods
+    baseURL: https://zh-hant.echarts.hugomods.com/
+    params:
+      description: 使用 Apache ECharts 免費創建直觀、交互式和高度可定製的圖表。
+      hb:
+        footer:
+          site_title: HugoMods
+          site_description: 用於構建快速、模塊化和現代化的主題和靜態網站的第三方 Hugo 模塊和工具。
+
+security:
+  _merge: deep
+
+server:
+  _merge: deep

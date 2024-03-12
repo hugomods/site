@@ -125,7 +125,7 @@ main:
     params:
       description: Schema, Twitter Cards, Open Graph, JSON-LD and more.
       icon:
-        vendor: tabler
+        vendor: tabler/outline
         name: seo
         color: '#2350A9'
   
@@ -298,7 +298,7 @@ apps:
     url: https://seo.hugomods.com/
     params:
       icon:
-        vendor: tabler
+        vendor: tabler/outline
         name: seo
         color: '#2350A9'
   
