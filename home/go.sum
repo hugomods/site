@@ -70,12 +70,16 @@ github.com/hbstack/docs/modules/toc-scrollspy v0.1.7 h1:uBSdzKiDVYjqMxCr7UIC25J+
 github.com/hbstack/docs/modules/toc-scrollspy v0.1.7/go.mod h1:gRkFkDSPj8+j0rqIXbo1SQiD0UC7ZlDbbW+6FmilX0g=
 github.com/hbstack/featured-image v0.2.1 h1:sRIzjV6YPVG7Ah0Hxjiuxd9bQnEV+62McOgXZjGNV7g=
 github.com/hbstack/featured-image v0.2.1/go.mod h1:hux3nYqQUVnQHPttJxVrvwfTsULGuVGRGFk3lO2Si54=
+github.com/hbstack/footer v0.4.0 h1:FE9uYZLOy8VftzaH/6kytngZzcHV7XeGWYBPipy31VI=
+github.com/hbstack/footer v0.4.0/go.mod h1:5eB1ETT2WO5pNHObzRpFdwzrcQnHDGoBUOi+gtX/fa4=
 github.com/hbstack/footer/modules/socials v0.2.5 h1:VmIBdRc8+ujwOjurcltNW0yU7rX2CzectEtmhgy9I6Y=
 github.com/hbstack/footer/modules/socials v0.2.5/go.mod h1:bggKfxJiylFYCG3AP3cKkhNBNtQrYnZzU9S5UBJ3gu8=
 github.com/hbstack/giscus v0.1.1 h1:jKbA17XjAcbD59QIDUVoFOdbi9P2WzQMtOcIpG/Znuo=
 github.com/hbstack/giscus v0.1.1/go.mod h1:XElW8oNLnS0dRVFzoo9Gq8xknvz3D2PuTHC7yw9h3EE=
 github.com/hbstack/google-fonts v0.1.1 h1:rw9lsHL0x9a7olFh/9gWI+X5sRAf30DM5bzwP/L9aYg=
 github.com/hbstack/google-fonts v0.1.1/go.mod h1:4Xn7/i4MRPs0wDuYTIvCJvNfAMIC5vMJ4gNIWM3Vg24=
+github.com/hbstack/hb v0.12.1 h1:9DLOBNB8NPb9JKCmcKui/+pAcAZw1NgV42vYi4ABLbo=
+github.com/hbstack/hb v0.12.1/go.mod h1:8liwfjapaZK09pXP6XqZ49GOqFPTn7H9jIZsy7S6esg=
 github.com/hbstack/header v0.14.2 h1:vBz0fKfrwA6Pkjj3PcqitYUzXSN+JIYIcfrkhvbThK4=
 github.com/hbstack/header v0.14.2/go.mod h1:ixl3LE1P436T4lVErrUVTyRv7fYqEs4zLc1OeBK+VqI=
 github.com/hbstack/header/modules/apps v0.1.2 h1:WO7NULligi68oZ68U9ZjNCtbYGqrpiM9+Row/y2qUAM=
@@ -86,6 +90,8 @@ github.com/hbstack/header/modules/git-org v0.2.2 h1:X49h9HVDaOkj7Y4lMZ8LVpZnwO7H
 github.com/hbstack/header/modules/git-org v0.2.2/go.mod h1:1t/pUxasivW9es2Sq6vkdwXgAlbAx40FWx+pClVgnhM=
 github.com/hbstack/header/modules/git-repo v0.2.2 h1:oXThfbn/4hGiaFub0Yzfu6lYjCru/QX8tCgpLuTCRdA=
 github.com/hbstack/header/modules/git-repo v0.2.2/go.mod h1:3Qmey/cdnCGuOb5y/rt3P6RHlkBtIwaTSfOdATLQrAQ=
+github.com/hbstack/header/modules/git-repo v0.3.0 h1:Dl9G8T7Xu3ObYxMFSGBJmbbCcAW/xM+NbY9mDPNfoSE=
+github.com/hbstack/header/modules/git-repo v0.3.0/go.mod h1:3Qmey/cdnCGuOb5y/rt3P6RHlkBtIwaTSfOdATLQrAQ=
 github.com/hbstack/header/modules/language-picker v0.1.24 h1:OEWy+B1PCJXgoz62EKwBhObq5lNOsfXdjjtESHBi81c=
 github.com/hbstack/header/modules/language-picker v0.1.24/go.mod h1:HeIUdvoG+2ni8dqQNnsUtOQVo1U8ydVBEowJ/U85KCA=
 github.com/hbstack/header/modules/news v0.2.2 h1:rskBsngtC2gajjwPoVC8nf3mO35HH5GngnFQHdVJ6jM=

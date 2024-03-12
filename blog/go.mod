@@ -50,7 +50,7 @@ require (
 	github.com/hbstack/header/modules/apps v0.1.2 // indirect
 	github.com/hbstack/header/modules/banner v0.7.0 // indirect
 	github.com/hbstack/header/modules/git-org v0.2.2 // indirect
-	github.com/hbstack/header/modules/git-repo v0.2.2 // indirect
+	github.com/hbstack/header/modules/git-repo v0.3.0 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.24 // indirect
 	github.com/hbstack/header/modules/news v0.2.2 // indirect
 	github.com/hbstack/header/modules/search v0.1.35 // indirect
@@ -109,10 +109,12 @@ require (
 	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect
 	github.com/hugomods/seo/modules/base v0.1.1 // indirect
 	github.com/hugomods/seo/modules/favicons v0.2.1 // indirect
+	github.com/hugomods/seo/modules/json-ld v0.2.0 // indirect
 	github.com/hugomods/seo/modules/open-graph v0.1.0 // indirect
 	github.com/hugomods/seo/modules/schema v0.1.1 // indirect
 	github.com/hugomods/seo/modules/translations v0.1.0 // indirect
 	github.com/hugomods/seo/modules/twitter-cards v0.1.0 // indirect
+	github.com/hugomods/shortcodes v0.18.1 // indirect
 	github.com/hugomods/simple-icons v11.8.0+incompatible // indirect
 	github.com/hugomods/site/common v0.0.0-20240223003735-279a08261cd6 // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect

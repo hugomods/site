@@ -40,13 +40,16 @@ languages:
   _merge: deep
 
   en:
-    # baseURL: https://hugomods.com/
+    title: HugoMods
+    baseURL: https://hugomods.com/
 
   zh-hans:
-    # baseURL: https://zh-hans.hugomods.com/
+    title: HugoMods
+    baseURL: https://zh-hans.hugomods.com/
 
   zh-hant:
-    # baseURL: https://zh-hans.hugomods.com/
+    title: HugoMods
+    baseURL: https://zh-hans.hugomods.com/
 
 params:
   hb:

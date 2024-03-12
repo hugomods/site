@@ -41,14 +41,16 @@ require (
 	github.com/hbstack/docs/modules/heading-sign v0.1.9 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.7 // indirect
 	github.com/hbstack/featured-image v0.2.1 // indirect
+	github.com/hbstack/footer v0.4.0 // indirect
 	github.com/hbstack/footer/modules/socials v0.2.5 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
+	github.com/hbstack/hb v0.12.1 // indirect
 	github.com/hbstack/header v0.14.2 // indirect
 	github.com/hbstack/header/modules/apps v0.1.2 // indirect
 	github.com/hbstack/header/modules/banner v0.7.0 // indirect
 	github.com/hbstack/header/modules/git-org v0.2.2 // indirect
-	github.com/hbstack/header/modules/git-repo v0.2.2 // indirect
+	github.com/hbstack/header/modules/git-repo v0.3.0 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.24 // indirect
 	github.com/hbstack/header/modules/news v0.2.2 // indirect
 	github.com/hbstack/header/modules/search v0.1.35 // indirect

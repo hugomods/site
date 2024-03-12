@@ -84,8 +84,8 @@ github.com/hbstack/header/modules/banner v0.7.0 h1:3uVybA9eyoKk9w1oEeCOpk/DTj65w
 github.com/hbstack/header/modules/banner v0.7.0/go.mod h1:2gg9AOWD00oRik2MwVbBTlVi4q3jRVp5mKnAmSOozqs=
 github.com/hbstack/header/modules/git-org v0.2.2 h1:X49h9HVDaOkj7Y4lMZ8LVpZnwO7HE7BRZZPle5rCogQ=
 github.com/hbstack/header/modules/git-org v0.2.2/go.mod h1:1t/pUxasivW9es2Sq6vkdwXgAlbAx40FWx+pClVgnhM=
-github.com/hbstack/header/modules/git-repo v0.2.2 h1:oXThfbn/4hGiaFub0Yzfu6lYjCru/QX8tCgpLuTCRdA=
-github.com/hbstack/header/modules/git-repo v0.2.2/go.mod h1:3Qmey/cdnCGuOb5y/rt3P6RHlkBtIwaTSfOdATLQrAQ=
+github.com/hbstack/header/modules/git-repo v0.3.0 h1:Dl9G8T7Xu3ObYxMFSGBJmbbCcAW/xM+NbY9mDPNfoSE=
+github.com/hbstack/header/modules/git-repo v0.3.0/go.mod h1:3Qmey/cdnCGuOb5y/rt3P6RHlkBtIwaTSfOdATLQrAQ=
 github.com/hbstack/header/modules/language-picker v0.1.24 h1:OEWy+B1PCJXgoz62EKwBhObq5lNOsfXdjjtESHBi81c=
 github.com/hbstack/header/modules/language-picker v0.1.24/go.mod h1:HeIUdvoG+2ni8dqQNnsUtOQVo1U8ydVBEowJ/U85KCA=
 github.com/hbstack/header/modules/news v0.2.2 h1:rskBsngtC2gajjwPoVC8nf3mO35HH5GngnFQHdVJ6jM=
@@ -158,6 +158,8 @@ github.com/hugomods/hugopress v0.2.3 h1:tbQlJkGcou1KQJOeCN7E3oK8ZREFZoP3kSHcM/Kz
 github.com/hugomods/hugopress v0.2.3/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
 github.com/hugomods/i18n-js v0.2.1 h1:uIUl4LiYdwo8IK08oq7OmluYLedL21Wc9Rig1taDTSI=
 github.com/hugomods/i18n-js v0.2.1/go.mod h1:eJfxjgI2CQsNA1/ReIVvr5127DftUKcbHd2A2SQmDvU=
+github.com/hugomods/icons v0.6.3 h1:2Ra6NU2GOeVvz8vowLq/OZCTzxqhq84MA0TICRBVxeY=
+github.com/hugomods/icons v0.6.3/go.mod h1:cIkSvK6W0q6N4U6n9KGz+QfRWQXAW0INd+1P31gPNGg=
 github.com/hugomods/icons/vendors/bootstrap v0.5.6 h1:4Vj7u52gFUnO+Jj/CqmGfsLroify2aysRpIvgHRNjjI=
 github.com/hugomods/icons/vendors/bootstrap v0.5.6/go.mod h1:Sw1RhQvFcsQlJ5a4SKpp7A0XHDYQ0DK0pQwnnx+l+Ao=
 github.com/hugomods/icons/vendors/feather v0.2.3 h1:37hXYgM4QFobzvs4IaDF8odkle9IF6I6gRBQMb7UuJQ=

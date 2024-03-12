@@ -90,6 +90,8 @@ github.com/hbstack/header/modules/git-org v0.2.2 h1:X49h9HVDaOkj7Y4lMZ8LVpZnwO7H
 github.com/hbstack/header/modules/git-org v0.2.2/go.mod h1:1t/pUxasivW9es2Sq6vkdwXgAlbAx40FWx+pClVgnhM=
 github.com/hbstack/header/modules/git-repo v0.2.2 h1:oXThfbn/4hGiaFub0Yzfu6lYjCru/QX8tCgpLuTCRdA=
 github.com/hbstack/header/modules/git-repo v0.2.2/go.mod h1:3Qmey/cdnCGuOb5y/rt3P6RHlkBtIwaTSfOdATLQrAQ=
+github.com/hbstack/header/modules/git-repo v0.3.0 h1:Dl9G8T7Xu3ObYxMFSGBJmbbCcAW/xM+NbY9mDPNfoSE=
+github.com/hbstack/header/modules/git-repo v0.3.0/go.mod h1:3Qmey/cdnCGuOb5y/rt3P6RHlkBtIwaTSfOdATLQrAQ=
 github.com/hbstack/header/modules/language-picker v0.1.24 h1:OEWy+B1PCJXgoz62EKwBhObq5lNOsfXdjjtESHBi81c=
 github.com/hbstack/header/modules/language-picker v0.1.24/go.mod h1:HeIUdvoG+2ni8dqQNnsUtOQVo1U8ydVBEowJ/U85KCA=
 github.com/hbstack/header/modules/news v0.2.2 h1:rskBsngtC2gajjwPoVC8nf3mO35HH5GngnFQHdVJ6jM=
@@ -206,6 +208,8 @@ github.com/hugomods/seo/modules/base v0.1.1 h1:63exSBQ+CuyN+GEpbCQgTWgHcuiHia2Ox
 github.com/hugomods/seo/modules/base v0.1.1/go.mod h1:qfm1Vga0eGxL+Szgz8Jopm+NtJ5PGov2a2dikTg1qSg=
 github.com/hugomods/seo/modules/favicons v0.2.1 h1:9FP4DIbdmBhmUpBuJVJYo60iwv9Xc/XNQX1mT8zCNj0=
 github.com/hugomods/seo/modules/favicons v0.2.1/go.mod h1:xFDhrpWUZR4NMMVkilzT6xFBHiF5eyCQ8PlzOS2K9lY=
+github.com/hugomods/seo/modules/json-ld v0.2.0 h1:2tp2KiQtAtD9fj5nH+RcSRVR1Y/8efybMcAcZB+ados=
+github.com/hugomods/seo/modules/json-ld v0.2.0/go.mod h1:25NhBkb+Y0v56QVYPoCqp3R9gsuWc0oXRMeWQcUaW+s=
 github.com/hugomods/seo/modules/open-graph v0.1.0 h1:Whveal1j1n2xZWcAlNAd2rdfKp7Fh5apol36wLGLb54=
 github.com/hugomods/seo/modules/open-graph v0.1.0/go.mod h1:G7mXf7D1QtRN/i7A9v+cUF5P55H/QaxRqxJ8tp9fVq4=
 github.com/hugomods/seo/modules/schema v0.1.1 h1:8IuJxCOxk9pfKpCFMik5fDCX7zaFwkGoeKacnYV0sgA=
@@ -214,6 +218,8 @@ github.com/hugomods/seo/modules/translations v0.1.0 h1:wPDuPKGx/x+otHn2HfAankKCG
 github.com/hugomods/seo/modules/translations v0.1.0/go.mod h1:yU2p2hk2dK86YNRU9zfoWRoCrYmrjEmf3oN7cCTbzcM=
 github.com/hugomods/seo/modules/twitter-cards v0.1.0 h1:jH9WfmFZ3kCndUkATM/D/BYL+TQYoXA7/IxgQJbifKQ=
 github.com/hugomods/seo/modules/twitter-cards v0.1.0/go.mod h1:QYs7SWbhXSQrsn/RHZSD7DwzaCHFpoLQdVPxEI3j63k=
+github.com/hugomods/shortcodes v0.18.1 h1:mu0tGzx9Td1YfLD+f4i6GCltM3XLP5dNaXUj8KGytPQ=
+github.com/hugomods/shortcodes v0.18.1/go.mod h1:EnVopbZMNI/HeteM3Lp3phBTCRLvPSe7l142qhRFFPY=
 github.com/hugomods/simple-icons v11.8.0+incompatible h1:AgUvLSvOdBtt+aTEKmHsEMZLSS0ltnN/lfQY3jaxJC4=
 github.com/hugomods/simple-icons v11.8.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
 github.com/hugomods/snackbar v0.1.2 h1:SLpfH9jlYwf81epH7DvM2XTZHo+3fXXpk6XKtxmo964=
