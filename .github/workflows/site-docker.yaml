@@ -10,7 +10,7 @@ on:
 
 jobs:
   version-matrix:
-    uses: ./.github/workflows/site.yml
+    uses: ./.github/workflows/site.yaml
     with:
       name: docker
     secrets: inherit
