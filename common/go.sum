@@ -74,6 +74,7 @@ github.com/hugomods/icons/vendors/lucide v0.3.36 h1:BlnG61SoQTsLuFuJSL7bJk2b0VdY
 github.com/hugomods/icons/vendors/lucide v0.3.36/go.mod h1:Y+7aeozzWOMIwta59zskPj6iQQT06vjO50HrOfd6qkg=
 github.com/hugomods/icons/vendors/mdi v0.3.4 h1:JLsD336NM1etMJUYTuYgCf3PG9DqY+6pwicCBP6trCg=
 github.com/hugomods/icons/vendors/mdi v0.3.4/go.mod h1:M6vwJqwVlSKGU+WpPRZEEHnpDkFpVI/l3Bl0D90nINM=
+github.com/hugomods/icons/vendors/mdi v0.3.5/go.mod h1:ajB07ZVLHUwluArjYQ/kgNi4WEBYp6wRjPIAHOaMDrA=
 github.com/hugomods/icons/vendors/simple-icons v1.0.30 h1:9ocybRsKSidoCQvBQueFttjgtUi3NRLeCFv5WEbM9A8=
 github.com/hugomods/icons/vendors/simple-icons v1.0.30/go.mod h1:xarNh9bs80owlZgbN9TP894ITqsjiClD3B/JIJtfYL8=
 github.com/hugomods/icons/vendors/tabler v0.15.26 h1:6D1hJuBHKYx48c1lyr/hDMConY4vVrCBmckjSZCU814=
