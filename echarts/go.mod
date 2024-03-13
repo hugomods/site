@@ -80,7 +80,7 @@ require (
 	github.com/hugomods/bootstrap v0.19.0 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
 	github.com/hugomods/decap-cms v0.14.1 // indirect
-	github.com/hugomods/echarts v0.0.0-20240312033300-1dabbaa64c41 // indirect
+	github.com/hugomods/echarts v0.0.0-20240313081503-b7aff1c7697a // indirect
 	github.com/hugomods/encrypt v0.2.0 // indirect
 	github.com/hugomods/font-awesome v6.5.1+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
