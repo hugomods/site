@@ -1,5 +1,5 @@
 {{< hugo/shortcode-example >}}
-{{</* echarts _js=true */>}}
+{{</* echarts _js=true id="echarts-js-example" */>}}
 var option = {
   color: ['#80FFA5', '#00DDFF', '#37A2FF', '#FF0087', '#FFBF00'],
   title: {
