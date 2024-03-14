@@ -46,7 +46,7 @@ require (
 	github.com/hugomods/mermaid v0.1.1 // indirect
 	github.com/hugomods/microsoft-clarity v0.1.0 // indirect
 	github.com/hugomods/pwa v0.7.0 // indirect
-	github.com/hugomods/search v0.13.1 // indirect
+	github.com/hugomods/search v0.13.3 // indirect
 	github.com/hugomods/shortcodes v0.14.0 // indirect
 	github.com/razonyang/hb-mod-thanks v0.5.2 // indirect
 	github.com/twbs/icons v1.11.3 // indirect
