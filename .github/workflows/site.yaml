@@ -67,11 +67,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: List files
-        working-directory: ${{ inputs.name }}
-        if: ${{ inputs.name == 'echarts' }}
-        run: ls -l public/docs/codeblock
-      
       - name: Setup Hugo Encrypt
         if: ${{ inputs.name == 'home' }}
         run: |
