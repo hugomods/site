@@ -34,7 +34,7 @@ params:
         service: github
         owner: hugomods
         name: echarts
-        tag: false
+        # tag: false
     content_panel:
       repo:
         subpath: echarts
