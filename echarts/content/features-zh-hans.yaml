@@ -1,0 +1,23 @@
+- title: 延迟加载
+  description: |
+    仅当用户将图表滚动到视图中时才加载它们。
+  icon:
+    vendor: bs
+    name: arrow-clockwise
+    className: text-warning
+
+- title: 多种语言
+  description: |
+    支持使用 **JavaScript**、**JSON**、**YAML** 和 **TOML** 来定义图表。
+  icon:
+    vendor: bs
+    name: code
+    className: text-success
+
+- title: 图表文件
+  description: |
+    允许从文件中读取图表。
+  icon:
+    vendor: bs
+    name: file-earmark-bar-graph
+    className: text-primary

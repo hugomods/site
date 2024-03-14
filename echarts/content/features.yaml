@@ -1,0 +1,23 @@
+- title: Lazy loading
+  description: |
+    Charts are loaded only when user scrolls them into the view.
+  icon:
+    vendor: bs
+    name: arrow-clockwise
+    className: text-warning
+
+- title: Multiple languages
+  description: |
+    Supports *JavaScript*, *JSON*, *YAML* and *TOML* to configure charts.
+  icon:
+    vendor: bs
+    name: code
+    className: text-success
+
+- title: Charts files
+  description: |
+    Allow reading charts from files.
+  icon:
+    vendor: bs
+    name: file-earmark-bar-graph
+    className: text-primary

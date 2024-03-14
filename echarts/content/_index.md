@@ -29,6 +29,9 @@ nav_icon:
   {{< bs/btn-link url="docs" style=success size=lg class="p-3" >}}
     {{< icons/icon vendor=bs name=book size=.8em >}} Documentations
   {{< /bs/btn-link >}}
+  {{< bs/btn-link url="#features" style=warning size=lg class="p-3" >}}
+    {{< icons/icon vendor=bs name=stars size=.8em >}} Features
+  {{< /bs/btn-link >}}
 {{< /html/div >}}
 
 {{< /bs/col >}}
@@ -39,4 +42,10 @@ nav_icon:
 
 {{< /bs/row >}}
 
+{{< /bs/container >}}
+
+## {{< icons/icon vendor=bs name=stars className="text-warning" size=.8em >}} Features {#features .text-center .py-3 .mb-5}
+
+{{< bs/container >}}
+{{< bs/icon-grid features >}}
 {{< /bs/container >}}
