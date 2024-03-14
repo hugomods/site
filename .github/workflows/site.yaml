@@ -63,7 +63,7 @@ jobs:
             -v /tmp/hugo_cache:/tmp/hugo_cache
             -e GITHUB_TOKEN
           run: >-
-            hugo --minify --gc --enableGitInfo
+            cd ${{ inputs.name }} && hugo --minify --gc --enableGitInfo
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
