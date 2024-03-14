@@ -68,6 +68,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Setup Hugo Encrypt
+        working-directory: ${{ inputs.name }}
         if: ${{ inputs.name == 'home' }}
         run: |
           curl -L -o hugo-encrypt "https://github.com/hugomods/encrypt/releases/download/v0.2.0/hugo-encrypt-linux-64"
