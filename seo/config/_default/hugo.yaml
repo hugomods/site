@@ -18,6 +18,9 @@ markup:
 build:
   _merge: shallow
 
+caches:
+  _merge: deep
+
 menus:
   _merge: deep
 
