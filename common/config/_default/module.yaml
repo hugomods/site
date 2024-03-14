@@ -1,5 +1,5 @@
 imports:
-  - path: github.com/hugomods/echarts
+  - path: github.com/hbstack/echarts
   - path: github.com/hugomods/kroki
   - path: github.com/hugomods/seo/modules/json-ld
   - path: github.com/hbstack/shortcodes
