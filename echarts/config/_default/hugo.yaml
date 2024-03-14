@@ -79,3 +79,11 @@ security:
 
 server:
   _merge: deep
+
+caches:
+  getjson:
+    dir: :cacheDir/:project
+    maxAge: 0
+  getresource:
+    dir: :cacheDir/:project
+    maxAge: 0
