@@ -1,0 +1,8 @@
+```go-html-template
+<html>
+<body>
+  ...
+  {{ partial "echarts/assets/script" . }}
+</body>
+</html>
+```

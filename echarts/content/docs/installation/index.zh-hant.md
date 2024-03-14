@@ -23,3 +23,15 @@ images:
 ## 導入模塊
 
 {{< page-resource-content "data/config" >}}
+
+## 添加模板
+
+{{% skip-if-hugopress %}}
+
+於  `<body>` 元素末尾附近添加 `echarts/assets/script` 模板，比如：
+
+{{% bs/alert %}}
+若你不懂如何操作，請向主題作者尋求幫助。
+{{% /bs/alert %}}
+
+{{< page-resource-content "data/templates" >}}

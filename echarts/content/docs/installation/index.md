@@ -23,3 +23,15 @@ images:
 ## Import Module
 
 {{< page-resource-content "data/config" >}}
+
+## Include Templates
+
+{{% skip-if-hugopress %}}
+
+Include the `echarts/assets/script` template near the end of `<body>` element, for example.
+
+{{% bs/alert %}}
+If you don't know how, please request help from the theme author.
+{{% /bs/alert %}}
+
+{{< page-resource-content "data/templates" >}}
