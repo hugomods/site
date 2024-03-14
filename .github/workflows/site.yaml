@@ -83,7 +83,7 @@ jobs:
         working-directory: ${{ inputs.name }}
         if: ${{ inputs.name == 'home' }}
         run: |
-          chown -R $(id -u ${USER}):$(id -g ${USER}) -R public && ./hugo-encrypt
+          sudo chown -R $(id -u ${USER}):$(id -g ${USER}) -R public && ./hugo-encrypt
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
