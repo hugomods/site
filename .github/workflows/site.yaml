@@ -54,6 +54,11 @@ jobs:
         run: |
           hugo --minify --gc --enableGitInfo
       
+      - name: List files
+        working-directory: ${{ inputs.name }}
+        if: ${{ inputs.name == 'echarts' }}
+        run: ls -l public/docs/codeblock
+      
       - name: Setup Hugo Encrypt
         if: ${{ inputs.name == 'home' }}
         run: |
