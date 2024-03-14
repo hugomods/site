@@ -48,6 +48,6 @@ require (
 	github.com/hugomods/pwa v0.7.0 // indirect
 	github.com/hugomods/search v0.13.3 // indirect
 	github.com/hugomods/shortcodes v0.14.0 // indirect
-	github.com/razonyang/hb-mod-thanks v0.5.2 // indirect
+	github.com/razonyang/hb-mod-thanks v0.6.1 // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )
