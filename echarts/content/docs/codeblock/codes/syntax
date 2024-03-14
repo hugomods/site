@@ -1,0 +1,5 @@
+````markdown
+```echarts {param1=value1 param2=value2 ...}
+CHART OPTIONS WRITTEN IN JSON/TOML/YAML
+```
+````

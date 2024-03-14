@@ -1,0 +1,25 @@
+---
+title: "Installation"
+linkTitle: "Installation"
+description: Learn how to install Hugo ECharts module.
+nav_weight: 1
+nav_icon:
+  vendor: bs
+  name: cloud-download
+  className: text-success
+date: 2024-03-14T13:11:19+08:00
+series:
+  - Docs
+categories:
+tags:
+  - Installation
+authors:
+  - HugoMods
+images:
+---
+
+{{% hugo-module-requirements %}}
+
+## Import Module
+
+{{< page-resource-content "data/config" >}}

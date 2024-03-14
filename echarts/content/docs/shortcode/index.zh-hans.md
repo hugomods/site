@@ -1,7 +1,7 @@
 ---
-title: "Shortcode"
-linkTitle: "Shortcode"
-description: Using ECharts with shortcode.
+title: "短代码"
+linkTitle: "短代码"
+description: 通过短代码来使用 ECharts。
 nav_weight: 2
 nav_icon:
   vendor: bs
@@ -23,9 +23,9 @@ authors:
 images:
 ---
 
-## Syntax
+## 语法
 
-### TOML/YAML/JSON Syntax
+### TOML/YAML/JSON 语法
 
 ```markdown
 {{</* echarts param1=value1 param2=value2 */>}}
@@ -33,13 +33,13 @@ CHART OPTIONS WRITTEN IN JSON/TOML/YAML
 {{</* /echarts */>}}
 ```
 
-### TOML/YAML/JSON Data File Syntax
+### TOML/YAML/JSON 数据文件语法
 
 ```markdown
 {{</* echarts data="" param1=value1 param2=value2 /*/>}}
 ```
 
-### JavaScript Syntax
+### JavaScript 语法
 
 ```markdown
 {{</* echarts _js=true param1=value1 param2=value2 */>}}
@@ -47,7 +47,7 @@ CHART OPTIONS WRITTEN IN JSON/TOML/YAML
 {{</* /echarts */>}}
 ```
 
-### JavaScript File Syntax
+### JavaScript 文件语法
 
 ```markdown
 {{</* echarts _js=true _jsFile="" param1=value1 param2=value2 /*/>}}
@@ -55,44 +55,44 @@ CHART OPTIONS WRITTEN IN JSON/TOML/YAML
 
 {{% hugo/shortcode-params "codes/params.yaml" %}}
 
-### Others
+### 其他
 
-You're able to set any attributes for the chart containers, such as `class`, `id` and `data-*`.
+你可以为图表容器设置任意属性，比如 `class`、`id` 和 `data-*`。
 
-## Examples
+## 示例
 
-### JSON Example
+### JSON 示例
 
 {{< page-resource-content "codes/example-json" >}}
 
-### JSON Page Data File Example
+### JSON 页面数据文件示例
 
 {{< page-resource-content "codes/example-json-page-data" >}}
 
-### JSON Site Data File Example
+### JSON 站点数据文件示例
 
 {{< page-resource-content "codes/example-json-site-data" >}}
 
-### JSON Example With Custom Attributes
+### 带有自定义属性的 JSON 示例
 
 {{< page-resource-content "codes/example-json-attrs" >}}
 
-### TOML Example
+### TOML 示例
 
 {{< page-resource-content "codes/example-toml" >}}
 
-### YAML Example
+### YAML 示例
 
 {{< page-resource-content "codes/example-yaml" >}}
 
-### JavaScript Example
+### JavaScript 示例
 
 {{< page-resource-content "codes/example-js" >}}
 
-### Page JavaScript File Example
+### 页面 JavaScript 文件示例
 
 {{< page-resource-content "codes/example-js-page-file" >}}
 
-### Site JavaScript File Example
+### 站点 JavaScript 文件示例
 
 {{< page-resource-content "codes/example-js-site-file" >}}

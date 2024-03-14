@@ -1,0 +1,9 @@
+{{% bs/collapse "content/docs/shortcode/charts/large-scale-area.js" %}}
+```js
+{{< file-content "charts/large-scale-area.js" >}}
+```
+{{% /bs/collapse %}}
+
+{{< hugo/shortcode-example >}}
+{{</* echarts _js=true _jsFile="charts/large-scale-area.js" /*/>}}
+{{< /hugo/shortcode-example >}}

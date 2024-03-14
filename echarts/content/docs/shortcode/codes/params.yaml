@@ -1,0 +1,35 @@
+- name: data
+  description:
+    default: The name (without extension) of data file that relative to `data` folder or page's folder.
+    zh-hans: 相对于 `data` 目录或者页面目录的数据文件的名称（不带扩展名）。
+    zh-hant: 相對於 `data` 目錄或者頁面目錄的數據文件的名稱（不带扩展名）。
+
+- name: _js
+  type: boolean
+  default: false
+  description:
+    default: Indicates whehter if the chart is written in JavaScript, when `true`, you must `return` the chart options.
+    zh-hans: 表示图表是否用 JavaScript 编写的，为 `true` 时，你必须 `return` 图表的参数。
+    zh-hant: 表示圖表是否用 JavaScript 編寫的，為 `true` 時，你必須 `return` 圖表的參數。
+
+- name: _jsFile
+  description:
+    default: The path of JavaScript file that relative to `assets` folder or page's folder.
+    zh-hans: 相对于 `assets` 目录或者页面目录的 JavaScript 文件的名称。
+    zh-hant: 相對於 `assets` 目錄或者頁面目錄的 JavaScript 文件的名稱。
+
+- name: height
+  type: number
+  default: 400
+  description:
+    default: The height of chart container.
+    zh-hans: 图表容器高度。
+    zh-hant: 圖表容器高度。
+
+- name: weight
+  type: number
+  default: '100%'
+  description:
+    default: The width of chart container.
+    zh-hans: 图表容器宽度。
+    zh-hant: 圖表容器寬度。

@@ -1,0 +1,16 @@
+{{< hugo/shortcode-example >}}
+{{</* echarts */>}}
+[xAxis]
+type = "category"
+boundaryGap = false
+data = [ "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" ]
+
+[yAxis]
+type = "value"
+
+[[series]]
+data = [ 820, 932, 901, 934, 1_290, 1_330, 1_320 ]
+type = "line"
+areaStyle = { }
+{{</* /echarts */>}}
+{{< /hugo/shortcode-example >}}

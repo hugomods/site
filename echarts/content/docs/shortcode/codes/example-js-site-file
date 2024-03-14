@@ -1,0 +1,9 @@
+{{% bs/collapse "assets/charts/pie-website-referer.js" %}}
+```js
+{{< file-content "charts/pie-website-referer.js" >}}
+```
+{{% /bs/collapse %}}
+
+{{< hugo/shortcode-example >}}
+{{</* echarts _js=true _jsFile="charts/pie-website-referer.js" /*/>}}
+{{< /hugo/shortcode-example >}}

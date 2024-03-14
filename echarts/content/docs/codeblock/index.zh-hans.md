@@ -1,7 +1,7 @@
 ---
-title: "Code Block"
-linkTitle: "Code Block"
-description: Using ECharts with code block.
+title: "代码块"
+linkTitle: "代码块"
+description: 通过代码块来使用 ECharts。
 nav_weight: 2
 nav_icon:
   vendor: bs
@@ -9,12 +9,12 @@ nav_icon:
   className: text-success
 date: 2024-03-14T14:03:19+08:00
 series:
-  - Docs
+  - 文档
 categories:
 tags:
   - Markdown
-  - Code
-  - Code Block
+  - 代码
+  - 代码块
   - TOML
   - YAML
   - JSON
@@ -24,40 +24,40 @@ authors:
 images:
 ---
 
-## Syntax
+## 语法
 
-### TOML/YAML/JSON Syntax
+### TOML/YAML/JSON 语法
 
 {{< page-resource-content "codes/syntax" >}}
 
-### JavaScript Syntax
+### JavaScript 语法
 
 {{< page-resource-content "codes/syntax-js" >}}
 
 {{% hugo/shortcode-params "codes/params.yaml" %}}
 
-### Others
+### 其他
 
-You're able to set any attributes for the chart containers, such as `class`, `id` and `data-*`.
+你可以为图表容器设置任意属性，比如 `class`、`id` 和 `data-*`。
 
-## Examples
+## 示例
 
-### JSON Example
+### JSON 示例
 
 {{< page-resource-content "codes/example-json" >}}
 
-### JSON Example With Custom Attributes
+### 带有自定义属性的 JSON 示例
 
 {{< page-resource-content "codes/example-json-attrs" >}}
 
-### TOML Example
+### TOML 示例
 
 {{< page-resource-content "codes/example-toml" >}}
 
-### YAML Example
+### YAML 示例
 
 {{< page-resource-content "codes/example-yaml" >}}
 
-### JavaScript Example
+### JavaScript 示例
 
 {{< page-resource-content "codes/example-js" >}}

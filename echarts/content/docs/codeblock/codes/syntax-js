@@ -1,0 +1,6 @@
+````markdown
+```echarts {_js=true param1=value1 param2=value2 ...}
+options = {};
+return options;
+```
+````
