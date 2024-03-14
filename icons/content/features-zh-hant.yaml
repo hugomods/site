@@ -1,0 +1,41 @@
+- text: "**輕量級**"
+  details: "按需加載，只發布使用過的圖標。"
+  icon:
+    vendor: bs
+    name: speedometer
+    className: text-success
+
+- text: "**無需 JavaScript**"
+  details: "不需要任何 JavaScript。"
+  icon:
+    vendor: fab
+    name: js
+    className: text-danger
+
+- text: "**無需 CSS**"
+  details: "不需要任何 CSS。"
+  icon:
+    vendor: bs
+    name: filetype-css
+    className: text-danger
+
+- text: "**無需字體**"
+  details: "不需要任何字體。"
+  icon:
+    vendor: bs
+    name: fonts
+    className: text-danger
+
+- text: "**可定製的**"
+  details: "支持自定義圖標集。"
+  icon:
+    vendor: bs
+    name: toggles
+    className: text-success
+
+- text: "**靈活的**"
+  details: "允許設置圖標寬高、顏色及 CSS 類名。"
+  icon:
+    vendor: bs
+    name: plugin
+    className: text-success

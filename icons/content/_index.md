@@ -15,22 +15,9 @@ description: Lightweight and flexible Hugo SVG icons module that supports popula
 
 {{< bs/lead class="mb-4" >}}{{< param description >}}{{< /bs/lead >}}
 
-{{% bs/col class="mb-4" %}}
-
-- **Lightweight** {{< icons/icon vendor=bootstrap name=check-circle className=text-success >}}
-{data-bs-toggle="tooltip" data-bs-title="Load on demand, only used icons will be published." data-bs-placement="left" .mb-1}
-- **JavaScript** {{< icons/icon vendor=bootstrap name=x-circle className=text-danger >}}
-{data-bs-toggle="tooltip" data-bs-title="No JavaScript required." data-bs-placement="left" .mb-1}
-- **CSS** {{< icons/icon vendor=bootstrap name=x-circle className=text-danger >}}
-{data-bs-toggle="tooltip" data-bs-title="No CSS required." data-bs-placement="left" .mb-1}
-- **Fonts** {{< icons/icon vendor=bootstrap name=x-circle className=text-danger >}}
-{data-bs-toggle="tooltip" data-bs-title="No fonts required." data-bs-placement="left" .mb-1}
-- **Customizable** {{< icons/icon vendor=bootstrap name=check-circle className=text-success >}}
-{data-bs-toggle="tooltip" data-bs-title="You're able to create your own icons vendor." data-bs-placement="left" .mb-1}
-- **Flexible** {{< icons/icon vendor=bootstrap name=check-circle className=text-success >}}
-{data-bs-toggle="tooltip" data-bs-title="Allow specifying the height, width, color and CSS class name for icons." data-bs-placement="left" .mb-1}
-
-{{% /bs/col %}}
+{{< bs/col class="mb-4" >}}
+{{< bs/list data=features unstyled=true >}}
+{{< /bs/col >}}
 
 {{< html/div class="d-grid gap-3 d-sm-flex flex-wrap" >}}
   {{< bs/btn-link url="docs" size=lg class="p-3" >}}

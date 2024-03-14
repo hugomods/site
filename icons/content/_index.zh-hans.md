@@ -15,22 +15,9 @@ full_width: true
 
 {{< bs/lead class="mb-4" >}}{{< param description >}}{{< /bs/lead >}}
 
-{{% bs/col class="mb-4" %}}
-
-- **轻量级** {{< icons/icon vendor=bootstrap name=check-circle className=text-success >}}
-{data-bs-toggle="tooltip" data-bs-title="按需加载，只发布使用过的图标。" data-bs-placement="left" .mb-1}
-- **JavaScript** {{< icons/icon vendor=bootstrap name=x-circle className=text-danger >}}
-{data-bs-toggle="tooltip" data-bs-title="无需 JavaScript。" data-bs-placement="left" .mb-1}
-- **CSS** {{< icons/icon vendor=bootstrap name=x-circle className=text-danger >}}
-{data-bs-toggle="tooltip" data-bs-title="无需 CSS。" data-bs-placement="left" .mb-1}
-- **字体** {{< icons/icon vendor=bootstrap name=x-circle className=text-danger >}}
-{data-bs-toggle="tooltip" data-bs-title="无需字体。" data-bs-placement="left" .mb-1}
-- **可定制的** {{< icons/icon vendor=bootstrap name=check-circle className=text-success >}}
-{data-bs-toggle="tooltip" data-bs-title="支持自定义图标集。" data-bs-placement="left" .mb-1}
-- **灵活的** {{< icons/icon vendor=bootstrap name=check-circle className=text-success >}}
-{data-bs-toggle="tooltip" data-bs-title="允许设置图标宽高、颜色及 CSS 类名。" data-bs-placement="left" .mb-1}
-
-{{% /bs/col %}}
+{{< bs/col class="mb-4" >}}
+{{< bs/list data=features-zh-hans unstyled=true >}}
+{{< /bs/col >}}
 
 {{< html/div class="d-grid gap-3 d-sm-flex flex-wrap" >}}
   {{< bs/btn-link url="docs" size=lg class="p-3" >}}

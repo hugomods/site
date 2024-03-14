@@ -1,0 +1,41 @@
+- text: "*Lightweight*"
+  details: "Load on demand, only used icons will be published."
+  icon:
+    vendor: bs
+    name: speedometer
+    className: text-success
+
+- text: "*No JavaScript*"
+  details: "Does not require any JavaScript."
+  icon:
+    vendor: fab
+    name: js
+    className: text-danger
+
+- text: "*No CSS*"
+  details: "Does not require any CSS."
+  icon:
+    vendor: bs
+    name: filetype-css
+    className: text-danger
+
+- text: "*No fonts*"
+  details: "Does not require any fonts."
+  icon:
+    vendor: bs
+    name: fonts
+    className: text-danger
+
+- text: "*Customizable*"
+  details: "You're able to create your own icons vendor."
+  icon:
+    vendor: bs
+    name: toggles
+    className: text-success
+
+- text: "*Flexible*"
+  details: "Allow specifying the height, width, color and CSS class name for icons."
+  icon:
+    vendor: bs
+    name: plugin
+    className: text-success
