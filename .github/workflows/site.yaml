@@ -61,6 +61,7 @@ jobs:
           options: >-
             -v ${{ github.workspace }}:/src
             -v /tmp/hugo_cache:/tmp/hugo_cache
+            -u $(id -u ${USER}):$(id -g ${USER})
             -e GITHUB_TOKEN
           run: >-
             cd ${{ inputs.name }} && hugo --minify --gc --enableGitInfo
