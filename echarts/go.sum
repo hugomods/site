@@ -84,6 +84,7 @@ github.com/hbstack/google-fonts v0.1.1 h1:rw9lsHL0x9a7olFh/9gWI+X5sRAf30DM5bzwP/
 github.com/hbstack/google-fonts v0.1.1/go.mod h1:4Xn7/i4MRPs0wDuYTIvCJvNfAMIC5vMJ4gNIWM3Vg24=
 github.com/hbstack/hb v0.12.1 h1:9DLOBNB8NPb9JKCmcKui/+pAcAZw1NgV42vYi4ABLbo=
 github.com/hbstack/hb v0.12.1/go.mod h1:8liwfjapaZK09pXP6XqZ49GOqFPTn7H9jIZsy7S6esg=
+github.com/hbstack/hb v0.12.2 h1:zFIPi39iB68P9y5o5ckVqK4qCc/6cl7oYRvfEpQucPs=
 github.com/hbstack/hb v0.12.2/go.mod h1:gwKZN1bsmMuSjEkI/l/9zJCG0Xz96h0r7Cv/WOjjNjc=
 github.com/hbstack/header v0.14.2 h1:vBz0fKfrwA6Pkjj3PcqitYUzXSN+JIYIcfrkhvbThK4=
 github.com/hbstack/header v0.14.2/go.mod h1:ixl3LE1P436T4lVErrUVTyRv7fYqEs4zLc1OeBK+VqI=
@@ -157,7 +158,10 @@ github.com/hugomods/decap-cms v0.14.1 h1:QJUJORZ95M9ylRfm06YzC17RmX5Dto0xIgr3dx3
 github.com/hugomods/decap-cms v0.14.1/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/echarts v0.0.0-20240312033300-1dabbaa64c41 h1:MGMcNBjFT1v8GsMIMttj3hsCsJcp+goKmk50+eg723M=
 github.com/hugomods/echarts v0.0.0-20240312033300-1dabbaa64c41/go.mod h1:RrUk6TpRJUsMtNA4w9IydbrhPCqdlbCkEV0QDTYsxHc=
+github.com/hugomods/echarts v0.0.0-20240313081503-b7aff1c7697a h1:321xrTYz7lf7S9YNEf0kJyu0dwvM0AA8baXXVITHxhM=
 github.com/hugomods/echarts v0.0.0-20240313081503-b7aff1c7697a/go.mod h1:RrUk6TpRJUsMtNA4w9IydbrhPCqdlbCkEV0QDTYsxHc=
+github.com/hugomods/echarts v0.1.0 h1:ACxCHWi8DzJIZCCnKs9X+60vucrinDC/w2jmCFUc91w=
+github.com/hugomods/echarts v0.1.0/go.mod h1:RrUk6TpRJUsMtNA4w9IydbrhPCqdlbCkEV0QDTYsxHc=
 github.com/hugomods/encrypt v0.2.0 h1:mlwrKPahAcotlYSSso5GZQgLoMeHNPwIAdxD0m/459E=
 github.com/hugomods/encrypt v0.2.0/go.mod h1:5oezB6nFUpiCPmLRBP9mvqCUqa+4NNEyCVifTDCTv4U=
 github.com/hugomods/font-awesome v6.5.1+incompatible h1:Z/ZK4yQm0DptAxpXl2zfbo6taBejL0GCFwI4o4Ya7v0=
