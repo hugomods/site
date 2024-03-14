@@ -77,7 +77,7 @@ jobs:
         working-directory: ${{ inputs.name }}
         if: ${{ inputs.name == 'home' }}
         run: |
-          hugo --minify --gc --enableGitInfo
+          hugo-encrypt
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
