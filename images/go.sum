@@ -152,6 +152,7 @@ github.com/hugomods/decap-cms v0.14.1/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkut
 github.com/hugomods/echarts v0.0.0-20240312033300-1dabbaa64c41 h1:MGMcNBjFT1v8GsMIMttj3hsCsJcp+goKmk50+eg723M=
 github.com/hugomods/echarts v0.0.0-20240312033300-1dabbaa64c41/go.mod h1:RrUk6TpRJUsMtNA4w9IydbrhPCqdlbCkEV0QDTYsxHc=
 github.com/hugomods/echarts v0.0.0-20240313081503-b7aff1c7697a/go.mod h1:RrUk6TpRJUsMtNA4w9IydbrhPCqdlbCkEV0QDTYsxHc=
+github.com/hugomods/echarts v0.1.3/go.mod h1:RrUk6TpRJUsMtNA4w9IydbrhPCqdlbCkEV0QDTYsxHc=
 github.com/hugomods/encrypt v0.2.0 h1:mlwrKPahAcotlYSSso5GZQgLoMeHNPwIAdxD0m/459E=
 github.com/hugomods/encrypt v0.2.0/go.mod h1:5oezB6nFUpiCPmLRBP9mvqCUqa+4NNEyCVifTDCTv4U=
 github.com/hugomods/font-awesome v6.5.1+incompatible h1:Z/ZK4yQm0DptAxpXl2zfbo6taBejL0GCFwI4o4Ya7v0=
