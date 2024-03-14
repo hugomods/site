@@ -14,6 +14,7 @@ repositories:
   - github.com/hugomods/debugger
   - github.com/hugomods/docker
   - github.com/hugomods/docsearch
+  - github.com/hugomods/echarts
   - github.com/hugomods/encrypt
   - github.com/hugomods/font-awesome
   - github.com/hugomods/fuse-js
@@ -27,6 +28,7 @@ repositories:
   - github.com/hugomods/idb-js
   - github.com/hugomods/images
   - github.com/hugomods/katex
+  - github.com/hugomods/kroki
   - github.com/hugomods/mermaid
   - github.com/hugomods/plausible-analytics
   - github.com/hugomods/pwa
