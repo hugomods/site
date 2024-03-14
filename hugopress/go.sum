@@ -198,6 +198,7 @@ github.com/hugomods/katex v0.3.0 h1:hq0Kels9clL38Y2K/QZgXFKF7hQuumyQYz16TT4/Hhk=
 github.com/hugomods/katex v0.3.0/go.mod h1:EBY1YQTN6F8FDQz+mWp3EzEh8vDN31YjL9luVni+Wm0=
 github.com/hugomods/kroki v0.0.0-20240311125538-e5b3bdd71e07 h1:p4bRUU0WKgiPXxJ8yuz1J6W/NQSluf1eX20ySk2E4gg=
 github.com/hugomods/kroki v0.0.0-20240311125538-e5b3bdd71e07/go.mod h1:1ITYc/pGsNaxX5hwTqlM5BFeO1kLPvZ4L2f6Y2B/Ypg=
+github.com/hugomods/kroki v0.1.0/go.mod h1:1ITYc/pGsNaxX5hwTqlM5BFeO1kLPvZ4L2f6Y2B/Ypg=
 github.com/hugomods/lucide-icons v0.331.0 h1:DsQXjp+n2ymvpeWS7Lu7os51lxygsdr7ysu0H5PrDXM=
 github.com/hugomods/lucide-icons v0.331.0/go.mod h1:7loUmJrnD5umJ2sWSCb3AffZt0fYnSc1I+yBRjgHgw8=
 github.com/hugomods/mermaid v0.1.1 h1:12b8DbdiKOTtPmkWOMXsBz3LKkAWVqa5tGkbEboj0a4=
