@@ -54,10 +54,10 @@ jobs:
       #   run: |
       #     hugo --minify --gc --enableGitInfo
       
-      - id: id
-        run: >-
-          echo "uid=$(id -u ${USER})" >> "$GITHUB_OUTPUT" &&
-          echo "gid=$(id -g ${USER})" >> "$GITHUB_OUTPUT"
+      # - id: id
+      #   run: >-
+      #     echo "uid=$(id -u ${USER})" >> "$GITHUB_OUTPUT" &&
+      #     echo "gid=$(id -g ${USER})" >> "$GITHUB_OUTPUT"
     
       - name: Build
         uses: addnab/docker-run-action@v3
@@ -66,7 +66,7 @@ jobs:
           options: >-
             -v ${{ github.workspace }}:/src
             -v /tmp/hugo_cache:/tmp/hugo_cache
-            -u ${{steps.id.outputs.uid}}:${{steps.id.outputs.gid}}
+          #  -u ${{steps.id.outputs.uid}}:${{steps.id.outputs.gid}}
             -e GITHUB_TOKEN
           run: >-
             cd ${{ inputs.name }} && hugo --minify --gc --enableGitInfo
@@ -84,7 +84,7 @@ jobs:
         working-directory: ${{ inputs.name }}
         if: ${{ inputs.name == 'home' }}
         run: |
-          ./hugo-encrypt
+          chown -R $(id -u ${USER}):$(id -g ${USER}) -R public && ./hugo-encrypt
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
