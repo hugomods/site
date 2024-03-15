@@ -102,6 +102,8 @@ github.com/hbstack/header/modules/theme-toggle v0.4.4 h1:2abRpCpNxlL5k8KqnFMDvyU
 github.com/hbstack/header/modules/theme-toggle v0.4.4/go.mod h1:s0wry+fpt4OJO49dwHSaDW2aux7SZ+zvX5t6wlWSw5k=
 github.com/hbstack/heading-sign v0.2.0 h1:yXKZQEjPn/+jKyQxCJh34X+wXbiG4Bnr1VVF6lgMhi8=
 github.com/hbstack/heading-sign v0.2.0/go.mod h1:SXJWIr9C/7phTOXfWMzNSVZCeimKbYualuwIOHDeOu0=
+github.com/hbstack/kroki v0.1.0 h1:7+gAfv0qzz90s94gBbfawf9ZLVZ/3dgG53P4yU5x6qY=
+github.com/hbstack/kroki v0.1.0/go.mod h1:CDH5TVtCnmzs6ngBwiY5cARU+4H3T52Sd8ZINiGT6mE=
 github.com/hbstack/mermaid v0.2.1 h1:jcTPFIk5e5+4tS3qGr2R0l9Snky2XReAjKIrtRUZs18=
 github.com/hbstack/mermaid v0.2.1/go.mod h1:8teRAhZr8uLd/G5anYe0X7I2GLW5nCPZuE9lbrd12FI=
 github.com/hbstack/meta/recommended v0.2.10 h1:RzRe2LT/lJxlsfGv5UzYC3onl7lp1VWbCm1jAb69kSw=
@@ -198,6 +200,7 @@ github.com/hugomods/kroki v0.0.0-20240311125538-e5b3bdd71e07 h1:p4bRUU0WKgiPXxJ8
 github.com/hugomods/kroki v0.0.0-20240311125538-e5b3bdd71e07/go.mod h1:1ITYc/pGsNaxX5hwTqlM5BFeO1kLPvZ4L2f6Y2B/Ypg=
 github.com/hugomods/kroki v0.1.0 h1:k/81mhbWg5HtbWE2KX/EGUGmMCeDTSjCFUeH5oAI1fY=
 github.com/hugomods/kroki v0.1.0/go.mod h1:1ITYc/pGsNaxX5hwTqlM5BFeO1kLPvZ4L2f6Y2B/Ypg=
+github.com/hugomods/kroki v0.1.1 h1:OTxgwOABz+wj8+Ld+v+2yBW9xcpPX1j1A1X0QO1NZys=
 github.com/hugomods/kroki v0.1.1/go.mod h1:1ITYc/pGsNaxX5hwTqlM5BFeO1kLPvZ4L2f6Y2B/Ypg=
 github.com/hugomods/lucide-icons v0.331.0 h1:DsQXjp+n2ymvpeWS7Lu7os51lxygsdr7ysu0H5PrDXM=
 github.com/hugomods/lucide-icons v0.331.0/go.mod h1:7loUmJrnD5umJ2sWSCb3AffZt0fYnSc1I+yBRjgHgw8=
