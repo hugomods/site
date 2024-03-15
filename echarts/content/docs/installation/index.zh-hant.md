@@ -24,6 +24,10 @@ images:
 
 {{< page-resource-content "data/config" >}}
 
+{{% bs/alert %}}
+若你使用 [HB 框架](https://hbstack.dev/)的主題，則導入 `github.com/hbstack/echarts`。
+{{% /bs/alert %}}
+
 ## 添加模板
 
 {{% skip-if-hugopress %}}

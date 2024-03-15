@@ -24,6 +24,10 @@ images:
 
 {{< page-resource-content "data/config" >}}
 
+{{% bs/alert %}}
+Please import `github.com/hbstack/echarts` instead if you're using [HB Framework](https://hbstack.dev/) themes.
+{{% /bs/alert %}}
+
 ## Include Templates
 
 {{% skip-if-hugopress %}}
