@@ -29,10 +29,19 @@ nav_icon:
   {{< bs/btn-link url="docs" size=lg style=success class="p-3" >}}
     {{< icons/icon vendor=bs name=book size=.8em >}} 閱讀文檔
   {{< /bs/btn-link >}}
+  {{< bs/btn-link url="#features" size=lg style=warning class="p-3" >}}
+    {{< icons/icon vendor=bs name=stars size=.8em >}} 功能特性
+  {{< /bs/btn-link >}}
 {{< /html/div >}}
 
 {{< /bs/col >}}
 
 {{< /bs/row >}}
 
+{{< /bs/container >}}
+
+## {{< icons/icon vendor=bs name=stars size=.8em className="text-warning" >}} 功能特性 {#features .text-center .py-5}
+
+{{< bs/container >}}
+{{< bs/icon-grid "features-zh-hant" >}}
 {{< /bs/container >}}

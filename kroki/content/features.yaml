@@ -1,0 +1,22 @@
+- title: No JavaScript
+  description: Does not require JavaScript, since the module utilizes Kroki service to generate diagram images, and rendered as inline SVG and embeded SVG.
+  icon:
+    vendor: bs
+    name: filetype-js
+    className: text-danger
+
+- title: Various diagrams
+  description: |
+    Supports BlockDiag, BPMN, Bytefield, C4, D2, DBML, Ditaa, Erd, Excalidraw, GraphViz, Mermaid, Nomnoml, Pikchr, PlantUML, Structurizr and so on.
+  icon:
+    vendor: bs
+    name: diagram-2-fill
+    className: text-primary
+
+- title: Free & Open source
+  description: |
+    Kroki's code is available on GitHub and their goal is to provide Kroki as a free service.
+  icon:
+    vendor: bs
+    name: github
+    className: text-success

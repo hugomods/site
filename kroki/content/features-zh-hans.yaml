@@ -1,0 +1,22 @@
+- title: 无需 JavaScript
+  description: 并不需要 JavaScript，因为模块利用服务来生成图表图片，并以内嵌 SVG 和嵌入式 SVG 的形式呈现。
+  icon:
+    vendor: bs
+    name: filetype-js
+    className: text-danger
+
+- title: 各种图表
+  description: |
+    支持 BlockDiag、BPMN、Bytefield、C4、D2、DBML、Ditaa、Erd、Excalidraw、GraphViz、Mermaid、Nomnoml、Pikchr、PlantUML、Structurizr 等等。
+  icon:
+    vendor: bs
+    name: diagram-2-fill
+    className: text-primary
+
+- title: 免费开源
+  description: |
+    Kroki 代码可在 GitHub 上获取，他们的目标是将 Kroki 作为一项免费服务提供。
+  icon:
+    vendor: bs
+    name: github
+    className: text-success

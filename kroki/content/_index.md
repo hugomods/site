@@ -29,10 +29,19 @@ nav_icon:
   {{< bs/btn-link url="docs" size=lg style=success class="p-3" >}}
     {{< icons/icon vendor=bs name=book size=.8em >}} Documentations
   {{< /bs/btn-link >}}
+  {{< bs/btn-link url="#features" size=lg style=warning class="p-3" >}}
+    {{< icons/icon vendor=bs name=stars size=.8em >}} Features
+  {{< /bs/btn-link >}}
 {{< /html/div >}}
 
 {{< /bs/col >}}
 
 {{< /bs/row >}}
 
+{{< /bs/container >}}
+
+## {{< icons/icon vendor=bs name=stars size=.8em className="text-warning" >}} Features {#features .text-center .py-5}
+
+{{< bs/container >}}
+{{< bs/icon-grid "features" >}}
 {{< /bs/container >}}

@@ -1,6 +1,6 @@
 imports:
   - path: github.com/hbstack/echarts
-  - path: github.com/hugomods/kroki
+  - path: github.com/hbstack/kroki
   - path: github.com/hugomods/seo/modules/json-ld
   - path: github.com/hbstack/shortcodes
   - path: github.com/hbstack/bs-tooltip

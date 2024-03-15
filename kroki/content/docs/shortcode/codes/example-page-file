@@ -1,0 +1,9 @@
+{{% bs/collapse "diagrams/mermaid.dot" %}}
+```text
+{{< file-content "diagrams/mermaid.dot" >}}
+```
+{{% /bs/collapse %}}
+
+{{< hugo/shortcode-example >}}
+{{</* kroki _type="mermaid" _name="diagrams/mermaid.dot" */>}}
+{{< /hugo/shortcode-example >}}

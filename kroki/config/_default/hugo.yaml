@@ -37,7 +37,6 @@ params:
         service: github
         owner: hugomods
         name: kroki
-        tag: false
     content_panel:
       repo:
         subpath: kroki

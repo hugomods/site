@@ -1,0 +1,13 @@
+- name: _type
+  required: true
+  description:
+    default: The diagram type, such as `blockdiag`, `bpmn`, `bytefield`, `seqdiag`, `actdiag`, `nwdiag`, `packetdiag`, `rackdiag`, `c4plantuml`, `d2`, `dbml`, `ditaa`, `erd`, `excalidraw`, `graphviz`, `mermaid`, `nomnoml`, `pikchr`, `plantuml`, `structurizr`, `svgbob`, `symbolator`, `tikz`, `vega`, `vegalite`, `wavedrom`, `wireviz`.
+    zh-hans: 图表类型，比如：`blockdiag`、`bpmn`、`bytefield`、`seqdiag`、`actdiag`、`nwdiag`、`packetdiag`、`rackdiag`、`c4plantuml`、`d2`、`dbml`、`ditaa`、`erd`、`excalidraw`、`graphviz`、`mermaid`、`nomnoml`、`pikchr`、`plantuml`、`structurizr`、`svgbob`、`symbolator`、`tikz`、`vega`、`vegalite`、`wavedrom`、`wireviz`。
+    zh-hant: 圖表類型，比如：`blockdiag`、`bpmn`、`bytefield`、`seqdiag`、`actdiag`、`nwdiag`、`packetdiag`、`rackdiag`、`c4plantuml`、`d2`、`dbml`、`ditaa`、`erd`、`excalidraw`、`graphviz`、`mermaid`、`nomnoml`、`pikchr`、`plantuml`、`structurizr`、`svgbob`、`symbolator`、`tikz`、`vega`、`vegalite`、`wavedrom`、`wireviz`。
+
+- name: _output
+  default: inline
+  description:
+    default: "The type of output: `inline`, `embed`."
+    zh-hans: 输出的类型：`inline`、`embed`。
+    zh-hant: 輸出的類型：`inline`、`embed`。

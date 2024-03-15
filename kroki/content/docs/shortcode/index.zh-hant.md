@@ -1,7 +1,7 @@
 ---
-title: "Shortcode"
-linkTitle: "Shortcode"
-description: Generate Kroki diagrams by using shortcode.
+title: "短代碼"
+linkTitle: "短代碼"
+description: 使用短代碼生成 Kroki 圖表。
 nav_weight: 2
 nav_icon:
   vendor: bs
@@ -9,18 +9,18 @@ nav_icon:
   className: text-primary
 date: 2024-03-15T13:20:29+08:00
 series:
-  - Docs
+  - 文檔
 categories:
-  - Shortcode
+  - 短代碼
 tags:
 authors:
   - HugoMods
 images:
 ---
 
-## Syntax
+## 語法
 
-### Closing Syntax
+### 閉合語法
 
 ```markdown
 {{</* kroki _type=[type] */>}}
@@ -28,9 +28,9 @@ DIAGRAM
 {{</* /kroki */>}}
 ```
 
-It's similar to the usage of [code block]({{< relref "docs/codeblock" >}}).
+其與[代碼塊]({{< relref "docs/codeblock" >}})用法相似。
 
-### Self-Closing Syntax
+### 自閉合語法
 
 ```markdown
 {{</* kroki _type=[type] _name=[name] /*/>}}
@@ -40,16 +40,16 @@ It's similar to the usage of [code block]({{< relref "docs/codeblock" >}}).
 
 {{% hugo/shortcode-params "codes/params.yaml" %}}
 
-### Others
+### 其他
 
-You can set any attributes for diagrams, such as `id`, `class` and `data-*`.
+你可以為圖表設置任意屬性，比如 `id`、`class` 和 `data-*` 等等。
 
-## Examples
+## 示例
 
-### Site's File Kroki Example
+### 站點文件 Kroki 示例
 
 {{< page-resource-content "codes/example-site-file" >}}
 
-### Page's File Kroki Example
+### 頁面文件 Kroki 示例
 
 {{< page-resource-content "codes/example-page-file" >}}
