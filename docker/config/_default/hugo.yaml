@@ -35,10 +35,14 @@ params:
     header:
       logo: false
       brand: Docker
-      # git_repo:
-      #   service: github
-      #   owner: hugomods
-      #   name: docker
+      git_repo:
+        service: github
+        owner: hugomods
+        name: docker
+        tag: false
+        docker:
+          namespace: hugomods
+          name: hugo
     content_panel:
       repo:
         subpath: docker
