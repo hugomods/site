@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - kroki
+      - main
     paths:
       - '.github/workflows/site.yaml'
       - '.github/workflows/site-kroki.yaml'
