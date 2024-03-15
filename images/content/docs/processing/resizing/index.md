@@ -1,7 +1,7 @@
 ---
 title: "Resizing Images"
 linkTitle: "Resizing"
-description: Learn how to resizing images.
+description: Learn how to resize images.
 nav_weight: 1
 nav_icon:
   vendor: bs
