@@ -10,6 +10,10 @@ services:
       - 6060:6060
       - 6061:6061
       - 6062:6062
+
+  home-prod:
+    extends: home
+    command: npm run prod -- --bind 0.0.0.0
   
   blog:
     extends:
@@ -20,6 +24,10 @@ services:
       - 6065:6065
       - 6066:6066
       - 6067:6067
+
+  blog-prod:
+    extends: blog
+    command: npm run prod -- --bind 0.0.0.0
   
   docker:
     extends:
@@ -30,7 +38,11 @@ services:
       - 6070:6070
       - 6071:6071
       - 6072:6072
-  
+
+  docker-prod:
+    extends: docker
+    command: npm run prod -- --bind 0.0.0.0
+
   search:
     extends:
       file: docker-compose-services.yml
@@ -40,6 +52,10 @@ services:
       - 6075:6075
       - 6076:6076
       - 6077:6077
+
+  search-prod:
+    extends: search
+    command: npm run prod -- --bind 0.0.0.0
   
   icons:
     extends:
@@ -50,7 +66,11 @@ services:
       - 6080:6080
       - 6081:6081
       - 6082:6082
-  
+
+  icons-prod:
+    extends: icons
+    command: npm run prod -- --bind 0.0.0.0
+
   images:
     extends:
       file: docker-compose-services.yml
@@ -60,7 +80,11 @@ services:
       - 6085:6085
       - 6086:6086
       - 6087:6087
-  
+
+  images-prod:
+    extends: images
+    command: npm run prod -- --bind 0.0.0.0
+
   pwa:
     extends:
       file: docker-compose-services.yml
@@ -70,7 +94,11 @@ services:
       - 6090:6090
       - 6091:6091
       - 6092:6092
-  
+
+  pwa-prod:
+    extends: pwa
+    command: npm run prod -- --bind 0.0.0.0
+
   hugopress:
     extends:
       file: docker-compose-services.yml
@@ -80,7 +108,11 @@ services:
       - 6095:6095
       - 6096:6096
       - 6097:6097
-  
+
+  hugopress-prod:
+    extends: kroki
+    command: npm run prod -- --bind 0.0.0.0
+
   decap-cms:
     extends:
       file: docker-compose-services.yml
@@ -90,7 +122,11 @@ services:
       - 6100:6100
       - 6101:6101
       - 6102:6102
-  
+
+  decap-cms-prod:
+    extends: decap-cms
+    command: npm run prod -- --bind 0.0.0.0
+
   bootstrap:
     extends:
       file: docker-compose-services.yml
@@ -100,7 +136,11 @@ services:
       - 6105:6105
       - 6106:6106
       - 6107:6107
-  
+
+  bootstrap-prod:
+    extends: bootstrap
+    command: npm run prod -- --bind 0.0.0.0
+
   shortcodes:
     extends:
       file: docker-compose-services.yml
@@ -110,7 +150,11 @@ services:
       - 6110:6110
       - 6111:6111
       - 6112:6112
-  
+
+  shortcodes-prod:
+    extends: shortcodes
+    command: npm run prod -- --bind 0.0.0.0
+
   seo:
     extends:
       file: docker-compose-services.yml
@@ -120,7 +164,11 @@ services:
       - 6115:6115
       - 6116:6116
       - 6117:6117
-  
+
+  seo-prod:
+    extends: seo
+    command: npm run prod -- --bind 0.0.0.0
+
   base:
     extends:
       file: docker-compose-services.yml
@@ -130,7 +178,11 @@ services:
       - 6120:6120
       - 6121:6121
       - 6122:6122
-  
+
+  base-prod:
+    extends: base
+    command: npm run prod -- --bind 0.0.0.0
+
   kroki:
     extends:
       file: docker-compose-services.yml
@@ -140,7 +192,11 @@ services:
       - 6125:6125
       - 6126:6126
       - 6127:6127
-  
+
+  kroki-prod:
+    extends: kroki
+    command: npm run prod -- --bind 0.0.0.0
+
   echarts:
     extends:
       file: docker-compose-services.yml
@@ -150,3 +206,7 @@ services:
       - 6130:6130
       - 6131:6131
       - 6132:6132
+
+  echarts-prod:
+    extends: echarts
+    command: npm run prod -- --bind 0.0.0.0
