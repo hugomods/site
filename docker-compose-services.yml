@@ -1,6 +1,6 @@
 services:
   server:
-    image: hugomods/hugo:exts-0.123.7
+    image: hugomods/hugo:exts-0.124.0
     command: npm run dev -- --bind 0.0.0.0
     volumes:
       - $PWD:/src
