@@ -186,6 +186,7 @@ github.com/hugomods/icons/vendors/mdi v0.3.5 h1:VdcPhyC8wlEF2/vUFYVeN2TBamZiyt57
 github.com/hugomods/icons/vendors/mdi v0.3.5/go.mod h1:ajB07ZVLHUwluArjYQ/kgNi4WEBYp6wRjPIAHOaMDrA=
 github.com/hugomods/icons/vendors/simple-icons v1.0.33 h1:2bx6gRoBS946RhkBtHN86+ouKTdMP3wh1ZKcGNP0tQY=
 github.com/hugomods/icons/vendors/simple-icons v1.0.33/go.mod h1:La0IFKLpjIf2fJduy4tD89ZYlyv8rfcDA+WW5enNUFM=
+github.com/hugomods/icons/vendors/simple-icons v1.0.34/go.mod h1:5gxe7UQ8FingkIsuIid/a3C0BwhH9aYtCzwjf/2Cm/o=
 github.com/hugomods/icons/vendors/tabler v0.15.28 h1:4ad2Mr8JAVKgrY2GKRa6WZhU16vrri8PjiRXfK7iPe4=
 github.com/hugomods/icons/vendors/tabler v0.15.28/go.mod h1:3H1cKWUgsZIX8y9RPZQTxhEbkhdt0kBtmcDaYhTOJE4=
 github.com/hugomods/icons/vendors/tabler v0.15.29/go.mod h1:/YqbWDqyz0yMiT/dkpUMqalk8c4iI38+9hxV8vbfxgM=
@@ -230,6 +231,7 @@ github.com/hugomods/shortcodes v0.18.1 h1:mu0tGzx9Td1YfLD+f4i6GCltM3XLP5dNaXUj8K
 github.com/hugomods/shortcodes v0.18.1/go.mod h1:EnVopbZMNI/HeteM3Lp3phBTCRLvPSe7l142qhRFFPY=
 github.com/hugomods/simple-icons v11.8.0+incompatible h1:AgUvLSvOdBtt+aTEKmHsEMZLSS0ltnN/lfQY3jaxJC4=
 github.com/hugomods/simple-icons v11.8.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
+github.com/hugomods/simple-icons v11.9.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
 github.com/hugomods/snackbar v0.1.2 h1:SLpfH9jlYwf81epH7DvM2XTZHo+3fXXpk6XKtxmo964=
 github.com/hugomods/snackbar v0.1.2/go.mod h1:ykFm0IFibeQPuPAm8Gaa27xJS/bNZcSez4omVSl2gQ0=
 github.com/hugomods/video-js v0.1.1 h1:52DgwMZUrXVHbjG7+ke8YmYMXIs3yhn5q0JWz/bhLto=
