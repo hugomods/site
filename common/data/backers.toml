@@ -14,6 +14,12 @@ weight = 2
 avatar_url = "https://storage.ko-fi.com/cdn/useruploads/f5b92e0b-179f-486f-b548-92682f81f0ee.png"
 
 [[gold]]
+name = "Norbert Boros"
+url = "https://github.com/Mecanik"
+weight = 3
+avatar_url = "https://avatars.githubusercontent.com/u/12122357?v=4"
+
+[[gold]]
 name = "Support me on GitHub"
 url = "https://github.com/sponsors/razonyang"
 weight = 1
