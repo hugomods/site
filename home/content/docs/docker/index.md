@@ -21,6 +21,7 @@ tags:
   - Development
 authors:
   - HugoMods
+redirect: https://docker.hugomods.com/
 ---
 
 This article describes the up-to-date Hugo docker images, and offer some examples show how to develop and deploy your sites with the images.

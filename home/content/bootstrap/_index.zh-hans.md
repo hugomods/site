@@ -11,6 +11,7 @@ date: 2023-03-23T21:47:13+08:00
 draft: false
 aliases:
   - /zh-hans/docs/bootstrap
+redirect: https://bootstrap.hugomods.com/
 ---
 
 Bootstrap 模块为用户提供了一些短代码。

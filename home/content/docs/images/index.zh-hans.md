@@ -7,4 +7,5 @@ nav_icon:
   vendor: 'bs'
   name: 'images'
   color: 'blue'
+redirect: https://images.hugomods.com/
 ---

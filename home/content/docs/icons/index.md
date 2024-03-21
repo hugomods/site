@@ -22,6 +22,7 @@ tags:
   - Material Design Icons
 authors:
   - HugoMods
+redirect: https://icons.hugomods.com/
 ---
 
 The Hugo icons module generates inline SVG icons.

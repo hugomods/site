@@ -6,6 +6,7 @@ nav_icon:
   vendor: simple-icons
   name: docker
   color: '#2496ed'
+redirect: https://docker.hugomods.com/
 ---
 
 本文介绍如何使用 Hugo Docker 镜像。

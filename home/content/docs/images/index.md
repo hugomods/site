@@ -39,6 +39,7 @@ tags:
   - UnsharpMask
 authors:
   - HugoMods
+redirect: https://images.hugomods.com/
 ---
 
 The images module process images via URL query string and fragment, such as resize, crop, fit, fill and align images. This article offers some use cases for showing how to use it.
