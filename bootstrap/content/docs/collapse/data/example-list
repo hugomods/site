@@ -1,0 +1,10 @@
+{{< hugo/shortcode-example >}}
+1. Item one
+2. Item two {{</* bs/collapse heading="Inline" expand=true */>}}_Inline_ markdown{{</* /bs/collapse */>}}
+3. Item three {{</* bs/collapse heading="Code block" expand=true */>}}
+  ```sh
+  echo "Hello world"
+  ```
+  {{</* /bs/collapse */>}}
+4. Item four
+{{< /hugo/shortcode-example >}}

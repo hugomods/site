@@ -38,3 +38,7 @@ images:
 ### Files Example
 
 {{< page-resource-content "data/example-files" >}}
+
+### List Example
+
+{{< page-resource-content "data/example-list" >}}

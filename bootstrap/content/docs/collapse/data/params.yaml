@@ -21,3 +21,19 @@
     default: Whether to expand by default.
     zh-hans: 是否默认展开。
     zh-hant: 是否默認展開。
+
+- name: border
+  default: true
+  since: v0.21.0
+  description:
+    default: Whether to show border.
+    zh-hans: 是否显示边框。
+    zh-hant: 是否顯示邊框。
+
+- name: rounded
+  default: true
+  since: v0.21.0
+  description:
+    default: Whether to enable rounded border.
+    zh-hans: 是否启用圆角边框。
+    zh-hant: 是否啟用圓角邊框。

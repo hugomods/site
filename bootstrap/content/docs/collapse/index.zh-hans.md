@@ -38,3 +38,7 @@ images:
 ### 文件示例
 
 {{< page-resource-content "data/example-files" >}}
+
+### 列表示例
+
+{{< page-resource-content "data/example-list" >}}
