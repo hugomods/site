@@ -1,0 +1,5 @@
+```go-html-template
+{{ with partial "base/functions/data" (dict "key" "foobar" "page" .) }}
+  {{/* ... */}}
+{{ end }}
+```

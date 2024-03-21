@@ -1,0 +1,10 @@
+| Path                            |
+| ------------------------------- |
+| `/content/example/foo/bar.toml` |
+| `/content/example/foo/bar.yaml` |
+| `/content/example/foo/bar.yml`  |
+| `/content/example/foo/bar.json` |
+| `/data/foo/bar.toml`            |
+| `/data/foo/bar.yaml`            |
+| `/data/foo/bar.yml`             |
+| `/data/foo/bar.json`            |
