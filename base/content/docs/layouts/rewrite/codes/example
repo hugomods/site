@@ -1,0 +1,9 @@
+{{% bs/collapse "content/_index.md" primary true %}}
+```markdown
+---
+layout: rewrite
+rewrite:
+  path: /docs/overview
+---
+```
+{{% /bs/collapse %}}

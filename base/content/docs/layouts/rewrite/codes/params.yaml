@@ -1,0 +1,20 @@
+- name: layout
+  required: true
+  description:
+    default: MUST be `rewrite`.
+    zh-hans: 必须为 `rewrite`。
+    zh-hant: 必須為 `rewrite`。
+
+- name: rewrite.path
+  required: true
+  description:
+    default: The path of page.
+    zh-hans: 页面路径。
+    zh-hant: 頁面路徑。
+
+- name: rewrite.template
+  default: single
+  description:
+    default: The render template.
+    zh-hans: 渲染模板。
+    zh-hant: 渲染模板。
