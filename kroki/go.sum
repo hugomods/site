@@ -168,6 +168,7 @@ github.com/hugomods/code-block-panel v0.5.0 h1:IjlVQZJccs02x0TaNxsLR4S2PRyzy3tBX
 github.com/hugomods/code-block-panel v0.5.0/go.mod h1:3J9yUxaShbhYvFFZbGVHcBoHPl6TUKLL3f2fTsnVNNg=
 github.com/hugomods/decap-cms v0.14.1 h1:QJUJORZ95M9ylRfm06YzC17RmX5Dto0xIgr3dx3+ie4=
 github.com/hugomods/decap-cms v0.14.1/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
+github.com/hugomods/decap-cms v0.14.2/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/echarts v0.0.0-20240312033300-1dabbaa64c41 h1:MGMcNBjFT1v8GsMIMttj3hsCsJcp+goKmk50+eg723M=
 github.com/hugomods/echarts v0.0.0-20240312033300-1dabbaa64c41/go.mod h1:RrUk6TpRJUsMtNA4w9IydbrhPCqdlbCkEV0QDTYsxHc=
 github.com/hugomods/echarts v0.0.0-20240313081503-b7aff1c7697a/go.mod h1:RrUk6TpRJUsMtNA4w9IydbrhPCqdlbCkEV0QDTYsxHc=
