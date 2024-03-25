@@ -15,6 +15,7 @@ github.com/hbstack/back-to-top v0.2.0 h1:oVGYYL34PL4OX2O725YmRL9kHjZuxBuyT33/ZG1
 github.com/hbstack/back-to-top v0.2.0/go.mod h1:lVnZhVZ8pabJJ/M27APUyayelJO5yr9jkwsVnxk1O4k=
 github.com/hbstack/base v0.4.5 h1:5RP3YfUqEzEuudwQssr4m47ewEQzZ56f3HbWFAnE7Y0=
 github.com/hbstack/base v0.4.5/go.mod h1:03s6ySDgFTfhIKUc8y1C7xEp8eCtRp0NfYNY57myd1g=
+github.com/hbstack/base v0.4.6/go.mod h1:+kxOsRxZqtZG4BF9Vmk8APlSSez95515EQqoz0xPK7M=
 github.com/hbstack/bigger-picture v0.10.1 h1:EgUYZgSGhl4KwKVqryf6ncB2QY4YYgOqTpDW6+5tq14=
 github.com/hbstack/bigger-picture v0.10.1/go.mod h1:wZpRrOlTFrt2lO3tl9Y7cIAJbAJN1MdvRu0UsbCnkaE=
 github.com/hbstack/blog v0.25.2 h1:jnLYuST9e204XhK5vFaWSkJ18sLww7L2I9ZqX82q7Wg=
