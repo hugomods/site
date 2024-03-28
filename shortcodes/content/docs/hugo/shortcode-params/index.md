@@ -1,7 +1,7 @@
 ---
 title: "Shortcode Params"
 linkTitle: Shortcode Params
-description: Describe the parameter definitions of the Hugo shortcode, which is useful for writing shortcode's documentations.
+description: Describe the parameter definitions of the Hugo shortcode, which is useful for writing shortcode's documentation.
 nav_weight: 1
 nav_icon:
   vendor: bs

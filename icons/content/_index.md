@@ -21,7 +21,7 @@ description: Lightweight and flexible Hugo SVG icons module that supports popula
 
 {{< html/div class="d-grid gap-3 d-sm-flex flex-wrap" >}}
   {{< bs/btn-link url="docs" size=lg class="p-3" >}}
-    {{< icons/icon vendor=bs name=book className="me-1" size=".8em" >}} Documentations
+    {{< icons/icon vendor=bs name=book className="me-1" size=".8em" >}} Documentation
   {{< /bs/btn-link >}}
   {{< bs/btn-link url="#vendors" size=lg style=light class="p-3" >}}
     {{< icons/icon vendor=fas name=icons className="me-1" size=".8em" >}} Vendors

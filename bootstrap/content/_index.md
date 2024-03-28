@@ -26,7 +26,7 @@ nav_icon:
 
 {{< html/div class="d-grid gap-3 d-sm-flex flex-wrap justify-content-center" >}}
   {{< bs/btn-link url="docs" size=lg style=light class="p-3" >}}
-    {{< icons/icon vendor=bs name=book size=.8em >}} Documentations
+    {{< icons/icon vendor=bs name=book size=.8em >}} Documentation
   {{< /bs/btn-link >}}
 {{< /html/div >}}
 

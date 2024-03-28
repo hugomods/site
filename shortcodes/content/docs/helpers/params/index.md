@@ -1,7 +1,7 @@
 ---
 title: "Params"
 linkTitle: Params
-description: Describe the parameter definitions of functions and API, which is useful for writing documentations.
+description: Describe the parameter definitions of functions and API, which is useful for writing documentation.
 nav_weight: 1
 nav_icon:
   vendor: bs

@@ -31,7 +31,7 @@ nav_icon:
     {{< icons/icon vendor=bs name=github size=.8em >}} GitHub
   {{< /bs/btn-link >}}
   {{< bs/btn-link url="docs" size=lg style=light class="p-3" >}}
-    {{< icons/icon vendor=bs name=book size=.8em >}} Documentations
+    {{< icons/icon vendor=bs name=book size=.8em >}} Documentation
   {{< /bs/btn-link >}}
   {{< bs/btn-link url="#features" size=lg style=warning class="p-3" >}}
     {{< icons/icon vendor=bs name=stars size=.8em >}} Features
