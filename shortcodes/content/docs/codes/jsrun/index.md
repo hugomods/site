@@ -1,7 +1,7 @@
 ---
 title: "JSRun"
 linkTitle: "JSRun"
-description: Add support for JSRun, a online code editor for testing your codes, such as JavaScript, CSS, HTML, Go, PHP and so on.
+description: Add support for JSRun, a online code editor for testing your code, such as JavaScript, CSS, HTML, Go, PHP and so on.
 nav_weight: 1000
 nav_icon:
   vendor: bs

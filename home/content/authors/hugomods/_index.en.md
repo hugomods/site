@@ -1,6 +1,6 @@
 ---
 title: HugoMods Authors
-description: HugoMods codes and documentation contributors
+description: Contributors of HugoMods code and documentation.
 images:
   - https://avatars.githubusercontent.com/u/128204519?s=200&v=4
 socials:

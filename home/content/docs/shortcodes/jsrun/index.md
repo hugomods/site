@@ -26,7 +26,7 @@ authors:
 images:
 ---
 
-This shortcode add support for JSRun, a online code editor for testing your codes, such as JavaScript, CSS, HTML, Go, PHP and so on.
+This shortcode add support for JSRun, a online code editor for testing your code, such as JavaScript, CSS, HTML, Go, PHP and so on.
 
 <!--more-->
 

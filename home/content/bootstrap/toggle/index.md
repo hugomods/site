@@ -112,7 +112,7 @@ RAW CONTENT.
 
 ### SDK Example with the Pills Style
 
-It's quite easy to write SDK codes with the `bs/toggle` shortcode.
+It's quite easy to write SDK code with the `bs/toggle` shortcode.
 
 ```markdown
 {{</* bs/toggle name=sdk style=pills */>}}

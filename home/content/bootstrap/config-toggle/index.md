@@ -74,7 +74,7 @@ The following parameters are supported.
 | -        | `style` | string | - | `tabs` | `tabs`, `pills` or `underline`. |
 | -        | `fill` | boolean | - | `false` | When `true` the nav items take full width. |
 | -        | `title` | string | - | - | The title of configuration. |
-| -        | `delimiter` | boolean | - | `false` | When `true`, wraps codes with delimiters. |
+| -        | `delimiter` | boolean | - | `false` | When `true`, wraps code with delimiters. |
 
 ## Examples
 
