@@ -81,6 +81,7 @@ github.com/hugomods/icons/vendors/feather v0.2.2/go.mod h1:IcL/m3HC3N8IQFjCfDi+I
 github.com/hugomods/icons/vendors/feather v0.2.3/go.mod h1:qZJYi/4/gShpGTnXueTxkHl+M/QI5cqbu5ZabxcxNEE=
 github.com/hugomods/icons/vendors/font-awesome v0.6.3 h1:S0Vl11E8Ihn5vQZuvIOUuLXi1eOLALtK/auJLScSP+g=
 github.com/hugomods/icons/vendors/font-awesome v0.6.3/go.mod h1:S7BE6/wpDplzG9uTnZqG6Q7ruMFi8MN1R+DqE8gNc3Y=
+github.com/hugomods/icons/vendors/font-awesome v0.6.6/go.mod h1:2IVdmnq+IWCnPFYsvbxq59dTuW3+prPLerpu8Ezobro=
 github.com/hugomods/icons/vendors/lucide v0.3.36 h1:BlnG61SoQTsLuFuJSL7bJk2b0VdYnx4OoIEYEnCsUUA=
 github.com/hugomods/icons/vendors/lucide v0.3.36/go.mod h1:Y+7aeozzWOMIwta59zskPj6iQQT06vjO50HrOfd6qkg=
 github.com/hugomods/icons/vendors/mdi v0.3.4 h1:JLsD336NM1etMJUYTuYgCf3PG9DqY+6pwicCBP6trCg=
