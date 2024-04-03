@@ -27,7 +27,7 @@ require (
 	github.com/henrygd/bigger-picture v1.1.15 // indirect
 	github.com/hugomods/bootstrap v0.21.2 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
-	github.com/hugomods/decap-cms v0.14.4 // indirect
+	github.com/hugomods/decap-cms v0.14.5 // indirect
 	github.com/hugomods/encrypt v0.2.0 // indirect
 	github.com/hugomods/giscus v0.1.1 // indirect
 	github.com/hugomods/google-adsense v0.1.0 // indirect
