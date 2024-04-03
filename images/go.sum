@@ -182,6 +182,7 @@ github.com/hugomods/decap-cms v0.14.1/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkut
 github.com/hugomods/decap-cms v0.14.2/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/decap-cms v0.14.3/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/decap-cms v0.14.4/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
+github.com/hugomods/decap-cms v0.14.5/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/echarts v0.0.0-20240312033300-1dabbaa64c41 h1:MGMcNBjFT1v8GsMIMttj3hsCsJcp+goKmk50+eg723M=
 github.com/hugomods/echarts v0.0.0-20240312033300-1dabbaa64c41/go.mod h1:RrUk6TpRJUsMtNA4w9IydbrhPCqdlbCkEV0QDTYsxHc=
 github.com/hugomods/echarts v0.0.0-20240313081503-b7aff1c7697a/go.mod h1:RrUk6TpRJUsMtNA4w9IydbrhPCqdlbCkEV0QDTYsxHc=
