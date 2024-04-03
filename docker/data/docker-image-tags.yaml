@@ -62,7 +62,7 @@
 - name: reg-go
   go: true
 
-- name: go-git
+- name: reg-go-git
   git: true
 
 - name: reg-node
