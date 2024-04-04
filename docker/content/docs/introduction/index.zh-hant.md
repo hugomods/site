@@ -29,4 +29,4 @@ tags:
 
 ## 默認命令
 
-默認命令為 `hugo version`，其打印 Hugo 版本並退出。
+默認命令為 `hugo env`，其打印 Hugo 版本並退出。
