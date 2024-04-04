@@ -29,4 +29,4 @@ The default working directory is `/src`.
 
 ## Default Command
 
-The default command of images is `hugo version`, which prints Hugo version and then exits.
+The default command of images is `hugo env`, which prints Hugo version and then exits.
