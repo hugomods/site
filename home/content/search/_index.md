@@ -16,6 +16,7 @@ authors:
 images:
 aliases:
   - /en/docs/search
+  - /docs/search
 header:
   banner:
     img: images/banners/search.png
