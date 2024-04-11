@@ -97,7 +97,7 @@ require (
 	github.com/hugomods/icons/vendors/lucide v0.3.37 // indirect
 	github.com/hugomods/icons/vendors/mdi v0.3.5 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.36 // indirect
-	github.com/hugomods/icons/vendors/tabler v0.15.29 // indirect
+	github.com/hugomods/icons/vendors/tabler v0.15.30 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.10.1 // indirect
 	github.com/hugomods/katex v0.3.1 // indirect
@@ -124,7 +124,7 @@ require (
 	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.6.1 // indirect
-	github.com/tabler/tabler-icons v3.1.0+incompatible // indirect
+	github.com/tabler/tabler-icons v3.2.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.3+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )
