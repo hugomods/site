@@ -3,7 +3,7 @@ module github.com/hugomods/site/common
 go 1.19
 
 require (
-	github.com/hbstack/base v0.4.6 // indirect
+	github.com/hbstack/base v0.5.0 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
 	github.com/hbstack/blog/modules/giscus v0.1.23 // indirect
 	github.com/hbstack/blog/modules/sidebar/posts v0.7.0 // indirect
