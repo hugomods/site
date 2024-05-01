@@ -10,6 +10,7 @@ github.com/Templarian/MaterialDesign-SVG v7.4.47+incompatible h1:w99yYrLvkTj5A9D
 github.com/Templarian/MaterialDesign-SVG v7.4.47+incompatible/go.mod h1:SRSiaLOZazGp4UpKPQRm37h4A3cKLHXaybAqaJ7Lfx8=
 github.com/feathericons/feather v4.29.1+incompatible h1:2x3iuUAXwzDQJ3Hawc15IrgRJ3X3fj5jP9MEyyN3rIs=
 github.com/feathericons/feather v4.29.1+incompatible/go.mod h1:+F8Ba9cmRHWu0pOVoZtid0iwkNJ8hr959HyPwj3hsRg=
+github.com/feathericons/feather v4.29.2+incompatible/go.mod h1:+F8Ba9cmRHWu0pOVoZtid0iwkNJ8hr959HyPwj3hsRg=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 h1:SmpwwN3DNzJWbV+IT8gaFu07ENUFpCvKou5BHYUKuVs=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200/go.mod h1:kx8MBj9T7SFR8ZClWvKZPmmUxBaltkoXvnWlZZcSnYA=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+yb0/t3/rau1j8XlAxLE4CyXns2fqQbyqWfs=
