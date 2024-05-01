@@ -1,0 +1,28 @@
+- name: protocol
+  position: 0
+  required: true
+  description:
+    default: The link protocol, e.g. `mailto`, `tel`.
+    zh-hans: 链接协议，比如 `mailto`、`tel`。
+    zh-hant: 鏈接協議，比如 `mailto`、`tel`。
+
+- name: target
+  position: 1
+  required: true
+  description:
+    default: The target of link, such as email address (`user@example.org`), telephone number (`123-12345678`).
+    zh-hans: 链接目标，如邮箱地址（`user@example.org`）、电话号码（`123-12345678`）。
+    zh-hant: 鏈接目標，如郵箱地址（`user@example.org`）、電話號碼（`123-12345678`）。
+
+- name: text
+  position: 0
+  description:
+    default: The link text, default to the `target`.
+    zh-hans: 链接文本，默认为 `target`。
+    zh-hant: 鏈接文本，默認為 `target`。
+
+- name: '*'
+  description:
+    default: Others parameter will be treated as the link attributes, such as `class`, `rel`.
+    zh-hans: 其他参数将作为链接属性，比如 `class`、`rel`。
+    zh-hant: 其他參數將作為鏈接屬性，比如 `class`、`rel`。。

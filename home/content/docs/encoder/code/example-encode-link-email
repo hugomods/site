@@ -1,0 +1,7 @@
+{{< hugo/shortcode-example >}}
+{{</* encode-link "mailto" "user@example.org" */>}}
+
+{{</* encode-link protocol="mailto" target="user@example.org" text="Send me an email." */>}}
+
+{{</* encode-link protocol="mailto" target="user@example.org" text="Send me an email." class="text-success" */>}}
+{{< /hugo/shortcode-example >}}

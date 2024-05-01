@@ -1,0 +1,7 @@
+- name: text
+  position: 0
+  required: true
+  description:
+    default: The text to be encoded.
+    zh-hans: 待编码的文本。
+    zh-hant: 待編碼的文本。

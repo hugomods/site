@@ -1,0 +1,7 @@
+{{< hugo/shortcode-example >}}
+{{</* encode-link "tel" "123-1234567" */>}}
+
+{{</* encode-link protocol="tel" target="123-12345678" text="Call me." */>}}
+
+{{</* encode-link protocol="tel" target="123-12345678" text="Call me." class="text-success" */>}}
+{{< /hugo/shortcode-example >}}

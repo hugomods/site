@@ -77,11 +77,13 @@ require (
 	github.com/henrygd/bigger-picture v1.1.15 // indirect
 	github.com/hugomods/aos v0.1.0 // indirect
 	github.com/hugomods/apache-echarts v5.5.0+incompatible // indirect
+	github.com/hugomods/ascii v0.1.0 // indirect
 	github.com/hugomods/base v0.6.0 // indirect
 	github.com/hugomods/bootstrap v0.21.2 // indirect
 	github.com/hugomods/code-block-panel v0.6.0 // indirect
 	github.com/hugomods/decap-cms v0.14.7 // indirect
 	github.com/hugomods/echarts v0.1.3 // indirect
+	github.com/hugomods/encoder v0.1.0 // indirect
 	github.com/hugomods/encrypt v0.2.0 // indirect
 	github.com/hugomods/font-awesome v6.5.2+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect

@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+{{</* encode "123-12345678" */>}}
+{{< /hugo/shortcode-example >}}

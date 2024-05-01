@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+{{</* encode "user@example.org" */>}}
+{{< /hugo/shortcode-example >}}
