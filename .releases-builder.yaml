@@ -4,9 +4,8 @@ languages:
   - code: zh-hant
 contentDir: blog/content/releases
 repositories:
-  - github.com/hugomods/images
-  - github.com/hugomods/search
   - github.com/hugomods/aos
+  - github.com/hugomods/ascii
   - github.com/hugomods/base
   - github.com/hugomods/bootstrap
   - github.com/hugomods/code-block-panel
@@ -15,6 +14,7 @@ repositories:
   - github.com/hugomods/docker
   - github.com/hugomods/docsearch
   - github.com/hugomods/echarts
+  - github.com/hugomods/encoder
   - github.com/hugomods/encrypt
   - github.com/hugomods/font-awesome
   - github.com/hugomods/fuse-js
