@@ -9,3 +9,9 @@ url = "https://github.com/sponsors/razonyang"
 img = "https://github.blog/wp-content/uploads/2019/05/mona-heart-featured.png?resize=200x65"
 alt = "Support me on GitHub"
 weight = 1
+
+[[bronze]]
+url = "https://www.cloudflare.com/"
+img = "https://cf-assets.www.cloudflare.com/slt3lc6tev37/CHOl0sUhrumCxOXfRotGt/081f81d52274080b2d026fdf163e3009/cloudflare-icon-color_3x.png"
+alt = "Cloudflare®"
+weight = 3
