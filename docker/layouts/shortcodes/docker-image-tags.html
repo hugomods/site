@@ -3,7 +3,7 @@
   {{- printf "### `%s`\n" .name }}
   {{- printf "![Size](https://img.shields.io/docker/image-size/hugomods/hugo/%s?style=flat-square&height=32)\n" .name }}
   {{- printf "```sh\ndocker pull hugomods/hugo:%s\n```\n" .name }}
-  {{- printf "For sepcified version.\n" }}
+  {{- printf "For specified version.\n" }}
   {{- printf "```sh\ndocker pull hugomods/hugo:%s\n```\n" (cond (eq .name "latest") "<version>" (printf "%s-<version>" .name)) | safeHTML }}
   {{- printf "| Extended | Go  | Node.js | NPM | Git | Dart Sass | \n" }}
   {{- printf "| :------: | :-: | :-----: | :-: | :-: | :-------: |\n" }}

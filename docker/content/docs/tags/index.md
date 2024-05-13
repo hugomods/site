@@ -17,7 +17,7 @@ tags:
   - Tags
 ---
 
-## Explainations
+## Explanations
 
 - _Extended_ represents the extended version of Hugo.
 - Image tags start with _reg_ represent the regular (standard) version of Hugo.
