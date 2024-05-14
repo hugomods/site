@@ -45,13 +45,14 @@ path = "github.com/hugomods/microsoft-clarity"
 </head>
 ```
 
-## Site Configuration
+## Site Parameters
 
 | Parameter         |  Type  | Default | Description         |
 | ----------------- | :----: | :-----: | ------------------- |
 | `microsoft_clarity.id` | string |    -    | The measurement ID. |
 
 {{< bootstrap/config-toggle hugo >}}
-microsoft_clarity:
-  id: XXXXXXXXXX
+params:
+  microsoft_clarity:
+    id: XXXXXXXXXX
 {{< /bootstrap/config-toggle >}}
