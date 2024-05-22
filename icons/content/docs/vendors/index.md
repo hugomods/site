@@ -19,6 +19,7 @@ tags:
   - Lucide Icons
   - Tabler Icons
   - Meterial Design Icons
+  - Flag Icons
 ---
 
 {{% vendors %}}

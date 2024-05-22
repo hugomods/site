@@ -62,3 +62,12 @@
   weight: 7
   icon: feather
   icon_vendor: feather
+
+- name: Flag Icons
+  module_path: flag
+  names:
+    - flag
+  official_site: https://flagicons.lipis.dev/
+  weight: 8
+  icon: flag
+  icon_vendor: bootstrap

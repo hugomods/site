@@ -32,6 +32,10 @@
     {{- $vendors = merge $vendors (dict
       "tabler" (dict "url" (printf "https://raw.githubusercontent.com/tabler/tabler-icons/%s/icons/%%s.svg" $version)))
     -}}
+  {{- else if eq .Path "github.com/lipis/flag-icons" -}}
+    {{- $vendors = merge $vendors (dict
+      "flag" (dict "url" (printf "https://raw.githubusercontent.com/lipis/flag-icons/%s/flags/%%s.svg" $version)))
+    -}}
   {{- end -}}
 {{- end -}}
 {{- $icons := slice -}}
