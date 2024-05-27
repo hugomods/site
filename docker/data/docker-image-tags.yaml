@@ -19,6 +19,7 @@
 - name: go-git
   extended: true
   git: true
+  go: true
 
 - name: node
   extended: true
@@ -64,6 +65,7 @@
 
 - name: reg-go-git
   git: true
+  go: true
 
 - name: reg-node
   nodejs: true
