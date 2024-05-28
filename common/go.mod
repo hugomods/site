@@ -18,7 +18,7 @@ require (
 	github.com/hbstack/google-fonts v0.1.1 // indirect
 	github.com/hbstack/hb v0.12.2 // indirect
 	github.com/hbstack/header v0.14.3 // indirect
-	github.com/hbstack/header/modules/news v0.2.2 // indirect
+	github.com/hbstack/header/modules/news v0.3.0 // indirect
 	github.com/hbstack/heading-sign v0.2.0 // indirect
 	github.com/hbstack/meta/recommended v0.2.10 // indirect
 	github.com/hbstack/pagination v0.7.0 // indirect

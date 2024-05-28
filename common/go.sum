@@ -44,6 +44,7 @@ github.com/hbstack/header v0.14.2/go.mod h1:ixl3LE1P436T4lVErrUVTyRv7fYqEs4zLc1O
 github.com/hbstack/header v0.14.3/go.mod h1:W7eolpYJctsTD8GVFEj09Ogbqqy8OAqcxBEbW3ZTYIg=
 github.com/hbstack/header/modules/news v0.2.2 h1:rskBsngtC2gajjwPoVC8nf3mO35HH5GngnFQHdVJ6jM=
 github.com/hbstack/header/modules/news v0.2.2/go.mod h1:GGW3eyK9CbuZ8JNzLG5DgP2MzPmVLxX1IlkVBQNv0+Q=
+github.com/hbstack/header/modules/news v0.3.0/go.mod h1:GGW3eyK9CbuZ8JNzLG5DgP2MzPmVLxX1IlkVBQNv0+Q=
 github.com/hbstack/heading-sign v0.2.0 h1:yXKZQEjPn/+jKyQxCJh34X+wXbiG4Bnr1VVF6lgMhi8=
 github.com/hbstack/heading-sign v0.2.0/go.mod h1:SXJWIr9C/7phTOXfWMzNSVZCeimKbYualuwIOHDeOu0=
 github.com/hbstack/meta/recommended v0.2.10 h1:RzRe2LT/lJxlsfGv5UzYC3onl7lp1VWbCm1jAb69kSw=

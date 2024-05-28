@@ -52,7 +52,7 @@ require (
 	github.com/hbstack/header/modules/git-org v0.2.3 // indirect
 	github.com/hbstack/header/modules/git-repo v0.4.1 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.24 // indirect
-	github.com/hbstack/header/modules/news v0.2.2 // indirect
+	github.com/hbstack/header/modules/news v0.3.0 // indirect
 	github.com/hbstack/header/modules/search v0.1.35 // indirect
 	github.com/hbstack/header/modules/socials v0.2.0 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.4.4 // indirect
