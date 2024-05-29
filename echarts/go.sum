@@ -243,6 +243,7 @@ github.com/hugomods/echarts v0.1.3 h1:DBHXaVcKE3R/UQKaItulhoVqkO439lGicb1foKs+AQ
 github.com/hugomods/echarts v0.1.3/go.mod h1:RrUk6TpRJUsMtNA4w9IydbrhPCqdlbCkEV0QDTYsxHc=
 github.com/hugomods/encrypt v0.2.0 h1:mlwrKPahAcotlYSSso5GZQgLoMeHNPwIAdxD0m/459E=
 github.com/hugomods/encrypt v0.2.0/go.mod h1:5oezB6nFUpiCPmLRBP9mvqCUqa+4NNEyCVifTDCTv4U=
+github.com/hugomods/encrypt v0.3.0/go.mod h1:UyB9I6U9mcFYCK3qiykiOOElUsR+p8HMlfidNy1PLbs=
 github.com/hugomods/font-awesome v6.5.1+incompatible h1:Z/ZK4yQm0DptAxpXl2zfbo6taBejL0GCFwI4o4Ya7v0=
 github.com/hugomods/font-awesome v6.5.1+incompatible/go.mod h1:C2wW6xDvHkcMlJMVTPQ+Npt+rO0OGv13xT1iyll2z2Q=
 github.com/hugomods/font-awesome v6.5.2+incompatible/go.mod h1:C2wW6xDvHkcMlJMVTPQ+Npt+rO0OGv13xT1iyll2z2Q=
