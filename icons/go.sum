@@ -411,6 +411,7 @@ github.com/krisk/Fuse v7.0.0+incompatible h1:jVyg6No+Joc51Rn97QQYJZIpCxzd4ywACn/
 github.com/krisk/Fuse v7.0.0+incompatible/go.mod h1:3moWv8rDjwoKic9nwiPLgZjldkbdTAbtzJHCu/Vsj4A=
 github.com/lipis/flag-icons v7.2.2+incompatible h1:HQTxPkEqoxvYpSYVkA/NLY6/I0rSru0Nvy1rpqS6aOI=
 github.com/lipis/flag-icons v7.2.2+incompatible/go.mod h1:DBS26oX+6Kf36da+Sh0rOp4Eimov37YkVbrg7W4Lvjs=
+github.com/lipis/flag-icons v7.2.3+incompatible/go.mod h1:DBS26oX+6Kf36da+Sh0rOp4Eimov37YkVbrg7W4Lvjs=
 github.com/razonyang/hb-mod-thanks v0.5.2 h1:0KVNw2G5azn+xSGrWc9uUq5nw0gDZr9cdPFF65Q4N+k=
 github.com/razonyang/hb-mod-thanks v0.5.2/go.mod h1:QNNUPfVp6v3fyvFjkk1DDDl0qhajEuzXAPgnuwMLg1w=
 github.com/razonyang/hb-mod-thanks v0.6.1 h1:PJ1mPNKajXw8aD/PK3EkdIsx8lnvCnmd6xoTzrbKGXQ=
