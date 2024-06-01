@@ -31,7 +31,7 @@ require (
 	github.com/hugomods/encrypt v0.3.0 // indirect
 	github.com/hugomods/giscus v0.1.1 // indirect
 	github.com/hugomods/google-adsense v0.1.0 // indirect
-	github.com/hugomods/google-analytics v0.2.0 // indirect
+	github.com/hugomods/google-analytics v0.2.1 // indirect
 	github.com/hugomods/gravatar v0.2.0 // indirect
 	github.com/hugomods/icons v0.6.3 // indirect
 	github.com/hugomods/icons/vendors/feather v0.2.4 // indirect
