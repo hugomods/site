@@ -3,7 +3,7 @@ title: 使用 Docker Run 命令進行開發
 linkTitle: Docker Run
 description: 使用 Docker run 命令進行主題開發和站點構建。
 date: 2024-03-06T23:44:53+08:00
-nav_weight: 1
+nav_weight: 2
 nav_icon:
   vendor: simple
   name: docker

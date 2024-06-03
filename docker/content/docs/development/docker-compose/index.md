@@ -3,7 +3,7 @@ title: Developing With Docker Compose
 linkTitle: Docker Compose
 description: Developing themes and building sites with Docker Compose.
 date: 2024-03-07T12:33:11+08:00
-nav_weight: 2
+nav_weight: 3
 nav_icon:
   vendor: simple
   name: docker

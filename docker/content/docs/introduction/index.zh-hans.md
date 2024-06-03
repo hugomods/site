@@ -15,10 +15,6 @@ tags:
   - 命令
 ---
 
-## 如何安装 Docker？
-
-这超出了本文档的范围，请参阅 [Install Docker Engine](https://docs.docker.com/engine/install/)。
-
 ## 基础镜像
 
 所有镜像都是基于 [Alpine](https://hub.docker.com/_/alpine) 的。

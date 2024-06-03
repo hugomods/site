@@ -3,7 +3,7 @@ title: 使用 Docker Compose 进行开发
 linkTitle: Docker Compose
 description: 使用 Docker Compose 进行主题开发和站点构建。
 date: 2024-03-07T12:33:11+08:00
-nav_weight: 2
+nav_weight: 3
 nav_icon:
   vendor: simple
   name: docker

@@ -1,0 +1,3 @@
+```sh
+sudo chown -R $USER mysite
+```

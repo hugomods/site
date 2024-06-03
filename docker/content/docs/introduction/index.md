@@ -15,10 +15,6 @@ tags:
   - Command
 ---
 
-## How To Install Docker?
-
-It's out of scope of this docs, please refer to [Install Docker Engine](https://docs.docker.com/engine/install/).
-
 ## Base Image
 
 All images are [Alpine](https://hub.docker.com/_/alpine) based.
