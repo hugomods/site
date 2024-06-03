@@ -17,7 +17,7 @@ Please refer to [Install Docker Engine](https://docs.docker.com/engine/install/)
 
 ## Hugo Site
 
-You need to set up a Hugo site for development. If you haven't one yet, you can create a new Hugo site.
+You need to set up a Hugo site for development. If you don't have one yet, you can create a new Hugo site.
 
 ### Create Hugo Site From Scratch
 
@@ -29,7 +29,7 @@ You need to set up a Hugo site for development. If you haven't one yet, you can 
 Skip this step on Windows.
 {{% /bs/alert %}}
 
-Once the site created, there might be a permission issue, we can solve it by assigning the site ownership to current user.
+Once the site was created, there might be a permission issue, we can solve it by assigning the site ownership to current user.
 
 {{< page-resource-content "data/chown" >}}
 
