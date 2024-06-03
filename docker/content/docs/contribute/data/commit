@@ -1,0 +1,4 @@
+```sh
+git add .
+git commit -m 'Write some meaningful message [build]'
+```
