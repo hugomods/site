@@ -28,6 +28,10 @@ tags:
 請注意 **PostCSS CLI**、**Autoprefixer**、**PurgeCSS** 和 **RTLCSS** 是全局安裝的。
 {{% /bs/alert %}}
 
+{{% bs/alert info %}}
+自 `0.126.3` 版本後，**AsciiDoc** 和 **Pandoc** 已包含在 `exts` 中。
+{{% /bs/alert %}}
+
 ## 應該使用哪個鏡像標籤？
 
 Hugo Docker 鏡像標籤選擇順序如下：

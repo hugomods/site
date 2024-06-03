@@ -21,11 +21,15 @@ tags:
 
 - **Extended** represents the extended version of Hugo.
 - Image tags start with **reg** represent the regular (standard) version of Hugo.
-- Image tags end with **exts** include not only the tools listed below, but also **Embedded Dart Sass**, **PostCSS CLI**, **Autoprefixer**, **PurgeCSS** and **RTLCSS**.
+- Image tags end with **exts** include not only the tools listed below, but also **Embedded Dart Sass**, **PostCSS CLI**, **Autoprefixer**, **PurgeCSS**, **RTLCSS**, **AsciiDoc** and **Pandoc**.
 - Image tags contain `node-lts` represent the LTS (long time support) version of Node.js.
 
 {{% bs/alert warning %}}
 Please note that **PostCSS CLI**, **Autoprefixer**, **PurgeCSS** and **RTLCSS** are installed globally.
+{{% /bs/alert %}}
+
+{{% bs/alert info %}}
+**AsciiDoc** and **Pandoc** are included into `exts` since `0.126.3`.
 {{% /bs/alert %}}
 
 ## Which Image Tags Should I Use?
