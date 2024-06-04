@@ -20,3 +20,10 @@
     default: The heading start level.
     zh-hans: 开始标题的级别。
     zh-hant: 開始標題的級別。
+
+- name: context
+  since: 0.20.0
+  description:
+    default: The default context for all parameters.
+    zh-hans: 所有参数的默认上下文。
+    zh-hant: 所有參數的默認上下文。
