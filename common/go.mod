@@ -26,7 +26,7 @@ require (
 	github.com/hbstack/socials v0.15.0 // indirect
 	github.com/henrygd/bigger-picture v1.1.15 // indirect
 	github.com/hugomods/bootstrap v0.22.2 // indirect
-	github.com/hugomods/code-block-panel v0.6.0 // indirect
+	github.com/hugomods/code-block-panel v0.7.0 // indirect
 	github.com/hugomods/decap-cms v0.15.0 // indirect
 	github.com/hugomods/encrypt v0.3.0 // indirect
 	github.com/hugomods/giscus v0.1.1 // indirect
