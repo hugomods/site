@@ -35,4 +35,4 @@ Once the site was created, there might be a permission issue, we can solve it by
 
 ### Launch Up Hugo Server
 
-Once site was prepared, you can either using [Docker Run]({{< relref "docs/development/docker-run" >}}) or [Docker Compose]({{< relref "docs/development/docker-run" >}}) to launch up Hugo server.
+Once site was prepared, you can either using [Docker Run]({{< relref "docs/development/docker-run" >}}) or [Docker Compose]({{< relref "docs/development/docker-compose" >}}) to launch up Hugo server.

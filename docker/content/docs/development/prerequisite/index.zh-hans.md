@@ -35,4 +35,4 @@ series:
 
 ### 启动 Hugo 服务器
 
-当站点准备好后，你可以通过 [Docker Run]({{< relref "docs/development/docker-run" >}}) 或 [Docker Compose]({{< relref "docs/development/docker-run" >}}) 来启动 Hugo 服务器。
+当站点准备好后，你可以通过 [Docker Run]({{< relref "docs/development/docker-run" >}}) 或 [Docker Compose]({{< relref "docs/development/docker-compose" >}}) 来启动 Hugo 服务器。
