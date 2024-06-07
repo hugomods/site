@@ -24,7 +24,7 @@ require (
 	github.com/hbstack/pagination v0.8.0 // indirect
 	github.com/hbstack/snackbar v0.1.2 // indirect
 	github.com/hbstack/socials v0.15.0 // indirect
-	github.com/henrygd/bigger-picture v1.1.15 // indirect
+	github.com/henrygd/bigger-picture v1.1.17 // indirect
 	github.com/hugomods/bootstrap v0.22.2 // indirect
 	github.com/hugomods/code-block-panel v0.7.0 // indirect
 	github.com/hugomods/decap-cms v0.15.0 // indirect
