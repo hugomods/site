@@ -335,6 +335,7 @@ github.com/hugomods/kroki v0.1.0 h1:k/81mhbWg5HtbWE2KX/EGUGmMCeDTSjCFUeH5oAI1fY=
 github.com/hugomods/kroki v0.1.0/go.mod h1:1ITYc/pGsNaxX5hwTqlM5BFeO1kLPvZ4L2f6Y2B/Ypg=
 github.com/hugomods/kroki v0.1.1 h1:OTxgwOABz+wj8+Ld+v+2yBW9xcpPX1j1A1X0QO1NZys=
 github.com/hugomods/kroki v0.1.1/go.mod h1:1ITYc/pGsNaxX5hwTqlM5BFeO1kLPvZ4L2f6Y2B/Ypg=
+github.com/hugomods/kroki v0.1.2/go.mod h1:1ITYc/pGsNaxX5hwTqlM5BFeO1kLPvZ4L2f6Y2B/Ypg=
 github.com/hugomods/lucide-icons v0.331.0 h1:DsQXjp+n2ymvpeWS7Lu7os51lxygsdr7ysu0H5PrDXM=
 github.com/hugomods/lucide-icons v0.331.0/go.mod h1:7loUmJrnD5umJ2sWSCb3AffZt0fYnSc1I+yBRjgHgw8=
 github.com/hugomods/mermaid v0.1.1 h1:12b8DbdiKOTtPmkWOMXsBz3LKkAWVqa5tGkbEboj0a4=
