@@ -1,6 +1,6 @@
 ---
 title: "Contribute"
-description: "We're glad to see developers whose want to contribute to this project, in this section you'll learn how to build and test images on local environment, and then commit changes to our repository."
+description: "We're glad to see developers who want to contribute to this project, in this section, you'll learn how to build and test images on local environment, and then commit changes to our repository."
 date: 2024-06-03T12:19:01+08:00
 draft: false
 params:
