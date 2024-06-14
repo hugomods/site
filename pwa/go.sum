@@ -309,6 +309,7 @@ github.com/hugomods/icons/vendors/bootstrap v0.5.7/go.mod h1:bTxiIPJ/idHEc35Etvt
 github.com/hugomods/icons/vendors/feather v0.2.3 h1:37hXYgM4QFobzvs4IaDF8odkle9IF6I6gRBQMb7UuJQ=
 github.com/hugomods/icons/vendors/feather v0.2.3/go.mod h1:qZJYi/4/gShpGTnXueTxkHl+M/QI5cqbu5ZabxcxNEE=
 github.com/hugomods/icons/vendors/feather v0.2.4/go.mod h1:pg/NX0ocg9gshlJ9FQN4ksqatpZ35sxprS5/I6Y52os=
+github.com/hugomods/icons/vendors/feather v0.2.5/go.mod h1:dLqOrAWHMxJ33twAwnbHnM8TXx/9Zpbb5+CAeiqJbFQ=
 github.com/hugomods/icons/vendors/font-awesome v0.6.5 h1:sf9hPR2zR1psHVM7ASSt9o47EwD9NhGcK9echjxaNmU=
 github.com/hugomods/icons/vendors/font-awesome v0.6.5/go.mod h1:olo6073bAL17apxc7lTLfQKpT9sIam8Zx+d9lrCwV/o=
 github.com/hugomods/icons/vendors/font-awesome v0.6.6/go.mod h1:2IVdmnq+IWCnPFYsvbxq59dTuW3+prPLerpu8Ezobro=
