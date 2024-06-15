@@ -168,6 +168,7 @@ github.com/hbstack/header/modules/banner v0.7.1/go.mod h1:dCc1a5MonFjnQjQmon9oX5
 github.com/hbstack/header/modules/git-org v0.2.2 h1:X49h9HVDaOkj7Y4lMZ8LVpZnwO7HE7BRZZPle5rCogQ=
 github.com/hbstack/header/modules/git-org v0.2.2/go.mod h1:1t/pUxasivW9es2Sq6vkdwXgAlbAx40FWx+pClVgnhM=
 github.com/hbstack/header/modules/git-org v0.2.3/go.mod h1:1t/pUxasivW9es2Sq6vkdwXgAlbAx40FWx+pClVgnhM=
+github.com/hbstack/header/modules/git-org v0.2.4/go.mod h1:eKRkONN9G4auuxX57ACObAWYpo8xHIEIWlctHj7rZjk=
 github.com/hbstack/header/modules/git-repo v0.3.0 h1:Dl9G8T7Xu3ObYxMFSGBJmbbCcAW/xM+NbY9mDPNfoSE=
 github.com/hbstack/header/modules/git-repo v0.3.0/go.mod h1:3Qmey/cdnCGuOb5y/rt3P6RHlkBtIwaTSfOdATLQrAQ=
 github.com/hbstack/header/modules/git-repo v0.4.0 h1:2GiIZE8HPloX+0rE/Mp0puSg2ybrc3uEAXp8JcwB7Ow=
