@@ -161,6 +161,7 @@ github.com/hbstack/header v0.14.5/go.mod h1:W7eolpYJctsTD8GVFEj09Ogbqqy8OAqcxBEb
 github.com/hbstack/header/modules/apps v0.1.2 h1:WO7NULligi68oZ68U9ZjNCtbYGqrpiM9+Row/y2qUAM=
 github.com/hbstack/header/modules/apps v0.1.2/go.mod h1:eVChT3IKy6cbmJOlQ2/G+IjpLptG9rmACaOEHFwQh+Q=
 github.com/hbstack/header/modules/apps v0.2.0/go.mod h1:eVChT3IKy6cbmJOlQ2/G+IjpLptG9rmACaOEHFwQh+Q=
+github.com/hbstack/header/modules/apps v0.2.1/go.mod h1:iZhRT6wikHL80zfgPsIM1EI0mlNKKYxbdMynuvyFd14=
 github.com/hbstack/header/modules/banner v0.7.0 h1:3uVybA9eyoKk9w1oEeCOpk/DTj65wkdIhw45Odt8ZeI=
 github.com/hbstack/header/modules/banner v0.7.0/go.mod h1:2gg9AOWD00oRik2MwVbBTlVi4q3jRVp5mKnAmSOozqs=
 github.com/hbstack/header/modules/git-org v0.2.2 h1:X49h9HVDaOkj7Y4lMZ8LVpZnwO7HE7BRZZPle5rCogQ=
