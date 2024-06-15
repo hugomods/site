@@ -202,6 +202,7 @@ github.com/hbstack/header/modules/language-picker v0.1.26/go.mod h1:/U3czl4OdnIV
 github.com/hbstack/header/modules/news v0.2.2 h1:rskBsngtC2gajjwPoVC8nf3mO35HH5GngnFQHdVJ6jM=
 github.com/hbstack/header/modules/news v0.2.2/go.mod h1:GGW3eyK9CbuZ8JNzLG5DgP2MzPmVLxX1IlkVBQNv0+Q=
 github.com/hbstack/header/modules/news v0.3.0/go.mod h1:GGW3eyK9CbuZ8JNzLG5DgP2MzPmVLxX1IlkVBQNv0+Q=
+github.com/hbstack/header/modules/news v0.3.1/go.mod h1:NYVggMts57N4lIKmF/qVjOaln2aVxiuPL52nERwT8UM=
 github.com/hbstack/header/modules/search v0.1.35 h1:aC+ehdtAdV/I2L18nQ/ZmwUYYEv9/Y/y+vvemIqypss=
 github.com/hbstack/header/modules/search v0.1.35/go.mod h1:86x1O6KwCi+oLWCNGCwPrVfbW0Px35hYdj9LOTzZv4I=
 github.com/hbstack/header/modules/search v0.1.36/go.mod h1:enMXYMhDd+V2OQ0e2xzD9qbkktwK5DzbpP5UxvdALXo=

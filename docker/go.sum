@@ -209,6 +209,7 @@ github.com/hbstack/header/modules/news v0.2.2 h1:rskBsngtC2gajjwPoVC8nf3mO35HH5G
 github.com/hbstack/header/modules/news v0.2.2/go.mod h1:GGW3eyK9CbuZ8JNzLG5DgP2MzPmVLxX1IlkVBQNv0+Q=
 github.com/hbstack/header/modules/news v0.3.0 h1:uvEV8ln+9rC9rVxjlfQDuoKyAs7RCg3kfmeM8X1XoHU=
 github.com/hbstack/header/modules/news v0.3.0/go.mod h1:GGW3eyK9CbuZ8JNzLG5DgP2MzPmVLxX1IlkVBQNv0+Q=
+github.com/hbstack/header/modules/news v0.3.1/go.mod h1:NYVggMts57N4lIKmF/qVjOaln2aVxiuPL52nERwT8UM=
 github.com/hbstack/header/modules/search v0.1.35 h1:aC+ehdtAdV/I2L18nQ/ZmwUYYEv9/Y/y+vvemIqypss=
 github.com/hbstack/header/modules/search v0.1.35/go.mod h1:86x1O6KwCi+oLWCNGCwPrVfbW0Px35hYdj9LOTzZv4I=
 github.com/hbstack/header/modules/search v0.1.36 h1:SqQjKXX46dABksZp9UR/QH9eayxAkRD5CAbBenOUGJQ=
