@@ -192,6 +192,7 @@ github.com/hbstack/header/modules/git-repo v0.4.0 h1:2GiIZE8HPloX+0rE/Mp0puSg2yb
 github.com/hbstack/header/modules/git-repo v0.4.0/go.mod h1:3Qmey/cdnCGuOb5y/rt3P6RHlkBtIwaTSfOdATLQrAQ=
 github.com/hbstack/header/modules/git-repo v0.4.1 h1:eD4h15W++bWOKUNP4wvgRf6tZzwyZ458Axs7eRgW4Y0=
 github.com/hbstack/header/modules/git-repo v0.4.1/go.mod h1:3Qmey/cdnCGuOb5y/rt3P6RHlkBtIwaTSfOdATLQrAQ=
+github.com/hbstack/header/modules/git-repo v0.4.2/go.mod h1:1ZoUL7RSVxEg2UpT6keHF7ZfRk/paLvpafNd2xbHYIM=
 github.com/hbstack/header/modules/language-picker v0.1.24 h1:OEWy+B1PCJXgoz62EKwBhObq5lNOsfXdjjtESHBi81c=
 github.com/hbstack/header/modules/language-picker v0.1.24/go.mod h1:HeIUdvoG+2ni8dqQNnsUtOQVo1U8ydVBEowJ/U85KCA=
 github.com/hbstack/header/modules/language-picker v0.1.25/go.mod h1:kkNF76Y6HJUA+sCAVVlhAR9UoKJirpnZSIT2z/9tyoo=
