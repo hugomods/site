@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/hbstack/base v0.6.1 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
-	github.com/hbstack/blog/modules/giscus v0.1.23 // indirect
+	github.com/hbstack/blog/modules/giscus v0.1.24 // indirect
 	github.com/hbstack/blog/modules/sidebar/posts v0.8.0 // indirect
 	github.com/hbstack/blog/modules/sidebar/taxonomies v0.5.0 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.2.0 // indirect
