@@ -12,7 +12,7 @@ require (
 	github.com/hbstack/breadcrumb v0.7.2 // indirect
 	github.com/hbstack/carousel v0.2.6 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
-	github.com/hbstack/docs/modules/giscus v0.1.10 // indirect
+	github.com/hbstack/docs/modules/giscus v0.1.11 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.7 // indirect
 	github.com/hbstack/featured-image v0.2.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
