@@ -110,7 +110,7 @@ require (
 	github.com/hugomods/microsoft-clarity v0.1.0 // indirect
 	github.com/hugomods/pwa v0.9.0 // indirect
 	github.com/hugomods/search v0.14.0 // indirect
-	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect
+	github.com/hugomods/seo/modules/alternatives v0.1.1 // indirect
 	github.com/hugomods/seo/modules/base v0.1.3 // indirect
 	github.com/hugomods/seo/modules/favicons v0.2.1 // indirect
 	github.com/hugomods/seo/modules/json-ld v0.2.0 // indirect
