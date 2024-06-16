@@ -38,6 +38,7 @@ github.com/hbstack/docs/modules/giscus v0.1.10/go.mod h1:6MTfPyydWOJ2hH/9vhQw1r6
 github.com/hbstack/docs/modules/giscus v0.1.11/go.mod h1:Vycwif1BgqhN5qZp9kg8ZtKOdsr8tXOCzHlrKiHNR8g=
 github.com/hbstack/docs/modules/toc-scrollspy v0.1.7 h1:uBSdzKiDVYjqMxCr7UIC25J+YcC26q64bxmE2tWU0eI=
 github.com/hbstack/docs/modules/toc-scrollspy v0.1.7/go.mod h1:gRkFkDSPj8+j0rqIXbo1SQiD0UC7ZlDbbW+6FmilX0g=
+github.com/hbstack/docs/modules/toc-scrollspy v0.1.8/go.mod h1:C6hk9KKlfsP4O/fMY6a77PBZZNkA+D7SwbNUlolDdRs=
 github.com/hbstack/featured-image v0.2.1 h1:sRIzjV6YPVG7Ah0Hxjiuxd9bQnEV+62McOgXZjGNV7g=
 github.com/hbstack/featured-image v0.2.1/go.mod h1:hux3nYqQUVnQHPttJxVrvwfTsULGuVGRGFk3lO2Si54=
 github.com/hbstack/google-fonts v0.1.1 h1:rw9lsHL0x9a7olFh/9gWI+X5sRAf30DM5bzwP/L9aYg=
