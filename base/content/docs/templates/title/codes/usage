@@ -12,13 +12,14 @@
 </html>
 ```
 
-```go-html-template
+```go-html-template {hl_lines="5-9"}
 {{/* list.html */}}
 {{ define "title" }}
   {{ $mainSections := slice "blog" }}
   {{ $pages := where .Site.RegularPages "Type" "in" $mainSections }}
   {{/* We MUST initialize the paginator first. */}}
-  { $paginator := .Paginate $pages 10 }}
+  {{ .Store.Set "paginated" true }} {{/* Indicate current page is a pagination page. */}}
+  {{ $paginator := .Paginate $pages 10 }}
   {{/* Then include the title partial. */}}
   {{ partial "base/title" . }}
 {{ end }}
