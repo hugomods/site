@@ -42,7 +42,7 @@ require (
 	github.com/hugomods/icons/vendors/tabler v0.15.34 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.10.1 // indirect
-	github.com/hugomods/katex v0.3.1 // indirect
+	github.com/hugomods/katex v0.3.2 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
 	github.com/hugomods/microsoft-clarity v0.1.0 // indirect
 	github.com/hugomods/pwa v0.9.0 // indirect
