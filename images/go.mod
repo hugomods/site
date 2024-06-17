@@ -115,7 +115,7 @@ require (
 	github.com/hugomods/seo/modules/open-graph v0.1.1 // indirect
 	github.com/hugomods/seo/modules/schema v0.1.3 // indirect
 	github.com/hugomods/seo/modules/translations v0.1.1 // indirect
-	github.com/hugomods/seo/modules/twitter-cards v0.1.0 // indirect
+	github.com/hugomods/seo/modules/twitter-cards v0.1.1 // indirect
 	github.com/hugomods/shortcodes v0.21.0 // indirect
 	github.com/hugomods/simple-icons v12.3.0+incompatible // indirect
 	github.com/hugomods/site/common v0.0.0-20240223003735-279a08261cd6 // indirect
