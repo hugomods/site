@@ -38,6 +38,10 @@ authors:
 
 {{< page-resource-content "data/example-width-height" >}}
 
+## 指定图片质量
+
+{{< page-resource-content "data/example-quality" >}}
+
 ## 调整公共图片尺寸
 
 {{< page-resource-content "data/example-public" >}}

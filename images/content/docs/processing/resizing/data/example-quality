@@ -1,0 +1,3 @@
+{{< hugo/shortcode-example >}}
+![Resize](/images/great-wall.jpg?width=300&quality=100)
+{{< /hugo/shortcode-example >}}

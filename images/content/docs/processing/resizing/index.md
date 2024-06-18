@@ -38,6 +38,10 @@ The original size of public and external images will not be changed.
 
 {{< page-resource-content "data/example-width-height" >}}
 
+## Specify the Quality
+
+{{< page-resource-content "data/example-quality" >}}
+
 ## Resizing Public Images
 
 {{< page-resource-content "data/example-public" >}}
