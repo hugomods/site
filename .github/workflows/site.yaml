@@ -23,6 +23,12 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Cache Hugo resources
+        uses: actions/cache@v4
+        with:
+          path: resources
+          key: ${{ runner.os }}-hugo-resources
+
       - name: Cache dependencies
         uses: actions/cache@v4
         with:
