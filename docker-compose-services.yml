@@ -4,7 +4,7 @@ services:
     command: npm run dev -- --bind 0.0.0.0
     volumes:
       - $PWD:/src
-      - /tmp/hugo_cache:/tmp/hugo_cache
+      - $HOME/.cache/hugo_docker_cache:/tmp/hugo_cache
       - $HOME/Workspaces:/workspaces
     env_file: .env
     # user: "1000:1000"
