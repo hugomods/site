@@ -309,6 +309,8 @@ github.com/hbstack/socials v0.14.1/go.mod h1:xCbwzO1NzuLhll79QlkG9r/wS0r3Hl5Cy+G
 github.com/hbstack/socials v0.15.0/go.mod h1:Bu1TdfuxLKtpEImsmuvB8OwbYJaGzOriQbOh3u7gTtc=
 github.com/hbstack/socials v0.16.0 h1:gR7NL/EBLQzqO31Tp/ITU7jtDuyDXfNskJyLtnpU0VM=
 github.com/hbstack/socials v0.16.0/go.mod h1:9pfExMNoBMnQ0JV2ODURqUQsEC/HlgUo9b3jXdrHNM4=
+github.com/hbstack/swagger-ui v0.1.0 h1:nCGOH1SujF67tpzu1SLTOSC0N9Pp8WTuGTZr0SWtHK8=
+github.com/hbstack/swagger-ui v0.1.0/go.mod h1:kDd0J8Px43/H58C9a6VrVpn8ccnpunDw7Y+1pAJBbLE=
 github.com/hbstack/syntax-highlighting v0.2.0 h1:BP5SR/AbVlJyAFtVdgYjeqVZKmncEmuplTR5R2AUbw8=
 github.com/hbstack/syntax-highlighting v0.2.0/go.mod h1:6IoaM+tSIkKZblIrT1i5L3zVH68nt4UScU9JB30FQsc=
 github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.1 h1:IzJlnkHGS8XhibNjUFvyV3YE7rc7WMsAhdxWZTbORI4=
@@ -546,6 +548,8 @@ github.com/hugomods/simple-icons v12.3.0+incompatible h1:OQ03hQSjQBP9hvggkf9sRbV
 github.com/hugomods/simple-icons v12.3.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
 github.com/hugomods/snackbar v0.1.2 h1:SLpfH9jlYwf81epH7DvM2XTZHo+3fXXpk6XKtxmo964=
 github.com/hugomods/snackbar v0.1.2/go.mod h1:ykFm0IFibeQPuPAm8Gaa27xJS/bNZcSez4omVSl2gQ0=
+github.com/hugomods/swagger-ui v0.1.0 h1:NTkyIGYAlJnmyQjgry5wQjue3AFziDzmnYirU3ljjyM=
+github.com/hugomods/swagger-ui v0.1.0/go.mod h1:Q6Y/tRLuBUKlaUMG0clksot1kh0/g2auVidw45AUvQQ=
 github.com/hugomods/video-js v0.1.1 h1:52DgwMZUrXVHbjG7+ke8YmYMXIs3yhn5q0JWz/bhLto=
 github.com/hugomods/video-js v0.1.1/go.mod h1:uNF7SDARVaQwpirTpZbKZxqvuKTalYsg2mHPDW5n2vU=
 github.com/hugomods/workbox v0.1.0 h1:yxuTj3gT1BNf6OitxrjxSJXfmbFBj2UTwdWr142eYFQ=
