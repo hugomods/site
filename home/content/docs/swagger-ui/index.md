@@ -1,0 +1,40 @@
+---
+title: Hugo Swagger UI Module
+linkTitle: Swagger UI
+date: 2024-06-20T10:48:32+08:00
+series:
+  - Docs
+categories:
+  - Modules
+tags:
+  - Swagger UI
+  - OpenAPI
+---
+
+{{% module "github.com/hugomods/swagger-ui" %}}
+
+## Standalone Preset
+
+To use a standalone preset, you'll need to specify the `layout` as `swagger-ui` and the `swagger_ui.url`.
+
+```markdown
+---
+title: SwaggerUI
+description: SwaggerUI
+layout: swagger-ui
+swagger_ui:
+  url: 'https://petstore3.swagger.io/api/v3/openapi.json'
+---
+```
+
+[Live example]({{< relref "examples/swagger-ui-standalone-preset" >}}).
+
+## Shortcode
+
+You can also embed Swagger UI into your content.
+
+```markdown
+{{</* swagger-ui "https://petstore3.swagger.io/api/v3/openapi.json" */>}}
+```
+
+{{< swagger-ui "https://petstore3.swagger.io/api/v3/openapi.json" >}}
