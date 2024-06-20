@@ -13,6 +13,10 @@ tags:
 
 {{% module "github.com/hugomods/swagger-ui" %}}
 
+{{% bs/alert %}}
+Please use `github.com/hbstack/swagger-ui` instead if you're using [HB Framework](https://hbstack.dev/), which applies extra styles to match dark mode.
+{{% /bs/alert %}}
+
 ## Standalone Preset
 
 To use a standalone preset, you'll need to specify the `layout` as `swagger-ui` and the `swagger_ui.url`.
