@@ -1,6 +1,7 @@
 ---
 title: Hugo Swagger UI Module
 linkTitle: Swagger UI
+description: Hugo Swagger UI Module which ships with a shortcode and standalone preset layout.
 date: 2024-06-20T10:48:32+08:00
 series:
   - Docs
@@ -16,6 +17,29 @@ tags:
 {{% bs/alert %}}
 Please use `github.com/hbstack/swagger-ui` instead if you're using [HB Framework](https://hbstack.dev/), which applies extra styles to match dark mode.
 {{% /bs/alert %}}
+
+## Installation
+
+### Import Module
+
+```yaml
+module:
+  imports:
+    - path: github.com/hugomods/swagger-ui
+```
+
+### Import CSS and JavaScript
+
+{{% skip-if-hugopress %}}
+
+```go-html-template
+<head>
+  ...
+  {{ partialCached "hugomods/swagger-ui/assets/css" . }}
+  {{ partialCached "hugomods/swagger-ui/assets/js" . }}
+  ...
+</head>
+```
 
 ## Standalone Preset
 
