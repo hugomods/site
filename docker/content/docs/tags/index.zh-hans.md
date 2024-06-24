@@ -19,13 +19,17 @@ tags:
 
 ## 说明
 
-- _Extended_ 表示 Hugo 的扩展版本。
-- 以 **reg** 开头的镜像标签表示常规版（标准版）Hugo。
+- __Extended__ 表示 Hugo 的扩展版本。
+- 以 **std** 开头的镜像标签表示标准版Hugo。
 - 以 **exts** 结尾的镜像标签不仅包含了以下列出的工具，还包含了 **Embedded Dart Sass**、**PostCSS CLI**、**Autoprefixer**、**PurgeCSS** 和 **RTLCSS**。
 - 镜像标签包含 `node-lts` 则表示 LTS（长期支持）版本的 Node.js.
 
 {{% bs/alert warning %}}
 请注意 **PostCSS CLI**、**Autoprefixer**、**PurgeCSS** 和 **RTLCSS** 是全局安装的。
+{{% /bs/alert %}}
+
+{{% bs/alert primary %}}
+自 `0.127.0` 版本后，`reg*` 标签被替换为 `std*`，但无须担心，为了向后兼容，我们仍会持续更新 `reg*`。
 {{% /bs/alert %}}
 
 {{% bs/alert info %}}
@@ -36,8 +40,8 @@ tags:
 
 Hugo Docker 镜像标签选择顺序如下：
 
-1. 需要 Dart Sass，则选择 [exts](#exts) 标签。
-1. 需要 Hugo Pipes 编译（转换）Sass/SCSS，则选择带有 **Extended**（不带 **reg** 前缀）的标签。
+1. 需要 **Dart Sass**，则选择带有 **Dart Sass** 标签。
+1. 需要 **LibSass** 或图片处理时用到 **WebP** 格式，则选择带有 **Extended**（不带 **std** 前缀）的标签。
 1. 需要 Hugo 模块，则选择带有 **Go** 的标签。
 1. 需要 NPM 安装依赖，则选择带有 **NPM** 的标签。
 1. 需要 Hugo 的 `--enableGitInfo` 标志，则选择带有 **Git** 的标签。

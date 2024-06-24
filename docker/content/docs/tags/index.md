@@ -20,12 +20,16 @@ tags:
 ## Explanations
 
 - **Extended** represents the extended version of Hugo.
-- Image tags start with **reg** represent the regular (standard) version of Hugo.
+- Image tags start with **std** represent the standard version of Hugo.
 - Image tags end with **exts** include not only the tools listed below, but also **Embedded Dart Sass**, **PostCSS CLI**, **Autoprefixer**, **PurgeCSS**, **RTLCSS**, **AsciiDoc** and **Pandoc**.
 - Image tags contain `node-lts` represent the LTS (long time support) version of Node.js.
 
 {{% bs/alert warning %}}
 Please note that **PostCSS CLI**, **Autoprefixer**, **PurgeCSS** and **RTLCSS** are installed globally.
+{{% /bs/alert %}}
+
+{{% bs/alert primary %}}
+`reg*` tags are replaced with `std*` since `0.127.0`, but don't worry, `reg*` tags will continue to be updated for backwards compatibility.
 {{% /bs/alert %}}
 
 {{% bs/alert info %}}
@@ -36,8 +40,8 @@ Please note that **PostCSS CLI**, **Autoprefixer**, **PurgeCSS** and **RTLCSS** 
 
 Hugo Docker image tags selection order as follows.
 
-1. Require Dart Sass, then go for [exts](#exts) tag.
-1. Require Hugo Pipes to compile (transform) Sass/SCSS, then go for tags with **Extended** enabled (without **reg** prefix).
+1. Require Dart Sass, then go for tags with **Dart Sass** enabled.
+1. Require **LibSass** or **WebP** format when processing images, then go for tags with **Extended** enabled (without **std** prefix).
 1. Require Hugo Modules, then go for tags with **Go** enabled.
 1. Require NPM to install dependencies, then go for tags with **NPM** enabled.
 1. Require Hugo's `--enableGitInfo` flag, then go for tags with **Git** enabled.

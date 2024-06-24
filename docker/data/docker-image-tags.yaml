@@ -8,6 +8,47 @@
 - name: base
   extended: true
 
+- name: dart-sass
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+  dartSass: true
+  extended: true
+
+- name: dart-sass-base
+  dartSass: true
+  extended: true
+
+- name: dart-sass-git
+  dartSass: true
+  git: true
+  extended: true
+
+- name: dart-sass-go
+  dartSass: true
+  go: true
+  extended: true
+
+- name: dart-sass-go-git
+  dartSass: true
+  go: true
+  git: true
+  extended: true
+
+- name: dart-sass-node
+  dartSass: true
+  nodejs: true
+  npm: true
+  extended: true
+
+- name: dart-sass-node-git
+  dartSass: true
+  nodejs: true
+  npm: true
+  git: true
+  extended: true
+
 - name: git
   extended: true
   git: true
@@ -43,49 +84,83 @@
   nodejs: true
   npm: true
   git: true
-  dartsass: true
+  dartSass: true
   postcss: true
   autoprefixer: true
   rtlcss: true
   purgecss: true
 
-- name: reg
+- name: std
   go: true
   nodejs: true
   npm: true
   git: true
 
-- name: reg-base
+- name: std-base
 
-- name: reg-git
-  git: true
-
-- name: reg-go
-  go: true
-
-- name: reg-go-git
-  git: true
-  go: true
-
-- name: reg-node
-  nodejs: true
-  npm: true
-
-- name: reg-node-lts
-  nodejs: true
-  npm: true
-
-- name: reg-node-git
-  nodejs: true
-  npm: true
-  git: true
-
-- name: reg-exts
+- name: std-dart-sass
   go: true
   nodejs: true
   npm: true
   git: true
-  dartsass: true
+  dartSass: true
+
+- name: std-dart-sass-base
+  dartSass: true
+
+- name: std-dart-sass-git
+  dartSass: true
+  git: true
+
+- name: std-dart-sass-go
+  dartSass: true
+  go: true
+
+- name: std-dart-sass-go-git
+  dartSass: true
+  go: true
+  git: true
+
+- name: std-dart-sass-node
+  dartSass: true
+  nodejs: true
+  npm: true
+
+- name: std-dart-sass-node-git
+  dartSass: true
+  nodejs: true
+  npm: true
+  git: true
+
+- name: std-git
+  git: true
+
+- name: std-go
+  go: true
+
+- name: std-go-git
+  git: true
+  go: true
+
+- name: std-node
+  nodejs: true
+  npm: true
+
+- name: std-node-lts
+  nodejs: true
+  npm: true
+
+- name: std-node-git
+  nodejs: true
+  npm: true
+  git: true
+
+- name: std-exts
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+  dartSass: true
   postcss: true
   autoprefixer: true
   rtlcss: true
