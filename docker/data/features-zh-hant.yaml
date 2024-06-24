@@ -10,11 +10,18 @@
     name: arrow-clockwise
     className: text-primary
 
+- title: 經測試的
+  description: 在將圖像推送到容器註冊表之前，我們會對其進行測試，以確保其功能正常。
+  icon:
+    vendor: fas
+    name: list-check
+    color: green
+
 - title: 極簡的
   description: 我們提供多種變體鏡像以滿足你的需求，如**擴展版本**、**Git**、**Go**、**Node.js**、**NPM**、**Dart Sass** 等。
   icon:
     name: boxes
-    color: green
+    className: text-primary
 
 - title: 多個容器倉庫
   description: 所有鏡像會被推送到 [Docker Hub](https://hub.docker.com/r/hugomods/hugo) 和 [GitHub 容器倉庫](https://github.com/hugomods/docker/pkgs/container/hugo)。
