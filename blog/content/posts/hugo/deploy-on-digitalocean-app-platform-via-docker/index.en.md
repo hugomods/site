@@ -61,7 +61,7 @@ You may see multiple resources as image above shown, you'll need to remove unnec
 
 ### Edit Dockerfile Resources
 
-Since the web service isn't non free, so we need to edit the Dockerfile resource to be a static site.
+Since the web services are __not__ free of charge, so we need to edit the Dockerfile resource to be a static site.
 
 1. Click the `Edit` button on the right of the Dockerfile resource, then you'll be navigated to the resource setting panel.
 2. Edit the _Resource Type_ and change it to _Static Site_.
