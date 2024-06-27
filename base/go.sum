@@ -265,6 +265,7 @@ github.com/hugomods/aos v0.1.0 h1:R1NOqLbD+95R1EG0pJ7HPh/zUfM9fpdkgUMMJkOEPUs=
 github.com/hugomods/aos v0.1.0/go.mod h1:JY6AAt8e6jQtQr/i3QAcPxRmcoJO2FY/A/P4m69pXSY=
 github.com/hugomods/apache-echarts v5.5.0+incompatible h1:qiZR+Zg5wVbcqJQ56bVm/JbpEkwWObPLv/7jMggNaAM=
 github.com/hugomods/apache-echarts v5.5.0+incompatible/go.mod h1:RbEQGbCh0enpgPXOQK4E69LhmHsU91qsbOmMfwMYTEQ=
+github.com/hugomods/apache-echarts v5.5.1+incompatible/go.mod h1:RbEQGbCh0enpgPXOQK4E69LhmHsU91qsbOmMfwMYTEQ=
 github.com/hugomods/base v0.5.0 h1:++wQcEVJLft6sP9n8O7YhGEQRgwYiVX5hJeeqeLCEjc=
 github.com/hugomods/base v0.5.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/base v0.6.0 h1:trDA6k742kUb7VOwrvC564MgalMsAtsQGfB9AZFbVeo=
