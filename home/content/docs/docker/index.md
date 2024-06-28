@@ -30,7 +30,7 @@ This article describes the up-to-date Hugo docker images, and offer some example
 
 {{% bs/alert danger %}}
 This doc is out-of-date, please read the latest docs on https://docker.hugomods.com/.
-{{% /bs/alert danger %}}
+{{% /bs/alert %}}
 
 {{< shields "https://img.shields.io/docker/pulls/hugomods/hugo?style=flat-square" "https://hub.docker.com/r/hugomods/hugo" >}}
 {{< shields "https://img.shields.io/docker/v/hugomods/hugo/latest?style=flat-square" "https://hub.docker.com/r/hugomods/hugo" >}}
