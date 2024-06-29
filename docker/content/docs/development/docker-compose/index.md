@@ -26,6 +26,10 @@ And then create `docker-compose.yml` on your project root.
 Please note that `--bind 0.0.0.0` is required, otherwise Hugo server may not recieve any incoming requests from host.
 {{% /bs/alert %}}
 
+{{% bs/alert info %}}
+Since `0.128.0`, `server` is available as an alias of `hugo server`, which will bind `0.0.0.0` by default.
+{{% /bs/alert %}}
+
 1. `${PWD}:/src` mounts current working directory on the [default working directory]({{< relref "docs/introduction#default-working-directory" >}})(`/src`) inside the Docker container.
 1. `$HOME/hugo_cache:/tmp/hugo_cache` mounts `$HOME/hugo_cache` on the default `cacheDir` (`/tmp/hugo_cache`) to improve build performance.
 

@@ -26,6 +26,10 @@ tags:
 请注意 `--bind 0.0.0.0` 是必须的，否则 Hugo 服务器可能无法接收任何来自宿主机的请求。
 {{% /bs/alert %}}
 
+{{% bs/alert info %}}
+自 `0.128.0`，`server` 可作为 `hugo server` 的别名使用，其默认绑定 `0.0.0.0`。
+{{% /bs/alert %}}
+
 1. `-v ${PWD}:/src` 将当前目录挂载到容器的[默认工作目录]({{< relref "docs/introduction#默认工作目录" >}})（`/src`）。
 2. `$HOME/hugo_cache:/tmp/hugo_cache` 将 `$HOME/hugo_cache` 挂载到默认的 `cacheDir`（`/tmp/hugo_cache`）以提高构建性能。
 

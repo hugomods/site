@@ -48,6 +48,10 @@ You may want to install the dependencies before running Hugo server, such as ins
 Please note that `--bind 0.0.0.0` is required, otherwise Hugo server may not recieve any incoming requests from host.
 {{% /bs/alert %}}
 
+{{% bs/alert info %}}
+Since `0.128.0`, `server` is available as an alias of `hugo server`, which will bind `0.0.0.0` by default.
+{{% /bs/alert %}}
+
 1. `-p port:port` mapping from host machine port to container port.
 
 Using another port than `1313`, such as `8080`.
