@@ -1,6 +1,6 @@
 ---
 title: Hugo Docker 鏡像
-description: "極簡、最新的 Hugo Docker 鏡像，其包含多種變體，如擴展版本、Git、Go、Node.js、NPM、Dart Sass 等。"
+description: "極簡、最新的 Hugo Docker 鏡像，其包含多種變體，如擴展版本、Git、Go、Node.js、NPM、Yarn、Dart Sass 等。"
 layout: landing
 full_width: true
 nav_icon:

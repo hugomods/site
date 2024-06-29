@@ -18,7 +18,7 @@
     color: green
 
 - title: 极简的
-  description: 我们提供多种变体镜像以满足你的需求，如**扩展版本**、**Git**、**Go**、**Node.js**、**NPM**、**Dart Sass** 等。
+  description: 我们提供多种变体镜像以满足你的需求，如**扩展版本**、**Git**、**Go**、**Node.js**、**NPM**、**Yarn**、**Dart Sass** 等。
   icon:
     name: boxes
     className: text-primary

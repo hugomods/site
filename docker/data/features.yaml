@@ -18,7 +18,7 @@
     color: green
 
 - title: Minimal
-  description: We offer a wide range of images variants to suit your requirements, such as **extended** version, **Git**, **Go**, **Node.js**, **NPM**, **Dart Sass** etc.
+  description: We offer a wide range of images variants to suit your requirements, such as **extended** version, **Git**, **Go**, **Node.js**, **NPM**, **Yarn**, **Dart Sass** etc.
   icon:
     name: boxes
     className: text-primary
