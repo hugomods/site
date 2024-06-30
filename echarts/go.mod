@@ -77,7 +77,7 @@ require (
 	github.com/hugomods/aos v0.1.0 // indirect
 	github.com/hugomods/apache-echarts v5.5.1+incompatible // indirect
 	github.com/hugomods/base v0.7.2 // indirect
-	github.com/hugomods/bootstrap v0.22.2 // indirect
+	github.com/hugomods/bootstrap v0.22.3 // indirect
 	github.com/hugomods/code-block-panel v0.7.0 // indirect
 	github.com/hugomods/decap-cms v0.15.0 // indirect
 	github.com/hugomods/echarts v0.1.3 // indirect
