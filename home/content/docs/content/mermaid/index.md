@@ -80,7 +80,7 @@ DIAGRAM
 
 ## Examples
 
-### Flowchart
+### Flowcharts
 
 ```mermaid
 flowchart TD
@@ -91,7 +91,7 @@ flowchart TD
   B -- No ----> E[End]
 ```
 
-### Entity Relationship Diagram
+### Entity Relationship Diagrams
 
 {{< mermaid >}}
 erDiagram
@@ -104,3 +104,65 @@ ORDER ||--|{ ORDER-ITEM : includes
 PRODUCT-CATEGORY ||--|{ PRODUCT : contains
 PRODUCT ||--o{ ORDER-ITEM : "ordered in"
 {{< /mermaid >}}
+
+### Class Diagrams
+
+```mermaid
+classDiagram
+    class WebDriver {
+    }
+
+    class WebElement {
+    }
+
+    class LoginPage {
+        +WebElement usernameField
+        +WebElement passwordField
+        +WebElement loginButton
+    }
+
+    class LoginTest {
+        +WebDriver driver
+        +void testLogin()
+    }
+
+    WebDriver <|-- LoginTest
+    WebElement <|-- LoginPage
+    WebDriver <|-- LoginPage
+```
+
+```mermaid
+classDiagram
+    direction LR
+    class Serializable {
+        <<interface>>
+    }
+```
+
+```mermaid
+classDiagram
+    class WashingMachine {
+        +MachineState currentState
+        +startWashing() : void
+        +stopWashing() : void
+    }
+    class MachineState {
+        <<Enumeration>> 
+        ON
+        OFF
+    }
+    WashingMachine --> MachineState
+```
+
+### State Diagrams
+
+```mermaid
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+```
