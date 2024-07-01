@@ -8,6 +8,7 @@ require (
 	github.com/GoogleChrome/workbox v7.1.0+incompatible // indirect
 	github.com/KaTeX/KaTeX v0.16.10 // indirect
 	github.com/Templarian/MaterialDesign-SVG v7.4.47+incompatible // indirect
+	github.com/desandro/masonry v4.2.2+incompatible // indirect
 	github.com/feathericons/feather v4.29.2+incompatible // indirect
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
@@ -107,7 +108,8 @@ require (
 	github.com/hugomods/katex v0.3.2 // indirect
 	github.com/hugomods/kroki v0.1.2 // indirect
 	github.com/hugomods/lucide-icons v0.331.0 // indirect
-	github.com/hugomods/mermaid v0.1.2 // indirect
+	github.com/hugomods/masonry-js v0.1.0 // indirect
+	github.com/hugomods/mermaid v0.1.3 // indirect
 	github.com/hugomods/microsoft-clarity v0.1.0 // indirect
 	github.com/hugomods/pwa v0.9.0 // indirect
 	github.com/hugomods/search v0.14.0 // indirect
@@ -119,7 +121,6 @@ require (
 	github.com/hugomods/seo/modules/schema v0.1.3 // indirect
 	github.com/hugomods/seo/modules/translations v0.1.1 // indirect
 	github.com/hugomods/seo/modules/twitter-cards v0.1.1 // indirect
-	github.com/hugomods/shortcodes v0.21.0 // indirect
 	github.com/hugomods/simple-icons v12.4.0+incompatible // indirect
 	github.com/hugomods/site/common v0.0.0-00010101000000-000000000000 // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
