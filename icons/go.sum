@@ -6,6 +6,7 @@ github.com/KaTeX/KaTeX v0.16.9 h1:4VYWM2nMSCfOPi63mTRJYQs0UmZPGTx3noiQ/vJu9Rk=
 github.com/KaTeX/KaTeX v0.16.9/go.mod h1:VI+aE+CVs/VqtbHnuhstfQST46GmrwpXH7LQAzYIouw=
 github.com/KaTeX/KaTeX v0.16.10 h1:Q7Zw1aTBezZ0y7zYkipTq9Z+Gkkohyk7xBaiZKO8yZs=
 github.com/KaTeX/KaTeX v0.16.10/go.mod h1:VI+aE+CVs/VqtbHnuhstfQST46GmrwpXH7LQAzYIouw=
+github.com/KaTeX/KaTeX v0.16.11/go.mod h1:VI+aE+CVs/VqtbHnuhstfQST46GmrwpXH7LQAzYIouw=
 github.com/Templarian/MaterialDesign-SVG v7.4.47+incompatible h1:w99yYrLvkTj5A9Dxd8mzNoFQpOBx9aRS03RrrqjzLuw=
 github.com/Templarian/MaterialDesign-SVG v7.4.47+incompatible/go.mod h1:SRSiaLOZazGp4UpKPQRm37h4A3cKLHXaybAqaJ7Lfx8=
 github.com/feathericons/feather v4.29.1+incompatible h1:2x3iuUAXwzDQJ3Hawc15IrgRJ3X3fj5jP9MEyyN3rIs=
