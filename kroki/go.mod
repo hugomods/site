@@ -124,7 +124,7 @@ require (
 	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.6.1 // indirect
-	github.com/tabler/tabler-icons v3.8.0+incompatible // indirect
+	github.com/tabler/tabler-icons v3.9.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.3+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )
