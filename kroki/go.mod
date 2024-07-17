@@ -82,7 +82,7 @@ require (
 	github.com/hugomods/decap-cms v0.15.0 // indirect
 	github.com/hugomods/echarts v0.1.3 // indirect
 	github.com/hugomods/encrypt v0.3.0 // indirect
-	github.com/hugomods/font-awesome v6.5.2+incompatible // indirect
+	github.com/hugomods/font-awesome v6.6.0+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.1 // indirect
 	github.com/hugomods/google-adsense v0.1.0 // indirect
@@ -93,7 +93,7 @@ require (
 	github.com/hugomods/icons v0.6.4 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.7 // indirect
 	github.com/hugomods/icons/vendors/feather v0.2.5 // indirect
-	github.com/hugomods/icons/vendors/font-awesome v0.6.7 // indirect
+	github.com/hugomods/icons/vendors/font-awesome v0.6.8 // indirect
 	github.com/hugomods/icons/vendors/lucide v0.3.38 // indirect
 	github.com/hugomods/icons/vendors/mdi v0.3.6 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.45 // indirect
