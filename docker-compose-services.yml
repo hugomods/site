@@ -3,8 +3,8 @@ services:
     image: hugomods/hugo:exts
     command: npm run dev -- --bind 0.0.0.0
     volumes:
-      - $PWD:/src
-      - $HOME/.cache/hugo_docker_cache:/tmp/hugo_cache
-      - $HOME/Workspaces:/workspaces
+      - ./:/src
+      - ~/.cache/hugo_docker_cache:/tmp/hugo_cache
+      - ~/Workspaces:/workspaces
     env_file: .env
     # user: "1000:1000"
