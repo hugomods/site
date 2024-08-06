@@ -101,7 +101,7 @@ require (
 	github.com/hugomods/icons/vendors/font-awesome v0.6.8 // indirect
 	github.com/hugomods/icons/vendors/lucide v0.3.38 // indirect
 	github.com/hugomods/icons/vendors/mdi v0.3.6 // indirect
-	github.com/hugomods/icons/vendors/simple-icons v1.0.47 // indirect
+	github.com/hugomods/icons/vendors/simple-icons v1.0.48 // indirect
 	github.com/hugomods/icons/vendors/tabler v0.15.38 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.11.0 // indirect

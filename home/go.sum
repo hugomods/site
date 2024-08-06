@@ -200,6 +200,7 @@ github.com/hugomods/icons/vendors/simple-icons v1.0.44/go.mod h1:7LcqEe8I+bPorVu
 github.com/hugomods/icons/vendors/simple-icons v1.0.45/go.mod h1:uCOLQy1qICLIFyWZMPUG5FCH2nJEFvZRjEZ4UM4Pvto=
 github.com/hugomods/icons/vendors/simple-icons v1.0.46/go.mod h1:OkG7GY2x/zFC9k3ueYcm2vmtNhIMczRb188FLfg+mJI=
 github.com/hugomods/icons/vendors/simple-icons v1.0.47/go.mod h1:+OxJaLg5ElwlUW/JhUq7IeuXg0tKLoB8MaOhkWQW0Eg=
+github.com/hugomods/icons/vendors/simple-icons v1.0.48/go.mod h1:OW3DGGP2A2ArBfZWjnLsiZShjXr2fltoP57HySYrsTg=
 github.com/hugomods/icons/vendors/tabler v0.15.35 h1:sPP/4oeMnPR9gYJUobNvYkL2H4GR0Nlt40BYwf6b3HA=
 github.com/hugomods/icons/vendors/tabler v0.15.35/go.mod h1:/pzDURyr+d4xunQTiXINI5YidKbBZtMPZOFA8KtUQQE=
 github.com/hugomods/icons/vendors/tabler v0.15.36/go.mod h1:rBCDRnXug9YBFuj5q221KHylFbjWL0bYs9/egsb5KAI=
