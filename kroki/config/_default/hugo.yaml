@@ -1,4 +1,5 @@
 enableRobotsTXT: true
+timeout: 120s
 
 outputs:
   home:
