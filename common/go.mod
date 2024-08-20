@@ -16,7 +16,7 @@ require (
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.8 // indirect
 	github.com/hbstack/featured-image v0.2.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
-	github.com/hbstack/hb v0.12.3 // indirect
+	github.com/hbstack/hb v0.12.4 // indirect
 	github.com/hbstack/header v0.15.0 // indirect
 	github.com/hbstack/header/modules/news v0.3.1 // indirect
 	github.com/hbstack/heading-sign v0.2.0 // indirect
