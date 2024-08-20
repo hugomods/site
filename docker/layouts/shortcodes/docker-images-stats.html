@@ -2,7 +2,7 @@
 {{- $items := slice
   (dict "title" "Stars" "url" "https://github.com/hugomods/docker" "img" "https://flat.badgen.net/github/stars/hugomods/docker")
   (dict "title" "Docker pulls" "url" "https://hub.docker.com/r/hugomods/hugo" "img" "https://flat.badgen.net/docker/pulls/hugomods/hugo")
-  (dict "title" "GHCR pulls" "url" "https://github.com/hugomods/docker/pkgs/container/hugo" "img" `https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ipitio/ghcr-pulls/master/index/hugomods/docker/hugo.json&query=downloads&label=ghcr+pulls&style=flat-square`)
+  (dict "title" "GHCR pulls" "url" "https://github.com/hugomods/docker/pkgs/container/hugo" "img" `https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hugomods/docker/main/ghcr-stats.json&query=downloads_compact&label=ghcr+pulls&style=flat-square`)
   (dict "title" "Latest tag" "url" "https://hub.docker.com/r/hugomods/hugo/tags" "img" "https://img.shields.io/docker/v/hugomods/hugo/latest?style=flat-square")
   (dict "title" "Build" "url" "https://github.com/hugomods/docker/actions/workflows/build.yml" "img" "https://img.shields.io/github/actions/workflow/status/hugomods/docker/build.yml?style=flat-square")
 }}
