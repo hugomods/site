@@ -112,6 +112,7 @@ github.com/hugomods/decap-cms v0.14.6/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkut
 github.com/hugomods/decap-cms v0.14.7/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/decap-cms v0.15.0/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/decap-cms v0.15.1/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
+github.com/hugomods/decap-cms v0.16.1/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/encrypt v0.2.0 h1:mlwrKPahAcotlYSSso5GZQgLoMeHNPwIAdxD0m/459E=
 github.com/hugomods/encrypt v0.2.0/go.mod h1:5oezB6nFUpiCPmLRBP9mvqCUqa+4NNEyCVifTDCTv4U=
 github.com/hugomods/encrypt v0.3.0/go.mod h1:UyB9I6U9mcFYCK3qiykiOOElUsR+p8HMlfidNy1PLbs=
