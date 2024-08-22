@@ -49,7 +49,7 @@ require (
 	github.com/hbstack/hb v0.12.4 // indirect
 	github.com/hbstack/header v0.15.0 // indirect
 	github.com/hbstack/header/modules/apps v0.2.1 // indirect
-	github.com/hbstack/header/modules/banner v0.7.1 // indirect
+	github.com/hbstack/header/modules/banner v0.7.2 // indirect
 	github.com/hbstack/header/modules/git-org v0.2.4 // indirect
 	github.com/hbstack/header/modules/git-repo v0.4.2 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.26 // indirect
