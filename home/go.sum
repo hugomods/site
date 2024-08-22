@@ -167,6 +167,7 @@ github.com/hugomods/code-block-panel v0.7.1/go.mod h1:3J9yUxaShbhYvFFZbGVHcBoHPl
 github.com/hugomods/decap-cms v0.15.0 h1:iIftup1+sNd+ksMhJRcrbW/auvrGV1Y3LpXX6VU43Oo=
 github.com/hugomods/decap-cms v0.15.0/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/decap-cms v0.15.1/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
+github.com/hugomods/decap-cms v0.16.1/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/echarts v0.1.3 h1:DBHXaVcKE3R/UQKaItulhoVqkO439lGicb1foKs+AQs=
 github.com/hugomods/echarts v0.1.3/go.mod h1:RrUk6TpRJUsMtNA4w9IydbrhPCqdlbCkEV0QDTYsxHc=
 github.com/hugomods/encoder v0.1.0 h1:RIS+pL3F4BHe4WVeYNHeDwbckV60qr9ISI3uM3Qs9yE=
