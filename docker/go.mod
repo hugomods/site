@@ -84,7 +84,7 @@ require (
 	github.com/hugomods/decap-cms v0.16.1 // indirect
 	github.com/hugomods/echarts v0.1.3 // indirect
 	github.com/hugomods/encoder v0.1.0 // indirect
-	github.com/hugomods/encrypt v0.3.0 // indirect
+	github.com/hugomods/encrypt v0.4.0 // indirect
 	github.com/hugomods/font-awesome v6.6.0+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.1 // indirect

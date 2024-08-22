@@ -174,6 +174,7 @@ github.com/hugomods/encoder v0.1.0 h1:RIS+pL3F4BHe4WVeYNHeDwbckV60qr9ISI3uM3Qs9y
 github.com/hugomods/encoder v0.1.0/go.mod h1:WczOOUq8lPosgSx1b7MXe3MXGighn2goeEFiuqw4ciY=
 github.com/hugomods/encrypt v0.3.0 h1:QaRpT27327KLra4UsdFp/KnLcPbVp4p9eUjZDbMZNMU=
 github.com/hugomods/encrypt v0.3.0/go.mod h1:UyB9I6U9mcFYCK3qiykiOOElUsR+p8HMlfidNy1PLbs=
+github.com/hugomods/encrypt v0.4.0/go.mod h1:negeZEtF4MhMBwHY0BvCueVwJbgxXzamDXaIWcLHyZM=
 github.com/hugomods/font-awesome v6.5.2+incompatible h1:sDSRuMLUK7N7u/PTpNngqoqbfUI/UP9Rcb+885kV4Wk=
 github.com/hugomods/font-awesome v6.5.2+incompatible/go.mod h1:C2wW6xDvHkcMlJMVTPQ+Npt+rO0OGv13xT1iyll2z2Q=
 github.com/hugomods/font-awesome v6.6.0+incompatible/go.mod h1:C2wW6xDvHkcMlJMVTPQ+Npt+rO0OGv13xT1iyll2z2Q=
