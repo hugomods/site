@@ -272,6 +272,7 @@ github.com/hugomods/snackbar v0.1.2 h1:SLpfH9jlYwf81epH7DvM2XTZHo+3fXXpk6XKtxmo9
 github.com/hugomods/snackbar v0.1.2/go.mod h1:ykFm0IFibeQPuPAm8Gaa27xJS/bNZcSez4omVSl2gQ0=
 github.com/hugomods/swagger-ui v0.1.0 h1:NTkyIGYAlJnmyQjgry5wQjue3AFziDzmnYirU3ljjyM=
 github.com/hugomods/swagger-ui v0.1.0/go.mod h1:Q6Y/tRLuBUKlaUMG0clksot1kh0/g2auVidw45AUvQQ=
+github.com/hugomods/swagger-ui v0.2.0/go.mod h1:Q6Y/tRLuBUKlaUMG0clksot1kh0/g2auVidw45AUvQQ=
 github.com/hugomods/video-js v0.1.1 h1:52DgwMZUrXVHbjG7+ke8YmYMXIs3yhn5q0JWz/bhLto=
 github.com/hugomods/video-js v0.1.1/go.mod h1:uNF7SDARVaQwpirTpZbKZxqvuKTalYsg2mHPDW5n2vU=
 github.com/hugomods/workbox v0.1.0 h1:yxuTj3gT1BNf6OitxrjxSJXfmbFBj2UTwdWr142eYFQ=
