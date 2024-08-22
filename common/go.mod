@@ -28,7 +28,7 @@ require (
 	github.com/hugomods/bootstrap v0.22.3 // indirect
 	github.com/hugomods/code-block-panel v0.7.1 // indirect
 	github.com/hugomods/decap-cms v0.16.1 // indirect
-	github.com/hugomods/encrypt v0.3.0 // indirect
+	github.com/hugomods/encrypt v0.4.0 // indirect
 	github.com/hugomods/giscus v0.1.1 // indirect
 	github.com/hugomods/google-adsense v0.1.0 // indirect
 	github.com/hugomods/google-analytics v0.2.1 // indirect
