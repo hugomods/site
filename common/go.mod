@@ -3,7 +3,7 @@ module github.com/hugomods/site/common
 go 1.19
 
 require (
-	github.com/hbstack/base v0.6.1 // indirect
+	github.com/hbstack/base v0.6.2 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
 	github.com/hbstack/blog/modules/giscus v0.1.24 // indirect
 	github.com/hbstack/blog/modules/sidebar/posts v0.8.0 // indirect
@@ -16,7 +16,7 @@ require (
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.8 // indirect
 	github.com/hbstack/featured-image v0.2.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
-	github.com/hbstack/hb v0.13.0 // indirect
+	github.com/hbstack/hb v0.14.0 // indirect
 	github.com/hbstack/header v0.15.0 // indirect
 	github.com/hbstack/header/modules/news v0.3.1 // indirect
 	github.com/hbstack/heading-sign v0.2.0 // indirect
