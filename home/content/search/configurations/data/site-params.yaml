@@ -120,7 +120,7 @@
   desc: The weight of language.
   default: 1
 
-- name: key_weights.title
+- name: key_weights.year
   type: number
   desc: The weight of year.
   default: 1
