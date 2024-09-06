@@ -90,3 +90,42 @@
   type: boolean
   desc: Whether to enable the years filter.
   default: true
+
+- name: key_weights
+  type: object
+  desc: The weights of keys, see also https://www.fusejs.io/examples.html#default-weight.
+
+- name: key_weights.title
+  type: number
+  desc: The weight of title.
+  default: 1
+
+- name: key_weights.summary
+  type: number
+  desc: The weight of summary.
+  default: 1
+
+- name: key_weights.headings
+  type: number
+  desc: The weight of headings.
+  default:0.5
+
+- name: key_weights.content
+  type: number
+  desc: The weight of content.
+  default: 0.5
+
+- name: key_weights.lang
+  type: number
+  desc: The weight of language.
+  default: 1
+
+- name: key_weights.title
+  type: number
+  desc: The weight of year.
+  default: 1
+
+- name: key_weights.taxonomies
+  type: number
+  desc: The weight of taxonomies.
+  default: 0.1
