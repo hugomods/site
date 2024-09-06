@@ -93,7 +93,7 @@
 
 - name: key_weights
   type: object
-  desc: The weights of keys, see also https://www.fusejs.io/examples.html#default-weight.
+  desc: "The weights of keys, see also https://www.fusejs.io/examples.html#default-weight."
 
 - name: key_weights.title
   type: number
