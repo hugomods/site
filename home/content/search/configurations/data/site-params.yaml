@@ -108,7 +108,7 @@
 - name: key_weights.headings
   type: number
   desc: The weight of headings.
-  default:0.5
+  default: 0.5
 
 - name: key_weights.content
   type: number
