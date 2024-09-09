@@ -83,7 +83,7 @@
 
 - name: filter_taxonomies
   type: boolean
-  desc: Whether to enable the taxonomies filter.
+  desc: "Whether to enable the taxonomies filter, see also `index_taxonomies`."
   default: true
 
 - name: filter_years
@@ -129,3 +129,23 @@
   type: number
   desc: The weight of taxonomies.
   default: 0.1
+
+- name: headings_end_level
+  type: number
+  default: 6
+  desc: The end level of headings.
+
+- name: index_headings
+  type: boolean
+  desc: "Whether to index the headings, see also the `headings_end_level` parameter."
+  default: true
+
+- name: index_summary
+  type: boolean
+  desc: "Whether to index the summary."
+  default: true
+
+- name: index_taxonomies
+  type: boolean
+  desc: "Whether to index the taxonomies, if `false`, the `filter_taxonomies` will be automatically disabled as well."
+  default: true
