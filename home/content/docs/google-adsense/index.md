@@ -51,6 +51,8 @@ path = "github.com/hugomods/google-adsense"
 | Parameter         |  Type  | Default | Description         |
 | ----------------- | :----: | :-----: | ------------------- |
 | `google_adsense` | string |    -    | |
+| `google_adsense_ad_blocking_detector` | boolean | `true` | When `true`, show up an ad blocking recovery message if ad blocker was detected on your site.
+| `google_adsense_ad_blocking_detector_fail_safe` | boolean | `true` | When `true`, show up an blocked message in the case of `google_adsense_ad_blocking_detector` script was blocked.
 
 {{< bootstrap/config-toggle hugo >}}
 params:
