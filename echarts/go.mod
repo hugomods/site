@@ -85,7 +85,7 @@ require (
 	github.com/hugomods/font-awesome v6.6.0+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.1 // indirect
-	github.com/hugomods/google-adsense v0.1.0 // indirect
+	github.com/hugomods/google-adsense v0.2.0 // indirect
 	github.com/hugomods/google-analytics v0.2.1 // indirect
 	github.com/hugomods/gravatar v0.2.0 // indirect
 	github.com/hugomods/hugopress v0.5.0 // indirect
