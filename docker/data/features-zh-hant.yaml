@@ -34,3 +34,10 @@
   icon:
     vendor: fab
     name: linux
+
+- title: 無速率限制
+  description: 該項目已獲得 Docker 贊助的開源項目的批准，這意味著從 Docker Hub 提取鏡像時不會有速率限制，這對 CI/CD 環境非常有利。
+  icon:
+    vendor: fab
+    name: docker
+    color: '#1c7ced'
