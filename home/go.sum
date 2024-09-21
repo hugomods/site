@@ -157,6 +157,7 @@ github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.1 h1:IzJlnkHGS8XhibNj
 github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.1/go.mod h1:ar5ZFplNyVZCVG6rvo69co1hNZwptxtrDz3zproGLPg=
 github.com/hbstack/toc-scrollspy v0.1.0 h1:sr9HidxHVYeSZR1FVOGQzphONSsct/OscbWPSV+vMlo=
 github.com/hbstack/toc-scrollspy v0.1.0/go.mod h1:wIqdWFRjqGGKX6Y5XVRQzaBBeZ91kZBKgovQp8IPvtk=
+github.com/hbstack/toc-scrollspy v0.2.0/go.mod h1:wIqdWFRjqGGKX6Y5XVRQzaBBeZ91kZBKgovQp8IPvtk=
 github.com/henrygd/bigger-picture v1.1.17 h1:X41lEdmfYbLLgMdkH4F3Mdhipy8EQjA2w16u1y+BgM8=
 github.com/henrygd/bigger-picture v1.1.17/go.mod h1:LayqbjDNNsZH+ZXklmjBe5T02qxpH9Cah/ygAraOBIk=
 github.com/hugomods/aos v0.1.0 h1:R1NOqLbD+95R1EG0pJ7HPh/zUfM9fpdkgUMMJkOEPUs=
