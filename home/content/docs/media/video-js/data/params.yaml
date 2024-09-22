@@ -33,3 +33,8 @@ autoplay:
   name: autoplay
   desc: Whether to autoplay the video.
   default: false
+
+autoplay:
+  name: aspectRatio
+  desc: "Aspect ratio: `16x9`, `4x3`, `9x16` or `1x1`."
+  default: false
