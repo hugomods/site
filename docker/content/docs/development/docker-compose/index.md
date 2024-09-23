@@ -23,7 +23,7 @@ And then create `docker-compose.yml` on your project root.
 {{< page-resource-content "codes/docker-compose" >}}
 
 {{% bs/alert danger %}}
-Please note that `--bind 0.0.0.0` is required, otherwise Hugo server may not recieve any incoming requests from host.
+Please note that `--bind 0.0.0.0` is required, otherwise Hugo server may not receive any incoming requests from host.
 {{% /bs/alert %}}
 
 {{% bs/alert info %}}

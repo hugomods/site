@@ -45,7 +45,7 @@ You may want to install the dependencies before running Hugo server, such as ins
 {{< page-resource-content "codes/hugo-server" >}}
 
 {{% bs/alert danger %}}
-Please note that `--bind 0.0.0.0` is required, otherwise Hugo server may not recieve any incoming requests from host.
+Please note that `--bind 0.0.0.0` is required, otherwise Hugo server may not receive any incoming requests from host.
 {{% /bs/alert %}}
 
 {{% bs/alert info %}}

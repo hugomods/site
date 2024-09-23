@@ -48,7 +48,7 @@ languages:
     title: Hugo Decap CMS Module | HugoMods
     # baseURL: https://decap-cms.hugomods.com/
     params:
-      description: Hugo module to help developers and users integrate Decap CMS (formerly Netlify CMS) with their themes and sites easilly.
+      description: Hugo module to help developers and users integrate Decap CMS (formerly Netlify CMS) with their themes and sites easily.
       hb:
         footer:
           site_title: HugoMods

@@ -8,7 +8,7 @@
   type: boolean
   default: false
   description:
-    default: Indicates whehter if the chart is written in JavaScript, when `true`, you must `return` the chart options.
+    default: Indicates whether if the chart is written in JavaScript, when `true`, you must `return` the chart options.
     zh-hans: 表示图表是否用 JavaScript 编写的，为 `true` 时，你必须 `return` 图表的参数。
     zh-hant: 表示圖表是否用 JavaScript 編寫的，為 `true` 時，你必須 `return` 圖表的參數。
 

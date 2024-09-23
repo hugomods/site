@@ -1,6 +1,6 @@
 ---
 title: Hugo Decap CMS Module
-description: Help developers and users integrate Decap CMS (formerly Netlify CMS) with their themes and sites easilly.
+description: Help developers and users integrate Decap CMS (formerly Netlify CMS) with their themes and sites easily.
 layout: landing
 full_width: true
 nav_icon:

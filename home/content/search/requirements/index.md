@@ -39,7 +39,7 @@ Requires __extended__ Hugo `v0.110.0` or later.
 - Autoprefixer
 - RTLCSS
 
-You can install those pacakges via one command.
+You can install those packages via one command.
 
 ```sh
 npm i postcss-cli autoprefixer rtlcss

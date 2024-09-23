@@ -52,9 +52,9 @@ You should test the image locally to ensure it works properly.
 
 ## Writing Tests
 
-We strongly recommend writting tests on our [build](https://github.com/hugomods/docker/blob/main/.github/workflows/build.yml) workflow if possible, so that we can make sure everything is fine before pushing it to registry.
+We strongly recommend writing tests on our [build](https://github.com/hugomods/docker/blob/main/.github/workflows/build.yml) workflow if possible, so that we can make sure everything is fine before pushing it to registry.
 
-If you're unfimilar to this, skip this step for now, we will handle it on your PR.
+If you're unfamiliar to this, skip this step for now, we will handle it on your PR.
 
 ## Commit Changes
 
