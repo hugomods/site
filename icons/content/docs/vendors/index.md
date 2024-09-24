@@ -18,7 +18,7 @@ tags:
   - Feather Icons
   - Lucide Icons
   - Tabler Icons
-  - Meterial Design Icons
+  - Material Design Icons
   - Flag Icons
 ---
 

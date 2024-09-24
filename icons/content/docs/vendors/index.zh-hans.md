@@ -18,7 +18,7 @@ tags:
   - Feather 图标
   - Lucide 图标
   - Tabler 图标
-  - Meterial Design 图标
+  - Material Design 图标
   - 国旗、区旗图标
 ---
 

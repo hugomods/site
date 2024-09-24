@@ -23,8 +23,8 @@ images:
 
 All of Kroki diagrams have a class name called `.kroki`.
 
-1. `svg.kroki` for inline Korki diagrams.
-2. `embed.kroki` for embeded Kroki diagrams.
+1. `svg.kroki` for inline Kroki diagrams.
+2. `embed.kroki` for embedded Kroki diagrams.
 
 ## Example
 

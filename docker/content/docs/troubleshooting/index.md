@@ -19,7 +19,7 @@ You'll encounter the error below if you forgot to mount site on [default working
 
 {{< page-resource-content "codes/config-not-found" >}}
 
-## Unknow command or module
+## Unknown command or module
 
 The errors similar to below may reached when executing a nonexistent command.
 

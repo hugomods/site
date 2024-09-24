@@ -19,7 +19,7 @@ Icons are saved in `/assets/icons/{vendor}/{name}` form, where the `{vendor}`, `
 
 ## Site Scoped SVG Icons
 
-The simplest way to add and use custom icons is to save the icons to the corresponding folder. Let's take `/assset/icons/custom/example.svg` as an example, the vendor name will be `custom`, and the icon name is `example`, then you're able to use it via templates and shortcodes.
+The simplest way to add and use custom icons is to save the icons to the corresponding folder. Let's take `/asset/icons/custom/example.svg` as an example, the vendor name will be `custom`, and the icon name is `example`, then you're able to use it via templates and shortcodes.
 
 ## Shared SVG Icons
 

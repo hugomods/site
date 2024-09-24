@@ -1,5 +1,5 @@
 - name: data
-  posiiton: 0
+  position: 0
   required: true
   description:
     default: The name of data file.
@@ -13,7 +13,7 @@
     zh-hans: 链接文本，为空时整个卡片变为可点击状态。
     zh-hant: 鏈接文本，為空時整個卡片變為可點擊狀態。
 
-- name: aligment
+- name: alignment
   default: start
   description:
     default: "Alignments: `start`, `center` or `end`."

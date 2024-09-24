@@ -1,5 +1,5 @@
 - title: No JavaScript
-  description: Does not require JavaScript, since the module utilizes Kroki service to generate diagram images, and rendered as inline SVG and embeded SVG.
+  description: Does not require JavaScript, since the module utilizes Kroki service to generate diagram images, and rendered as inline SVG and embedded SVG.
   icon:
     vendor: bs
     name: filetype-js

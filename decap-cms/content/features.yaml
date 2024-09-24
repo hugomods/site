@@ -20,7 +20,7 @@
     color: green
 
 - title: Flexible
-  description: With defined interfaces and hooks, you can easilly create editor components, widgets, preview templates, modules and so on.
+  description: With defined interfaces and hooks, you can easily create editor components, widgets, preview templates, modules and so on.
   icon:
     vendor: fas
     name: code-fork

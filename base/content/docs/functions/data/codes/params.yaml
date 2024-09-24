@@ -1,7 +1,7 @@
 - name: key
   required: true
   description:
-    default: The name of data file without extension, dot (`.`) represents the path seperator.
+    default: The name of data file without extension, dot (`.`) represents the path separator.
     zh-hans: 不带扩展名的数据文件名称，点（`.`）表示路径分隔符。
     zh-hant: 不帶擴展名的數據文件名稱，點（`.`）表示路徑分隔符。
 
