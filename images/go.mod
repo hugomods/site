@@ -120,7 +120,7 @@ require (
 	github.com/hugomods/simple-icons v13.11.0+incompatible // indirect
 	github.com/hugomods/site/common v0.0.0-20240223003735-279a08261cd6 // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
-	github.com/hugomods/video-js v0.2.0 // indirect
+	github.com/hugomods/video-js v0.3.0 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
