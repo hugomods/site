@@ -36,11 +36,15 @@
     {{- $vendors = merge $vendors (dict
       "flag" (dict "url" (printf "https://raw.githubusercontent.com/lipis/flag-icons/%s/flags/%%s.svg" $version)))
     -}}
+  {{- else if eq .Path "github.com/devicons/devicon" -}}
+    {{- $vendors = merge $vendors (dict
+      "devicons" (dict "url" (printf "https://raw.githubusercontent.com/devicons/devicon/%s/icons/%%s.svg" $version)))
+    -}}
   {{- end -}}
 {{- end -}}
 {{- $icons := slice -}}
 {{- range sort (resources.Match "icons/**/*.svg") "Name" -}}
-  {{- $match := findRESubmatch `icons/(.+)/(.+)\.svg` .Name -}}
+  {{- $match := findRESubmatch `icons/([^/]+)/(.+)\.svg` .Name -}}
   {{- $info := index $match 0 -}}
   {{- $vendor := index $info 1 -}}
   {{- $name := index $info 2 -}}

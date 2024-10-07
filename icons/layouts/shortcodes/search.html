@@ -7,14 +7,11 @@
       <label for="icon-vendor" class="visually-hidden">Icons vendors</label>
       <select class="form-control me-2 w-auto" id="icon-vendor">
         <option value="">All vendors</option>
-        <option value="bootstrap">Bootstrap</option>
-        <option value="feather">Feather</option>
-        <option value="font-awesome">Font Awesome</option>
-        <option value="lucide">Lucide</option>
-        <option value="mdi">Material Design</option>
-        <option value="simple-icons">Simple Icons</option>
-        <option value="tabler">Tabler</option>
-        <option value="flag">Flag</option>
+        {{- range sort (index site.Data "icons-vendors") "weight" }}
+          <option value="{{ .module_path }}">
+            {{- .name -}}
+          </option>
+        {{- end }}
       </select>
       <label for="icon-search" class="visually-hidden">Search for icons</label>
       <input

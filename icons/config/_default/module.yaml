@@ -1,3 +1,4 @@
 imports:
   - path: github.com/hugomods/icons/vendors/flag
+  - path: github.com/hugomods/icons/vendors/devicons
   - path: github.com/hugomods/site/common

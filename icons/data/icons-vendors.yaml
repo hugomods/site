@@ -71,3 +71,12 @@
   weight: 8
   icon: flag
   icon_vendor: bootstrap
+
+- name: Dev Icons
+  module_path: devicons
+  names:
+    - dev
+  official_site: https://devicon.dev/
+  weight: 9
+  icon: devicon/devicon-original
+  icon_vendor: devicons
