@@ -35,7 +35,7 @@ require (
 	github.com/hbstack/bs-tooltip v0.1.1 // indirect
 	github.com/hbstack/carousel v0.2.7 // indirect
 	github.com/hbstack/code-block-panel v0.1.2 // indirect
-	github.com/hbstack/content-panel v0.10.1 // indirect
+	github.com/hbstack/content-panel v0.10.2 // indirect
 	github.com/hbstack/docs v0.19.0 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.10 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
@@ -127,7 +127,7 @@ require (
 	github.com/hugomods/seo/modules/schema v0.1.3 // indirect
 	github.com/hugomods/seo/modules/translations v0.1.1 // indirect
 	github.com/hugomods/seo/modules/twitter-cards v0.1.1 // indirect
-	github.com/hugomods/shortcodes v0.22.0 // indirect
+	github.com/hugomods/shortcodes v0.22.1 // indirect
 	github.com/hugomods/simple-icons v13.13.0+incompatible // indirect
 	github.com/hugomods/site/common v0.0.0-00010101000000-000000000000 // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
@@ -136,7 +136,7 @@ require (
 	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
 	github.com/lipis/flag-icons v7.2.3+incompatible // indirect
-	github.com/razonyang/hb-mod-thanks v0.6.1 // indirect
+	github.com/razonyang/hb-mod-thanks v0.7.0 // indirect
 	github.com/tabler/tabler-icons v3.19.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.3+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect
