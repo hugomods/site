@@ -15,9 +15,9 @@
 - name: lang_js_url
   default: 'https://unpkg.com/video.js/dist/lang/%s.js'
   description:
-    default: The localization URL, `%` is the placeholder of language, please do not change it. 
-    zh-hans: 本地化設置 URL，`%` 作为语言的占位符，请不要随意更改。
-    zh-hant: 本地化設置 URL，`%` 作為語言的佔位符，請不要隨意更改。
+    default: The localization URL, `%s` is the placeholder of language, please do not change it. 
+    zh-hans: 本地化設置 URL，`%s` 作为语言的占位符，请不要随意更改。
+    zh-hant: 本地化設置 URL，`%s` 作為語言的佔位符，請不要隨意更改。
 
 - name: playback_rates
   type: array
