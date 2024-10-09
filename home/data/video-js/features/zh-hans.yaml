@@ -1,0 +1,24 @@
+- title: 开源
+  description: "Video.js（Apache 许可）和该模块（MIT 许可）都是开源的。"
+  icon:
+    name: code-square
+    color: green
+
+- title: 灵活的
+  description: 允许配置播放器默认参数和为特定视频覆盖参数。
+  icon:
+    name: gear
+    className: text-primary
+
+- title: 多语言
+  description: 根据站点语言加载播放器的本地化配置。
+  icon:
+    name: translate
+    className: text-info
+
+- title: 流媒体格式
+  description: 比如 **HTTP Live Streaming (HLS)** 和 **Dynamic Adaptive Streaming over HTTP (MPEG-DASH)**。
+  icon:
+    name: cast
+    vendor: bs
+    color: green

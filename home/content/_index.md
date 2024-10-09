@@ -2,6 +2,9 @@
 layout: landing
 title: HugoMods | Hugo Modules and Tools
 description: Third party Hugo modules and tools for building fast, modular, modern themes and static websites.
+nav_icon:
+  vendor: bs
+  name: house
 header:
   banner:
     alignment: center

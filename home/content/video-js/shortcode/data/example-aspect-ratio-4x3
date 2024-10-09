@@ -1,0 +1,3 @@
+{{< hugo/preview >}}
+{{</* video-js src="https://commondata.razonyang.com/videos/green-mountains-near-the-ocean.mp4" aspectRatio="4x3" */>}}
+{{< /hugo/preview >}}

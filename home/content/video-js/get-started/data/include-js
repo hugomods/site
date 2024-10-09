@@ -1,0 +1,5 @@
+{{% skip-if-hugopress %}}
+
+```go-html-template
+{{ partial "video-js/assets/js" . }}
+```

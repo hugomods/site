@@ -1,1 +1,10 @@
+{{ if eq site.LanguageCode "zh-hans" }}
+> [!NOTE]
+> 若你的主题支持 [HugoPress](https://github.com/hugomods/hugopress)，则无需执行此步骤，比如 [HB 框架](https://hbstack.dev/)的主题。
+{{ else if eq site.LanguageCode "zh-hant" }}
+> [!NOTE]
+> 若你的主題支持 [HugoPress](https://github.com/hugomods/hugopress)，則無需執行此步驟，比如 [HB 框架](https://hbstack.dev/)的主題。
+{{ else }}
+> [!NOTE]
 > Please skip this step if your theme supports [HugoPress](https://github.com/hugomods/hugopress), such as [HB Framework](https://hbstack.dev/) themes.
+{{ end }}

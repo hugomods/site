@@ -1,0 +1,7 @@
+{{< bs/config-toggle hugo >}}
+[params.video_js]
+css_url = "https://unpkg.com/video.js/dist/video-js.min.css"
+js_url = "https://unpkg.com/video.js/dist/video.min.js"
+lang_js_url = "https://unpkg.com/video.js/dist/lang/%s.js"
+playback_rates = [0.5, 1, 1.5, 2]
+{{< /bs/config-toggle >}}

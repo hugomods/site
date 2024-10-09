@@ -1,0 +1,97 @@
+- name: src
+  position: 0
+  required: true
+  description:
+    default: The video URL. 
+    zh-hans: 视频 URL。
+    zh-hant: 視頻 URL。
+
+- name: poster
+  description:
+    default: The poster URL. 
+    zh-hans: 视频封面 URL。
+    zh-hant: 視頻封面 URL。
+
+- name: type
+  description:
+    default: The media type of video. 
+    zh-hans: 视频的媒体类型。
+    zh-hant: 视频的媒体类型。
+
+- name: playbackRates
+  default: 'video_js.playback_rates'
+  description:
+    default: The playback rates, comma-separated. 
+    zh-hans: 播放速度, 逗号隔开。
+    zh-hant: 播放速度, 逗號隔開。
+
+- name: skipForward
+  type: number
+  default: 'video_js.skip_forward'
+  options: ['5', '10', '30']
+  description:
+    default: the time to skip forward, in seconds.
+    zh-hans: 快进的时间间隔，单位秒。
+    zh-hant: 快進的時間間隔，單位秒。
+
+- name: skipBackward
+  type: number
+  default: 'video_js.skip_backward'
+  options: ['5', '10', '30']
+  description:
+    default: the time to skip backward, in seconds.
+    zh-hans: 后退的时间间隔，单位秒。
+    zh-hant: 後退的時間間隔，單位秒。
+
+- name: muted
+  type: boolean
+  default: false
+  description:
+    default: Whether to mute video.
+    zh-hans: 是否静音。
+    zh-hant: 是否靜音。
+
+- name: loop
+  type: boolean
+  default: false
+  description:
+    default: Whether to loop playback.
+    zh-hans: 是否循环播放。
+    zh-hant: 是否循環播放。
+
+- name: preload
+  type: boolean
+  default: false
+  description:
+    default: Whether to preload playback.
+    zh-hans: 是否预加载视频。
+    zh-hant: 是否預加載視頻。
+
+- name: controls
+  type: boolean
+  default: true
+  description:
+    default: Whether to display video controls.
+    zh-hans: 是否显示控制工具栏。
+    zh-hant: 是否顯示控制工具欄。
+
+- name: autoplay
+  type: boolean
+  default: false
+  description:
+    default: Whether to autoplay playback, may fails sometime, set `muted` as `true` to improve it.
+    zh-hans: 是否自动播放视频，有时会失效，将 `muted` 设为 `true` 可以改善这个问题。
+    zh-hant: 是否自動播放視頻，有時會失效，將 `muted` 設為 `true` 可以改善這個問題。
+
+- name: aspectRatio
+  type: string
+  default: false
+  options:
+    - 16x9
+    - 4x3
+    - 9x16
+    - 1x1
+  description:
+    default: Aspect ratio.
+    zh-hans: 长宽比。
+    zh-hant: 長寬比。

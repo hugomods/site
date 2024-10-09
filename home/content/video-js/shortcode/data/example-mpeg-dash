@@ -1,0 +1,3 @@
+{{< hugo/preview >}}
+{{</* video-js src="https://customer-m033z5x00ks6nunl.cloudflarestream.com/b236bde30eb07b9d01318940e5fc3eda/manifest/video.mpd" type="application/dash+xml" */>}}
+{{< /hugo/preview >}}

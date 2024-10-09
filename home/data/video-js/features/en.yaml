@@ -1,0 +1,24 @@
+- title: Open Source
+  description: "Both of Video.js (Apache License) and this module (MIT License) are open source."
+  icon:
+    name: code-square
+    color: green
+
+- title: Flexible
+  description: Allow configuring default player parameters and override parameters for specific videos.
+  icon:
+    name: gear
+    className: text-primary
+
+- title: Multilingual
+  description: Load player's localized configuration according to site language.
+  icon:
+    name: translate
+    className: text-info
+
+- title: Streaming Formats
+  description: Such as **HTTP Live Streaming (HLS)** and **Dynamic Adaptive Streaming over HTTP (MPEG-DASH)**.
+  icon:
+    name: cast
+    vendor: bs
+    color: green

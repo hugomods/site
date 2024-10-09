@@ -1,0 +1,3 @@
+{{< hugo/preview >}}
+{{</* video-js src="https://devstreaming-cdn.apple.com/videos/streaming/examples/adv_dv_atmos/main.m3u8" type="application/x-mpegURL" */>}}
+{{< /hugo/preview >}}

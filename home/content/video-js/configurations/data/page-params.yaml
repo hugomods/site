@@ -1,0 +1,16 @@
+- name: video_js
+  default: false
+  type: boolean
+  description:
+    default: |
+      Indicate the current page is using Video.js to load the CSS and JS.
+
+      You don’t have to specify the `video_js` when using shortcode, since this module is able to recognize the pages that using Video.js.
+    zh-hans: |
+      表示当前页面是否使用了 Video.js，以便加载 CSS 和 JS。
+
+      当使用短代码时，你无需指定 `video_js` 参数，该模块能正确识别页面是否使用 Video.js。
+    zh-hant: |
+      表示當前頁面是否使用了 Video.js，以便加載 CSS 和 JS。
+
+      當使用短代碼時，你無需指定 `video_js` 參數，該模塊能正確識別頁面是否使用 Video.js。

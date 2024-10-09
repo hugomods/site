@@ -2,6 +2,9 @@
 title: HugoMods | Hugo 模块和工具
 description: 用于构建快速、模块化和现代化的主题和静态网站的第三方 Hugo 模块和工具。
 layout: landing
+nav_icon:
+  vendor: bs
+  name: house
 header:
   banner:
     alignment: center

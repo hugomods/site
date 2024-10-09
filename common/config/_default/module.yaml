@@ -1,4 +1,7 @@
 imports:
+  - path: github.com/hbstack/blockquote-alerts
+  - path: github.com/hbstack/docs/modules/sticky-till-the-end
+  - path: github.com/hbstack/blog/modules/sticky-till-the-end
   - path: github.com/hugomods/encoder
   - path: github.com/hbstack/echarts
   - path: github.com/hbstack/kroki

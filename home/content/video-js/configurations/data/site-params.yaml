@@ -1,0 +1,44 @@
+- name: css_url
+  default: 'https://unpkg.com/video.js/dist/video-js.min.css'
+  description:
+    default: The style URL. 
+    zh-hans: 樣式 URL。
+    zh-hant: 樣式 URL。
+
+- name: js_url
+  default: 'https://unpkg.com/video.js/dist/video.min.js'
+  description:
+    default: The JavaScript URL. 
+    zh-hans: JavaScript URL。
+    zh-hant: JavaScript URL。
+
+- name: lang_js_url
+  default: 'https://unpkg.com/video.js/dist/lang/%s.js'
+  description:
+    default: The localization URL, `%` is the placeholder of language, please do not change it. 
+    zh-hans: 本地化設置 URL，`%` 作为语言的占位符，请不要随意更改。
+    zh-hant: 本地化設置 URL，`%` 作為語言的佔位符，請不要隨意更改。
+
+- name: playback_rates
+  type: array
+  default: '[0.5, 1, 1.5, 2]'
+  description:
+    default: The playback rates. 
+    zh-hans: 播放速度。
+    zh-hant: 播放速度。
+
+- name: skip_forward
+  type: number
+  options: ['5', '10', '30']
+  description:
+    default: the time to skip forward, in seconds.
+    zh-hans: 快进的时间间隔，单位秒。
+    zh-hant: 快進的時間間隔，單位秒。
+
+- name: skip_backward
+  type: number
+  options: ['5', '10', '30']
+  description:
+    default: the time to skip backward, in seconds.
+    zh-hans: 后退的时间间隔，单位秒。
+    zh-hant: 後退的時間間隔，單位秒。

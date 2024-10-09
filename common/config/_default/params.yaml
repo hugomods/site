@@ -19,6 +19,7 @@ hb:
     socials:
       githubsponsors: https://github.com/sponsors/razonyang
       paypal: razonyang
+      afdian: razonyang
   styles:
     primary: '#ff4088'
   announcement_bar:
@@ -41,6 +42,7 @@ hb:
       mastodon: https://techhub.social/@hugomods
       paypal: razonyang
       rss: true
+      afdian: razonyang
     theme_toggle:
       style: dropdown
   footer:
@@ -52,6 +54,7 @@ hb:
       mastodon: https://techhub.social/@hugomods
       paypal: razonyang
       rss: true
+      afdian: razonyang
   blog:
     sidebar:
       taxonomies:
@@ -80,6 +83,10 @@ hugopress:
     hb-custom:
       hooks:
         hb-docs-doc-content-begin:
+          cacheable: true
+        hb-docs-nav-afterbegin:
+          cacheable: true
+        hb-docs-nav-beforeend:
           cacheable: true
 
 decap_cms:

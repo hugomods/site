@@ -1,0 +1,5 @@
+{{< hugo/preview >}}
+{{</* video-js
+  src="https://commondata.razonyang.com/videos/raining-on-the-road-strewn-with-leaves.mp4"
+  cover="https://commondata.razonyang.com/videos/raining-on-the-road-strewn-with-leaves.png" */>}}
+{{< /hugo/preview >}}
