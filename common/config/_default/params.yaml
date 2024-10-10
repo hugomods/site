@@ -84,9 +84,17 @@ hugopress:
       hooks:
         hb-docs-doc-content-begin:
           cacheable: true
+        hb-docs-doc-content-end:
+          cacheable: true
         hb-docs-nav-afterbegin:
           cacheable: true
         hb-docs-nav-beforeend:
+          cacheable: true
+        hb-blog-post-content-begin:
+          cacheable: true
+        hb-blog-post-content-end:
+          cacheable: true
+        hb-blog-sidebar:
           cacheable: true
 
 decap_cms:
