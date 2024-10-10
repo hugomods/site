@@ -16,6 +16,8 @@ menu:
         vendor: bs
         name: play-circle
         color: green
+aliases:
+  - /docs/media/video-js
 ---
 
 {{< bs/container breakpoint=fluid class="mb-5 px-4 py-3 py-lg-5 text-white" bgColor="#101B37" >}}
