@@ -47,7 +47,7 @@ require (
 	github.com/hugomods/microsoft-clarity v0.1.0 // indirect
 	github.com/hugomods/pwa v0.9.0 // indirect
 	github.com/hugomods/search v0.17.2 // indirect
-	github.com/hugomods/shortcodes v0.22.1 // indirect
+	github.com/hugomods/shortcodes v0.23.0 // indirect
 	github.com/razonyang/hb-mod-thanks v0.7.0 // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )
