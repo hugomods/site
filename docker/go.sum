@@ -235,6 +235,7 @@ github.com/hbstack/header v0.15.1/go.mod h1:ruhJLStQ+YHY31W/PpcBSuvKJbWENbbB9RmN
 github.com/hbstack/header v0.16.0 h1:FOHlSiPoDHRM1P60KjogHw3k7LbDApgHHE/rJzHU08c=
 github.com/hbstack/header v0.16.0/go.mod h1:ruhJLStQ+YHY31W/PpcBSuvKJbWENbbB9RmNkuKnPpk=
 github.com/hbstack/header v0.16.1/go.mod h1:ruhJLStQ+YHY31W/PpcBSuvKJbWENbbB9RmNkuKnPpk=
+github.com/hbstack/header v0.16.2/go.mod h1:ruhJLStQ+YHY31W/PpcBSuvKJbWENbbB9RmNkuKnPpk=
 github.com/hbstack/header/modules/apps v0.1.2 h1:WO7NULligi68oZ68U9ZjNCtbYGqrpiM9+Row/y2qUAM=
 github.com/hbstack/header/modules/apps v0.1.2/go.mod h1:eVChT3IKy6cbmJOlQ2/G+IjpLptG9rmACaOEHFwQh+Q=
 github.com/hbstack/header/modules/apps v0.2.0 h1:AzL8WQ7B6Nq5TjOQvkN7QV9quf7SFxy8kNwYiBjaAD4=
