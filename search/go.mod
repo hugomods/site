@@ -113,7 +113,7 @@ require (
 	github.com/hugomods/lucide-icons v0.331.0 // indirect
 	github.com/hugomods/masonry-js v0.1.0 // indirect
 	github.com/hugomods/mermaid v0.1.4 // indirect
-	github.com/hugomods/microsoft-clarity v0.2.0 // indirect
+	github.com/hugomods/microsoft-clarity v0.3.0 // indirect
 	github.com/hugomods/pwa v0.9.0 // indirect
 	github.com/hugomods/search v0.17.2 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.1 // indirect
