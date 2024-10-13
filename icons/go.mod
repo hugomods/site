@@ -128,7 +128,7 @@ require (
 	github.com/hugomods/seo/modules/translations v0.1.1 // indirect
 	github.com/hugomods/seo/modules/twitter-cards v0.1.1 // indirect
 	github.com/hugomods/shortcodes v0.23.0 // indirect
-	github.com/hugomods/simple-icons v13.13.0+incompatible // indirect
+	github.com/hugomods/simple-icons v13.14.0+incompatible // indirect
 	github.com/hugomods/site/common v0.0.0-00010101000000-000000000000 // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
 	github.com/hugomods/video-js v0.3.0 // indirect
