@@ -163,6 +163,7 @@ github.com/hbstack/echarts v0.1.0 h1:LU9CthLB8xkyeE7arvNbqwechfRYdS2bzPfLPXOMaeU
 github.com/hbstack/echarts v0.1.0/go.mod h1:abgB2/iOuw6BTq3ZZ7HgrLk+EaHipODoHEWZGrU19lA=
 github.com/hbstack/featured-image v0.2.1 h1:sRIzjV6YPVG7Ah0Hxjiuxd9bQnEV+62McOgXZjGNV7g=
 github.com/hbstack/featured-image v0.2.1/go.mod h1:hux3nYqQUVnQHPttJxVrvwfTsULGuVGRGFk3lO2Si54=
+github.com/hbstack/featured-image v0.2.2/go.mod h1:ZStnhdgLr/uq5yuRM0PpVJ7WTwSjrbnRDK0C/XdyS3E=
 github.com/hbstack/footer v0.4.0 h1:FE9uYZLOy8VftzaH/6kytngZzcHV7XeGWYBPipy31VI=
 github.com/hbstack/footer v0.4.0/go.mod h1:5eB1ETT2WO5pNHObzRpFdwzrcQnHDGoBUOi+gtX/fa4=
 github.com/hbstack/footer v0.4.1/go.mod h1:EvignAN0ShrWDbPAlf9+lrRfJSha9G4wYPDUed4wPzg=

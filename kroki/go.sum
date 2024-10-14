@@ -89,6 +89,7 @@ github.com/hbstack/echarts v0.1.0 h1:LU9CthLB8xkyeE7arvNbqwechfRYdS2bzPfLPXOMaeU
 github.com/hbstack/echarts v0.1.0/go.mod h1:abgB2/iOuw6BTq3ZZ7HgrLk+EaHipODoHEWZGrU19lA=
 github.com/hbstack/featured-image v0.2.1 h1:sRIzjV6YPVG7Ah0Hxjiuxd9bQnEV+62McOgXZjGNV7g=
 github.com/hbstack/featured-image v0.2.1/go.mod h1:hux3nYqQUVnQHPttJxVrvwfTsULGuVGRGFk3lO2Si54=
+github.com/hbstack/featured-image v0.2.2/go.mod h1:ZStnhdgLr/uq5yuRM0PpVJ7WTwSjrbnRDK0C/XdyS3E=
 github.com/hbstack/footer v0.4.1 h1:dGEIcqCM6K/s9bygnFQlPcVMJn+BblAjaESied8H7ug=
 github.com/hbstack/footer v0.4.1/go.mod h1:EvignAN0ShrWDbPAlf9+lrRfJSha9G4wYPDUed4wPzg=
 github.com/hbstack/footer/modules/observer v0.1.1 h1:CJ/AY5oSTKTvMjsUwh8VsZgwAI8TwlnXA9Auzy91NXY=
