@@ -46,7 +46,7 @@ require (
 	github.com/hbstack/docs/modules/sticky-till-the-end v0.1.0 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.8 // indirect
 	github.com/hbstack/echarts v0.1.0 // indirect
-	github.com/hbstack/featured-image v0.2.1 // indirect
+	github.com/hbstack/featured-image v0.2.2 // indirect
 	github.com/hbstack/footer v0.4.1 // indirect
 	github.com/hbstack/footer/modules/observer v0.1.1 // indirect
 	github.com/hbstack/footer/modules/socials v0.3.0 // indirect
