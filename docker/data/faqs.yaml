@@ -13,7 +13,7 @@
 
 - title: How long does it take to build the latest Hugo images?
   content: |
-    It depends, it generally takes **one or two hours** to build after the latest Hugo version was released.
+    It usually takes **a few hours** to build after the latest Hugo version was released.
 
 - title: What is the base image?
   content: |
