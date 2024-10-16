@@ -23,6 +23,23 @@ All images are [Alpine](https://hub.docker.com/_/alpine) based.
 
 The default working directory is `/src`.
 
+## User
+
+### Default User
+
+| Images                 | Default user |
+| ---------------------- | :----------: |
+| **Without** `non-root` | `root`       |
+| **With** `non-root`    | `hugo`       |
+
+### The `hugo` User
+
+Regardless of whether the default user for the image is root or not, all images have a user named `hugo`, whose owns the `/src`.
+
+| Name   |  UID   | Group Name |  GID   |
+| :----: | :----: | :--------: | :----: |
+| `hugo` | `1000` |   `hugo`   | `1000` |
+
 ## Default Command
 
 The default command of images is `hugo env`, which prints Hugo version and then exits.
