@@ -61,31 +61,55 @@
                   <small class="badge rounded-0 bg-secondary p-1">Non-root</small>
                 {{ end }}
                 {{ with .dartSass }}
-                  <small class="badge rounded-0 bg-secondary p-1">Dart Sass</small>
+                  <small class="badge rounded-0 bg-secondary p-1">
+                    {{ partial "icons/icon" (dict "vendor" "simple" "name" "sass") }}
+                    Dart Sass
+                  </small>
                 {{ end }}
                 {{ with .git }}
-                  <small class="badge rounded-0 bg-secondary p-1">Git</small>
+                  <small class="badge rounded-0 bg-secondary p-1">
+                    {{ partial "icons/icon" (dict "vendor" "simple" "name" "git") }}
+                    Git
+                  </small>
                 {{ end }}
                 {{ with .go }}
-                  <small class="badge rounded-0 bg-secondary p-1">Go</small>
+                  <small class="badge rounded-0 bg-secondary p-1">
+                    {{ partial "icons/icon" (dict "vendor" "simple" "name" "go") }}
+                    Go
+                  </small>
                 {{ end }}
                 {{ with .nodejs }}
-                  <small class="badge rounded-0 bg-secondary p-1">Node.js</small>
+                  <small class="badge rounded-0 bg-secondary p-1">
+                    {{ partial "icons/icon" (dict "vendor" "simple" "name" "nodedotjs") }}
+                    Node.js
+                  </small>
                 {{ end }}
                 {{ with .autoprefixer }}
-                  <small class="badge rounded-0 bg-secondary p-1">Autoprefixer</small>
+                  <small class="badge rounded-0 bg-secondary p-1">
+                    {{ partial "icons/icon" (dict "vendor" "simple" "name" "autoprefixer") }}
+                    Autoprefixer
+                  </small>
                 {{ end }}
                 {{ with .postcss }}
-                  <small class="badge rounded-0 bg-secondary p-1">PostCSS</small>
+                  <small class="badge rounded-0 bg-secondary p-1">
+                    {{ partial "icons/icon" (dict "vendor" "simple" "name" "postcss") }}
+                    PostCSS
+                  </small>
                 {{ end }}
                 {{ with .purgecss }}
-                  <small class="badge rounded-0 bg-secondary p-1">PurgeCSS</small>
+                  <small class="badge rounded-0 bg-secondary p-1">
+                    {{ partial "icons/icon" (dict "vendor" "simple" "name" "purgecss") }}
+                    PurgeCSS
+                  </small>
                 {{ end }}
                 {{ with .rtlcss }}
                   <small class="badge rounded-0 bg-secondary p-1">RTLCSS</small>
                 {{ end }}
                 {{ with .asciiDoc }}
-                  <small class="badge rounded-0 bg-secondary p-1">AsciiDoc</small>
+                  <small class="badge rounded-0 bg-secondary p-1">
+                    {{ partial "icons/icon" (dict "vendor" "simple" "name" "asciidoctor") }}
+                    AsciiDoc
+                  </small>
                 {{ end }}
                 {{ with .pandoc }}
                   <small class="badge rounded-0 bg-secondary p-1">Pandoc</small>
