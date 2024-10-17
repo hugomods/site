@@ -53,4 +53,7 @@ Hugo Docker 鏡像標籤選擇順序如下：
 
 ## 鏡像標籤
 
+> [!TIP]
+> 你可以通過功能特性來[篩選鏡像]({{< relref "/choose" >}})。
+
 {{% docker-image-tags %}}

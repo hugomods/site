@@ -39,9 +39,6 @@ tags:
 
 ## 应该使用哪个镜像标签？
 
-> [!TIP]
-> 你可以通过功能特性来[筛选镜像]({{< relref "/choose" >}})。
-
 Hugo Docker 镜像标签选择顺序如下：
 
 1. 需要 **Dart Sass**，则选择带有 **Dart Sass** 标签。
@@ -55,5 +52,8 @@ Hugo Docker 镜像标签选择顺序如下：
 {{% /bs/alert %}}
 
 ## 镜像标签
+
+> [!TIP]
+> 你可以通过功能特性来[筛选镜像]({{< relref "/choose" >}})。
 
 {{% docker-image-tags %}}
