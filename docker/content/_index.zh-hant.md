@@ -62,5 +62,5 @@ json_ld:
 ## {{< icons/icon vendor=bs name=question-circle className=text-info size=.8em >}} 常見問題 {#faqs .text-center .py-2 .py-lg-4 .mb-5}
 
 {{< bs/container >}}
-{{< bs/accordion faqs-zh-hant >}}
+{{< bs/accordion data=faqs-zh-hant alwaysOpen=true >}}
 {{< /bs/container >}}

@@ -1,21 +1,36 @@
 - title: Is it an official image?
+  show: true
   content: |
     No, it's not.
 
+- title: Why do root and non-root images coexist?
+  show: true
+  content: |
+    - Backward compatibility.
+    - Some CI/CD environments require root user images.
+
 - title: Why create yet another Hugo Docker images?
+  show: true
   content: |
     I used `klakegg/hugo` in the past for a long time, and feel satisfied with it, however its been a long time since its been updated,
     so I created a new one with automated workflow to meet my needs.
 
 - title: What architectures are supported?
+  show: true
   content: |
     The `linux/amd64` and `linux/arm64` architectures are currently supported.
 
 - title: How long does it take to build the latest Hugo images?
+  show: true
   content: |
     It usually takes **a few hours** to build after the latest Hugo version was released.
 
 - title: What is the base image?
+  show: true
   content: |
     All images are built on top of [Alpine](https://hub.docker.com/_/alpine) and it's variants.
 
+- title: What is the default shell?
+  show: true
+  content: |
+    The default shell is `ash` (`/bin/sh`).
