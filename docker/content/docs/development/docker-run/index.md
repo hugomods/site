@@ -14,7 +14,7 @@ tags:
   - Docker Run
 ---
 
-Firstly, you'll need to choose the proper [image tag]({{< relref "docs/tags" >}}) for your themes and sites, in this section, we take `hugomods/hugo:exts` as the example.
+Firstly, you'll need to choose the proper [image tag]({{< relref "docs/tags" >}}) for your themes and sites, in this section, we take `hugomods/hugo:exts-non-root` as the example.
 
 ## Change Current Working Directory
 
@@ -22,30 +22,34 @@ Change current working directory to your project root.
 
 {{< page-resource-content "codes/cd" >}}
 
-{{% bs/alert warning %}}
+{{% bs/alert danger %}}
 The rest of steps are performed under your project root.
 {{% /bs/alert %}}
 
-## Install Dependencies (Optional)
+## Launch Interactive Shell
 
-{{% bs/alert info %}}
-Skip this step if your site/theme doesn’t require it.
-{{% /bs/alert %}}
+With the interactive shell, you're able to:
 
-You may want to install the dependencies before running Hugo server, such as install dependencies via npm.
+1. Install dependencies via NPM/Yarn.
+1. Create content.
+1. Update and tidy Hugo modules.
 
-{{< page-resource-content "codes/npm" >}}
+{{< page-resource-content "codes/shell" >}}
 
 1. `-v ${PWD}:/src` mounts current working directory on the [default working directory]({{< relref "docs/introduction#default-working-directory" >}})(`/src`) inside the Docker container.
 1. `$HOME/hugo_cache:/tmp/hugo_cache` mounts `$HOME/hugo_cache` on the default `cacheDir` (`/tmp/hugo_cache`) to improve build performance.
-1. `npm i` replaces the [default command]({{< relref "docs/introduction#default-command" >}})(`hugo version`), which is the shorthand of `npm install`.
 
 ## Start Hugo Server
+
+> [!WARNING]
+> You might need to create the `${HOME}/hugo_cache` folder first via `mkdir ${HOME}/hugo_cache` when running on *nix OS.
+>
+> Otherwise permission issues may arise.
 
 {{< page-resource-content "codes/hugo-server" >}}
 
 {{% bs/alert danger %}}
-Please note that `--bind 0.0.0.0` is required, otherwise Hugo server may not receive any incoming requests from host.
+Please note that `--bind 0.0.0.0` is required when using `hugo server`, otherwise Hugo server may not receive any incoming requests from host.
 {{% /bs/alert %}}
 
 {{% bs/alert info %}}
@@ -57,3 +61,13 @@ Since `0.128.0`, `server` is available as an alias of `hugo server`, which will 
 Using another port than `1313`, such as `8080`.
 
 {{< page-resource-content "codes/hugo-server-other-port" >}}
+
+## Stop Hugo Server
+
+{{< page-resource-content "codes/stop-hugo-server" >}}
+
+## Attach Hugo Server
+
+Attach to a running Hugo server.
+
+{{< page-resource-content "codes/attach-hugo-server" >}}

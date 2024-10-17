@@ -1,14 +1,14 @@
 {{% bs/collapse heading="docker-compose.yml" expand=true %}}
 ```yml
-name: my-site
+name: mysite
 
 services:
   server:
-    image: hugomods/hugo:exts
-    command: hugo server --bind 0.0.0.0
+    image: hugomods/hugo:exts-non-root
+    command: server -D
     volumes:
-      - $PWD:/src
-      - $HOME/hugo_cache:/tmp/hugo_cache
+      - ./:/src
+      - ~/hugo_cache:/tmp/hugo_cache
     ports:
       - 1313:1313
 ```

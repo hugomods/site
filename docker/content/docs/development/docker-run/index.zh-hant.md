@@ -14,7 +14,7 @@ tags:
   - Docker Run
 ---
 
-你首先需要為你的主題和站點選擇適當的[鏡像標籤]({{< relref "docs/tags" >}})，本文以 `hugomods/hugo:exts` 為例。
+你首先需要為你的主題和站點選擇適當的[鏡像標籤]({{< relref "docs/tags" >}})，本文以 `hugomods/hugo:exts-non-root` 為例。
 
 ## 更改當前工作目錄
 
@@ -22,30 +22,32 @@ tags:
 
 {{< page-resource-content "codes/cd" >}}
 
-{{% bs/alert warning %}}
+{{% bs/alert danger %}}
 後續步驟均於你的項目根目錄下執行。
 {{% /bs/alert %}}
 
-## 安裝依賴（可選）
+## 啟動交互式 Shel（可選）
 
-{{% bs/alert info %}}
-若你的站點和主題並不需要安裝依賴，則跳過。
-{{% /bs/alert %}}
+通過交互式 Shell，你可以：
 
-你或許需要在啟動 Hugo 服務器前安裝依賴，比如通過 NPM 安裝依賴。
+1. 通過 NPM/Yarn 安裝依賴。
+1. 創建內容。
+1. 更新和整理 Hugo 模塊。
 
-{{< page-resource-content "codes/npm" >}}
+{{< page-resource-content "codes/shell" >}}
 
 1. `-v ${PWD}:/src` 將當前目錄掛載到容器的[默認工作目錄]({{< relref "docs/introduction#默認工作目錄" >}})（`/src`）。
 2. `$HOME/hugo_cache:/tmp/hugo_cache` 將 `$HOME/hugo_cache` 掛載到默認的 `cacheDir`（`/tmp/hugo_cache`）以提高構建性能。
-1. `npm i` 是 `npm install` 的快捷方式，其替換了容器的[默認命令]({{< relref "docs/introduction#默認命令" >}})（`hugo version`）。
 
 ## 啟動 Hugo 服務器
+
+> [!WARNING]
+> 當於 *nix 系統執行時，你或許需要先建立 `${HOME}/hugo_cache` 目錄，否則可能遇到許可權問題。
 
 {{< page-resource-content "codes/hugo-server" >}}
 
 {{% bs/alert danger %}}
-請注意 `--bind 0.0.0.0` 是必須的，否則 Hugo 服務器可能無法接收任何來自宿主機的請求。
+請注意當使用 `hugo server` 時 `--bind 0.0.0.0` 是必須的，否則 Hugo 服務器可能無法接收任何來自宿主機的請求。
 {{% /bs/alert %}}
 
 {{% bs/alert info %}}
@@ -57,3 +59,13 @@ tags:
 使用 `1313` 以外的端口，如 `8080`：
 
 {{< page-resource-content "codes/hugo-server-other-port" >}}
+
+## 停止 Hugo 服務器
+
+{{< page-resource-content "codes/stop-hugo-server" >}}
+
+## 連接 Hugo 服務器
+
+連接到一個運行中的 Hugo 服務器。
+
+{{< page-resource-content "codes/attach-hugo-server" >}}

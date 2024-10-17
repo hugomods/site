@@ -14,7 +14,7 @@ tags:
   - Docker Run
 ---
 
-你首先需要为你的主题和站点选择适当的[镜像标签]({{< relref "docs/tags" >}})，本文以 `hugomods/hugo:exts` 为例。
+你首先需要为你的主题和站点选择适当的[镜像标签]({{< relref "docs/tags" >}})，本文以 `hugomods/hugo:exts-non-root` 为例。
 
 ## 更改当前工作目录
 
@@ -22,29 +22,32 @@ tags:
 
 {{< page-resource-content "codes/cd" >}}
 
-{{% bs/alert warning %}}
+{{% bs/alert danger %}}
 后续步骤均于你的项目根目录下执行。
 {{% /bs/alert %}}
 
-## 安装依赖（可选）
+## 启动交互式 Shell（可选）
 
-{{% bs/alert info %}}
-若你的站点和主题并不需要安装依赖，则跳过。
-{{% /bs/alert %}}
+通过交互式 Shell，你可以：
 
-你或许需要在启动 Hugo 服务器前安装依赖，比如通过 NPM 安装依赖。
+1. 通过 NPM/Yarn 安装依赖。
+1. 创建内容。
+1. 更新和整理 Hugo 模块。
 
-{{< page-resource-content "codes/npm" >}}
+{{< page-resource-content "codes/shell" >}}
 
 1. `-v ${PWD}:/src` 将当前目录挂载到容器的[默认工作目录]({{< relref "docs/introduction#默认工作目录" >}})（`/src`）。
-1. `npm i` 是 `npm install` 的快捷方式，其替换了容器的[默认命令]({{< relref "docs/introduction#默认命令" >}})（`hugo version`）。
+2. `$HOME/hugo_cache:/tmp/hugo_cache` 將 `$HOME/hugo_cache` 掛載到默認的 `cacheDir`（`/tmp/hugo_cache`）以提高構建性能。
 
 ## 启动 Hugo 服务器
+
+> [!WARNING]
+> 当于 *nix 系统运行时，你或许需要先创建 `${HOME}/hugo_cache` 目录，否则可能遇到权限问题。
 
 {{< page-resource-content "codes/hugo-server" >}}
 
 {{% bs/alert danger %}}
-请注意 `--bind 0.0.0.0` 是必须的，否则 Hugo 服务器可能无法接收任何来自宿主机的请求。
+请注意当使用 `hugo server` 时 `--bind 0.0.0.0` 是必须的，否则 Hugo 服务器可能无法接收任何来自宿主机的请求。
 {{% /bs/alert %}}
 
 {{% bs/alert info %}}
@@ -56,3 +59,13 @@ tags:
 使用 `1313` 以外的端口，如 `8080`：
 
 {{< page-resource-content "codes/hugo-server-other-port" >}}
+
+## 停止 Hugo 服务器
+
+{{< page-resource-content "codes/stop-hugo-server" >}}
+
+## 连接 Hugo 服务器
+
+连接到一个运行中的 Hugo 服务器。
+
+{{< page-resource-content "codes/attach-hugo-server" >}}

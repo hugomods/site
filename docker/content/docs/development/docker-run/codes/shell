@@ -2,21 +2,21 @@
 
 {{% bs/toggle-item "Unix-like" %}}
 ```sh
-docker run \
+docker run -it \
   -v ${PWD}:/src \
   -v ${HOME}/hugo_cache:/tmp/hugo_cache \
-  hugomods/hugo:exts \
-  npm i
+  hugomods/hugo:exts-non-root \
+  /bin/sh
 ```
 {{% /bs/toggle-item %}}
 
 {{% bs/toggle-item "Windows PowerShell" %}}
 ```sh
-docker run `
+docker run -it `
   -v ${PWD}:/src `
   -v ${HOME}/hugo_cache:/tmp/hugo_cache `
-  hugomods/hugo:exts `
-  npm i
+  hugomods/hugo:exts-non-root `
+  /bin/sh
 ```
 {{% /bs/toggle-item %}}
 

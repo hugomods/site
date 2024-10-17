@@ -14,7 +14,7 @@ tags:
   - Docker Compose
 ---
 
-你首先需要為你的主題和站點選擇適當的[鏡像標籤]({{< relref "docs/tags" >}})，本文以 `hugomods/hugo:exts` 為例。
+你首先需要為你的主題和站點選擇適當的[鏡像標籤]({{< relref "docs/tags" >}})，本文以 `hugomods/hugo:exts-non-root` 為例。
 
 ## 創建 Docker Compose 文件
 
@@ -23,15 +23,15 @@ tags:
 {{< page-resource-content "codes/docker-compose" >}}
 
 {{% bs/alert danger %}}
-請注意 `--bind 0.0.0.0` 是必須的，否則 Hugo 服務器可能無法接收任何來自宿主機的請求。
+請注意當使用 `hugo server` 時  `--bind 0.0.0.0` 是必須的，否則 Hugo 服務器可能無法接收任何來自宿主機的請求。
 {{% /bs/alert %}}
 
 {{% bs/alert info %}}
 自 `0.128.0`，`server` 可作為 `hugo server` 的別名使用，其默認綁定 `0.0.0.0`。
 {{% /bs/alert %}}
 
-1. `-v ${PWD}:/src` 將當前目錄掛載到容器的[默認工作目錄]({{< relref "docs/introduction#默認工作目錄" >}})（`/src`）。
-2. `$HOME/hugo_cache:/tmp/hugo_cache` 將 `$HOME/hugo_cache` 掛載到默認的 `cacheDir`（`/tmp/hugo_cache`）以提高構建性能。
+1. `-v ./:/src` 將當前目錄掛載到容器的[默認工作目錄]({{< relref "docs/introduction#默認工作目錄" >}})（`/src`）。
+2. `-v ~/hugo_cache:/tmp/hugo_cache` 將 `$HOME/hugo_cache` 掛載到默認的 `cacheDir`（`/tmp/hugo_cache`）以提高構建性能。
 
 ## 安裝依賴（可選）
 
@@ -48,3 +48,7 @@ tags:
 ## 啟動 Hugo 服務器
 
 {{< page-resource-content "codes/hugo-server" >}}
+
+## 啟動交互式 Shell
+
+{{< page-resource-content "codes/shell" >}}
