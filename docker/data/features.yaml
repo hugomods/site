@@ -37,9 +37,18 @@
 
 - title: No Rate Limiting
   description: |
-    This project has been approved for the Docker-Sponsored Open Source program, meaning there will be no rate limiting when pulling the image from Docker Hub,
+    This project has been approved for the Docker-Sponsored Open Source program, meaning there will be **no rate limiting** when pulling the image from Docker Hub,
     which is highly beneficial to the CI/CD environment.
   icon:
-    vendor: fab
-    name: docker
+    vendor: bs
+    name: cloud-download
     color: '#1c7ced'
+
+- title: Root and Non-root
+  description: |
+    According to the type of user, each image has two different tags.
+    If the tag name contains `non-root`, the default user is `hugo`, otherwise `root`.
+  icon:
+    vendor: bs
+    name: person-circle
+    className: text-success

@@ -36,8 +36,17 @@
     name: linux
 
 - title: 無速率限制
-  description: 該項目已獲得 Docker 贊助的開源項目的批准，這意味著從 Docker Hub 提取鏡像時不會有速率限制，這對 CI/CD 環境非常有利。
+  description: 該項目已獲得 Docker 贊助的開源項目的批准，這意味著從 Docker Hub 提取鏡像時**不會有速率限制**，這對 CI/CD 環境非常有利。
   icon:
-    vendor: fab
-    name: docker
+    vendor: bs
+    name: cloud-download
     color: '#1c7ced'
+
+- title: 根用戶和非根用戶
+  description: |
+    根據用戶類型，每種鏡像都有兩種不同的標籤。
+    若標籤帶有 `non-root` 則默認用戶為 `hugo`，否則為 `root`。
+  icon:
+    vendor: bs
+    name: person-circle
+    className: text-success
