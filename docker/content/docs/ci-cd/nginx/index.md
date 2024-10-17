@@ -12,6 +12,8 @@ categories:
 tags:
   - Deployment
   - Nginx
+aliases:
+  - /docs/deployment/nginx
 ---
 
 ## Nginx Image

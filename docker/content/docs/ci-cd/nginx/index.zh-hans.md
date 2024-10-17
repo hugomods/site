@@ -12,6 +12,8 @@ categories:
 tags:
   - 部署
   - Nginx
+aliases:
+  - /docs/deployment/nginx
 ---
 
 ## Nginx 镜像

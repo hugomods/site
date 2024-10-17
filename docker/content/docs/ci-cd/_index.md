@@ -1,7 +1,7 @@
 ---
-title: 部署
-linkTitle: 部署
-description: 学习如何通过 Hugo Docker 镜像进行站点部署。
+title: CI/CD
+linkTitle: CI/CD
+description: Learn how to deploy static sites with Hugo Docker images.
 nav_weight: 4
 nav_icon:
   vendor: bs
@@ -13,4 +13,6 @@ nav_menus:
     icon:
       vendor: simple
       name: digitalocean
+aliases:
+  - /docs/deployment
 ---
