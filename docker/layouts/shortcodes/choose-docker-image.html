@@ -1,0 +1,135 @@
+{{- $features := slice
+  (dict "label" "WebP" "dep" "extended")
+  (dict "label" "LibSass" "dep" "extended")
+  (dict "label" "Dart Sass" "dep" "dart-sass")
+  (dict "label" "Non-root" "dep" "non-root")
+  (dict "label" "Go" "dep" "go")
+  (dict "label" "Git" "dep" "git")
+  (dict "label" "Node.js" "dep" "node")
+  (dict "label" "NPM" "dep" "node")
+  (dict "label" "Yarn" "dep" "node")
+  (dict "label" "AsciiDoc" "dep" "asciidoc")
+  (dict "label" "Pandoc" "dep" "pandoc")
+  (dict "label" "PostCSS CLI" "dep" "postcss")
+  (dict "label" "Autoprefixer" "dep" "autoprefixer")
+  (dict "label" "PurgeCSS" "dep" "purgecss")
+  (dict "label" "RTLCSS" "dep" "rtlcss")
+  (dict "label" "HTML Proofer" "dep" "html-proofer")
+}}
+<div class="container-fluid mt-3 mt-md-5">
+  <div class="d-flex">
+    <div class="flex-shrink-0 me-3 me-lg-5">
+      <form class="form" id="choose-form">
+        {{- range $features }}
+          {{- $id := anchorize .label }}
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="{{ $id }}" data-dep="{{ .dep }}">
+            <label class="form-check-label" for="{{ $id }}">
+              {{ .label }}
+            </label>
+          </div>
+        {{- end }}
+      </form>
+    </div>
+    <div class="flex-grow-1">
+      {{- $tags := sort (index site.Data "docker-image-tags") "name" }}
+      <div class="search-stats mb-2">Found <span id="image-count" class="text-primary">{{ len $tags }}</span> images.</div>
+      <table class="table table-bordered table-hover">
+        {{- range $tags }}
+          <tr>
+            <td
+              class="docker-image d-flex justify-content-between"
+              data-asciidoc="{{ cond .asciiDoc 1 0 }}"
+              data-autoprefixer="{{ cond .autoprefixer 1 0 }}"
+              data-dart-sass="{{ cond .dartSass 1 0 }}"
+              data-extended="{{ cond .extended 1 0 }}"
+              data-html-proofer="{{ cond .htmlProofer 1 0 }}"
+              data-git="{{ cond .git 1 0 }}"
+              data-go="{{ cond .go 1 0 }}"
+              data-node="{{ cond .nodejs 1 0 }}"
+              data-non-root="{{ cond .nonRoot 1 0 }}"
+              data-pandoc="{{ cond .pandoc 1 0 }}"
+              data-postcss="{{ cond .postcss 1 0 }}"
+              data-purgecss="{{ cond .purgecss 1 0 }}"
+              data-rtlcss="{{ cond .rtlcss 1 0 }}">
+              <code class="me-1 user-select-all">{{ .name }}</code>
+              <div class="ms-auto me-1 d-none d-md-block">
+                {{ with .extended }}
+                  <small class="badge rounded-0 bg-secondary p-1">Extended</small>
+                {{ end }}
+                {{ with .nonRoot }}
+                  <small class="badge rounded-0 bg-secondary p-1">Non-root</small>
+                {{ end }}
+                {{ with .dartSass }}
+                  <small class="badge rounded-0 bg-secondary p-1">Dart Sass</small>
+                {{ end }}
+                {{ with .git }}
+                  <small class="badge rounded-0 bg-secondary p-1">Git</small>
+                {{ end }}
+                {{ with .go }}
+                  <small class="badge rounded-0 bg-secondary p-1">Go</small>
+                {{ end }}
+                {{ with .nodejs }}
+                  <small class="badge rounded-0 bg-secondary p-1">Node.js</small>
+                {{ end }}
+                {{ with .autoprefixer }}
+                  <small class="badge rounded-0 bg-secondary p-1">Autoprefixer</small>
+                {{ end }}
+                {{ with .postcss }}
+                  <small class="badge rounded-0 bg-secondary p-1">PostCSS</small>
+                {{ end }}
+                {{ with .purgecss }}
+                  <small class="badge rounded-0 bg-secondary p-1">PurgeCSS</small>
+                {{ end }}
+                {{ with .rtlcss }}
+                  <small class="badge rounded-0 bg-secondary p-1">RTLCSS</small>
+                {{ end }}
+                {{ with .asciiDoc }}
+                  <small class="badge rounded-0 bg-secondary p-1">AsciiDoc</small>
+                {{ end }}
+                {{ with .pandoc }}
+                  <small class="badge rounded-0 bg-secondary p-1">Pandoc</small>
+                {{ end }}
+                {{ with .htmlProofer }}
+                  <small class="badge rounded-0 bg-secondary p-1">HTML Proofer</small>
+                {{ end }}
+                <img alt="size" class="w-auto" height="20" src="https://img.shields.io/docker/image-size/hugomods/hugo/{{ .name }}?style=flat-square&color=1183c4&label=size">
+              </div>
+            </td>
+          </tr>
+        {{- end }}
+      </table>
+    </div>
+  </div>
+</div>
+
+<script>
+  const form = document.getElementById('choose-form')
+
+  const checkboxes = form.querySelectorAll('input[type="checkbox"]')
+  checkboxes.forEach((check) => {
+    check.addEventListener('change', () => {
+      console.log(check.checked)
+      search()
+    })
+  })
+
+  const search = () => {
+    document.querySelectorAll('.docker-image').forEach((image) => {
+      image.classList.add('d-none')
+    })
+    const deps = {}
+    form.querySelectorAll('input[type="checkbox"]:checked').forEach((checked) => {
+      deps[checked.getAttribute('data-dep')] = "1"
+    })
+    let selector = '.docker-image'
+    for (const name in deps) {
+      selector += `[data-${name}="1"]`
+    }
+    const images = document.querySelectorAll(selector)
+    document.getElementById('image-count').textContent = images.length
+    images.forEach((image) => {
+      image.classList.remove('d-none')
+    })
+  }
+</script>
