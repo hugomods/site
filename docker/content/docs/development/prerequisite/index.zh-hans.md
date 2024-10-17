@@ -23,15 +23,8 @@ series:
 
 {{< page-resource-content "data/create-site" >}}
 
-### 更改所有权
-
-{{% bs/alert %}}
-若使用 Windows 系统则跳过该步骤。
-{{% /bs/alert %}}
-
-当站点创建完毕，可能会出现权限问题，我们可以通过将站点所有权分配给当前用户来解决这个问题。
-
-{{< page-resource-content "data/chown" >}}
+> [!NOTE]
+> `${PWD}` 表示当前工作目录。
 
 ### 启动 Hugo 服务器
 

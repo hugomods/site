@@ -1,3 +1,15 @@
+{{< bs/toggle >}}
+
+{{% bs/toggle-item "Non-root" %}}
 ```sh
-docker run -v ${PWD}:/src hugomods/hugo:exts hugo new site mysite
+docker run -v ${PWD}:/src hugomods/hugo:exts-non-root hugo new site mysite
 ```
+{{% /bs/toggle-item %}}
+
+{{% bs/toggle-item "Root" %}}
+```sh
+docker run -v ${PWD}:/src -u 1000:1000 hugomods/hugo:exts hugo new site mysite
+```
+{{% /bs/toggle-item %}}
+
+{{< /bs/toggle >}}

@@ -23,15 +23,8 @@ You need to set up a Hugo site for development. If you don't have one yet, you s
 
 {{< page-resource-content "data/create-site" >}}
 
-### Change Ownership
-
-{{% bs/alert %}}
-Skip this step on Windows.
-{{% /bs/alert %}}
-
-Once the site was created, there might be a permission issue, we can solve it by assigning the site ownership to current user.
-
-{{< page-resource-content "data/chown" >}}
+> [!NOTE]
+> The `${PWD}` represents the current working directory.
 
 ### Launch Up Hugo Server
 
