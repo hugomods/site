@@ -1,19 +1,26 @@
 {{- $checked := "☑" }}
+{{- $nodejsHeading := `<abbr title="Node.js that includes NPM and Yarn">Node.js</abbr>` }}
 {{- range index site.Data "docker-image-tags" }}
   {{- printf "### `%s`\n" .name }}
   {{- printf "![Size](https://img.shields.io/docker/image-size/hugomods/hugo/%s?style=flat-square&height=32)\n" .name }}
   {{- printf "```sh\ndocker pull hugomods/hugo:%s\n```\n" .name }}
   {{- printf "For specific version.\n" }}
   {{- printf "```sh\ndocker pull hugomods/hugo:%s\n```\n" (cond (eq .name "latest") "<version>" (printf "%s-<version>" .name)) | safeHTML }}
-  {{- printf "| Extended | Go  | Node.js | NPM | Git | Dart Sass | \n" }}
-  {{- printf "| :------: | :-: | :-----: | :-: | :-: | :-------: |\n" }}
-  {{- printf "| %s | %s | %s | %s | %s | %s |"
+  {{- printf "| Extended | Non-root | Go  | %s | Git | Dart Sass | PostCSS | Autoprefixer | PurgeCSS | RTLCSS | AsciiDoc | Pandoc |\n" $nodejsHeading | safeHTML }}
+  {{- printf "| :------: | :------: | :-: | :-----: | :-: | :-------: | :-----: | :----------: | :------: | :----: | :------: | :----: |\n" }}
+  {{- printf "| %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s |"
     (cond (default false .extended) $checked "-")
+    (cond (default false .nonRoot) $checked "-")
     (cond (default false .go) $checked "-")
     (cond (default false .nodejs) $checked "-")
-    (cond (default false .npm) $checked "-")
     (cond (default false .git) $checked "-")
     (cond (default false .dartSass) $checked "-")
+    (cond (default false .postcss) $checked "-")
+    (cond (default false .autoprefixer) $checked "-")
+    (cond (default false .purgecss) $checked "-")
+    (cond (default false .rtlcss) $checked "-")
+    (cond (default false .asciiDoc) $checked "-")
+    (cond (default false .pandoc) $checked "-")
   }}
   {{- printf "\n" }}
 {{- end }}

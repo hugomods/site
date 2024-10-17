@@ -19,10 +19,11 @@ tags:
 
 ## 說明
 
-- __Extended__ 表示 Hugo 的擴展版本。
-- 以 **std** 開頭的鏡像標籤表示標準版Hugo。
+- __Extended__ 表示 Hugo 的**擴展版本**。
+- 以 **std** 開頭的鏡像標籤表示**標準版** Hugo。
 - 以 **exts** 結尾的鏡像標籤不僅包含了以下列出的工具，還包含了 **Embedded Dart Sass**、**PostCSS CLI**、**Autoprefixer**、**PurgeCSS** 和 **RTLCSS**。
-- 鏡像標籤包含 `node-lts` 則表示 LTS（長期支持）版本的 Node.js.
+- 鏡像標籤包含 `node-lts` 則表示 **LTS**（長期支持）版本的 Node.js。
+- 鏡像標籤包含 `non-root` 則表示默認用戶為非根用戶 [`hugo`]({{< relref "/docs/introduction#hugo-用戶" >}})。
 
 {{% bs/alert warning %}}
 請注意 **PostCSS CLI**、**Autoprefixer**、**PurgeCSS** 和 **RTLCSS** 是全局安裝的。
@@ -43,7 +44,7 @@ Hugo Docker 鏡像標籤選擇順序如下：
 1. 需要 **Dart Sass**，則選擇帶有 **Dart Sass** 標籤。
 1. 需要 **LibSass** 或圖片處理時用到 **WebP** 格式，則選擇帶有 **Extended**（不帶 **std** 前綴）的標籤。
 1. 需要 Hugo 模塊，則選擇帶有 **Go** 的標籤。
-1. 需要 NPM 安裝依賴，則選擇帶有 **NPM** 的標籤。
+1. 需要 NPM/Yarn 安裝依賴，則選擇帶有 **Node.js** 的標籤。
 1. 需要 Hugo 的 `--enableGitInfo` 標誌，則選擇帶有 **Git** 的標籤。
 
 {{% bs/alert info %}}

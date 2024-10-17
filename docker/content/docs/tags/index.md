@@ -19,10 +19,11 @@ tags:
 
 ## Explanations
 
-- **Extended** represents the extended version of Hugo.
-- Image tags start with **std** represent the standard version of Hugo.
+- **Extended** represents the **extended** version of Hugo.
+- Image tags start with **std** represent the **standard** version of Hugo.
 - Image tags end with **exts** include not only the tools listed below, but also **Embedded Dart Sass**, **PostCSS CLI**, **Autoprefixer**, **PurgeCSS**, **RTLCSS**, **AsciiDoc** and **Pandoc**.
-- Image tags contain `node-lts` represent the LTS (long time support) version of Node.js.
+- Image tags contain `node-lts` represent the **LTS** (long time support) version of Node.js.
+- Image tags contain `non-root` indicate the default user is non root [`hugo`]({{< relref "/docs/introduction#the-hugo-user" >}}).
 
 {{% bs/alert warning %}}
 Please note that **PostCSS CLI**, **Autoprefixer**, **PurgeCSS** and **RTLCSS** are installed globally.
@@ -38,12 +39,14 @@ Please note that **PostCSS CLI**, **Autoprefixer**, **PurgeCSS** and **RTLCSS** 
 
 ## Which Image Tags Should I Use?
 
-Hugo Docker image tags selection order as follows.
+> [!TIP]
+> You can [choose an image]({{< relref "/choose" >}}) based on their functional features.
 
+Hugo Docker image tags selection order as follows.
 1. Require Dart Sass, then go for tags with **Dart Sass** enabled.
 1. Require **LibSass** or **WebP** format when processing images, then go for tags with **Extended** enabled (without **std** prefix).
 1. Require Hugo Modules, then go for tags with **Go** enabled.
-1. Require NPM to install dependencies, then go for tags with **NPM** enabled.
+1. Require NPM/Yarn to install dependencies, then go for tags with **Node.js** enabled.
 1. Require Hugo's `--enableGitInfo` flag, then go for tags with **Git** enabled.
 
 {{% bs/alert info %}}

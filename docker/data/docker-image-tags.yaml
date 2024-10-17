@@ -8,6 +8,21 @@
 - name: base
   extended: true
 
+- name: ci
+  extended: true
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+  dartSass: true
+  postcss: true
+  autoprefixer: true
+  rtlcss: true
+  purgecss: true
+  htmlProofer: true
+  asciiDoc: true
+  pandoc: true
+
 - name: dart-sass
   go: true
   nodejs: true
@@ -89,6 +104,8 @@
   autoprefixer: true
   rtlcss: true
   purgecss: true
+  asciiDoc: true
+  pandoc: true
 
 - name: std
   go: true
@@ -97,6 +114,20 @@
   git: true
 
 - name: std-base
+
+- name: std-ci
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+  dartSass: true
+  postcss: true
+  autoprefixer: true
+  rtlcss: true
+  purgecss: true
+  htmlProofer: true
+  asciiDoc: true
+  pandoc: true
 
 - name: std-dart-sass
   go: true
@@ -165,3 +196,240 @@
   autoprefixer: true
   rtlcss: true
   purgecss: true
+  asciiDoc: true
+  pandoc: true
+
+- name: non-root
+  extended: true
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+  nonRoot: true
+
+- name: base-non-root
+  extended: true
+  nonRoot: true
+
+- name: ci-non-root
+  extended: true
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+  dartSass: true
+  postcss: true
+  autoprefixer: true
+  rtlcss: true
+  purgecss: true
+  htmlProofer: true
+  nonRoot: true
+  asciiDoc: true
+  pandoc: true
+
+- name: dart-sass-non-root
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+  dartSass: true
+  extended: true
+  nonRoot: true
+
+- name: dart-sass-base-non-root
+  dartSass: true
+  extended: true
+  nonRoot: true
+
+- name: dart-sass-git-non-root
+  dartSass: true
+  git: true
+  extended: true
+  nonRoot: true
+
+- name: dart-sass-go-non-root
+  dartSass: true
+  go: true
+  extended: true
+  nonRoot: true
+
+- name: dart-sass-go-git-non-root
+  dartSass: true
+  go: true
+  git: true
+  extended: true
+  nonRoot: true
+
+- name: dart-sass-node-non-root
+  dartSass: true
+  nodejs: true
+  npm: true
+  extended: true
+  nonRoot: true
+
+- name: dart-sass-node-git-non-root
+  dartSass: true
+  nodejs: true
+  npm: true
+  git: true
+  extended: true
+  nonRoot: true
+
+- name: git-non-root
+  extended: true
+  git: true
+  nonRoot: true
+
+- name: go-non-root
+  extended: true
+  go: true
+  nonRoot: true
+
+- name: go-git-non-root
+  extended: true
+  git: true
+  go: true
+  nonRoot: true
+
+- name: node-non-root
+  extended: true
+  nodejs: true
+  npm: true
+  nonRoot: true
+
+- name: node-lts-non-root
+  extended: true
+  nodejs: true
+  npm: true
+  nonRoot: true
+
+- name: node-git-non-root
+  extended: true
+  nodejs: true
+  npm: true
+  git: true
+  nonRoot: true
+
+- name: exts-non-root
+  extended: true
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+  dartSass: true
+  postcss: true
+  autoprefixer: true
+  rtlcss: true
+  purgecss: true
+  nonRoot: true
+  asciiDoc: true
+  pandoc: true
+
+- name: std-non-root
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+  nonRoot: true
+
+- name: std-base-non-root
+  nonRoot: true
+
+- name: std-ci-non-root
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+  dartSass: true
+  postcss: true
+  autoprefixer: true
+  rtlcss: true
+  purgecss: true
+  htmlProofer: true
+  nonRoot: true
+  asciiDoc: true
+  pandoc: true
+
+- name: std-dart-sass-non-root
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+  dartSass: true
+  nonRoot: true
+
+- name: std-dart-sass-base-non-root
+  dartSass: true
+  nonRoot: true
+
+- name: std-dart-sass-git-non-root
+  dartSass: true
+  git: true
+  nonRoot: true
+
+- name: std-dart-sass-go-non-root
+  dartSass: true
+  go: true
+  nonRoot: true
+
+- name: std-dart-sass-go-git-non-root
+  dartSass: true
+  go: true
+  git: true
+  nonRoot: true
+
+- name: std-dart-sass-node-non-root
+  dartSass: true
+  nodejs: true
+  npm: true
+  nonRoot: true
+
+- name: std-dart-sass-node-git-non-root
+  dartSass: true
+  nodejs: true
+  npm: true
+  git: true
+  nonRoot: true
+
+- name: std-git-non-root
+  git: true
+  nonRoot: true
+
+- name: std-go-non-root
+  go: true
+  nonRoot: true
+
+- name: std-go-git-non-root
+  git: true
+  go: true
+  nonRoot: true
+
+- name: std-node-non-root
+  nodejs: true
+  npm: true
+  nonRoot: true
+
+- name: std-node-lts-non-root
+  nodejs: true
+  npm: true
+  nonRoot: true
+
+- name: std-node-git-non-root
+  nodejs: true
+  npm: true
+  git: true
+  nonRoot: true
+
+- name: std-exts-non-root
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+  dartSass: true
+  postcss: true
+  autoprefixer: true
+  rtlcss: true
+  purgecss: true
+  nonRoot: true
+  asciiDoc: true
+  pandoc: true
