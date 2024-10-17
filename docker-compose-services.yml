@@ -1,6 +1,6 @@
 services:
   server:
-    image: hugomods/hugo:exts
+    image: hugomods/hugo:exts-non-root
     command: npm run dev -- --bind 0.0.0.0
     volumes:
       - ./:/src
