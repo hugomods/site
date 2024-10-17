@@ -43,3 +43,7 @@ Regardless of whether the default user for the image is root or not, all images 
 ## Default Command
 
 The default command of images is `hugo env`, which prints Hugo version and then exits.
+
+## Default Shell
+
+Since images are Alpine based, the default shell is `ash` (`/bin/sh`).

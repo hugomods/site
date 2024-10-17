@@ -47,3 +47,7 @@ tags:
 ## 默認命令
 
 默認命令為 `hugo env`，其打印 Hugo 版本並退出。
+
+## 默認 Shell
+
+因為鏡像是基於 Alpine 的，其默認 Shell 為 `ash`（`/bin/sh`）。
