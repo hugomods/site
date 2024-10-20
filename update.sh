@@ -1,16 +1,16 @@
 #!/bin/bash
-docker compose run base hugo mod get -u & \
-docker compose run blog hugo mod get -u & \
-docker compose run bootstrap hugo mod get -u & \
-docker compose run decap-cms hugo mod get -u & \
-docker compose run docker hugo mod get -u & \
-docker compose run echarts hugo mod get -u & \
-docker compose run home hugo mod get -u & \
-docker compose run hugopress hugo mod get -u & \
-docker compose run icons hugo mod get -u & \
-docker compose run images hugo mod get -u & \
-docker compose run kroki hugo mod get -u & \
-docker compose run pwa hugo mod get -u & \
-docker compose run search hugo mod get -u & \
-docker compose run seo hugo mod get -u & \
-docker compose run shortcodes hugo mod get -u
+docker compose run base sh -c "hugo mod get -u && hugo mod tidy" & \
+docker compose run blog sh -c "hugo mod get -u && hugo mod tidy" & \
+docker compose run bootstrap sh -c "hugo mod get -u && hugo mod tidy" & \
+docker compose run decap-cms sh -c "hugo mod get -u && hugo mod tidy" & \
+docker compose run docker sh -c "hugo mod get -u && hugo mod tidy" & \
+docker compose run echarts sh -c "hugo mod get -u && hugo mod tidy" & \
+docker compose run home sh -c "hugo mod get -u && hugo mod tidy" & \
+docker compose run hugopress sh -c "hugo mod get -u && hugo mod tidy" & \
+docker compose run icons sh -c "hugo mod get -u && hugo mod tidy" & \
+docker compose run images sh -c "hugo mod get -u && hugo mod tidy" & \
+docker compose run kroki sh -c "hugo mod get -u && hugo mod tidy" & \
+docker compose run pwa sh -c "hugo mod get -u && hugo mod tidy" & \
+docker compose run search sh -c "hugo mod get -u && hugo mod tidy" & \
+docker compose run seo sh -c "hugo mod get -u && hugo mod tidy" & \
+docker compose run shortcodes sh -c "hugo mod get -u && hugo mod tidy"
