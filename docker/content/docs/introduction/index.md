@@ -40,9 +40,24 @@ Regardless of whether the default user for the image is root or not, all images 
 | :----: | :----: | :--------: | :----: |
 | `hugo` | `1000` |   `hugo`   | `1000` |
 
-## Default Command
+## Commands
 
-The default command of images is `hugo env`, which prints Hugo version and then exits.
+### Default Command
+
+The default command is `hugo help` (printsreviously `hugo env`) since images tagged with `0.136.2`, which prints help and then exits.
+
+### Command Aliases
+
+If the command is not a system command inside a container, then it will be treat as a Hugo subcommand.
+
+| Example   | Command        |
+| --------- | -------------- |
+| `server`  | `hugo server`  |
+| `version` | `hugo version` |
+
+### Server Binding Interface
+
+The `hugo server`/`server` will bind the `0.0.0.0` by default, unless the `--bind` flag is set.
 
 ## Default Shell
 
