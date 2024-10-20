@@ -44,7 +44,7 @@ Regardless of whether the default user for the image is root or not, all images 
 
 ### Default Command
 
-The default command is `hugo help` (printsreviously `hugo env`) since images tagged with `0.136.2`, which prints help and then exits.
+The default command is `hugo help` (previously `hugo env`) since images tagged with `0.136.2`, which prints help and then exits.
 
 ### Command Aliases
 
