@@ -8,6 +8,7 @@
   content: |
     - Backward compatibility.
     - Some CI/CD environments require root user images.
+    {.mb-0}
 
 - title: Why create yet another Hugo Docker images?
   show: true

@@ -8,6 +8,7 @@
   content: |
     - 向后兼容。
     - 一些 CI/CD 环境需要根用户镜像。
+    {.mb-0}
 
 - title: 为什么要创建另一个 Hugo Docker 镜像？
   show: true
