@@ -1,7 +1,10 @@
 google_adsense: ca-pub-7827859788508375
 
-microsoft_clarity:
-  id: jqz81bklca
+services:
+  microsoft_clarity:
+    id: jqz81bklca
+  umami_analytics:
+    id: aea0e14e-abf0-4aa3-87f9-f0e12ecb2570
 
 hb:
   blog:

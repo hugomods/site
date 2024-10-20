@@ -6,4 +6,6 @@ caches:
     dir: :cacheDir/:project
     maxAge: 0
 
-googleAnalytics: G-BHGYZRBG64
+services:
+  googleAnalytics:
+    id: G-BHGYZRBG64
