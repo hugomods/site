@@ -1,0 +1,6 @@
+{{< bootstrap/config-toggle hugo >}}
+params:
+  services:
+    baidu_analytics:
+      id: XXXXXXXX
+{{< /bootstrap/config-toggle >}}

@@ -49,7 +49,9 @@ With the interactive shell, you're able to:
 {{< page-resource-content "codes/hugo-server" >}}
 
 {{% bs/alert danger %}}
-Please note that `--bind 0.0.0.0` is required when using `hugo server`, otherwise Hugo server may not receive any incoming requests from host.
+~~Please note that `--bind 0.0.0.0` is required when using `hugo server`, otherwise Hugo server may not receive any incoming requests from host.~~
+
+Since `0.136.2`, both of `server` and `hugo server` bind `0.0.0.0` by default.
 {{% /bs/alert %}}
 
 {{% bs/alert info %}}

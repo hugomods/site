@@ -1,0 +1,5 @@
+- name: params.services.cloudflare_analytics.token
+  description:
+    default: Cloudflare beacon token.
+    zh-hans: Cloudflare beacon 凭证。
+    zh-hant: Cloudflare beacon 憑證。

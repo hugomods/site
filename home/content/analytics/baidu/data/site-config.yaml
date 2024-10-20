@@ -1,0 +1,5 @@
+- name: params.services.baidu_analytics.id
+  description:
+    default: The measurement ID.
+    zh-hans: 衡量 ID。
+    zh-hant: 衡量 ID。

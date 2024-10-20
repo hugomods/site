@@ -47,7 +47,9 @@ tags:
 {{< page-resource-content "codes/hugo-server" >}}
 
 {{% bs/alert danger %}}
-請注意當使用 `hugo server` 時 `--bind 0.0.0.0` 是必須的，否則 Hugo 服務器可能無法接收任何來自宿主機的請求。
+~~請注意當使用 `hugo server` 時 `--bind 0.0.0.0` 是必須的，否則 Hugo 服務器可能無法接收任何來自宿主機的請求。~~
+
+自 `0.136.2` 起，`server` 和 `hugo server` 均默認綁定 `0.0.0.0`。
 {{% /bs/alert %}}
 
 {{% bs/alert info %}}

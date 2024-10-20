@@ -1,0 +1,6 @@
+
+```go-html-template
+<head>
+  {{ partialCached "hugomods/minimal-google-analytics/index" . .Params.analyze }}
+</head>
+```

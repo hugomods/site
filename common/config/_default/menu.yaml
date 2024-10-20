@@ -140,19 +140,9 @@ main:
         name: fan
         className: text-primary
   
-  - name: Analytics
-    identifier: analytics
-    parent: projects
-    weight: 12
-    params:
-      description: Analytics tools.
-      icon:
-        vendor: bs
-        name: bar-chart-line
-  
   - name: Others
+    identifier: others
     parent: projects
-    weight: 12
     url: https://hugomods.com/docs/
     params:
       description: Other modules and tools.

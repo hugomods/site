@@ -1,0 +1,7 @@
+{{- $module := .Get 0 }}
+{{- $config := printf `
+{{< bootstrap/config-toggle file="hugo" title="Site Configuration" >}}
+[[module.imports]]
+path = "%s"
+{{< /bootstrap/config-toggle >}}` $module }}
+{{- $config | .Page.RenderString }}

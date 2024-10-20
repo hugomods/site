@@ -1,0 +1,30 @@
+- name: params.plausible_analytics.endpoint
+  default: https://plausible.io
+  description:
+    default: The endpoint of Plausible Analytics.
+    zh-hans: Plausible Analytics 服务 URL。
+    zh-hant: Plausible Analytics 服務 URL。
+
+- name: params.plausible_analytics.file_downloads
+  type: boolean
+  default: false
+  description:
+    default: Whether to track file downloads.
+    zh-hans: 是否记录文件下载。
+    zh-hans: 是否記錄文件下載。
+
+- name: params.plausible_analytics.outbound_links
+  type: boolean
+  default: false
+  description:
+    default: Whether to track clicks on outbound links.
+    zh-hans: 是否跟踪出站链接的点击。
+    zh-hans: 是否跟蹤出站鏈接的點擊。
+
+- name: params.plausible_analytics.local
+  type: boolean
+  default: false
+  description:
+    default: When `true`, track on `localhost`.
+    zh-hans: 为 `true` 时，跟踪本地（`localhost`）数据。
+    zh-hans: 為 `true` 時，跟蹤本地（`localhost`）數據。

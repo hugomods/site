@@ -1,0 +1,7 @@
+- name: analyze
+  type: boolean
+  default: true
+  description:
+    default: Exclude pages from being tracked if `false`.
+    zh-hans: 为 `false` 时，不追踪当前页。
+    zh-hant: 為 `false` 時，不追蹤當前頁。

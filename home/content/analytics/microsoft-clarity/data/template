@@ -1,0 +1,5 @@
+```go-html-template
+<head>
+  {{ partialCached "microsoft-clarity/index" . .Params.analyze }}
+</head>
+```

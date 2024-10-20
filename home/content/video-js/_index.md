@@ -9,7 +9,7 @@ nav_icon:
   name: play-circle
 menu:
   main:
-    parent: projects
+    parent: others
     params:
       description: Video.js module.
       icon:

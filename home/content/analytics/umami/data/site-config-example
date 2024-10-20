@@ -1,0 +1,7 @@
+{{< bootstrap/config-toggle hugo >}}
+params:
+  services:
+    umami_analytics:
+      id: XXXXXXXX
+      script_url: https://cloud.umami.is/script.js
+{{< /bootstrap/config-toggle >}}

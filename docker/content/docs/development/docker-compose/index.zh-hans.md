@@ -23,7 +23,9 @@ tags:
 {{< page-resource-content "codes/docker-compose" >}}
 
 {{% bs/alert danger %}}
-请注意当使用 `hugo server` 时 `--bind 0.0.0.0` 是必须的，否则 Hugo 服务器可能无法接收任何来自宿主机的请求。
+~~请注意当使用 `hugo server` 时 `--bind 0.0.0.0` 是必须的，否则 Hugo 服务器可能无法接收任何来自宿主机的请求。~~
+
+自 `0.136.2` 起，`server` 和 `hugo server` 均默认绑定 `0.0.0.0`。
 {{% /bs/alert %}}
 
 {{% bs/alert info %}}

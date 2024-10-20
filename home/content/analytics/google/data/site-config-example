@@ -1,0 +1,5 @@
+{{< bootstrap/config-toggle hugo >}}
+services:
+  googleAnalytics:
+    ID: G-XXXXXXXXXX
+{{< /bootstrap/config-toggle >}}

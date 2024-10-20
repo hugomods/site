@@ -1,0 +1,6 @@
+{{< bootstrap/config-toggle hugo >}}
+params:
+  services:
+    microsoft_clarity:
+      id: XXXXXXXXXX
+{{< /bootstrap/config-toggle >}}

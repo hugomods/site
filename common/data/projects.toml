@@ -2,9 +2,9 @@
 weight = 130
 title = "Analytics"
 description = """
-Enable [Google Analytics]({{< relref "docs/analytics/google" >}}), [Plausible Analytics]({{< relref "docs/analytics/plausible" >}}) for your sites.
+Enable [Google Analytics]({{< relref "analytics/google" >}}), [Plausible Analytics]({{< relref "analytics/plausible" >}}), [Microsoft Clarity]({{< relref "analytics/microsoft-clarity" >}}), [Umami Analytics]({{< relref "analytics/umami" >}}) and so on for your sites.
 """
-url = "docs/docker"
+url = "analytics"
 [analytics.icon]
 vendor = "simple"
 name = "googleanalytics"

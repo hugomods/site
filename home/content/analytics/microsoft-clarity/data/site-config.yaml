@@ -1,0 +1,5 @@
+- name: params.services.microsoft_clarity.id
+  description:
+    default: The measurement ID.
+    zh-hans: 测量 ID。
+    zh-hant: 測量 ID。

@@ -1,0 +1,6 @@
+{{< bootstrap/config-toggle hugo >}}
+params:
+  services:
+    cloudflare_analytics:
+      token: XXXXXXXX
+{{< /bootstrap/config-toggle >}}

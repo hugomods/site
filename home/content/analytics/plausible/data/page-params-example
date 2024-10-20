@@ -1,0 +1,6 @@
+{{< bs/config-toggle >}}
+analyze = true
+[plausible_analytics]
+file_downloads = false
+outbound_links = false
+{{< /bs/config-toggle >}}

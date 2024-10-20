@@ -7,15 +7,16 @@
   {{- $prefix = delimit . "/" }}
 {{- end }}
 {{- $height := 30 }}
-<table>
+<table class="table table-bordered table-striped table-hover">
   <tr>
     <th>Module</th>
-  </tr>
-  <tr>
-    <td><code class="user-select-all">{{ $path }}</code></td>
-  </tr>
-  <tr>
     <td>
+      <code class="user-select-all">{{ $path }}</code>
+    </td>
+  </tr>
+  <tr>
+    <th>Stats</th>
+    <td class="pb-0">
       <a
         class="text-decoration-none"
         href="https://github.com/{{ $owner }}/{{ $repo }}/stargazers"
@@ -61,7 +62,7 @@
           height="{{ $height }}" />
       </a>
       {{- $api := printf "https://api.razonyang.com/v1/github/tag/%s/%s?prefix=%s/" $owner $repo $prefix }}
-      {{- $version := printf "https://img.shields.io/badge/dynamic/json?color=blue&label=version&query=name&url=%s" ($api) }}
+      {{- $version := printf "https://img.shields.io/badge/dynamic/json?color=blue&label=version&query=name&url=%s&style=flat-square" ($api) }}
       <a
         class="text-decoration-none"
         href="https://github.com/{{ $owner }}/{{ $repo }}/releases"

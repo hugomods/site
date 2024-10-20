@@ -1,0 +1,13 @@
+- name: params.services.umamni_analytics.id
+  required: true
+  description:
+    default: Website ID.
+    zh-hans: 站点 ID。
+    zh-hant: 站點 ID。
+
+- name: params.services.umamni_analytics.script_url
+  default: https://cloud.umami.is/script.js
+  description:
+    default: The JavaScript URL.
+    zh-hans: JavaScript URL。
+    zh-hant: JavaScript URL。

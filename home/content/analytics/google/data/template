@@ -1,0 +1,6 @@
+
+```go-html-template
+<head>
+  {{ partialCached "google-analytics/index" . .Params.analyze }}
+</head>
+```

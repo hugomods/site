@@ -1,0 +1,6 @@
+- name: services.googleAnalytics.ID
+  example: G-XXXXXXXX
+  description:
+    default: The measurement ID.
+    zh-hans: 衡量 ID。
+    zh-hant: 衡量 ID。

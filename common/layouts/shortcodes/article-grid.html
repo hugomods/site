@@ -1,0 +1,17 @@
+<div class="row row-cols-1 row-cols-md-2 g-3">
+  {{ range sort .Page.Pages ".Params.nav_weight" }}
+  <div class="col">
+    <a class="text-decoration-none card-body h-100 d-block border rounded rounded-4 px-4 py-3" href="{{ .RelPermalink }}">
+      <h3 class="card-heading">
+        {{- with .Params.nav_icon }}
+          <span class="me-2">{{ partial "icons/icon" . }}</span>
+        {{- end }}
+        {{ .Title }}
+      </h3>
+      <p class="card-text text-body-secondary">
+        {{ default .Summary .Description | plainify }}
+      </p>
+    </a>
+  </div>
+  {{- end }}
+</div>

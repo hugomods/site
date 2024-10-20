@@ -1,0 +1,5 @@
+```go-html-template
+<head>
+  {{ partialCached "hugomods/baidu-analytics/index" . .Params.analyze }}
+</head>
+```

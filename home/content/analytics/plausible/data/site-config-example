@@ -1,0 +1,7 @@
+{{< bs/config-toggle hugo >}}
+[params.plausible_analytics]
+endpoint = "https://plausible.io"
+file_downloads = false
+outbound_links = false
+local = false
+{{< /bs/config-toggle >}}
