@@ -1,0 +1,6 @@
+{{< bs/config-toggle "hugo" >}}
+params:
+  kroki:
+    endpoint: "https://kroki.io/"
+    output: "inline"
+{{< /bs/config-toggle >}}

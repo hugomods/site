@@ -1,0 +1,16 @@
+- name: params.kroki.endpoint
+  default: https://kroki.io/
+  description:
+    default: The endpoint of Kroki instance.
+    zh-hans: Kroki 实例的 URL。
+    zh-hant: Kroki 實例的 URL。
+
+- name: params.kroki.output 
+  default: inline
+  description:
+    default: "The `inline` generates inline `<svg>` element, while `embed` generates `<embed>` element."
+    zh-hans: "`inline` 生成内联的 `<svg>` 元素，`embed` 则生成 `<embed>` 元素。"
+    zh-hant: "`inline` 生成內聯的 `<svg>` 元素，`embed` 則生成 `<embed>` 元素。"
+  options:
+    - inline
+    - embed
