@@ -196,6 +196,7 @@ github.com/hugomods/icons/vendors/mdi v0.3.6 h1:CGMCi7aEHKBOYMdyKJF8FmEt1+9vV5Hv
 github.com/hugomods/icons/vendors/mdi v0.3.6/go.mod h1:XDQZ9k0Xmxy6Xh7idvjUkfb5DhDJmQPHCavlRHymSg8=
 github.com/hugomods/icons/vendors/simple-icons v1.0.56 h1:gJKcAae67kb4FYa6N7g1ljyvP8x/JKc1b6nIhwMhw9g=
 github.com/hugomods/icons/vendors/simple-icons v1.0.56/go.mod h1:amg6gmRchBb2zrdPIbLAqXViVtNplSvnYL+MZrZSX6g=
+github.com/hugomods/icons/vendors/simple-icons v1.0.57/go.mod h1:QNKkX7+q1fzI51xUGX4qmA11b6B+xTXZ8UMHJAKQEhY=
 github.com/hugomods/icons/vendors/tabler v0.15.46 h1:0mDSlXDJ3SrsiL3TvArXborOztYFxAqvYSfu9EH7rTQ=
 github.com/hugomods/icons/vendors/tabler v0.15.46/go.mod h1:XDb+v84IuN0UmYlGr0Mx/lCZ7UwuYTW8JN1fU9d62MQ=
 github.com/hugomods/idb-js v0.1.0 h1:mA6hEGtR0aFEdmq9zYMGpfSpCU6SMilx9RzC4uK3DqY=
@@ -256,6 +257,7 @@ github.com/razonyang/hb-mod-thanks v0.7.0 h1:eJv3vwjerg/ZpZPLToPY1RDHjoe6/Th/c1Y
 github.com/razonyang/hb-mod-thanks v0.7.0/go.mod h1:31Ugh+Mh9ZBtwRbApmayL9JaPC26WHHoynPXcOGZueo=
 github.com/tabler/tabler-icons v3.19.0+incompatible h1:XRNjEZtwCmKwHQmnHbJZU5GQf4Fl41TrxvJPdGTjoeo=
 github.com/tabler/tabler-icons v3.19.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
+github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.3.3+incompatible h1:goFoqinzdHfkeegpFP7pvhbd0g+A3O2hbU3XCjuNrEQ=
 github.com/twbs/bootstrap v5.3.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.11.3 h1:XhvrQ1XDom9ggBbQx3wQCFGEr8qAQwQP/dAcw8OXMtA=
