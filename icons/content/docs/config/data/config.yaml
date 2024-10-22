@@ -1,0 +1,7 @@
+- name: params.icons.throw_on_error
+  type: boolean
+  default: true
+  description:
+    default: When `true`, throw an error instead of a warnging if icon not found.
+    zh-hans: 为 `true` 时，若图标不存在，则抛出错误而不是警告。
+    zh-hant: 為 `true` 時，若圖標不存在，則拋出錯誤而不是警告。

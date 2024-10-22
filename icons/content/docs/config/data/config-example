@@ -1,0 +1,4 @@
+{{< bs/config-toggle "hugo" >}}
+[params.icons]
+throw_on_error = true
+{{< /bs/config-toggle >}}
