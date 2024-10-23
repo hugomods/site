@@ -34,7 +34,7 @@ require (
 	github.com/hugomods/google-analytics v0.2.1 // indirect
 	github.com/hugomods/gravatar v0.2.0 // indirect
 	github.com/hugomods/icons v0.6.5 // indirect
-	github.com/hugomods/icons/vendors/feather v0.2.5 // indirect
+	github.com/hugomods/icons/vendors/feather v0.2.6 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.8 // indirect
 	github.com/hugomods/icons/vendors/lucide v0.3.38 // indirect
 	github.com/hugomods/icons/vendors/mdi v0.3.6 // indirect
