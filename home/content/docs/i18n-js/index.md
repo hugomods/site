@@ -35,7 +35,7 @@ Imagine there is a JS component requires a Modal to be rendered on pages.
 
 ```html
 <div class="my-modal">
-    <div class="my-modal-header">{{ ii18n "my_modal_title" }}</div>
+    <div class="my-modal-header">{{ i18n "my_modal_title" }}</div>
     <div class="my-modal-body">
       ...
     </div>
