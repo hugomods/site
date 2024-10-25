@@ -46,15 +46,19 @@ header:
 
 ## Projects & Modules {id="projects-modules" .display-4 .fw-bold .text-body-emphasis .mb-5 .text-center data-aos=fade-up}
 
+{{< bs/container >}}
 {{< bs/icon-grid data="projects" alignment="center" item-attr-data-aos=fade-up >}}
+{{< /bs/container >}}
 
 ## Latest Articles {.display-4 .fw-bold .text-body-emphasis .mb-5 .text-center data-aos=fade-up}
 
+{{< bs/container >}}
 {{< bs/article-cards
   limit=12
   linkText=""
   item-attr-data-aos=fade-up
 >}}
+{{< /bs/container >}}
 
 {{< html/p class="text-center mb-5" >}}
   {{< bs/btn-link url="posts" size=lg class="d-block py-3 text-decoration-none" style=link >}}
