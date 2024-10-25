@@ -1,5 +1,6 @@
 ---
 title: 篩選一個 Hugo Docker 鏡像
+description: 通過勾選功能特性來篩選鏡像。
 layout: landing
 full_width: true
 menu:
