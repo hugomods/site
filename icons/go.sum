@@ -110,6 +110,7 @@ github.com/hbstack/header/modules/news v0.3.1 h1:V/7/MRHvf+7JZFhRl2iEVmITRCFs0Ll
 github.com/hbstack/header/modules/news v0.3.1/go.mod h1:NYVggMts57N4lIKmF/qVjOaln2aVxiuPL52nERwT8UM=
 github.com/hbstack/header/modules/search v0.1.37 h1:V8mNq94Edah7uuWbzUJ45joo++X5yMs8NrUAUQODOtc=
 github.com/hbstack/header/modules/search v0.1.37/go.mod h1:6B9LOCIzdWw4AE6N2xzQ0mwHHuU1z3DPZly6uyVrVAc=
+github.com/hbstack/header/modules/search v0.1.38/go.mod h1:Y258ZdhdmujPDG51WfsAb6GIUmyr/gEIs5BHFXRReAA=
 github.com/hbstack/header/modules/socials v0.2.2 h1:HZzeJg3Ncf0vv2QipccYYhSADVTG4Aqt1rYLml23u40=
 github.com/hbstack/header/modules/socials v0.2.2/go.mod h1:oy5kARWoEresORePUcmtFax0wTgCA4U7jsxExltgHC0=
 github.com/hbstack/header/modules/theme-toggle v0.5.2 h1:i04Ti4LdVFXXn9Qh7V341NNYmjvBpFwlXKfSc3Hv1Z8=
@@ -264,6 +265,7 @@ github.com/razonyang/hb-mod-thanks v0.7.0 h1:eJv3vwjerg/ZpZPLToPY1RDHjoe6/Th/c1Y
 github.com/razonyang/hb-mod-thanks v0.7.0/go.mod h1:31Ugh+Mh9ZBtwRbApmayL9JaPC26WHHoynPXcOGZueo=
 github.com/tabler/tabler-icons v3.20.0+incompatible h1:VI0MsfSVzhLXxeSjfw8uKgs/ygWGuerAIC4kmeLX1Zo=
 github.com/tabler/tabler-icons v3.20.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
+github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.3.3+incompatible h1:goFoqinzdHfkeegpFP7pvhbd0g+A3O2hbU3XCjuNrEQ=
 github.com/twbs/bootstrap v5.3.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.11.3 h1:XhvrQ1XDom9ggBbQx3wQCFGEr8qAQwQP/dAcw8OXMtA=
