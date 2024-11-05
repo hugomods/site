@@ -34,7 +34,7 @@ tags:
 {{% /bs/alert %}}
 
 {{% bs/alert info %}}
-自 `0.126.3` 版本后，**AsciiDoc** 和 **Pandoc** 已包含在 `exts` 中。
+自 `0.126.3` 版本后，**AsciiDoc** 和 **Pandoc** 已包含在 `exts*` 中。
 {{% /bs/alert %}}
 
 {{% bs/alert warning %}}
