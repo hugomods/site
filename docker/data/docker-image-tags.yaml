@@ -22,6 +22,7 @@
   htmlProofer: true
   asciiDoc: true
   pandoc: true
+  deploy: true
 
 - name: dart-sass
   go: true
@@ -128,6 +129,7 @@
   htmlProofer: true
   asciiDoc: true
   pandoc: true
+  deploy: true
 
 - name: std-dart-sass
   go: true
@@ -226,6 +228,7 @@
   nonRoot: true
   asciiDoc: true
   pandoc: true
+  deploy: true
 
 - name: dart-sass-non-root
   go: true
@@ -349,6 +352,7 @@
   nonRoot: true
   asciiDoc: true
   pandoc: true
+  deploy: true
 
 - name: std-dart-sass-non-root
   go: true

@@ -37,6 +37,10 @@ tags:
 自 `0.126.3` 版本後，**AsciiDoc** 和 **Pandoc** 已包含在 `exts` 中。
 {{% /bs/alert %}}
 
+{{% bs/alert warning %}}
+自 `0.137.0`， Hugo 默認不包含[部署功能](https://gohugo.io/hosting-and-deployment/hugo-deploy/)，若你需要該特性，請使用 `ci*` 標籤。
+{{% /bs/alert %}}
+
 ## 應該使用哪個鏡像標籤？
 
 Hugo Docker 鏡像標籤選擇順序如下：
