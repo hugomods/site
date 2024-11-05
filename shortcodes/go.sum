@@ -3,3 +3,4 @@ github.com/hugomods/swagger-ui v0.2.0/go.mod h1:Q6Y/tRLuBUKlaUMG0clksot1kh0/g2au
 github.com/swagger-api/swagger-ui v5.17.14+incompatible h1:b1YUIMrzIM4zoN+FLC1FR/FjZw9Bb53tL+qSRDauYBQ=
 github.com/swagger-api/swagger-ui v5.17.14+incompatible/go.mod h1:2BrmZAt3ELMzcg/T43oDWQI2wmltgIo6fQoIcmncb9o=
 github.com/swagger-api/swagger-ui v5.18.0+incompatible/go.mod h1:2BrmZAt3ELMzcg/T43oDWQI2wmltgIo6fQoIcmncb9o=
+github.com/swagger-api/swagger-ui v5.18.1+incompatible/go.mod h1:2BrmZAt3ELMzcg/T43oDWQI2wmltgIo6fQoIcmncb9o=
