@@ -274,6 +274,7 @@ github.com/swagger-api/swagger-ui v5.17.14+incompatible h1:b1YUIMrzIM4zoN+FLC1FR
 github.com/swagger-api/swagger-ui v5.17.14+incompatible/go.mod h1:2BrmZAt3ELMzcg/T43oDWQI2wmltgIo6fQoIcmncb9o=
 github.com/swagger-api/swagger-ui v5.18.0+incompatible/go.mod h1:2BrmZAt3ELMzcg/T43oDWQI2wmltgIo6fQoIcmncb9o=
 github.com/swagger-api/swagger-ui v5.18.1+incompatible/go.mod h1:2BrmZAt3ELMzcg/T43oDWQI2wmltgIo6fQoIcmncb9o=
+github.com/swagger-api/swagger-ui v5.18.2+incompatible/go.mod h1:2BrmZAt3ELMzcg/T43oDWQI2wmltgIo6fQoIcmncb9o=
 github.com/tabler/tabler-icons v3.20.0+incompatible h1:VI0MsfSVzhLXxeSjfw8uKgs/ygWGuerAIC4kmeLX1Zo=
 github.com/tabler/tabler-icons v3.20.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
 github.com/tabler/tabler-icons v3.21.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
