@@ -481,6 +481,7 @@ github.com/hugomods/icons/vendors/mdi v0.3.5/go.mod h1:ajB07ZVLHUwluArjYQ/kgNi4W
 github.com/hugomods/icons/vendors/mdi v0.3.6 h1:CGMCi7aEHKBOYMdyKJF8FmEt1+9vV5Hvptp3qHY25Bo=
 github.com/hugomods/icons/vendors/mdi v0.3.6/go.mod h1:XDQZ9k0Xmxy6Xh7idvjUkfb5DhDJmQPHCavlRHymSg8=
 github.com/hugomods/icons/vendors/mdi v0.3.7/go.mod h1:uTiqmqmEmUe3wpVPpaKhAWSu5zunmBON1D2tgOyZWQs=
+github.com/hugomods/icons/vendors/mdi v0.3.8/go.mod h1:UzARXfBJorEKYC9o+Ap6rsKSiI+UFkNWJjKn+DR2tpA=
 github.com/hugomods/icons/vendors/simple-icons v1.0.33 h1:2bx6gRoBS946RhkBtHN86+ouKTdMP3wh1ZKcGNP0tQY=
 github.com/hugomods/icons/vendors/simple-icons v1.0.33/go.mod h1:La0IFKLpjIf2fJduy4tD89ZYlyv8rfcDA+WW5enNUFM=
 github.com/hugomods/icons/vendors/simple-icons v1.0.34 h1:EdK49Q6t9etnuBGhi+kDBcJpkBcQlA6E4NGDFMqAN3Q=
