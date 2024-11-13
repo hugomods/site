@@ -98,7 +98,7 @@ require (
 	github.com/hugomods/hugopress v0.5.0 // indirect
 	github.com/hugomods/i18n-js v0.2.1 // indirect
 	github.com/hugomods/icons v0.6.6 // indirect
-	github.com/hugomods/icons/vendors/bootstrap v0.5.8 // indirect
+	github.com/hugomods/icons/vendors/bootstrap v0.5.9 // indirect
 	github.com/hugomods/icons/vendors/feather v0.2.6 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.9 // indirect
 	github.com/hugomods/icons/vendors/lucide v0.3.39 // indirect
