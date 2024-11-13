@@ -205,6 +205,7 @@ github.com/hugomods/icons/vendors/flag v0.0.2 h1:jCmK75HSObt16YrDW6HOWJQ7/hRKiHs
 github.com/hugomods/icons/vendors/flag v0.0.2/go.mod h1:yUjCOr+M/C4tYLH5JYh37yzD9CWzvlusdBoQIikRIDE=
 github.com/hugomods/icons/vendors/font-awesome v0.6.9 h1:ZpnyXeCOa9n7NBVURSRIZuGZykz80udHT8yxM+RE6NQ=
 github.com/hugomods/icons/vendors/font-awesome v0.6.9/go.mod h1:YPxdyI0WHuZfvwNeG8ADHXwnWmWIuu3PqiYGz8q9Skw=
+github.com/hugomods/icons/vendors/font-awesome v0.6.10/go.mod h1:3izAIdRkMg2O0N1RWB4Uw615VErx75b/nC/199BYV50=
 github.com/hugomods/icons/vendors/lucide v0.3.39 h1:2WCfPX0rDitytup107ZhptJ6iZkY3snNogL5KiqUKcE=
 github.com/hugomods/icons/vendors/lucide v0.3.39/go.mod h1:2urYo6xE8qJWGP0rIiS83PLMMbZInCtgAAwu+iKS068=
 github.com/hugomods/icons/vendors/mdi v0.3.7 h1:YUU61C3a0wUa0PejKc6fl+WntDjC/kqyqK4Io5Xkhww=
