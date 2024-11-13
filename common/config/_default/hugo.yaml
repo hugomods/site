@@ -1,5 +1,6 @@
 copyright: Copyright © 2022-{year} [HugoMods](https://hugomods.com/). All Rights Reserved.
 enableRobotsTXT: true
+enableGitInfo: true
 
 languages:
   en:
