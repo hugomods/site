@@ -156,6 +156,7 @@ github.com/hbstack/toc-scrollspy v0.2.0 h1:JPBozafeDvTUwGFkR90m/SzcyBfKg40pVJOLF
 github.com/hbstack/toc-scrollspy v0.2.0/go.mod h1:wIqdWFRjqGGKX6Y5XVRQzaBBeZ91kZBKgovQp8IPvtk=
 github.com/henrygd/bigger-picture v1.1.17 h1:X41lEdmfYbLLgMdkH4F3Mdhipy8EQjA2w16u1y+BgM8=
 github.com/henrygd/bigger-picture v1.1.17/go.mod h1:LayqbjDNNsZH+ZXklmjBe5T02qxpH9Cah/ygAraOBIk=
+github.com/henrygd/bigger-picture v1.1.18/go.mod h1:LayqbjDNNsZH+ZXklmjBe5T02qxpH9Cah/ygAraOBIk=
 github.com/hugomods/aos v0.1.0 h1:R1NOqLbD+95R1EG0pJ7HPh/zUfM9fpdkgUMMJkOEPUs=
 github.com/hugomods/aos v0.1.0/go.mod h1:JY6AAt8e6jQtQr/i3QAcPxRmcoJO2FY/A/P4m69pXSY=
 github.com/hugomods/apache-echarts v5.5.1+incompatible h1:Sl5WNcNdmZcL8rlX3a2p4k1M6l7i4y0fv3FV+zGFxOI=

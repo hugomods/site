@@ -79,7 +79,7 @@ require (
 	github.com/hbstack/syntax-highlighting v0.2.0 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.1 // indirect
 	github.com/hbstack/toc-scrollspy v0.2.0 // indirect
-	github.com/henrygd/bigger-picture v1.1.17 // indirect
+	github.com/henrygd/bigger-picture v1.1.18 // indirect
 	github.com/hugomods/aos v0.1.0 // indirect
 	github.com/hugomods/apache-echarts v5.5.1+incompatible // indirect
 	github.com/hugomods/ascii v0.1.0 // indirect
