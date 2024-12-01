@@ -104,7 +104,7 @@ require (
 	github.com/hugomods/icons/vendors/font-awesome v0.6.12 // indirect
 	github.com/hugomods/icons/vendors/lucide v0.3.40 // indirect
 	github.com/hugomods/icons/vendors/mdi v0.3.8 // indirect
-	github.com/hugomods/icons/vendors/simple-icons v1.0.60 // indirect
+	github.com/hugomods/icons/vendors/simple-icons v1.0.61 // indirect
 	github.com/hugomods/icons/vendors/tabler v0.15.48 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.11.2 // indirect
@@ -126,7 +126,7 @@ require (
 	github.com/hugomods/seo/modules/translations v0.1.1 // indirect
 	github.com/hugomods/seo/modules/twitter-cards v0.1.1 // indirect
 	github.com/hugomods/shortcodes v0.23.0 // indirect
-	github.com/hugomods/simple-icons v13.18.0+incompatible // indirect
+	github.com/hugomods/simple-icons v13.19.0+incompatible // indirect
 	github.com/hugomods/site/common v0.0.0-00010101000000-000000000000 // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
 	github.com/hugomods/umami-analytics v0.3.1 // indirect
