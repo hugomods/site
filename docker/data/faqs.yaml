@@ -29,7 +29,7 @@
 - title: What is the base image?
   show: true
   content: |
-    All images are built on top of [Alpine](https://hub.docker.com/_/alpine) and it's variants.
+    All images are built on top of [Alpine](https://hub.docker.com/_/alpine) and its variants.
 
 - title: What is the default shell?
   show: true
