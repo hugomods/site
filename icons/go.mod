@@ -6,7 +6,7 @@ replace github.com/hugomods/site/common => ../common
 
 require (
 	github.com/GoogleChrome/workbox v7.3.0+incompatible // indirect
-	github.com/KaTeX/KaTeX v0.16.11 // indirect
+	github.com/KaTeX/KaTeX v0.16.12 // indirect
 	github.com/Templarian/MaterialDesign-SVG v7.4.47+incompatible // indirect
 	github.com/desandro/masonry v4.2.2+incompatible // indirect
 	github.com/devicons/devicon v2.16.0+incompatible // indirect
