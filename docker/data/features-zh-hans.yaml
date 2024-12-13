@@ -18,7 +18,7 @@
     color: green
 
 - title: 极简的
-  description: 我们提供多种变体镜像以满足你的需求，如**扩展版本**、**Git**、**Go**、**Node.js**、**NPM**、**Yarn**、**Dart Sass** 等。
+  description: 我们提供多种变体镜像以满足你的需求，如**扩展版本**、**Non-root**、**Git**、**Go**、**Node.js**、**NPM**、**Yarn**、**Dart Sass** 等。
   icon:
     name: boxes
     className: text-primary
@@ -50,3 +50,11 @@
     vendor: bs
     name: person-circle
     className: text-success
+
+- title: 每日构建
+  description: |
+    支持每日构建，可用于体验新功能，测试主题是否与最新更改兼容等。
+  icon:
+    vendor: bs
+    name: clock-history
+    className: text-warning

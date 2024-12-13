@@ -1,12 +1,12 @@
 - title: 这是官方镜像吗？
   show: true
   content: |
-    不是。
+    **不是**。
 
 - title: 为什么根用户和非根用户镜像共存？
   show: true
   content: |
-    - 向后兼容。
+    - **向后兼容**。
     - 一些 CI/CD 环境需要根用户镜像。
     {.mb-0}
 

@@ -1,12 +1,12 @@
 - title: Is it an official image?
   show: true
   content: |
-    No, it's not.
+    **No**, it's not.
 
 - title: Why do root and non-root images coexist?
   show: true
   content: |
-    - Backward compatibility.
+    - **Backward compatibility**.
     - Some CI/CD environments require root user images.
     {.mb-0}
 

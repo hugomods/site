@@ -1,6 +1,6 @@
 ---
 title: Hugo Docker Images
-description: Minimal, up-to-date Hugo docker images that with multiple variants, such as extended version, Git, Go, Node.js, NPM, Yarn, Dart Sass and more.
+description: Minimal, up-to-date Hugo docker images that with multiple variants, such as extended version, Non-root, Git, Go, Node.js, NPM, Yarn, Dart Sass, AsciiDoc, Pandoc, Nightly and more.
 layout: landing
 full_width: true
 nav_icon:

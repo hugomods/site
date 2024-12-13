@@ -18,7 +18,7 @@
     color: green
 
 - title: Minimal
-  description: We offer a wide range of images variants to suit your requirements, such as **extended** version, **Git**, **Go**, **Node.js**, **NPM**, **Yarn**, **Dart Sass** etc.
+  description: We offer a wide range of images variants to suit your requirements, such as **extended** version, **Non-root**, **Git**, **Go**, **Node.js**, **NPM**, **Yarn**, **Dart Sass** etc.
   icon:
     name: boxes
     className: text-primary
@@ -52,3 +52,11 @@
     vendor: bs
     name: person-circle
     className: text-success
+
+- title: Nightly Build
+  description: |
+    Nightly build are supported, which can be used to experience new features, test if the theme is compatible with latest changes and so on.
+  icon:
+    vendor: bs
+    name: clock-history
+    className: text-warning
