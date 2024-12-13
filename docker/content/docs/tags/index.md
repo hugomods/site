@@ -29,18 +29,6 @@ tags:
 Please note that **PostCSS CLI**, **Autoprefixer**, **PurgeCSS** and **RTLCSS** are installed globally.
 {{% /bs/alert %}}
 
-{{% bs/alert primary %}}
-`reg*` tags are replaced with `std*` since `0.127.0`, but don't worry, `reg*` tags will continue to be updated for backwards compatibility.
-{{% /bs/alert %}}
-
-{{% bs/alert info %}}
-**AsciiDoc** and **Pandoc** are included into `exts*` since `0.126.3`.
-{{% /bs/alert %}}
-
-{{% bs/alert warning %}}
-By default, the [deploy feature](https://gohugo.io/hosting-and-deployment/hugo-deploy/) isn't included since `0.137.0`, please use the `ci*` tags instead if you need that feature on development.
-{{% /bs/alert %}}
-
 ## Which Image Tags Should I Use?
 
 Hugo Docker image tags selection order as follows.

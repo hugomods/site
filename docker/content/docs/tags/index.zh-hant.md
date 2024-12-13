@@ -29,18 +29,6 @@ tags:
 請注意 **PostCSS CLI**、**Autoprefixer**、**PurgeCSS** 和 **RTLCSS** 是全局安裝的。
 {{% /bs/alert %}}
 
-{{% bs/alert primary %}}
-自 `0.127.0` 版本後，`reg*` 標籤被替換為 `std*`，但無須擔心，為了向後兼容，我們仍會持續更新 `reg*`。
-{{% /bs/alert %}}
-
-{{% bs/alert info %}}
-自 `0.126.3` 版本後，**AsciiDoc** 和 **Pandoc** 已包含在 `exts*` 中。
-{{% /bs/alert %}}
-
-{{% bs/alert warning %}}
-自 `0.137.0`， Hugo 默認不包含[部署功能](https://gohugo.io/hosting-and-deployment/hugo-deploy/)，若你需要該特性，請使用 `ci*` 標籤。
-{{% /bs/alert %}}
-
 ## 應該使用哪個鏡像標籤？
 
 Hugo Docker 鏡像標籤選擇順序如下：

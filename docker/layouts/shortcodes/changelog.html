@@ -1,0 +1,11 @@
+{{ range sort site.Data.changelog "date" "desc" }}
+  <h2>{{ .date }}</h2>
+
+  {{ with .since }}
+    <p class="text-body-secondary">Since <code>{{ . }}</code>.</p>
+  {{ end }}
+
+  {{ with index .content site.Language.LanguageCode }}
+    {{- $.Page.RenderString .  }}
+  {{ end }}
+{{ end }}

@@ -1,0 +1,33 @@
+- date: 2024-12-13
+  content:
+    en: Nightly tags are available now, `nightly` and `nightly-non-root`.
+    zh-hans: 每日构建的标签现已可用：`nightly` 和 `nightly-non-root`。
+    zh-hant: 每日構建的標籤現已可用：`nightly` 和 `nightly-non-root`。
+
+- date: 2024-12-10
+  since: 0.139.4
+  content:
+    en: Use prebuilt Dart Sass instead, to get rid of using `alpine:edge` image.
+    zh-hans: 改用预构建的 Dart Sass，以避免使用 `alpine:edge` 镜像。
+    zh-hant: 改用預構建的 Dart Sass，以避免使用 `alpine:edge` 鏡像。
+
+- date: 2024-11-05
+  since: 0.137.0
+  content:
+    en: "The [deploy feature](https://gohugo.io/hosting-and-deployment/hugo-deploy/) is available only on `ci*` tags since `0.137.0`."
+    zh-hans: "[部署功能](https://gohugo.io/hosting-and-deployment/hugo-deploy/) 仅在 `ci*` 标签上可用。"
+    zh-hant: "[部署功能](https://gohugo.io/hosting-and-deployment/hugo-deploy/) 僅在 `ci*` 標籤上可用。"
+
+- date: 2024-06-24
+  since: 0.127.0
+  content:
+    en: "`reg*` tags are replaced with `std*`, but don't worry, `reg*` tags will continue to be updated for backwards compatibility."
+    zh-hans: "`reg*` 标签被替换为 `std*`，但无须担心，为了向后兼容，我们仍会持续更新 `reg*`。"
+    zh-hant: "`reg*` 標籤被替換為 `std*`，但無須擔心，為了向後兼容，我們仍會持續更新 `reg*`。"
+
+- date: 2024-06-03
+  since: 0.126.3
+  content:
+    en: "**AsciiDoc** and **Pandoc** are included into `exts*` tags."
+    zh-hans: "**AsciiDoc** 和 **Pandoc** 已包含在 `exts*` 标签中。"
+    zh-hant: "**AsciiDoc** 和 **Pandoc** 已包含在 `exts*` 標籤中。"
