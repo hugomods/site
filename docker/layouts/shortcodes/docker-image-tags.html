@@ -4,8 +4,10 @@
   {{- printf "### `%s`\n" .name }}
   {{- printf "![Size](https://img.shields.io/docker/image-size/hugomods/hugo/%s?style=flat-square&height=32)\n" .name }}
   {{- printf "```sh\ndocker pull hugomods/hugo:%s\n```\n" .name }}
-  {{- printf "For specific version.\n" }}
+  {{- if not (hasPrefix .name "nightly") }}
+    {{- printf "For specific version.\n" }}
   {{- printf "```sh\ndocker pull hugomods/hugo:%s\n```\n" (cond (eq .name "latest") "<version>" (printf "%s-<version>" .name)) | safeHTML }}
+  {{- end }}
   {{- printf "| Extended | Non-root | Go  | %s | Git | Dart Sass | PostCSS | Autoprefixer | PurgeCSS | RTLCSS | AsciiDoc | Pandoc |\n" $nodejsHeading | safeHTML }}
   {{- printf "| :------: | :------: | :-: | :-----: | :-: | :-------: | :-----: | :----------: | :------: | :----: | :------: | :----: |\n" }}
   {{- printf "| %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s |"
