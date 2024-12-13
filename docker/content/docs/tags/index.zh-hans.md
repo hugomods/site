@@ -33,6 +33,7 @@ tags:
 
 Hugo Docker 镜像标签选择顺序如下：
 
+1. 需要每日构建版本，则选择 `nightly*` 标签。
 1. 需要 **Dart Sass**，则选择带有 **Dart Sass** 标签。
 1. 需要 **LibSass** 或图片处理时用到 **WebP** 格式，则选择带有 **Extended**（不带 **std** 前缀）的标签。
 1. 需要 Hugo 模块，则选择带有 **Go** 的标签。
