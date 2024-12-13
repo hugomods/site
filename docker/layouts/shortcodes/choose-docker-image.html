@@ -16,6 +16,7 @@
   (dict "label" "RTLCSS" "dep" "rtlcss")
   (dict "label" "Deploy" "dep" "deploy")
   (dict "label" "HTML Proofer" "dep" "html-proofer")
+  (dict "label" "Nightly" "dep" "nightly")
 }}
 <div class="container-fluid mt-3 mt-md-5">
   <div class="d-flex">
@@ -53,7 +54,8 @@
               data-pandoc="{{ cond .pandoc 1 0 }}"
               data-postcss="{{ cond .postcss 1 0 }}"
               data-purgecss="{{ cond .purgecss 1 0 }}"
-              data-rtlcss="{{ cond .rtlcss 1 0 }}">
+              data-rtlcss="{{ cond .rtlcss 1 0 }}"
+              data-nightly="{{ cond .nightly 1 0 }}">
               <code class="me-1 user-select-all">{{ .name }}</code>
               <div class="ms-auto me-1 d-none d-md-block">
                 {{ with .extended }}

@@ -78,6 +78,23 @@
   git: true
   go: true
 
+- name: nightly
+  nightly: true
+  extended: true
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+  dartSass: true
+  postcss: true
+  autoprefixer: true
+  rtlcss: true
+  purgecss: true
+  htmlProofer: true
+  asciiDoc: true
+  pandoc: true
+  deploy: true
+
 - name: node
   extended: true
   nodejs: true
@@ -292,6 +309,24 @@
   extended: true
   git: true
   go: true
+  nonRoot: true
+
+- name: nightly-non-root
+  nightly: true
+  extended: true
+  go: true
+  nodejs: true
+  npm: true
+  git: true
+  dartSass: true
+  postcss: true
+  autoprefixer: true
+  rtlcss: true
+  purgecss: true
+  htmlProofer: true
+  asciiDoc: true
+  pandoc: true
+  deploy: true
   nonRoot: true
 
 - name: node-non-root
