@@ -18,6 +18,19 @@
     zh-hans: "[部署功能](https://gohugo.io/hosting-and-deployment/hugo-deploy/) 仅在 `ci*` 标签上可用。"
     zh-hant: "[部署功能](https://gohugo.io/hosting-and-deployment/hugo-deploy/) 僅在 `ci*` 標籤上可用。"
 
+- date: 2024-10-17
+  since: 0.136.1
+  content:
+    en: |
+      All images have an user named `hugo` (`1000:1000`), whose owns `/src`.
+      If the tag name contains `non-root`, then the default user is `hugo`, otherwise `root`.
+    zh-hans: |
+      所有镜像都有一个名为 `hugo`（`1000:1000`）的用户，其拥有 `/src` 所有权。
+      若标签名带有 `non-root`，则默认用户为 `hugo`，否则为 `root`。
+    zh-hant: |
+      所有鏡像都有一個名為 `hugo`（`1000:1000`）的用戶，其擁有 `/src` 所有權。
+      若標籤名帶有 `non-root`，則默認用戶為 `hugo`，否則為 `root`。
+
 - date: 2024-06-24
   since: 0.127.0
   content:
