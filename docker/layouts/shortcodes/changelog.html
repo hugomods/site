@@ -1,5 +1,5 @@
 {{ range sort site.Data.changelog "date" "desc" }}
-  <h2>{{ .date }}</h2>
+  <h2>{{ .date | time.AsTime | time.Format ":date_long" }}</h2>
 
   {{ with .since }}
     <p class="text-body-secondary">Since <code>{{ . }}</code>.</p>
