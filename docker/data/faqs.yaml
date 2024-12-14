@@ -13,7 +13,7 @@
 - title: Why create yet another Hugo Docker images?
   show: true
   content: |
-    I used `klakegg/hugo` in the past for a long time, and feel satisfied with it, however its been a long time since its been updated,
+    I used `klakegg/hugo` in the past for a long time, and feel satisfied with it, however it seems that it is no longer maintained,
     so I created a new one with automated workflow to meet my needs.
 
 - title: What architectures are supported?
