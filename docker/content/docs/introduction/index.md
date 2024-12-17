@@ -48,12 +48,12 @@ The default command is `hugo help` (previously `hugo env`) since images tagged w
 
 ### Command Aliases
 
-If the command is not a system command inside a container, then it will be treat as a Hugo subcommand.
+If the `entrypoint` command is not a system command inside a container, then it will be treated as a Hugo subcommand.
 
 | Example   | Command        |
 | --------- | -------------- |
-| `server`  | `hugo server`  |
-| `version` | `hugo version` |
+| `docker run ... server`  | `docker run ... hugo server`  |
+| `docker run ... version` | `docker run ... hugo version` |
 
 ### Server Binding Interface
 

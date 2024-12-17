@@ -48,12 +48,12 @@ tags:
 
 ### 命令别名
 
-当命令不是一个容器内的系统命令，那么其会被用作 Hugo 的子命令。
+当 `entrypoint` 命令不是一个容器内的系统命令，那么其会被用作 Hugo 的子命令。
 
 | 例子      | 命令           |
 | --------- | -------------- |
-| `server`  | `hugo server`  |
-| `version` | `hugo version` |
+| `docker run ... server`  | `docker run ... hugo server`  |
+| `docker run ... version` | `docker run ... hugo version` |
 
 ### 服务器绑定接口
 
