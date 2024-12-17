@@ -18,6 +18,19 @@
     zh-hans: "[部署功能](https://gohugo.io/hosting-and-deployment/hugo-deploy/) 仅在 `ci*` 标签上可用。"
     zh-hant: "[部署功能](https://gohugo.io/hosting-and-deployment/hugo-deploy/) 僅在 `ci*` 標籤上可用。"
 
+- date: 2024-10-20
+  since: 0.136.2
+  content:
+    en: |
+      If the `entrypoint` command is not a system command inside a container, then it will be treated as a Hugo subcommand.
+      And `hugo server` now binds `0.0.0.0` by default.
+    zh-hans: |
+      若 `entrypoint` 命令不是容器内的系统命令，则会被当作一个 Hugo 自命令。
+      `hugo server` 现在默认绑定 `0.0.0.0`。
+    zh-hant: |
+      若 `entrypoint` 命令不是容器內的系統命令，則會被當作一個 Hugo 自命令。
+      `hugo server` 現在默認綁定 `0.0.0.0`。
+
 - date: 2024-10-17
   since: 0.136.1
   content:
@@ -30,6 +43,16 @@
     zh-hant: |
       所有鏡像都有一個名為 `hugo`（`1000:1000`）的用戶，其擁有 `/src` 所有權。
       若標籤名帶有 `non-root`，則默認用戶為 `hugo`，否則為 `root`。
+
+- date: 2024-06-28
+  since: 0.128.0
+  content:
+    en: |
+      The `server` command is available as an alias of `hugo server`, which will bind `0.0.0.0` by default.
+    zh-hans: |
+      `server` 命令作为 `hugo server` 的别名，其默认绑定 `0.0.0.0`。
+    zh-hant: |
+      `server` 命令作為 `hugo server` 的別名，其默認綁定 `0.0.0.0`。
 
 - date: 2024-06-24
   since: 0.127.0
