@@ -19,6 +19,13 @@ tags:
 
 All images are [Alpine](https://hub.docker.com/_/alpine) based.
 
+## Minimal Image Tags
+
+The minimal image tags (includes Hugo only) are begin with `base` (extended edition) or `std-base` (standard edition).
+
+> [!NOTE]
+> The default tag (`latest`, `<version>`) is not the smallest, which is due to historical reasons. Additionally, considering backward compatibility, the default tag will remain unchanged.
+
 ## Default Working Directory
 
 The default working directory is `/src`.

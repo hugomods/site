@@ -15,13 +15,16 @@ tags:
   - 命令
 ---
 
-## 如何安裝 Docker？
-
-這超出了本文檔的範圍，請參閱 [Install Docker Engine](https://docs.docker.com/engine/install/)。
-
 ## 基礎鏡像
 
 所有鏡像都是基於 [Alpine](https://hub.docker.com/_/alpine) 的。
+
+## 最小的鏡像標籤
+
+最小化的標籤（僅包含 Hugo）以 `base`（擴展版）或 `std-base`（標準版）開頭。
+
+> [!NOTE]
+> 默認的標籤（`latest`、`<version>`）並不是最小的，這是歷史原因造成的，且基於對向後兼容的考慮，默認標籤的功能將保持原樣。
 
 ## 用戶
 
