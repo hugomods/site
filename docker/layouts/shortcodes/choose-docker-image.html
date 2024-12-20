@@ -1,9 +1,9 @@
 {{- $features := slice
-  (dict "label" "WebP" "dep" "extended")
+  (dict "label" "WebP" "dep" "extended" "desc" "Image processing format")
   (dict "label" "LibSass" "dep" "extended")
   (dict "label" "Dart Sass" "dep" "dart-sass")
-  (dict "label" "Non-root" "dep" "non-root")
-  (dict "label" "Go (Hugo Modules)" "dep" "go")
+  (dict "label" "Non-root" "dep" "non-root" "desc" `The default user is "hugo" (1000:1000) rather than "root"`)
+  (dict "label" "Go" "dep" "go" "desc" "Hugo Modules")
   (dict "label" "Git" "dep" "git")
   (dict "label" "Node.js" "dep" "node")
   (dict "label" "NPM" "dep" "node")
@@ -14,26 +14,33 @@
   (dict "label" "Autoprefixer" "dep" "autoprefixer")
   (dict "label" "PurgeCSS" "dep" "purgecss")
   (dict "label" "RTLCSS" "dep" "rtlcss")
-  (dict "label" "Deploy" "dep" "deploy")
+  (dict "label" "Deploy" "dep" "deploy" "desc" `"hugo deploy"`)
   (dict "label" "HTML Proofer" "dep" "html-proofer")
-  (dict "label" "Nightly" "dep" "nightly")
+  (dict "label" "Nightly" "dep" "nightly" "desc" "Nightly build")
 }}
-<div class="container-fluid mt-3 mt-md-5">
-  <div class="d-flex">
-    <div class="flex-shrink-0 me-3 me-lg-5">
-      <form class="form" id="choose-form">
-        {{- range $features }}
-          {{- $id := anchorize .label }}
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="{{ $id }}" data-dep="{{ .dep }}">
-            <label class="form-check-label" for="{{ $id }}">
-              {{ .label }}
-            </label>
-          </div>
-        {{- end }}
-      </form>
+<div class="container mt-3 mt-md-5">
+  <div class="row">
+    <div class="col-12 mb-3">
+      <div class="container-fluid">
+        <form class="row" id="choose-form">
+          {{- range $features }}
+            {{- $id := anchorize .label }}
+            <div class="form-check col-6 col-md-4 col-lg-3">
+              <input class="form-check-input" type="checkbox" value="" id="{{ $id }}" data-dep="{{ .dep }}">
+              <label class="form-check-label" for="{{ $id }}">
+                {{ .label }}
+                {{- with .desc }}
+                  <span data-bs-title="{{ . }}" data-bs-toggle="tooltip" data-bs-placement="auto">
+                    {{ partial "icons/icon" (dict "vendor" "bs" "name" "question-circle") }}
+                  </span>
+                {{- end }}
+              </label>
+            </div>
+          {{- end }}
+        </form>
+      </div>
     </div>
-    <div class="flex-grow-1">
+    <div class="col-12">
       {{- $tags := sort (index site.Data "docker-image-tags") "name" }}
       <div class="search-stats mb-2">Found <span id="image-count" class="text-primary">{{ len $tags }}</span> images.</div>
       <table class="table table-bordered table-hover">
