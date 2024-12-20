@@ -10,7 +10,7 @@
     - Some CI/CD environments require root user images.
     {.mb-0}
 
-- title: Why create yet another Hugo Docker images?
+- title: Why create yet another Hugo Docker image?
   show: true
   content: |
     I used `klakegg/hugo` in the past for a long time, and feel satisfied with it, however it seems that it is no longer maintained,
