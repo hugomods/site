@@ -38,7 +38,8 @@ Hugo Docker 鏡像標籤選擇順序如下：
 1. 需要 **LibSass** 或圖片處理時用到 **WebP** 格式，則選擇帶有 **Extended**（不帶 **std** 前綴）的標籤。
 1. 需要 Hugo 模塊，則選擇帶有 **Go** 的標籤。
 1. 需要 NPM/Yarn 安裝依賴，則選擇帶有 **Node.js** 的標籤。
-1. 需要 Hugo 的 `--enableGitInfo` 標誌，則選擇帶有 **Git** 的標籤。
+1. 需要 Hugo 的 `--enableGitInfo` 標誌，則選擇帶有 __Git__ 的標籤。
+1. 需要最小的鏡像，則選擇以 `base` 或 `std-base` 開頭的標籤。
 
 {{% bs/alert info %}}
 若你不確定上述說明為何意，你可以使用 [exts](#exts) 標籤，其滿足絕大部分主題的要求，或者向主題作者請求幫助。

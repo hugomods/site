@@ -39,6 +39,7 @@ Hugo Docker 镜像标签选择顺序如下：
 1. 需要 Hugo 模块，则选择带有 **Go** 的标签。
 1. 需要 NPM/Yarn 安装依赖，则选择带有 **Node.js** 的标签。
 1. 需要 Hugo 的 `--enableGitInfo` 标志，则选择带有 **Git** 的标签。
+1. 需要最小的镜像，则选择以 `base` 或 `std-base` 开头的标签。
 
 {{% bs/alert info %}}
 若你不确定上述说明为何意，你可以使用 [exts](#exts) 标签，其满足绝大部分主题的要求，或者向主题作者请求帮助。
