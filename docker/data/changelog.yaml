@@ -35,7 +35,7 @@
   since: 0.136.1
   content:
     en: |
-      All images have an user named `hugo` (`1000:1000`), whose owns `/src`.
+      All images have an user named `hugo` (`1000:1000`), who owns `/src`.
       If the tag name contains `non-root`, then the default user is `hugo`, otherwise `root`.
     zh-hans: |
       所有镜像都有一个名为 `hugo`（`1000:1000`）的用户，其拥有 `/src` 所有权。
