@@ -45,11 +45,15 @@
     <div class="col-12">
       {{- $tags := sort (index site.Data "docker-image-tags") "name" }}
       <div class="search-stats mb-2 text-body-secondary">Found <span id="image-count" class="text-primary">{{ len $tags }}</span> image tag(s).</div>
-      <table class="table table-bordered table-hover">
+      <table class="table table-bordered table-hover table-striped">
+        <tr>
+          <th>Name</th>
+          <th>Size</th>
+        </tr>
         {{- range $tags }}
           <tr>
             <td
-              class="docker-image d-flex justify-content-between"
+              class="docker-image d-flex justify-content-between w-100"
               data-asciidoc="{{ cond .asciiDoc 1 0 }}"
               data-autoprefixer="{{ cond .autoprefixer 1 0 }}"
               data-dart-sass="{{ cond .dartSass 1 0 }}"
@@ -67,72 +71,13 @@
               data-purgecss="{{ cond .purgecss 1 0 }}"
               data-rtlcss="{{ cond .rtlcss 1 0 }}">
               <code class="me-1 user-select-all">{{ .name }}</code>
-              <div class="ms-auto me-1 d-none d-md-block">
-                {{ with .extended }}
-                  <small class="badge rounded-0 bg-secondary p-1 me-1">Extended</small>
-                {{ end }}
-                {{ with .nonRoot }}
-                  <small class="badge rounded-0 bg-secondary p-1 me-1">Non-root</small>
-                {{ end }}
-                {{ with .dartSass }}
-                  <small class="badge rounded-0 bg-secondary p-1 me-1">
-                    {{ partial "icons/icon" (dict "vendor" "simple" "name" "sass") }}
-                    Dart Sass
-                  </small>
-                {{ end }}
-                {{ with .git }}
-                  <small class="badge rounded-0 bg-secondary p-1 me-1">
-                    {{ partial "icons/icon" (dict "vendor" "simple" "name" "git") }}
-                    Git
-                  </small>
-                {{ end }}
-                {{ with .go }}
-                  <small class="badge rounded-0 bg-secondary p-1 me-1">
-                    {{ partial "icons/icon" (dict "vendor" "simple" "name" "go") }}
-                    Go
-                  </small>
-                {{ end }}
-                {{ with .nodejs }}
-                  <small class="badge rounded-0 bg-secondary p-1 me-1">
-                    {{ partial "icons/icon" (dict "vendor" "simple" "name" "nodedotjs") }}
-                    Node.js
-                  </small>
-                {{ end }}
-                {{ with .autoprefixer }}
-                  <small class="badge rounded-0 bg-secondary p-1 me-1">
-                    {{ partial "icons/icon" (dict "vendor" "simple" "name" "autoprefixer") }}
-                    Autoprefixer
-                  </small>
-                {{ end }}
-                {{ with .postcss }}
-                  <small class="badge rounded-0 bg-secondary p-1 me-1">
-                    {{ partial "icons/icon" (dict "vendor" "simple" "name" "postcss") }}
-                    PostCSS
-                  </small>
-                {{ end }}
-                {{ with .purgecss }}
-                  <small class="badge rounded-0 bg-secondary p-1 me-1">
-                    {{ partial "icons/icon" (dict "vendor" "simple" "name" "purgecss") }}
-                    PurgeCSS
-                  </small>
-                {{ end }}
-                {{ with .rtlcss }}
-                  <small class="badge rounded-0 bg-secondary p-1 me-1">RTLCSS</small>
-                {{ end }}
-                {{ with .asciiDoc }}
-                  <small class="badge rounded-0 bg-secondary p-1 me-1">
-                    {{ partial "icons/icon" (dict "vendor" "simple" "name" "asciidoctor") }}
-                    AsciiDoc
-                  </small>
-                {{ end }}
-                {{ with .pandoc }}
-                  <small class="badge rounded-0 bg-secondary p-1 me-1">Pandoc</small>
-                {{ end }}
-                {{ with .htmlProofer }}
-                  <small class="badge rounded-0 bg-secondary p-1 me-1">HTML Proofer</small>
-                {{ end }}
-                <img alt="size" class="w-auto" height="20" src="https://img.shields.io/docker/image-size/hugomods/hugo/{{ .name }}?style=flat-square&color=1183c4&label=size">
-              </div>
+            </td>
+            <td style="width: 120px;">
+              <img
+                alt="size"
+                class="w-auto"
+                height="20"
+                src="https://img.shields.io/docker/image-size/hugomods/hugo/{{ .name }}?style=flat-square&color=1183c4&label=size" />
             </td>
           </tr>
         {{- end }}
