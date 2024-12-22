@@ -99,7 +99,7 @@
 
   const search = () => {
     document.querySelectorAll('.docker-image').forEach((image) => {
-      image.classList.add('d-none')
+      image.closest('tr').classList.add('d-none')
     })
     const deps = {}
     form.querySelectorAll('input[type="checkbox"]:checked').forEach((checked) => {
@@ -112,7 +112,7 @@
     const images = document.querySelectorAll(selector)
     document.getElementById('image-count').textContent = images.length
     images.forEach((image) => {
-      image.classList.remove('d-none')
+      image.closest('tr').classList.remove('d-none')
     })
   }
 </script>
