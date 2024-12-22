@@ -1,33 +1,35 @@
 {{- $features := slice
-  (dict "label" "WebP" "dep" "extended" "desc" "Image processing format")
+  (dict "label" "Minimal" "dep" "minimal" "desc" "Include Hugo only.")
+  (dict "label" "WebP" "dep" "extended" "desc" "Image processing format.")
   (dict "label" "LibSass" "dep" "extended")
-  (dict "label" "Dart Sass" "dep" "dart-sass")
-  (dict "label" "Non-root" "dep" "non-root" "desc" `The default user is "hugo" (1000:1000) rather than "root"`)
-  (dict "label" "Go" "dep" "go" "desc" "Hugo Modules")
-  (dict "label" "Git" "dep" "git")
-  (dict "label" "Node.js" "dep" "node")
-  (dict "label" "NPM" "dep" "node")
-  (dict "label" "Yarn" "dep" "node")
-  (dict "label" "AsciiDoc" "dep" "asciidoc")
+  (dict "label" "Dart Sass" "dep" "dart-sass" "icon" "sass" "iconColor" "#CC6699")
+  (dict "label" "Non-root" "dep" "non-root" "desc" `The default user is "hugo" (1000:1000) rather than "root".` "icon" "person-check" "iconVendor" "bs" "iconColor" "green")
+  (dict "label" "Go" "dep" "go" "desc" "Hugo Modules." "icon" "go" "iconColor" "#00ADD8")
+  (dict "label" "Git" "dep" "git" "icon" "git" "iconColor" "#F05032")
+  (dict "label" "Node.js" "dep" "node" "desc" "NPM and Yarn are included." "icon" "nodedotjs" "iconColor" "#5FA04E")
+  (dict "label" "AsciiDoc" "dep" "asciidoc" "icon" "asciidoctor" "iconColor" "#E40046")
   (dict "label" "Pandoc" "dep" "pandoc")
-  (dict "label" "PostCSS CLI" "dep" "postcss")
-  (dict "label" "Autoprefixer" "dep" "autoprefixer")
-  (dict "label" "PurgeCSS" "dep" "purgecss")
-  (dict "label" "RTLCSS" "dep" "rtlcss")
+  (dict "label" "PostCSS CLI" "dep" "postcss" "desc" "Installed globally." "icon" "postcss" "iconColor" "#DD3A0A")
+  (dict "label" "Autoprefixer" "dep" "autoprefixer" "desc" "Installed globally." "icon" "autoprefixer" "iconColor" "#DD3735")
+  (dict "label" "PurgeCSS" "dep" "purgecss" "icon" "purgecss" "desc" "Installed globally.")
+  (dict "label" "RTLCSS" "dep" "rtlcss" "desc" "Installed globally.")
   (dict "label" "Deploy" "dep" "deploy" "desc" `"hugo deploy"`)
   (dict "label" "HTML Proofer" "dep" "html-proofer")
-  (dict "label" "Nightly" "dep" "nightly" "desc" "Nightly build")
+  (dict "label" "Nightly" "dep" "nightly" "desc" "Nightly build.")
 }}
 <div class="container mt-3 mt-md-5">
   <div class="row">
     <div class="col-12 mb-3">
-      <div class="container-fluid">
-        <form class="row" id="choose-form">
-          {{- range $features }}
+      <div class="container-fluid pb-3 border-bottom">
+        <form class="row gy-2" id="choose-form">
+          {{- range $feature := $features }}
             {{- $id := anchorize .label }}
-            <div class="form-check col-6 col-md-4 col-lg-3">
+            <div class="form-check col-auto me-3">
               <input class="form-check-input" type="checkbox" value="" id="{{ $id }}" data-dep="{{ .dep }}">
               <label class="form-check-label" for="{{ $id }}">
+                {{- with .icon }}
+                  {{ partial "icons/icon" (dict "vendor" (default "simple" $feature.iconVendor) "name" . "color" (default "" $feature.iconColor)) }}
+                {{- end }}
                 {{ .label }}
                 {{- with .desc }}
                   <span data-bs-title="{{ . }}" data-bs-toggle="tooltip" data-bs-placement="auto">
@@ -42,7 +44,7 @@
     </div>
     <div class="col-12">
       {{- $tags := sort (index site.Data "docker-image-tags") "name" }}
-      <div class="search-stats mb-2">Found <span id="image-count" class="text-primary">{{ len $tags }}</span> images.</div>
+      <div class="search-stats mb-2 text-body-secondary">Found <span id="image-count" class="text-primary">{{ len $tags }}</span> image tag(s).</div>
       <table class="table table-bordered table-hover">
         {{- range $tags }}
           <tr>
@@ -56,13 +58,14 @@
               data-html-proofer="{{ cond .htmlProofer 1 0 }}"
               data-git="{{ cond .git 1 0 }}"
               data-go="{{ cond .go 1 0 }}"
+              data-minimal="{{ cond .minimal 1 0 }}"
+              data-nightly="{{ cond .nightly 1 0 }}"
               data-node="{{ cond .nodejs 1 0 }}"
               data-non-root="{{ cond .nonRoot 1 0 }}"
               data-pandoc="{{ cond .pandoc 1 0 }}"
               data-postcss="{{ cond .postcss 1 0 }}"
               data-purgecss="{{ cond .purgecss 1 0 }}"
-              data-rtlcss="{{ cond .rtlcss 1 0 }}"
-              data-nightly="{{ cond .nightly 1 0 }}">
+              data-rtlcss="{{ cond .rtlcss 1 0 }}">
               <code class="me-1 user-select-all">{{ .name }}</code>
               <div class="ms-auto me-1 d-none d-md-block">
                 {{ with .extended }}

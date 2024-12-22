@@ -7,6 +7,7 @@
 
 - name: base
   extended: true
+  minimal: true
 
 - name: ci
   extended: true
@@ -132,6 +133,7 @@
   git: true
 
 - name: std-base
+  minimal: true
 
 - name: std-ci
   go: true
@@ -229,6 +231,7 @@
 - name: base-non-root
   extended: true
   nonRoot: true
+  minimal: true
 
 - name: ci-non-root
   extended: true
@@ -372,6 +375,7 @@
 
 - name: std-base-non-root
   nonRoot: true
+  minimal: true
 
 - name: std-ci-non-root
   go: true
