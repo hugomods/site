@@ -1,7 +1,12 @@
 - title: Is it an official image?
   show: true
   content: |
-    **No**, it's not.
+    **No**, it's a community project.
+
+- title: What is the minimal image?
+  show: true
+  content: |
+    The minimal images are begin with `base` (extended edition) and `std-base` (standard edition).
 
 - title: Why do root and non-root images coexist?
   show: true

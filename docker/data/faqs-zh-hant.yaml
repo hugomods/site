@@ -1,7 +1,12 @@
 - title: 這是官方鏡像嗎？
   show: true
   content: |
-    **不是**。
+    **不是**，這是一個社區項目。
+
+- title: 最小鏡像是什麼？
+  show: true
+  content: |
+    最小圖像以 `base`（擴展版）和 `std-base`（標準版）開頭。
 
 - title: 為什麼根用戶和非根用戶鏡像共存？
   show: true

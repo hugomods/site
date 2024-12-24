@@ -1,7 +1,12 @@
 - title: 这是官方镜像吗？
   show: true
   content: |
-    **不是**。
+    **不是**，这是一个社区项目。
+
+- title: 最小镜像是什么？
+  show: true
+  content: |
+    最小图像以 `base`（扩展版）和 `std-base`（标准版）开头。
 
 - title: 为什么根用户和非根用户镜像共存？
   show: true
