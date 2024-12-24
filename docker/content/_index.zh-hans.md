@@ -1,6 +1,7 @@
 ---
 title: Hugo Docker 镜像
-description: "极简、最新的 Hugo Docker 镜像，其包含多种变体，如扩展版本、Non-root、Git、Go、Node.js、NPM、Yarn、Dart Sass、AsciiDoc、Pandoc、每日构建等。"
+description: |
+  自动化和最新的社区 Hugo Docker 镜像，具有从极简到全面的各种标签，如标准版和扩展版、根和非根、Git、Go、Node.js、NPM、Yarn、Dart Sass、AsciiDoc、Pandoc、每日构建等。
 layout: landing
 full_width: true
 nav_icon:
