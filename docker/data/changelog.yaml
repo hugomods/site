@@ -7,29 +7,44 @@
 - date: 2024-12-10
   since: 0.139.4
   content:
-    en: Use prebuilt Dart Sass instead, to get rid of using `alpine:edge` image.
-    zh-hans: 改用预构建的 Dart Sass，以避免使用 `alpine:edge` 镜像。
-    zh-hant: 改用預構建的 Dart Sass，以避免使用 `alpine:edge` 鏡像。
+    en: |
+      Use prebuilt Dart Sass instead, to get rid of using `alpine:edge` image.
+      > [!NOTE]
+      > Only images include Dart Sass were affected, since other images aren't base on `alpine:edge`.
+    zh-hans: |
+      改用预构建的 Dart Sass，以避免使用 `alpine:edge` 镜像。
+      > [!NOTE]
+      > 只有包含 Dart Sass 的镜像会受到影响，因为其他镜像并不基于 `alpine:edge`。
+    zh-hant: |
+      改用預構建的 Dart Sass，以避免使用 `alpine:edge` 鏡像。
+      > [!NOTE]
+      > 只有包含 Dart Sass 的鏡像會受到影響，因為其他鏡像並不基於 `alpine:edge`。
 
 - date: 2024-11-05
   since: 0.137.0
   content:
-    en: "The [deploy feature](https://gohugo.io/hosting-and-deployment/hugo-deploy/) is available only on `ci*` tags since `0.137.0`."
-    zh-hans: "[部署功能](https://gohugo.io/hosting-and-deployment/hugo-deploy/) 仅在 `ci*` 标签上可用。"
-    zh-hant: "[部署功能](https://gohugo.io/hosting-and-deployment/hugo-deploy/) 僅在 `ci*` 標籤上可用。"
+    en: |
+      Since the [deploy feature](https://gohugo.io/hosting-and-deployment/hugo-deploy/) wasn't included into Hugo by default since `0.137.0`,
+      but it make sense to include it into the `ci*` tags, please use `ci*` tags instead if you need the deploy feature.
+    zh-hans: |
+      自 `0.137.0`，Hugo 默认不带有[部署功能](https://gohugo.io/hosting-and-deployment/hugo-deploy/)，但将其添加到 `ci*` 标签是有意义的。
+      若你需要该部署功能，请使用 `ci*` 标签。
+    zh-hant: |
+      自 `0.137.0`，Hugo 默認不帶有[部署功能](https://gohugo.io/hosting-and-deployment/hugo-deploy/)，但將其添加到 `ci*` 標籤是有意義的。
+      若你需要該部署功能，請使用 `ci*` 標籤。
 
 - date: 2024-10-20
   since: 0.136.2
   content:
     en: |
-      If the `entrypoint` command is not a system command inside a container, then it will be treated as a Hugo subcommand.
-      And `hugo server` now binds `0.0.0.0` by default.
+      - If the `entrypoint` command is not a system command inside a container, then it will be treated as a Hugo subcommand.
+      - `hugo server` now binds `0.0.0.0` by default.
     zh-hans: |
-      若 `entrypoint` 命令不是容器内的系统命令，则会被当作一个 Hugo 自命令。
-      `hugo server` 现在默认绑定 `0.0.0.0`。
+      - 若 `entrypoint` 命令不是容器内的系统命令，则会被当作一个 Hugo 自命令。
+      - `hugo server` 现在默认绑定 `0.0.0.0`。
     zh-hant: |
-      若 `entrypoint` 命令不是容器內的系統命令，則會被當作一個 Hugo 自命令。
-      `hugo server` 現在默認綁定 `0.0.0.0`。
+      - 若 `entrypoint` 命令不是容器內的系統命令，則會被當作一個 Hugo 自命令。
+      - `hugo server` 現在默認綁定 `0.0.0.0`。
 
 - date: 2024-10-17
   since: 0.136.1
