@@ -45,6 +45,9 @@ json_ld:
   {{< bs/btn-link url="#faqs" size=lg style=info class="p-3" >}}
     {{< icons/icon vendor=bs name=question-circle size=.8em >}} 常見問題
   {{< /bs/btn-link >}}
+  {{< bs/btn-link url="docs/changelog" size=lg style=warning class="p-3" >}}
+    {{< icons/icon vendor=bs name=clock-history size=.8em >}} 變更日誌
+  {{< /bs/btn-link >}}
 {{< /html/div >}}
 
 {{< /bs/col >}}
