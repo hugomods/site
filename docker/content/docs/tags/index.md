@@ -19,8 +19,8 @@ tags:
 
 ## Explanations
 
-- **Extended** represents the **extended** version of Hugo.
-- Image tags start with **std** represent the **standard** version of Hugo.
+- **Extended** represents the **extended** edition of Hugo.
+- Image tags start with **std** represent the **standard** edition of Hugo.
 - Image tags end with **exts** include not only the tools listed below, but also **Embedded Dart Sass**, **PostCSS CLI**, **Autoprefixer**, **PurgeCSS**, **RTLCSS**, **AsciiDoc** and **Pandoc**.
 - Image tags contain `node-lts` represent the **LTS** (long time support) version of Node.js.
 - Image tags contain `non-root` indicate the default user is non root [`hugo`]({{< relref "/docs/introduction#the-hugo-user" >}}).
