@@ -56,7 +56,7 @@ require (
 	github.com/hbstack/header/modules/apps v0.2.1 // indirect
 	github.com/hbstack/header/modules/banner v0.7.2 // indirect
 	github.com/hbstack/header/modules/git-org v0.2.5 // indirect
-	github.com/hbstack/header/modules/git-repo v0.4.2 // indirect
+	github.com/hbstack/header/modules/git-repo v0.4.3 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.26 // indirect
 	github.com/hbstack/header/modules/news v0.3.1 // indirect
 	github.com/hbstack/header/modules/search v0.1.38 // indirect
