@@ -120,6 +120,7 @@ github.com/hbstack/header/modules/banner v0.7.2 h1:dVWPeEKPhKMfoB01cUgjuNiwbj44A
 github.com/hbstack/header/modules/banner v0.7.2/go.mod h1:thQa57Ru9HU7cV6/2qMwk3iIiFqm3Rto1zM6BOhM/+M=
 github.com/hbstack/header/modules/git-org v0.2.4 h1:DCzM4CtAbLvkj7JmWFrHgl0dBEufiGZaVq2FrIrFF/w=
 github.com/hbstack/header/modules/git-org v0.2.4/go.mod h1:eKRkONN9G4auuxX57ACObAWYpo8xHIEIWlctHj7rZjk=
+github.com/hbstack/header/modules/git-org v0.2.5/go.mod h1:V0AavvXr7FahCFBzrfi0L5nLmHXacv3T++Cr6VVpy+0=
 github.com/hbstack/header/modules/git-repo v0.4.2 h1:xFDRtXLIth3DgybMgSQGLV5tlGmLD3EkHM+bI1PEBZ4=
 github.com/hbstack/header/modules/git-repo v0.4.2/go.mod h1:1ZoUL7RSVxEg2UpT6keHF7ZfRk/paLvpafNd2xbHYIM=
 github.com/hbstack/header/modules/language-picker v0.1.26 h1:iu/PtI6ckZt/6o7ekzcpFZYZEwRsNM/rxRuqRrAr0m0=
