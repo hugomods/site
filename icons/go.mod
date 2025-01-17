@@ -137,7 +137,7 @@ require (
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v8.0.1+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
-	github.com/lipis/flag-icons v7.3.1+incompatible // indirect
+	github.com/lipis/flag-icons v7.3.2+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.7.0 // indirect
 	github.com/tabler/tabler-icons v3.28.1+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.3+incompatible // indirect
