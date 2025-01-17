@@ -2,6 +2,7 @@ github.com/GoogleChrome/workbox v7.3.0+incompatible h1:P0VEW4ZF9li7dLLOsB3wknFhV
 github.com/GoogleChrome/workbox v7.3.0+incompatible/go.mod h1:dyEoGLpJeO43pUVJb+nNNr1WRgoF81hNEl4UGLV+yow=
 github.com/KaTeX/KaTeX v0.16.20 h1:2Yt5TdKUS4CwopMDwkcMY1fH40BvilTabIsEaisMEC0=
 github.com/KaTeX/KaTeX v0.16.20/go.mod h1:VI+aE+CVs/VqtbHnuhstfQST46GmrwpXH7LQAzYIouw=
+github.com/KaTeX/KaTeX v0.16.21/go.mod h1:VI+aE+CVs/VqtbHnuhstfQST46GmrwpXH7LQAzYIouw=
 github.com/Templarian/MaterialDesign-SVG v7.4.47+incompatible h1:w99yYrLvkTj5A9Dxd8mzNoFQpOBx9aRS03RrrqjzLuw=
 github.com/Templarian/MaterialDesign-SVG v7.4.47+incompatible/go.mod h1:SRSiaLOZazGp4UpKPQRm37h4A3cKLHXaybAqaJ7Lfx8=
 github.com/desandro/masonry v4.2.2+incompatible h1:4LI69kwq5DJSF9jhHVGfCw+q2Nt3IgJ0KzEp19Z3YiA=
@@ -258,6 +259,7 @@ github.com/razonyang/hb-mod-thanks v0.7.0 h1:eJv3vwjerg/ZpZPLToPY1RDHjoe6/Th/c1Y
 github.com/razonyang/hb-mod-thanks v0.7.0/go.mod h1:31Ugh+Mh9ZBtwRbApmayL9JaPC26WHHoynPXcOGZueo=
 github.com/tabler/tabler-icons v3.28.1+incompatible h1:/4M5PD1oIJf8H7d95rIQRkTawlRMosYp7yhqLkladUk=
 github.com/tabler/tabler-icons v3.28.1+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
+github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.3.3+incompatible h1:goFoqinzdHfkeegpFP7pvhbd0g+A3O2hbU3XCjuNrEQ=
 github.com/twbs/bootstrap v5.3.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.11.3 h1:XhvrQ1XDom9ggBbQx3wQCFGEr8qAQwQP/dAcw8OXMtA=
