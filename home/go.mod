@@ -56,7 +56,7 @@ require (
 	github.com/hbstack/header/modules/apps v0.2.1 // indirect
 	github.com/hbstack/header/modules/banner v0.7.2 // indirect
 	github.com/hbstack/header/modules/git-org v0.2.5 // indirect
-	github.com/hbstack/header/modules/git-repo v0.4.2 // indirect
+	github.com/hbstack/header/modules/git-repo v0.4.3 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.26 // indirect
 	github.com/hbstack/header/modules/news v0.3.1 // indirect
 	github.com/hbstack/header/modules/search v0.1.38 // indirect
@@ -109,7 +109,7 @@ require (
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.11.2 // indirect
 	github.com/hugomods/katex v0.3.6 // indirect
-	github.com/hugomods/kroki v0.1.4 // indirect
+	github.com/hugomods/kroki v0.1.5 // indirect
 	github.com/hugomods/lucide-icons v0.331.0 // indirect
 	github.com/hugomods/masonry-js v0.1.0 // indirect
 	github.com/hugomods/mermaid v0.1.4 // indirect
@@ -117,6 +117,7 @@ require (
 	github.com/hugomods/minimal-google-analytics v0.2.0 // indirect
 	github.com/hugomods/pwa v0.9.0 // indirect
 	github.com/hugomods/search v0.19.0 // indirect
+	github.com/hugomods/search-index v0.1.1 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.1 // indirect
 	github.com/hugomods/seo/modules/base v0.1.3 // indirect
 	github.com/hugomods/seo/modules/favicons v0.2.2 // indirect
