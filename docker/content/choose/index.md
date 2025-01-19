@@ -1,6 +1,6 @@
 ---
 title: Choose a Hugo Docker image
-description: Filter Hugo Docker images by selecting features.
+description: Filter Hugo Docker images by checking features.
 layout: landing
 full_width: true
 menu:
