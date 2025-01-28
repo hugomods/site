@@ -209,6 +209,7 @@ github.com/hugomods/katex v0.3.6 h1:Xl7ruiXuwvEGlz3H02w24B0zRGtHcL4sMc11Ke/aMFE=
 github.com/hugomods/katex v0.3.6/go.mod h1:6ACkMfCEOjLIRwcbS33Yji29C113+zGdBF/5oMfWfZI=
 github.com/hugomods/kroki v0.1.5 h1:OIqn0VWYQQ92HHmn6SacZt/UB93qQj76nOHpObOb8TA=
 github.com/hugomods/kroki v0.1.5/go.mod h1:1ITYc/pGsNaxX5hwTqlM5BFeO1kLPvZ4L2f6Y2B/Ypg=
+github.com/hugomods/kroki v0.2.0/go.mod h1:1ITYc/pGsNaxX5hwTqlM5BFeO1kLPvZ4L2f6Y2B/Ypg=
 github.com/hugomods/lucide-icons v0.331.0 h1:DsQXjp+n2ymvpeWS7Lu7os51lxygsdr7ysu0H5PrDXM=
 github.com/hugomods/lucide-icons v0.331.0/go.mod h1:7loUmJrnD5umJ2sWSCb3AffZt0fYnSc1I+yBRjgHgw8=
 github.com/hugomods/masonry-js v0.1.0 h1:mZagvVEWsgyIFViMY1ZkOOJfdFV5D76eB99SHgwhbRU=
