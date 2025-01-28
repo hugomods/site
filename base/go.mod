@@ -109,7 +109,7 @@ require (
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.11.2 // indirect
 	github.com/hugomods/katex v0.3.6 // indirect
-	github.com/hugomods/kroki v0.1.5 // indirect
+	github.com/hugomods/kroki v0.2.0 // indirect
 	github.com/hugomods/lucide-icons v0.331.0 // indirect
 	github.com/hugomods/masonry-js v0.1.0 // indirect
 	github.com/hugomods/mermaid v0.1.4 // indirect
