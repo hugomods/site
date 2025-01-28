@@ -14,6 +14,6 @@
 - name: _output
   default: inline
   description:
-    default: "The type of output: `inline`, `embed`."
-    zh-hans: 输出的类型：`inline`、`embed`。
-    zh-hant: 輸出的類型：`inline`、`embed`。
+    default: "The type of output: `inline`, `embed`, `img`, `object`."
+    zh-hans: 输出的类型：`inline`、`embed`、`img`、`object`。
+    zh-hant: 輸出的類型：`inline`、`embed`、`img`、`object`。
