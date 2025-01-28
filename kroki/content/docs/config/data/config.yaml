@@ -8,9 +8,9 @@
 - name: params.kroki.output 
   default: inline
   description:
-    default: "The `inline` generates inline `<svg>` element, while `embed` generates `<embed>` element."
-    zh-hans: "`inline` 生成内联的 `<svg>` 元素，`embed` 则生成 `<embed>` 元素。"
-    zh-hant: "`inline` 生成內聯的 `<svg>` 元素，`embed` 則生成 `<embed>` 元素。"
+    default: "The `inline` generates inline `<svg>` element, while `embed` / `img` / `object` generates `<embed>` / `<img>` / `<object>` element."
+    zh-hans: "`inline` 生成内联的 `<svg>` 元素，`embed` / `img` / `object` 则生成 `<embed>` / `<img>` / `<object>` 元素。"
+    zh-hant: "`inline` 生成內聯的 `<svg>` 元素，`embed` / `img` / `object` 則生成 `<embed>` / `<img>` / `<object>` 元素。"
   options:
     - inline
     - embed
