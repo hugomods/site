@@ -139,7 +139,7 @@ require (
 	github.com/krisk/Fuse v7.1.0+incompatible // indirect
 	github.com/lipis/flag-icons v7.3.2+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.7.0 // indirect
-	github.com/tabler/tabler-icons v3.30.0+incompatible // indirect
+	github.com/tabler/tabler-icons v3.31.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.3+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )
