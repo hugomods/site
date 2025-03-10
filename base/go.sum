@@ -440,6 +440,7 @@ github.com/hugomods/echarts v0.1.4 h1:SsuUw+Plrn0Sbc5VPYED3eDV7KVL+hROjlrJHeU0bl
 github.com/hugomods/echarts v0.1.4/go.mod h1:poeQoMyvS7liUEBNc2+h5YoI0ih2W0bxtyJdYZvhQuM=
 github.com/hugomods/encoder v0.1.0 h1:RIS+pL3F4BHe4WVeYNHeDwbckV60qr9ISI3uM3Qs9yE=
 github.com/hugomods/encoder v0.1.0/go.mod h1:WczOOUq8lPosgSx1b7MXe3MXGighn2goeEFiuqw4ciY=
+github.com/hugomods/encoder v0.1.1/go.mod h1:WczOOUq8lPosgSx1b7MXe3MXGighn2goeEFiuqw4ciY=
 github.com/hugomods/encrypt v0.2.0 h1:mlwrKPahAcotlYSSso5GZQgLoMeHNPwIAdxD0m/459E=
 github.com/hugomods/encrypt v0.2.0/go.mod h1:5oezB6nFUpiCPmLRBP9mvqCUqa+4NNEyCVifTDCTv4U=
 github.com/hugomods/encrypt v0.3.0/go.mod h1:UyB9I6U9mcFYCK3qiykiOOElUsR+p8HMlfidNy1PLbs=
