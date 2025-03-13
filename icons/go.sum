@@ -140,6 +140,7 @@ github.com/hbstack/shortcodes v0.2.0 h1:8VMkMCeVnJaqq4wCwJ5vTx7UCRGMsR1cnd6HY20W
 github.com/hbstack/shortcodes v0.2.0/go.mod h1:ZCAwPTlacmU57caw5bffiB6Lo4bPzprGfMOBWWJIDjI=
 github.com/hbstack/slide v0.4.0 h1:rWrbEmL1bKW1VF1coMtMblDUwzMvVcm1MgvauFX6vMg=
 github.com/hbstack/slide v0.4.0/go.mod h1:5LOWGyawNzSWFlW+3kuUBSrK15kottNvolEc7FVcYVg=
+github.com/hbstack/slide v0.4.1/go.mod h1:/K79cb1nsgmh+FhvvpdqmDje9AhROgDp+/uzWPdR764=
 github.com/hbstack/snackbar v0.1.2 h1:/9R2CdWnLcOBobxzdpe30cgM1gcKJAXtbVbZtp2pgmY=
 github.com/hbstack/snackbar v0.1.2/go.mod h1:4uZSGpI9ZtR9by0bA8yJW2y61sRks2W4a8VvyMluXuo=
 github.com/hbstack/socials v0.17.2 h1:iv7KCdveM1ZkE19qQVIJzvfBpLx7U1XfoK+sKN6wUuY=
