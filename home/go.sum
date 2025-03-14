@@ -106,6 +106,7 @@ github.com/hbstack/header/modules/git-repo v0.4.3 h1:Qd77KUYteh4sG9D+E3dCrJAKh5H
 github.com/hbstack/header/modules/git-repo v0.4.3/go.mod h1:Xs1CQnU+jNCc/2ZlWuIyDLBiYcAS8WHAwql2IygwXLY=
 github.com/hbstack/header/modules/language-picker v0.1.26 h1:iu/PtI6ckZt/6o7ekzcpFZYZEwRsNM/rxRuqRrAr0m0=
 github.com/hbstack/header/modules/language-picker v0.1.26/go.mod h1:/U3czl4OdnIVkThN1hb1r0HCElgeCr4rZx0Rl/TCGME=
+github.com/hbstack/header/modules/language-picker v0.2.0/go.mod h1:opUZ/a9pSxmdAj41mv6M854F9u9XxbEsxUfQuNZx4DU=
 github.com/hbstack/header/modules/news v0.3.1 h1:V/7/MRHvf+7JZFhRl2iEVmITRCFs0LlEo/dwheL2QI4=
 github.com/hbstack/header/modules/news v0.3.1/go.mod h1:NYVggMts57N4lIKmF/qVjOaln2aVxiuPL52nERwT8UM=
 github.com/hbstack/header/modules/search v0.1.38 h1:B+deLNUyn1F6DiEEIviu1IlOnykaQ1YEezOa8kljSsM=
