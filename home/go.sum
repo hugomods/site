@@ -237,6 +237,7 @@ github.com/hugomods/search v0.19.0 h1:SQoSJoX9EbcnH1m3+IiAv99lSg8C+iCHpZguU9Wbyg
 github.com/hugomods/search v0.19.0/go.mod h1:xPnDGjP/HCdEWJrJBwwdI2mEtdxFxp+wHBwSl/r2m00=
 github.com/hugomods/search v0.19.1/go.mod h1:xPnDGjP/HCdEWJrJBwwdI2mEtdxFxp+wHBwSl/r2m00=
 github.com/hugomods/search v0.19.2/go.mod h1:xPnDGjP/HCdEWJrJBwwdI2mEtdxFxp+wHBwSl/r2m00=
+github.com/hugomods/search v0.20.0/go.mod h1:xPnDGjP/HCdEWJrJBwwdI2mEtdxFxp+wHBwSl/r2m00=
 github.com/hugomods/search-index v0.1.1 h1:jAJ+Gu0nzCq/bbjEeJQcI1gLgqJOn+RHnTf9Sp1go2w=
 github.com/hugomods/search-index v0.1.1/go.mod h1:2owtATJ1XxWAvK/trnNoUC1EoBimAtRYVa7F+JO/s9c=
 github.com/hugomods/search-index v0.1.2/go.mod h1:2owtATJ1XxWAvK/trnNoUC1EoBimAtRYVa7F+JO/s9c=
