@@ -339,3 +339,11 @@
     default: Whether to fetch raw files from jsDelivr instead of GitHub repository, could be faster but may experience the cache issue (new changes may not be reflected timely).
     zh-hans: 是否通过 jsDelivr 而非 GitHub 仓库读取原始文件，更快但可能存在缓存问题（新改动可能无法实时反馈）。
     zh-hant: 是否通過 jsDelivr 而非 GitHub 倉庫讀取原始文件，更快但可能存在緩存問題（新改動可能無法實時反饋）。
+
+- name: maxHeight
+  type: number
+  since: 0.25.0
+  description:
+    default: Max height.
+    zh-hans: 最大高度。
+    zh-hant: 最大高度。
