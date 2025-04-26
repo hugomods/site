@@ -28,6 +28,7 @@
   show: true
   content: |
     我過去長期使用 `klakegg/hugo`，並對它感到滿意，然而其似乎已經不再維護了，於是乎我創建了一個可自動更新的鏡像，以滿足我的需求。
+    現在官方的 Docker 鏡像可以在 [ghcr.io/gohugoio/hugo](https://github.com/gohugoio/hugo/pkgs/container/hugo) 上找到。
 
 - title: 支持哪些架構？
   show: true
