@@ -49,5 +49,5 @@ require (
 	github.com/hugomods/search v0.20.0 // indirect
 	github.com/hugomods/shortcodes v0.25.0 // indirect
 	github.com/razonyang/hb-mod-thanks v0.7.0 // indirect
-	github.com/twbs/icons v1.11.4 // indirect
+	github.com/twbs/icons v1.12.1 // indirect
 )
