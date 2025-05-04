@@ -140,5 +140,5 @@ require (
 	github.com/swagger-api/swagger-ui v5.21.0+incompatible // indirect
 	github.com/tabler/tabler-icons v3.31.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.5+incompatible // indirect
-	github.com/twbs/icons v1.11.4 // indirect
+	github.com/twbs/icons v1.12.1 // indirect
 )
