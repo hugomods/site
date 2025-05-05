@@ -136,6 +136,6 @@ require (
 	github.com/krisk/Fuse v7.1.0+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.7.0 // indirect
 	github.com/tabler/tabler-icons v3.31.0+incompatible // indirect
-	github.com/twbs/bootstrap v5.3.5+incompatible // indirect
+	github.com/twbs/bootstrap v5.3.6+incompatible // indirect
 	github.com/twbs/icons v1.12.1 // indirect
 )
