@@ -24,7 +24,9 @@ tags:
 
 ## 更換工作目錄
 
-然後更換工作目錄為 `docker/hugo`，其餘步驟均於該目錄下進行。
+> 以构建基于 Alpine 的镜像为例。
+
+然後更換工作目錄為 `docker/hugo/alpine`，其餘步驟均於該目錄下進行。
 
 {{< page-resource-content "data/cd" >}}
 

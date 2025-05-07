@@ -24,7 +24,9 @@ Firstly, you should fork the [repository](https://github.com/hugomods/docker), a
 
 ## Change Directory
 
-And then change the current working directory to `docker/hugo`, the rest of steps are performed under this directory.
+> Take building Alpine based images as an exmaple.
+
+And then change the current working directory to `docker/hugo/alpine`, the rest of steps are performed under this directory.
 
 {{< page-resource-content "data/cd" >}}
 
