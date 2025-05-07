@@ -46,7 +46,7 @@
     </div>
     <div class="col-12">
       {{- $tags := sort (index site.Data "docker-image-tags") "name" }}
-      <div class="search-stats mb-2 text-body-secondary">Found <span id="image-count" class="text-primary">{{ len $tags }}</span> image tag(s).</div>
+      <div class="search-stats mb-2 text-body-secondary">Found <span id="image-count" class="text-primary">{{ len $tags | mul 2 }}</span> image tag(s).</div>
       <p class="text-body-secondary mb-2">If you prefer using GitHub registry over than Docker Hub, please replace the <code>docker.io</code> with <code>ghcr.io</code>.</p>
       <table class="table table-bordered table-hover table-striped">
         <tr>
