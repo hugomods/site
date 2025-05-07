@@ -33,6 +33,7 @@ tags:
 
 Hugo Docker 鏡像標籤選擇順序如下：
 
+1. 需要基於 Debian 的鏡像，則選擇帶有 `debian` 前綴的標籤，比如說 Playwright 並不原生支持 Alpine。
 1. 需要每日構建版本，則選擇 `nightly*` 標籤。
 1. 需要 **Dart Sass**，則選擇帶有 **Dart Sass** 標籤。
 1. 需要 **LibSass** 或圖片處理時用到 **WebP** 格式，則選擇帶有 **Extended**（不帶 **std** 前綴）的標籤。

@@ -17,7 +17,7 @@ tags:
 
 ## Base Image
 
-All images are [Alpine](https://hub.docker.com/_/alpine) based.
+All images are [Alpine](https://hub.docker.com/_/alpine) and [Debian](https://hub.docker.com/_/debian) based (with leading `debian`).
 
 ## Minimal Image Tags
 

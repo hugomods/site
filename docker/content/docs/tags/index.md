@@ -33,6 +33,7 @@ Please note that **PostCSS CLI**, **Autoprefixer**, **PurgeCSS** and **RTLCSS** 
 
 Hugo Docker image tags selection order as follows.
  
+1. Require Debian based images, then go for `debian` tags, for example, Playwright doesn't support Alpine natively.
 1. Require nightly build version, then go for `nightly*` tags.
 1. Require Dart Sass, then go for tags with **Dart Sass** enabled.
 1. Require **LibSass** or **WebP** format when processing images, then go for tags with **Extended** enabled (without **std** prefix).

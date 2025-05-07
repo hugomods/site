@@ -17,7 +17,7 @@ tags:
 
 ## 基础镜像
 
-所有镜像都是基于 [Alpine](https://hub.docker.com/_/alpine) 的。
+所有镜像都是基于 [Alpine](https://hub.docker.com/_/alpine) 和 [Debian](https://hub.docker.com/_/debian) 的，后者带有 `debian` 前缀。
 
 ## 最小的镜像标签
 

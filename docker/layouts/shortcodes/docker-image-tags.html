@@ -1,28 +1,35 @@
 {{- $checked := "☑" }}
 {{- $nodejsHeading := `<abbr title="Node.js that includes NPM and Yarn">Node.js</abbr>` }}
 {{- range index site.Data "docker-image-tags" }}
-  {{- printf "### `%s`\n" .name }}
-  {{- printf "![Size](https://img.shields.io/docker/image-size/hugomods/hugo/%s?style=flat-square&height=32)\n" .name }}
-  {{- printf "```sh\ndocker pull hugomods/hugo:%s\n```\n" .name }}
-  {{- if not (hasPrefix .name "nightly") }}
+  {{- $tag := . }}
+  {{- range slice "alpine" "debian" }}
+  {{- $tagName := printf "%s%s" (cond (eq . "debian") "debian-" "") $tag.name }}
+  {{- if and (eq $tag.name "latest") (eq . "debian") }}
+    {{- $tagName = "debian" }}
+  {{- end }}
+  {{- printf "### `%s`\n" $tagName }}
+  {{- printf "![Size](https://img.shields.io/docker/image-size/hugomods/hugo/%s?style=flat-square&height=32)\n" $tagName }}
+  {{- printf "```sh\ndocker pull docker.io/hugomods/hugo:%s\n```\n" $tagName }}
+  {{- if not (hasPrefix $tag.name "nightly") }}
     {{- printf "For specific version.\n" }}
-  {{- printf "```sh\ndocker pull hugomods/hugo:%s\n```\n" (cond (eq .name "latest") "<version>" (printf "%s-<version>" .name)) | safeHTML }}
+  {{- printf "```sh\ndocker pull docker.io/hugomods/hugo:%s\n```\n" (cond (eq $tag.name "latest") (cond (eq . "debian") "debian-<version>" "<version>") (printf "%s-<version>" $tagName)) | safeHTML }}
   {{- end }}
   {{- printf "| Extended | Non-root | Go  | %s | Git | Dart Sass | PostCSS | Autoprefixer | PurgeCSS | RTLCSS | AsciiDoc | Pandoc |\n" $nodejsHeading | safeHTML }}
   {{- printf "| :------: | :------: | :-: | :-----: | :-: | :-------: | :-----: | :----------: | :------: | :----: | :------: | :----: |\n" }}
   {{- printf "| %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s |"
-    (cond (default false .extended) $checked "-")
-    (cond (default false .nonRoot) $checked "-")
-    (cond (default false .go) $checked "-")
-    (cond (default false .nodejs) $checked "-")
-    (cond (default false .git) $checked "-")
-    (cond (default false .dartSass) $checked "-")
-    (cond (default false .postcss) $checked "-")
-    (cond (default false .autoprefixer) $checked "-")
-    (cond (default false .purgecss) $checked "-")
-    (cond (default false .rtlcss) $checked "-")
-    (cond (default false .asciiDoc) $checked "-")
-    (cond (default false .pandoc) $checked "-")
+    (cond (default false $tag.extended) $checked "-")
+    (cond (default false $tag.nonRoot) $checked "-")
+    (cond (default false $tag.go) $checked "-")
+    (cond (default false $tag.nodejs) $checked "-")
+    (cond (default false $tag.git) $checked "-")
+    (cond (default false $tag.dartSass) $checked "-")
+    (cond (default false $tag.postcss) $checked "-")
+    (cond (default false $tag.autoprefixer) $checked "-")
+    (cond (default false $tag.purgecss) $checked "-")
+    (cond (default false $tag.rtlcss) $checked "-")
+    (cond (default false $tag.asciiDoc) $checked "-")
+    (cond (default false $tag.pandoc) $checked "-")
   }}
   {{- printf "\n" }}
+  {{- end }}
 {{- end }}

@@ -1,3 +1,10 @@
+- date: 2025-05-07
+  since: 0.147.2
+  content:
+    en: Debian based tags are available now, put `debian-` at the beginning of the tag name to use Debian images.
+    zh-hans: 基于 Debian 的标签现已可用，于标签名开头添加 `debian-` 以使用 Debian 镜像。
+    zh-hant: 基於 Debian 的標籤現已可用，於標籤名開頭添加 `debian-` 以使用 Debian 鏡像。
+
 - date: 2024-12-13
   content:
     en: Nightly tags are available now, `nightly` and `nightly-non-root`.

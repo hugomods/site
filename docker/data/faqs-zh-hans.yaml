@@ -28,7 +28,7 @@
   show: true
   content: |
     我过去长期使用 `klakegg/hugo`，并对它感到满意，然而其似乎已经不再维护了，于是乎我创建了一个可自动更新的镜像，以满足我的需求。
-    现在官方的 Docker 镜像可以在 [ghcr.io/gohugoio/hugo](https://github.com/gohugoio/hugo/pkgs/container/hugo) 上找到。
+    顺便提一下，现在官方的 Docker 镜像可以在 [ghcr.io/gohugoio/hugo](https://github.com/gohugoio/hugo/pkgs/container/hugo) 上找到。
 
 - title: 支持哪些架构？
   show: true
@@ -43,9 +43,9 @@
 - title: 基础镜像是什么？
   show: true
   content: |
-    所有镜像均是构建于 [Alpine](https://hub.docker.com/_/alpine) 及其变体之上。
+    所有镜像均是构建于 [Alpine](https://hub.docker.com/_/alpine) 和 [Debian stable slim](https://hub.docker.com/_/debian) 以及他们变体之上。
 
 - title: 默认的 Shell 是什么？
   show: true
   content: |
-    默认的 Shell 为 `ash`（`/bin/sh`）。
+    基于 Alpine 的镜像的默认的 Shell 为 `ash`，基于 Debian 的镜像则为 `dash`。

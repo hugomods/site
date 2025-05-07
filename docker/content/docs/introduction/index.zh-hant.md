@@ -17,7 +17,7 @@ tags:
 
 ## 基礎鏡像
 
-所有鏡像都是基於 [Alpine](https://hub.docker.com/_/alpine) 的。
+所有鏡像都是基於 [Alpine](https://hub.docker.com/_/alpine) 和 [Debian](https://hub.docker.com/_/debian) 的，後者帶有 `debian` 前綴。
 
 ## 最小的鏡像標籤
 

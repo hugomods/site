@@ -1,4 +1,6 @@
 {{- $features := slice
+  (dict "label" "Alpine" "dep" "alpine" "desc" "Alpine based." "icon" "alpinelinux" "iconColor" "#0D597F")
+  (dict "label" "Debian" "dep" "debian" "desc" "Debian based." "icon" "debian" "iconColor" "#A81D33")
   (dict "label" "Minimal" "dep" "minimal" "desc" "Include Hugo only.")
   (dict "label" "WebP" "dep" "extended" "desc" "Image processing format.")
   (dict "label" "LibSass" "dep" "extended")
@@ -45,41 +47,48 @@
     <div class="col-12">
       {{- $tags := sort (index site.Data "docker-image-tags") "name" }}
       <div class="search-stats mb-2 text-body-secondary">Found <span id="image-count" class="text-primary">{{ len $tags }}</span> image tag(s).</div>
+      <p class="text-body-secondary mb-2">If you prefer using GitHub registry over than Docker Hub, please replace the <code>docker.io</code> with <code>ghcr.io</code>.</p>
       <table class="table table-bordered table-hover table-striped">
         <tr>
           <th>Name</th>
           <th>Size</th>
         </tr>
         {{- range $tags }}
+          {{- $tag := . }}
+          {{- range slice "alpine" "debian" }}
+          {{- $tagName := printf "%s%s" (cond (eq . "debian") "debian-" "") $tag.name }}
           <tr>
             <td
               class="docker-image d-flex justify-content-between w-100"
-              data-asciidoc="{{ cond .asciiDoc 1 0 }}"
-              data-autoprefixer="{{ cond .autoprefixer 1 0 }}"
-              data-dart-sass="{{ cond .dartSass 1 0 }}"
-              data-deploy="{{ cond .deploy 1 0 }}"
-              data-extended="{{ cond .extended 1 0 }}"
-              data-html-proofer="{{ cond .htmlProofer 1 0 }}"
-              data-git="{{ cond .git 1 0 }}"
-              data-go="{{ cond .go 1 0 }}"
-              data-minimal="{{ cond .minimal 1 0 }}"
-              data-nightly="{{ cond .nightly 1 0 }}"
-              data-node="{{ cond .nodejs 1 0 }}"
-              data-non-root="{{ cond .nonRoot 1 0 }}"
-              data-pandoc="{{ cond .pandoc 1 0 }}"
-              data-postcss="{{ cond .postcss 1 0 }}"
-              data-purgecss="{{ cond .purgecss 1 0 }}"
-              data-rtlcss="{{ cond .rtlcss 1 0 }}">
-              <code class="me-1 user-select-all">{{ .name }}</code>
+              data-alpine="{{ cond (eq . `alpine`) 1 0 }}"
+              data-asciidoc="{{ cond $tag.asciiDoc 1 0 }}"
+              data-autoprefixer="{{ cond $tag.autoprefixer 1 0 }}"
+              data-dart-sass="{{ cond $tag.dartSass 1 0 }}"
+              data-debian="{{ cond (eq . `debian`) 1 0 }}"
+              data-deploy="{{ cond $tag.deploy 1 0 }}"
+              data-extended="{{ cond $tag.extended 1 0 }}"
+              data-html-proofer="{{ cond $tag.htmlProofer 1 0 }}"
+              data-git="{{ cond $tag.git 1 0 }}"
+              data-go="{{ cond $tag.go 1 0 }}"
+              data-minimal="{{ cond $tag.minimal 1 0 }}"
+              data-nightly="{{ cond $tag.nightly 1 0 }}"
+              data-node="{{ cond $tag.nodejs 1 0 }}"
+              data-non-root="{{ cond $tag.nonRoot 1 0 }}"
+              data-pandoc="{{ cond $tag.pandoc 1 0 }}"
+              data-postcss="{{ cond $tag.postcss 1 0 }}"
+              data-purgecss="{{ cond $tag.purgecss 1 0 }}"
+              data-rtlcss="{{ cond $tag.rtlcss 1 0 }}">
+              <code class="me-1 user-select-all">docker.io/hugomods/hugo:{{ $tagName }}</code>
             </td>
             <td style="width: 120px;">
               <img
                 alt="size"
                 class="w-auto"
                 height="20"
-                src="https://img.shields.io/docker/image-size/hugomods/hugo/{{ .name }}?style=flat-square&color=1183c4&label=size" />
+                src="https://img.shields.io/docker/image-size/hugomods/hugo/{{ $tagName }}?style=flat-square&color=1183c4&label=size" />
             </td>
           </tr>
+          {{- end }}
         {{- end }}
       </table>
     </div>

@@ -18,10 +18,18 @@
     color: green
 
 - title: 極簡的
-  description: 我們提供多種變體鏡像以滿足你的需求，如**擴展版本**、**Non-root**、**Git**、**Go**、**Node.js**、**NPM**、**Yarn**、**Dart Sass** 等。
+  description: 我們提供多種變體鏡像(140+)以滿足你的需求，如**擴展版本**、**Non-root**、**Git**、**Go**、**Node.js**、**NPM**、**Yarn**、**Dart Sass** 等。
   icon:
     name: boxes
     className: text-primary
+
+- title: 多種操作系統
+  description: |
+    你可以選擇你喜歡的基礎鏡像，**Alpine** 或者 **Debian**。
+  icon:
+    name: computer
+    className: text-success
+    vendor: fas
 
 - title: 多個容器倉庫
   description: 所有鏡像會被推送到 [Docker Hub](https://hub.docker.com/r/hugomods/hugo) 和 [GitHub 容器倉庫](https://github.com/hugomods/docker/pkgs/container/hugo)。

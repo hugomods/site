@@ -18,10 +18,18 @@
     color: green
 
 - title: Minimal
-  description: We offer a wide range of images variants to suit your requirements, such as **extended** version, **Non-root**, **Git**, **Go**, **Node.js**, **NPM**, **Yarn**, **Dart Sass** etc.
+  description: We offer a wide range of images variants (140+) to suit your requirements, such as **extended** version, **Non-root**, **Git**, **Go**, **Node.js**, **NPM**, **Yarn**, **Dart Sass** etc.
   icon:
     name: boxes
     className: text-primary
+
+- title: Multiple OSes
+  description: |
+    You can pick up the base image you like, either **Alpine** or **Debian**.
+  icon:
+    name: computer
+    className: text-success
+    vendor: fas
 
 - title: Multiple Registries
   description: The images will be pushed to both [Docker Hub](https://hub.docker.com/r/hugomods/hugo) and [GitHub Container Registry](https://github.com/hugomods/docker/pkgs/container/hugo).
