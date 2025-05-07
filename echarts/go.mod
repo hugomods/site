@@ -132,7 +132,7 @@ require (
 	github.com/hugomods/umami-analytics v0.3.1 // indirect
 	github.com/hugomods/video-js v0.3.0 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
-	github.com/jakearchibald/idb v8.0.2+incompatible // indirect
+	github.com/jakearchibald/idb v8.0.3+incompatible // indirect
 	github.com/krisk/Fuse v7.1.0+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.7.0 // indirect
 	github.com/tabler/tabler-icons v3.31.0+incompatible // indirect
