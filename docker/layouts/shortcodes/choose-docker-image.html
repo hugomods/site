@@ -57,6 +57,9 @@
           {{- $tag := . }}
           {{- range slice "alpine" "debian" }}
           {{- $tagName := printf "%s%s" (cond (eq . "debian") "debian-" "") $tag.name }}
+          {{- if eq $tag.name "latest" }}
+            {{- $tagName = cond (eq . "debian") "debian" "latest" }}
+          {{- end }}
           <tr>
             <td
               class="docker-image d-flex justify-content-between w-100"
