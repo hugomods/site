@@ -20,6 +20,12 @@ weight = 3
 avatar_url = "https://avatars.githubusercontent.com/u/12122357?v=4"
 
 [[gold]]
+name = "Nathan McNulty"
+url = "https://github.com/nathanmcnulty"
+weight = 4
+avatar_url = "https://avatars.githubusercontent.com/u/6653432?v=4"
+
+[[gold]]
 name = "Support me on GitHub"
 url = "https://github.com/sponsors/razonyang"
 weight = 1
