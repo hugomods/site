@@ -180,6 +180,7 @@ github.com/hugomods/decap-cms v0.16.4/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkut
 github.com/hugomods/decap-cms v0.16.5 h1:hzebkkllvVrfBAX6YK7xyag0IqIsMSB/spLyyIyfvOc=
 github.com/hugomods/decap-cms v0.16.5/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/decap-cms v0.16.6/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
+github.com/hugomods/decap-cms v0.16.7/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/echarts v0.1.4 h1:SsuUw+Plrn0Sbc5VPYED3eDV7KVL+hROjlrJHeU0bl4=
 github.com/hugomods/echarts v0.1.4/go.mod h1:poeQoMyvS7liUEBNc2+h5YoI0ih2W0bxtyJdYZvhQuM=
 github.com/hugomods/encoder v0.1.0 h1:RIS+pL3F4BHe4WVeYNHeDwbckV60qr9ISI3uM3Qs9yE=
