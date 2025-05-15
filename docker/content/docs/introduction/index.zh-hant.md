@@ -68,4 +68,5 @@ tags:
 
 ## 默認 Shell
 
-因為鏡像是基於 Alpine 的，其默認 Shell 為 `ash`（`/bin/sh`）。
+基於 Alpine 的鏡像的默認的 Shell 為 `ash`，基於 Debian 的鏡像則為 `dash`。
+
