@@ -68,4 +68,5 @@ The `hugo server`/`server` will bind the `0.0.0.0` by default, unless the `--bin
 
 ## Default Shell
 
-Since images are Alpine based, the default shell is `ash` (`/bin/sh`).
+The default shell is `ash` on Alpine based images and `dash` on Debian based images.
+
