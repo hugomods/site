@@ -161,6 +161,7 @@ github.com/hugomods/google-analytics v0.2.0/go.mod h1:Q89C3HmPHn2m2VT1INfnLwkpDy
 github.com/hugomods/google-analytics v0.2.1/go.mod h1:Q89C3HmPHn2m2VT1INfnLwkpDyyYRLRIPitLA/aFIy8=
 github.com/hugomods/gravatar v0.2.0 h1:642HNhGN7Mw7qefNcUFJKzLoT2zJKt4IQkrS53mIUfA=
 github.com/hugomods/gravatar v0.2.0/go.mod h1:oATWuh5u2XUK/ZKzOD0VEP5I/TZfVZwplTyhT61Q4Fc=
+github.com/hugomods/gravatar v0.2.1/go.mod h1:oATWuh5u2XUK/ZKzOD0VEP5I/TZfVZwplTyhT61Q4Fc=
 github.com/hugomods/icons v0.6.2 h1:uESGgdnZ0NW/IPNfbGuq1dYG/p5XiqZ9R9CNq0Snr4c=
 github.com/hugomods/icons v0.6.2/go.mod h1:cIkSvK6W0q6N4U6n9KGz+QfRWQXAW0INd+1P31gPNGg=
 github.com/hugomods/icons v0.6.3/go.mod h1:cIkSvK6W0q6N4U6n9KGz+QfRWQXAW0INd+1P31gPNGg=

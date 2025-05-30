@@ -32,7 +32,7 @@ require (
 	github.com/hugomods/giscus v0.1.1 // indirect
 	github.com/hugomods/google-adsense v0.2.1 // indirect
 	github.com/hugomods/google-analytics v0.2.1 // indirect
-	github.com/hugomods/gravatar v0.2.0 // indirect
+	github.com/hugomods/gravatar v0.2.1 // indirect
 	github.com/hugomods/icons v0.6.6 // indirect
 	github.com/hugomods/icons/vendors/feather v0.2.7 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.12 // indirect
