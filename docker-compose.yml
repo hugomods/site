@@ -210,3 +210,7 @@ services:
   echarts-prod:
     extends: echarts
     command: npm run prod -- --bind 0.0.0.0
+
+volumes:
+  hugo_cache:
+    external: true
