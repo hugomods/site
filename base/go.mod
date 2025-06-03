@@ -16,7 +16,7 @@ require (
 	github.com/hbstack/base v0.6.2 // indirect
 	github.com/hbstack/bigger-picture v0.10.1 // indirect
 	github.com/hbstack/blockquote-alerts v0.1.1 // indirect
-	github.com/hbstack/blog v0.40.1 // indirect
+	github.com/hbstack/blog v0.40.2 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.23 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.21 // indirect
@@ -35,7 +35,7 @@ require (
 	github.com/hbstack/carousel v0.2.7 // indirect
 	github.com/hbstack/code-block-panel v0.1.2 // indirect
 	github.com/hbstack/content-panel v0.10.2 // indirect
-	github.com/hbstack/docs v0.23.0 // indirect
+	github.com/hbstack/docs v0.23.1 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.10 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.3.7 // indirect
@@ -94,7 +94,6 @@ require (
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.1 // indirect
 	github.com/hugomods/google-adsense v0.2.1 // indirect
-	github.com/hugomods/google-analytics v0.2.1 // indirect
 	github.com/hugomods/gravatar v0.2.1 // indirect
 	github.com/hugomods/hugopress v0.5.0 // indirect
 	github.com/hugomods/i18n-js v0.2.1 // indirect
@@ -107,7 +106,7 @@ require (
 	github.com/hugomods/icons/vendors/simple-icons v1.1.1 // indirect
 	github.com/hugomods/icons/vendors/tabler v0.15.53 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
-	github.com/hugomods/images v0.11.2 // indirect
+	github.com/hugomods/images v0.12.0 // indirect
 	github.com/hugomods/katex v0.3.6 // indirect
 	github.com/hugomods/kroki v0.2.0 // indirect
 	github.com/hugomods/lucide-icons v0.331.0 // indirect
@@ -117,6 +116,7 @@ require (
 	github.com/hugomods/minimal-google-analytics v0.2.0 // indirect
 	github.com/hugomods/pwa v0.9.0 // indirect
 	github.com/hugomods/search v0.20.0 // indirect
+	github.com/hugomods/search-index v0.1.2 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.1 // indirect
 	github.com/hugomods/seo/modules/base v0.1.3 // indirect
 	github.com/hugomods/seo/modules/favicons v0.2.2 // indirect
@@ -125,7 +125,7 @@ require (
 	github.com/hugomods/seo/modules/schema v0.1.3 // indirect
 	github.com/hugomods/seo/modules/translations v0.1.1 // indirect
 	github.com/hugomods/seo/modules/twitter-cards v0.1.1 // indirect
-	github.com/hugomods/shortcodes v0.25.0 // indirect
+	github.com/hugomods/shortcodes v0.25.1 // indirect
 	github.com/hugomods/simple-icons v13.21.0+incompatible // indirect
 	github.com/hugomods/site/common v0.0.0-00010101000000-000000000000 // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
@@ -135,7 +135,7 @@ require (
 	github.com/jakearchibald/idb v8.0.3+incompatible // indirect
 	github.com/krisk/Fuse v7.1.0+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.7.0 // indirect
-	github.com/tabler/tabler-icons v3.33.0+incompatible // indirect
+	github.com/tabler/tabler-icons v3.34.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.6+incompatible // indirect
 	github.com/twbs/icons v1.13.1 // indirect
 )
