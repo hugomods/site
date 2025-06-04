@@ -107,7 +107,7 @@ require (
 	github.com/hugomods/icons/vendors/simple-icons v1.1.1 // indirect
 	github.com/hugomods/icons/vendors/tabler v0.15.53 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
-	github.com/hugomods/images v0.12.0 // indirect
+	github.com/hugomods/images v0.12.1 // indirect
 	github.com/hugomods/katex v0.3.6 // indirect
 	github.com/hugomods/kroki v0.2.0 // indirect
 	github.com/hugomods/lucide-icons v0.331.0 // indirect
