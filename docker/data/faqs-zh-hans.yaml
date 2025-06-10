@@ -1,7 +1,9 @@
 - title: 这是官方镜像吗？
   show: true
   content: |
-    **不是**，这是一个社区项目。
+    - **不是**，这是一个社区项目。
+    - 顺便提一下，现在官方的 Docker 镜像可以在 [ghcr.io/gohugoio/hugo](https://github.com/gohugoio/hugo/pkgs/container/hugo) 上找到。
+    {.mb-0}
 
 - title: 最小镜像是什么？
   show: true
@@ -28,7 +30,6 @@
   show: true
   content: |
     我过去长期使用 `klakegg/hugo`，并对它感到满意，然而其似乎已经不再维护了，于是乎我创建了一个可自动更新的镜像，以满足我的需求。
-    顺便提一下，现在官方的 Docker 镜像可以在 [ghcr.io/gohugoio/hugo](https://github.com/gohugoio/hugo/pkgs/container/hugo) 上找到。
 
 - title: 支持哪些架构？
   show: true

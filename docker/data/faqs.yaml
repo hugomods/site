@@ -1,7 +1,9 @@
 - title: Is it an official image?
   show: true
   content: |
-    **No**, it's a community project.
+    - **No**, it's a community project.
+    - BTW, there is now an official Docker image available on [ghcr.io/gohugoio/hugo](https://github.com/gohugoio/hugo/pkgs/container/hugo).
+    {.mb-0}
 
 - title: What is the minimal image?
   show: true
@@ -29,7 +31,6 @@
   content: |
     I used `klakegg/hugo` in the past for a long time, and feel satisfied with it, however it seems that it is no longer maintained,
     so I created a new one with automated workflow to meet my needs.
-    BTW, there is now an official Docker image available on [ghcr.io/gohugoio/hugo](https://github.com/gohugoio/hugo/pkgs/container/hugo).
 
 - title: What architectures are supported?
   show: true
