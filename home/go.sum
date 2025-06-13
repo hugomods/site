@@ -213,6 +213,7 @@ github.com/hugomods/kroki v0.2.0 h1:pf/JHqFTM/buXysGNyMfpDAAer1lq2Wsac0vgPAYq68=
 github.com/hugomods/kroki v0.2.0/go.mod h1:1ITYc/pGsNaxX5hwTqlM5BFeO1kLPvZ4L2f6Y2B/Ypg=
 github.com/hugomods/lucide-icons v0.331.0 h1:DsQXjp+n2ymvpeWS7Lu7os51lxygsdr7ysu0H5PrDXM=
 github.com/hugomods/lucide-icons v0.331.0/go.mod h1:7loUmJrnD5umJ2sWSCb3AffZt0fYnSc1I+yBRjgHgw8=
+github.com/hugomods/lucide-icons v0.515.0/go.mod h1:7loUmJrnD5umJ2sWSCb3AffZt0fYnSc1I+yBRjgHgw8=
 github.com/hugomods/masonry-js v0.1.0 h1:mZagvVEWsgyIFViMY1ZkOOJfdFV5D76eB99SHgwhbRU=
 github.com/hugomods/masonry-js v0.1.0/go.mod h1:+RHcqWxaZ9R4Z0GeAji1WiQ006/VxR5RLhOLpfVypio=
 github.com/hugomods/mermaid v0.1.4 h1:/u0FZRSBMpqTbDh4XPBL7c6p0DUjvIkoo9cC89GASSI=
