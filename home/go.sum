@@ -209,6 +209,7 @@ github.com/hugomods/idb-js v0.1.0/go.mod h1:GPfnmr+BQpP4s6Epd4Yu+RlUog8q/Djw8qy8
 github.com/hugomods/images v0.12.0 h1:gBIQdfpNzVCFzhCztO5iJQaSq/kwYvhXG4vPUMLhMK8=
 github.com/hugomods/images v0.12.0/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
 github.com/hugomods/images v0.12.1/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
+github.com/hugomods/images v0.12.3/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
 github.com/hugomods/katex v0.3.6 h1:Xl7ruiXuwvEGlz3H02w24B0zRGtHcL4sMc11Ke/aMFE=
 github.com/hugomods/katex v0.3.6/go.mod h1:6ACkMfCEOjLIRwcbS33Yji29C113+zGdBF/5oMfWfZI=
 github.com/hugomods/kroki v0.2.0 h1:pf/JHqFTM/buXysGNyMfpDAAer1lq2Wsac0vgPAYq68=
