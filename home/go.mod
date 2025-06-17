@@ -139,6 +139,6 @@ require (
 	github.com/razonyang/hb-mod-thanks v0.7.0 // indirect
 	github.com/swagger-api/swagger-ui v5.24.2+incompatible // indirect
 	github.com/tabler/tabler-icons v3.34.0+incompatible // indirect
-	github.com/twbs/bootstrap v5.3.6+incompatible // indirect
+	github.com/twbs/bootstrap v5.3.7+incompatible // indirect
 	github.com/twbs/icons v1.13.1 // indirect
 )
