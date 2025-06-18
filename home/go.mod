@@ -137,7 +137,7 @@ require (
 	github.com/jakearchibald/idb v8.0.3+incompatible // indirect
 	github.com/krisk/Fuse v7.1.0+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.7.0 // indirect
-	github.com/swagger-api/swagger-ui v5.24.2+incompatible // indirect
+	github.com/swagger-api/swagger-ui v5.25.2+incompatible // indirect
 	github.com/tabler/tabler-icons v3.34.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.7+incompatible // indirect
 	github.com/twbs/icons v1.13.1 // indirect
