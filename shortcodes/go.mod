@@ -85,7 +85,7 @@ require (
 	github.com/hugomods/ascii v0.1.0 // indirect
 	github.com/hugomods/base v0.7.3 // indirect
 	github.com/hugomods/bootstrap v0.24.1 // indirect
-	github.com/hugomods/code-block-panel v0.8.0 // indirect
+	github.com/hugomods/code-block-panel v0.9.0 // indirect
 	github.com/hugomods/decap-cms v0.16.7 // indirect
 	github.com/hugomods/echarts v0.1.4 // indirect
 	github.com/hugomods/encoder v0.1.1 // indirect
