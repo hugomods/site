@@ -116,7 +116,7 @@ You can override the site parameters for particular code block by adding data at
 | `data-max-lines` | number | - | The maximum number of lines to show. |
 | `data-wrap` | boolean | - |  Whether to wrap the code by default, `true`/`1` or `false`/`0`. |
 
-````
+````markdown
 ```text {data-expand=true data-line-nos=false data-max-lines=3 data-wrap=true}
 LINE 1
 LINE 2
