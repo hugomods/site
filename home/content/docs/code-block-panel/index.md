@@ -105,6 +105,17 @@ max_lines = 10
 | `max_lines` | number  |  `10`   | The max visible lines.                 |
 | `wrap`      | boolean | `false` | When `true`, wrap the code by default. |
 
+## Code Block Attributes
+
+You can override the site parameters for particular code block by adding data attributes to the code block.
+
+| Name   |  Type   | Default | Description                                 |
+| ------ | :-----: | :-----: | ------------------------------------------- |
+| `data-expand` | boolean | - | Whether to expand the code by default, `true`/`1` means expand, `false`/`0` means not expand. |
+| `data-line-nos` | boolean | - | Whether to show line numbers by default, `true`/`1` means enabled, `false`/`0` means disabled. |
+| `data-max-lines` | number | - | The maximum number of lines to show. |
+| `data-wrap` | boolean | - |  Whether to wrap the code by default, `true`/`1` or `false`/`0`. |
+
 ## Examples
 
 ```html
