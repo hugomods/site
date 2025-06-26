@@ -23,7 +23,7 @@ require (
 	github.com/hbstack/meta/recommended v0.2.10 // indirect
 	github.com/hbstack/pagination v0.8.0 // indirect
 	github.com/hbstack/snackbar v0.1.2 // indirect
-	github.com/hbstack/socials v0.18.0 // indirect
+	github.com/hbstack/socials v0.19.0 // indirect
 	github.com/henrygd/bigger-picture v1.1.19 // indirect
 	github.com/hugomods/bootstrap v0.24.1 // indirect
 	github.com/hugomods/code-block-panel v0.9.0 // indirect
