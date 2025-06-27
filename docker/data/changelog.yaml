@@ -1,3 +1,10 @@
+- date: 2025-06-27
+  since: 0.147.9
+  content:
+    en: `make` was included into `ci` tags.
+    zh-hans: `make` 已被添加到 `ci` 标签。
+    zh-hant: `make` 已被添加到 `ci` 標籤。
+
 - date: 2025-05-07
   since: 0.147.2
   content:
