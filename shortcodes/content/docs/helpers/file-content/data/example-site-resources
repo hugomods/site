@@ -1,8 +1,8 @@
-{{% bs/collapse "assets/data/hello.js" primary true %}}
+{{< bs/collapse "assets/data/hello.js" primary true >}}
 ```js
 console.log('Hello world!')
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< hugo/shortcode-example >}}
 {{</* file-content "data/hello.js" */>}}

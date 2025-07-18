@@ -1,8 +1,8 @@
-{{% bs/collapse "data/charts/line.json" %}}
+{{< bs/collapse "data/charts/line.json" >}}
 ```js
 {{< file-content "charts/pie-website-referer.js" >}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< hugo/shortcode-example >}}
 {{</* echarts data="charts.line" /*/>}}

@@ -70,11 +70,11 @@ RAW CONTENT.
 
 ### Data File Example
 
-{{% bs/collapse "data/bootstrap/toggle-data-file.yaml" primary true %}}
+{{< bs/collapse "data/bootstrap/toggle-data-file.yaml" primary true >}}
 ```yaml
 {{< file-content "data/bootstrap/toggle-data-file.yaml" >}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ```markdown
 {{</* bs/toggle "data-file" "pills" "bootstrap.toggle-data-file" /*/>}}

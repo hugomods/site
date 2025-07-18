@@ -1,5 +1,5 @@
-{{% bs/collapse "data/features.yaml" primary true %}}
+{{< bs/collapse "data/features.yaml" primary true >}}
 ```yaml
 {{% file-content "data/features.yaml" %}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}

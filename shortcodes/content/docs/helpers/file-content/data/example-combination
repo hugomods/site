@@ -1,8 +1,8 @@
-{{% bs/collapse "content/docs/helpers/file-content/data/hugo.yaml" primary true %}}
+{{< bs/collapse "content/docs/helpers/file-content/data/hugo.yaml" primary true >}}
 ```yaml
 title: Site Title
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< hugo/shortcode-example >}}
 {{</* bs/config-toggle hugo */>}}

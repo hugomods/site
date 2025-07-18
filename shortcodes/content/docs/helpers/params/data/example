@@ -1,8 +1,8 @@
-{{% bs/collapse "data/example-params.yaml" primary true %}}
+{{< bs/collapse "data/example-params.yaml" primary true >}}
 ```yaml
 {{< file-content "data/example-params.yaml" >}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 Result as follows.
 

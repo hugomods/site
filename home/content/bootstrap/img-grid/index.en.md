@@ -48,11 +48,11 @@ The data files should be put into `/data` or page's folder.
 
 ## Examples
 
-{{% bs/collapse "/data/img-grid-examples.yaml" %}}
+{{< bs/collapse "/data/img-grid-examples.yaml" >}}
 ```yaml
 {{% file-content "/data/img-grid-examples.yaml" %}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ```markdown
 {{</* bs/img-grid "img-grid-examples" */>}}

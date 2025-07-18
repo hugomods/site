@@ -41,14 +41,14 @@ home = ["HTML", "RSS", "DecapCMSConfig"]
 
 It's time to create an entry page for Decap CMS.
 
-{{% bs/collapse "content/admin/_index.md" primary true %}}
+{{< bs/collapse "content/admin/_index.md" primary true >}}
 ```markdown
 ---
 title: Content Manager System
 layout: decap-cms
 ---
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 Now you can access it on `/admin`, for example, `http://localhost:1313/admin/`.
 

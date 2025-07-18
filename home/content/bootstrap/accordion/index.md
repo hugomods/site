@@ -53,7 +53,7 @@ The first item's content will be shown by default, but you can change it via thi
 
 ### Data File Example
 
-{{% bs/collapse "data/accordion/example.yaml" primary true %}}
+{{< bs/collapse "data/accordion/example.yaml" primary true >}}
 ```yaml
 first:
   weight: 1
@@ -65,7 +65,7 @@ second:
   content: __Secondary__, ...
 
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ## Examples
 

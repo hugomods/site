@@ -61,9 +61,9 @@ And then ...
 First of all ...
 {{< /bs/collapse >}}
 
-{{% bs/collapse "2. Step Two" info %}}
+{{< bs/collapse "2. Step Two" info >}}
 And then ...
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{% bootstrap/collapse "3. Step Three" success %}}
 **Well done**.

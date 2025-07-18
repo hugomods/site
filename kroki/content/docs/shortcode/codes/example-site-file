@@ -1,8 +1,8 @@
-{{% bs/collapse "assets/diagrams/hello.dot" %}}
+{{< bs/collapse "assets/diagrams/hello.dot" >}}
 ```text
 {{< file-content "diagrams/hello.dot" >}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< hugo/shortcode-example >}}
 {{</* kroki _type="graphviz" _name="diagrams/hello.dot" */>}}

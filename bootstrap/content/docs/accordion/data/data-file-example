@@ -1,8 +1,8 @@
-{{% bs/collapse "data/accordion/faq.yaml" primary true %}}
+{{< bs/collapse "data/accordion/faq.yaml" primary true >}}
 ```yaml
 - title: Q1
   content: __A1__, ...
 - title: Q2
   content: __A2__, ...
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}

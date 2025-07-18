@@ -63,23 +63,23 @@ The search module **MUST** take precedence over Docsy and it's dependencies, sin
 
 ## Import CSS
 
-{{% bs/collapse "layouts/partials/hooks/head-end.html" primary true %}}
+{{< bs/collapse "layouts/partials/hooks/head-end.html" primary true >}}
 ```go-html-template
 {{ partialCached "search/assets/css" . }}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ## Import JS
 
-{{% bs/collapse "layouts/partials/hooks/body-end.html" primary true %}}
+{{< bs/collapse "layouts/partials/hooks/body-end.html" primary true >}}
 ```go-html-template
 {{ partialCached "search/assets/js" . }}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ## Override the Search Input Partial
 
-{{% bs/collapse "layouts/partials/search-input.html" primary true %}}
+{{< bs/collapse "layouts/partials/search-input.html" primary true >}}
 ```go-html-template
 <div class="td-search td-search--offline search-modal-toggle position-relative">
   <div class="td-search__icon"></div>
@@ -98,7 +98,7 @@ The search module **MUST** take precedence over Docsy and it's dependencies, sin
     autocomplete="off" >
 </div>
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 You might want to disable the `gcs_engine_id` and `offlineSearch` to remove the unused JS.
 
@@ -113,7 +113,7 @@ The configuration above appends the `SearchIndex` into the `home` output, to gen
 
 ## Tweak the Styles
 
-{{% bs/collapse "assets/scss/_styles_project.scss" primary true %}}
+{{< bs/collapse "assets/scss/_styles_project.scss" primary true >}}
 ```scss
 :root {
     --search-primary: #{$primary} !important;
@@ -140,7 +140,7 @@ The configuration above appends the `SearchIndex` into the `home` output, to gen
     }
 }
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ## Start Hugo Server
 

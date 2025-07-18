@@ -65,7 +65,7 @@ Please make sure the `description` doesn't contain links when the `linkText` is 
 
 ## Examples
 
-{{% bs/collapse "data/features.toml" primary true %}}
+{{< bs/collapse "data/features.toml" primary true >}}
 
 ```toml
 [fast]
@@ -98,7 +98,7 @@ color = "green"
 
 ### Example Data File
 
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ### Default Link Text
 

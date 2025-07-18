@@ -40,11 +40,11 @@ images:
 
 ### Reading From Page Resource
 
-{{% bs/collapse "content/docs/shortcodes/file-content/data/foo.txt" %}}
+{{< bs/collapse "content/docs/shortcodes/file-content/data/foo.txt" >}}
 ```text
 bar
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ```markdown
 {{</* file-content "data/foo.txt" */>}}
@@ -54,11 +54,11 @@ bar
 
 ### Reading From Site Resource
 
-{{% bs/collapse "assets/data/hello.js" %}}
+{{< bs/collapse "assets/data/hello.js" >}}
 ```js
 console.log('Hello world!')
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ````markdown
 ```js
@@ -72,11 +72,11 @@ console.log('Hello world!')
 
 ### Reading From Projects File
 
-{{% bs/collapse "static/ads.txt" %}}
+{{< bs/collapse "static/ads.txt" >}}
 ```text
 google.com, pub-7827859788508375, DIRECT, f08c47fec0942fa0
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ```markdown
 {{</* file-content "static/ads.txt" */>}}
@@ -96,11 +96,11 @@ google.com, pub-7827859788508375, DIRECT, f08c47fec0942fa0
 
 Take [Bootstrap config toggle]({{< relref "bootstrap/config-toggle" >}}) as an example.
 
-{{% bs/collapse "content/docs/shortcodes/file-content/data/hugo.yaml" %}}
+{{< bs/collapse "content/docs/shortcodes/file-content/data/hugo.yaml" >}}
 ```yaml
 title: Site Title
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ```markdown
 {{</* bs/config-toggle hugo */>}}

@@ -1,6 +1,6 @@
-{{% bs/collapse "data/block" primary true %}}
+{{< bs/collapse "data/block" primary true >}}
 {{< file-content "data/block" >}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< hugo/shortcode-example >}}
 {{</* page-resource-content "data/block" */>}}

@@ -1,8 +1,8 @@
-{{% bs/collapse "data/img-grid-examples.yaml" primary true %}}
+{{< bs/collapse "data/img-grid-examples.yaml" primary true >}}
 ```yaml
 {{% file-content "data/img-grid-examples.yaml" %}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< hugo/shortcode-example >}}
 {{</* bs/img-grid "img-grid-examples" */>}}

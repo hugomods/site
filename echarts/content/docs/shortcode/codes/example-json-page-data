@@ -1,8 +1,8 @@
-{{% bs/collapse "content/docs/shortcode/charts/gauge.json" %}}
+{{< bs/collapse "content/docs/shortcode/charts/gauge.json" >}}
 ```js
 {{< file-content "charts/gauge.json" >}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< hugo/shortcode-example >}}
 {{</* echarts data="charts.gauge" /*/>}}

@@ -1,8 +1,8 @@
-{{% bs/collapse "static/ads.txt" primary true %}}
+{{< bs/collapse "static/ads.txt" primary true >}}
 ```text
 google.com, pub-7827859788508375, DIRECT, f08c47fec0942fa0
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< hugo/shortcode-example >}}
 {{</* file-content "static/ads.txt" */>}}

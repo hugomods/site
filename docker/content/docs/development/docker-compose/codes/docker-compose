@@ -1,4 +1,4 @@
-{{% bs/collapse heading="docker-compose.yml" expand=true %}}
+{{< bs/collapse heading="docker-compose.yml" expand=true >}}
 ```yml
 name: mysite
 
@@ -12,4 +12,4 @@ services:
     ports:
       - 1313:1313
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
