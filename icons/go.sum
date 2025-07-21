@@ -8,6 +8,7 @@ github.com/desandro/masonry v4.2.2+incompatible h1:4LI69kwq5DJSF9jhHVGfCw+q2Nt3I
 github.com/desandro/masonry v4.2.2+incompatible/go.mod h1:4P4Or5YZcNuAtGW3JOYLTrmi+ZyqhCPj7xTgradMEVU=
 github.com/devicons/devicon v2.16.0+incompatible h1:8Fp1OFUZSUwfd7GKWIjWO6bMfjcJ5m7TRr8g+WSg/VE=
 github.com/devicons/devicon v2.16.0+incompatible/go.mod h1:5xWaezLtUi8HXB3mL9CGW0kbX2pJR0/Ser5Y1zJpKpY=
+github.com/devicons/devicon v2.17.0+incompatible/go.mod h1:5xWaezLtUi8HXB3mL9CGW0kbX2pJR0/Ser5Y1zJpKpY=
 github.com/feathericons/feather v4.29.2+incompatible h1:T71K08C6i0/Ke6R7EEKjo+rOfo7EmH10uEkaRv1XPSw=
 github.com/feathericons/feather v4.29.2+incompatible/go.mod h1:+F8Ba9cmRHWu0pOVoZtid0iwkNJ8hr959HyPwj3hsRg=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20400 h1:L6+F22i76xmeWWwrtijAhUbf3BiRLmpO5j34bgl1ggU=
