@@ -124,6 +124,7 @@ github.com/hbstack/heading-sign v0.2.0 h1:yXKZQEjPn/+jKyQxCJh34X+wXbiG4Bnr1VVF6l
 github.com/hbstack/heading-sign v0.2.0/go.mod h1:SXJWIr9C/7phTOXfWMzNSVZCeimKbYualuwIOHDeOu0=
 github.com/hbstack/kroki v0.1.0 h1:7+gAfv0qzz90s94gBbfawf9ZLVZ/3dgG53P4yU5x6qY=
 github.com/hbstack/kroki v0.1.0/go.mod h1:CDH5TVtCnmzs6ngBwiY5cARU+4H3T52Sd8ZINiGT6mE=
+github.com/hbstack/kroki v0.1.1/go.mod h1:CDH5TVtCnmzs6ngBwiY5cARU+4H3T52Sd8ZINiGT6mE=
 github.com/hbstack/mermaid v0.2.2 h1:TtGzO04if+jgnLXdFDiI2opnzvcTDJqoaQAQvNgG0xs=
 github.com/hbstack/mermaid v0.2.2/go.mod h1:gVO/itIHv07hiGqzmUtLw78vkcTU8RMnOl72GVSUUrA=
 github.com/hbstack/meta/recommended v0.2.10 h1:RzRe2LT/lJxlsfGv5UzYC3onl7lp1VWbCm1jAb69kSw=
