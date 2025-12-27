@@ -185,6 +185,7 @@ github.com/hugomods/decap-cms v0.16.7 h1:A7tEPBcO+VaVjxti/Y3fsqpM/biMU6/QBRzyzn/
 github.com/hugomods/decap-cms v0.16.7/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/echarts v0.1.4 h1:SsuUw+Plrn0Sbc5VPYED3eDV7KVL+hROjlrJHeU0bl4=
 github.com/hugomods/echarts v0.1.4/go.mod h1:poeQoMyvS7liUEBNc2+h5YoI0ih2W0bxtyJdYZvhQuM=
+github.com/hugomods/echarts v0.2.0/go.mod h1:eqPC5OhFDGRwuzwrvzXLWpx0iT8Z7vkFZQ72Bn9DmV8=
 github.com/hugomods/encoder v0.1.1 h1:J+na7azfe6fHD6ALryHbw9hyBVsJABgz4Ge4fYVpmy8=
 github.com/hugomods/encoder v0.1.1/go.mod h1:WczOOUq8lPosgSx1b7MXe3MXGighn2goeEFiuqw4ciY=
 github.com/hugomods/encrypt v0.4.0 h1:oDZ63Z0qvQRzMLQvGETXGZOaWvWbHR1GzC3CDsQ0gPQ=
