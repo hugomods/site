@@ -25,7 +25,7 @@ require (
 	github.com/hbstack/snackbar v0.1.2 // indirect
 	github.com/hbstack/socials v0.19.0 // indirect
 	github.com/henrygd/bigger-picture v1.1.19 // indirect
-	github.com/hugomods/bootstrap v0.24.1 // indirect
+	github.com/hugomods/bootstrap v0.24.2 // indirect
 	github.com/hugomods/code-block-panel v0.9.0 // indirect
 	github.com/hugomods/decap-cms v0.16.7 // indirect
 	github.com/hugomods/encrypt v0.4.0 // indirect
