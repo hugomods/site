@@ -124,6 +124,13 @@ avatar_url = 'https://avatars.githubusercontent.com/u/1421301?v=4'
 contributions = 1
 repos = 1
 
+[marians]
+id = 273727
+login = 'marians'
+avatar_url = 'https://avatars.githubusercontent.com/u/273727?v=4'
+contributions = 1
+repos = 1
+
 [nicokaiser]
 id = 238631
 login = 'nicokaiser'
@@ -149,7 +156,7 @@ repos = 2
 id = 17720932
 login = 'razonyang'
 avatar_url = 'https://avatars.githubusercontent.com/u/17720932?v=4'
-contributions = 1771
+contributions = 1774
 repos = 57
 
 [upptime-bot]
