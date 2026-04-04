@@ -136,7 +136,7 @@ require (
 	github.com/hugomods/video-js v0.3.0 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v8.0.3+incompatible // indirect
-	github.com/krisk/Fuse v7.2.0+incompatible // indirect
+	github.com/krisk/Fuse v7.3.0+incompatible // indirect
 	github.com/lipis/flag-icons v7.5.0+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.7.0 // indirect
 	github.com/tabler/tabler-icons v3.41.1+incompatible // indirect
