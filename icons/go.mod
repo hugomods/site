@@ -141,5 +141,5 @@ require (
 	github.com/razonyang/hb-mod-thanks v0.7.0 // indirect
 	github.com/tabler/tabler-icons v3.49.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.8+incompatible // indirect
-	github.com/twbs/icons v1.13.1 // indirect
+	github.com/twbs/icons v1.13.2 // indirect
 )
