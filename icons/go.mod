@@ -9,7 +9,7 @@ require (
 	github.com/KaTeX/KaTeX v0.19.0 // indirect
 	github.com/Templarian/MaterialDesign-SVG v7.4.47+incompatible // indirect
 	github.com/desandro/masonry v4.2.2+incompatible // indirect
-	github.com/devicons/devicon v2.17.0+incompatible // indirect
+	github.com/devicons/devicon v2.18.0 // indirect
 	github.com/feathericons/feather v4.29.2+incompatible // indirect
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20800 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
